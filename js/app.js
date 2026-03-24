@@ -388,7 +388,7 @@ function closeModal() {
 const US_RETAILERS = [
   { name: 'Cigars International', search: 'https://www.cigarsinternational.com/search?q=',     tagline: 'Best Deals & Bundles',   badge: '★ Best Value Pick' },
   { name: 'Cigar Page',           search: 'https://www.cigarpage.com/search?q=',               tagline: 'Top Prices, Huge Selection' },
-  { name: 'Famous Smoke Shop',    search: 'https://www.famous.com/search/?q=',                 tagline: 'Largest Online Selection' },
+  { name: 'Famous Smoke Shop',    search: 'https://www.famous-smoke.com/search?q=',            tagline: 'Largest Online Selection' },
   { name: 'JR Cigars',            search: 'https://www.jrcigars.com/search?term=',             tagline: 'Est. 1975 · Trusted Since' },
   { name: 'Smoke Inn',            search: 'https://www.smokeinn.com/search?q=',                tagline: 'Boutique & Premium Brands' },
 ];
