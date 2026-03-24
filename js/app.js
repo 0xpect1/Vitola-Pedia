@@ -266,9 +266,12 @@ function render() {
 
   // Attach click handlers
   $grid.querySelectorAll('.cigar-card').forEach(card => {
-    const open = () => openModal(card.dataset.id);
+    const open = (e) => {
+      if (e.target.closest('.card-compare-btn')) return;
+      openModal(card.dataset.id);
+    };
     card.addEventListener('click', open);
-    card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') open(); });
+    card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') open(e); });
   });
 }
 

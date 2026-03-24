@@ -1,6 +1,6 @@
 # Vitola Pedia
 
-A premium digital cigar encyclopedia — 260+ cigars catalogued with full specs, flavor profiles, strength ratings, smoking times, and pairing recommendations.
+A premium digital cigar encyclopedia — 280+ cigars catalogued with full specs, flavor profiles, strength ratings, smoking times, and pairing recommendations.
 
 **Live site:** [vitolapedia.com](https://vitolapedia.com)
 
