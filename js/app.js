@@ -5,6 +5,7 @@
 // ── STATE ────────────────────────────────────────────────────────
 const state = {
   search: '',
+  brand: 'all',
   strength: 'all',
   origin: 'all',
   wrapper: 'all',
@@ -131,6 +132,7 @@ function sortCigars(cigars) {
 
 function getFiltered() {
   return CIGARS.filter(c =>
+    (state.brand === 'all' || c.brand === state.brand) &&
     (state.strength === 'all' || c.strength === parseInt(state.strength)) &&
     (state.origin === 'all' || c.origin === state.origin) &&
     matchesWrapper(c, state.wrapper) &&
@@ -160,9 +162,11 @@ function renderCard(cigar, index) {
     ? `<span class="limited-badge">Limited</span>`
     : '';
 
+  const inCompare = compareList.includes(cigar.id);
   return `
     <article class="cigar-card" data-id="${cigar.id}" style="animation-delay:${Math.min(index * 0.04, 0.5)}s" role="button" tabindex="0">
       ${limitedBadge}
+      <button class="card-compare-btn${inCompare ? ' in-compare' : ''}" data-id="${cigar.id}" title="Compare" tabindex="-1">+</button>
       <div class="card-header">
         <span class="card-origin-badge">${flag} ${cigar.origin}</span>
         <div>
@@ -579,6 +583,20 @@ function init() {
   // Update total stat
   $totalStat.textContent = CIGARS.length;
 
+  // Populate brand dropdown
+  const $brandSelect = document.getElementById('brandSelect');
+  const brands = [...new Set(CIGARS.map(c => c.brand))].sort();
+  brands.forEach(b => {
+    const opt = document.createElement('option');
+    opt.value = b;
+    opt.textContent = b;
+    $brandSelect.appendChild(opt);
+  });
+  $brandSelect.addEventListener('change', e => {
+    state.brand = e.target.value;
+    render();
+  });
+
   // Initial render
   render();
 
@@ -668,6 +686,7 @@ function init() {
 
   // Reset buttons
   const resetAll = () => {
+    state.brand = 'all';
     state.strength = 'all';
     state.origin = 'all';
     state.wrapper = 'all';
@@ -682,6 +701,7 @@ function init() {
     $priceLabel.textContent = 'All prices';
     updatePriceRangeStyle();
     $limited.checked = false;
+    document.getElementById('brandSelect').value = 'all';
     document.querySelectorAll('.pill.active').forEach(p => p.classList.remove('active'));
     document.querySelectorAll('.pill[data-value="all"]').forEach(p => p.classList.add('active'));
     render();
@@ -690,4 +710,312 @@ function init() {
   document.getElementById('noResultsReset').addEventListener('click', resetAll);
 }
 
-document.addEventListener('DOMContentLoaded', init);
+// ── COMPARE ──────────────────────────────────────────────────────
+const compareList = [];
+
+function toggleCompare(id, e) {
+  if (e) e.stopPropagation();
+  const idx = compareList.indexOf(id);
+  if (idx > -1) {
+    compareList.splice(idx, 1);
+  } else {
+    if (compareList.length >= 2) return;
+    compareList.push(id);
+  }
+  updateCompareTray();
+  // refresh compare button states on visible cards
+  document.querySelectorAll('.cigar-card').forEach(card => {
+    const btn = card.querySelector('.card-compare-btn');
+    if (btn) btn.classList.toggle('in-compare', compareList.includes(card.dataset.id));
+  });
+}
+
+function updateCompareTray() {
+  const tray = document.getElementById('compareTray');
+  const slots = document.getElementById('compareSlots');
+  const goBtn = document.getElementById('compareGoBtn');
+
+  if (compareList.length === 0) {
+    tray.classList.add('hidden');
+    return;
+  }
+  tray.classList.remove('hidden');
+
+  const empties = 2 - compareList.length;
+  let html = compareList.map(id => {
+    const c = CIGARS.find(x => x.id === id);
+    return `<div class="compare-slot">
+      <span class="compare-slot-name">${c ? c.name : id}</span>
+      <button class="compare-slot-remove" onclick="toggleCompare('${id}', event)">✕</button>
+    </div>`;
+  }).join('');
+  for (let i = 0; i < empties; i++) {
+    html += `<div class="compare-slot-empty">+ Add a cigar</div>`;
+  }
+  slots.innerHTML = html;
+  goBtn.disabled = compareList.length < 2;
+}
+
+function openCompareModal() {
+  if (compareList.length < 2) return;
+  const [a, b] = compareList.map(id => CIGARS.find(c => c.id === id));
+  if (!a || !b) return;
+
+  const sc = s => STRENGTH_CONFIG[s] || STRENGTH_CONFIG[3];
+
+  function col(cigar, side) {
+    const s = sc(cigar.strength);
+    const pct = (cigar.strength / 5) * 100;
+    const flavTags = cigar.flavors.slice(0, 5).map(f => `<span class="compare-flavor-tag">${f}</span>`).join('');
+    const borderClass = side === 'left' ? 'compare-left' : 'compare-right';
+    const lastRadius = side === 'left' ? 'border-radius: 0 0 0 12px' : 'border-radius: 0 0 12px 0';
+    return `
+      <div class="compare-col">
+        <div class="compare-col-header">
+          <div class="compare-col-name">${cigar.name}</div>
+          <div class="compare-col-brand">${cigar.brand}</div>
+        </div>
+        <div class="compare-cell ${borderClass}">${cigar.origin} · ${cigar.region}</div>
+        <div class="compare-cell ${borderClass} ${a.rating !== b.rating && ((side==='left'&&a.rating>b.rating)||(side==='right'&&b.rating>a.rating)) ? 'highlight' : ''}">${cigar.rating} pts</div>
+        <div class="compare-cell ${borderClass} ${a.price !== b.price && ((side==='left'&&a.price<b.price)||(side==='right'&&b.price<a.price)) ? 'highlight' : ''}">$${cigar.price.toFixed(2)}</div>
+        <div class="compare-cell ${borderClass}">
+          <div style="color:${s.color};font-weight:600">${s.label}</div>
+          <div class="compare-strength-bar"><div class="compare-strength-fill" style="width:${pct}%;background:${s.color}"></div></div>
+        </div>
+        <div class="compare-cell ${borderClass}">${formatTime(cigar.smokingTime)}</div>
+        <div class="compare-cell ${borderClass}">${cigar.wrapper}</div>
+        <div class="compare-cell ${borderClass}">${cigar.size}</div>
+        <div class="compare-cell ${borderClass}">${cigar.length}" × ${cigar.ringGauge}</div>
+        <div class="compare-cell ${borderClass}" style="${lastRadius}"><div class="compare-flavor-tags">${flavTags}</div></div>
+      </div>`;
+  }
+
+  function dividerRows() {
+    const labels = ['Origin', 'Rating', 'Price', 'Strength', 'Smoke Time', 'Wrapper', 'Size', 'Dimensions', 'Flavors'];
+    return labels.map(l => `<div class="compare-cell-label">${l}</div>`).join('');
+  }
+
+  document.getElementById('compareBody').innerHTML = `
+    <div class="compare-header">
+      <h2>Side by Side</h2>
+      <p>Comparing two cigars across all key specs</p>
+    </div>
+    <div class="compare-grid">
+      ${col(a, 'left')}
+      <div class="compare-divider-col">
+        <div class="compare-vs">VS</div>
+        ${dividerRows()}
+      </div>
+      ${col(b, 'right')}
+    </div>`;
+
+  document.getElementById('compareOverlay').classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeCompareModal() {
+  document.getElementById('compareOverlay').classList.add('hidden');
+  document.body.style.overflow = '';
+}
+
+// ── QUIZ ─────────────────────────────────────────────────────────
+const quizSteps = [
+  {
+    id: 'experience',
+    label: 'Step 1 of 4',
+    question: 'How would you describe your cigar experience?',
+    options: [
+      { icon: '🌱', title: 'Just starting out', desc: 'New to cigars, want something approachable', value: 'beginner' },
+      { icon: '🔥', title: "I've smoked a few", desc: 'Some experience, ready for more complexity', value: 'intermediate' },
+      { icon: '🏆', title: 'Seasoned aficionado', desc: 'Experienced, want the full spectrum', value: 'expert' }
+    ]
+  },
+  {
+    id: 'strength',
+    label: 'Step 2 of 4',
+    question: 'What body & strength do you prefer?',
+    options: [
+      { icon: '☁️', title: 'Light & Smooth', desc: 'Mild, creamy, easy on the palate', value: 1 },
+      { icon: '🌤️', title: 'Mild to Medium', desc: 'Some complexity without too much punch', value: 2 },
+      { icon: '⛅', title: 'Medium & Complex', desc: 'The sweet spot — rich and nuanced', value: 3 },
+      { icon: '🌩️', title: 'Full & Bold', desc: 'Maximum strength and intensity', value: 5 }
+    ]
+  },
+  {
+    id: 'flavor',
+    label: 'Step 3 of 4',
+    question: 'Which flavor direction appeals most?',
+    options: [
+      { icon: '🍦', title: 'Creamy & Sweet', desc: 'Vanilla, cream, caramel, honey', value: 'Cream' },
+      { icon: '🌿', title: 'Earthy & Woody', desc: 'Cedar, earth, leather, hay', value: 'Earth' },
+      { icon: '🌶️', title: 'Spicy & Peppery', desc: 'Pepper, spice, red pepper, intensity', value: 'Pepper' },
+      { icon: '☕', title: 'Coffee & Chocolate', desc: 'Espresso, cocoa, dark chocolate, roast', value: 'Coffee' }
+    ]
+  },
+  {
+    id: 'budget',
+    label: 'Step 4 of 4',
+    question: "What's your budget per stick?",
+    options: [
+      { icon: '💰', title: 'Under $10', desc: 'Great cigars at an everyday price', value: 10 },
+      { icon: '💎', title: '$10 – $20', desc: 'Premium range, special occasion value', value: 20 },
+      { icon: '👑', title: '$20+', desc: 'No budget — give me the best', value: 100 }
+    ]
+  }
+];
+
+const quizState = { step: 0, answers: {} };
+
+function renderQuizStep() {
+  const step = quizSteps[quizState.step];
+  const dots = quizSteps.map((_, i) =>
+    `<div class="quiz-progress-dot${i <= quizState.step ? ' active' : ''}"></div>`
+  ).join('');
+
+  const opts = step.options.map(o => `
+    <button class="quiz-option${quizState.answers[step.id] === o.value ? ' selected' : ''}"
+      onclick="selectQuizOption('${step.id}', ${JSON.stringify(o.value).replace(/"/g, '&quot;')})">
+      <span class="quiz-option-icon">${o.icon}</span>
+      <span class="quiz-option-text">
+        <span class="quiz-option-title">${o.title}</span>
+        <span class="quiz-option-desc">${o.desc}</span>
+      </span>
+    </button>`).join('');
+
+  const hasAnswer = quizState.answers[step.id] !== undefined;
+  const isLast = quizState.step === quizSteps.length - 1;
+
+  document.getElementById('quizBody').innerHTML = `
+    <div class="quiz-progress">${dots}</div>
+    <div class="quiz-step-label">${step.label}</div>
+    <div class="quiz-question">${step.question}</div>
+    <div class="quiz-options">${opts}</div>
+    <div class="quiz-nav">
+      ${quizState.step > 0 ? '<button class="quiz-back-btn" onclick="quizBack()">Back</button>' : ''}
+      <button class="quiz-next-btn" onclick="quizNext()" ${!hasAnswer ? 'disabled' : ''}>
+        ${isLast ? 'Find My Cigar →' : 'Next →'}
+      </button>
+    </div>`;
+}
+
+function selectQuizOption(stepId, value) {
+  quizState.answers[stepId] = value;
+  renderQuizStep();
+}
+
+function quizNext() {
+  if (quizState.step < quizSteps.length - 1) {
+    quizState.step++;
+    renderQuizStep();
+  } else {
+    showQuizResults();
+  }
+}
+
+function quizBack() {
+  if (quizState.step > 0) {
+    quizState.step--;
+    renderQuizStep();
+  }
+}
+
+function showQuizResults() {
+  const { strength, flavor, budget, experience } = quizState.answers;
+  const maxStrength = experience === 'beginner' ? Math.min(strength, 2) : strength;
+
+  const scored = CIGARS
+    .filter(c => c.price <= budget)
+    .map(c => {
+      const strengthDiff = Math.abs(c.strength - maxStrength);
+      const flavorMatch = c.flavors.some(f => f.toLowerCase().includes(flavor.toLowerCase()));
+      if (strengthDiff > 1) return null;
+      const score = c.rating + (flavorMatch ? 10 : 0) - (strengthDiff * 5);
+      return { cigar: c, score };
+    })
+    .filter(Boolean)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 3);
+
+  const resultCards = scored.map((r, i) => `
+    <div class="quiz-result-card" onclick="closeQuizModal(); openModal('${r.cigar.id}')">
+      <div class="qrc-rank">${i + 1}</div>
+      <div class="qrc-info">
+        <div class="qrc-name">${r.cigar.name}</div>
+        <div class="qrc-brand">${r.cigar.brand} · ${r.cigar.origin} · $${r.cigar.price.toFixed(2)}</div>
+      </div>
+      <div class="qrc-rating">${r.cigar.rating}</div>
+    </div>`).join('');
+
+  document.getElementById('quizBody').innerHTML = `
+    <div class="quiz-results-header">
+      <h3>Your Perfect Cigars</h3>
+      <p>Based on your preferences — click any to see full details</p>
+    </div>
+    ${resultCards || '<p style="color:var(--text-muted);text-align:center">No exact matches — try adjusting your budget or strength.</p>'}
+    <button class="quiz-restart-btn" onclick="restartQuiz()">Start Over</button>`;
+}
+
+function restartQuiz() {
+  quizState.step = 0;
+  quizState.answers = {};
+  renderQuizStep();
+}
+
+function openQuizModal() {
+  quizState.step = 0;
+  quizState.answers = {};
+  renderQuizStep();
+  document.getElementById('quizOverlay').classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeQuizModal() {
+  document.getElementById('quizOverlay').classList.add('hidden');
+  document.body.style.overflow = '';
+}
+
+// ── COMPARE BUTTON IN CARD ────────────────────────────────────────
+// Patch renderCard to include compare button
+const _origRenderCard = renderCard;
+// (patched inline below via modified render)
+
+document.addEventListener('DOMContentLoaded', () => {
+  init();
+
+  // Quiz
+  document.getElementById('quizTriggerBtn').addEventListener('click', openQuizModal);
+  document.getElementById('quizClose').addEventListener('click', closeQuizModal);
+  document.getElementById('quizOverlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('quizOverlay')) closeQuizModal();
+  });
+
+  // Compare tray
+  document.getElementById('compareGoBtn').addEventListener('click', openCompareModal);
+  document.getElementById('compareClearBtn').addEventListener('click', () => {
+    compareList.length = 0;
+    updateCompareTray();
+    document.querySelectorAll('.card-compare-btn').forEach(b => b.classList.remove('in-compare'));
+  });
+
+  // Compare modal
+  document.getElementById('compareModalClose').addEventListener('click', closeCompareModal);
+  document.getElementById('compareOverlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('compareOverlay')) closeCompareModal();
+  });
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      closeQuizModal();
+      closeCompareModal();
+    }
+  });
+
+  // Delegate compare button clicks on grid
+  document.getElementById('cigarsGrid').addEventListener('click', e => {
+    const btn = e.target.closest('.card-compare-btn');
+    if (btn) {
+      e.stopPropagation();
+      toggleCompare(btn.dataset.id, e);
+    }
+  });
+});

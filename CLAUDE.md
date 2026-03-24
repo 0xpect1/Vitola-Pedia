@@ -54,6 +54,14 @@ Each cigar object in `CIGARS` array follows this shape:
 - **Flavor wheel** is SVG-based, drawn programmatically in JS — no canvas library needed.
 - When adding new cigars, update **both** `js/data.js` and `data/cigars.json` to keep them in sync.
 
+## After Adding Cigars — Always Update These
+
+Whenever cigars are added to `js/data.js`, update the count in **two places**:
+1. `index.html` line 43 — the hero eyebrow text (`Over X Premium Cigars`)
+2. `README.md` line 3 — the count in the description (`240+ cigars`)
+
+Both should reflect the current approximate count rounded down to the nearest 10.
+
 ## Running Locally
 
 ```bash

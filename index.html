@@ -40,7 +40,7 @@
   <!-- ░░ HERO ░░ -->
   <section class="hero" id="view-library">
     <div class="hero-content">
-      <p class="hero-eyebrow">Over 230 Premium Cigars</p>
+      <p class="hero-eyebrow">Over 260 Premium Cigars</p>
       <h1 class="hero-title">The World's Finest<br /><em>Cigars, Catalogued</em></h1>
       <p class="hero-sub">Strength, origin, flavor profile, smoking time — every detail, beautifully organized.</p>
       <div class="hero-search-wrap">
@@ -49,6 +49,10 @@
           <input type="text" id="searchInput" placeholder="Search by name, brand, origin, or flavor…" autocomplete="off" />
           <button class="search-clear" id="searchClear" aria-label="Clear search">✕</button>
         </div>
+        <button class="quiz-trigger-btn" id="quizTriggerBtn">
+          <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="17" r=".5" fill="currentColor" stroke="currentColor"/><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/></svg>
+          Find My Cigar
+        </button>
       </div>
     </div>
     <div class="hero-stats" id="heroStats">
@@ -86,6 +90,17 @@
           <option value="smokingTime-desc">Smoke Time: Longest</option>
           <option value="strength-asc">Strength: Mildest</option>
           <option value="strength-desc">Strength: Boldest</option>
+          <option value="brand-asc">Brand: A–Z</option>
+          <option value="brand-desc">Brand: Z–A</option>
+        </select>
+      </div>
+
+      <!-- Brand -->
+      <div class="filter-group">
+        <h3 class="filter-label">Brand</h3>
+        <select class="filter-select" id="brandSelect">
+          <option value="all">All Brands</option>
+          <!-- Populated by JS -->
         </select>
       </div>
 
@@ -400,6 +415,38 @@
       </button>
       <div class="modal-body" id="modalBody">
         <!-- Injected by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ░░ QUIZ MODAL ░░ -->
+  <div class="modal-overlay hidden" id="quizOverlay">
+    <div class="modal quiz-modal" id="quizModal" role="dialog" aria-modal="true">
+      <button class="modal-close" id="quizClose" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="quiz-body" id="quizBody"><!-- Injected by JS --></div>
+    </div>
+  </div>
+
+  <!-- ░░ COMPARE MODAL ░░ -->
+  <div class="modal-overlay hidden" id="compareOverlay">
+    <div class="modal compare-modal" id="compareModal" role="dialog" aria-modal="true">
+      <button class="modal-close" id="compareModalClose" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="compare-body" id="compareBody"><!-- Injected by JS --></div>
+    </div>
+  </div>
+
+  <!-- ░░ COMPARE TRAY ░░ -->
+  <div class="compare-tray hidden" id="compareTray">
+    <div class="compare-tray-inner">
+      <span class="compare-tray-label">Compare</span>
+      <div class="compare-slots" id="compareSlots"></div>
+      <div class="compare-tray-actions">
+        <button class="btn-primary" id="compareGoBtn" disabled>Compare Side by Side</button>
+        <button class="compare-clear-btn" id="compareClearBtn">Clear</button>
       </div>
     </div>
   </div>
