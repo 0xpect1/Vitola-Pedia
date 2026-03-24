@@ -249,7 +249,7 @@ const CIGARS = [
     yearFounded: 1964,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2035410/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Padrón+1964+Anniversary+Maduro", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+1964+Anniversario+Maduro", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+1964+Anniversario+Maduro", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+1964+Anniversario+Maduro", price: null }
@@ -278,7 +278,7 @@ const CIGARS = [
     yearFounded: 2006,
     limited: true,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1474795/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Padrón+80th+Anniversary", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+80th+Anniversary", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+80th+Anniversary", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+80th+Anniversary", price: null }
@@ -307,7 +307,7 @@ const CIGARS = [
     yearFounded: 1886,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410165/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Melanio", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+V+Melanio", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+V+Melanio", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+V+Melanio", price: null }
@@ -359,7 +359,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411599/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=My+Father+Le+Bijou+1922", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=My+Father+Le+Bijou+1922", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=My+Father+Le+Bijou+1922", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=My+Father+Le+Bijou+1922", price: null }
@@ -434,7 +434,7 @@ const CIGARS = [
     yearFounded: 2008,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411551/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Drew+Estate+Liga+Privada+T52", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Drew+Estate+Liga+Privada+T52", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Liga+Privada+T52", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Liga+Privada+T52", price: null }
@@ -463,7 +463,7 @@ const CIGARS = [
     yearFounded: 2007,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411550/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Drew+Estate+Liga+Privada+No.+9", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Drew+Estate+Liga+Privada+No+9", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Liga+Privada+No+9", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Liga+Privada+No+9", price: null }
@@ -540,7 +540,7 @@ const CIGARS = [
     yearFounded: 1995,
     limited: true,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410628/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Arturo+Fuente+Opus+X", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Arturo+Fuente+Opus+X", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Arturo+Fuente+Opus+X", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Arturo+Fuente+Opus+X", price: null }
@@ -569,7 +569,7 @@ const CIGARS = [
     yearFounded: 1982,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410627/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Arturo+Fuente+Don+Carlos", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Arturo+Fuente+Don+Carlos", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Arturo+Fuente+Don+Carlos", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Arturo+Fuente+Don+Carlos", price: null }
@@ -621,7 +621,7 @@ const CIGARS = [
     yearFounded: 1968,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2008798/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Davidoff+Grand+Cru+No.+2", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Grand+Cru+No+2", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Grand+Cru+No+2", price: null }
     ]
@@ -649,7 +649,7 @@ const CIGARS = [
     yearFounded: 2001,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410933/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Davidoff+Millennium+Blend+Robusto", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Millennium+Blend", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Millennium+Blend", price: null }
     ]
@@ -700,7 +700,7 @@ const CIGARS = [
     yearFounded: 1988,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1489922/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=AVO+Classic+No.+9", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Avo+Classic+No+9", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Avo+Classic+No+9", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Avo+Classic+No+9", price: null }
@@ -731,7 +731,7 @@ const CIGARS = [
     yearFounded: 1962,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1475077/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Camacho+Corojo+Robusto", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Camacho+Corojo+Robusto", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Camacho+Corojo+Robusto", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Camacho+Corojo+Robusto", price: null }
@@ -808,7 +808,7 @@ const CIGARS = [
     yearFounded: 2005,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410598/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Oliva+Connecticut+Reserve", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Connecticut+Reserve", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Connecticut+Reserve", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Connecticut+Reserve", price: null }
@@ -885,7 +885,7 @@ const CIGARS = [
     yearFounded: 2002,
     limited: true,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411283/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Ashton+ESG+10+Year+Salute", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+ESG+10+Year", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+ESG+10+Year", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Ashton+ESG+10+Year", price: null }
@@ -916,7 +916,7 @@ const CIGARS = [
     yearFounded: 2019,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2024872/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Plasencia+Alma+del+Fuego", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Plasencia+Alma+del+Fuego", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Plasencia+Alma+del+Fuego", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Plasencia+Alma+del+Fuego", price: null }
@@ -991,7 +991,7 @@ const CIGARS = [
     yearFounded: 2017,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2004598/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Davidoff+Winston+Churchill+Late+Hour", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Winston+Churchill", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Winston+Churchill", price: null }
     ]
@@ -1019,7 +1019,7 @@ const CIGARS = [
     yearFounded: 2003,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1495695/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Tatuaje+Verocu+No.+5", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Tatuaje+Verocu+No+5", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Tatuaje+Verocu+No+5", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Tatuaje+Verocu+No+5", price: null }
@@ -1048,7 +1048,7 @@ const CIGARS = [
     yearFounded: 2002,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410684/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=CAO+Cameroon+Robusto", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=CAO+Cameroon", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=CAO+Cameroon", price: null }
     ]
@@ -1126,7 +1126,7 @@ const CIGARS = [
     yearFounded: 1964,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2035404/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Padrón+Series+2000+Maduro", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+2000+Maduro", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+2000+Maduro", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+2000+Maduro", price: null }
@@ -1155,7 +1155,7 @@ const CIGARS = [
     yearFounded: 1886,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410436/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Oliva+Serie+O+Maduro", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+O+Maduro", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+O+Maduro", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+O+Maduro", price: null }
@@ -1262,7 +1262,7 @@ const CIGARS = [
     yearFounded: 2000,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411046/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Oliva+Serie+G+Cameroon", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+G+Cameroon", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+G+Cameroon", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+G+Cameroon", price: null }
@@ -1293,7 +1293,7 @@ const CIGARS = [
     yearFounded: 1999,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2005807/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=ACID+Blondie", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Acid+Blondie", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Acid+Blondie", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Acid+Blondie", price: null }
@@ -1453,7 +1453,7 @@ const CIGARS = [
     yearFounded: 2005,
     limited: true,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1474729/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Padrón+Family+Reserve+No.+45", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+Family+Reserve+No+45", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+Family+Reserve+No+45", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+Family+Reserve+No+45", price: null }
@@ -1482,7 +1482,7 @@ const CIGARS = [
     yearFounded: 2000,
     limited: true,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410628/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Opus+X+FFOX", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Fuente+Fuente+Opus+X", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Fuente+Fuente+Opus+X", price: null }
     ]
@@ -1533,7 +1533,7 @@ const CIGARS = [
     yearFounded: 1975,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411992/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Romeo+y+Julieta+Vintage+No.+5", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Romeo+y+Julieta+Vintage+No+5", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Romeo+y+Julieta+Vintage+No+5", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Romeo+y+Julieta+Vintage+No+5", price: null }
@@ -1637,7 +1637,7 @@ const CIGARS = [
     yearFounded: 2005,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1497971/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Perdomo+Habano+Sun+Grown", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Perdomo+Habano+Sun+Grown", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Perdomo+Habano+Sun+Grown", price: null }
     ]
@@ -1840,7 +1840,7 @@ const CIGARS = [
     yearFounded: 1989,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1492016/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Gurkha+Black+Dragon", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Gurkha+Black+Dragon", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Gurkha+Black+Dragon", price: null }
     ]
@@ -1915,7 +1915,7 @@ const CIGARS = [
     yearFounded: 2007,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410163/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Robusto", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+V+Robusto", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+V+Robusto", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+V+Robusto", price: null }
@@ -1944,7 +1944,7 @@ const CIGARS = [
     yearFounded: 2007,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410163/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Toro", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+V+Toro", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+V+Toro", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+V+Toro", price: null }
@@ -1973,7 +1973,7 @@ const CIGARS = [
     yearFounded: 2007,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410163/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Churchill", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+V+Churchill+Extra", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+V+Churchill", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+V+Churchill", price: null }
@@ -2002,7 +2002,7 @@ const CIGARS = [
     yearFounded: 2007,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410163/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Special+T", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+V+Special+T", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+V+Special+T", price: null }
     ]
@@ -2030,7 +2030,7 @@ const CIGARS = [
     yearFounded: 2007,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410163/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Double+Toro", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+V+Double+Toro", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+V+Double+Toro", price: null }
     ]
@@ -2086,7 +2086,7 @@ const CIGARS = [
     yearFounded: 2016,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1473424/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Melanio+Maduro", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+V+Melanio+Maduro", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+V+Melanio+Maduro", price: null }
     ]
@@ -2114,7 +2114,7 @@ const CIGARS = [
     yearFounded: 1999,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411046/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Oliva+Serie+G+Natural", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+G+Natural", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+G+Natural", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+G+Natural", price: null }
@@ -2171,7 +2171,7 @@ const CIGARS = [
     yearFounded: 1886,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410162/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Oliva+Serie+O+Natural", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+O+Natural", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+O+Natural", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+O+Natural", price: null }
@@ -2200,7 +2200,7 @@ const CIGARS = [
     yearFounded: 1886,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1466934/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Oliva+Flor+de+Oliva", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Flor+de+Oliva", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Flor+de+Oliva", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Flor+de+Oliva", price: null }
@@ -2229,7 +2229,7 @@ const CIGARS = [
     yearFounded: 2011,
     limited: true,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411747/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Oliva+Master+Blends+3", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Master+Blends+3", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Master+Blends+3", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Master+Blends+3", price: null }
@@ -2258,7 +2258,7 @@ const CIGARS = [
     yearFounded: 2009,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410802/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Cain+F+Habano", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Cain+F+Habano", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Cain+F+Habano", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Cain+F+Habano", price: null }
@@ -2287,7 +2287,7 @@ const CIGARS = [
     yearFounded: 2012,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410804/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Cain+Daytona", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Cain+Daytona", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Cain+Daytona", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Cain+Daytona", price: null }
@@ -2318,7 +2318,7 @@ const CIGARS = [
     yearFounded: 2008,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1471051/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Nub+Connecticut+460", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Connecticut+460", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Connecticut+460", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Connecticut+460", price: null }
@@ -2347,7 +2347,7 @@ const CIGARS = [
     yearFounded: 2008,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411708/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Nub+Habano+460", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Habano+460", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Habano+460", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Habano+460", price: null }
@@ -2376,7 +2376,7 @@ const CIGARS = [
     yearFounded: 2008,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2017205/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Nub+Maduro+460", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Maduro+460", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Maduro+460", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Maduro+460", price: null }
@@ -2405,7 +2405,7 @@ const CIGARS = [
     yearFounded: 2008,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2017204/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Nub+Cameroon+508", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Cameroon+508", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Cameroon+508", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Cameroon+508", price: null }
@@ -2434,7 +2434,7 @@ const CIGARS = [
     yearFounded: 2015,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1483764/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Nub+Nuance+Single+Malt", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Nuance+Single+Malt", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Nuance+Single+Malt", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Nuance+Single+Malt", price: null }
@@ -2463,7 +2463,7 @@ const CIGARS = [
     yearFounded: 2015,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1483764/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Nub+Nuance+Double+Roast", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Nuance+Double+Roast", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Nuance+Double+Roast", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Nuance+Double+Roast", price: null }
@@ -2492,7 +2492,7 @@ const CIGARS = [
     yearFounded: 2015,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1483764/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Nub+Nuance+Single+Roast", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Nuance+Single+Roast", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Nuance+Single+Roast", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Nuance+Single+Roast", price: null }
@@ -2521,7 +2521,7 @@ const CIGARS = [
     yearFounded: 2010,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411708/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Nub+Habano+464T", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Habano+Torpedo", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Habano+Torpedo", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Habano+Torpedo", price: null }
@@ -2552,7 +2552,7 @@ const CIGARS = [
     yearFounded: 1985,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410640/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Ashton+Classic+Robusto", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+Classic+Robusto", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+Classic+Robusto", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Ashton+Classic+Robusto", price: null }
@@ -2581,7 +2581,7 @@ const CIGARS = [
     yearFounded: 1985,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410640/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Ashton+Classic+Churchill", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+Classic+Churchill", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+Classic+Churchill", price: null }
     ]
@@ -2609,7 +2609,7 @@ const CIGARS = [
     yearFounded: 1988,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410642/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Ashton+Cabinet+Selection+No.+1", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+Cabinet+Selection+No+1", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Ashton+Cabinet+Selection", price: null }
     ]
@@ -2637,7 +2637,7 @@ const CIGARS = [
     yearFounded: 2001,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410608/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Ashton+VSG+Robusto", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+VSG+Robusto", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+VSG+Robusto", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Ashton+VSG+Robusto", price: null }
@@ -2666,7 +2666,7 @@ const CIGARS = [
     yearFounded: 2001,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410608/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Ashton+VSG+Torpedo", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+VSG+Torpedo", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+VSG+Torpedo", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Ashton+VSG+Torpedo", price: null }
@@ -2695,7 +2695,7 @@ const CIGARS = [
     yearFounded: 1999,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410559/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Ashton+Heritage+Puro+Sol", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+Heritage+Puro+Sol", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+Heritage+Puro+Sol", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Ashton+Heritage+Puro+Sol", price: null }
@@ -2724,7 +2724,7 @@ const CIGARS = [
     yearFounded: 2014,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1483781/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Ashton+Symmetry", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+Symmetry", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+Symmetry", price: null }
     ]
@@ -2752,7 +2752,7 @@ const CIGARS = [
     yearFounded: 1998,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410638/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Ashton+Aged+Maduro+No.+40", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+Aged+Maduro+No+40", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+Aged+Maduro+No+40", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Ashton+Aged+Maduro+No+40", price: null }
@@ -2806,7 +2806,7 @@ const CIGARS = [
     yearFounded: 1990,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2008798/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Davidoff+Grand+Cru+No.+1", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Grand+Cru+No+1", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Davidoff+Grand+Cru+No+1", price: null }
     ]
@@ -2834,7 +2834,7 @@ const CIGARS = [
     yearFounded: 1990,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2008798/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Davidoff+Grand+Cru+No.+3", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Grand+Cru+No+3", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Grand+Cru+No+3", price: null }
     ]
@@ -2862,7 +2862,7 @@ const CIGARS = [
     yearFounded: 1990,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2008798/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Davidoff+Grand+Cru+No.+4", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Grand+Cru+No+4", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Davidoff+Grand+Cru+No+4", price: null }
     ]
@@ -2890,7 +2890,7 @@ const CIGARS = [
     yearFounded: 1990,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2008798/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Davidoff+Grand+Cru+No.+5", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Grand+Cru+No+5", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Grand+Cru+No+5", price: null }
     ]
@@ -2918,7 +2918,7 @@ const CIGARS = [
     yearFounded: 2012,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1490649/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Davidoff+Winston+Churchill+Robusto", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Winston+Churchill+Original", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Winston+Churchill+Original", price: null }
     ]
@@ -2946,7 +2946,7 @@ const CIGARS = [
     yearFounded: 1998,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410937/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Davidoff+Special+R", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Davidoff+Special+R", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Special+R", price: null }
     ]
@@ -2974,7 +2974,7 @@ const CIGARS = [
     yearFounded: 1998,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410937/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Davidoff+Special+T", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Special+T", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Special+T", price: null }
     ]
@@ -3002,7 +3002,7 @@ const CIGARS = [
     yearFounded: 2016,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1474796/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Davidoff+Nicaragua", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Nicaragua", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Nicaragua", price: null }
     ]
@@ -3053,7 +3053,7 @@ const CIGARS = [
     yearFounded: 1993,
     limited: true,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1512827/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Davidoff+Aniversario+Special", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Aniversario+Special", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Aniversario+Special", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Davidoff+Aniversario+Special", price: null }
@@ -3082,7 +3082,7 @@ const CIGARS = [
     yearFounded: 1990,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1512828/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Davidoff+Signature+2000", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Signature+2000", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Signature+2000", price: null }
     ]
@@ -3138,7 +3138,7 @@ const CIGARS = [
     yearFounded: 1995,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2004119/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Davidoff+702+Series", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+702+Series", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+702+Series", price: null }
     ]
@@ -3167,7 +3167,7 @@ const CIGARS = [
     yearFounded: 2014,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2015114/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Herrera+Estelí+Miami", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Herrera+Esteli+Miami", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Herrera+Esteli+Miami", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Herrera+Esteli+Miami", price: null }
@@ -3198,7 +3198,7 @@ const CIGARS = [
     yearFounded: 2010,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410616/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Alec+Bradley+Black+Market", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Alec+Bradley+Black+Market", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Alec+Bradley+Black+Market", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Alec+Bradley+Black+Market", price: null }
@@ -3275,7 +3275,7 @@ const CIGARS = [
     yearFounded: 2003,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1412238/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Rocky+Patel+Vintage+1999", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Rocky+Patel+Vintage+1999", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Rocky+Patel+Vintage+1999", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Rocky+Patel+Vintage+1999", price: null }
@@ -3304,7 +3304,7 @@ const CIGARS = [
     yearFounded: 2008,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2008193/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Rocky+Patel+Vintage+2006", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Rocky+Patel+Vintage+2006", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Rocky+Patel+Vintage+2006", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Rocky+Patel+Vintage+2006", price: null }
@@ -3333,7 +3333,7 @@ const CIGARS = [
     yearFounded: 2012,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2056181/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Rocky+Patel+Gold+Label", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Rocky+Patel+Gold+Label", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Rocky+Patel+Gold+Label", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Rocky+Patel+Gold+Label", price: null }
@@ -3362,7 +3362,7 @@ const CIGARS = [
     yearFounded: 2010,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411972/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Rocky+Patel+15th+Anniversary", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Rocky+Patel+Fifteenth+Anniversary", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Rocky+Patel+15th+Anniversary", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Rocky+Patel+15th+Anniversary", price: null }
@@ -3393,7 +3393,7 @@ const CIGARS = [
     yearFounded: 2004,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411733/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=CAO+Brazilia", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=CAO+Brazilia", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=CAO+Brazilia", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=CAO+Brazilia", price: null }
@@ -3422,7 +3422,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2014966/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=CAO+Nicaragua", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=CAO+Nicaragua", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=CAO+Nicaragua", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=CAO+Nicaragua", price: null }
@@ -3451,7 +3451,7 @@ const CIGARS = [
     yearFounded: 2012,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1510029/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=CAO+Flathead+V660", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=CAO+Flathead+V660", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=CAO+Flathead+V660", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=CAO+Flathead+V660", price: null }
@@ -3480,7 +3480,7 @@ const CIGARS = [
     yearFounded: 2002,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411335/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=CAO+Italia", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=CAO+Italia", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=CAO+Italia", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=CAO+Italia", price: null }
@@ -3511,7 +3511,7 @@ const CIGARS = [
     yearFounded: 1968,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1503430/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Macanudo+Maduro", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Macanudo+Maduro", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Macanudo+Maduro", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Macanudo+Maduro", price: null }
@@ -3540,7 +3540,7 @@ const CIGARS = [
     yearFounded: 1992,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1503441/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Macanudo+Gold+Label", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Macanudo+Gold+Label", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Macanudo+Gold+Label", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Macanudo+Gold+Label", price: null }
@@ -3569,7 +3569,7 @@ const CIGARS = [
     yearFounded: 2016,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1509248/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Macanudo+Inspirado+White", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Macanudo+Inspirado+White", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Macanudo+Inspirado+White", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Macanudo+Inspirado+White", price: null }
@@ -3598,7 +3598,7 @@ const CIGARS = [
     yearFounded: 2018,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1503378/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Macanudo+Cru+Royale", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Macanudo+Cru+Royale", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Macanudo+Cru+Royale", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Macanudo+Cru+Royale", price: null }
@@ -3629,7 +3629,7 @@ const CIGARS = [
     yearFounded: 1875,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411962/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Romeo+y+Julieta+1875+Natural", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Romeo+y+Julieta+1875+Natural", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Romeo+y+Julieta+1875+Natural", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Romeo+y+Julieta+1875+Natural", price: null }
@@ -3658,7 +3658,7 @@ const CIGARS = [
     yearFounded: 1992,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411943/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Romeo+y+Julieta+Reserva+Real", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Romeo+y+Julieta+Reserva+Real", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Romeo+y+Julieta+Reserva+Real", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Romeo+y+Julieta+Reserva+Real", price: null }
@@ -3737,7 +3737,7 @@ const CIGARS = [
     yearFounded: 2011,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1480304/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Aging+Room+Quattro+Original", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Aging+Room+Quattro+Original", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Aging+Room+Quattro+Original", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Aging+Room+Quattro+Original", price: null }
@@ -3766,7 +3766,7 @@ const CIGARS = [
     yearFounded: 2014,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2016291/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Aging+Room+Quattro+Nicaragua", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Aging+Room+Quattro+Nicaragua", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Aging+Room+Quattro+Nicaragua", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Aging+Room+Quattro+Nicaragua", price: null }
@@ -3825,7 +3825,7 @@ const CIGARS = [
     yearFounded: 2012,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1471111/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Crowned+Heads+Four+Kicks", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Crowned+Heads+Four+Kicks", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Crowned+Heads+Four+Kicks", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Crowned+Heads+Four+Kicks", price: null }
@@ -3854,7 +3854,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2010657/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Crowned+Heads+Four+Kicks+Maduro", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Crowned+Heads+Four+Kicks+Maduro", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Crowned+Heads+Four+Kicks+Maduro", price: null }
     ]
@@ -3882,7 +3882,7 @@ const CIGARS = [
     yearFounded: 2018,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2035934/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Crowned+Heads+Mil+Días", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Crowned+Heads+Mil+Dias", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Crowned+Heads+Mil+Dias", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Crowned+Heads+Mil+Dias", price: null }
@@ -3913,7 +3913,7 @@ const CIGARS = [
     yearFounded: 2008,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1466911/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=La+Aroma+de+Cuba+Original", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=La+Aroma+de+Cuba+Original", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=La+Aroma+de+Cuba+Original", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=La+Aroma+de+Cuba+Original", price: null }
@@ -3942,7 +3942,7 @@ const CIGARS = [
     yearFounded: 2012,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410431/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=La+Aroma+de+Cuba+Mi+Amor", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=La+Aroma+de+Cuba+Mi+Amor", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=La+Aroma+de+Cuba+Mi+Amor", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=La+Aroma+de+Cuba+Mi+Amor", price: null }
@@ -3971,7 +3971,7 @@ const CIGARS = [
     yearFounded: 2015,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410432/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=La+Aroma+de+Cuba+Mi+Amor+Reserva", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=La+Aroma+de+Cuba+Mi+Amor+Reserva", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=La+Aroma+de+Cuba+Mi+Amor+Reserva", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=La+Aroma+de+Cuba+Mi+Amor+Reserva", price: null }
@@ -4002,7 +4002,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410539/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Montecristo+Platinum", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Montecristo+Platinum", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Montecristo+Platinum", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Montecristo+Platinum", price: null }
@@ -4031,7 +4031,7 @@ const CIGARS = [
     yearFounded: 2010,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2036257/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Montecristo+1935+Anniversary+Nicaragua", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Montecristo+1935+Anniversary", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Montecristo+1935+Anniversary", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Montecristo+1935+Anniversary", price: null }
@@ -4062,7 +4062,7 @@ const CIGARS = [
     yearFounded: 2012,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411275/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=H.+Upmann+1844+Reserve", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=H+Upmann+1844+Reserve", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=H+Upmann+1844+Reserve", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=H+Upmann+1844+Reserve", price: null }
@@ -4091,7 +4091,7 @@ const CIGARS = [
     yearFounded: 2016,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1481886/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=H.+Upmann+The+Banker", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=H+Upmann+Banker", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=H+Upmann+Banker", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=H+Upmann+Banker", price: null }
@@ -4170,7 +4170,7 @@ const CIGARS = [
     yearFounded: 2009,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2007580/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Illusione+~ode~+Habano", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Illusione+OD+Habano", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Illusione+OD+Habano", price: null }
     ]
@@ -4223,7 +4223,7 @@ const CIGARS = [
     yearFounded: 2012,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411553/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Liga+Undercrown+Maduro", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Undercrown+Maduro", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Undercrown+Maduro", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Undercrown+Maduro", price: null }
@@ -4252,7 +4252,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2005045/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Liga+Undercrown+Sun+Grown", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Undercrown+Sun+Grown", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Undercrown+Sun+Grown", price: null }
     ]
@@ -4280,7 +4280,7 @@ const CIGARS = [
     yearFounded: 2015,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1496059/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Liga+Undercrown+Shade", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Undercrown+Shade", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Undercrown+Shade", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Undercrown+Shade", price: null }
@@ -4311,7 +4311,7 @@ const CIGARS = [
     yearFounded: 2016,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2006598/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Foundation+The+Tabernacle", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Foundation+Tabernacle", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Foundation+Tabernacle", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Foundation+Tabernacle", price: null }
@@ -4340,7 +4340,7 @@ const CIGARS = [
     yearFounded: 2016,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2005788/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Foundation+Charter+Oak+Broadleaf", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Foundation+Charter+Oak", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Foundation+Charter+Oak", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Foundation+Charter+Oak", price: null }
@@ -4371,7 +4371,7 @@ const CIGARS = [
     yearFounded: 2003,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410291/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Tatuaje+Brown+Label", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Tatuaje+Brown+Label", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Tatuaje+Brown+Label", price: null }
     ]
@@ -4399,7 +4399,7 @@ const CIGARS = [
     yearFounded: 2005,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410277/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Tatuaje+Havana+VI", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Tatuaje+Havana+VI", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Tatuaje+Havana+VI", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Tatuaje+Havana+VI", price: null }
@@ -4428,7 +4428,7 @@ const CIGARS = [
     yearFounded: 2009,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1481257/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Tatuaje+Reserva", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Tatuaje+Reserva", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Tatuaje+Reserva", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Tatuaje+Reserva", price: null }
@@ -4459,7 +4459,7 @@ const CIGARS = [
     yearFounded: 2016,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2012402/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=E.P.+Carrillo+Encore", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=EP+Carrillo+Encore", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=EP+Carrillo+Encore", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=EP+Carrillo+Encore", price: null }
@@ -4488,7 +4488,7 @@ const CIGARS = [
     yearFounded: 2019,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2036368/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=E.P.+Carrillo+The+Pledge", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=EP+Carrillo+Pledge", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=EP+Carrillo+Pledge", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=EP+Carrillo+Pledge", price: null }
@@ -4542,7 +4542,7 @@ const CIGARS = [
     yearFounded: 2012,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411602/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=My+Father+Flor+de+las+Antillas", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=My+Father+Flor+de+las+Antillas", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=My+Father+Flor+de+las+Antillas", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=My+Father+Flor+de+las+Antillas", price: null }
@@ -4571,7 +4571,7 @@ const CIGARS = [
     yearFounded: 2016,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1511038/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=My+Father+The+Judge", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=My+Father+The+Judge", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=My+Father+The+Judge", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=My+Father+The+Judge", price: null }
@@ -4600,7 +4600,7 @@ const CIGARS = [
     yearFounded: 2003,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411395/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Don+Pepin+Garcia+Original+Blue+Label", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Don+Pepin+Garcia+Original", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Don+Pepin+Garcia+Original", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Don+Pepin+Garcia+Original", price: null }
@@ -4631,7 +4631,7 @@ const CIGARS = [
     yearFounded: 2014,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2016310/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Herrera+Estelí+Robusto+Grande", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Herrera+Esteli+Robusto+Grande", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Herrera+Esteli+Robusto+Grande", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Herrera+Esteli+Robusto+Grande", price: null }
@@ -4685,7 +4685,7 @@ const CIGARS = [
     yearFounded: 2023,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2054672/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Perdomo+30th+Anniversary+Maduro", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Perdomo+30th+Anniversary+Maduro", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Perdomo+30th+Anniversary+Maduro", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Perdomo+30th+Anniversary+Maduro", price: null }
@@ -4714,7 +4714,7 @@ const CIGARS = [
     yearFounded: 2021,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2039946/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Perdomo+Inmenso+Seventy+Maduro", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Perdomo+Inmenso+Seventy", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Perdomo+Inmenso+Seventy", price: null }
     ]
@@ -4774,7 +4774,7 @@ const CIGARS = [
     yearFounded: 2016,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2026386/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Mi+Querida+Triqui+Traca", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Mi+Querida+Triqui+Traca", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Mi+Querida+Triqui+Traca", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Mi+Querida+Triqui+Traca", price: null },
@@ -4827,7 +4827,7 @@ const CIGARS = [
     yearFounded: 2016,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2025321/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Sobremesa+Brûlée", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Sobremesa+Brulee", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Sobremesa+Brulee", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Sobremesa+Brulee", price: null },
@@ -4909,7 +4909,7 @@ const CIGARS = [
     yearFounded: 2023,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2047615/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Mi+Querida+Black+SakaKhan", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Mi+Querida+Sakakhan", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Mi+Querida+Sakakhan", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Dunbarton+Mi+Querida+Sakakhan", price: null }
@@ -4940,7 +4940,7 @@ const CIGARS = [
     yearFounded: 2015,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1499677/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Sobremesa+Solita", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Sobremesa+Solita", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Sobremesa+Solita", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Sobremesa+Solita", price: null },
@@ -4970,7 +4970,7 @@ const CIGARS = [
     yearFounded: 2016,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1510031/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Mi+Querida", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Mi+Querida+Core", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Mi+Querida", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Mi+Querida", price: null },
@@ -5000,7 +5000,7 @@ const CIGARS = [
     yearFounded: 2017,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2009391/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Umbagog", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Umbagog", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Umbagog", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Umbagog", price: null },
@@ -5030,7 +5030,7 @@ const CIGARS = [
     yearFounded: 2018,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2020531/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Sin+Compromiso+Selección+No.+2", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Sin+Compromiso+No+2", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Sin+Compromiso", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Sin+Compromiso", price: null },
@@ -5060,7 +5060,7 @@ const CIGARS = [
     yearFounded: 2022,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2042202/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=StillWell+Star+Aromatic+No.+1", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Stillwell+Star+Aromatic+No+1", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Stillwell+Star+Aromatic", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Stillwell+Star", price: null },
@@ -5090,7 +5090,7 @@ const CIGARS = [
     yearFounded: 2022,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2042202/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=StillWell+Star+English+No.+27", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Stillwell+Star+English+No+27", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Stillwell+Star+English", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Stillwell+Star+English", price: null },
@@ -5120,7 +5120,7 @@ const CIGARS = [
     yearFounded: 2017,
     limited: true,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2032546/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Muestra+de+Saka+Exclusivo", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Muestra+de+Saka+Exclusivo", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Muestra+de+Saka", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Muestra+de+Saka", price: null },
@@ -5150,7 +5150,7 @@ const CIGARS = [
     yearFounded: 2019,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2054787/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Red+Meat+Lovers+Club+Ribeye", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Red+Meat+Lovers+Ribeye", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Red+Meat+Lovers", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Red+Meat+Lovers", price: null },
@@ -5253,7 +5253,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1484017/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=New+World+by+AJ+Fernandez", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=AJ+Fernandez+New+World", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=AJ+Fernandez+New+World", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=AJ+Fernandez+New+World", price: null },
@@ -5283,7 +5283,7 @@ const CIGARS = [
     yearFounded: 2015,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1495754/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Enclave+by+AJ+Fernandez", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=AJ+Fernandez+Enclave", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=AJ+Fernandez+Enclave", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=AJ+Fernandez+Enclave", price: null },
@@ -5313,7 +5313,7 @@ const CIGARS = [
     yearFounded: 2011,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1412052/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=San+Lotano+Oval", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=AJ+Fernandez+San+Lotano+Oval", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=AJ+Fernandez+San+Lotano+Oval", price: null }
     ]
@@ -5341,7 +5341,7 @@ const CIGARS = [
     yearFounded: 2016,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2016817/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Last+Call+by+AJ+Fernandez", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=AJ+Fernandez+Last+Call", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=AJ+Fernandez+Last+Call", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=AJ+Fernandez+Last+Call", price: null },
@@ -5396,7 +5396,7 @@ const CIGARS = [
     yearFounded: 1996,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1513365/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Double+Ligero+Chisel", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=La+Flor+Dominicana+Double+Ligero+Chisel", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=LFD+Double+Ligero+Chisel", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=LFD+Double+Ligero+Chisel", price: null },
@@ -5426,7 +5426,7 @@ const CIGARS = [
     yearFounded: 2005,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411091/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Air+Bender", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=La+Flor+Dominicana+Air+Bender", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=LFD+Air+Bender", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=LFD+Air+Bender", price: null },
@@ -5481,7 +5481,7 @@ const CIGARS = [
     yearFounded: 2018,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2030383/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Supreme+Leaf", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Aganorsa+Supreme+Leaf", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Aganorsa+Supreme+Leaf", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Aganorsa+Supreme+Leaf", price: null }
@@ -5510,7 +5510,7 @@ const CIGARS = [
     yearFounded: 2019,
     limited: true,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2042018/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Rare+Leaf+Reserve", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Aganorsa+Rare+Leaf", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Aganorsa+Rare+Leaf", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Aganorsa+Rare+Leaf", price: null }
@@ -5541,7 +5541,7 @@ const CIGARS = [
     yearFounded: 2016,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2006533/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Kudzu", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Southern+Draw+Kudzu", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Southern+Draw+Kudzu", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Southern+Draw+Kudzu", price: null }
@@ -5570,7 +5570,7 @@ const CIGARS = [
     yearFounded: 2016,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2006541/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Rose+of+Sharon", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Southern+Draw+Rose+of+Sharon", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Southern+Draw+Rose+of+Sharon", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Southern+Draw+Rose+of+Sharon", price: null }
@@ -5599,7 +5599,7 @@ const CIGARS = [
     yearFounded: 2017,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2017676/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=300+Hands", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Southern+Draw+300+Hands", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Southern+Draw+300+Hands", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Southern+Draw+300+Hands", price: null }
@@ -5630,7 +5630,7 @@ const CIGARS = [
     yearFounded: 2014,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1487191/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=El+Oso", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Warped+El+Oso", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Warped+El+Oso", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Warped+El+Oso", price: null }
@@ -5659,7 +5659,7 @@ const CIGARS = [
     yearFounded: 2014,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1487244/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Flor+del+Valle", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Warped+Flor+del+Valle", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Warped+Flor+del+Valle", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Warped+Flor+del+Valle", price: null }
@@ -5690,7 +5690,7 @@ const CIGARS = [
     yearFounded: 2014,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1510804/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Long+Live+the+King", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Caldwell+Long+Live+the+King", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Caldwell+Long+Live+the+King", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Caldwell+Long+Live+the+King", price: null }
@@ -5719,7 +5719,7 @@ const CIGARS = [
     yearFounded: 2015,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1510770/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Eastern+Standard", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Caldwell+Eastern+Standard", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Caldwell+Eastern+Standard", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Caldwell+Eastern+Standard", price: null }
@@ -5750,7 +5750,7 @@ const CIGARS = [
     yearFounded: 2000,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1412270/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Diamond+Crown+Maximus", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Diamond+Crown+Maximus", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Diamond+Crown+Maximus", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Diamond+Crown+Maximus", price: null }
@@ -5779,7 +5779,7 @@ const CIGARS = [
     yearFounded: 2008,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410750/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Brick+House+Robusto", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Brick+House+Robusto", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Brick+House+Robusto", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Brick+House+Robusto", price: null }
@@ -5838,7 +5838,7 @@ const CIGARS = [
     yearFounded: 1888,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2007327/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Villiger+1888", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Villiger+1888", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Villiger+1888", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Villiger+1888", price: null }
@@ -5867,7 +5867,7 @@ const CIGARS = [
     yearFounded: 1888,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2011417/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=La+Vencedora", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Villiger+La+Vencedora", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Villiger+La+Vencedora", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Villiger+La+Vencedora", price: null }
@@ -5898,7 +5898,7 @@ const CIGARS = [
     yearFounded: 2012,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2010660/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Leaf+by+Oscar+Nicaraguan", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Leaf+by+Oscar+Nicaraguan", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Leaf+by+Oscar+Nicaraguan", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Leaf+by+Oscar+Nicaraguan", price: null }
@@ -5927,7 +5927,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2010661/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Leaf+by+Oscar+Sumatran", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Leaf+by+Oscar+Sumatran", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Leaf+by+Oscar+Sumatran", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Leaf+by+Oscar+Sumatran", price: null }
@@ -5958,7 +5958,7 @@ const CIGARS = [
     yearFounded: 2011,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1506468/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=CroMagnon", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=RoMaCraft+CroMagnon", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=RoMaCraft+CroMagnon", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=RoMaCraft+CroMagnon", price: null }
@@ -5987,7 +5987,7 @@ const CIGARS = [
     yearFounded: 2012,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1506462/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Intemperance+EC+XVIII", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=RoMaCraft+Intemperance", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=RoMaCraft+Intemperance", price: null }
     ]
@@ -6017,7 +6017,7 @@ const CIGARS = [
     yearFounded: 2012,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2030523/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Laranja+Reserva+Escuro", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Espinosa+Laranja+Reserva", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Espinosa+Laranja+Reserva", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Espinosa+Laranja+Reserva", price: null }
@@ -6241,7 +6241,7 @@ const CIGARS = [
     yearFounded: 2016,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2020073/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Probable+Cause", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Protocol+Probable+Cause", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Protocol+Probable+Cause", price: null }
     ]
@@ -6415,7 +6415,7 @@ const CIGARS = [
     yearFounded: 1964,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1474728/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=1964+Anniversary+Natural", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+1964+Anniversary+Natural", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+1964+Anniversary+Natural", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+1964+Anniversary+Natural", price: null }
@@ -6444,7 +6444,7 @@ const CIGARS = [
     yearFounded: 1964,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2035410/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=1964+Anniversary+Maduro", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+1964+Anniversary+Maduro", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+1964+Anniversary+Maduro", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+1964+Anniversary+Maduro", price: null }
@@ -6473,7 +6473,7 @@ const CIGARS = [
     yearFounded: 1964,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1474727/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=1926+Serie+No.+35+Natural", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+1926+No+35+Natural", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+1926+No+35", price: null }
     ]
@@ -6501,7 +6501,7 @@ const CIGARS = [
     yearFounded: 1964,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1474729/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Family+Reserve+No.+85+Natural", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+Family+Reserve+No+85", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+Family+Reserve+No+85", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+Family+Reserve+No+85", price: null }
@@ -6530,7 +6530,7 @@ const CIGARS = [
     yearFounded: 1964,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1474726/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Padrón+Series+1000+Natural", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+1000+Natural", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+1000+Natural", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+1000+Natural", price: null }
@@ -6607,7 +6607,7 @@ const CIGARS = [
     yearFounded: 1996,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410976/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Edge+Torpedo", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Rocky+Patel+Edge", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Rocky+Patel+Edge", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Rocky+Patel+Edge", price: null }
@@ -6661,7 +6661,7 @@ const CIGARS = [
     yearFounded: 1992,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1412238/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Reserve+Champagne+Connecticut", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Perdomo+Reserve+Champagne+Connecticut", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Perdomo+Reserve+Champagne+Connecticut", price: null }
     ]
@@ -6712,7 +6712,7 @@ const CIGARS = [
     yearFounded: 1992,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411786/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=20th+Anniversary+Maduro", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Perdomo+20th+Anniversary+Maduro", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Perdomo+20th+Anniversary+Maduro", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Perdomo+20th+Anniversary+Maduro", price: null }
@@ -6741,7 +6741,7 @@ const CIGARS = [
     yearFounded: 1992,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2002647/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Perdomo+Epicure", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Perdomo+Epicure", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Perdomo+Epicure", price: null }
     ]
@@ -6771,7 +6771,7 @@ const CIGARS = [
     yearFounded: 1865,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2007637/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Alma+del+Campo+Travesía", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Plasencia+Alma+del+Campo", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Plasencia+Alma+del+Campo", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Plasencia+Alma+del+Campo", price: null }
@@ -6800,7 +6800,7 @@ const CIGARS = [
     yearFounded: 1865,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2052482/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Cosecha+149", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Plasencia+Cosecha+149", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Plasencia+Cosecha+149", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Plasencia+Cosecha+149", price: null }
@@ -6829,7 +6829,7 @@ const CIGARS = [
     yearFounded: 1865,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2005774/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Alma+Fuerte+Generoso", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Plasencia+Alma+Fuerte+Generoso", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Plasencia+Alma+Fuerte+Generoso", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Plasencia+Alma+Fuerte+Generoso", price: null }
@@ -6934,7 +6934,7 @@ const CIGARS = [
     yearFounded: 1968,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1495441/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=CAO+Pilon+Robusto", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=CAO+Pilon+Robusto", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=CAO+Pilon+Robusto", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=CAO+Pilon+Robusto", price: null }
@@ -7174,7 +7174,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2033790/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Last+Rites+Robusto+Real", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Last+Rites", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Last+Rites", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Trading+Last+Rites", price: null },
@@ -7204,7 +7204,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2033791/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Lawless+Robusto+Real", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Lawless", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Lawless", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Trading+Lawless", price: null },
@@ -7234,7 +7234,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2033774/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Royalty+Robusto", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Royalty", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Royalty", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Trading+Royalty", price: null },
@@ -7264,7 +7264,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2033792/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Salvation+Robusto+Real", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Salvation", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Salvation", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Trading+Salvation", price: null },
@@ -7351,7 +7351,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: false,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2033775/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Deliverance+Porcelain+Corona+Gorda", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Deliverance+Porcelain", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Deliverance+Porcelain", price: null }
     ]
@@ -7379,7 +7379,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: true,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2058879/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Bishop's+Blend+2024", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Bishops+Blend", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Bishops+Blend", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Bishops+Blend", price: null }
@@ -7408,7 +7408,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: true,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2058872/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Orthodox+Corona+Gorda", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Orthodox", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Orthodox", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Orthodox", price: null }
@@ -7437,7 +7437,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: true,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2064084/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Eletto+Toro", price: null },
       { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Eletto", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Eletto", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Eletto", price: null }
@@ -7466,7 +7466,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: true,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2061139/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Super+Deluxe+Box+Press+2025", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Super+Deluxe", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Super+Deluxe", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Super+Deluxe", price: null }
@@ -7495,7 +7495,7 @@ const CIGARS = [
     yearFounded: 2013,
     limited: true,
     buyLinks: [
-      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2061025/", price: null },
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/search?q=Morphine+10+Year+Anniversary", price: null },
       { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Morphine+10+Year", price: null },
       { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Morphine", price: null },
       { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Morphine+10+Year", price: null }
