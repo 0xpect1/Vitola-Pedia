@@ -396,7 +396,7 @@ const US_RETAILERS = [
 const INTL_RETAILERS = [
   { name: 'Havana House',         search: 'https://www.havanahouse.co.uk/search?q=',           tagline: 'UK · Authentic Habanos',  badge: '★ Best Value Pick' },
   { name: 'C.Gars Ltd',           search: 'https://www.cgarsltd.co.uk/search?q=',              tagline: 'UK · Cuban Specialists' },
-  { name: 'Hunters & Frankau',    search: 'https://www.hunters-frankau.co.uk/?s=',             tagline: 'Official UK Habanos Dist.' },
+  { name: 'Hunters & Frankau',    search: 'https://cigars.co.uk/?s=',                         tagline: 'Official UK Habanos Dist.' },
 ];
 
 function buildBuySection(cigar) {

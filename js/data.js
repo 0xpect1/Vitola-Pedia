@@ -21,7 +21,12 @@ const CIGARS = [
     description: "The pinnacle of Cuban cigar craftsmanship. The BHK line uses rare Medio Tiempo leaves — the top two leaves of the tobacco plant, prized for their exceptional concentration of oils and complexity. Reserved exclusively for Cuba's most masterful rollers, the Behike is as close to perfection as Cuban tobacco gets.",
     pairings: ["Single Malt Scotch", "Aged Rum", "Espresso"],
     yearFounded: 2010,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Cohiba+Behike+BHK+52", price: null },
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Cohiba+Behike+BHK+52", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Cohiba+Behike+BHK+52", price: null }
+    ]
   },
   {
     id: "cohiba-siglo-vi",
@@ -44,7 +49,12 @@ const CIGARS = [
     description: "The Siglo VI is Cuba's most prestigious non-limited Cohiba, launched in 2002 to mark the new millennium. A complex, creamy smoke with excellent construction and the signature three-stage Cohiba fermentation that produces unmatched refinement. The benchmark by which all Cuban cigars are measured.",
     pairings: ["Cognac", "Aged Rum", "Champagne"],
     yearFounded: 2002,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Cohiba+Siglo+VI", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Cohiba+Siglo+VI", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Cohiba+Siglo+VI", price: null }
+    ]
   },
   {
     id: "montecristo-no-2",
@@ -67,7 +77,12 @@ const CIGARS = [
     description: "Perhaps the world's most famous cigar. The torpedo-shaped No. 2 is the crown jewel of the Montecristo line and a universal reference point for Cuban tobacco. Its tapered head delivers concentrated flavors that open up progressively — earthy and spiced at the start, becoming creamier and more complex at the finish.",
     pairings: ["Bourbon", "Aged Rum", "Black Coffee"],
     yearFounded: 1935,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Montecristo+No+2", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Montecristo+No+2", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Montecristo+No+2", price: null }
+    ]
   },
   {
     id: "partagas-serie-d-no4",
@@ -90,7 +105,12 @@ const CIGARS = [
     description: "The Serie D No. 4 is the bold heart of Partagás — a full-flavored powerhouse that never sacrifices complexity for strength. Packed with rich earthy notes, sharp pepper on the retrohale, and a long dark cocoa finish. This is the smoke that defines what a full-bodied Cuban can be.",
     pairings: ["Islay Scotch", "Espresso", "Dark Beer"],
     yearFounded: 1845,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Partagas+Serie+D+No+4", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Partagas+Serie+D+No+4", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Partagas+Serie+D+No+4", price: null }
+    ]
   },
   {
     id: "romeo-y-julieta-churchills",
@@ -113,7 +133,12 @@ const CIGARS = [
     description: "Named after Sir Winston Churchill's favorite format — he reportedly smoked up to ten a day. An elegant, long smoke with a silky smooth draw and a refined flavor profile that evolves gracefully over its 90-minute burn. The quintessential gentleman's cigar.",
     pairings: ["Brandy", "Champagne", "Earl Grey Tea"],
     yearFounded: 1875,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Romeo+y+Julieta+Churchill", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Romeo+y+Julieta+Churchill", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Romeo+y+Julieta+Churchill", price: null }
+    ]
   },
   {
     id: "bolivar-royal-coronas",
@@ -136,7 +161,12 @@ const CIGARS = [
     description: "Not for the faint-hearted. The Bolívar Royal Coronas is one of Cuba's most intense, full-bodied smokes — a tar-and-pepper bomb with enormous tobacco presence. Connoisseurs who want raw, unapologetic Cuban power reach for this. Best after dinner with experience on your side.",
     pairings: ["Peated Scotch", "Dark Rum", "Black Coffee"],
     yearFounded: 1902,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Bolivar+Royal+Coronas", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Bolivar+Royal+Coronas", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Bolivar+Royal+Coronas", price: null }
+    ]
   },
   {
     id: "h-upmann-no-2",
@@ -159,7 +189,12 @@ const CIGARS = [
     description: "The H. Upmann No. 2 is the refined, approachable torpedo from Cuba's oldest continually operating brand. Founded by a Hamburg banker in 1844, Upmann produces mild-to-medium smokes with impeccable construction. The No. 2 is creamy, nutty, and perfectly balanced — an ideal gateway to Cuban tobacco.",
     pairings: ["White Wine", "Mild Coffee", "Cream Sherry"],
     yearFounded: 1844,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=H+Upmann+No+2", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=H+Upmann+No+2", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=H+Upmann+No+2", price: null }
+    ]
   },
   {
     id: "trinidad-fundadores",
@@ -182,7 +217,12 @@ const CIGARS = [
     description: "Created in 1969 exclusively as diplomatic gifts by the Cuban government, Trinidad only became commercially available in 1998. The Fundadores is the brand's flagship — an extraordinarily elegant, long lancero-format smoke with floral complexity and a slow, even burn. Considered among the rarest and most sought-after Cuban smokes.",
     pairings: ["Champagne", "Light Rum", "Jasmine Tea"],
     yearFounded: 1969,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Trinidad+Fundadores", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Trinidad+Fundadores", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Trinidad+Fundadores", price: null }
+    ]
   },
 
   // ─── NICARAGUA ──────────────────────────────────────────────────────────────
@@ -207,7 +247,13 @@ const CIGARS = [
     description: "Launched in 1994 to celebrate the brand's 30th anniversary, the 1964 Series is widely considered one of the greatest Nicaraguan cigars ever made. Box-pressed for a square cross-section, using sun-grown Nicaraguan tobacco aged four years. The Maduro wrapper adds chocolate and caramel depth to the already rich Nicaraguan filler.",
     pairings: ["Aged Bourbon", "Port Wine", "Dark Chocolate"],
     yearFounded: 1964,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2035410/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+1964+Anniversario+Maduro", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+1964+Anniversario+Maduro", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+1964+Anniversario+Maduro", price: null }
+    ]
   },
   {
     id: "padron-80th-anniversario",
@@ -230,7 +276,13 @@ const CIGARS = [
     description: "Rated 100 points by Cigar Aficionado — one of only a handful of cigars to achieve this honor. Released to mark José Orlando Padrón's 80th birthday. Handmade by the family's most skilled torcedores using tobacco aged a minimum of four years. Box-pressed, perfectly constructed, impossibly complex.",
     pairings: ["Single Malt Scotch", "Aged Cognac", "Espresso"],
     yearFounded: 2006,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1474795/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+80th+Anniversary", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+80th+Anniversary", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+80th+Anniversary", price: null }
+    ]
   },
   {
     id: "oliva-serie-v-melanio",
@@ -253,7 +305,13 @@ const CIGARS = [
     description: "Named after Melanio Oliva, the patriarch of the Oliva family who established tobacco farming in Jalapa Valley in 1886. This figurado is consistently rated among the world's finest — a perfectly balanced, full-bodied smoke with a rich, oily Ecuadorian wrapper and deeply complex Nicaraguan filler. Cigar of the Year 2013.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 1886,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410165/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+V+Melanio", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+V+Melanio", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+V+Melanio", price: null }
+    ]
   },
   {
     id: "nicaraguan-avo-classic-robusto",
@@ -299,7 +357,13 @@ const CIGARS = [
     description: "The Le Bijou 1922 ('The Jewel') pays homage to the year García's tobacco legacy began. The San Andrés maduro wrapper provides a sweet, dark chocolate backbone that contrasts brilliantly with the full-bodied Nicaraguan core. Cigar Aficionado No. 1 Cigar of the Year 2013.",
     pairings: ["Bourbon", "Port", "Dark Espresso"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411599/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=My+Father+Le+Bijou+1922", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=My+Father+Le+Bijou+1922", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=My+Father+Le+Bijou+1922", price: null }
+    ]
   },
   {
     id: "perdomo-reserve-champagne",
@@ -368,7 +432,13 @@ const CIGARS = [
     description: "The Liga Privada T52 is one of the most sought-after production cigars in the world. The stalk-cut Connecticut Broadleaf wrapper is fermented for over two years, developing an oily, dark, and extraordinarily complex character. The Brazilian Mata Fina binder adds unique barnyard and leather complexity. Perpetually back-ordered.",
     pairings: ["Bourbon", "Stout Beer", "Dark Espresso"],
     yearFounded: 2008,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411551/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Drew+Estate+Liga+Privada+T52", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Liga+Privada+T52", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Liga+Privada+T52", price: null }
+    ]
   },
   {
     id: "drew-estate-liga-privada-no9",
@@ -391,7 +461,13 @@ const CIGARS = [
     description: "The sibling to the T52 and the original Liga Privada blend. Slightly fuller and earthier, with more pronounced leather and wood notes. Drew Estate created this blend for personal use — hence 'Liga Privada' (private blend) — before releasing it to the public due to overwhelming demand.",
     pairings: ["Rye Whiskey", "Dark Beer", "Espresso"],
     yearFounded: 2007,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411550/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Drew+Estate+Liga+Privada+No+9", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Liga+Privada+No+9", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Liga+Privada+No+9", price: null }
+    ]
   },
   {
     id: "rocky-patel-vintage-1990",
@@ -462,7 +538,13 @@ const CIGARS = [
     description: "The Opus X shattered conventional wisdom in 1995 — before this cigar, no one believed the Dominican Republic could grow premium wrapper tobacco. Carlos Fuente Jr. proved them all wrong. Grown at Chateau de la Fuente on land previously used for flowers, the rosado wrapper is now among the most coveted in the world. Notoriously hard to find.",
     pairings: ["Cognac", "Single Malt Scotch", "Espresso"],
     yearFounded: 1995,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410628/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Arturo+Fuente+Opus+X", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Arturo+Fuente+Opus+X", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Arturo+Fuente+Opus+X", price: null }
+    ]
   },
   {
     id: "arturo-fuente-don-carlos",
@@ -485,7 +567,13 @@ const CIGARS = [
     description: "Named after Carlos Fuente Sr., the Don Carlos line uses rare Cameroon wrapper leaves that have been critically short in supply since the 1990s. The Cameroon wrapper imparts a distinctive sweetness and spice — almost caramel-like — that's immediately recognizable. A medium-bodied classic with impeccable construction.",
     pairings: ["Bourbon", "Coffee", "Brandy"],
     yearFounded: 1982,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410627/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Arturo+Fuente+Don+Carlos", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Arturo+Fuente+Don+Carlos", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Arturo+Fuente+Don+Carlos", price: null }
+    ]
   },
   {
     id: "macanudo-cafe-robusto",
@@ -531,7 +619,12 @@ const CIGARS = [
     description: "Davidoff is the Swiss watchmaker of cigars — obsessively precise, unfailingly elegant. The Grand Cru No. 2 is the cornerstone of their Dominican lineup: mild-to-medium, creamy, with a beautifully even burn and silky draw. The construction quality is legendary. This is luxury smoking at its most refined.",
     pairings: ["Champagne", "Single Malt Scotch", "Café Crème"],
     yearFounded: 1968,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2008798/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Grand+Cru+No+2", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Grand+Cru+No+2", price: null }
+    ]
   },
   {
     id: "davidoff-millennium-blend",
@@ -554,7 +647,12 @@ const CIGARS = [
     description: "A step up in body from the Grand Cru, the Millennium Blend represents Davidoff's medium-bodied benchmark. First released in 2001, it uses longer-aged Dominican tobaccos for added depth. More complex than the Grand Cru with coffee and dried fruit notes alongside the signature Davidoff creaminess.",
     pairings: ["Cognac", "Café au Lait", "Pale Ale"],
     yearFounded: 2001,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410933/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Millennium+Blend", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Millennium+Blend", price: null }
+    ]
   },
   {
     id: "romeo-y-julieta-1875-robusto",
@@ -600,7 +698,13 @@ const CIGARS = [
     description: "Founded by jazz musician Avo Uvezian (who also wrote Strangers in the Night), the AVO line brings elegance and sophistication to every stick. The Classic No. 9 is their flagship — smooth, creamy, and well-balanced with excellent construction from Davidoff's Dominican factory.",
     pairings: ["Jazz Whiskey", "Champagne", "Earl Grey"],
     yearFounded: 1988,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1489922/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Avo+Classic+No+9", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Avo+Classic+No+9", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Avo+Classic+No+9", price: null }
+    ]
   },
 
   // ─── HONDURAS ────────────────────────────────────────────────────────────────
@@ -625,7 +729,13 @@ const CIGARS = [
     description: "The Camacho Corojo is an unapologetic full-strength powerhouse from Honduras's prized Jamastran Valley. Pure Honduran Corojo from wrapper to filler — one of the most authentic all-Corojo expressions available. Heavy pepper, raw spice, and unmistakable tobacco intensity. Camacho's motto: 'Boldness is an art.'",
     pairings: ["Dark Rum", "Peated Scotch", "Black Coffee"],
     yearFounded: 1962,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1475077/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Camacho+Corojo+Robusto", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Camacho+Corojo+Robusto", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Camacho+Corojo+Robusto", price: null }
+    ]
   },
   {
     id: "punch-gran-puro-nicaragua",
@@ -696,7 +806,13 @@ const CIGARS = [
     description: "Oliva's Connecticut Reserve proves you don't need to spend a fortune for a quality mild smoke. The Ecuadorian Connecticut wrapper over well-aged Jalapa Nicaraguan filler creates a uniquely smooth, creamy experience with a hint of Nicaraguan complexity. An ideal everyday smoke.",
     pairings: ["Coffee with Cream", "Sparkling Water", "Light Beer"],
     yearFounded: 2005,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410598/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Connecticut+Reserve", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Connecticut+Reserve", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Connecticut+Reserve", price: null }
+    ]
   },
 
   // ─── MADURO SPECIALISTS ──────────────────────────────────────────────────────
@@ -767,7 +883,13 @@ const CIGARS = [
     description: "Ashton's ESG (Estate Grown Selection) is made exclusively at Fuente's Chateau de la Fuente estate with ten-year-aged Dominican tobaccos. The 10 Year Salute represents a decade of aging in the Fuente cellars — an extraordinary level of preparation for any production cigar. Complex, refined, and extraordinarily smooth.",
     pairings: ["Single Malt Scotch", "Cognac", "Dark Chocolate"],
     yearFounded: 2002,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411283/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+ESG+10+Year", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+ESG+10+Year", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Ashton+ESG+10+Year", price: null }
+    ]
   },
 
   // ─── BOUTIQUE & SMALL BATCH ──────────────────────────────────────────────────
@@ -792,7 +914,13 @@ const CIGARS = [
     description: "Plasencia has farmed Nicaraguan tobacco for over five generations, and the Alma del Fuego ('Soul of Fire') showcases the full range of their growing regions. A full-bodied showcase of Nicaraguan tobacco at its most expressive — from Estelí's volcanic soil and Jalapa's cooler highlands. Outstanding value.",
     pairings: ["Rye Whiskey", "Dark Beer", "Black Coffee"],
     yearFounded: 2019,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2024872/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Plasencia+Alma+del+Fuego", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Plasencia+Alma+del+Fuego", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Plasencia+Alma+del+Fuego", price: null }
+    ]
   },
   {
     id: "crowned-heads-jericho-hill",
@@ -861,7 +989,12 @@ const CIGARS = [
     description: "The Late Hour is Davidoff's boldest creation — a full-bodied tribute to Churchill's late-night smoking sessions. Davidoff threw out their usual restrained approach to create something truly powerful. The Ecuadorian Sun Grown wrapper adds an oily, earthy complexity that sets this apart from the brand's typical elegant fare.",
     pairings: ["Single Malt Scotch", "Port", "Espresso"],
     yearFounded: 2017,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2004598/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Winston+Churchill", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Winston+Churchill", price: null }
+    ]
   },
   {
     id: "tatuaje-verocu-no5",
@@ -884,7 +1017,13 @@ const CIGARS = [
     description: "Pete Johnson's Tatuaje brand is a cornerstone of the boutique cigar movement, blended in collaboration with My Father's factory. The Verocu is the everyday standard-bearer — a medium-to-full-bodied smoke with solid construction, vibrant Nicaraguan pepper, and excellent value. A cult favorite in cigar lounges.",
     pairings: ["Bourbon", "Dark Rum", "Coffee"],
     yearFounded: 2003,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1495695/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Tatuaje+Verocu+No+5", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Tatuaje+Verocu+No+5", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Tatuaje+Verocu+No+5", price: null }
+    ]
   },
   {
     id: "cao-cameroon",
@@ -907,7 +1046,12 @@ const CIGARS = [
     description: "CAO's Cameroon uses the legendary West African wrapper that's been in demand since the 1970s. The Cameroon leaf has a distinctive sweet-spicy character unlike any other wrapper — almost paprika-like with hints of caramel. Medium-bodied with beautiful construction and excellent aging potential.",
     pairings: ["Cognac", "Whiskey Sour", "Coffee"],
     yearFounded: 2002,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410684/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=CAO+Cameroon", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=CAO+Cameroon", price: null }
+    ]
   },
 
   // ─── FUENTE SPECIAL ─────────────────────────────────────────────────────────
@@ -980,7 +1124,13 @@ const CIGARS = [
     description: "The entry point to the Padrón estate and possibly the greatest value in premium cigars. The Series 2000 uses the same Jalapa-grown Nicaraguan puro tobaccos as their anniversary lines, aged two years. The Maduro version adds rich dark chocolate depth. Consistently excellent, virtually never disappoints.",
     pairings: ["Bourbon", "Coffee", "Dark Beer"],
     yearFounded: 1964,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2035404/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+2000+Maduro", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+2000+Maduro", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+2000+Maduro", price: null }
+    ]
   },
   {
     id: "oliva-serie-o-maduro",
@@ -1003,7 +1153,13 @@ const CIGARS = [
     description: "Oliva's Serie O Maduro is an exceptional value Nicaraguan puro — full Jalapa tobacco from wrapper to foot. The Nicaraguan maduro wrapper provides natural dark chocolate sweetness without losing the earthy, peppery Nicaraguan character. One of the top-rated value cigars year after year.",
     pairings: ["Bourbon", "Dark Coffee", "Amber Ale"],
     yearFounded: 1886,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410436/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+O+Maduro", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+O+Maduro", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+O+Maduro", price: null }
+    ]
   },
   {
     id: "my-father-no1",
@@ -1026,7 +1182,12 @@ const CIGARS = [
     description: "José 'Pepin' García's My Father brand stands for old-world Cuban craftsmanship applied to Nicaraguan tobacco. The No. 1 is Pepin's flagship — a full-bodied, pepper-forward powerhouse with exceptional consistency and the construction quality that made García famous. Named after his son Jaime, who co-blends most of the line.",
     pairings: ["Rye Whiskey", "Dark Rum", "Espresso"],
     yearFounded: 2008,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=My+Father+No+1", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=My+Father+No+1", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=My+Father+No+1", price: null }
+    ]
   },
 
   // ─── HONDURAN TREASURES ──────────────────────────────────────────────────────
@@ -1099,7 +1260,13 @@ const CIGARS = [
     description: "Oliva's Serie G uses the dwindling supply of West African Cameroon wrapper over Nicaraguan Jalapa filler — a combination that brings out the best in both. The Cameroon's natural sweetness and mild spice complement the Jalapa tobacco's earthy richness for a beautifully balanced medium smoke.",
     pairings: ["Cognac", "Coffee", "Caramel Cocktail"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411046/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+G+Cameroon", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+G+Cameroon", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+G+Cameroon", price: null }
+    ]
   },
 
   // ─── INFUSED & FLAVORED ──────────────────────────────────────────────────────
@@ -1124,7 +1291,13 @@ const CIGARS = [
     description: "Drew Estate's ACID line changed the cigar industry by introducing botanical and herbal infusion to premium cigars. The Blondie is the line's most approachable stick — a quick, sweet, floral smoke that appeals to non-traditional cigar smokers. Made with over 150 botanicals, herbs, and essential oils. The gateway cigar for many smokers.",
     pairings: ["Rum and Coke", "Herbal Tea", "Fruity Cocktails"],
     yearFounded: 1999,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2005807/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Acid+Blondie", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Acid+Blondie", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Acid+Blondie", price: null }
+    ]
   },
   {
     id: "cao-flavours-eileen",
@@ -1197,7 +1370,12 @@ const CIGARS = [
     description: "The Cuban Punch brand has been rolling cigars since 1840, making it one of Havana's oldest. The Punch Punch (named twice, as is tradition) is a medium-to-full-bodied Cuban classic — earthy, cedary, and well-balanced with the characteristic Cuban barnyard note. Exceptional value for an authentic Habano.",
     pairings: ["Rum", "Coffee", "Brandy"],
     yearFounded: 1840,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Punch+Punch+Cuba", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Punch+Punch+Cuba", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Punch+Punch", price: null }
+    ]
   },
   {
     id: "hoyo-de-monterrey-epicure-no2",
@@ -1220,7 +1398,12 @@ const CIGARS = [
     description: "Named after the Hoyo de Monterrey plantation in the Vuelta Abajo region — considered the finest tobacco-growing soil in Cuba. The Epicure No. 2 is mild-to-medium, beautifully constructed, and consistently one of the highest-rated affordable Cuban cigars. An essential Habano for any enthusiast.",
     pairings: ["Café con Leche", "Light Rum", "White Wine"],
     yearFounded: 1865,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Hoyo+de+Monterrey+Epicure+No+2", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Hoyo+de+Monterrey+Epicure+No+2", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Hoyo+de+Monterrey+Epicure+No+2", price: null }
+    ]
   },
   {
     id: "saint-luis-rey-series-g",
@@ -1268,7 +1451,13 @@ const CIGARS = [
     description: "The Family Reserve represents the absolute pinnacle of Padrón's non-commemorative production. Tobaccos aged a minimum of 10 years, selected by hand at every step. Only produced in limited quantities annually and released in wooden boxes. Extraordinarily complex and balanced — a once-in-a-while cigar that demands your full attention.",
     pairings: ["Aged Bourbon", "Single Malt Scotch", "Espresso"],
     yearFounded: 2005,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1474729/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+Family+Reserve+No+45", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+Family+Reserve+No+45", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+Family+Reserve+No+45", price: null }
+    ]
   },
   {
     id: "fuente-fuente-opus-x-fe",
@@ -1291,7 +1480,12 @@ const CIGARS = [
     description: "The FFOX (Fuente Fuente Opus X) is the rarest of all Fuente releases — a limited lancero made with the darkest, most oily rosado oscuro wrapper leaves from Chateau de la Fuente. Full-bodied intensity in the lancero format creates an astonishing concentration of flavor. Nearly impossible to find at retail.",
     pairings: ["Cognac", "Dark Rum", "Single Malt"],
     yearFounded: 2000,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410628/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Fuente+Fuente+Opus+X", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Fuente+Fuente+Opus+X", price: null }
+    ]
   },
   {
     id: "general-cigar-cohiba-macassar",
@@ -1337,7 +1531,13 @@ const CIGARS = [
     description: "The Romeo y Julieta Vintage showcases a Connecticut Broadleaf maduro wrapper over Dominican long-filler — a combination that delivers a sweeter, darker version of the classic Romeo profile. The No. 5 is the standout in the lineup: medium-bodied with rich dark chocolate and coffee notes at an exceptional price.",
     pairings: ["Bourbon", "Port", "Dark Coffee"],
     yearFounded: 1975,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411992/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Romeo+y+Julieta+Vintage+No+5", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Romeo+y+Julieta+Vintage+No+5", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Romeo+y+Julieta+Vintage+No+5", price: null }
+    ]
   },
 
   // ─── GUATEMALAN TERROIR ───────────────────────────────────────────────────────
@@ -1435,7 +1635,12 @@ const CIGARS = [
     description: "Perdomo's Habano Sun Grown showcases Estelí-grown Habano wrapper at its most vibrant — full-bodied, peppery, and complex. The sun-grown process produces a thicker, oilier leaf with more concentrated flavors than shade-grown alternatives. An excellent full-bodied everyday cigar at a very fair price.",
     pairings: ["Bourbon", "Strong Coffee", "Dark Beer"],
     yearFounded: 2005,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1497971/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Perdomo+Habano+Sun+Grown", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Perdomo+Habano+Sun+Grown", price: null }
+    ]
   },
   {
     id: "rocky-patel-decade",
@@ -1506,7 +1711,12 @@ const CIGARS = [
     description: "The Esplendidos is Cohiba's signature Churchill — a long, elegant cigar that allows the signature Cohiba creaminess and complexity to develop over 90 minutes. First produced in the early 1980s as diplomatic gifts, the Esplendidos became commercially available and is now one of Cuba's most iconic luxury items.",
     pairings: ["Cognac", "Aged Rum", "Champagne"],
     yearFounded: 1982,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Cohiba+Esplendidos", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Cohiba+Esplendidos", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Cohiba+Esplendidos", price: null }
+    ]
   },
   {
     id: "diplomaticos-no2",
@@ -1529,7 +1739,12 @@ const CIGARS = [
     description: "Diplomaticos is Havana's most underrated brand — a relatively unknown label that uses the same tobacco as Montecristo at a noticeably lower price. The No. 2 Piramide is virtually identical in blend to the famous Montecristo No. 2 but costs less and sees less counterfeiting. The savvy aficionado's choice.",
     pairings: ["Rum", "Coffee", "Brandy"],
     yearFounded: 1966,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Diplomaticos+No+2", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Diplomaticos+No+2", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Diplomaticos+No+2", price: null }
+    ]
   },
   {
     id: "quai-dorsay-imperiales",
@@ -1623,7 +1838,12 @@ const CIGARS = [
     description: "The Black Dragon is Gurkha's premium flagship — a bold, full-bodied maduro that showcases Honduran tobacco at its most dramatic. The Connecticut Broadleaf maduro wrapper is thick and oily with prominent dark chocolate and coffee notes. Sold in ornate packaging that reflects the brand's luxury positioning.",
     pairings: ["Bourbon", "Port", "Dark Espresso"],
     yearFounded: 1989,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1492016/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Gurkha+Black+Dragon", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Gurkha+Black+Dragon", price: null }
+    ]
   },
   {
     id: "nub-cafe-maduro",
@@ -1693,7 +1913,13 @@ const CIGARS = [
     description: "The flagship robusto of the Serie V line — one of the most decorated production cigars in the world. The Ecuadorian Sumatra wrapper provides a rich, oily surface that channels dark chocolate, coffee, and sharp Nicaraguan pepper through a perfectly even burn. Consistently rated 93–95 by all major publications.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2007,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410163/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+V+Robusto", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+V+Robusto", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+V+Robusto", price: null }
+    ]
   },
   {
     id: "oliva-serie-v-toro",
@@ -1716,7 +1942,13 @@ const CIGARS = [
     description: "The Toro format gives the Serie V blend extra time to breathe and transition through flavor stages. An additional 15 minutes of smoke time reveals subtle sweetness in the final third that the robusto doesn't always deliver. If you can only try one Serie V format, make it the Toro.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2007,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410163/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+V+Toro", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+V+Toro", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+V+Toro", price: null }
+    ]
   },
   {
     id: "oliva-serie-v-churchill",
@@ -1739,7 +1971,13 @@ const CIGARS = [
     description: "The Serie V Churchill is a long, graceful expression of Jalapa's finest — a 90-minute journey through the full complexity of Nicaraguan tobacco. Starts earthy and peppery, transitions through coffee and leather, and finishes with cedar and lingering dark chocolate. An exceptional choice for a slow evening.",
     pairings: ["Single Malt Scotch", "Bourbon", "Strong Coffee"],
     yearFounded: 2007,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410163/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+V+Churchill+Extra", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+V+Churchill", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+V+Churchill", price: null }
+    ]
   },
   {
     id: "oliva-serie-v-special-t",
@@ -1762,7 +2000,12 @@ const CIGARS = [
     description: "The torpedo-shaped Special T is many enthusiasts' favorite format in the Serie V lineup. The tapered head concentrates the Sumatra wrapper's oils at the draw, delivering an intense hit of espresso and dark chocolate from the first puff. One of the best torpedos in the medium-full category at any price.",
     pairings: ["Espresso", "Bourbon", "Dark Rum"],
     yearFounded: 2007,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410163/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+V+Special+T", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+V+Special+T", price: null }
+    ]
   },
   {
     id: "oliva-serie-v-double-toro",
@@ -1785,7 +2028,12 @@ const CIGARS = [
     description: "The massive 60-ring gauge Double Toro burns extraordinarily cool, allowing the Nicaraguan filler to express every nuance without any harsh heat. For smokers who prefer a generous draw and a slow, meditative burn, the Double Toro is the most relaxed and layered way to experience the Serie V blend.",
     pairings: ["Bourbon", "Aged Rum", "Black Coffee"],
     yearFounded: 2007,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410163/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+V+Double+Toro", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+V+Double+Toro", price: null }
+    ]
   },
   {
     id: "oliva-serie-v-lancero",
@@ -1808,7 +2056,12 @@ const CIGARS = [
     description: "The lancero format (7.5×40) is the most demanding test of a cigar blend — the thin ring gauge makes the wrapper dominant, and any flaw in construction is immediately apparent. The Serie V Lancero passes with flying colors. The wrapper-forward draw delivers intense espresso and leather concentration that the wider formats can't match.",
     pairings: ["Espresso", "Cognac", "Single Malt"],
     yearFounded: 2010,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+V+Lancero", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+V+Lancero", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+V+Lancero", price: null }
+    ]
   },
   {
     id: "oliva-serie-v-melanio-maduro",
@@ -1831,7 +2084,12 @@ const CIGARS = [
     description: "The maduro counterpart to the iconic Melanio figurado. Where the natural wrapper delivers bright spice and sharp coffee, the Brazilian Arapiraca maduro adds a deep, dark sweetness — raisin, bittersweet chocolate, and a silky smoothness that contrasts beautifully with the full-bodied Nicaraguan core. A complete masterpiece.",
     pairings: ["Port Wine", "Bourbon", "Dark Espresso"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1473424/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+V+Melanio+Maduro", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+V+Melanio+Maduro", price: null }
+    ]
   },
   {
     id: "oliva-serie-g-natural",
@@ -1854,7 +2112,13 @@ const CIGARS = [
     description: "The Serie G Natural uses a silky Ecuadorian Sumatra wrapper over Jalapa Nicaraguan filler — a step down in strength from the V but equally well-constructed. Medium-bodied with clean earth and coffee notes. A reliable, affordable daily smoke that consistently overperforms its price point.",
     pairings: ["Coffee", "Amber Ale", "Bourbon"],
     yearFounded: 1999,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411046/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+G+Natural", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+G+Natural", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+G+Natural", price: null }
+    ]
   },
   {
     id: "oliva-serie-g-special-t",
@@ -1877,7 +2141,12 @@ const CIGARS = [
     description: "The torpedo format elevates the Serie G blend appreciably — the tapered head focuses the Sumatra wrapper oils and adds complexity to what is otherwise a straightforward medium smoke. An excellent value torpedo that holds its own against cigars costing twice as much.",
     pairings: ["Coffee", "Light Whiskey", "Pale Ale"],
     yearFounded: 1999,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+G+Special+T", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+G+Special+T", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+G+Special+T", price: null }
+    ]
   },
   {
     id: "oliva-serie-o-natural",
@@ -1900,7 +2169,13 @@ const CIGARS = [
     description: "The Serie O Natural is a pure Nicaraguan puro (wrapper to filler from Nicaragua) at an entry-level price. The Nicaraguan Habano wrapper delivers a vibrant, peppery character with earthy depth. One of the best gateway Nicaraguan puros — it shows exactly what this terroir is capable of without breaking the bank.",
     pairings: ["Bourbon", "Coffee", "Pale Ale"],
     yearFounded: 1886,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410162/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Serie+O+Natural", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Serie+O+Natural", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Serie+O+Natural", price: null }
+    ]
   },
   {
     id: "oliva-flor-de-oliva",
@@ -1923,7 +2198,13 @@ const CIGARS = [
     description: "Oliva's most affordable line — the Flor de Oliva is made at the same Jalapa factory as the celebrated V and G series, using younger Nicaraguan tobaccos. For under $7, it delivers genuine Oliva quality: consistent construction, a smooth draw, and honest flavor. The best value at this price from Nicaragua.",
     pairings: ["Morning Coffee", "Light Beer", "Iced Tea"],
     yearFounded: 1886,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1466934/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Flor+de+Oliva", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Flor+de+Oliva", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Flor+de+Oliva", price: null }
+    ]
   },
   {
     id: "oliva-master-blends-3",
@@ -1946,7 +2227,13 @@ const CIGARS = [
     description: "Released in three limited runs, the Master Blends series represents the Oliva family blending team's personal passion projects. The third installment — the most critically acclaimed — is a bold, full-bodied Nicaraguan puro with exceptional complexity and construction. Praised as some of the finest work Oliva has ever produced.",
     pairings: ["Bourbon", "Single Malt", "Espresso"],
     yearFounded: 2011,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411747/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Oliva+Master+Blends+3", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Oliva+Master+Blends+3", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Oliva+Master+Blends+3", price: null }
+    ]
   },
   {
     id: "cain-f-habano",
@@ -1969,7 +2256,13 @@ const CIGARS = [
     description: "Cain — named after the Biblical son associated with strength and intensity — is Oliva's ultra-full-bodied sub-brand. The 'F' stands for Fuerte (strong). The filler is 100% triple ligero leaves — the strongest priming from the top of the tobacco plant. An all-out assault on the senses. Not for the faint of heart.",
     pairings: ["Peated Scotch", "Dark Rum", "Black Coffee"],
     yearFounded: 2009,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410802/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Cain+F+Habano", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Cain+F+Habano", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Cain+F+Habano", price: null }
+    ]
   },
   {
     id: "cain-daytona",
@@ -1992,7 +2285,13 @@ const CIGARS = [
     description: "Named after the famous speedway, the Cain Daytona is a wide, short powerhouse — a 4.5×60 that packs triple ligero intensity into a short, fast-burning smoke. The huge ring gauge keeps it cool despite the extreme tobacco strength. One of the most intense short smokes commercially available.",
     pairings: ["Strong Black Coffee", "Peated Scotch", "Dark Rum"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410804/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Cain+Daytona", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Cain+Daytona", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Cain+Daytona", price: null }
+    ]
   },
 
   // ─── NUB — FULL LINEUP ───────────────────────────────────────────────────────
@@ -2017,7 +2316,13 @@ const CIGARS = [
     description: "The Connecticut 460 is the Nub concept applied to a mild, creamy smoke. An Ecuadorian Connecticut wrapper over Nicaraguan filler in a 4×60 format — the generous ring gauge makes it cool-burning and smooth, while the short length ensures you're in the best part of the cigar for its entire duration. A quick, satisfying, silky smoke.",
     pairings: ["Coffee with Cream", "White Wine", "Light Beer"],
     yearFounded: 2008,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1471051/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Connecticut+460", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Connecticut+460", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Connecticut+460", price: null }
+    ]
   },
   {
     id: "nub-habano-460",
@@ -2040,7 +2345,13 @@ const CIGARS = [
     description: "The Habano 460 steps up the Nub formula with a peppery Ecuadorian Habano wrapper for a medium-bodied experience in 30 minutes. Earthy, peppery, and well-balanced — the Nub format proves equally effective for the medium-bodied smoker. Convenient, consistent, and surprisingly complex for its size.",
     pairings: ["Bourbon", "Coffee", "Pale Ale"],
     yearFounded: 2008,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411708/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Habano+460", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Habano+460", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Habano+460", price: null }
+    ]
   },
   {
     id: "nub-maduro-460",
@@ -2063,7 +2374,13 @@ const CIGARS = [
     description: "The Maduro 460 is widely considered the best Nub in the standard lineup. The Connecticut Broadleaf maduro wrapper delivers rich dark chocolate and coffee over the Nicaraguan filler — a combination that's exceptionally satisfying in the short format. The concentrated flavors from the maduro shine from the first puff.",
     pairings: ["Espresso", "Bourbon", "Dark Beer"],
     yearFounded: 2008,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2017205/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Maduro+460", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Maduro+460", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Maduro+460", price: null }
+    ]
   },
   {
     id: "nub-cameroon-508",
@@ -2086,7 +2403,13 @@ const CIGARS = [
     description: "The Cameroon 508 is the rarest and most nuanced Nub — the African Cameroon wrapper adds the brand's signature sweet-spicy paprika character in a slightly longer, fatter format (5×60). The combination of the Cameroon's natural sweetness and Nicaraguan earthiness in the Nub format is genuinely unique.",
     pairings: ["Cognac", "Coffee", "Caramel Cocktail"],
     yearFounded: 2008,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2017204/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Cameroon+508", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Cameroon+508", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Cameroon+508", price: null }
+    ]
   },
   {
     id: "nub-nuance-single-malt",
@@ -2109,7 +2432,13 @@ const CIGARS = [
     description: "Nub's Nuance line pushes the concept further — these cigars are made with filler tobacco that has been aged in single malt Scotch whisky barrels. The result is a subtly malty, oaky note woven through the natural Nicaraguan tobacco character. The Connecticut wrapper keeps it mild and silky. A genuinely innovative concept in flavor pairing.",
     pairings: ["Single Malt Scotch", "Cream Ale", "Earl Grey"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1483764/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Nuance+Single+Malt", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Nuance+Single+Malt", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Nuance+Single+Malt", price: null }
+    ]
   },
   {
     id: "nub-nuance-double-roast",
@@ -2132,7 +2461,13 @@ const CIGARS = [
     description: "The Double Roast ages its Nicaraguan filler tobacco in used espresso coffee bean barrels, creating a genuinely coffee-forward smoke that doesn't rely on artificial infusion. The Habano wrapper adds earthy pepper to complement the coffee character. An elegant, considered approach to flavored cigars that earns the respect of traditional smokers.",
     pairings: ["Espresso", "Coffee Liqueur", "Dark Beer"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1483764/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Nuance+Double+Roast", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Nuance+Double+Roast", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Nuance+Double+Roast", price: null }
+    ]
   },
   {
     id: "nub-nuance-single-roast",
@@ -2155,7 +2490,13 @@ const CIGARS = [
     description: "The Single Roast is the gentler counterpart to the Double Roast — filler tobacco aged in lightly roasted coffee bean barrels for a softer, more delicate coffee character. The Ecuadorian Connecticut wrapper keeps the body mild and creamy, while the single-roast coffee influence adds a light breakfast-coffee sweetness rather than espresso intensity. In the classic 4×60 Nub format, it's a perfect morning smoke.",
     pairings: ["Irish Whiskey", "Tawny Port", "Prosecco", "Lightly Oaked Chardonnay", "Cream Sherry", "White Rum"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1483764/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Nuance+Single+Roast", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Nuance+Single+Roast", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Nuance+Single+Roast", price: null }
+    ]
   },
   {
     id: "nub-habano-torpedo",
@@ -2178,7 +2519,13 @@ const CIGARS = [
     description: "Nub's experiment with the torpedo vitola applied to their signature format — a massive 4.5×64 torpedo that tapers to a point despite its enormous girth. The result is an intriguing draw that shifts constantly as the ring gauge narrows toward the head. Unusual, bold, and surprisingly refined for something so unconventional.",
     pairings: ["Bourbon", "Strong Coffee", "Dark Beer"],
     yearFounded: 2010,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411708/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Nub+Habano+Torpedo", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Nub+Habano+Torpedo", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Nub+Habano+Torpedo", price: null }
+    ]
   },
 
   // ─── ASHTON — FULL LINEUP ────────────────────────────────────────────────────
@@ -2203,7 +2550,13 @@ const CIGARS = [
     description: "Ashton Classic is the foundation of the entire Ashton brand — made at Fuente's Dominican factory since 1985. The Ecuadorian Connecticut wrapper over Fuente-rolled Dominican long-filler delivers a classically mild, creamy smoke with impeccable construction. The standard by which all mild Dominican cigars should be judged.",
     pairings: ["Coffee with Cream", "Brandy", "White Wine"],
     yearFounded: 1985,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410640/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+Classic+Robusto", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+Classic+Robusto", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Ashton+Classic+Robusto", price: null }
+    ]
   },
   {
     id: "ashton-classic-churchill",
@@ -2226,7 +2579,12 @@ const CIGARS = [
     description: "The Ashton Churchill gives the Classic blend its longest runway — a 90-minute leisurely exploration of Dominican creaminess and Ecuadorian Connecticut elegance. As it progresses through the first, second, and third thirds, notes of honey, vanilla, and mild spice emerge in sequence. The perfect after-dinner mild smoke.",
     pairings: ["Cognac", "Brandy", "Café au Lait"],
     yearFounded: 1985,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410640/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+Classic+Churchill", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+Classic+Churchill", price: null }
+    ]
   },
   {
     id: "ashton-cabinet-selection-no1",
@@ -2249,7 +2607,12 @@ const CIGARS = [
     description: "The Cabinet Selection uses tobaccos aged seven years in Fuente's cellars — a significant step up from the Classic in complexity and depth. The extended aging rounds all rough edges, producing an extraordinarily smooth smoke with a long, complex finish. Presented in cedar-lined cabinets of 25, this is Ashton's connoisseur-level offering.",
     pairings: ["Single Malt Scotch", "Cognac", "Port"],
     yearFounded: 1988,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410642/", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+Cabinet+Selection+No+1", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Ashton+Cabinet+Selection", price: null }
+    ]
   },
   {
     id: "ashton-vsg-robusto",
@@ -2272,7 +2635,13 @@ const CIGARS = [
     description: "VSG — Virgin Sun Grown — represents Ashton's boldest departure from their traditional mild profile. A sun-grown Dominican rosado wrapper from Chateau de la Fuente creates a medium-to-full-bodied cigar with sharp pepper and complexity that surprises anyone expecting a typical Ashton. Cigar Aficionado's No. 1 Cigar of the Year 2005.",
     pairings: ["Bourbon", "Aged Rum", "Espresso"],
     yearFounded: 2001,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410608/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+VSG+Robusto", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+VSG+Robusto", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Ashton+VSG+Robusto", price: null }
+    ]
   },
   {
     id: "ashton-vsg-torpedo",
@@ -2295,7 +2664,13 @@ const CIGARS = [
     description: "The VSG Torpedo is considered the crown jewel of the VSG lineup — the tapered head concentrates the oily rosado wrapper's complex pepper and coffee notes to an almost overwhelming degree. An extraordinary Dominican cigar for those who want the Fuente estate's power without the Opus X price tag.",
     pairings: ["Single Malt Scotch", "Aged Rum", "Espresso"],
     yearFounded: 2001,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410608/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+VSG+Torpedo", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+VSG+Torpedo", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Ashton+VSG+Torpedo", price: null }
+    ]
   },
   {
     id: "ashton-heritage-puro-sol",
@@ -2318,7 +2693,13 @@ const CIGARS = [
     description: "The Heritage Puro Sol is a true Dominican puro — wrapper, binder, and filler all from the Dominican Republic. Made at Fuente's factory with a natural Dominican wrapper, it sits between the Classic's mildness and the VSG's power. Medium-bodied, refined, and a fascinating expression of Dominican tobacco without any blending from outside the island.",
     pairings: ["Rum", "Coffee", "Brandy"],
     yearFounded: 1999,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410559/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+Heritage+Puro+Sol", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+Heritage+Puro+Sol", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Ashton+Heritage+Puro+Sol", price: null }
+    ]
   },
   {
     id: "ashton-symmetry",
@@ -2341,7 +2722,12 @@ const CIGARS = [
     description: "Released in 2014, Symmetry was Ashton's attempt to create a truly balanced medium-bodied cigar — hence the name. An Ecuadorian Habano wrapper adds spice and complexity over a blend of Dominican and Nicaraguan filler. Positioned perfectly between the Classic and VSG, it appeals to smokers who want both elegance and substance.",
     pairings: ["Bourbon", "Coffee", "Amber Ale"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1483781/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+Symmetry", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+Symmetry", price: null }
+    ]
   },
   {
     id: "ashton-aged-maduro-no40",
@@ -2364,7 +2750,13 @@ const CIGARS = [
     description: "The Aged Maduro takes the Classic's Dominican base and dresses it in a Connecticut Broadleaf maduro wrapper — a natural sweet-and-dark upgrade to the Classic profile. The aging of both the filler and the wrapper ensures a smooth, never harsh experience with dark chocolate and caramel notes dominating the first two-thirds.",
     pairings: ["Port", "Bourbon", "Dark Coffee"],
     yearFounded: 1998,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410638/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Ashton+Aged+Maduro+No+40", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Ashton+Aged+Maduro+No+40", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Ashton+Aged+Maduro+No+40", price: null }
+    ]
   },
   {
     id: "ashton-small-batch",
@@ -2412,7 +2804,12 @@ const CIGARS = [
     description: "The longest standard size in the Grand Cru range, the No. 1 Lonsdale allows the Davidoff blend to evolve through three distinct flavor stages over 65 minutes. The thin 42-ring gauge makes the Connecticut wrapper dominant, emphasizing the floral and vanilla notes. An elegant, refined expression of Davidoff's core philosophy.",
     pairings: ["Champagne", "Earl Grey", "Café Crème"],
     yearFounded: 1990,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2008798/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Grand+Cru+No+1", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Davidoff+Grand+Cru+No+1", price: null }
+    ]
   },
   {
     id: "davidoff-grand-cru-no3",
@@ -2435,7 +2832,12 @@ const CIGARS = [
     description: "The No. 3 Corona is the most accessible Grand Cru in terms of time commitment — 40 minutes of pure Davidoff creaminess and precision. The shorter format makes it ideal for a business lunch or a daytime break. Same impeccable construction as all Davidoffs, delivered in a quicker format.",
     pairings: ["Café au Lait", "White Wine", "Sparkling Water"],
     yearFounded: 1990,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2008798/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Grand+Cru+No+3", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Grand+Cru+No+3", price: null }
+    ]
   },
   {
     id: "davidoff-grand-cru-no4",
@@ -2458,7 +2860,12 @@ const CIGARS = [
     description: "The No. 4 is the Davidoff you reach for when you only have 30 minutes — a petit corona that distills the Grand Cru essence into a quick, elegant smoke. Despite its size, the construction is flawless and the flavor is unmistakably Davidoff: silky, creamy, and gentle. Perfect for a morning ritual.",
     pairings: ["Morning Coffee", "Breakfast Tea", "Sparkling Water"],
     yearFounded: 1990,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2008798/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Grand+Cru+No+4", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Davidoff+Grand+Cru+No+4", price: null }
+    ]
   },
   {
     id: "davidoff-grand-cru-no5",
@@ -2481,7 +2888,12 @@ const CIGARS = [
     description: "The No. 5 Mareva is the smallest Grand Cru — a 25-minute smoke of exceptional delicacy. For those who want the Davidoff experience but have minimal time, or who prefer a pre-dinner aperitif-style smoke, the No. 5 is the answer. The smallest format Davidoff produces in the Grand Cru line.",
     pairings: ["Champagne", "Sparkling Water", "Light Coffee"],
     yearFounded: 1990,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2008798/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Grand+Cru+No+5", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Grand+Cru+No+5", price: null }
+    ]
   },
   {
     id: "davidoff-winston-churchill-original",
@@ -2504,7 +2916,12 @@ const CIGARS = [
     description: "The original Winston Churchill Robusto — the benchmark of the line before the bolder Late Hour was created. Named to honor Churchill's legendary love of cigars, this Ecuadorian Connecticut-wrapped Dominican is medium-bodied with growing complexity through the smoke. Davidoff's tribute to history at its most refined.",
     pairings: ["Brandy", "Café Crème", "Champagne"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1490649/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Winston+Churchill+Original", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Winston+Churchill+Original", price: null }
+    ]
   },
   {
     id: "davidoff-special-r",
@@ -2527,7 +2944,12 @@ const CIGARS = [
     description: "The 'R' stands for Robusto — the Special R is Davidoff's robusto-extra offering with a slightly longer, wider format than a standard robusto. The additional tobacco extends the smoking time and adds a touch more complexity to the classic Davidoff mild profile. Clean, precise, and delivered with Davidoff's signature impeccable construction.",
     pairings: ["Scotch", "Cognac", "Cream Coffee"],
     yearFounded: 1998,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410937/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Davidoff+Special+R", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Special+R", price: null }
+    ]
   },
   {
     id: "davidoff-special-t",
@@ -2550,7 +2972,12 @@ const CIGARS = [
     description: "The 'T' stands for Torpedo — the Special T is Davidoff's most elegant shaped cigar in their core lineup. The tapered head focuses the Connecticut wrapper's delicate floral and vanilla notes, creating a more intense draw than the regular round-head formats. Among the finest mild torpedos available from any brand.",
     pairings: ["Champagne", "White Wine", "Single Malt"],
     yearFounded: 1998,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410937/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Special+T", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Special+T", price: null }
+    ]
   },
   {
     id: "davidoff-nicaragua",
@@ -2573,7 +3000,12 @@ const CIGARS = [
     description: "When Davidoff released their first Nicaraguan cigar in 2016, it shook the industry — the Swiss brand known exclusively for mild Dominican smokes had made something genuinely bold. The Nicaragua is medium-to-full, earthy, and complex in a way unlike any other Davidoff. A bridge between the Swiss house's elegance and Nicaragua's raw power.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1474796/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Nicaragua", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Nicaragua", price: null }
+    ]
   },
   {
     id: "davidoff-puro-doro",
@@ -2619,7 +3051,13 @@ const CIGARS = [
     description: "The Aniversario is Davidoff's special occasion cigar — produced to commemorate milestones, using tobaccos aged a minimum of ten years. The Gran Corona format commands 90 minutes of your full attention. An extraordinary milestone cigar with rare depth for a Connecticut-wrapped smoke. Given as a gift, never bought casually.",
     pairings: ["Aged Cognac", "Single Malt", "Port"],
     yearFounded: 1993,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1512827/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Aniversario+Special", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Aniversario+Special", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Davidoff+Aniversario+Special", price: null }
+    ]
   },
   {
     id: "davidoff-signature-2000",
@@ -2642,7 +3080,12 @@ const CIGARS = [
     description: "The Signature 2000 is one of Davidoff's most slender cigars — a petit panatela with a 38-ring gauge that maximizes the Connecticut wrapper's delicate floral character. At this ring gauge, the cigar burns slightly warmer and faster, delivering an intense yet brief 35-minute experience of pure mild elegance. A throwback to the classic slim cigar.",
     pairings: ["Morning Coffee", "Champagne", "Light Tea"],
     yearFounded: 1990,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1512828/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Signature+2000", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Signature+2000", price: null }
+    ]
   },
   {
     id: "davidoff-royal-release",
@@ -2665,7 +3108,12 @@ const CIGARS = [
     description: "The Royal Release is Davidoff's most prestigious annual limited release — Connecticut wrapper leaves aged for three additional years beyond standard aging, over Dominican long-filler aged twelve years. The result is a level of smoothness and complexity that defies the mild body: dark fruit, honey, coffee, and cedar weave together in extraordinary harmony. Among the finest cigars made.",
     pairings: ["Aged Cognac", "Armagnac", "Vintage Port"],
     yearFounded: 2010,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+Royal+Release", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+Royal+Release", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Davidoff+Royal+Release", price: null }
+    ]
   },
   {
     id: "davidoff-702-series",
@@ -2688,7 +3136,12 @@ const CIGARS = [
     description: "Named after the 702 — Davidoff's Geneva telephone exchange — this series represents the brand's classic mild expression in a modern format. Connecticut Shade wrapper from Connecticut's own farms, not Ecuador, gives the 702 a slightly different character: grassier and lighter than the Ecuadorian versions, with the same flawless Davidoff construction.",
     pairings: ["Champagne", "White Wine", "Light Coffee"],
     yearFounded: 1995,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2004119/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Davidoff+702+Series", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Davidoff+702+Series", price: null }
+    ]
   },
 
   {
@@ -2712,7 +3165,13 @@ const CIGARS = [
     description: "Willy Herrera blends Herrera Estelí Miami at Drew Estate's factory, incorporating the vibrant energy of Miami's Little Havana into a full-bodied Nicaraguan smoke. Peppery, earthy, and complex with excellent construction. A fantastic representation of what Nicaragua's Estelí region produces.",
     pairings: ["Café Cubano", "Rum", "Bourbon"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2015114/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Herrera+Esteli+Miami", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Herrera+Esteli+Miami", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Herrera+Esteli+Miami", price: null }
+    ]
   },
 
   // ─── ALEC BRADLEY ────────────────────────────────────────────────────────────
@@ -2737,7 +3196,13 @@ const CIGARS = [
     description: "The Black Market lives up to its underground name — an oily Nicaraguan Habano wrapper over a three-country blend that punches well above its weight class. Medium-to-full body with a deep earthy core and dark chocolate finish. One of the best values in Alec Bradley's lineup for smokers who want the Prensado experience at a lower price point.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2010,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410616/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Alec+Bradley+Black+Market", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Alec+Bradley+Black+Market", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Alec+Bradley+Black+Market", price: null }
+    ]
   },
   {
     id: "alec-bradley-tempus",
@@ -2808,7 +3273,13 @@ const CIGARS = [
     description: "The Vintage 1999 Connecticut is Rocky Patel's best-selling mild cigar — an Ecuadorian Connecticut wrapper over genuinely vintage-aged Dominican and Nicaraguan filler. Creamy, smooth, and consistent, it's the cigar that built Rocky Patel's reputation as an accessible premium blender. Perfect for morning or daytime smoking.",
     pairings: ["Coffee with Cream", "White Wine", "Light Beer"],
     yearFounded: 2003,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1412238/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Rocky+Patel+Vintage+1999", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Rocky+Patel+Vintage+1999", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Rocky+Patel+Vintage+1999", price: null }
+    ]
   },
   {
     id: "rocky-patel-vintage-2006",
@@ -2831,7 +3302,13 @@ const CIGARS = [
     description: "A bold departure from Rocky Patel's typical Connecticut comfort zone — the Vintage 2006 wraps a dual broadleaf construction in a Mexican San Andrés wrapper that adds distinctive earthy depth. The Connecticut Broadleaf binder underneath creates an unusual layered sweetness. Medium-bodied and more complex than its price suggests.",
     pairings: ["Bourbon", "Dark Coffee", "Amber Ale"],
     yearFounded: 2008,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2008193/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Rocky+Patel+Vintage+2006", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Rocky+Patel+Vintage+2006", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Rocky+Patel+Vintage+2006", price: null }
+    ]
   },
   {
     id: "rocky-patel-gold-label",
@@ -2854,7 +3331,13 @@ const CIGARS = [
     description: "The Gold Label represents Rocky Patel's premium tier — an Ecuadorian Habano wrapper over a rare dual-binder construction combining Connecticut Shade and Connecticut Broadleaf leaves in a single cigar. The result is exceptional complexity: the broadleaf adds sweetness and body while the shade keeps the draw refined and smooth.",
     pairings: ["Bourbon", "Rye Whiskey", "Espresso"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2056181/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Rocky+Patel+Gold+Label", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Rocky+Patel+Gold+Label", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Rocky+Patel+Gold+Label", price: null }
+    ]
   },
   {
     id: "rocky-patel-fifteenth-anniversary",
@@ -2877,7 +3360,13 @@ const CIGARS = [
     description: "Created to celebrate Rocky Patel's 15 years in the premium cigar industry, the 15th Anniversary uses tobaccos aged at least 15 years — the most extensively aged blend in the Rocky Patel portfolio. An Ecuadorian Sumatra wrapper brings oily, dark complexity to a full-bodied Nicaraguan core. One of his finest achievements.",
     pairings: ["Single Malt Scotch", "Aged Bourbon", "Espresso"],
     yearFounded: 2010,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411972/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Rocky+Patel+Fifteenth+Anniversary", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Rocky+Patel+15th+Anniversary", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Rocky+Patel+15th+Anniversary", price: null }
+    ]
   },
 
   // ─── CAO ─────────────────────────────────────────────────────────────────────
@@ -2902,7 +3391,13 @@ const CIGARS = [
     description: "The Brazilian Arapiraca wrapper on the CAO Brazilia brings a distinctive dark, toasty character unlike anything from Honduras or Nicaragua. A hint of anise and dark cocoa weave through the earthy Jamastran core, making this one of the most unique medium-bodied expressions in CAO's lineup. Underrated and consistently excellent.",
     pairings: ["Dark Rum", "Espresso", "Stout Beer"],
     yearFounded: 2004,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411733/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=CAO+Brazilia", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=CAO+Brazilia", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=CAO+Brazilia", price: null }
+    ]
   },
   {
     id: "cao-nicaragua",
@@ -2925,7 +3420,13 @@ const CIGARS = [
     description: "A counterintuitive cigar — Honduran wrapper and binder over Nicaraguan filler, made for CAO at their Honduran factory. The result is a more laid-back, medium-bodied profile that showcases Nicaraguan earthy complexity without the full pepper punch of a true Nicaraguan puro. An accessible, food-friendly everyday smoke.",
     pairings: ["Coffee", "Light Beer", "Bourbon"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2014966/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=CAO+Nicaragua", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=CAO+Nicaragua", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=CAO+Nicaragua", price: null }
+    ]
   },
   {
     id: "cao-flathead-v660",
@@ -2948,7 +3449,13 @@ const CIGARS = [
     description: "The Flathead line is CAO's hot-rod themed box-pressed collection — the V660 ('V' for the engine configuration, '660' for 6×60) is the sweet spot. A huge ring gauge keeps the burn cool and the smoke volume enormous. The Ecuadorian Habano wrapper over a Nicaraguan-Honduran blend delivers rich, earthy, full-bodied complexity.",
     pairings: ["Bourbon", "Dark Beer", "Strong Coffee"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1510029/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=CAO+Flathead+V660", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=CAO+Flathead+V660", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=CAO+Flathead+V660", price: null }
+    ]
   },
   {
     id: "cao-italia",
@@ -2971,7 +3478,13 @@ const CIGARS = [
     description: "One of the most unconventional cigars in premium production — the CAO Italia incorporates actual Italian tobacco in its binder, a nod to Italy's long-forgotten cigar tradition. The result is a subtly sweet, slightly unusual character that distinguishes it from any Honduran blend. The oily caramel-hued wrapper contributes natural sweetness and spice.",
     pairings: ["Grappa", "Espresso", "Aged Balsamic"],
     yearFounded: 2002,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411335/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=CAO+Italia", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=CAO+Italia", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=CAO+Italia", price: null }
+    ]
   },
 
   // ─── MACANUDO ────────────────────────────────────────────────────────────────
@@ -2996,7 +3509,13 @@ const CIGARS = [
     description: "Macanudo's maduro offering maintains the brand's signature mildness while adding the dark sweetness of a Connecticut Broadleaf wrapper. The Maduro version of Macanudo's classic blend is a gentle introduction to maduro cigars — sweet, creamy, and non-threatening. A great step up for Café smokers curious about darker wrappers.",
     pairings: ["Coffee with Cream", "Hot Chocolate", "Light Beer"],
     yearFounded: 1968,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1503430/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Macanudo+Maduro", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Macanudo+Maduro", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Macanudo+Maduro", price: null }
+    ]
   },
   {
     id: "macanudo-gold-label",
@@ -3019,7 +3538,13 @@ const CIGARS = [
     description: "The Gold Label sits at the apex of the Macanudo mild lineup — a rare, naturally golden Connecticut Shade wrapper gives this cigar a distinctive sun-kissed appearance and an especially sweet, creamy character. For smokers who treasure the Macanudo Café experience but want something more refined and distinguished.",
     pairings: ["Champagne", "White Wine", "Earl Grey Tea"],
     yearFounded: 1992,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1503441/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Macanudo+Gold+Label", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Macanudo+Gold+Label", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Macanudo+Gold+Label", price: null }
+    ]
   },
   {
     id: "macanudo-inspirado-white",
@@ -3042,7 +3567,13 @@ const CIGARS = [
     description: "The Inspirado White bridges Macanudo's traditional mild Dominican style with Nicaraguan filler — the result is slightly more complex than the Café while remaining approachable. The Ecuadorian Connecticut wrapper delivers cream and vanilla, while the Nicaraguan interior adds a subtle earthiness that the original Macanudo lacks.",
     pairings: ["White Wine", "Coffee with Cream", "Sparkling Water"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1509248/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Macanudo+Inspirado+White", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Macanudo+Inspirado+White", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Macanudo+Inspirado+White", price: null }
+    ]
   },
   {
     id: "macanudo-cru-royale",
@@ -3065,7 +3596,13 @@ const CIGARS = [
     description: "The Cru Royale is the most complex cigar in the Macanudo portfolio — an Ecuadorian Habano wrapper over a three-country filler blend that includes Brazilian tobacco for unusual depth. Leather, almonds, and cashews are the defining notes. A medium-bodied cigar that challenges the brand's mild reputation in the most pleasant way.",
     pairings: ["Cognac", "Coffee", "Cream Sherry"],
     yearFounded: 2018,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1503378/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Macanudo+Cru+Royale", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Macanudo+Cru+Royale", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Macanudo+Cru+Royale", price: null }
+    ]
   },
 
   // ─── ROMEO Y JULIETA (NON-CUBAN) ─────────────────────────────────────────────
@@ -3090,7 +3627,13 @@ const CIGARS = [
     description: "The 1875 Natural uses an Indonesian Java Shade wrapper that gives it a darker, earthier character than the Connecticut version. Rated 92 by Cigar Aficionado, it's the more complex sibling — the Java wrapper adds leather and mild spice that elevates the standard Dominican blend. An accessible everyday premium with genuine character.",
     pairings: ["Bourbon", "Coffee", "Light Beer"],
     yearFounded: 1875,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411962/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Romeo+y+Julieta+1875+Natural", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Romeo+y+Julieta+1875+Natural", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Romeo+y+Julieta+1875+Natural", price: null }
+    ]
   },
   {
     id: "romeo-y-julieta-reserva-real",
@@ -3113,7 +3656,13 @@ const CIGARS = [
     description: "The Reserva Real is General Cigar's premium Romeo offering — Ecuadorian Connecticut wrapper over aged Dominican and Nicaraguan filler. Smoother and more complex than the 1875, with a richer tobacco base and a longer finish. The reserved aging of the filler tobacco is noticeable: this is a more sophisticated, polished smoke.",
     pairings: ["Brandy", "Coffee", "White Wine"],
     yearFounded: 1992,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411943/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Romeo+y+Julieta+Reserva+Real", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Romeo+y+Julieta+Reserva+Real", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Romeo+y+Julieta+Reserva+Real", price: null }
+    ]
   },
   {
     id: "romeo-y-julieta-nicaragua",
@@ -3186,7 +3735,13 @@ const CIGARS = [
     description: "Rafael Nodal's Aging Room brand is built around a single obsession: time. The Quattro Original uses a 9-year-aged Indonesian Sumatra wrapper over Cuban-seed Dominican filler — the extended aging creates a smoothness and depth unusual for Dominican tobacco. Complex, dark-fruit forward, and unlike anything else from this island.",
     pairings: ["Aged Rum", "Cognac", "Dried Fruit"],
     yearFounded: 2011,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1480304/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Aging+Room+Quattro+Original", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Aging+Room+Quattro+Original", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Aging+Room+Quattro+Original", price: null }
+    ]
   },
   {
     id: "aging-room-quattro-nicaragua",
@@ -3209,7 +3764,13 @@ const CIGARS = [
     description: "The Nicaraguan Puro entry in Aging Room's lineup applies Nodal's aging philosophy to Estelí tobacco — and the results are impressive. A medium-to-full Nicaraguan puro with the polish and smoothness that comes from extended aging. The pepper-forward Estelí profile is rounded by the Aging Room's deliberate rest periods.",
     pairings: ["Bourbon", "Dark Coffee", "Dark Beer"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2016291/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Aging+Room+Quattro+Nicaragua", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Aging+Room+Quattro+Nicaragua", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Aging+Room+Quattro+Nicaragua", price: null }
+    ]
   },
   {
     id: "aging-room-rare-collection",
@@ -3232,7 +3793,12 @@ const CIGARS = [
     description: "Aging Room's full-strength showcase — the Rare Collection is produced in very limited quantities using only the finest tobacco lots from Nodal's aging inventory. The Vivace (6×60) is the standout size: massive smoke output, full body, and the complexity that only extended aging can deliver. For those who want Aging Room's craft at its most intense.",
     pairings: ["Peated Scotch", "Dark Rum", "Espresso"],
     yearFounded: 2016,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Aging+Room+Rare+Collection", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Aging+Room+Rare+Collection", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Aging+Room+Rare+Collection", price: null }
+    ]
   },
 
   // ─── CROWNED HEADS ────────────────────────────────────────────────────────────
@@ -3257,7 +3823,13 @@ const CIGARS = [
     description: "The cigar that put Crowned Heads on the map — and named after a Clash song. The Four Kicks blends an Ecuadorian Habano wrapper over Nicaraguan filler for a medium-bodied smoke with excellent balance. Neither too bold nor too mild, it sits comfortably in the sweet spot that appeals to both new enthusiasts and seasoned aficionados.",
     pairings: ["Bourbon", "Pale Ale", "Coffee"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1471111/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Crowned+Heads+Four+Kicks", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Crowned+Heads+Four+Kicks", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Crowned+Heads+Four+Kicks", price: null }
+    ]
   },
   {
     id: "crowned-heads-four-kicks-maduro",
@@ -3280,7 +3852,12 @@ const CIGARS = [
     description: "The maduro version of the beloved Four Kicks steps up the body considerably with a Connecticut Broadleaf wrapper that adds rich dark chocolate and deep earthiness. Many aficionados consider this the superior expression of the blend — the maduro's natural sweetness perfectly complements the Nicaraguan filler's bold character.",
     pairings: ["Bourbon", "Dark Beer", "Dark Espresso"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2010657/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Crowned+Heads+Four+Kicks+Maduro", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Crowned+Heads+Four+Kicks+Maduro", price: null }
+    ]
   },
   {
     id: "crowned-heads-mil-dias",
@@ -3303,7 +3880,13 @@ const CIGARS = [
     description: "A genuinely unusual blend — Costa Rican, Peruvian, and Nicaraguan filler tobaccos under a Ecuadorian Habano wrapper. The Peruvian tobacco in particular gives Mil Días a distinctive dark fruit and dried herb complexity that sets it apart from conventional Nicaraguan blends. Crowned Heads' most ambitious and most debated cigar.",
     pairings: ["Dark Rum", "Cognac", "Dried Fruit and Cheese"],
     yearFounded: 2018,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2035934/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Crowned+Heads+Mil+Dias", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Crowned+Heads+Mil+Dias", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Crowned+Heads+Mil+Dias", price: null }
+    ]
   },
 
   // ─── LA AROMA DE CUBA ────────────────────────────────────────────────────────
@@ -3328,7 +3911,13 @@ const CIGARS = [
     description: "Blended by José 'Pepin' García at his Estelí factory, La Aroma de Cuba revives Winston Churchill's favorite Cuban brand as a Nicaraguan production. The Connecticut Broadleaf maduro wrapper over Cuban-seed Nicaraguan filler creates a cigar that genuinely echoes the old Havana character — earthy, complex, and deeply satisfying. Rated 94 and named Best Buy.",
     pairings: ["Cognac", "Dark Rum", "Espresso"],
     yearFounded: 2008,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1466911/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=La+Aroma+de+Cuba+Original", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=La+Aroma+de+Cuba+Original", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=La+Aroma+de+Cuba+Original", price: null }
+    ]
   },
   {
     id: "la-aroma-de-cuba-mi-amor",
@@ -3351,7 +3940,13 @@ const CIGARS = [
     description: "Mi Amor ('My Love') is García's most passionate blend for the La Aroma de Cuba brand — a dark Mexican San Andrés wrapper over aged Nicaraguan filler. Full of bold dark chocolate, deep earth, and lingering sweet spice, it's an intensely romantic cigar in the best sense: demanding full attention and full commitment.",
     pairings: ["Añejo Tequila", "Dark Rum", "Rich Coffee"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410431/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=La+Aroma+de+Cuba+Mi+Amor", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=La+Aroma+de+Cuba+Mi+Amor", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=La+Aroma+de+Cuba+Mi+Amor", price: null }
+    ]
   },
   {
     id: "la-aroma-de-cuba-mi-amor-reserva",
@@ -3374,7 +3969,13 @@ const CIGARS = [
     description: "The Reserva takes the Mi Amor to its extreme — a deeply fermented Mexican San Andrés Oscuro wrapper over extra-aged Nicaraguan filler. One of García's most intense creations: full-bodied, full-strength, and extraordinarily complex. The oscuro wrapper is almost black, oily, and packed with concentrated dark earth and espresso intensity.",
     pairings: ["Peated Scotch", "Añejo Tequila", "Black Espresso"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410432/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=La+Aroma+de+Cuba+Mi+Amor+Reserva", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=La+Aroma+de+Cuba+Mi+Amor+Reserva", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=La+Aroma+de+Cuba+Mi+Amor+Reserva", price: null }
+    ]
   },
 
   // ─── MONTECRISTO (NON-CUBAN) ──────────────────────────────────────────────────
@@ -3399,7 +4000,13 @@ const CIGARS = [
     description: "Rated 94 by Cigar Aficionado, the Montecristo Platinum is the most acclaimed non-Cuban Montecristo ever made. A Cuban-seed San Andrés wrapper imparts unusual dark fruit, hickory, and leather notes over a Dominican-Nicaraguan blend. This is what General Cigar can do when they push beyond the comfort zone of the standard Montecristo lines.",
     pairings: ["Bourbon", "Dark Rum", "Dark Coffee"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410539/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Montecristo+Platinum", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Montecristo+Platinum", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Montecristo+Platinum", price: null }
+    ]
   },
   {
     id: "montecristo-1935-anniversary",
@@ -3422,7 +4029,13 @@ const CIGARS = [
     description: "Made at the San Lotano factory in Ocotal, Nicaragua, and aged two additional years after rolling — the 1935 Anniversary Nicaragua is the finest non-Cuban Montecristo ever produced. Rated 97, it's a full-bodied, box-pressed Nicaraguan puro of extraordinary complexity. The additional aging softens the pepper edge into a rich, integrated masterpiece.",
     pairings: ["Single Malt Scotch", "Bourbon", "Espresso"],
     yearFounded: 2010,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2036257/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Montecristo+1935+Anniversary", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Montecristo+1935+Anniversary", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Montecristo+1935+Anniversary", price: null }
+    ]
   },
 
   // ─── H. UPMANN (NON-CUBAN) ───────────────────────────────────────────────────
@@ -3447,7 +4060,13 @@ const CIGARS = [
     description: "A thoughtfully blended tribute to H. Upmann's 1844 founding — the Ecuadorian Habano wrapper brings a distinctive toasted marshmallow sweetness that sets this apart from any other Upmann. The Nicaraguan binder provides body while the Dominican filler keeps things smooth and approachable. Rated 93 by Cigar Aficionado.",
     pairings: ["Cognac", "Coffee", "Cream Sherry"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411275/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=H+Upmann+1844+Reserve", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=H+Upmann+1844+Reserve", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=H+Upmann+1844+Reserve", price: null }
+    ]
   },
   {
     id: "h-upmann-banker",
@@ -3470,7 +4089,13 @@ const CIGARS = [
     description: "The Banker series is H. Upmann's premium flagship — named for the banking heritage of the original H. Upmann brand (founded by a Hamburg banker in 1844). Medium-to-full bodied with an Ecuadorian Habano wrapper over a Dominican-Nicaraguan blend, the Banker brings genuine sophistication to the non-Cuban Upmann catalog.",
     pairings: ["Scotch", "Cognac", "Rich Coffee"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1481886/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=H+Upmann+Banker", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=H+Upmann+Banker", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=H+Upmann+Banker", price: null }
+    ]
   },
 
   // ─── CAMACHO (ADDITIONAL) ────────────────────────────────────────────────────
@@ -3543,7 +4168,12 @@ const CIGARS = [
     description: "The Original Documents (OD) Habano is Dion Giolito's signature blend — a Nicaraguan Corojo 99 wrapper grown by AJ Fernandez over Estelí and Jalapa filler. Rated #5 Cigar of the Year 2023 by Cigar Aficionado. Giolito's philosophy of balance and nuance over raw power makes this a medium-to-full smoke of exceptional refinement. Delicately spicy, surprisingly sweet.",
     pairings: ["Bourbon", "Coffee", "Dark Rum"],
     yearFounded: 2009,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2007580/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Illusione+OD+Habano", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Illusione+OD+Habano", price: null }
+    ]
   },
   {
     id: "illusione-garagiste",
@@ -3591,7 +4221,13 @@ const CIGARS = [
     description: "The Undercrown story is famous in cigar culture: Drew Estate's factory floor torcedores blended this cigar for themselves when Liga Privada allocations were restricted. The Maduro version uses a Mexican Otapan Negro wrapper that's even darker and sweeter than the original. Coffee, hickory, and vanilla over the Brazilian Mata Fina binder — extraordinary value from one of the world's best factories.",
     pairings: ["Bourbon", "Stout Beer", "Dark Espresso"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411553/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Undercrown+Maduro", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Undercrown+Maduro", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Undercrown+Maduro", price: null }
+    ]
   },
   {
     id: "undercrown-sun-grown",
@@ -3614,7 +4250,12 @@ const CIGARS = [
     description: "The Sun Grown counterpart to the Undercrown Maduro — an Ecuadorian Sumatra sun-grown wrapper over the same Connecticut River Valley habano binder and Nicaraguan filler. Earthier, more peppery, and slightly less sweet than the Maduro, the Sun Grown is the choice for those who want the Undercrown power without the maduro's dark sweetness.",
     pairings: ["Bourbon", "Dark Beer", "Black Coffee"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2005045/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Undercrown+Sun+Grown", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Undercrown+Sun+Grown", price: null }
+    ]
   },
   {
     id: "undercrown-shade",
@@ -3637,7 +4278,13 @@ const CIGARS = [
     description: "Drew Estate's answer for smokers who love the Undercrown blend but prefer a milder wrapper — a silky Ecuadorian Connecticut Shade over the same bold Connecticut River Valley habano binder that defines the line. The contrast between mild wrapper and assertive binder creates an unusual, layered smoke: creamy on the draw, complex in the finish.",
     pairings: ["Coffee", "Light Beer", "Bourbon"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1496059/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Undercrown+Shade", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Undercrown+Shade", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Undercrown+Shade", price: null }
+    ]
   },
 
   // ─── FOUNDATION CIGAR CO. ────────────────────────────────────────────────────
@@ -3662,7 +4309,13 @@ const CIGARS = [
     description: "Nicholas Melillo's second great creation after El Güegüense — The Tabernacle uses a Connecticut Broadleaf maduro wrapper over a Mexican San Andrés binder, creating an extraordinarily complex maduro with full-body and a long, rich finish. Made at AJ Fernandez's Estelí factory with the same precision that makes Fernandez's own blends world-class.",
     pairings: ["Bourbon", "Port", "Dark Espresso"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2006598/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Foundation+Tabernacle", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Foundation+Tabernacle", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Foundation+Tabernacle", price: null }
+    ]
   },
   {
     id: "foundation-charter-oak",
@@ -3685,7 +4338,13 @@ const CIGARS = [
     description: "Foundation's most affordable cigar and one of the best values in the premium maduro category. The Charter Oak uses a Connecticut Broadleaf maduro wrapper over a pure Nicaraguan core — delivering genuine complexity at an everyday price. For those who want the Foundation experience without the Tabernacle or El Güegüense price point.",
     pairings: ["Bourbon", "Dark Beer", "Black Coffee"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2005788/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Foundation+Charter+Oak", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Foundation+Charter+Oak", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Foundation+Charter+Oak", price: null }
+    ]
   },
 
   // ─── TATUAJE ─────────────────────────────────────────────────────────────────
@@ -3710,7 +4369,12 @@ const CIGARS = [
     description: "Pete Johnson's flagship cigar and the one that established Tatuaje as a boutique powerhouse. The Brown Label uses an Ecuadorian Habano wrapper over aged Nicaraguan long-filler from My Father's factory in Estelí. A full-bodied, cedar-and-leather smoke with an unusual molasses sweetness that makes it unmistakably Tatuaje.",
     pairings: ["Bourbon", "Dark Rum", "Strong Coffee"],
     yearFounded: 2003,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410291/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Tatuaje+Brown+Label", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Tatuaje+Brown+Label", price: null }
+    ]
   },
   {
     id: "tatuaje-havana-vi",
@@ -3733,7 +4397,13 @@ const CIGARS = [
     description: "The Red Label — the Havana VI — is Pete Johnson's medium-strength everyday offering. A full Nicaraguan puro with a smooth, approachable character that belies the Tatuaje brand's reputation for power. Rich cocoa, mild pepper, and a natural tobacco sweetness make this one of the best medium-bodied everyday choices from any boutique brand.",
     pairings: ["Coffee", "Bourbon", "Rum"],
     yearFounded: 2005,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410277/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Tatuaje+Havana+VI", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Tatuaje+Havana+VI", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Tatuaje+Havana+VI", price: null }
+    ]
   },
   {
     id: "tatuaje-reserva",
@@ -3756,7 +4426,13 @@ const CIGARS = [
     description: "The Reserva is Tatuaje's maduro expression — a dark Connecticut Broadleaf wrapper over the same aged Nicaraguan core as the Brown Label. Where the Brown Label showcases the ecuadorian habano's spice, the Reserva showcases the broadleaf's dark cocoa and coffee sweetness. A more rounded, contemplative smoke for those who've worked through the standard lineup.",
     pairings: ["Bourbon", "Port", "Dark Espresso"],
     yearFounded: 2009,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1481257/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Tatuaje+Reserva", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Tatuaje+Reserva", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Tatuaje+Reserva", price: null }
+    ]
   },
 
   // ─── E.P. CARRILLO ────────────────────────────────────────────────────────────
@@ -3781,7 +4457,13 @@ const CIGARS = [
     description: "Cigar Aficionado's #1 Cigar of the Year 2018 — the Encore is a statement cigar from Ernesto Perez-Carrillo Jr. A lustrous reddish-brown Nicaraguan Habano Rosado wrapper over a full-bodied Nicaraguan blend creates a full-strength smoke of extraordinary complexity. Pepper-forward with dark chocolate depth, it represents Carrillo at his most masterful.",
     pairings: ["Single Malt Scotch", "Aged Bourbon", "Espresso"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2012402/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=EP+Carrillo+Encore", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=EP+Carrillo+Encore", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=EP+Carrillo+Encore", price: null }
+    ]
   },
   {
     id: "ep-carrillo-pledge",
@@ -3804,7 +4486,13 @@ const CIGARS = [
     description: "Rated 98 points and named Cigar Aficionado's #1 Cigar of the Year 2020 — the Pledge is perhaps Ernesto Perez-Carrillo Jr.'s greatest achievement. A Cuban-seed Connecticut Broadleaf maduro wrapper over premium Nicaraguan filler creates a cigar of uncommon power and elegance simultaneously. The 98-point rating is one of the highest ever awarded to a production cigar.",
     pairings: ["Aged Bourbon", "Cognac", "Dark Espresso"],
     yearFounded: 2019,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2036368/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=EP+Carrillo+Pledge", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=EP+Carrillo+Pledge", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=EP+Carrillo+Pledge", price: null }
+    ]
   },
   {
     id: "ep-carrillo-new-wave-connecticut",
@@ -3852,7 +4540,13 @@ const CIGARS = [
     description: "Cigar Aficionado's #1 Cigar of the Year 2012 — the Flor de las Antillas ('Flower of the Antilles') is the García family's most celebrated production cigar. A full Nicaraguan puro with a Habano wrapper delivering bold pepper, coffee, and cedar over a complex Estelí core. One of the most consistently excellent and available premium Nicaraguan cigars.",
     pairings: ["Bourbon", "Dark Rum", "Espresso"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411602/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=My+Father+Flor+de+las+Antillas", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=My+Father+Flor+de+las+Antillas", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=My+Father+Flor+de+las+Antillas", price: null }
+    ]
   },
   {
     id: "my-father-the-judge",
@@ -3875,7 +4569,13 @@ const CIGARS = [
     description: "The Judge is Jaime García's personal tribute to maximum intensity — a dark Sumatra Oscuro wrapper over full-strength Nicaraguan filler in a massive 6×56 format. One of the boldest production cigars from the García factory. The huge ring gauge burns cool despite the full-strength tobacco, making the intensity manageable for experienced smokers.",
     pairings: ["Peated Scotch", "Dark Rum", "Black Espresso"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1511038/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=My+Father+The+Judge", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=My+Father+The+Judge", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=My+Father+The+Judge", price: null }
+    ]
   },
   {
     id: "don-pepin-garcia-original",
@@ -3898,7 +4598,13 @@ const CIGARS = [
     description: "The original blend that made José 'Pepin' García famous — before My Father, before Le Bijou, there was the Don Pepin Garcia Blue Label. A glistening reddish-brown Corojo Oscuro wrapper over aged Nicaraguan filler. Rated 95, it's a full-strength, full-flavored powerhouse that defined a generation of Nicaraguan cigar making. The origin of a dynasty.",
     pairings: ["Dark Rum", "Espresso", "Rye Whiskey"],
     yearFounded: 2003,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411395/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Don+Pepin+Garcia+Original", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Don+Pepin+Garcia+Original", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Don+Pepin+Garcia+Original", price: null }
+    ]
   },
 
   // ─── HERRERA ESTELÍ ──────────────────────────────────────────────────────────
@@ -3923,7 +4629,13 @@ const CIGARS = [
     description: "Named Cigar Aficionado's #1 Cigar of the Year 2021 — Willy Herrera's masterpiece and the cigar that put Herrera Estelí permanently on the map. The Ecuadorian Habano wrapper over Honduran binder and Nicaraguan filler creates a medium-to-full-bodied smoke of exceptional balance. Peppery, earthy, and consistently excellent. Outstanding value at this price.",
     pairings: ["Bourbon", "Dark Coffee", "Amber Ale"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2016310/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Herrera+Esteli+Robusto+Grande", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Herrera+Esteli+Robusto+Grande", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Herrera+Esteli+Robusto+Grande", price: null }
+    ]
   },
   {
     id: "herrera-esteli-brazilian-maduro",
@@ -3971,7 +4683,13 @@ const CIGARS = [
     description: "Released in 2023 to celebrate Perdomo's 30th anniversary, this box-pressed maduro is the brand's boldest statement yet. The Nicaraguan maduro wrapper is aged in bourbon barrels — a process that imparts a subtle oak and vanilla sweetness to complement the espresso and mocha character. The 15-year-aged Nicaraguan filler makes this the most complex Perdomo ever made.",
     pairings: ["Bourbon", "Port", "Dark Espresso"],
     yearFounded: 2023,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2054672/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Perdomo+30th+Anniversary+Maduro", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Perdomo+30th+Anniversary+Maduro", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Perdomo+30th+Anniversary+Maduro", price: null }
+    ]
   },
   {
     id: "perdomo-inmenso-seventy",
@@ -3994,7 +4712,12 @@ const CIGARS = [
     description: "The Inmenso Seventy is built around a single extraordinary fact: a 70 ring gauge. Among the widest commercially produced premium cigars, the massive format burns remarkably cool, allowing the full-bodied Nicaraguan maduro blend to develop slowly and completely. A two-hour commitment for serious Perdomo fans who want maximum smoke volume and extended complexity.",
     pairings: ["Aged Bourbon", "Strong Coffee", "Dark Stout Beer"],
     yearFounded: 2021,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2039946/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Perdomo+Inmenso+Seventy", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Perdomo+Inmenso+Seventy", price: null }
+    ]
   },
 
   // ─── QUESADA ─────────────────────────────────────────────────────────────────
@@ -4019,7 +4742,12 @@ const CIGARS = [
     description: "Named for the founding year of the Quesada family's Dominican cigar operation, the 1974 is one of the few cigars to use a dual-leaf wrapper construction — both Cameroon and Ecuadorian leaves combined. The Cameroon delivers its signature sweet spice while the Ecuadorian adds body and smoothness. A unique, refined medium-bodied Dominican.",
     pairings: ["Cognac", "Caramel Coffee", "Cream Sherry"],
     yearFounded: 1974,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Quesada+1974", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Quesada+1974", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Quesada+1974", price: null }
+    ]
   },
 
   // ─── DUNBARTON TOBACCO & TRUST ───────────────────────────────────────────────
@@ -4044,7 +4772,14 @@ const CIGARS = [
     description: "The Triqui Traca (named after a Mexican firecracker) is a sub-line of Steve Saka's Mi Querida — all Connecticut Broadleaf-wrapped and using a Nicaraguan and Dominican Republic filler blend. The dark, oily Broadleaf wrapper delivers crackling pepper, dark chocolate, and deep earth with a sweetness that the Connecticut Broadleaf leaf is famous for. One of the most critically acclaimed Dunbarton releases, rated 95 by Halfwheel.",
     pairings: ["Rye Whiskey", "Dark Rum", "Espresso"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2026386/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Mi+Querida+Triqui+Traca", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Mi+Querida+Triqui+Traca", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Mi+Querida+Triqui+Traca", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Dunbarton+Mi+Querida+Triqui+Traca", price: null }
+    ]
   },
   {
     id: "dunbarton-mi-querida-seriocomica",
@@ -4090,7 +4825,14 @@ const CIGARS = [
     description: "Named after the French dessert, the Sobremesa Brûlée is Steve Saka's declaration that mild cigars can be extraordinary. Identified by its green band, the Brûlée wraps a silky Ecuadorian Connecticut over aged Nicaraguan Jalapa and Condega filler — a combination that produces a dessert-like creaminess with toasted caramel notes and a perfectly even burn. Rated 94, it's widely considered one of the finest mild cigars ever made by a boutique blender.",
     pairings: ["Champagne", "Crème Brûlée", "Café au Lait"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2025321/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Sobremesa+Brulee", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Sobremesa+Brulee", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Sobremesa+Brulee", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Dunbarton+Sobremesa+Brulee", price: null }
+    ]
   },
   {
     id: "dunbarton-sobremesa-madurito",
@@ -4136,7 +4878,13 @@ const CIGARS = [
     description: "Todos Las Dias ('Every Day') is Saka's affordable everyday Nicaraguan — his answer to the question of what a $9 boutique cigar can be. A Nicaraguan Habano wrapper over Estelí filler delivers honest earth, cedar, and coffee character without pretension. Not trying to be anything other than a reliable, consistently enjoyable daily smoke from one of the industry's most respected blenders.",
     pairings: ["Morning Coffee", "Bourbon", "Light Beer"],
     yearFounded: 2017,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Todos+Las+Dias", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Todos+Las+Dias", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Dunbarton+Todos+Las+Dias", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Todos+Las+Dias", price: null }
+    ]
   },
   {
     id: "dunbarton-mi-querida-sakakhan",
@@ -4159,7 +4907,13 @@ const CIGARS = [
     description: "The SakaKhan is part of Mi Querida Black — Dunbarton's premium tier within the Mi Querida family. The Connecticut Broadleaf wrapper (dark) combined with a Mexican San Andrés Negro binder over a Dominican, Honduran, and Nicaraguan filler creates an exceptionally complex full-strength double corona. Named after a powerful Mongol khan, it's a long, commanding smoke with dark chocolate, espresso, leather, and waves of pepper throughout. One of the most ambitious Mi Querida expressions.",
     pairings: ["Añejo Rum", "Peated Scotch", "Black Espresso", "Mezcal"],
     yearFounded: 2023,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2047615/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Mi+Querida+Sakakhan", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Mi+Querida+Sakakhan", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Dunbarton+Mi+Querida+Sakakhan", price: null }
+    ]
   },
 
   // ─── DUNBARTON — ADDITIONAL LINES ───────────────────────────────────────────
@@ -4184,7 +4938,14 @@ const CIGARS = [
     description: "Sobremesa ('after-dinner conversation') is Dunbarton's debut brand and flagship line. Solita uses a seven-tobacco blend — a dark Ecuadorian Habano rosado wrapper over a Mexican Matacapan binder and a Nicaraguan core augmented by Lancaster County Broadleaf Ligero from Pennsylvania. The result is a medium-full cigar of remarkable complexity: cedar and dark fruit in the first third, transitioning to leather and spice, finishing long with coffee and earth. Made at Joya de Nicaragua in Estelí, this is widely considered one of the best cigar launches of the 2010s.",
     pairings: ["Cognac", "Bourbon", "Aged Rum", "Espresso"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1499677/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Sobremesa+Solita", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Sobremesa+Solita", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Sobremesa+Solita", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Dunbarton+Sobremesa+Solita", price: null }
+    ]
   },
   {
     id: "dunbarton-mi-querida-core",
@@ -4207,7 +4968,14 @@ const CIGARS = [
     description: "Mi Querida ('My Darling') is Steve Saka's love letter to Connecticut Broadleaf — the American dark wrapper leaf grown in Pennsylvania and Connecticut that was the dominant wrapper in premium cigars before Nicaraguan and Ecuadorian leaves took over. Made at NACSA in Estelí, the all-Nicaraguan core under a dark, oily Broadleaf wrapper delivers a classic full-bodied experience: dark chocolate, earth, leather, and a long peppery finish. A modern benchmark for what Connecticut Broadleaf can achieve in a contemporary boutique blend.",
     pairings: ["Bourbon", "Rye Whiskey", "Dark Rum", "Espresso"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1510031/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Mi+Querida+Core", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Mi+Querida", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Mi+Querida", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Dunbarton+Mi+Querida", price: null }
+    ]
   },
   {
     id: "dunbarton-umbagog",
@@ -4230,7 +4998,14 @@ const CIGARS = [
     description: "Named after a lake on the Maine-New Hampshire border, Umbagog is Dunbarton's value-priced Connecticut Broadleaf line — sold in bundles of 10 rather than boxes. The wrapper uses medium to No. 1 dark Broadleaf primings considered 'too imperfect' visually for Mi Querida, but the flavor is essentially the same DNA: earthy, dark chocolate, leather, pepper. Made at Joya de Nicaragua, this is the everyday workhorse version of the Mi Querida concept at a more accessible price point.",
     pairings: ["Bourbon", "Coffee", "Dark Beer", "Rum"],
     yearFounded: 2017,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2009391/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Umbagog", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Umbagog", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Umbagog", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Dunbarton+Umbagog", price: null }
+    ]
   },
   {
     id: "dunbarton-sin-compromiso-no2",
@@ -4253,7 +5028,14 @@ const CIGARS = [
     description: "Sin Compromiso ('Without Compromise') is Dunbarton's most premium regular-production line — each cigar packaged in a Spanish cedar sleeve, 13 to a box. The Mexican San Andrés Negro 'Cultivo Tonto' (an isolated, slower-fermented cultivation method) wrapper is among the most complex Mexican leaf Saka uses, wrapped around a unique hybridized Ecuadorian Habano binder. The result is an uncompromising full-bodied torpedo with dark chocolate, espresso, and leather building to a long, peppery finish. Made at Joya de Nicaragua.",
     pairings: ["Peated Scotch", "Añejo Rum", "Black Espresso", "Cognac"],
     yearFounded: 2018,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2020531/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Sin+Compromiso+No+2", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Sin+Compromiso", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Sin+Compromiso", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Dunbarton+Sin+Compromiso", price: null }
+    ]
   },
   {
     id: "dunbarton-stillwell-star-aromatic-no1",
@@ -4276,7 +5058,14 @@ const CIGARS = [
     description: "StillWell Star is Steve Saka's wildly innovative 'world's first luxury pipe tobacco cigar' — blends that incorporate actual pipe tobacco leaf alongside premium Nicaraguan long-filler inside a traditional cigar format. Aromatic No. 1 uses Black Cavendish, Golden Virginia, and Burley pipe tobaccos mixed with Nicaraguan filler, delivering a uniquely sweet, aromatic experience unlike any traditional cigar. The Ecuadorian Habano oscuro wrapper and San Andrés binder ground the pipe tobacco sweetness in familiar cigar character. Made at Joya de Nicaragua, boxed 13 per box.",
     pairings: ["Cognac", "Honey Whiskey", "Port Wine", "Caramel Coffee"],
     yearFounded: 2022,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2042202/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Stillwell+Star+Aromatic+No+1", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Stillwell+Star+Aromatic", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Stillwell+Star", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Dunbarton+Stillwell+Star", price: null }
+    ]
   },
   {
     id: "dunbarton-stillwell-star-english-no27",
@@ -4299,7 +5088,14 @@ const CIGARS = [
     description: "StillWell Star English No. 27 is the most unique cigar in Dunbarton's portfolio — a 'Latakia-lover's puro' that blends Cypriot Latakia pipe tobacco (the distinctive Syrian/Cypriot leaf smoked over fragrant wood that defines English-style pipe tobacco) with Burley, Turkish leaf, and Nicaraguan long-filler. The result has an unmistakable campfire and leather smokiness that pipe tobacco aficionados recognize immediately. For cigar smokers, it's an entirely new flavor category — complex, savory, and unforgettable.",
     pairings: ["Peated Scotch", "Islay Whisky", "Mezcal", "Aged Rum"],
     yearFounded: 2022,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2042202/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Stillwell+Star+English+No+27", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Stillwell+Star+English", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Stillwell+Star+English", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Dunbarton+Stillwell+Star+English", price: null }
+    ]
   },
   {
     id: "dunbarton-muestra-de-saka-exclusivo",
@@ -4322,7 +5118,14 @@ const CIGARS = [
     description: "Muestra de Saka ('Saka's Sample') is Dunbarton's rotating limited series — each release is a distinct one-off blend in a cedar coffin, 7 per box, representing a blend Steve Saka is working on or a concept he wants to explore. The Exclusivo is the inaugural release (March 2017) and uses all four major Nicaraguan growing regions (Condega, Estelí, Jalapa, Ometepe) for a four-region puro expression under Ecuadorian Habano. Floral and elegant with cedary complexity — it announced Saka's intention to use this series as an ongoing laboratory for his most experimental ideas.",
     pairings: ["Cognac", "Aged Rum", "Espresso", "Bourbon"],
     yearFounded: 2017,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2032546/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Muestra+de+Saka+Exclusivo", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Muestra+de+Saka", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Muestra+de+Saka", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Dunbarton+Muestra+de+Saka", price: null }
+    ]
   },
   {
     id: "dunbarton-red-meat-lovers-ribeye",
@@ -4345,7 +5148,14 @@ const CIGARS = [
     description: "Red Meat Lovers Club began as a Smoke Inn exclusive before going to national distribution in 2023. The RML lineup is Dunbarton's boldest — Connecticut Broadleaf over a San Andrés binder with Nicaraguan and Pennsylvania filler creates an exceptionally complex full-strength cigar in box-pressed vitolas named after cuts of beef. The Ribeye is the flagship: six inches of dark earth, leather, and pepper that builds relentlessly through the body. Sold in bundles of 10, this is Saka's everyday full-strength offering at its most satisfying.",
     pairings: ["Bourbon", "Rye Whiskey", "Peated Scotch", "Stout Beer"],
     yearFounded: 2019,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2054787/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Dunbarton+Red+Meat+Lovers+Ribeye", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Dunbarton+Red+Meat+Lovers", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Dunbarton+Red+Meat+Lovers", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Dunbarton+Red+Meat+Lovers", price: null }
+    ]
   },
 
   // ─── BANDIDO CIGARILLOS ──────────────────────────────────────────────────────
@@ -4441,7 +5251,14 @@ const CIGARS = [
     description: "The New World is arguably the cigar that cemented AJ Fernandez's reputation as one of the finest blenders in the industry. The San Andrés maduro wrapper brings rich dark chocolate and coffee notes over a robust Nicaraguan core — the result is a bold, nuanced cigar that punches far above its accessible price point. Consistently rated among the best value cigars in production.",
     pairings: ["Bourbon", "Dark Rum", "Espresso", "Stout Beer"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1484017/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=AJ+Fernandez+New+World", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=AJ+Fernandez+New+World", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=AJ+Fernandez+New+World", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=AJ+Fernandez+New+World", price: null }
+    ]
   },
   {
     id: "aj-fernandez-enclave",
@@ -4464,7 +5281,14 @@ const CIGARS = [
     description: "The Enclave uses an Ecuadorian Habano wrapper to deliver a slightly different AJ Fernandez experience — less dark sweetness than the New World, more cedar, leather, and spice. The long Churchill format allows the complex Estelí and Jalapa filler to fully develop across a multi-hour smoke. A favorite among enthusiasts who want AJ's blending craft in a more classic presentation.",
     pairings: ["Scotch Whisky", "Cognac", "Aged Rum", "Black Coffee"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1495754/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=AJ+Fernandez+Enclave", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=AJ+Fernandez+Enclave", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=AJ+Fernandez+Enclave", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=AJ+Fernandez+Enclave", price: null }
+    ]
   },
   {
     id: "aj-fernandez-san-lotano-oval",
@@ -4487,7 +5311,12 @@ const CIGARS = [
     description: "The San Lotano Oval is one of the rare box-pressed cigars using a Jalapa-grown Nicaraguan wrapper — a combination that produces a notably creamy, slightly floral smoke. The oval pressing creates a slightly different draw and burn characteristic than a round vitola. Medium-bodied with beautiful construction and accessible complexity.",
     pairings: ["Light Rum", "Honey Whiskey", "Café au Lait", "Chardonnay"],
     yearFounded: 2011,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1412052/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=AJ+Fernandez+San+Lotano+Oval", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=AJ+Fernandez+San+Lotano+Oval", price: null }
+    ]
   },
   {
     id: "aj-fernandez-last-call",
@@ -4510,7 +5339,14 @@ const CIGARS = [
     description: "Last Call is AJ Fernandez's answer to the premium short smoke — all the craft and complexity of the New World blend compressed into a 30-minute robusto. The San Andrés maduro wrapper delivers immediate dark chocolate and coffee, and the Estelí core brings strength and pepper. The perfect smoke when time is short but quality is non-negotiable.",
     pairings: ["Bourbon", "Espresso", "Dark Rum"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2016817/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=AJ+Fernandez+Last+Call", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=AJ+Fernandez+Last+Call", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=AJ+Fernandez+Last+Call", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=AJ+Fernandez+Last+Call", price: null }
+    ]
   },
   {
     id: "aj-fernandez-puro-atlantico",
@@ -4558,7 +5394,14 @@ const CIGARS = [
     description: "The Double Ligero Chisel is one of the most iconic full-strength cigars ever made — a Dominican powerhouse packed with double ligero leaf (the strongest portion of the tobacco plant) and finished with LFD's signature chisel head that must be cut flat before smoking. This cigar is a two-hour commitment of increasing intensity, dark earth, tar, leather, and relentless pepper. A rite of passage for full-strength aficionados.",
     pairings: ["Peated Scotch", "Dark Rum", "Black Espresso", "Cognac"],
     yearFounded: 1996,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1513365/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=La+Flor+Dominicana+Double+Ligero+Chisel", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=LFD+Double+Ligero+Chisel", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=LFD+Double+Ligero+Chisel", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=LFD+Double+Ligero+Chisel", price: null }
+    ]
   },
   {
     id: "lfd-air-bender",
@@ -4581,7 +5424,14 @@ const CIGARS = [
     description: "The Air Bender uses an Ecuadorian Sumatra wrapper — a departure from LFD's typical Dominican-wrapped approach — to create a medium-full blend with distinct cinnamon spice and sweet cedar character. The torpedo format focuses the flavors through a tapered head, making the draw more concentrated and complex. One of La Flor Dominicana's most celebrated limited lines.",
     pairings: ["Bourbon", "Aged Rum", "Espresso", "Single Malt Scotch"],
     yearFounded: 2005,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411091/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=La+Flor+Dominicana+Air+Bender", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=LFD+Air+Bender", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=LFD+Air+Bender", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=LFD+Air+Bender", price: null }
+    ]
   },
   {
     id: "lfd-coronado",
@@ -4629,7 +5479,13 @@ const CIGARS = [
     description: "Supreme Leaf is Aganorsa's showcase of their proprietary Corojo 99 wrapper — a seed variety they've been developing in Nicaragua for over two decades. The result is a spicy, complex medium-full cigar with exceptional red pepper character, rich cedar, and long leather finish. Aganorsa grows their own tobacco on farms in Jalapa, Estelí, and Pueblo Nuevo, making this an expression of truly estate-grown craft.",
     pairings: ["Bourbon", "Rye Whiskey", "Dark Rum", "Espresso"],
     yearFounded: 2018,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2030383/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Aganorsa+Supreme+Leaf", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Aganorsa+Supreme+Leaf", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Aganorsa+Supreme+Leaf", price: null }
+    ]
   },
   {
     id: "aganorsa-rare-leaf",
@@ -4652,7 +5508,13 @@ const CIGARS = [
     description: "The Rare Leaf Reserve uses Aganorsa's finest aged Jalapa Corojo 99 — tobacco that has rested in their warehouse for five or more years before rolling. The extended aging transforms what would be a spicy profile into something remarkably elegant: floral, creamy, with honeyed sweetness and only the gentlest pepper. A medium-bodied jewel that shows what patience does to extraordinary Nicaraguan leaf.",
     pairings: ["Cognac", "Aged Rum", "Chamomile Tea", "Honey Whiskey"],
     yearFounded: 2019,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2042018/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Aganorsa+Rare+Leaf", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Aganorsa+Rare+Leaf", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Aganorsa+Rare+Leaf", price: null }
+    ]
   },
 
   // ─── SOUTHERN DRAW ───────────────────────────────────────────────────────
@@ -4677,7 +5539,13 @@ const CIGARS = [
     description: "Named after the invasive vine that spreads relentlessly through the American South, Kudzu is Southern Draw's boldest Nicaraguan blend — aggressive in strength and flavor. The Habano wrapper over a dense Estelí-Jalapa core delivers waves of dark earth, leather, and relentless black pepper with coffee and cocoa in the background. This is a cigar that, like its namesake, takes over everything.",
     pairings: ["Bourbon", "Rye Whiskey", "Black Coffee", "Dark Rum"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2006533/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Southern+Draw+Kudzu", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Southern+Draw+Kudzu", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Southern+Draw+Kudzu", price: null }
+    ]
   },
   {
     id: "southern-draw-rose-of-sharon",
@@ -4700,7 +5568,13 @@ const CIGARS = [
     description: "Rose of Sharon is Southern Draw's elegant entry — an Ecuadorian Connecticut-wrapped mild-medium that belies its boutique origins. The floral, creamy profile is unusually refined for a Nicaraguan-core cigar, with Jalapa tobacco's natural sweetness softening everything into a perfectly balanced morning or afternoon smoke. One of the best Connecticut-wrapped cigars from the boutique era.",
     pairings: ["Champagne", "Earl Grey Tea", "Light Rum", "Honey Whiskey"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2006541/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Southern+Draw+Rose+of+Sharon", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Southern+Draw+Rose+of+Sharon", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Southern+Draw+Rose+of+Sharon", price: null }
+    ]
   },
   {
     id: "southern-draw-300-hands",
@@ -4723,7 +5597,13 @@ const CIGARS = [
     description: "The name references the 300 pairs of hands that touch a cigar from seed to finished product — Southern Draw's philosophical statement about craft. The blend itself is a beautifully balanced medium-bodied toro with Ecuadorian Habano wrapper over a Nicaraguan and Dominican core. Cedar, leather, and cinnamon define the profile, making this one of the most universally praised Southern Draw releases.",
     pairings: ["Scotch Whisky", "Bourbon", "Espresso", "Aged Rum"],
     yearFounded: 2017,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2017676/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Southern+Draw+300+Hands", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Southern+Draw+300+Hands", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Southern+Draw+300+Hands", price: null }
+    ]
   },
 
   // ─── WARPED CIGARS ───────────────────────────────────────────────────────
@@ -4748,7 +5628,13 @@ const CIGARS = [
     description: "El Oso ('The Bear') is Warped's flagship maduro — a full-bodied San Andrés-wrapped Nicaraguan that delivers the classic maduro experience with boutique-level precision. Kyle Gellis designed this blend to be the perfect balance between the dark sweetness of San Andrés and the strength of Estelí — the result is a cigar with great depth, dark chocolate and coffee upfront, spice in the middle, and a long leather finish.",
     pairings: ["Bourbon", "Dark Rum", "Espresso", "Peated Scotch"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1487191/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Warped+El+Oso", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Warped+El+Oso", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Warped+El+Oso", price: null }
+    ]
   },
   {
     id: "warped-flor-del-valle",
@@ -4771,7 +5657,13 @@ const CIGARS = [
     description: "Flor del Valle is Warped's ode to the Jalapa Valley — an all-Jalapa blend under an Ecuadorian Connecticut wrapper that showcases the region's natural creaminess and floral character. Kyle Gellis is known for making some of the finest Connecticut-wrapped cigars in boutique production, and Flor del Valle stands as his masterpiece in that style: silky, creamy, vanilla-forward with a gentle floral quality throughout.",
     pairings: ["Champagne", "Cognac", "Earl Grey Tea", "Light Rum"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1487244/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Warped+Flor+del+Valle", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Warped+Flor+del+Valle", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Warped+Flor+del+Valle", price: null }
+    ]
   },
 
   // ─── CALDWELL CIGAR CO. ──────────────────────────────────────────────────
@@ -4796,7 +5688,13 @@ const CIGARS = [
     description: "Long Live the King was one of the earliest releases from Robert Caldwell's boutique house and immediately announced his sensibility — bold branding wrapped around a thoughtfully blended cigar. The Ecuadorian Sumatra wrapper gives it cocoa and cinnamon upfront, with Dominican and Nicaraguan leaf providing leather and earth complexity. A medium-bodied crowd-pleaser with boutique swagger.",
     pairings: ["Bourbon", "Rum", "Espresso", "Beer"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1510804/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Caldwell+Long+Live+the+King", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Caldwell+Long+Live+the+King", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Caldwell+Long+Live+the+King", price: null }
+    ]
   },
   {
     id: "caldwell-eastern-standard",
@@ -4819,7 +5717,13 @@ const CIGARS = [
     description: "Eastern Standard is Caldwell's premium maduro offering — an Indonesian Java-wrapped full-strength toro that brings dark chocolate and caramel sweetness over a robust Nicaraguan-Dominican core. The Java wrapper is rarer than San Andrés in the market and gives this cigar a slightly different maduro character — roasted rather than sweet, with coffee bean and leather notes dominating the second half.",
     pairings: ["Bourbon", "Dark Rum", "Espresso", "Port Wine"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1510770/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Caldwell+Eastern+Standard", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Caldwell+Eastern+Standard", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Caldwell+Eastern+Standard", price: null }
+    ]
   },
 
   // ─── J.C. NEWMAN / DIAMOND CROWN / BRICK HOUSE ──────────────────────────
@@ -4844,7 +5748,13 @@ const CIGARS = [
     description: "Diamond Crown Maximus is J.C. Newman's luxury Dominican offering — a wide-ring-gauge robusto that delivers the silkiest Dominican experience available. The Ecuadorian Sumatra wrapper brings creamy vanilla and cedar notes over a classic Piloto and Olor Dominican core. Made at the MATASA factory in Santiago alongside some of the finest premium Dominican cigars in production.",
     pairings: ["Cognac", "Rum", "Café au Lait", "Champagne"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1412270/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Diamond+Crown+Maximus", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Diamond+Crown+Maximus", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Diamond+Crown+Maximus", price: null }
+    ]
   },
   {
     id: "brick-house-robusto",
@@ -4867,7 +5777,13 @@ const CIGARS = [
     description: "Brick House is J.C. Newman's workhorse Nicaraguan line — a consistently excellent value cigar with an all-Nicaraguan Jalapa construction. The wide ring gauge opens up the flavor profile, delivering cedar, earth, and cinnamon in a medium-bodied package that's ideal for everyday smoking. Made at My Father Cigars' factory in Nicaragua, ensuring exceptional construction quality for the price.",
     pairings: ["Bourbon", "Beer", "Coffee", "Rum"],
     yearFounded: 2008,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410750/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Brick+House+Robusto", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Brick+House+Robusto", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Brick+House+Robusto", price: null }
+    ]
   },
   {
     id: "brick-house-mighty-mighty",
@@ -4890,7 +5806,12 @@ const CIGARS = [
     description: "The Mighty Mighty is Brick House's XXL vitola — a massive 7x58 that pushes the ring gauge to its practical limit. At this size, the wide core allows even more filler leaf engagement, deepening the cocoa and earth notes compared to the standard Robusto. A two-hour smoke for the aficionado who wants an evening cigar with a bold, satisfying profile and excellent value.",
     pairings: ["Bourbon", "Stout Beer", "Coffee", "Aged Rum"],
     yearFounded: 2010,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Brick+House+Mighty+Mighty", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Brick+House+Mighty+Mighty", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Brick+House+Mighty+Mighty", price: null }
+    ]
   },
 
   // ─── VILLIGER ─────────────────────────────────────────────────────────────
@@ -4915,7 +5836,13 @@ const CIGARS = [
     description: "The Villiger 1888 commemorates the founding year of the legendary Swiss cigar house. Using a Brazilian Mata Fina wrapper — the same naturally sweet, dark leaf used in some of Brazil's finest tobacco — over an Indonesian and Dominican core creates a cigar with unexpected depth. The Mata Fina wrapper delivers cocoa and dark fruit sweetness that distinguishes this from anything Central American on the market.",
     pairings: ["Cognac", "Port Wine", "Dark Rum", "Espresso"],
     yearFounded: 1888,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2007327/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Villiger+1888", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Villiger+1888", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Villiger+1888", price: null }
+    ]
   },
   {
     id: "villiger-la-vencedora",
@@ -4938,7 +5865,13 @@ const CIGARS = [
     description: "La Vencedora showcases Villiger's partnership with Honduran tobacco from the Jamastran Valley — one of the world's premier tobacco-growing regions outside of Cuba and Nicaragua. The all-Honduran wrapper and binder give this cigar an earthiness and leathery depth that Honduran tobacco is famous for, amplified by Nicaraguan filler for strength. A bold, terroir-driven cigar from Europe's oldest family-owned cigar house.",
     pairings: ["Scotch Whisky", "Añejo Rum", "Espresso", "Dark Beer"],
     yearFounded: 1888,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2011417/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Villiger+La+Vencedora", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Villiger+La+Vencedora", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Villiger+La+Vencedora", price: null }
+    ]
   },
 
   // ─── LEAF BY OSCAR ───────────────────────────────────────────────────────
@@ -4963,7 +5896,13 @@ const CIGARS = [
     description: "Leaf by Oscar is one of the most visually striking cigar concepts on the market — each stick is individually wrapped in a real tobacco leaf for transport and presentation, a nod to how cigars were traditionally stored. The cigar itself is a serious Nicaraguan blend from Oscar Valladares, with Jalapa and Estelí filler delivering red pepper, cedar, and leather. Remove the outer leaf wrapper before smoking — it's just packaging.",
     pairings: ["Bourbon", "Dark Rum", "Espresso", "Beer"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2010660/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Leaf+by+Oscar+Nicaraguan", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Leaf+by+Oscar+Nicaraguan", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Leaf+by+Oscar+Nicaraguan", price: null }
+    ]
   },
   {
     id: "leaf-by-oscar-sumatran",
@@ -4986,7 +5925,13 @@ const CIGARS = [
     description: "The Sumatran edition of Leaf by Oscar swaps the Habano wrapper for an Indonesian Sumatra, dramatically softening the profile. The result is a mild-medium smoke with creamy cedar and cocoa character — a more approachable expression of Valladares' blending skill. Still packaged in its signature real tobacco leaf wrapper, this is the version recommended for daily smokers who prefer a gentler experience.",
     pairings: ["Coffee", "Light Rum", "Honey Whiskey", "Iced Tea"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2010661/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Leaf+by+Oscar+Sumatran", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Leaf+by+Oscar+Sumatran", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Leaf+by+Oscar+Sumatran", price: null }
+    ]
   },
 
   // ─── ROMA CRAFT TOBAC ─────────────────────────────────────────────────────
@@ -5011,7 +5956,13 @@ const CIGARS = [
     description: "CroMagnon is RoMa Craft's statement cigar — a massive full-strength maduro in vitolas named after prehistoric hominids. The San Andrés maduro wrapper over three-region Nicaraguan core creates an enormous, complex smoke of dark earth, espresso, and dark chocolate. RoMa Craft co-founder Skip Martin is a master blender, and CroMagnon represents his vision of an uncompromising full-strength experience for dedicated enthusiasts.",
     pairings: ["Peated Scotch", "Añejo Rum", "Black Espresso", "Mezcal"],
     yearFounded: 2011,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1506468/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=RoMaCraft+CroMagnon", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=RoMaCraft+CroMagnon", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=RoMaCraft+CroMagnon", price: null }
+    ]
   },
   {
     id: "romaccraft-intemperance",
@@ -5034,7 +5985,12 @@ const CIGARS = [
     description: "Intemperance is RoMa Craft's sophisticated light side — an Ecuadorian Connecticut-wrapped mild-medium that proves this boutique house can do refined elegance as masterfully as brute strength. The Jalapa filler brings natural sweetness and creaminess, while the Connecticut wrapper adds floral vanilla notes. Named ironically after the temperance movement, Intemperance is a cigar for the morning or early afternoon.",
     pairings: ["Earl Grey Tea", "Champagne", "Light Rum", "Honey Whiskey"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1506462/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=RoMaCraft+Intemperance", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=RoMaCraft+Intemperance", price: null }
+    ]
   },
 
   // ─── ESPINOSA CIGARS ──────────────────────────────────────────────────────
@@ -5059,7 +6015,13 @@ const CIGARS = [
     description: "Laranja ('orange' in Portuguese) Reserva Escuro is Erik Espinosa's most distinctive creation — a cigar that genuinely achieves its name's promise with a Brazilian Mata Fina wrapper that imparts unmistakable orange peel and dark fruit notes alongside dark chocolate. The combination is unique in the cigar world: a full-bodied maduro with genuine citrus brightness alongside deep coffee and earth. A remarkable and polarizing smoke.",
     pairings: ["Grand Marnier", "Dark Rum", "Port Wine", "Espresso"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2030523/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Espinosa+Laranja+Reserva", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Espinosa+Laranja+Reserva", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Espinosa+Laranja+Reserva", price: null }
+    ]
   },
   {
     id: "espinosa-601-blue-label",
@@ -5107,7 +6069,12 @@ const CIGARS = [
     description: "The Ramón Allones Specially Selected is the quintessential Cuban robusto — widely considered one of the finest expressions of the vitola from Havana. The Colorado Maduro wrapper adds dark sweetness that frames the rich Vuelta Abajo core, delivering dark chocolate, leather, and dried fruit with genuine Cuban pepper on the finish. This is the benchmark against which all other Cuban robustos are measured.",
     pairings: ["Aged Rum", "Cognac", "Espresso", "Port Wine"],
     yearFounded: 1837,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Ramon+Allones+Specially+Selected", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Ramon+Allones+Specially+Selected", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Ramon+Allones+Specially+Selected", price: null }
+    ]
   },
   {
     id: "cuaba-tradicionales",
@@ -5130,7 +6097,12 @@ const CIGARS = [
     description: "Cuaba is one of Habanos S.A.'s most distinctive brands — known exclusively for producing figurado vitolas in the perfectos shape, with both ends tapered. The Tradicionales is the flagship, a double figurado with a complex, concentrated flavor profile that develops through the tapered draw. Cedar, floral notes, and honey define the experience — a uniquely Cuban shape from a brand dedicated to preserving traditional cigar-making forms.",
     pairings: ["Cognac", "Aged Rum", "Earl Grey Tea", "Champagne"],
     yearFounded: 1996,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Cuaba+Tradicionales", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Cuaba+Tradicionales", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Cuaba+Tradicionales", price: null }
+    ]
   },
   {
     id: "vegas-robaina-unicos",
@@ -5153,7 +6125,12 @@ const CIGARS = [
     description: "Vegas Robaina is one of the most prestigious names in Cuban tobacco — Don Alejandro Robaina was the most famous tobacco farmer in Cuba, and his Vuelta Abajo farm produced some of the finest wrapper leaf in Havana history. Únicos is the brand's premium piramide, a tapered torpedo that concentrates the exceptional Cuban leaf into a powerful medium-full experience. Coffee, leather, and black pepper define this complex Cuban.",
     pairings: ["Aged Rum", "Cognac", "Espresso", "Peated Scotch"],
     yearFounded: 1997,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Vegas+Robaina+Unicos", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Vegas+Robaina+Unicos", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Vegas+Robaina+Unicos", price: null }
+    ]
   },
   {
     id: "rafael-gonzalez-perlas",
@@ -5176,7 +6153,12 @@ const CIGARS = [
     description: "Rafael González Perlas is among the finest quick Cuban smokes available — a small, elegant panatela from one of Havana's oldest brands. The mild-medium profile makes it ideal as a breakfast cigar or a quick after-dinner smoke when a full-size cigar isn't practical. The cream, honey, and floral notes are characteristic of fine Cuban tobacco in a small vitola — concentrated, delicate, and refined.",
     pairings: ["Espresso", "Cognac", "Earl Grey Tea", "Champagne"],
     yearFounded: 1882,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Rafael+Gonzalez+Perlas", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Rafael+Gonzalez+Perlas", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Rafael+Gonzalez+Perlas", price: null }
+    ]
   },
   {
     id: "el-rey-del-mundo-choix-supreme",
@@ -5199,7 +6181,12 @@ const CIGARS = [
     description: "El Rey del Mundo ('The King of the World') has been producing fine mild Cuban cigars since the 19th century. The Choix Supreme is the brand's signature — a Claro-wrapped Cuban corona that represents the pinnacle of mild, refined Cuban smoking. The pale wrapper produces an extraordinarily creamy, floral profile with vanilla and hay notes. This is the cigar preferred by smokers who want the authentic Cuban experience without heavy strength.",
     pairings: ["Champagne", "Earl Grey Tea", "Light Rum", "Cognac"],
     yearFounded: 1848,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=El+Rey+del+Mundo+Choix+Supreme", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=El+Rey+del+Mundo+Choix+Supreme", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=El+Rey+del+Mundo+Choix+Supreme", price: null }
+    ]
   },
   {
     id: "sancho-panza-belicosos",
@@ -5222,7 +6209,12 @@ const CIGARS = [
     description: "Sancho Panza is one of Cuba's most underrated brands — producing consistently excellent mild-to-medium cigars that are overlooked due to the fame of Montecristo and Cohiba. The Belicosos is the brand's showcase vitola: a traditional Cuban belicoso with a tapered head that concentrates the creamy, floral Cuban profile. Honey and cedar define the experience, with a gentle spice on the finish.",
     pairings: ["Cognac", "Light Rum", "Champagne", "Café au Lait"],
     yearFounded: 1848,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Havana House", url: "https://www.havanahouse.co.uk/search?q=Sancho+Panza+Belicosos", price: null },
+      { retailer: "C.Gars Ltd", url: "https://www.cgarsltd.co.uk/search?q=Sancho+Panza+Belicosos", price: null },
+      { retailer: "Hunters & Frankau", url: "https://cigars.co.uk/?s=Sancho+Panza+Belicosos", price: null }
+    ]
   },
 
   // ─── PROTOCOL CIGARS ──────────────────────────────────────────────────────
@@ -5247,7 +6239,12 @@ const CIGARS = [
     description: "Protocol Cigars, founded by two law enforcement professionals, names each blend after legal concepts. Probable Cause is their flagship medium-bodied offering — an Ecuadorian Habano-wrapped Nicaraguan using tobaccos from three regions for a multi-dimensional profile. Cedar and cinnamon lead, with leather and cocoa developing through the body. Excellent value and construction from Erik Espinosa's El Paraíso factory in Estelí.",
     pairings: ["Bourbon", "Coffee", "Beer", "Rum"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2020073/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Protocol+Probable+Cause", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Protocol+Probable+Cause", price: null }
+    ]
   },
 
   // ─── MASS MARKET CIGARILLOS ───────────────────────────────────────────────
@@ -5416,7 +6413,13 @@ const CIGARS = [
     description: "The Padrón 1964 Anniversary Series commemorates the year José Orlando Padrón founded the company. Made entirely from sun-grown Nicaraguan tobaccos aged a minimum of four years, the Natural wrapper produces a flawless medium-bodied smoke of legendary consistency. Cocoa and coffee open, yielding to cedar and leather with a long, clean finish. Arguably the most reliable high-scoring cigar in production — the benchmark against which all Nicaraguan medium-bodied cigars are measured.",
     pairings: ["Cognac", "Aged Rum", "Espresso", "Bourbon"],
     yearFounded: 1964,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1474728/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+1964+Anniversary+Natural", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+1964+Anniversary+Natural", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+1964+Anniversary+Natural", price: null }
+    ]
   },
   {
     id: "padron-1964-anniversary-maduro",
@@ -5439,7 +6442,13 @@ const CIGARS = [
     description: "The 1964 Maduro is widely considered one of the greatest cigars ever made — the same four-year-aged Nicaraguan blend under a dark, naturally sweet maduro wrapper. Where the Natural is cocoa and cedar, the Maduro goes deeper: dark chocolate, caramel, and coffee with a sweetness that never tips into artificial. Consistently 95–97 points from every major publication. If you smoke one Padrón in your life, make it this one.",
     pairings: ["Añejo Rum", "Cognac", "Espresso", "Bourbon"],
     yearFounded: 1964,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2035410/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+1964+Anniversary+Maduro", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+1964+Anniversary+Maduro", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+1964+Anniversary+Maduro", price: null }
+    ]
   },
   {
     id: "padron-1926-no35-natural",
@@ -5462,7 +6471,12 @@ const CIGARS = [
     description: "The 1926 Serie was created to celebrate José Padrón's 75th birthday and the 60th anniversary of his birth year. All tobacco is aged at least five years before rolling — an investment in time that produces extraordinary depth. The No. 35 natural is a stunning medium-full toro with layers of dark chocolate, coffee, cedar, and leather that develop in waves over 75 minutes. One of the most decorated cigars in the history of cigar scoring.",
     pairings: ["Peated Scotch", "Cognac", "Añejo Rum", "Black Espresso"],
     yearFounded: 1964,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1474727/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+1926+No+35+Natural", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+1926+No+35", price: null }
+    ]
   },
   {
     id: "padron-family-reserve-no85",
@@ -5485,7 +6499,13 @@ const CIGARS = [
     description: "Named for the 85th birthday of founder José Orlando Padrón, the Family Reserve is the pinnacle of the Padrón portfolio — all tobacco aged for a minimum of eight years. At 98 points from Cigar Aficionado, it is one of the highest-rated cigars ever produced. The narrow Lonsdale format concentrates eight years of aged Nicaraguan leaf into a precise, elegant experience: waves of dark chocolate, dried fruit, leather, and cedar building across 80 minutes. A once-in-a-while cigar for special occasions.",
     pairings: ["Cognac XO", "Añejo Rum", "Single Malt Scotch", "Black Espresso"],
     yearFounded: 1964,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1474729/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+Family+Reserve+No+85", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+Family+Reserve+No+85", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+Family+Reserve+No+85", price: null }
+    ]
   },
   {
     id: "padron-series-1000-natural",
@@ -5508,7 +6528,13 @@ const CIGARS = [
     description: "The Padrón 1000 Series is the entry point into the Padrón family — still Nicaraguan through and through, still hand-rolled, still using the same farms. At under $8, it's the best value in the Padrón line and one of the best value cigars period. Earth, cedar, and cocoa in a medium-bodied, 45-minute robusto. The perfect everyday cigar from a brand that has never cut corners regardless of price tier.",
     pairings: ["Morning Coffee", "Bourbon", "Beer", "Rum"],
     yearFounded: 1964,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1474726/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Padron+1000+Natural", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Padron+1000+Natural", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Padron+1000+Natural", price: null }
+    ]
   },
 
   // ─── ROCKY PATEL ──────────────────────────────────────────────────────────
@@ -5579,7 +6605,13 @@ const CIGARS = [
     description: "The Edge is Rocky Patel's workhorse full-flavored line — a Honduran Corojo-wrapped torpedo that delivers real spice and complexity at a sub-$10 price point. The tapered head concentrates the Corojo's natural red pepper and cedar character into a focused, medium-full draw. Excellent construction for the price and a reliable daily option for the smoker who wants Honduran spice without going to the premium tier.",
     pairings: ["Bourbon", "Beer", "Coffee", "Rum"],
     yearFounded: 1996,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1410976/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Rocky+Patel+Edge", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Rocky+Patel+Edge", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Rocky+Patel+Edge", price: null }
+    ]
   },
   {
     id: "rocky-patel-hamlet-2000",
@@ -5627,7 +6659,12 @@ const CIGARS = [
     description: "Perdomo's Reserve Champagne Connecticut is one of the finest affordable mild-medium Nicaraguan cigars available. The Ecuadorian Connecticut Shade wrapper brings cream, vanilla, and cedar over a Jalapa and Estelí core — a combination that punches well above its price point. Nick Perdomo ages his tobacco extensively before rolling, and that patience shows in the smoothness and complexity of what is ostensibly a budget cigar. A go-to recommendation for Connecticut-wrapper fans.",
     pairings: ["Champagne", "Café au Lait", "Light Rum", "Honey Whiskey"],
     yearFounded: 1992,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1412238/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Perdomo+Reserve+Champagne+Connecticut", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Perdomo+Reserve+Champagne+Connecticut", price: null }
+    ]
   },
   {
     id: "perdomo-habano-gold",
@@ -5673,7 +6710,13 @@ const CIGARS = [
     description: "The Perdomo 20th Anniversary Maduro was created to mark two decades of the company and is widely regarded as Nick Perdomo's masterpiece. A Connecticut Broadleaf maduro wrapper over extensively aged Nicaraguan filler produces a medium-full torpedo of exceptional depth — dark chocolate, coffee, and caramel sweetness building over a long, complex smoke. Rated 95 by Cigar Aficionado, this is a benchmark for what maduro cigars can achieve at a reasonable price.",
     pairings: ["Bourbon", "Añejo Rum", "Espresso", "Dark Beer"],
     yearFounded: 1992,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1411786/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Perdomo+20th+Anniversary+Maduro", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Perdomo+20th+Anniversary+Maduro", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Perdomo+20th+Anniversary+Maduro", price: null }
+    ]
   },
   {
     id: "perdomo-epicure",
@@ -5696,7 +6739,12 @@ const CIGARS = [
     description: "The Epicure is Perdomo's all-Jalapa expression under Connecticut Shade — one of the creamiest, most floral Nicaraguan smokes available. The Jalapa Valley produces uniquely sweet, mild tobacco and this cigar showcases that character to perfection. Honey and vanilla dominate, with a gentle floral quality throughout. An ideal morning cigar or a companion for those moments when you want pure, uncomplicated enjoyment.",
     pairings: ["Earl Grey Tea", "Champagne", "Light Rum", "Honey Whiskey"],
     yearFounded: 1992,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2002647/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Perdomo+Epicure", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Perdomo+Epicure", price: null }
+    ]
   },
 
   // ─── PLASENCIA ────────────────────────────────────────────────────────────
@@ -5721,7 +6769,13 @@ const CIGARS = [
     description: "Alma del Campo ('Soul of the Field') is Plasencia's farm-to-cigar showcase — the Plasencia family has been growing tobacco in Nicaragua and Honduras for generations and this cigar uses only leaf from their own farms. The Condega Claro wrapper produces a delicate, floral, cream-driven profile that is surprisingly complex for its mild-medium strength. One of the most refined expressions of Nicaraguan Condega tobacco available.",
     pairings: ["Champagne", "Café au Lait", "Light Rum", "Earl Grey Tea"],
     yearFounded: 1865,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2007637/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Plasencia+Alma+del+Campo", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Plasencia+Alma+del+Campo", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Plasencia+Alma+del+Campo", price: null }
+    ]
   },
   {
     id: "plasencia-cosecha-149",
@@ -5744,7 +6798,13 @@ const CIGARS = [
     description: "The name Cosecha 149 refers to the 149th harvest of the Plasencia family — a testament to their 150+ year lineage in tobacco. The Criollo 98 wrapper is one of the finest Nicaraguan wrapper varieties, a seed developed from Cuban Criollo that delivers exceptional red pepper, cedar, and earth character. Rated 95 by multiple publications, the Cosecha 149 is one of the most celebrated cigars of the modern boutique era from one of tobacco's most historic families.",
     pairings: ["Bourbon", "Rye Whiskey", "Espresso", "Dark Rum"],
     yearFounded: 1865,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2052482/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Plasencia+Cosecha+149", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Plasencia+Cosecha+149", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Plasencia+Cosecha+149", price: null }
+    ]
   },
   {
     id: "plasencia-alma-fuerte-generoso",
@@ -5767,7 +6827,13 @@ const CIGARS = [
     description: "Alma Fuerte ('Strong Soul') is Plasencia's declaration of maximum strength — a 6x60 gordo using the highest primings of Nicaraguan leaf for unrestrained power. The Habano wrapper delivers controlled sweetness over an intensely strong Jalapa and Estelí core. Dark earth, leather, and relentless black pepper build across 90 minutes. Rated 96 points, this is the cigar that proved the 150-year-old Plasencia family could compete at the very top of the boutique strength spectrum.",
     pairings: ["Peated Scotch", "Añejo Rum", "Black Espresso", "Mezcal"],
     yearFounded: 1865,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2005774/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=Plasencia+Alma+Fuerte+Generoso", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Plasencia+Alma+Fuerte+Generoso", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Plasencia+Alma+Fuerte+Generoso", price: null }
+    ]
   },
 
   // ─── CAO ─────────────────────────────────────────────────────────────────
@@ -5792,7 +6858,12 @@ const CIGARS = [
     description: "The CAO Flathead is one of the most beloved lines in General Cigar's portfolio — a motorcycle-themed collection with vitolas named after engine sizes (V554, V660, etc.). The Flathead V554 is the most popular size: a wide-ring Honduran Corojo robusto with red pepper, cedar, and earth from the Jamastran Valley. Bold and satisfying at a mid-price point, with General Cigar's typically impeccable construction. A go-to recommendation for smokers who want serious Honduran spice.",
     pairings: ["Bourbon", "Beer", "Coffee", "Rum"],
     yearFounded: 1968,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=CAO+Flathead+V554", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=CAO+Flathead+V554", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=CAO+Flathead+V554", price: null }
+    ]
   },
   {
     id: "cao-nicaragua",
@@ -5861,7 +6932,13 @@ const CIGARS = [
     description: "The CAO Pilon is named after the traditional Cuban 'pilon' — the large curing stacks used to ferment tobacco leaves after harvest. Using this traditional fermentation method on the whole bunched filler, the Pilon develops a uniquely earthy, complex character that is distinct from conventionally fermented cigars. A medium-bodied robusto with cedar, earth, and leather — the everyday value offering from CAO's Nicaraguan portfolio.",
     pairings: ["Coffee", "Beer", "Rum", "Bourbon"],
     yearFounded: 1968,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/1495441/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=CAO+Pilon+Robusto", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=CAO+Pilon+Robusto", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=CAO+Pilon+Robusto", price: null }
+    ]
   },
 
   // ─── CASDAGLI CIGARS ──────────────────────────────────────────────────────
@@ -6095,7 +7172,14 @@ const CIGARS = [
     description: "Last Rites is the flagship regular-production line from James Brown's Black Label Trading Company — all cigars made at his own Fábrica Oveja Negra in Estelí. The Ecuadorian maduro wrapper over a Honduran and Nicaraguan core delivers a bold, dark medium-full experience: dark earth, leather, dark chocolate, and relentless pepper. BLTC built its reputation on this blend — uncompromising, full-flavored cigars at an accessible price point with outstanding construction.",
     pairings: ["Bourbon", "Rye Whiskey", "Espresso", "Dark Beer"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2033790/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Last+Rites", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Last+Rites", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Trading+Last+Rites", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Trading+Last+Rites", price: null }
+    ]
   },
   {
     id: "bltc-lawless-robusto",
@@ -6118,7 +7202,14 @@ const CIGARS = [
     description: "Lawless is BLTC's all-Nicaraguan counterpart to Last Rites — a Habano Rosado-wrapped robusto with an entirely Nicaraguan construction. The Rosado wrapper delivers a slightly sweeter, more aromatic profile than a standard Habano, with red pepper, cedar, and cinnamon over a dark fruit and leather core. Bold and satisfying with the factory's signature tight, even construction. A go-to recommendation for fans of full-flavored Nicaraguan cigars.",
     pairings: ["Bourbon", "Dark Rum", "Coffee", "Beer"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2033791/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Lawless", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Lawless", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Trading+Lawless", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Trading+Lawless", price: null }
+    ]
   },
   {
     id: "bltc-royalty-robusto",
@@ -6141,7 +7232,14 @@ const CIGARS = [
     description: "Royalty is BLTC's medium-bodied offering — the most approachable line in James Brown's portfolio. The Ecuadorian Corojo wrapper over Honduran binder and Nicaraguan filler creates a medium-strength robusto with cinnamon, coffee, cocoa, and dark fruit defining the profile. It's BLTC's answer to smokers who want the quality and construction of Oveja Negra without the full intensity of Last Rites or Lawless.",
     pairings: ["Bourbon", "Coffee", "Rum", "Beer"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2033774/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Royalty", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Royalty", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Trading+Royalty", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Trading+Royalty", price: null }
+    ]
   },
   {
     id: "bltc-salvation-robusto",
@@ -6164,7 +7262,14 @@ const CIGARS = [
     description: "Salvation rounds out BLTC's core four regular-production lines with an Ecuadorian Sun Grown wrapper — a natural, unfermented Habano-seed leaf that preserves the tobacco's bright, peppery character. Over Honduran binder and Nicaraguan filler, it delivers cedar, earth, leather, and red pepper with a clean, dry finish. The sun-grown wrapper gives Salvation a slightly more rustic, tobacco-forward character compared to its siblings.",
     pairings: ["Bourbon", "Beer", "Coffee", "Rum"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2033792/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Salvation", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Salvation", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Trading+Salvation", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Trading+Salvation", price: null }
+    ]
   },
   {
     id: "bltc-santa-muerte",
@@ -6187,7 +7292,13 @@ const CIGARS = [
     description: "Santa Muerte ('Holy Death') is BLTC's annual limited Day of the Dead-themed release — recognizable by its striking skull artwork. Unlike the core four lines, Santa Muerte uses a 6-tobacco filler blend including Mexican San Andrés, Dominican, and Nicaraguan leaf under an all-Ecuadorian Habano wrapper and binder. The result is more complex than the core lines: damp wood, earth, peanut, oatmeal sweetness, butter, and black pepper. Limited run, released annually in fall.",
     pairings: ["Mezcal", "Tequila", "Dark Beer", "Espresso"],
     yearFounded: 2013,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Santa+Muerte", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Santa+Muerte", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Trading+Santa+Muerte", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Trading+Santa+Muerte", price: null }
+    ]
   },
   {
     id: "bltc-deliverance-nocturne",
@@ -6210,7 +7321,12 @@ const CIGARS = [
     description: "Deliverance Nocturne is BLTC's most intense annual release — a Pennsylvania Broadleaf-wrapped perfecto with Pennsylvania Ligero in the filler, pushing nicotine and strength to the absolute limit. The combination of Pennsylvania leaf on both wrapper and filler creates an old-world dark character: dark earth, leather, espresso, oak, and relentless black pepper. Not for the faint-hearted. The perfecto shape with its tapered foot and rounded head requires patience in lighting but rewards with an extraordinary draw.",
     pairings: ["Peated Scotch", "Rye Whiskey", "Black Espresso", "Mezcal"],
     yearFounded: 2013,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Deliverance+Nocturne", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Trading+Deliverance+Nocturne", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Deliverance+Nocturne", price: null }
+    ]
   },
   {
     id: "bltc-deliverance-porcelain",
@@ -6233,7 +7349,12 @@ const CIGARS = [
     description: "Deliverance Porcelain is the great surprise in BLTC's catalog — a Connecticut-wrapped cigar from a brand known for darkness and intensity. The white wrapper over Nicaraguan Habano binder and Pennsylvania filler creates an unexpectedly complex medium-bodied experience: buttered popcorn, sourdough bread, marshmallow sweetness, earth, and pepper. Halfwheel rated it 88 pts. A must-smoke for skeptics who think Connecticut wrappers can't be interesting.",
     pairings: ["Champagne", "Honey Whiskey", "Light Beer", "Café au Lait"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2033775/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Deliverance+Porcelain", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Deliverance+Porcelain", price: null }
+    ]
   },
   {
     id: "bltc-bishops-blend-2024",
@@ -6256,7 +7377,13 @@ const CIGARS = [
     description: "Bishop's Blend is one of BLTC's most anticipated annual releases — a different blend each year under the same concept. The 2024 edition uses a dark Ecuadorian Habano Maduro wrapper over a complex three-country filler including Connecticut Broadleaf and Pennsylvania Broadleaf. The result is a full-strength robusto with extraordinary sweetness and complexity: anise, dark fruit, raisin, dark chocolate, licorice, and a honey finish. Rated 94 pts by Stogie Press. This is James Brown at his most ambitious.",
     pairings: ["Añejo Rum", "Peated Scotch", "Port Wine", "Espresso"],
     yearFounded: 2013,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2058879/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Bishops+Blend", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Bishops+Blend", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Bishops+Blend", price: null }
+    ]
   },
   {
     id: "bltc-orthodox",
@@ -6279,7 +7406,13 @@ const CIGARS = [
     description: "Orthodox was BLTC's surprise 2024 release — a Mexican San Andrés-wrapped corona gorda that clocks in at medium-minus strength, the lightest cigar James Brown has ever produced. The San Andrés wrapper's natural sweetness dominates: cola syrup, dark cherries, raisins, and cedar with gentle Nicaraguan earth. Ranked #5 Cigar of the Year 2024 by Cigar Dojo. Limited to 900 boxes. This is the gateway BLTC for smokers who find Last Rites too intense.",
     pairings: ["Bourbon", "Cola Cocktails", "Dark Rum", "Espresso"],
     yearFounded: 2013,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2058872/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Orthodox", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Orthodox", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Orthodox", price: null }
+    ]
   },
   {
     id: "bltc-eletto",
@@ -6302,7 +7435,13 @@ const CIGARS = [
     description: "Eletto ('Elected' in Italian) was released to celebrate the 10th anniversary of Fábrica Oveja Negra. Like Porcelain, it's a surprising departure from BLTC's typical bold profile — a Connecticut Broadleaf-wrapped toro with a mild to medium-minus strength profile. Dark fruit, star anise, earth, toast, burnt orange peel, and waffle cone sweetness define this unusual cigar. Rated 88 by Halfwheel. A collector's piece for BLTC fans who want to explore the brand's full range.",
     pairings: ["Cognac", "Port Wine", "Dark Fruit Tea", "Rum"],
     yearFounded: 2013,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2064084/", price: null },
+      { retailer: "Cigar Page", url: "https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Eletto", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Eletto", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Eletto", price: null }
+    ]
   },
   {
     id: "bltc-super-deluxe-2025",
@@ -6325,7 +7464,13 @@ const CIGARS = [
     description: "Super Deluxe is BLTC's annual box-pressed limited release — a San Andrés-wrapped cigar that returns in a new format each year. The 2025 Robusto Box Press uses Mexican San Andrés over Ecuadorian Habano binder and Nicaraguan filler for a medium-full, angular smoke. Earth, black pepper, cola, and campfire smokiness define the profile. Limited to 750 boxes per vitola. The box-pressed format gives the draw a distinctive character compared to the round-vitola core lines.",
     pairings: ["Bourbon", "Rye Whiskey", "Mezcal", "Dark Beer"],
     yearFounded: 2013,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2061139/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Super+Deluxe", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Super+Deluxe", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Super+Deluxe", price: null }
+    ]
   },
   {
     id: "bltc-morphine-10yr",
@@ -6348,7 +7493,13 @@ const CIGARS = [
     description: "Morphine celebrates BLTC's 10th anniversary with a barber-pole construction — two wrapper leaves spiraling together around the cigar. The Ecuadorian Maduro and Mexican San Andrés are alternated in bands around the toro box press, creating a visually striking cigar that blends the maduro's dark sweetness with the San Andrés's earthy intensity. Black pepper, charred meat, cinnamon, and coffee define the profile. Limited to 400 boxes (8,000 total). A collector's statement piece.",
     pairings: ["Peated Scotch", "Mezcal", "Dark Rum", "Espresso"],
     yearFounded: 2013,
-    limited: true
+    limited: true,
+    buyLinks: [
+      { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/2061025/", price: null },
+      { retailer: "Famous Smoke Shop", url: "https://www.famous-smoke.com/search?q=BLTC+Morphine+10+Year", price: null },
+      { retailer: "Smoke Inn", url: "https://www.smokeinn.com/search?q=Black+Label+Morphine", price: null },
+      { retailer: "JR Cigars", url: "https://www.jrcigars.com/search?term=Black+Label+Morphine+10+Year", price: null }
+    ]
   }
 ];
 
