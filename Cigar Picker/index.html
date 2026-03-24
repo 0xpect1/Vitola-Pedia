@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cigar Connoisseur — Premium Cigar Encyclopedia</title>
+  <meta name="description" content="The definitive digital encyclopedia of premium cigars. Filter by origin, strength, flavor, and smoking time." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ░░ HEADER ░░ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-icon">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="20" cy="22" rx="16" ry="5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M4 22 Q4 8 20 6 Q28 5 36 12 L36 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M20 6 Q22 2 26 1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+            <path d="M24 8 Q27 4 31 4" stroke="currentColor" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Cigar Connoisseur</span>
+          <span class="brand-tagline">The Premium Cigar Encyclopedia</span>
+        </div>
+      </div>
+      <nav class="header-nav">
+        <button class="nav-btn active" data-view="library">Library</button>
+        <button class="nav-btn" data-view="regions">Regions</button>
+        <button class="nav-btn" data-view="guide">Guide</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ░░ HERO ░░ -->
+  <section class="hero" id="view-library">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Over 230 Premium Cigars</p>
+      <h1 class="hero-title">The World's Finest<br /><em>Cigars, Catalogued</em></h1>
+      <p class="hero-sub">Strength, origin, flavor profile, smoking time — every detail, beautifully organized.</p>
+      <div class="hero-search-wrap">
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          <input type="text" id="searchInput" placeholder="Search by name, brand, origin, or flavor…" autocomplete="off" />
+          <button class="search-clear" id="searchClear" aria-label="Clear search">✕</button>
+        </div>
+      </div>
+    </div>
+    <div class="hero-stats" id="heroStats">
+      <div class="stat"><span class="stat-num" id="statTotal">0</span><span class="stat-label">Cigars</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num">5</span><span class="stat-label">Countries</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Brands</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Flavor Notes</span></div>
+    </div>
+  </section>
+
+  <!-- ░░ MAIN CONTENT ░░ -->
+  <main class="main-content">
+
+    <!-- FILTERS SIDEBAR -->
+    <aside class="filters-panel" id="filtersPanel">
+      <div class="filters-header">
+        <h2 class="filters-title">Filter & Sort</h2>
+        <button class="filters-reset" id="resetFilters">Reset All</button>
+      </div>
+
+      <!-- Sort -->
+      <div class="filter-group">
+        <h3 class="filter-label">Sort By</h3>
+        <select class="filter-select" id="sortSelect">
+          <option value="rating-desc">Rating: High to Low</option>
+          <option value="rating-asc">Rating: Low to High</option>
+          <option value="name-asc">Name: A–Z</option>
+          <option value="name-desc">Name: Z–A</option>
+          <option value="price-asc">Price: Low to High</option>
+          <option value="price-desc">Price: High to Low</option>
+          <option value="smokingTime-asc">Smoke Time: Shortest</option>
+          <option value="smokingTime-desc">Smoke Time: Longest</option>
+          <option value="strength-asc">Strength: Mildest</option>
+          <option value="strength-desc">Strength: Boldest</option>
+        </select>
+      </div>
+
+      <!-- Strength -->
+      <div class="filter-group">
+        <h3 class="filter-label">Strength</h3>
+        <div class="filter-pills" id="strengthFilter">
+          <button class="pill active" data-value="all">All</button>
+          <button class="pill" data-value="1">Mild</button>
+          <button class="pill" data-value="2">Mild–Med</button>
+          <button class="pill" data-value="3">Medium</button>
+          <button class="pill" data-value="4">Med–Full</button>
+          <button class="pill" data-value="5">Full</button>
+        </div>
+      </div>
+
+      <!-- Origin -->
+      <div class="filter-group">
+        <h3 class="filter-label">Origin</h3>
+        <div class="filter-pills" id="originFilter">
+          <button class="pill active" data-value="all">All</button>
+          <button class="pill" data-value="Cuba">Cuba</button>
+          <button class="pill" data-value="Nicaragua">Nicaragua</button>
+          <button class="pill" data-value="Dominican Republic">Dominican</button>
+          <button class="pill" data-value="Honduras">Honduras</button>
+          <button class="pill" data-value="Guatemala">Guatemala</button>
+        </div>
+      </div>
+
+      <!-- Wrapper -->
+      <div class="filter-group">
+        <h3 class="filter-label">Wrapper Style</h3>
+        <div class="filter-pills" id="wrapperFilter">
+          <button class="pill active" data-value="all">All</button>
+          <button class="pill" data-value="Connecticut">Connecticut</button>
+          <button class="pill" data-value="Habano">Habano</button>
+          <button class="pill" data-value="Maduro">Maduro</button>
+          <button class="pill" data-value="Cameroon">Cameroon</button>
+          <button class="pill" data-value="Corojo">Corojo</button>
+          <button class="pill" data-value="Sumatra">Sumatra</button>
+        </div>
+      </div>
+
+      <!-- Price Range -->
+      <div class="filter-group">
+        <h3 class="filter-label">Max Price (per stick)</h3>
+        <div class="range-wrap">
+          <input type="range" id="priceRange" min="5" max="65" value="65" step="5" class="range-input" />
+          <div class="range-labels">
+            <span>$5</span>
+            <span id="priceLabel">All prices</span>
+            <span>$65+</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Smoke Time -->
+      <div class="filter-group">
+        <h3 class="filter-label">Smoking Time</h3>
+        <div class="filter-pills" id="timeFilter">
+          <button class="pill active" data-value="all">All</button>
+          <button class="pill" data-value="quick">Quick (&lt;30m)</button>
+          <button class="pill" data-value="short">Short (30–50m)</button>
+          <button class="pill" data-value="medium">Medium (50–75m)</button>
+          <button class="pill" data-value="long">Long (75m+)</button>
+        </div>
+      </div>
+
+      <!-- Flavor -->
+      <div class="filter-group">
+        <h3 class="filter-label">Flavor Profile</h3>
+        <div class="filter-pills flavor-pills" id="flavorFilter">
+          <button class="pill active" data-value="all">All</button>
+          <button class="pill" data-value="Coffee">Coffee</button>
+          <button class="pill" data-value="Chocolate">Chocolate</button>
+          <button class="pill" data-value="Pepper">Pepper</button>
+          <button class="pill" data-value="Cream">Cream</button>
+          <button class="pill" data-value="Cedar">Cedar</button>
+          <button class="pill" data-value="Earth">Earth</button>
+          <button class="pill" data-value="Leather">Leather</button>
+          <button class="pill" data-value="Spice">Spice</button>
+          <button class="pill" data-value="Floral">Floral</button>
+          <button class="pill" data-value="Vanilla">Vanilla</button>
+        </div>
+      </div>
+
+      <!-- Limited Only -->
+      <div class="filter-group">
+        <h3 class="filter-label">Availability</h3>
+        <label class="toggle-wrap">
+          <input type="checkbox" id="limitedToggle" />
+          <span class="toggle-track">
+            <span class="toggle-thumb"></span>
+          </span>
+          <span class="toggle-label">Limited Releases Only</span>
+        </label>
+      </div>
+
+      <!-- Mobile close -->
+      <button class="filters-mobile-close" id="filtersMobileClose">Apply Filters</button>
+    </aside>
+
+    <!-- CIGAR GRID -->
+    <section class="cigars-section">
+      <div class="results-bar">
+        <span class="results-count" id="resultsCount">Loading…</span>
+        <button class="mobile-filter-btn" id="mobileFilterBtn">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M3 6h18M7 12h10M11 18h2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          Filters
+        </button>
+        <div class="view-toggle">
+          <button class="view-btn active" id="viewGrid" aria-label="Grid view">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.8"/><rect x="14" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.8"/><rect x="3" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.8"/><rect x="14" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.8"/></svg>
+          </button>
+          <button class="view-btn" id="viewList" aria-label="List view">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M9 6h12M9 12h12M9 18h12M4 6h.01M4 12h.01M4 18h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="cigars-grid" id="cigarsGrid">
+        <!-- Cards injected by JS -->
+      </div>
+
+      <div class="no-results hidden" id="noResults">
+        <div class="no-results-icon">🚬</div>
+        <h3>No cigars match your filters</h3>
+        <p>Try adjusting your search or filters to find what you're looking for.</p>
+        <button class="btn-primary" id="noResultsReset">Clear All Filters</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ░░ REGIONS VIEW ░░ -->
+  <section class="regions-view hidden" id="view-regions">
+    <div class="regions-hero">
+      <h1>Cigar Growing <em>Regions</em></h1>
+      <p>The world's great tobacco-producing terroirs, and what makes each one unique.</p>
+    </div>
+    <div class="regions-grid" id="regionsGrid">
+      <!-- Injected by JS -->
+    </div>
+  </section>
+
+  <!-- ░░ GUIDE VIEW ░░ -->
+  <section class="guide-view hidden" id="view-guide">
+    <div class="guide-hero">
+      <h1>The Cigar <em>Connoisseur's Guide</em></h1>
+      <p>Everything you need to know about premium cigars — from first smoke to expert.</p>
+    </div>
+    <div class="guide-content">
+
+      <div class="guide-section">
+        <h2>Understanding Cigar Strength</h2>
+        <p>Cigar strength refers to the nicotine content and body of the smoke — not simply the flavor intensity. A mild cigar can have complex flavor while remaining low in nicotine, while a full-bodied cigar will deliver both intense flavor and a powerful nicotine presence.</p>
+        <div class="strength-guide-bars">
+          <div class="sgb-item">
+            <div class="sgb-label"><strong>Mild</strong> <span>Macanudo, Romeo 1875, Perdomo Champagne</span></div>
+            <div class="sgb-bar"><div class="sgb-fill" style="width:20%"></div></div>
+            <p class="sgb-desc">Light body, low nicotine. Smooth and creamy. Perfect for beginners or morning smoking.</p>
+          </div>
+          <div class="sgb-item">
+            <div class="sgb-label"><strong>Mild–Medium</strong> <span>Davidoff Grand Cru, H. Upmann, Hoyo de Monterrey</span></div>
+            <div class="sgb-bar"><div class="sgb-fill" style="width:40%"></div></div>
+            <p class="sgb-desc">Growing complexity and body. Still approachable, with more nuanced flavors.</p>
+          </div>
+          <div class="sgb-item">
+            <div class="sgb-label"><strong>Medium</strong> <span>Montecristo No. 2, Cohiba Siglo VI, Arturo Fuente Don Carlos</span></div>
+            <div class="sgb-bar"><div class="sgb-fill" style="width:60%"></div></div>
+            <p class="sgb-desc">The sweet spot for most enthusiasts. Rich complexity without overwhelming nicotine.</p>
+          </div>
+          <div class="sgb-item">
+            <div class="sgb-label"><strong>Medium–Full</strong> <span>Padrón 1964, My Father No. 1, Cohiba Behike</span></div>
+            <div class="sgb-bar"><div class="sgb-fill" style="width:80%"></div></div>
+            <p class="sgb-desc">Bold, rich, and complex. Best after a meal with an experienced palate.</p>
+          </div>
+          <div class="sgb-item">
+            <div class="sgb-label"><strong>Full</strong> <span>Bolívar, Camacho Corojo, Joya Antaño</span></div>
+            <div class="sgb-bar"><div class="sgb-fill" style="width:100%"></div></div>
+            <p class="sgb-desc">Maximum intensity. Earth, pepper, and leather dominate. For seasoned smokers only.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-section">
+        <h2>Anatomy of a Premium Cigar</h2>
+        <div class="anatomy-grid">
+          <div class="anatomy-item">
+            <div class="anatomy-icon">🌿</div>
+            <h3>Wrapper</h3>
+            <p>The outermost leaf — the most important component for flavor, contributing up to 60% of a cigar's taste. Wrapper quality determines appearance, burn rate, and much of the flavor profile. Sun-grown wrappers are thicker and bolder; shade-grown are thinner, smoother, and more elegant.</p>
+          </div>
+          <div class="anatomy-item">
+            <div class="anatomy-icon">🍂</div>
+            <h3>Binder</h3>
+            <p>The leaf that holds the filler together, just inside the wrapper. The binder contributes significantly to the cigar's burn quality and combustion. Often from robust, resilient tobacco capable of holding its shape through the rolling process.</p>
+          </div>
+          <div class="anatomy-item">
+            <div class="anatomy-icon">🌱</div>
+            <h3>Filler</h3>
+            <p>The interior blend of leaves — the "recipe" of the cigar. Master blenders combine leaves from different priming positions (ligero, seco, volado) to achieve the desired strength, body, and flavor. Long-filler uses whole leaves; short-filler uses scraps.</p>
+          </div>
+          <div class="anatomy-item">
+            <div class="anatomy-icon">✂️</div>
+            <h3>Cap</h3>
+            <p>The sealed closed end of the cigar (the end you cut). Quality caps are applied with a small round piece of wrapper, secured with natural tobacco gum. How well the cap is applied determines the quality of the draw after cutting.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-section">
+        <h2>Vitola Guide — Cigar Sizes & Shapes</h2>
+        <p class="guide-intro">A vitola is the term for a cigar's size and shape. Two key measurements: <strong>length</strong> (in inches) and <strong>ring gauge</strong> (diameter in 64ths of an inch). Larger ring gauges burn cooler and slower; smaller ring gauges concentrate flavors in the wrapper.</p>
+        <div class="vitola-table-wrap">
+          <table class="vitola-table">
+            <thead><tr><th>Name</th><th>Length</th><th>Ring Gauge</th><th>Smoke Time</th><th>Character</th></tr></thead>
+            <tbody>
+              <tr><td>Petit Corona</td><td>4–4.5"</td><td>40–42</td><td>20–30 min</td><td>Concentrated, wrapper-forward</td></tr>
+              <tr><td>Corona</td><td>5.5–6"</td><td>42–44</td><td>30–45 min</td><td>Balanced, classic</td></tr>
+              <tr><td>Robusto</td><td>4.75–5.5"</td><td>48–52</td><td>45–60 min</td><td>Most popular format, full-flavored</td></tr>
+              <tr><td>Toro</td><td>6–6.5"</td><td>50–54</td><td>60–75 min</td><td>Full experience, balanced</td></tr>
+              <tr><td>Churchill</td><td>6.75–7.5"</td><td>46–48</td><td>75–90 min</td><td>Elegant, evolving complexity</td></tr>
+              <tr><td>Lancero / Laguito</td><td>7–7.5"</td><td>38–40</td><td>60–75 min</td><td>Wrapper-intensive, sharp flavors</td></tr>
+              <tr><td>Piramide / Torpedo</td><td>5.5–6.5"</td><td>50–54</td><td>55–75 min</td><td>Tapered head concentrates flavors</td></tr>
+              <tr><td>Perfecto</td><td>4–6"</td><td>Variable</td><td>30–60 min</td><td>Tapered both ends, complex</td></tr>
+              <tr><td>Gordo / Gran Toro</td><td>6"</td><td>60+</td><td>60–90 min</td><td>Very cool, generous smoke</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="guide-section">
+        <h2>Wrapper Color Guide</h2>
+        <div class="wrapper-colors">
+          <div class="wc-item">
+            <div class="wc-swatch" style="background:#f5deb3"></div>
+            <h3>Claro</h3>
+            <p>Pale tan. Shade-grown Connecticut. Mild, creamy, mild sweetness.</p>
+          </div>
+          <div class="wc-item">
+            <div class="wc-swatch" style="background:#d2a679"></div>
+            <h3>Colorado Claro</h3>
+            <p>Light brown. Moderate body, silky texture. Cameroon is often this color.</p>
+          </div>
+          <div class="wc-item">
+            <div class="wc-swatch" style="background:#a0714f"></div>
+            <h3>Colorado</h3>
+            <p>Medium brown. Balanced sweetness and spice. Most Cuban Habanos.</p>
+          </div>
+          <div class="wc-item">
+            <div class="wc-swatch" style="background:#7b4f2e"></div>
+            <h3>Colorado Maduro</h3>
+            <p>Dark reddish-brown. Rich, full-flavored with sweet undertones.</p>
+          </div>
+          <div class="wc-item">
+            <div class="wc-swatch" style="background:#3d1c0d"></div>
+            <h3>Maduro</h3>
+            <p>Dark brown to near-black. Slow-fermented. Sweet, rich chocolate/coffee.</p>
+          </div>
+          <div class="wc-item">
+            <div class="wc-swatch" style="background:#1a0a04"></div>
+            <h3>Oscuro / Double Maduro</h3>
+            <p>Nearly black. Maximum fermentation. Intense, oily, bold sweetness.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-section">
+        <h2>How to Cut & Light a Cigar</h2>
+        <div class="how-to-grid">
+          <div class="howto-item">
+            <div class="howto-num">01</div>
+            <h3>The Cut</h3>
+            <p>Use a sharp guillotine, V-cut, or punch cutter. Cut just above the shoulder (where the cap curves into the body) — removing 1/8 to 3/16 of an inch. Too deep risks unraveling; too shallow constricts draw.</p>
+          </div>
+          <div class="howto-item">
+            <div class="howto-num">02</div>
+            <h3>The Toast</h3>
+            <p>Before putting the cigar to your lips, gently toast the foot (the open end) at a 45° angle over a butane flame. Rotate slowly until the edge glows orange. This ensures an even initial burn.</p>
+          </div>
+          <div class="howto-item">
+            <div class="howto-num">03</div>
+            <h3>The Light</h3>
+            <p>Place the cigar in your mouth and gently draw as you move the flame across the foot without touching it. Rotate the cigar to ensure an even light. Puff slowly — never rush the lighting process.</p>
+          </div>
+          <div class="howto-item">
+            <div class="howto-num">04</div>
+            <h3>The Smoke</h3>
+            <p>Draw once every 30–60 seconds. Puffing too frequently makes the cigar burn hot and bitter. Let it rest in the ashtray between puffs. Never inhale — the smoke is meant to be tasted on the palate, not lungs.</p>
+          </div>
+          <div class="howto-item">
+            <div class="howto-num">05</div>
+            <h3>The Ash</h3>
+            <p>A long, firm ash (1–1.5 inches) actually helps regulate burn temperature. Don't tap it off too often. When it does fall, do so gently — never flick a premium cigar like a cigarette.</p>
+          </div>
+          <div class="howto-item">
+            <div class="howto-num">06</div>
+            <h3>When to Stop</h3>
+            <p>Stop smoking when you reach 2 inches from the end or when the heat becomes uncomfortable. Never stub it out — simply rest it in the ashtray and let it extinguish naturally. A premium cigar deserves a dignified end.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ░░ CIGAR DETAIL MODAL ░░ -->
+  <div class="modal-overlay hidden" id="modalOverlay">
+    <div class="modal" id="cigarModal" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalClose" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="modal-body" id="modalBody">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ░░ MOBILE FILTER OVERLAY ░░ -->
+  <div class="filter-overlay hidden" id="filterOverlay"></div>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-name">Cigar Connoisseur</span>
+        <p>The premium encyclopedia for cigar enthusiasts. Data compiled from Cigar Aficionado, Halfwheel, Cigar Journal, and extensive primary research.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Top Brands</h4>
+          <ul>
+            <li>Cohiba</li><li>Padrón</li><li>Arturo Fuente</li><li>Davidoff</li><li>Oliva</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><button class="footer-nav-btn" data-view="library">Library</button></li>
+            <li><button class="footer-nav-btn" data-view="regions">Regions Guide</button></li>
+            <li><button class="footer-nav-btn" data-view="guide">Connoisseur's Guide</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Cigar Connoisseur — For enthusiasts, by enthusiasts. Must be 21+ to purchase tobacco products.</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
