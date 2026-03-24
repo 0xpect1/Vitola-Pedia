@@ -42,7 +42,11 @@ Each cigar object in `CIGARS` array follows this shape:
   description: "...",
   pairings: ["Bourbon", "Espresso"],
   yearFounded: 1962,
-  limited: false               // true for limited/rare releases
+  limited: false,              // true for limited/rare releases
+  buyLinks: [                  // optional — specific product page links with prices
+    { retailer: "Cigars International", url: "https://...", price: 11.95 },
+    { retailer: "Famous Smoke Shop",    url: "https://...", price: 12.99 },
+  ]
 }
 ```
 
@@ -53,6 +57,7 @@ Each cigar object in `CIGARS` array follows this shape:
 - **Strength scale** is 1–5 (not text strings) so it's sortable and filterable numerically; display labels are applied in the render layer.
 - **Flavor wheel** is SVG-based, drawn programmatically in JS — no canvas library needed.
 - When adding new cigars, update **both** `js/data.js` and `data/cigars.json` to keep them in sync.
+- **Where to Buy** auto-generates search links to 5 US retailers (or 3 international retailers for Cuban cigars) for every cigar. Preferred retailers (in priority order): Cigars International, Cigar Page, Famous Smoke Shop, JR Cigars, Smoke Inn. If `buyLinks` is provided on a cigar, those specific product links are shown first, sorted cheapest-first with "Best Price" badge on the cheapest entry.
 
 ## After Adding Cigars — Always Update These
 

@@ -371,6 +371,8 @@ function openModal(id) {
       <div class="modal-section-title">Pairs Well With</div>
       <div class="pairing-list">${pairingItems}</div>
     </div>` : ''}
+
+    ${buildBuySection(cigar)}
   `;
 
   $modalOverlay.classList.remove('hidden');
@@ -380,6 +382,82 @@ function openModal(id) {
 function closeModal() {
   $modalOverlay.classList.add('hidden');
   document.body.style.overflow = '';
+}
+
+// ── WHERE TO BUY ─────────────────────────────────────────────────
+const US_RETAILERS = [
+  { name: 'Cigars International', search: 'https://www.cigarsinternational.com/search?q=',     tagline: 'Best Deals & Bundles',   badge: '★ Best Value Pick' },
+  { name: 'Cigar Page',           search: 'https://www.cigarpage.com/search?q=',               tagline: 'Top Prices, Huge Selection' },
+  { name: 'Famous Smoke Shop',    search: 'https://www.famous.com/search/?q=',                 tagline: 'Largest Online Selection' },
+  { name: 'JR Cigars',            search: 'https://www.jrcigars.com/search?term=',             tagline: 'Est. 1975 · Trusted Since' },
+  { name: 'Smoke Inn',            search: 'https://www.smokeinn.com/search?q=',                tagline: 'Boutique & Premium Brands' },
+];
+
+const INTL_RETAILERS = [
+  { name: 'Havana House',         search: 'https://www.havanahouse.co.uk/search?q=',           tagline: 'UK · Authentic Habanos',  badge: '★ Best Value Pick' },
+  { name: 'C.Gars Ltd',           search: 'https://www.cgarsltd.co.uk/search?q=',              tagline: 'UK · Cuban Specialists' },
+  { name: 'Hunters & Frankau',    search: 'https://www.hunters-frankau.co.uk/?s=',             tagline: 'Official UK Habanos Dist.' },
+];
+
+function buildBuySection(cigar) {
+  const isCuban = cigar.origin === 'Cuba';
+  const query = encodeURIComponent(cigar.name);
+  const retailers = isCuban ? INTL_RETAILERS : US_RETAILERS;
+
+  // If cigar has handcrafted buyLinks (with prices), sort by price and flag cheapest
+  let specificLinks = [];
+  if (cigar.buyLinks && cigar.buyLinks.length > 0) {
+    specificLinks = [...cigar.buyLinks].sort((a, b) => a.price - b.price);
+    specificLinks[0].isBest = true;
+  }
+
+  // Auto-generate search links; skip retailers already in specific links
+  const covered = new Set(specificLinks.map(l => l.retailer));
+  const autoLinks = retailers
+    .filter(r => !covered.has(r.name))
+    .map((r, i) => ({
+      name: r.name,
+      url: r.search + query,
+      tagline: r.tagline,
+      badge: (!specificLinks.length && i === 0) ? r.badge : null,
+    }));
+
+  const allLinks = [
+    ...specificLinks.map(l => ({
+      name: l.retailer,
+      url: l.url,
+      tagline: l.tagline || '',
+      badge: l.isBest ? '★ Best Price' : null,
+      price: l.price,
+    })),
+    ...autoLinks,
+  ];
+
+  const cards = allLinks.map(link => {
+    const badgeHtml = link.badge ? `<div class="buy-badge">${link.badge}</div>` : '';
+    const priceHtml = link.price != null
+      ? `<div class="buy-cta buy-price-tag">${formatPrice(link.price)} / stick</div>`
+      : `<div class="buy-cta">Shop Now →</div>`;
+    return `
+      <a href="${link.url}" target="_blank" rel="noopener noreferrer" class="buy-card${link.badge ? ' buy-card-top' : ''}">
+        ${badgeHtml}
+        <div class="buy-card-name">${link.name}</div>
+        <div class="buy-card-tagline">${link.tagline}</div>
+        ${priceHtml}
+      </a>`;
+  }).join('');
+
+  const cubanNote = isCuban
+    ? `<p class="buy-cuban-note">🇨🇺 Cuban cigars cannot be purchased in the US. Links go to authorized international retailers.</p>`
+    : '';
+
+  return `
+    <div class="modal-buy-section">
+      <div class="modal-section-title">Where to Buy</div>
+      ${cubanNote}
+      <div class="buy-cards-grid">${cards}</div>
+      <p class="buy-disclaimer">Prices vary by retailer and change often — click through for current pricing.</p>
+    </div>`;
 }
 
 // ── FLAVOR WHEEL SVG ─────────────────────────────────────────────
