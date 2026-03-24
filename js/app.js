@@ -771,7 +771,7 @@ function openCompareModal() {
     const pct = (cigar.strength / 5) * 100;
     const flavTags = cigar.flavors.slice(0, 5).map(f => `<span class="compare-flavor-tag">${f}</span>`).join('');
     const borderClass = side === 'left' ? 'compare-left' : 'compare-right';
-    const lastRadius = side === 'left' ? 'border-radius: 0 0 0 12px' : 'border-radius: 0 0 12px 0';
+    const pairingItems = (cigar.pairings || []).map(p => `<span class="compare-pairing-chip">🥃 ${p}</span>`).join('');
     return `
       <div class="compare-col">
         <div class="compare-col-header">
@@ -789,7 +789,14 @@ function openCompareModal() {
         <div class="compare-cell ${borderClass}">${cigar.wrapper}</div>
         <div class="compare-cell ${borderClass}">${cigar.size}</div>
         <div class="compare-cell ${borderClass}">${cigar.length}" × ${cigar.ringGauge}</div>
-        <div class="compare-cell ${borderClass}" style="${lastRadius}"><div class="compare-flavor-tags">${flavTags}</div></div>
+        <div class="compare-cell compare-cell-hover-wrap ${borderClass}">
+          <div class="compare-flavor-tags">${flavTags}</div>
+          <div class="compare-hover-reveal">
+            <div class="compare-hover-wheel">${buildFlavorWheel(cigar.flavors)}</div>
+            <div class="compare-hover-pairings-label">Pairs With</div>
+            <div class="compare-hover-pairings">${pairingItems}</div>
+          </div>
+        </div>
       </div>`;
   }
 
