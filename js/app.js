@@ -385,12 +385,26 @@ function closeModal() {
 }
 
 // ── WHERE TO BUY ─────────────────────────────────────────────────
+
+// Converts a cigar name to Neptune Cigar's URL slug format
+// e.g. "Padrón 1964 Anniversary Maduro" → "padron-1964-anniversary-maduro"
+function toNeptuneSlug(name) {
+  // Neptune drops "Drew Estate" prefix — Liga Privada is sold as its own brand
+  const normalized = name.replace(/^Drew Estate\s+/i, '');
+  return normalized
+    .toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // remove diacritics (ó→o, é→e, etc.)
+    .replace(/[''`~]/g, '')          // remove apostrophes/backticks
+    .replace(/[^a-z0-9]+/g, '-')    // non-alphanumeric → hyphen
+    .replace(/^-+|-+$/g, '');        // trim leading/trailing hyphens
+}
+
 const US_RETAILERS = [
   { name: 'Cigars International', search: 'https://www.cigarsinternational.com/search?q=',     tagline: 'Best Deals & Bundles',   badge: '★ Best Value Pick' },
   { name: 'Cigar Page',           search: 'https://www.cigarpage.com/search?q=',               tagline: 'Top Prices, Huge Selection' },
   { name: 'Famous Smoke Shop',    search: 'https://www.famous-smoke.com/search?q=',            tagline: 'Largest Online Selection' },
   { name: 'JR Cigars',            search: 'https://www.jrcigars.com/search?term=',             tagline: 'Est. 1975 · Trusted Since' },
-  { name: 'Neptune Cigar',        search: 'https://www.neptunecigar.com/search?q=',            tagline: 'Great Prices, Fast Shipping' },
+  { name: 'Neptune Cigar',        direct: 'https://www.neptunecigar.com/cigars/',              tagline: 'Great Prices, Fast Shipping' },
   { name: 'Smoke Inn',            search: 'https://www.smokeinn.com/search?q=',                tagline: 'Boutique & Premium Brands' },
 ];
 
@@ -405,20 +419,24 @@ function buildBuySection(cigar) {
   const query = encodeURIComponent(cigar.name);
   const retailers = isCuban ? INTL_RETAILERS : US_RETAILERS;
 
-  // If cigar has handcrafted buyLinks (with prices), sort by price and flag cheapest
+  // If cigar has handcrafted buyLinks (with prices), sort by price and flag cheapest.
+  // Exclude Neptune Cigar search-URL entries so Neptune always uses the direct-URL generator below.
   let specificLinks = [];
   if (cigar.buyLinks && cigar.buyLinks.length > 0) {
-    specificLinks = [...cigar.buyLinks].sort((a, b) => a.price - b.price);
-    specificLinks[0].isBest = true;
+    const filtered = cigar.buyLinks.filter(
+      l => !(l.retailer === 'Neptune Cigar' && l.url && l.url.includes('/search?'))
+    );
+    specificLinks = [...filtered].sort((a, b) => a.price - b.price);
+    if (specificLinks.length > 0) specificLinks[0].isBest = true;
   }
 
-  // Auto-generate search links; skip retailers already in specific links
+  // Auto-generate links; skip retailers already in specific links
   const covered = new Set(specificLinks.map(l => l.retailer));
   const autoLinks = retailers
     .filter(r => !covered.has(r.name))
     .map((r, i) => ({
       name: r.name,
-      url: r.search + query,
+      url: r.direct ? r.direct + toNeptuneSlug(cigar.name) : r.search + query,
       tagline: r.tagline,
       badge: (!specificLinks.length && i === 0) ? r.badge : null,
     }));
