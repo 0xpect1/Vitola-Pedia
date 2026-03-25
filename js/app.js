@@ -390,6 +390,7 @@ const US_RETAILERS = [
   { name: 'Cigar Page',           search: 'https://www.cigarpage.com/search?q=',               tagline: 'Top Prices, Huge Selection' },
   { name: 'Famous Smoke Shop',    search: 'https://www.famous-smoke.com/search?q=',            tagline: 'Largest Online Selection' },
   { name: 'JR Cigars',            search: 'https://www.jrcigars.com/search?term=',             tagline: 'Est. 1975 · Trusted Since' },
+  { name: 'Neptune Cigar',        search: 'https://www.neptunecigar.com/search?q=',            tagline: 'Great Prices, Fast Shipping' },
   { name: 'Smoke Inn',            search: 'https://www.smokeinn.com/search?q=',                tagline: 'Boutique & Premium Brands' },
 ];
 
