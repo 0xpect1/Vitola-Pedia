@@ -893,6 +893,40 @@ img { max-width: 100%; display: block; }
   flex-shrink: 0;
 }
 
+/* Available Sizes */
+.modal-sizes-section { margin-bottom: 28px; }
+.size-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+.size-pill {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 2px;
+  padding: 8px 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition), transform 0.15s;
+  text-align: left;
+}
+.size-pill:hover:not(:disabled) {
+  background: var(--bg-card-h);
+  border-color: var(--border-h);
+  transform: translateY(-1px);
+}
+.size-pill--active {
+  background: var(--gold-glow);
+  border-color: rgba(201,168,76,0.4);
+  cursor: default;
+}
+.size-pill-name {
+  font-size: 13px; font-weight: 600;
+  color: var(--text-primary); line-height: 1.2;
+}
+.size-pill--active .size-pill-name { color: var(--gold); }
+.size-pill-dims {
+  font-size: 10px; color: var(--text-muted);
+  font-variant-numeric: tabular-nums; letter-spacing: 0.02em;
+}
+.size-pill--active .size-pill-dims { color: var(--text-secondary); }
+
 /* Pairings */
 .modal-pairings { margin-bottom: 28px; }
 .pairing-list { display: flex; flex-wrap: wrap; gap: 8px; }

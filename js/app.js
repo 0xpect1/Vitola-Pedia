@@ -358,6 +358,8 @@ function openModal(id) {
       </div>
     </div>
 
+    ${buildSiblingsSection(cigar)}
+
     <div class="modal-flavors">
       <div class="modal-section-title">Flavor Profile</div>
       <div class="flavor-wheel-wrap">
@@ -377,6 +379,7 @@ function openModal(id) {
 
   $modalOverlay.classList.remove('hidden');
   document.body.style.overflow = 'hidden';
+  $modal.scrollTop = 0;
 }
 
 function closeModal() {
@@ -397,6 +400,51 @@ function toNeptuneSlug(name) {
     .replace(/[''`~]/g, '')          // remove apostrophes/backticks
     .replace(/[^a-z0-9]+/g, '-')    // non-alphanumeric → hyphen
     .replace(/^-+|-+$/g, '');        // trim leading/trailing hyphens
+}
+
+// ── AVAILABLE SIZES ───────────────────────────────────────────────
+function findSiblings(cigar) {
+  const parts = cigar.name.split(' ');
+  // Try progressively shorter prefixes; minimum 4 words to avoid false-positive
+  // brand-level groupings (e.g. "Romeo y Julieta" matching all RyJ entries)
+  for (let len = parts.length - 1; len >= 4; len--) {
+    const prefix = parts.slice(0, len).join(' ');
+    const siblings = CIGARS.filter(c =>
+      c.id !== cigar.id &&
+      c.brand === cigar.brand &&
+      c.name.startsWith(prefix + ' ')
+    );
+    if (siblings.length >= 1) return siblings;
+  }
+  return [];
+}
+
+function buildSiblingsSection(cigar) {
+  const siblings = findSiblings(cigar);
+  if (siblings.length === 0) return '';
+
+  // Merge current cigar with siblings, sort all by length ascending (small→large)
+  const all = [...siblings, { ...cigar, _isCurrent: true }]
+    .sort((a, b) => a.length - b.length);
+
+  const pills = all.map(c => {
+    if (c._isCurrent) {
+      return `<button class="size-pill size-pill--active" disabled aria-current="true">
+        <span class="size-pill-name">${c.size}</span>
+        <span class="size-pill-dims">${c.length}" &times; ${c.ringGauge}</span>
+      </button>`;
+    }
+    return `<button class="size-pill" onclick="openModal('${c.id}')">
+      <span class="size-pill-name">${c.size}</span>
+      <span class="size-pill-dims">${c.length}" &times; ${c.ringGauge} &middot; ${formatPrice(c.price)}</span>
+    </button>`;
+  }).join('');
+
+  return `
+    <div class="modal-sizes-section">
+      <div class="modal-section-title">Available Sizes</div>
+      <div class="size-pills">${pills}</div>
+    </div>`;
 }
 
 const US_RETAILERS = [
