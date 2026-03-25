@@ -893,7 +893,41 @@ img { max-width: 100%; display: block; }
   flex-shrink: 0;
 }
 
-/* Available Sizes */
+/* Card size pills */
+.card-sizes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+.card-size-pill {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 3px 8px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+}
+.card-size-pill:hover {
+  background: var(--bg-card-h);
+  border-color: var(--border-h);
+  color: var(--text-primary);
+}
+.card-size-pill.active {
+  background: var(--gold-glow);
+  border-color: rgba(201,168,76,0.3);
+  color: var(--gold);
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Available Sizes (modal) */
 .modal-sizes-section { margin-bottom: 28px; }
 .size-pills { display: flex; flex-wrap: wrap; gap: 8px; }
 .size-pill {

@@ -162,6 +162,16 @@ function renderCard(cigar, index) {
     ? `<span class="limited-badge">Limited</span>`
     : '';
 
+  const siblings = SIBLING_MAP.get(cigar.id) || [];
+  const allSizes = siblings.length > 0
+    ? [...siblings, cigar].sort((a, b) => a.length - b.length)
+    : null;
+  const cardSizesRow = allSizes ? `
+    <div class="card-sizes">
+      ${allSizes.map(s => `<button class="card-size-pill${s.id === cigar.id ? ' active' : ''}"
+        onclick="event.stopPropagation();openModal('${s.id}')" tabindex="-1">${s.size}</button>`).join('')}
+    </div>` : '';
+
   const inCompare = compareList.includes(cigar.id);
   return `
     <article class="cigar-card" data-id="${cigar.id}" style="animation-delay:${Math.min(index * 0.04, 0.5)}s" role="button" tabindex="0">
@@ -200,6 +210,7 @@ function renderCard(cigar, index) {
         </div>
       </div>
       <div class="flavor-tags">${topFlavors}</div>
+      ${cardSizesRow}
     </article>
   `;
 }
@@ -212,6 +223,16 @@ function renderListCard(cigar) {
     return `<div class="strength-dot${filled ? ' filled' : ''}" style="${filled ? `--strength-val:${sc.color}` : ''}"></div>`;
   }).join('');
   const flag = ORIGIN_FLAGS[cigar.origin] || '';
+
+  const siblings = SIBLING_MAP.get(cigar.id) || [];
+  const allSizes = siblings.length > 0
+    ? [...siblings, cigar].sort((a, b) => a.length - b.length)
+    : null;
+  const listSizesRow = allSizes ? `
+    <div class="card-sizes" style="margin-top:8px">
+      ${allSizes.map(s => `<button class="card-size-pill${s.id === cigar.id ? ' active' : ''}"
+        onclick="event.stopPropagation();openModal('${s.id}')" tabindex="-1">${s.size}</button>`).join('')}
+    </div>` : '';
 
   return `
     <article class="cigar-card" data-id="${cigar.id}" role="button" tabindex="0">
@@ -236,6 +257,7 @@ function renderListCard(cigar) {
           <div class="strength-dots">${dots}</div>
           <span class="strength-text" style="color:${sc.color}">${sc.label}</span>
         </div>
+        ${listSizesRow}
       </div>
       <div class="card-right">
         <div class="card-rating">${cigar.rating}<span class="card-rating-label">pts</span></div>
@@ -445,6 +467,12 @@ function buildSiblingsSection(cigar) {
       <div class="modal-section-title">Available Sizes</div>
       <div class="size-pills">${pills}</div>
     </div>`;
+}
+
+// Precompute siblings for every cigar once so card rendering stays fast
+const SIBLING_MAP = new Map();
+for (const cigar of CIGARS) {
+  SIBLING_MAP.set(cigar.id, findSiblings(cigar));
 }
 
 const US_RETAILERS = [
