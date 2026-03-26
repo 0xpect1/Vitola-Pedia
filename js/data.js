@@ -229,6 +229,7 @@ const CIGARS = [
   {
     id: "padron-1964-anniversario-maduro",
     name: "Padrón 1964 Anniversary Maduro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pam/ci-pam-corm.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -258,6 +259,7 @@ const CIGARS = [
   {
     id: "padron-80th-anniversario",
     name: "Padrón 80th Anniversary",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pa6/ci-pa6-80n.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -287,6 +289,7 @@ const CIGARS = [
   {
     id: "oliva-serie-v-melanio",
     name: "Oliva Serie V Melanio",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/osm/ci-osm-robn.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -316,6 +319,7 @@ const CIGARS = [
   {
     id: "nicaraguan-avo-classic-robusto",
     name: "Arturo Fuente Hemingway Short Story",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/hem/CI-HEM-SHON-25-BOX.jpg",
     brand: "Arturo Fuente",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -339,6 +343,7 @@ const CIGARS = [
   {
     id: "my-father-le-bijou-1922",
     name: "My Father Le Bijou 1922",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/m22/ci-m22-torm.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -368,6 +373,7 @@ const CIGARS = [
   {
     id: "perdomo-reserve-champagne",
     name: "Perdomo Reserve Champagne",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pxc/ci-pxc-robn.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -391,6 +397,7 @@ const CIGARS = [
   {
     id: "joya-de-nicaragua-antano-1970",
     name: "Joya de Nicaragua Antaño 1970",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/joa/ci-joa-rgran.jpg",
     brand: "Joya de Nicaragua",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -414,6 +421,7 @@ const CIGARS = [
   {
     id: "drew-estate-liga-privada-t52",
     name: "Drew Estate Liga Privada T52",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/l52/ci-l52-robn.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí & Jalapa",
@@ -443,6 +451,7 @@ const CIGARS = [
   {
     id: "drew-estate-liga-privada-no9",
     name: "Drew Estate Liga Privada No. 9",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lp9/ci-lp9-robm.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí & Jalapa",
@@ -472,6 +481,7 @@ const CIGARS = [
   {
     id: "rocky-patel-vintage-1990",
     name: "Rocky Patel Vintage 1990",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/vnumbers/ci-v90-robm.jpg",
     brand: "Rocky Patel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -495,6 +505,7 @@ const CIGARS = [
   {
     id: "alec-bradley-prensado",
     name: "Alec Bradley Prensado",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/abp/ci-abp-robn.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -520,6 +531,7 @@ const CIGARS = [
   {
     id: "arturo-fuente-opus-x",
     name: "Arturo Fuente Opus X",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/opx/ci-opx-fuefuen.jpg",
     brand: "Arturo Fuente",
     origin: "Dominican Republic",
     region: "Chateau de la Fuente",
@@ -549,6 +561,7 @@ const CIGARS = [
   {
     id: "arturo-fuente-don-carlos",
     name: "Arturo Fuente Don Carlos",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/afd/ci-afd-robn.jpg",
     brand: "Arturo Fuente",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -578,6 +591,7 @@ const CIGARS = [
   {
     id: "macanudo-cafe-robusto",
     name: "Macanudo Café Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mac/ci-mac-hydn.jpg",
     brand: "Macanudo",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -601,6 +615,7 @@ const CIGARS = [
   {
     id: "davidoff-grand-cru-no2",
     name: "Davidoff Grand Cru No. 2",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dvg/ci-dvg-2n.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -629,6 +644,7 @@ const CIGARS = [
   {
     id: "davidoff-millennium-blend",
     name: "Davidoff Millennium Blend Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dvm/ci-dvm-robn.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -657,6 +673,7 @@ const CIGARS = [
   {
     id: "romeo-y-julieta-1875-robusto",
     name: "Romeo y Julieta 1875 Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ror/ci-ror-buln5pk.jpg",
     brand: "Romeo y Julieta",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -680,6 +697,7 @@ const CIGARS = [
   {
     id: "avo-classic-no9",
     name: "AVO Classic No. 9",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/avo/CI-AVO-9N.jpg",
     brand: "AVO",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -711,6 +729,7 @@ const CIGARS = [
   {
     id: "camacho-corojo-robusto",
     name: "Camacho Corojo Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cmc/ci-cmc-robn.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -740,6 +759,7 @@ const CIGARS = [
   {
     id: "punch-gran-puro-nicaragua",
     name: "Punch Gran Puro Nicaragua",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ppn/ci-ppn-torm.jpg",
     brand: "Punch",
     origin: "Nicaragua",
     region: "Estelí",
@@ -765,6 +785,7 @@ const CIGARS = [
   {
     id: "perdomo-champagne-connecticut",
     name: "Perdomo Champagne Connecticut",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pxc/ci-pxc-robn.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -788,6 +809,7 @@ const CIGARS = [
   {
     id: "oliva-connecticut-reserve",
     name: "Oliva Connecticut Reserve",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ocr/ci-ocr-robn.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -819,6 +841,7 @@ const CIGARS = [
   {
     id: "cao-mx2-maduro",
     name: "CAO MX2 Maduro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cm2/CI-CM2-ROBM.jpg",
     brand: "CAO",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -842,6 +865,7 @@ const CIGARS = [
   {
     id: "foundation-el-gueguense",
     name: "Foundation El Güegüense",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/elg/ci-elg-ltd.jpg",
     brand: "Foundation Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -865,6 +889,7 @@ const CIGARS = [
   {
     id: "ashton-esg-10-year",
     name: "Ashton ESG 10 Year Salute",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ase/ci-ase-20n.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -896,6 +921,7 @@ const CIGARS = [
   {
     id: "plasencia-alma-del-fuego",
     name: "Plasencia Alma del Fuego",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pfu/ci-pfu-robn.jpg",
     brand: "Plasencia",
     origin: "Nicaragua",
     region: "Estelí & Jalapa",
@@ -925,6 +951,7 @@ const CIGARS = [
   {
     id: "crowned-heads-jericho-hill",
     name: "Crowned Heads Jericho Hill",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/jrh/CI-JRH-OBSM-21-BOX.jpg",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Estelí",
@@ -948,6 +975,7 @@ const CIGARS = [
   {
     id: "illusione-epernay",
     name: "Illusione ~epernay~",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ile/ci-ile-tarn.jpg",
     brand: "Illusione",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -971,6 +999,7 @@ const CIGARS = [
   {
     id: "davidoff-winston-churchill",
     name: "Davidoff Winston Churchill Late Hour",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/wlh/ci-wlh-robm.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -999,6 +1028,7 @@ const CIGARS = [
   {
     id: "tatuaje-verocu-no5",
     name: "Tatuaje Verocu No. 5",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/thv/ci-thv-ver5.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -1028,6 +1058,7 @@ const CIGARS = [
   {
     id: "cao-cameroon",
     name: "CAO Cameroon Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/caa/CI-CAA-ROBN.jpg",
     brand: "CAO",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -1058,6 +1089,7 @@ const CIGARS = [
   {
     id: "arturo-fuente-anejo-no77",
     name: "Arturo Fuente Añejo No. 77",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/afa/ci-afa-77m.jpg",
     brand: "Arturo Fuente",
     origin: "Dominican Republic",
     region: "Chateau de la Fuente",
@@ -1081,6 +1113,7 @@ const CIGARS = [
   {
     id: "arturo-fuente-8-5-8",
     name: "Arturo Fuente 8-5-8",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/af/CI-AF-858N-25-BOX.jpg",
     brand: "Arturo Fuente",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -1106,6 +1139,7 @@ const CIGARS = [
   {
     id: "padron-series-2000-maduro",
     name: "Padrón Series 2000 Maduro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pad/ci-pad-2000m.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -1135,6 +1169,7 @@ const CIGARS = [
   {
     id: "oliva-serie-o-maduro",
     name: "Oliva Serie O Maduro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/oom/ci-oom-550m.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -1164,6 +1199,7 @@ const CIGARS = [
   {
     id: "my-father-no1",
     name: "My Father No. 1",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mf/CI-MF-1N.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -1194,6 +1230,7 @@ const CIGARS = [
   {
     id: "alec-bradley-magic-toast",
     name: "Alec Bradley Magic Toast",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/amt/ci-amt-chunk.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -1242,6 +1279,7 @@ const CIGARS = [
   {
     id: "oliva-serie-g-cameroon",
     name: "Oliva Serie G Cameroon",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ogn/ci-ogn-450n.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -1273,6 +1311,7 @@ const CIGARS = [
   {
     id: "acid-blondie",
     name: "ACID Blondie",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/aci/CI-ACI-BBLON-40-BOX.jpg",
     brand: "ACID by Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -1302,6 +1341,7 @@ const CIGARS = [
   {
     id: "cao-flavours-eileen",
     name: "CAO Flavours Eileen's Dream",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/caf/ci-caf-epetn.jpg",
     brand: "CAO",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -1327,6 +1367,7 @@ const CIGARS = [
   {
     id: "padron-1964-imperial",
     name: "Padrón 1964 Anniversary Imperial",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pam/ci-pam-impm.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -1380,6 +1421,7 @@ const CIGARS = [
   {
     id: "hoyo-de-monterrey-epicure-no2",
     name: "Hoyo de Monterrey Epicure No. 2",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/hme/ci-hme-no2n.jpg",
     brand: "Hoyo de Monterrey",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -1408,6 +1450,7 @@ const CIGARS = [
   {
     id: "saint-luis-rey-series-g",
     name: "Saint Luis Rey Serie G",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/sgn/ci-sgn-rotn.jpg",
     brand: "Saint Luis Rey",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -1433,6 +1476,7 @@ const CIGARS = [
   {
     id: "padron-family-reserve-no45",
     name: "Padrón Family Reserve No. 45",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pfr/ci-pfr-45m.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -1490,6 +1534,7 @@ const CIGARS = [
   {
     id: "general-cigar-cohiba-macassar",
     name: "Cohiba Blue",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cbu/ci-cbu-robn.jpg",
     brand: "Cohiba (General Cigar)",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -1513,6 +1558,7 @@ const CIGARS = [
   {
     id: "romeo-y-julieta-vintage-no5",
     name: "Romeo y Julieta Vintage No. 5",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/rov/ci-rov-5n.jpg",
     brand: "Romeo y Julieta",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -1569,6 +1615,7 @@ const CIGARS = [
   {
     id: "la-gloria-cubana-serie-r",
     name: "La Gloria Cubana Serie R No. 5",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lgr/ci-lgr-5n.jpg",
     brand: "La Gloria Cubana",
     origin: "Nicaragua",
     region: "Estelí",
@@ -1617,6 +1664,7 @@ const CIGARS = [
   {
     id: "perdomo-habano-sun-grown",
     name: "Perdomo Habano Sun Grown",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pha/ci-pha-robn.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -1645,6 +1693,7 @@ const CIGARS = [
   {
     id: "rocky-patel-decade",
     name: "Rocky Patel The Decade",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/rpd/ci-rpd-robn.jpg",
     brand: "Rocky Patel",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -1668,6 +1717,7 @@ const CIGARS = [
   {
     id: "macanudo-inspirado-orange",
     name: "Macanudo Inspirado Orange",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mig/ci-mig-gign.jpg",
     brand: "Macanudo",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -1797,6 +1847,7 @@ const CIGARS = [
   {
     id: "zino-platinum-crown-serie",
     name: "Zino Platinum Crown Series",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/zps/ci-zps-gran.jpg",
     brand: "Zino Platinum",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -1820,6 +1871,7 @@ const CIGARS = [
   {
     id: "gurkha-black-dragon",
     name: "Gurkha Black Dragon",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/gbd/CI-GBD-TORN-10-PACK.jpg",
     brand: "Gurkha",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -1848,6 +1900,7 @@ const CIGARS = [
   {
     id: "nub-cafe-maduro",
     name: "Nub Café Maduro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/num/ci-num-460m.jpg",
     brand: "Nub",
     origin: "Nicaragua",
     region: "Estelí",
@@ -1871,6 +1924,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-la-historia",
     name: "E.P. Carrillo La Historia",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/eph/ci-eph-eiiim.jpg",
     brand: "E.P. Carrillo",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -1895,6 +1949,7 @@ const CIGARS = [
   {
     id: "oliva-serie-v-robusto",
     name: "Oliva Serie V Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/osv/ci-osv-beln.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -1924,6 +1979,7 @@ const CIGARS = [
   {
     id: "oliva-serie-v-toro",
     name: "Oliva Serie V Toro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/omv/ci-omv-torm.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -1953,6 +2009,7 @@ const CIGARS = [
   {
     id: "oliva-serie-v-churchill",
     name: "Oliva Serie V Churchill",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/osv/ci-osv-chun.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -1982,6 +2039,7 @@ const CIGARS = [
   {
     id: "oliva-serie-v-special-t",
     name: "Oliva Serie V Special T",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/osv/ci-osv-fign.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -2010,6 +2068,7 @@ const CIGARS = [
   {
     id: "oliva-serie-v-double-toro",
     name: "Oliva Serie V Double Toro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/osv/ci-osv-dtorn.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -2038,6 +2097,7 @@ const CIGARS = [
   {
     id: "oliva-serie-v-lancero",
     name: "Oliva Serie V Lancero",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/osv/ci-osv-lann.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -2066,6 +2126,7 @@ const CIGARS = [
   {
     id: "oliva-serie-v-melanio-maduro",
     name: "Oliva Serie V Melanio Maduro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/osm/ci-osm-torm.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -2094,6 +2155,7 @@ const CIGARS = [
   {
     id: "oliva-serie-g-natural",
     name: "Oliva Serie G Natural",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ogn/ci-ogn-450n.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -2123,6 +2185,7 @@ const CIGARS = [
   {
     id: "oliva-serie-g-special-t",
     name: "Oliva Serie G Special T",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ogn/ci-ogn-6552n.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -2151,6 +2214,7 @@ const CIGARS = [
   {
     id: "oliva-serie-o-natural",
     name: "Oliva Serie O Natural",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/oon/ci-oon-550n.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -2180,6 +2244,7 @@ const CIGARS = [
   {
     id: "oliva-flor-de-oliva",
     name: "Oliva Flor de Oliva",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/fdo/ci-fdo-750n20.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -2209,6 +2274,7 @@ const CIGARS = [
   {
     id: "oliva-master-blends-3",
     name: "Oliva Master Blends 3",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/om3/ci-om3-robn.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa Valley",
@@ -2238,6 +2304,7 @@ const CIGARS = [
   {
     id: "cain-f-habano",
     name: "Cain F Habano",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ocf/ci-ocf-654tn.jpg",
     brand: "Cain by Oliva",
     origin: "Nicaragua",
     region: "Estelí & Jalapa",
@@ -2267,6 +2334,7 @@ const CIGARS = [
   {
     id: "cain-daytona",
     name: "Cain Daytona",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ocd/ci-ocd-robn.jpg",
     brand: "Cain by Oliva",
     origin: "Nicaragua",
     region: "Estelí & Jalapa",
@@ -2298,6 +2366,7 @@ const CIGARS = [
   {
     id: "nub-connecticut-460",
     name: "Nub Connecticut 460",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/nct/ci-nct-460n.jpg",
     brand: "Nub",
     origin: "Nicaragua",
     region: "Estelí",
@@ -2327,6 +2396,7 @@ const CIGARS = [
   {
     id: "nub-habano-460",
     name: "Nub Habano 460",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/nha/ci-nha-460n.jpg",
     brand: "Nub",
     origin: "Nicaragua",
     region: "Estelí",
@@ -2356,6 +2426,7 @@ const CIGARS = [
   {
     id: "nub-maduro-460",
     name: "Nub Maduro 460",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/num/ci-num-460m.jpg",
     brand: "Nub",
     origin: "Nicaragua",
     region: "Estelí",
@@ -2385,6 +2456,7 @@ const CIGARS = [
   {
     id: "nub-cameroon-508",
     name: "Nub Cameroon 508",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ncm/ci-ncm-460n.jpg",
     brand: "Nub",
     origin: "Nicaragua",
     region: "Estelí",
@@ -2443,6 +2515,7 @@ const CIGARS = [
   {
     id: "nub-nuance-double-roast",
     name: "Nub Nuance Double Roast",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/nma/ci-nma-460n.jpg",
     brand: "Nub",
     origin: "Nicaragua",
     region: "Estelí",
@@ -2472,6 +2545,7 @@ const CIGARS = [
   {
     id: "nub-nuance-single-roast",
     name: "Nub Nuance Single Roast",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ncp/ci-ncp-460n.jpg",
     brand: "Nub",
     origin: "Nicaragua",
     region: "Estelí",
@@ -2501,6 +2575,7 @@ const CIGARS = [
   {
     id: "nub-habano-torpedo",
     name: "Nub Habano 464T",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/nha/ci-nha-464tn.jpg",
     brand: "Nub",
     origin: "Nicaragua",
     region: "Estelí",
@@ -2532,6 +2607,7 @@ const CIGARS = [
   {
     id: "ashton-classic-robusto",
     name: "Ashton Classic Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ash/ci-ash-magn.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -2561,6 +2637,7 @@ const CIGARS = [
   {
     id: "ashton-classic-churchill",
     name: "Ashton Classic Churchill",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ash/ci-ash-chun.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -2617,6 +2694,7 @@ const CIGARS = [
   {
     id: "ashton-vsg-robusto",
     name: "Ashton VSG Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/asg/ci-asg-robn.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Chateau de la Fuente",
@@ -2646,6 +2724,7 @@ const CIGARS = [
   {
     id: "ashton-vsg-torpedo",
     name: "Ashton VSG Torpedo",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/asg/ci-asg-torpn.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Chateau de la Fuente",
@@ -2675,6 +2754,7 @@ const CIGARS = [
   {
     id: "ashton-heritage-puro-sol",
     name: "Ashton Heritage Puro Sol",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/aps/ci-aps-2n.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -2704,6 +2784,7 @@ const CIGARS = [
   {
     id: "ashton-symmetry",
     name: "Ashton Symmetry",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ass/ci-ass-robn.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -2732,6 +2813,7 @@ const CIGARS = [
   {
     id: "ashton-aged-maduro-no40",
     name: "Ashton Aged Maduro No. 40",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/asm/ci-asm-56m.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -2814,6 +2896,7 @@ const CIGARS = [
   {
     id: "davidoff-grand-cru-no3",
     name: "Davidoff Grand Cru No. 3",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dvg/ci-dvg-3n.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -2870,6 +2953,7 @@ const CIGARS = [
   {
     id: "davidoff-grand-cru-no5",
     name: "Davidoff Grand Cru No. 5",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dvg/ci-dvg-5n.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -2898,6 +2982,7 @@ const CIGARS = [
   {
     id: "davidoff-winston-churchill-original",
     name: "Davidoff Winston Churchill Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/wlh/ci-wlh-robm.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -2926,6 +3011,7 @@ const CIGARS = [
   {
     id: "davidoff-special-r",
     name: "Davidoff Special R",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dvs/ci-dvs-srn.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -2954,6 +3040,7 @@ const CIGARS = [
   {
     id: "davidoff-special-t",
     name: "Davidoff Special T",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dvs/ci-dvs-stn.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -2982,6 +3069,7 @@ const CIGARS = [
   {
     id: "davidoff-nicaragua",
     name: "Davidoff Nicaragua",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dvn/ci-dvn-diadn.jpg",
     brand: "Davidoff",
     origin: "Nicaragua",
     region: "Jalapa & Estelí",
@@ -3033,6 +3121,7 @@ const CIGARS = [
   {
     id: "davidoff-aniversario-special",
     name: "Davidoff Aniversario Special",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dvs/ci-dvs-3n.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -3062,6 +3151,7 @@ const CIGARS = [
   {
     id: "davidoff-signature-2000",
     name: "Davidoff Signature 2000",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dvk/ci-dvk-2kn.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -3118,6 +3208,7 @@ const CIGARS = [
   {
     id: "davidoff-702-series",
     name: "Davidoff 702 Series",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dvs/ci-dvs-srn.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -3147,6 +3238,7 @@ const CIGARS = [
   {
     id: "herrera-esteli-miami",
     name: "Herrera Estelí Miami",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/hmi/ci-hmi-robmm.jpg",
     brand: "Herrera Estelí",
     origin: "Nicaragua",
     region: "Estelí",
@@ -3178,6 +3270,7 @@ const CIGARS = [
   {
     id: "alec-bradley-black-market",
     name: "Alec Bradley Black Market",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/bmk/ci-bmk-torn.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -3207,6 +3300,7 @@ const CIGARS = [
   {
     id: "alec-bradley-tempus",
     name: "Alec Bradley Tempus",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/tep/ci-tep-torn.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -3230,6 +3324,7 @@ const CIGARS = [
   {
     id: "alec-bradley-double-broadleaf",
     name: "Alec Bradley Double Broadleaf",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/adb/ci-adb-gram.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -3255,6 +3350,7 @@ const CIGARS = [
   {
     id: "rocky-patel-vintage-1999",
     name: "Rocky Patel Vintage 1999",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/vrc/ci-vrc-robn.jpg",
     brand: "Rocky Patel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -3284,6 +3380,7 @@ const CIGARS = [
   {
     id: "rocky-patel-vintage-2006",
     name: "Rocky Patel Vintage 2006",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/vnumbers/ci-v26-torm.jpg",
     brand: "Rocky Patel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -3313,6 +3410,7 @@ const CIGARS = [
   {
     id: "rocky-patel-gold-label",
     name: "Rocky Patel Gold Label",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ci-rpg-torn.jpg",
     brand: "Rocky Patel",
     origin: "Nicaragua",
     region: "Jalapa & Estelí",
@@ -3342,6 +3440,7 @@ const CIGARS = [
   {
     id: "rocky-patel-fifteenth-anniversary",
     name: "Rocky Patel 15th Anniversary",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/r15/ci-r15-robn.jpg",
     brand: "Rocky Patel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -3373,6 +3472,7 @@ const CIGARS = [
   {
     id: "cao-brazilia",
     name: "CAO Brazilia",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cbr/CI-CBR-GOLN-20-BOX.jpg",
     brand: "CAO",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -3402,6 +3502,7 @@ const CIGARS = [
   {
     id: "cao-nicaragua",
     name: "CAO Nicaragua",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/coi/ci-coi-tipm.jpg",
     brand: "CAO",
     origin: "Nicaragua",
     region: "Estelí",
@@ -3431,6 +3532,7 @@ const CIGARS = [
   {
     id: "cao-flathead-v660",
     name: "CAO Flathead V660",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cfh/ci-cfh-carbm.jpg",
     brand: "CAO",
     origin: "Nicaragua",
     region: "Estelí",
@@ -3460,6 +3562,7 @@ const CIGARS = [
   {
     id: "cao-italia",
     name: "CAO Italia",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cai/ci-cai-cian5pk.jpg",
     brand: "CAO",
     origin: "Honduras",
     region: "Danlí",
@@ -3491,6 +3594,7 @@ const CIGARS = [
   {
     id: "macanudo-maduro",
     name: "Macanudo Maduro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mam/ci-mam-hydm.jpg",
     brand: "Macanudo",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -3520,6 +3624,7 @@ const CIGARS = [
   {
     id: "macanudo-gold-label",
     name: "Macanudo Gold Label",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mgl/ci-mgl-tudn.jpg",
     brand: "Macanudo",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -3549,6 +3654,7 @@ const CIGARS = [
   {
     id: "macanudo-inspirado-white",
     name: "Macanudo Inspirado White",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/miw/ci-miw-robn10.jpg",
     brand: "Macanudo",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -3578,6 +3684,7 @@ const CIGARS = [
   {
     id: "macanudo-cru-royale",
     name: "Macanudo Cru Royale",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mro/ci-mro-torn.jpg",
     brand: "Macanudo",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -3609,6 +3716,7 @@ const CIGARS = [
   {
     id: "romeo-y-julieta-1875-natural",
     name: "Romeo y Julieta 1875 Natural",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ror/CI-ROR-BELN-25-BOX.jpg",
     brand: "Romeo y Julieta",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -3638,6 +3746,7 @@ const CIGARS = [
   {
     id: "romeo-y-julieta-reserva-real",
     name: "Romeo y Julieta Reserva Real",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/rrr/ci-rrr-robn.jpg",
     brand: "Romeo y Julieta",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -3667,6 +3776,7 @@ const CIGARS = [
   {
     id: "romeo-y-julieta-nicaragua",
     name: "Romeo y Julieta Reserva Real Nicaragua",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/rrn/ci-rrn-torn.jpg",
     brand: "Romeo y Julieta",
     origin: "Nicaragua",
     region: "Estelí",
@@ -3692,6 +3802,7 @@ const CIGARS = [
   {
     id: "la-gloria-cubana-serie-r-esteli",
     name: "La Gloria Cubana Serie R Estelí",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/sre/CI-SRE-52N.jpg",
     brand: "La Gloria Cubana",
     origin: "Nicaragua",
     region: "Estelí & Jalapa",
@@ -3746,6 +3857,7 @@ const CIGARS = [
   {
     id: "aging-room-quattro-nicaragua",
     name: "Aging Room Quattro Nicaragua",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/aqn/CI-AQN-MAEN-20-BOX.jpg",
     brand: "Aging Room",
     origin: "Nicaragua",
     region: "Estelí",
@@ -3775,6 +3887,7 @@ const CIGARS = [
   {
     id: "aging-room-rare-collection",
     name: "Aging Room Rare Collection Vivace",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/agt/ci-agt-vivan.jpg",
     brand: "Aging Room",
     origin: "Nicaragua",
     region: "Estelí",
@@ -3805,6 +3918,7 @@ const CIGARS = [
   {
     id: "crowned-heads-four-kicks",
     name: "Crowned Heads Four Kicks",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/c4k/ci-c4k-robn.jpg",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Estelí",
@@ -3834,6 +3948,7 @@ const CIGARS = [
   {
     id: "crowned-heads-four-kicks-maduro",
     name: "Crowned Heads Four Kicks Maduro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/c4k/CI-C4K-MULE25-10-BOX.jpg",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Estelí",
@@ -3862,6 +3977,7 @@ const CIGARS = [
   {
     id: "crowned-heads-mil-dias",
     name: "Crowned Heads Mil Días",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mil/CI-MIL-EDMN-21-BOX.jpg",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Estelí",
@@ -3893,6 +4009,7 @@ const CIGARS = [
   {
     id: "la-aroma-de-cuba-original",
     name: "La Aroma de Cuba Original",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/adc/ci-adc-robn.jpg",
     brand: "La Aroma de Cuba",
     origin: "Nicaragua",
     region: "Estelí",
@@ -3922,6 +4039,7 @@ const CIGARS = [
   {
     id: "la-aroma-de-cuba-mi-amor",
     name: "La Aroma de Cuba Mi Amor",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/adm/CI-ADM-ROBM.jpg",
     brand: "La Aroma de Cuba",
     origin: "Nicaragua",
     region: "Estelí",
@@ -3951,6 +4069,7 @@ const CIGARS = [
   {
     id: "la-aroma-de-cuba-mi-amor-reserva",
     name: "La Aroma de Cuba Mi Amor Reserva",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/amr/ci-amr-maxm.jpg",
     brand: "La Aroma de Cuba",
     origin: "Nicaragua",
     region: "Estelí",
@@ -3982,6 +4101,7 @@ const CIGARS = [
   {
     id: "montecristo-platinum",
     name: "Montecristo Platinum",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mth/ci-mth-torn.jpg",
     brand: "Montecristo",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -4011,6 +4131,7 @@ const CIGARS = [
   {
     id: "montecristo-1935-anniversary",
     name: "Montecristo 1935 Anniversary Nicaragua",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/m35/ci-m35-torn.jpg",
     brand: "Montecristo",
     origin: "Nicaragua",
     region: "Ocotal",
@@ -4042,6 +4163,7 @@ const CIGARS = [
   {
     id: "h-upmann-1844-reserve",
     name: "H. Upmann 1844 Reserve",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/hur/ci-hur-robn.jpg",
     brand: "H. Upmann",
     origin: "Honduras",
     region: "Danlí",
@@ -4071,6 +4193,7 @@ const CIGARS = [
   {
     id: "h-upmann-banker",
     name: "H. Upmann The Banker",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/bkr/CI-BKR-CURRN.jpg",
     brand: "H. Upmann",
     origin: "Honduras",
     region: "Danlí",
@@ -4102,6 +4225,7 @@ const CIGARS = [
   {
     id: "camacho-triple-maduro",
     name: "Camacho Triple Maduro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ctm/ci-ctm-robm.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -4125,6 +4249,7 @@ const CIGARS = [
   {
     id: "camacho-connecticut",
     name: "Camacho Connecticut",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cct/ci-cct-robn.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -4178,6 +4303,7 @@ const CIGARS = [
   {
     id: "illusione-garagiste",
     name: "Illusione Garagiste",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/iga/ci-iga-robn.jpg",
     brand: "Illusione",
     origin: "Honduras",
     region: "Danlí",
@@ -4203,6 +4329,7 @@ const CIGARS = [
   {
     id: "undercrown-maduro",
     name: "Liga Undercrown Maduro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lun/CI-LUN-ROBM.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4260,6 +4387,7 @@ const CIGARS = [
   {
     id: "undercrown-shade",
     name: "Liga Undercrown Shade",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lus/ci-lus-tortb.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4291,6 +4419,7 @@ const CIGARS = [
   {
     id: "foundation-tabernacle",
     name: "Foundation The Tabernacle",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/tbr/ci-tbr-torm.jpg",
     brand: "Foundation Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4320,6 +4449,7 @@ const CIGARS = [
   {
     id: "foundation-charter-oak",
     name: "Foundation Charter Oak Broadleaf",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cho/ci-cho-rotm.jpg",
     brand: "Foundation Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4351,6 +4481,7 @@ const CIGARS = [
   {
     id: "tatuaje-brown-label",
     name: "Tatuaje Brown Label",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/trs/ci-trs-7n.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4379,6 +4510,7 @@ const CIGARS = [
   {
     id: "tatuaje-havana-vi",
     name: "Tatuaje Havana VI",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/th6/ci-th6-nobn.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4408,6 +4540,7 @@ const CIGARS = [
   {
     id: "tatuaje-reserva",
     name: "Tatuaje Reserva",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/trs/ci-trs-7espnz.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4439,6 +4572,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-encore",
     name: "E.P. Carrillo Encore",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/eep/ci-eep-celn.jpg",
     brand: "E.P. Carrillo",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -4468,6 +4602,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-pledge",
     name: "E.P. Carrillo The Pledge",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/epd/ci-epd-pren.jpg",
     brand: "E.P. Carrillo",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -4497,6 +4632,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-new-wave-connecticut",
     name: "E.P. Carrillo New Wave Connecticut",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/enw/ci-enw-divn.jpg",
     brand: "E.P. Carrillo",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -4522,6 +4658,7 @@ const CIGARS = [
   {
     id: "my-father-flor-de-las-antillas",
     name: "My Father Flor de las Antillas",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/fda/CI-FDA-ROBN.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4551,6 +4688,7 @@ const CIGARS = [
   {
     id: "my-father-the-judge",
     name: "My Father The Judge",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mfj/ci-mfj-torn.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4580,6 +4718,7 @@ const CIGARS = [
   {
     id: "don-pepin-garcia-original",
     name: "Don Pepin Garcia Original Blue Label",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dpg/ci-dpg-invn.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4611,6 +4750,7 @@ const CIGARS = [
   {
     id: "herrera-esteli-robusto-grande",
     name: "Herrera Estelí Robusto Grande",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/hes/CI-HES-ROBEXN.jpg",
     brand: "Herrera Estelí",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4640,6 +4780,7 @@ const CIGARS = [
   {
     id: "herrera-esteli-brazilian-maduro",
     name: "Herrera Estelí Brazilian Maduro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/heb/ci-heb-robgm.jpg",
     brand: "Herrera Estelí",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4665,6 +4806,7 @@ const CIGARS = [
   {
     id: "perdomo-30th-anniversary-maduro",
     name: "Perdomo 30th Anniversary Maduro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/p3m/ci-p3m-gordm.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4694,6 +4836,7 @@ const CIGARS = [
   {
     id: "perdomo-inmenso-seventy",
     name: "Perdomo Inmenso Seventy Maduro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pim/ci-pim-robm.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4754,6 +4897,7 @@ const CIGARS = [
   {
     id: "dunbarton-mi-querida-triqui-traca",
     name: "Mi Querida Triqui Traca",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/miq/ci-miq-448m.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Estelí & Jalapa",
@@ -4807,6 +4951,7 @@ const CIGARS = [
   {
     id: "dunbarton-sobremesa-brulee",
     name: "Sobremesa Brûlée",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/sbu/ci-sbu-robn.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Condega, Pueblo Nuevo, Estelí",
@@ -4889,6 +5034,7 @@ const CIGARS = [
   {
     id: "dunbarton-mi-querida-sakakhan",
     name: "Mi Querida Black SakaKhan",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/miq/ci-miq-bskm.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Estelí & Jalapa",
@@ -4920,6 +5066,7 @@ const CIGARS = [
   {
     id: "dunbarton-sobremesa-solita",
     name: "Sobremesa Solita",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/sob/ci-sob-robn.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Condega, Pueblo Nuevo, Estelí",
@@ -4950,6 +5097,7 @@ const CIGARS = [
   {
     id: "dunbarton-mi-querida-core",
     name: "Mi Querida",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/miq/ci-miq-cotm.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4980,6 +5128,7 @@ const CIGARS = [
   {
     id: "dunbarton-umbagog",
     name: "Umbagog",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/umb/ci-umb-cgorm.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Estelí",
@@ -5010,6 +5159,7 @@ const CIGARS = [
   {
     id: "dunbarton-sin-compromiso-no2",
     name: "Sin Compromiso Selección No. 2",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/sin/CI-SIN-2N.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Estelí",
@@ -5040,6 +5190,7 @@ const CIGARS = [
   {
     id: "dunbarton-stillwell-star-aromatic-no1",
     name: "StillWell Star Aromatic No. 1",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/sts/ci-sts-aron.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Estelí",
@@ -5070,6 +5221,7 @@ const CIGARS = [
   {
     id: "dunbarton-stillwell-star-english-no27",
     name: "StillWell Star English No. 27",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/sts/ci-sts-engn.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Estelí",
@@ -5100,6 +5252,7 @@ const CIGARS = [
   {
     id: "dunbarton-muestra-de-saka-exclusivo",
     name: "Muestra de Saka Exclusivo",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mue/CI-MUE-NACA.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Condega, Estelí, Jalapa, Ometepe",
@@ -5130,6 +5283,7 @@ const CIGARS = [
   {
     id: "dunbarton-red-meat-lovers-ribeye",
     name: "Red Meat Lovers Club Ribeye",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/rml/ci-rml-ribm.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Estelí",
@@ -5233,6 +5387,7 @@ const CIGARS = [
   {
     id: "aj-fernandez-new-world",
     name: "New World by AJ Fernandez",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/anw/ci-anw-robm.jpg",
     brand: "AJ Fernandez",
     origin: "Nicaragua",
     region: "Estelí",
@@ -5263,6 +5418,7 @@ const CIGARS = [
   {
     id: "aj-fernandez-enclave",
     name: "Enclave by AJ Fernandez",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/enc/ci-enc-robn.jpg",
     brand: "AJ Fernandez",
     origin: "Nicaragua",
     region: "Estelí",
@@ -5321,6 +5477,7 @@ const CIGARS = [
   {
     id: "aj-fernandez-last-call",
     name: "Last Call by AJ Fernandez",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ajl/CI-AJL-GENN-25-BOX.jpg",
     brand: "AJ Fernandez",
     origin: "Nicaragua",
     region: "Estelí",
@@ -5376,6 +5533,7 @@ const CIGARS = [
   {
     id: "lfd-double-ligero-chisel",
     name: "Double Ligero Chisel",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lfd/ci-lfd-chin.jpg",
     brand: "La Flor Dominicana",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -5406,6 +5564,7 @@ const CIGARS = [
   {
     id: "lfd-air-bender",
     name: "Air Bender",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lfa/ci-lfa-guen.jpg",
     brand: "La Flor Dominicana",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -5436,6 +5595,7 @@ const CIGARS = [
   {
     id: "lfd-coronado",
     name: "Coronado",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cor/ci-cor-coresn.jpg",
     brand: "La Flor Dominicana",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -5461,6 +5621,7 @@ const CIGARS = [
   {
     id: "aganorsa-supreme-leaf",
     name: "Supreme Leaf",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/asl/CI-ASL-GTORN-10-BOX.jpg",
     brand: "Aganorsa Leaf",
     origin: "Nicaragua",
     region: "Estelí / Jalapa",
@@ -5490,6 +5651,7 @@ const CIGARS = [
   {
     id: "aganorsa-rare-leaf",
     name: "Rare Leaf Reserve",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/alf/ci-alf-robn.jpg",
     brand: "Aganorsa Leaf",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -5521,6 +5683,7 @@ const CIGARS = [
   {
     id: "southern-draw-kudzu",
     name: "Kudzu",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/sdk/ci-sdk-robmm.jpg",
     brand: "Southern Draw",
     origin: "Nicaragua",
     region: "Estelí",
@@ -5550,6 +5713,7 @@ const CIGARS = [
   {
     id: "southern-draw-rose-of-sharon",
     name: "Rose of Sharon",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/srs/ci-srs-robn.jpg",
     brand: "Southern Draw",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -5579,6 +5743,7 @@ const CIGARS = [
   {
     id: "southern-draw-300-hands",
     name: "300 Hands",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/llk/CI-LLK-HEAN.jpg",
     brand: "Southern Draw",
     origin: "Cuba / Nicaragua blend",
     region: "Estelí",
@@ -5610,6 +5775,7 @@ const CIGARS = [
   {
     id: "warped-el-oso",
     name: "El Oso",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/wpl/CI-WPL-ELOSOBLUE-10-BOX.jpg",
     brand: "Warped Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -5639,6 +5805,7 @@ const CIGARS = [
   {
     id: "warped-flor-del-valle",
     name: "Flor del Valle",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/wpl/ci-wpl-sflow.jpg",
     brand: "Warped Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -5670,6 +5837,7 @@ const CIGARS = [
   {
     id: "caldwell-long-live-the-king",
     name: "Long Live the King",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/llk/ci-llk-marqn.jpg",
     brand: "Caldwell Cigar Co.",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -5699,6 +5867,7 @@ const CIGARS = [
   {
     id: "caldwell-eastern-standard",
     name: "Eastern Standard",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/est/ci-est-cotn.jpg",
     brand: "Caldwell Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -5730,6 +5899,7 @@ const CIGARS = [
   {
     id: "diamond-crown-maximus",
     name: "Diamond Crown Maximus",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dmx/CI-DMX-5N.jpg",
     brand: "Diamond Crown",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -5759,6 +5929,7 @@ const CIGARS = [
   {
     id: "brick-house-robusto",
     name: "Brick House Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/brk/ci-brk-robn.jpg",
     brand: "Brick House",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -5788,6 +5959,7 @@ const CIGARS = [
   {
     id: "brick-house-mighty-mighty",
     name: "Brick House Mighty Mighty",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/brk/ci-brk-mitn.jpg",
     brand: "Brick House",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -5818,6 +5990,7 @@ const CIGARS = [
   {
     id: "villiger-1888",
     name: "Villiger 1888",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/vnumbers/ci-v88-corn.jpg",
     brand: "Villiger",
     origin: "Brazil",
     region: "Bahia",
@@ -5847,6 +6020,7 @@ const CIGARS = [
   {
     id: "villiger-la-vencedora",
     name: "La Vencedora",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/vlv/CI-VLV-ROBN.jpg",
     brand: "Villiger",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -5878,6 +6052,7 @@ const CIGARS = [
   {
     id: "leaf-by-oscar-nicaraguan",
     name: "Leaf by Oscar Nicaraguan",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lbo/ci-lbo-torcjn.jpg",
     brand: "Leaf by Oscar",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -5907,6 +6082,7 @@ const CIGARS = [
   {
     id: "leaf-by-oscar-sumatran",
     name: "Leaf by Oscar Sumatran",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lbo/ci-lbo-torsmn.jpg",
     brand: "Leaf by Oscar",
     origin: "Honduras",
     region: "Jamastran",
@@ -5938,6 +6114,7 @@ const CIGARS = [
   {
     id: "romaccraft-cromagnon",
     name: "CroMagnon",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cro/ci-cro-knum.jpg",
     brand: "RoMa Craft Tobac",
     origin: "Nicaragua",
     region: "Estelí",
@@ -5967,6 +6144,7 @@ const CIGARS = [
   {
     id: "romaccraft-intemperance",
     name: "Intemperance EC XVIII",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/iec/ci-iec-fain.jpg",
     brand: "RoMa Craft Tobac",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -5997,6 +6175,7 @@ const CIGARS = [
   {
     id: "espinosa-laranja-reserva",
     name: "Laranja Reserva Escuro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/leu/ci-leu-torm.jpg",
     brand: "Espinosa Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -6026,6 +6205,7 @@ const CIGARS = [
   {
     id: "espinosa-601-blue-label",
     name: "601 Blue Label",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/6mb/ci-6mb-prom.jpg",
     brand: "Espinosa Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -6221,6 +6401,7 @@ const CIGARS = [
   {
     id: "protocol-probable-cause",
     name: "Probable Cause",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/6mb/ci-6mb-torm.jpg",
     brand: "Protocol Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -6251,6 +6432,7 @@ const CIGARS = [
   {
     id: "swisher-sweets-original",
     name: "Swisher Sweets Original",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ci-swi-ltcigpk.jpg",
     brand: "Swisher International",
     origin: "United States",
     region: "Jacksonville, FL",
@@ -6274,6 +6456,7 @@ const CIGARS = [
   {
     id: "black-mild-wine",
     name: "Black & Mild Wine",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ci-mid-winepk.jpg",
     brand: "Black & Mild",
     origin: "United States",
     region: "Middleton, WI",
@@ -6297,6 +6480,7 @@ const CIGARS = [
   {
     id: "dutch-masters-corona",
     name: "Dutch Masters Corona",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dut/CI-DUT-CORN-55-BOX_OPEN.jpg",
     brand: "Dutch Masters",
     origin: "United States",
     region: "PA (Consolidated Cigar)",
@@ -6320,6 +6504,7 @@ const CIGARS = [
   {
     id: "garcia-vega-english-corona",
     name: "English Corona",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/gyv/ci-gyv-ec20tn.jpg",
     brand: "Garcia y Vega",
     origin: "United States",
     region: "General Cigar (various)",
@@ -6370,6 +6555,7 @@ const CIGARS = [
   {
     id: "nat-sherman-timeless-prestige",
     name: "Timeless Prestige",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ftr/ci-ftr-hermn.jpg",
     brand: "Nat Sherman",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -6395,6 +6581,7 @@ const CIGARS = [
   {
     id: "padron-1964-anniversary-natural",
     name: "1964 Anniversary Natural",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/paa/ci-paa-monn.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Estelí & Jalapa",
@@ -6424,6 +6611,7 @@ const CIGARS = [
   {
     id: "padron-1964-anniversary-maduro",
     name: "1964 Anniversary Maduro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pam/ci-pam-corm.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Estelí & Jalapa",
@@ -6453,6 +6641,7 @@ const CIGARS = [
   {
     id: "padron-1926-no35-natural",
     name: "1926 Serie No. 35 Natural",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pa6/ci-pa6-35n.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Estelí & Jalapa",
@@ -6481,6 +6670,7 @@ const CIGARS = [
   {
     id: "padron-family-reserve-no85",
     name: "Family Reserve No. 85 Natural",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pfr/ci-pfr-85n.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Estelí & Jalapa",
@@ -6510,6 +6700,7 @@ const CIGARS = [
   {
     id: "padron-series-1000-natural",
     name: "Padrón Series 1000 Natural",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pad/ci-pad-3000n.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Estelí",
@@ -6541,6 +6732,7 @@ const CIGARS = [
   {
     id: "rocky-patel-vintage-1990",
     name: "Vintage 1990",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/vnumbers/ci-v90-torm.jpg",
     brand: "Rocky Patel",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -6564,6 +6756,7 @@ const CIGARS = [
   {
     id: "rocky-patel-decade",
     name: "Rocky Patel Decade",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/rpd/ci-rpd-torn.jpg",
     brand: "Rocky Patel",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -6587,6 +6780,7 @@ const CIGARS = [
   {
     id: "rocky-patel-edge",
     name: "Edge Torpedo",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/reh/ci-reh-torpn.jpg",
     brand: "Rocky Patel",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -6616,6 +6810,7 @@ const CIGARS = [
   {
     id: "rocky-patel-hamlet-2000",
     name: "Hamlet 2000",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ftr/ci-ftr-torpn.jpg",
     brand: "Rocky Patel",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -6641,6 +6836,7 @@ const CIGARS = [
   {
     id: "perdomo-reserve-champagne-connecticut",
     name: "Reserve Champagne Connecticut",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pxc/ci-pxc-robn.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -6692,6 +6888,7 @@ const CIGARS = [
   {
     id: "perdomo-20th-anniversary-maduro",
     name: "20th Anniversary Maduro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/p2m/ci-p2m-epim.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -6721,6 +6918,7 @@ const CIGARS = [
   {
     id: "perdomo-epicure",
     name: "Perdomo Epicure",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pha/ci-pha-epin6.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -6751,6 +6949,7 @@ const CIGARS = [
   {
     id: "plasencia-alma-del-campo",
     name: "Alma del Campo Travesía",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ald/ci-ald-tranbp.jpg",
     brand: "Plasencia",
     origin: "Nicaragua",
     region: "Jalapa & Condega",
@@ -6780,6 +6979,7 @@ const CIGARS = [
   {
     id: "plasencia-cosecha-149",
     name: "Cosecha 149",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/p49/ci-p49-lavm.jpg",
     brand: "Plasencia",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -6809,6 +7009,7 @@ const CIGARS = [
   {
     id: "plasencia-alma-fuerte-generoso",
     name: "Alma Fuerte Generoso",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pla/ci-pla-genvm.jpg",
     brand: "Plasencia",
     origin: "Nicaragua",
     region: "Jalapa & Estelí",
@@ -6840,6 +7041,7 @@ const CIGARS = [
   {
     id: "cao-flathead-v554",
     name: "CAO Flathead V554",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cfh/ci-cfh-camm.jpg",
     brand: "CAO",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -6868,6 +7070,7 @@ const CIGARS = [
   {
     id: "cao-nicaragua",
     name: "CAO Nicaragua Leaf",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/coi/ci-coi-tipm.jpg",
     brand: "CAO",
     origin: "Nicaragua",
     region: "Estelí & Jalapa",
@@ -6891,6 +7094,7 @@ const CIGARS = [
   {
     id: "cao-amazonia",
     name: "CAO Amazonia",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ci-caz-amazn.jpg",
     brand: "CAO",
     origin: "Brazil",
     region: "Bahia / Amazon region",
@@ -6914,6 +7118,7 @@ const CIGARS = [
   {
     id: "cao-pilon-robusto",
     name: "CAO Pilon Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cpi/CI-CPI-ROBN-20-BOX.jpg",
     brand: "CAO",
     origin: "Nicaragua",
     region: "Estelí",
@@ -7154,6 +7359,7 @@ const CIGARS = [
   {
     id: "bltc-last-rites-robusto",
     name: "Last Rites Robusto Real",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/bll/ci-bll-robm.jpg",
     brand: "Black Label Trading Company",
     origin: "Nicaragua",
     region: "Estelí (Fábrica Oveja Negra)",
@@ -7184,6 +7390,7 @@ const CIGARS = [
   {
     id: "bltc-lawless-robusto",
     name: "Lawless Robusto Real",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/blw/ci-blw-robn.jpg",
     brand: "Black Label Trading Company",
     origin: "Nicaragua",
     region: "Estelí (Fábrica Oveja Negra)",
@@ -7214,6 +7421,7 @@ const CIGARS = [
   {
     id: "bltc-royalty-robusto",
     name: "Royalty Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/blr/ci-blr-robn.jpg",
     brand: "Black Label Trading Company",
     origin: "Nicaragua",
     region: "Estelí (Fábrica Oveja Negra)",
@@ -7244,6 +7452,7 @@ const CIGARS = [
   {
     id: "bltc-salvation-robusto",
     name: "Salvation Robusto Real",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/bls/ci-bls-robn.jpg",
     brand: "Black Label Trading Company",
     origin: "Nicaragua",
     region: "Estelí (Fábrica Oveja Negra)",
@@ -7274,6 +7483,7 @@ const CIGARS = [
   {
     id: "bltc-santa-muerte",
     name: "Santa Muerte Corona Gorda",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/bsm/ci-bsm-cgorn.jpg",
     brand: "Black Label Trading Company",
     origin: "Nicaragua",
     region: "Estelí (Fábrica Oveja Negra)",
@@ -7331,6 +7541,7 @@ const CIGARS = [
   {
     id: "bltc-deliverance-porcelain",
     name: "Deliverance Porcelain Corona Gorda",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/blv/ci-blv-porn.jpg",
     brand: "Black Label Trading Company",
     origin: "Nicaragua",
     region: "Estelí (Fábrica Oveja Negra)",
@@ -7359,6 +7570,7 @@ const CIGARS = [
   {
     id: "bltc-bishops-blend-2024",
     name: "Bishop's Blend 2024",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/blb/ci-blb-robm.jpg",
     brand: "Black Label Trading Company",
     origin: "Nicaragua",
     region: "Estelí (Fábrica Oveja Negra)",
@@ -7504,6 +7716,7 @@ const CIGARS = [
 {
   id: "ferio-tego-timeless-prestige-robusto",
   name: "Ferio Tego Timeless Prestige Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ftr/ci-ftr-hermn.jpg",
   brand: "Ferio Tego",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -7534,6 +7747,7 @@ const CIGARS = [
 {
   id: "ferio-tego-affinity-robusto",
   name: "Ferio Tego Affinity Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/fmh/ci-fmh-robn.jpg",
   brand: "Ferio Tego",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -7624,6 +7838,7 @@ const CIGARS = [
 {
   id: "ferio-tego-magnum-opus-robusto",
   name: "Ferio Tego Magnum Opus Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/fsa/ci-fsa-robn.jpg",
   brand: "Ferio Tego",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -7684,6 +7899,7 @@ const CIGARS = [
 {
   id: "room-101-farce-maduro-robusto",
   name: "Room 101 Farce Maduro Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/fma/ci-fma-robm.jpg",
   brand: "Room 101",
   origin: "Honduras",
   region: "Jamastran Valley",
@@ -7954,6 +8170,7 @@ const CIGARS = [
 {
   id: "viaje-exclusivo-robusto",
   name: "Viaje Exclusivo Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/vje/CI-VJE-FULLMOON-24-BOX.jpg",
   brand: "Viaje Cigar",
   origin: "Nicaragua",
   region: "Estelí",
@@ -8104,6 +8321,7 @@ const CIGARS = [
 {
   id: "herrera-esteli-habano-robusto",
   name: "Herrera Estelí Habano Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/hes/CI-HES-ROBEXN.jpg",
   brand: "Herrera Estelí",
   origin: "Nicaragua",
   region: "Estelí",
@@ -8164,6 +8382,7 @@ const CIGARS = [
 {
   id: "herrera-esteli-lonsdale-fino",
   name: "Herrera Estelí Lonsdale Fino",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/hes/ci-hes-lonsdn.jpg",
   brand: "Herrera Estelí",
   origin: "Nicaragua",
   region: "Estelí",
@@ -8194,6 +8413,7 @@ const CIGARS = [
 {
   id: "joya-de-nicaragua-cuatro-cinco-robusto",
   name: "Joya de Nicaragua Cuatro Cinco Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cci/ci-cci-drobn.jpg",
   brand: "Joya de Nicaragua",
   origin: "Nicaragua",
   region: "Jalapa",
@@ -8284,6 +8504,7 @@ const CIGARS = [
 {
   id: "joya-de-nicaragua-antano-dark-corojo-robusto",
   name: "Joya de Nicaragua Antaño Dark Corojo Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/jdc/ci-jdc-elmn.jpg",
   brand: "Joya de Nicaragua",
   origin: "Nicaragua",
   region: "Jalapa",
@@ -8314,6 +8535,7 @@ const CIGARS = [
 {
   id: "joya-de-nicaragua-classic-consul",
   name: "Joya de Nicaragua Classic Consul",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/joa/ci-joa-conn.jpg",
   brand: "Joya de Nicaragua",
   origin: "Nicaragua",
   region: "Jalapa",
@@ -8374,6 +8596,7 @@ const CIGARS = [
 {
   id: "cao-bones-toro",
   name: "CAO Bones Toro",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/bos/ci-bos-torm.jpg",
   brand: "CAO",
   origin: "Nicaragua",
   region: "Estelí",
@@ -8404,6 +8627,7 @@ const CIGARS = [
 {
   id: "cao-amazon-basin-robusto",
   name: "CAO Amazon Basin Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ci-caz-amazn.jpg",
   brand: "CAO",
   origin: "Brazil",
   region: "Amazônia",
@@ -8434,6 +8658,7 @@ const CIGARS = [
 {
   id: "cao-gold-robusto",
   name: "CAO Gold Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cag/CI-CAG-ROBN-20-BOX.jpg",
   brand: "CAO",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -8464,6 +8689,7 @@ const CIGARS = [
 {
   id: "alec-bradley-coyol-robusto",
   name: "Alec Bradley Coyol Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/aco/ci-aco-torn.jpg",
   brand: "Alec Bradley",
   origin: "Honduras",
   region: "Jamastran Valley",
@@ -8554,6 +8780,7 @@ const CIGARS = [
 {
   id: "alec-bradley-kintsugi-robusto",
   name: "Alec Bradley Kintsugi Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/aks/ci-aks-robn.jpg",
   brand: "Alec Bradley",
   origin: "Honduras",
   region: "Jamastran Valley",
@@ -8584,6 +8811,7 @@ const CIGARS = [
 {
   id: "warped-maestro-del-tiempo-6102-robusto",
   name: "Warped Maestro del Tiempo 6102 Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mdt/ci-mdt-5712n.jpg",
   brand: "Warped Cigars",
   origin: "Nicaragua",
   region: "Estelí",
@@ -8614,6 +8842,7 @@ const CIGARS = [
 {
   id: "warped-la-colmena-robusto",
   name: "Warped La Colmena Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/wcl/CI-WCL-NO44N-10-BOX.jpg",
   brand: "Warped Cigars",
   origin: "Nicaragua",
   region: "Estelí",
@@ -8644,6 +8873,7 @@ const CIGARS = [
 {
   id: "warped-sky-flower-robusto",
   name: "Warped Sky Flower Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/wpl/ci-wpl-sflow.jpg",
   brand: "Warped Cigars",
   origin: "Nicaragua",
   region: "Estelí",
@@ -8674,6 +8904,7 @@ const CIGARS = [
 {
   id: "warped-chinchalle-robusto",
   name: "Warped Chinchalle Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/wce/ci-wce-chin.jpg",
   brand: "Warped Cigars",
   origin: "Nicaragua",
   region: "Estelí",
@@ -8704,6 +8935,7 @@ const CIGARS = [
 {
   id: "southern-draw-jacobs-ladder-robusto",
   name: "Southern Draw Jacobs Ladder Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/sjl/ci-sjl-robm.jpg",
   brand: "Southern Draw",
   origin: "Nicaragua",
   region: "Estelí",
@@ -8734,6 +8966,7 @@ const CIGARS = [
 {
   id: "southern-draw-firethorn-robusto",
   name: "Southern Draw Firethorn Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/sdf/ci-sdf-robn.jpg",
   brand: "Southern Draw",
   origin: "Nicaragua",
   region: "Estelí",
@@ -8764,6 +8997,7 @@ const CIGARS = [
 {
   id: "southern-draw-cedrus-robusto",
   name: "Southern Draw Cedrus Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cdr/ci-cdr-torn.jpg",
   brand: "Southern Draw",
   origin: "Honduras",
   region: "Jamastran Valley",
@@ -8824,6 +9058,7 @@ const CIGARS = [
 {
   id: "illusione-888-robusto",
   name: "Illusione 888 Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ill/ci-ill-88n.jpg",
   brand: "Illusione",
   origin: "Nicaragua",
   region: "Estelí",
@@ -8884,6 +9119,7 @@ const CIGARS = [
 {
   id: "kristoff-ligero-criollo-robusto",
   name: "Kristoff Ligero Criollo Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/klc/CI-KLC-ROBN.jpg",
   brand: "Kristoff",
   origin: "Nicaragua",
   region: "Estelí",
@@ -8913,6 +9149,7 @@ const CIGARS = [
 {
   id: "kristoff-gc-signature-robusto",
   name: "Kristoff GC Signature Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/kgc/CI-KGC-ROBM-20-BOX.jpg",
   brand: "Kristoff",
   origin: "Nicaragua",
   region: "Estelí",
@@ -8942,6 +9179,7 @@ const CIGARS = [
 {
   id: "kristoff-pistoff-kristoff-robusto",
   name: "Kristoff Pistoff Kristoff Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/krp/ci-krp-robn.jpg",
   brand: "Kristoff",
   origin: "Nicaragua",
   region: "Estelí",
@@ -8971,6 +9209,7 @@ const CIGARS = [
 {
   id: "kristoff-sumatra-robusto",
   name: "Kristoff Sumatra Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/krs/CI-KRS-ROBN-20-BOX.jpg",
   brand: "Kristoff",
   origin: "Nicaragua",
   region: "Estelí",
@@ -9116,6 +9355,7 @@ const CIGARS = [
 {
   id: "caldwell-lost-and-found-connecticut-robusto",
   name: "Caldwell Lost and Found Connecticut Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lnf/CI-LNF-ONSR-10-BOX.jpg",
   brand: "Caldwell Cigar Co.",
   origin: "Nicaragua",
   region: "Estelí",
@@ -9203,6 +9443,7 @@ const CIGARS = [
 {
   id: "caldwell-the-king-is-dead-robusto",
   name: "Caldwell The King Is Dead Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/kid/ci-kid-pren.jpg",
   brand: "Caldwell Cigar Co.",
   origin: "Nicaragua",
   region: "Estelí",
@@ -9232,6 +9473,7 @@ const CIGARS = [
 {
   id: "brick-house-toro",
   name: "Brick House Toro",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/brk/ci-brk-torn.jpg",
   brand: "Brick House",
   origin: "Honduras",
   region: "Jamastran Valley",
@@ -9261,6 +9503,7 @@ const CIGARS = [
 {
   id: "brick-house-double-connecticut-robusto",
   name: "Brick House Double Connecticut Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/bhc/ci-bhc-robn.jpg",
   brand: "Brick House",
   origin: "Honduras",
   region: "Jamastran Valley",
@@ -9290,6 +9533,7 @@ const CIGARS = [
 {
   id: "brick-house-maduro-robusto",
   name: "Brick House Maduro Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/brk/ci-brk-robm.jpg",
   brand: "Brick House",
   origin: "Honduras",
   region: "Jamastran Valley",
@@ -9319,6 +9563,7 @@ const CIGARS = [
 {
   id: "brick-house-mighty-mighty-toro",
   name: "Brick House Mighty Mighty Toro",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/brk/ci-brk-mitn.jpg",
   brand: "Brick House",
   origin: "Honduras",
   region: "Jamastran Valley",
@@ -9348,6 +9593,7 @@ const CIGARS = [
 {
   id: "nub-nuance-triple-roast-robusto",
   name: "Nub Nuance Triple Roast Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/nep/ci-nep-460n.jpg",
   brand: "Nub",
   origin: "Nicaragua",
   region: "Estelí",
@@ -9377,6 +9623,7 @@ const CIGARS = [
 {
   id: "nub-habano-554-box-pressed",
   name: "Nub Habano 554 Box Pressed",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/nha/ci-nha-460n.jpg",
   brand: "Nub",
   origin: "Nicaragua",
   region: "Estelí",
@@ -9406,6 +9653,7 @@ const CIGARS = [
 {
   id: "nub-dub-connecticut-460",
   name: "Nub Dub Connecticut 460",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/nct/ci-nct-460n.jpg",
   brand: "Nub",
   origin: "Nicaragua",
   region: "Estelí",
@@ -9435,6 +9683,7 @@ const CIGARS = [
 {
   id: "la-flor-dominicana-reserva-especial-no-1",
   name: "La Flor Dominicana Reserva Especial No. 1",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lfr/ci-lfr-robn.jpg",
   brand: "La Flor Dominicana",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -9464,6 +9713,7 @@ const CIGARS = [
 {
   id: "la-flor-dominicana-ligero-cabinet-no-4",
   name: "La Flor Dominicana Ligero Cabinet No. 4",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lcb/ci-lcb-4n24.jpg",
   brand: "La Flor Dominicana",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -9522,6 +9772,7 @@ const CIGARS = [
 {
   id: "la-flor-dominicana-oscuro-robusto",
   name: "La Flor Dominicana Oscuro Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lfc/ci-lfc-300m.jpg",
   brand: "La Flor Dominicana",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -9580,6 +9831,7 @@ const CIGARS = [
 {
   id: "espinosa-murcielago-robusto",
   name: "Espinosa Murcielago Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mul/ci-mul-robm.jpg",
   brand: "Espinosa Cigars",
   origin: "Nicaragua",
   region: "Estelí",
@@ -9609,6 +9861,7 @@ const CIGARS = [
 {
   id: "espinosa-crema-no-7-robusto",
   name: "Espinosa Crema No. 7 Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ece/ci-ece-4n.jpg",
   brand: "Espinosa Cigars",
   origin: "Nicaragua",
   region: "Estelí",
@@ -9638,6 +9891,7 @@ const CIGARS = [
 {
   id: "macanudo-vintage-1997-churchill",
   name: "Macanudo Vintage 1997 Churchill",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mav/ci-mav-chum.jpg",
   brand: "Macanudo",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -9667,6 +9921,7 @@ const CIGARS = [
 {
   id: "macanudo-inspirado-african-cameroon-robusto",
   name: "Macanudo Inspirado African Cameroon Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mig/ci-mig-robn.jpg",
   brand: "Macanudo",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -9696,6 +9951,7 @@ const CIGARS = [
 {
   id: "macanudo-ascots",
   name: "Macanudo Ascots",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mac/ci-mac-ascotn.jpg",
   brand: "Macanudo",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -9725,6 +9981,7 @@ const CIGARS = [
 {
   id: "camacho-ecuador-robusto",
   name: "Camacho Ecuador Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ceu/ci-ceu-robn.jpg",
   brand: "Camacho",
   origin: "Honduras",
   region: "Jamastran Valley",
@@ -9783,6 +10040,7 @@ const CIGARS = [
 {
   id: "camacho-criollo-robusto",
   name: "Camacho Criollo Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cmc/ci-cmc-robn.jpg",
   brand: "Camacho",
   origin: "Honduras",
   region: "Jamastran Valley",
@@ -9841,6 +10099,7 @@ const CIGARS = [
 {
   id: "romeo-y-julieta-vintage-v-robusto",
   name: "Romeo y Julieta Vintage V Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/rov/ci-rov-5n.jpg",
   brand: "Romeo y Julieta",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -9928,6 +10187,7 @@ const CIGARS = [
 {
   id: "h-upmann-connecticut-robusto",
   name: "H. Upmann Connecticut Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/huc/ci-huc-robn.jpg",
   brand: "H. Upmann",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -9986,6 +10246,7 @@ const CIGARS = [
 {
   id: "aging-room-quattro-f55-concerto",
   name: "Aging Room Quattro F55 Concerto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/aqn/ci-aqn-conn.jpg",
   brand: "Aging Room",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -10073,6 +10334,7 @@ const CIGARS = [
 {
   id: "diamond-crown-julius-caeser-toro",
   name: "Diamond Crown Julius Caeser Toro",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/djc/ci-djc-torn.jpg",
   brand: "Diamond Crown",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -10102,6 +10364,7 @@ const CIGARS = [
 {
   id: "diamond-crown-classic-no-5",
   name: "Diamond Crown Classic No. 5",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dmd/CI-DMD-5N-20-BOX.jpg",
   brand: "Diamond Crown",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -10131,6 +10394,7 @@ const CIGARS = [
 {
   id: "quesada-reserva-privada-robusto",
   name: "Quesada Reserva Privada Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/qrp/ci-qrp-452n.jpg",
   brand: "Quesada",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -10526,6 +10790,7 @@ const CIGARS = [
 {
   id: "hoyo-epicure-no2",
   name: "Hoyo de Monterrey Epicure No. 2",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/hme/ci-hme-no2n.jpg",
   brand: "Hoyo de Monterrey",
   origin: "Cuba",
   region: "Vuelta Abajo",
@@ -10610,6 +10875,7 @@ const CIGARS = [
 {
   id: "padron-1964-diplomatico-natural",
   name: "Padrón 1964 Anniversary Diplomatico Natural",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/paa/ci-paa-dipn.jpg",
   brand: "Padrón",
   origin: "Nicaragua",
   region: "Jalapa Valley",
@@ -10640,6 +10906,7 @@ const CIGARS = [
 {
   id: "padron-1964-monarca-natural",
   name: "Padrón 1964 Anniversary Monarca Natural",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/paa/ci-paa-monn.jpg",
   brand: "Padrón",
   origin: "Nicaragua",
   region: "Jalapa Valley",
@@ -10670,6 +10937,7 @@ const CIGARS = [
 {
   id: "padron-1964-imperial-natural",
   name: "Padrón 1964 Anniversary Imperial Natural",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/paa/ci-paa-impn.jpg",
   brand: "Padrón",
   origin: "Nicaragua",
   region: "Jalapa Valley",
@@ -10700,6 +10968,7 @@ const CIGARS = [
 {
   id: "padron-family-reserve-no50-natural",
   name: "Padrón Family Reserve No. 50 Natural",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pfr/ci-pfr-50n.jpg",
   brand: "Padrón",
   origin: "Nicaragua",
   region: "Jalapa Valley",
@@ -10730,6 +10999,7 @@ const CIGARS = [
 {
   id: "padron-3000-natural",
   name: "Padrón 3000 Natural",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pad/ci-pad-3000n.jpg",
   brand: "Padrón",
   origin: "Nicaragua",
   region: "Jalapa Valley",
@@ -10760,6 +11030,7 @@ const CIGARS = [
 {
   id: "padron-7000-natural",
   name: "Padrón 7000 Natural",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pad/ci-pad-7000n.jpg",
   brand: "Padrón",
   origin: "Nicaragua",
   region: "Jalapa Valley",
@@ -10790,6 +11061,7 @@ const CIGARS = [
 {
   id: "padron-2000-natural",
   name: "Padrón 2000 Natural",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pad/ci-pad-2000n.jpg",
   brand: "Padrón",
   origin: "Nicaragua",
   region: "Jalapa Valley",
@@ -10880,6 +11152,7 @@ const CIGARS = [
 {
   id: "fuente-hemingway-best-seller",
   name: "Arturo Fuente Hemingway Best Seller",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/hem/ci-hem-seln.jpg",
   brand: "Arturo Fuente",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -10910,6 +11183,7 @@ const CIGARS = [
 {
   id: "fuente-hemingway-classic",
   name: "Arturo Fuente Hemingway Classic",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/hem/CI-HEM-CLAN.jpg",
   brand: "Arturo Fuente",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -10940,6 +11214,7 @@ const CIGARS = [
 {
   id: "fuente-hemingway-short-story",
   name: "Arturo Fuente Hemingway Short Story",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/hem/CI-HEM-SHON-25-BOX.jpg",
   brand: "Arturo Fuente",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -10970,6 +11245,7 @@ const CIGARS = [
 {
   id: "fuente-don-carlos-no3",
   name: "Arturo Fuente Don Carlos No. 3",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/afd/ci-afd-3n.jpg",
   brand: "Arturo Fuente",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -11000,6 +11276,7 @@ const CIGARS = [
 {
   id: "fuente-don-carlos-robusto",
   name: "Arturo Fuente Don Carlos Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/afd/ci-afd-robn.jpg",
   brand: "Arturo Fuente",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -11060,6 +11337,7 @@ const CIGARS = [
 {
   id: "fuente-858-natural-robusto",
   name: "Arturo Fuente 858 Natural Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/af/CI-AF-858N-25-BOX.jpg",
   brand: "Arturo Fuente",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -11090,6 +11368,7 @@ const CIGARS = [
 {
   id: "chateau-fuente-queen-b",
   name: "Arturo Fuente Chateau Fuente Queen B",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/afs/ci-afs-qebn.jpg",
   brand: "Arturo Fuente",
   origin: "Dominican Republic",
   region: "Chateau de la Fuente",
@@ -11150,6 +11429,7 @@ const CIGARS = [
 {
   id: "arturo-fuente-anejo-no77-shark",
   name: "Arturo Fuente Añejo No. 77",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/afa/ci-afa-77m.jpg",
   brand: "Arturo Fuente",
   origin: "Dominican Republic",
   region: "Chateau de la Fuente",
@@ -11180,6 +11460,7 @@ const CIGARS = [
 {
   id: "cohiba-black-robusto",
   name: "Cohiba Black Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cbl/ci-cbl-robtm.jpg",
   brand: "Cohiba (General Cigar)",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -11210,6 +11491,7 @@ const CIGARS = [
 {
   id: "cohiba-blue-robusto",
   name: "Cohiba Blue Robusto",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cbu/ci-cbu-robn.jpg",
   brand: "Cohiba (General Cigar)",
   origin: "Dominican Republic",
   region: "Cibao Valley",
@@ -11354,6 +11636,7 @@ const CIGARS = [
 {
   id: "h-upmann-coronas-major",
   name: "H. Upmann Coronas Major",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/hur/ci-hur-majn.jpg",
   brand: "H. Upmann",
   origin: "Cuba",
   region: "Vuelta Abajo",
@@ -11438,6 +11721,7 @@ const CIGARS = [
 {
   id: "punch-double-coronas",
   name: "Punch Double Coronas",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pun/ci-pun-doun.jpg",
   brand: "Punch",
   origin: "Cuba",
   region: "Vuelta Abajo",
@@ -11466,6 +11750,7 @@ const CIGARS = [
 {
   id: "hoyo-de-monterrey-double-coronas",
   name: "Hoyo de Monterrey Double Coronas",
+  image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/hoy/ci-hoy-doun.jpg",
   brand: "Hoyo de Monterrey",
   origin: "Cuba",
   region: "Vuelta Abajo",
@@ -11494,6 +11779,7 @@ const CIGARS = [
 {
     id: "my-father-la-antiguedad-robusto",
     name: "La Antiguedad Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lad/ci-lad-robm.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -11524,6 +11810,7 @@ const CIGARS = [
 {
     id: "my-father-la-antiguedad-toro",
     name: "La Antiguedad Toro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lad/ci-lad-tgorm.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -11554,6 +11841,7 @@ const CIGARS = [
 {
     id: "my-father-le-bijou-1922-torpedo",
     name: "My Father Le Bijou 1922 Torpedo",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/m22/ci-m22-torpm.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -11584,6 +11872,7 @@ const CIGARS = [
 {
     id: "my-father-le-bijou-1922-toro",
     name: "My Father Le Bijou 1922 Toro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/m22/ci-m22-torm.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -11614,6 +11903,7 @@ const CIGARS = [
 {
     id: "my-father-no1-robusto",
     name: "My Father No. 1 Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mf/CI-MF-1N.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -11674,6 +11964,7 @@ const CIGARS = [
 {
     id: "my-father-flor-de-las-antillas-robusto",
     name: "Flor de Las Antillas Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/fda/CI-FDA-ROBN.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -11704,6 +11995,7 @@ const CIGARS = [
 {
     id: "my-father-flor-de-las-antillas-toro",
     name: "Flor de Las Antillas Toro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/fda/ci-fda-torn.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -11734,6 +12026,7 @@ const CIGARS = [
 {
     id: "rocky-patel-vintage-1990-robusto",
     name: "Rocky Patel Vintage 1990 Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/vnumbers/ci-v90-robm.jpg",
     brand: "Rocky Patel",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -11764,6 +12057,7 @@ const CIGARS = [
 {
     id: "rocky-patel-vintage-1992-robusto",
     name: "Rocky Patel Vintage 1992 Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/vnumbers/ci-v92-robn.jpg",
     brand: "Rocky Patel",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -11794,6 +12088,7 @@ const CIGARS = [
 {
     id: "rocky-patel-vintage-2003-torpedo",
     name: "Rocky Patel Vintage 2003 Torpedo",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/vnumbers/ci-v23-torpn.jpg",
     brand: "Rocky Patel",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -11824,6 +12119,7 @@ const CIGARS = [
 {
     id: "rocky-patel-edge-habano-robusto",
     name: "Rocky Patel Edge Robusto (Habano)",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/reh/ci-reh-torn.jpg",
     brand: "Rocky Patel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -11854,6 +12150,7 @@ const CIGARS = [
 {
     id: "rocky-patel-edge-maduro-robusto",
     name: "Rocky Patel Edge Maduro Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/vre/ci-vre-robm.jpg",
     brand: "Rocky Patel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -11884,6 +12181,7 @@ const CIGARS = [
 {
     id: "rocky-patel-decade-toro",
     name: "Rocky Patel Decade Toro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/rpd/ci-rpd-torn.jpg",
     brand: "Rocky Patel",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -11914,6 +12212,7 @@ const CIGARS = [
 {
     id: "rocky-patel-fifteenth-anniversary-robusto",
     name: "Rocky Patel Fifteenth Anniversary Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/r15/ci-r15-robn.jpg",
     brand: "Rocky Patel",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -11944,6 +12243,7 @@ const CIGARS = [
 {
     id: "rocky-patel-sun-grown-robusto",
     name: "Rocky Patel Sun Grown Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/rps/ci-rps-robn.jpg",
     brand: "Rocky Patel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -12004,6 +12304,7 @@ const CIGARS = [
 {
     id: "rocky-patel-ams-robusto",
     name: "Rocky Patel American Market Selection Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/rpa/ci-rpa-robn.jpg",
     brand: "Rocky Patel",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -12034,6 +12335,7 @@ const CIGARS = [
 {
     id: "aj-fernandez-new-world-robusto",
     name: "AJ Fernandez New World Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/anw/ci-anw-robm.jpg",
     brand: "AJ Fernandez",
     origin: "Nicaragua",
     region: "Estelí",
@@ -12064,6 +12366,7 @@ const CIGARS = [
 {
     id: "aj-fernandez-new-world-puro-especial-robusto",
     name: "AJ Fernandez New World Puro Especial Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/nwp/ci-nwp-robn.jpg",
     brand: "AJ Fernandez",
     origin: "Nicaragua",
     region: "Estelí",
@@ -12094,6 +12397,7 @@ const CIGARS = [
 {
     id: "aj-fernandez-enclave-broadleaf-robusto",
     name: "AJ Fernandez Enclave Broadleaf Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/enb/ci-enb-robm.jpg",
     brand: "AJ Fernandez",
     origin: "Nicaragua",
     region: "Estelí",
@@ -12154,6 +12458,7 @@ const CIGARS = [
 {
     id: "aj-fernandez-bellas-artes-robusto",
     name: "AJ Fernandez Bellas Artes Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/aba/ci-aba-robn.jpg",
     brand: "AJ Fernandez",
     origin: "Nicaragua",
     region: "Estelí",
@@ -12274,6 +12579,7 @@ const CIGARS = [
 {
     id: "perdomo-20th-anniversary-maduro-robusto",
     name: "Perdomo 20th Anniversary Maduro Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/p2m/ci-p2m-robm.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -12304,6 +12610,7 @@ const CIGARS = [
 {
     id: "perdomo-20th-anniversary-sun-grown-robusto",
     name: "Perdomo 20th Anniversary Sun Grown Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/p2s/ci-p2s-robn.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -12334,6 +12641,7 @@ const CIGARS = [
 {
     id: "perdomo-reserve-10th-anniversary-champagne-robusto",
     name: "Perdomo Reserve 10th Anniversary Champagne Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pxs/ci-pxs-robn.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -12364,6 +12672,7 @@ const CIGARS = [
 {
     id: "perdomo-habano-bourbon-barrel-sun-grown-robusto",
     name: "Perdomo Habano Bourbon Barrel-Aged Sun Grown Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pha/ci-pha-robn.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -12394,6 +12703,7 @@ const CIGARS = [
 {
     id: "perdomo-double-aged-12-year-vintage-robusto",
     name: "Perdomo Double Aged 12 Year Vintage Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pda/ci-pda-robm.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -12484,6 +12794,7 @@ const CIGARS = [
 {
     id: "perdomo-inmenso-seventy-robusto",
     name: "Perdomo Inmenso Seventy Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pim/ci-pim-robm.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -12514,6 +12825,7 @@ const CIGARS = [
 {
     id: "plasencia-alma-del-fuego-robustillo",
     name: "Plasencia Alma del Fuego Robustillo",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pfu/ci-pfu-robn.jpg",
     brand: "Plasencia",
     origin: "Nicaragua",
     region: "Estelí",
@@ -12544,6 +12856,7 @@ const CIGARS = [
 {
     id: "plasencia-alma-del-campo-robusto",
     name: "Plasencia Alma del Campo Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ald/ci-ald-trin.jpg",
     brand: "Plasencia",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -12604,6 +12917,7 @@ const CIGARS = [
 {
     id: "plasencia-reserva-original-robusto",
     name: "Plasencia Reserva Original Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pro/ci-pro-robn10.jpg",
     brand: "Plasencia",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -12634,6 +12948,7 @@ const CIGARS = [
 {
     id: "plasencia-alma-fuerte-sixto-i",
     name: "Plasencia Alma Fuerte Sixto I",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pfn/ci-pfn-sixn.jpg",
     brand: "Plasencia",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -12724,6 +13039,7 @@ const CIGARS = [
 {
     id: "aganorsa-leaf-jfr-maduro-robusto",
     name: "Aganorsa Leaf JFR Maduro Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/jfm/CI-JFM-ROBM.jpg",
     brand: "Aganorsa Leaf",
     origin: "Nicaragua",
     region: "Estelí",
@@ -12754,6 +13070,7 @@ const CIGARS = [
 {
     id: "aganorsa-leaf-connecticut-robusto",
     name: "Aganorsa Leaf Connecticut Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cta/ci-cta-grobn.jpg",
     brand: "Aganorsa Leaf",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -12814,6 +13131,7 @@ const CIGARS = [
 {
     id: "casa-fernandez-aniversario-robusto",
     name: "Casa Fernandez Aniversario Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cfe/ci-cfe-robn.jpg",
     brand: "Aganorsa Leaf",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -12844,6 +13162,7 @@ const CIGARS = [
 {
     id: "aganorsa-leaf-guardian-of-the-farm-robusto",
     name: "Aganorsa Leaf Guardian of the Farm Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/gfc/ci-gfc-robn.jpg",
     brand: "Aganorsa Leaf",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -12874,6 +13193,7 @@ const CIGARS = [
 {
     id: "oliva-serie-v-double-toro",
     name: "Oliva Serie V Double Toro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/osv/ci-osv-dtorn.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -12904,6 +13224,7 @@ const CIGARS = [
 {
     id: "oliva-serie-v-torpedo",
     name: "Oliva Serie V Torpedo",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/osv/ci-osv-torpn.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -12934,6 +13255,7 @@ const CIGARS = [
 {
     id: "oliva-serie-v-belicoso",
     name: "Oliva Serie V Belicoso",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/osv/ci-osv-beln.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -12964,6 +13286,7 @@ const CIGARS = [
 {
     id: "oliva-serie-g-robusto",
     name: "Oliva Serie G Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ogn/ci-ogn-450n.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -12994,6 +13317,7 @@ const CIGARS = [
 {
     id: "nub-oliva-habano-460",
     name: "Nub by Oliva Habano 460",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/nha/ci-nha-460n.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13024,6 +13348,7 @@ const CIGARS = [
 {
     id: "oliva-master-blends-iii-robusto",
     name: "Oliva Master Blends III Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/om3/ci-om3-robn.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -13054,6 +13379,7 @@ const CIGARS = [
 {
     id: "oliva-connecticut-reserve-robusto",
     name: "Oliva Connecticut Reserve Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ocr/ci-ocr-robn.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -13084,6 +13410,7 @@ const CIGARS = [
 {
     id: "oliva-serie-o-maduro-robusto",
     name: "Oliva Serie O Maduro Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/oom/ci-oom-550m.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13114,6 +13441,7 @@ const CIGARS = [
 {
     id: "davidoff-grand-cru-no-2",
     name: "Davidoff Grand Cru No. 2",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dvg/ci-dvg-2n.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -13144,6 +13472,7 @@ const CIGARS = [
 {
     id: "davidoff-millennium-blend-robusto",
     name: "Davidoff Millennium Blend Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dvm/ci-dvm-robn.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -13174,6 +13503,7 @@ const CIGARS = [
 {
     id: "davidoff-aniversario-no-3",
     name: "Davidoff Aniversario No. 3",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dvs/ci-dvs-3n.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -13204,6 +13534,7 @@ const CIGARS = [
 {
     id: "davidoff-primeros-dominican",
     name: "Davidoff Primeros Dominican",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ci-dap-pridn.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -13234,6 +13565,7 @@ const CIGARS = [
 {
     id: "davidoff-escurio-gran-toro",
     name: "Davidoff Escurio Gran Toro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dae/ci-dae-gtorn.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -13264,6 +13596,7 @@ const CIGARS = [
 {
     id: "davidoff-nicaragua-box-pressed-toro",
     name: "Davidoff Nicaragua Box Pressed Toro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/dvn/ci-dvn-torbp.jpg",
     brand: "Davidoff",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13294,6 +13627,7 @@ const CIGARS = [
 {
     id: "davidoff-winston-churchill-robusto",
     name: "Davidoff Winston Churchill Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/wlh/ci-wlh-robm.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -13354,6 +13688,7 @@ const CIGARS = [
 {
     id: "ashton-cabinet-no-6",
     name: "Ashton Cabinet No. 6",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/asc/ci-asc-6n.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -13384,6 +13719,7 @@ const CIGARS = [
 {
     id: "ashton-aged-maduro-no-20",
     name: "Ashton Aged Maduro No. 20",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/asm/CI-ASM-20M.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -13414,6 +13750,7 @@ const CIGARS = [
 {
     id: "ashton-esg-torpedo",
     name: "Ashton ESG Torpedo",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ase/ci-ase-22n.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -13444,6 +13781,7 @@ const CIGARS = [
 {
     id: "ashton-vsg-robusto",
     name: "Ashton VSG Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/asg/ci-asg-robn.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -13474,6 +13812,7 @@ const CIGARS = [
 {
     id: "ashton-heritage-puro-sol-robusto",
     name: "Ashton Heritage Puro Sol Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/aps/ci-aps-robn.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -13504,6 +13843,7 @@ const CIGARS = [
 {
     id: "ashton-classic-corona",
     name: "Ashton Classic Corona",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ash/ci-ash-corn.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -13534,6 +13874,7 @@ const CIGARS = [
 {
     id: "liga-privada-no-9-robusto",
     name: "Liga Privada No. 9 Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lp9/ci-lp9-robm.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13564,6 +13905,7 @@ const CIGARS = [
 {
     id: "liga-privada-t52-robusto",
     name: "Liga Privada T52 Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/l52/ci-l52-robn.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13594,6 +13936,7 @@ const CIGARS = [
 {
     id: "undercrown-robusto-shade",
     name: "Undercrown Shade Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lus/ci-lus-robn.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13624,6 +13967,7 @@ const CIGARS = [
 {
     id: "undercrown-maduro-robusto",
     name: "Undercrown Maduro Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/lun/CI-LUN-ROBM.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13654,6 +13998,7 @@ const CIGARS = [
 {
     id: "herrera-esteli-miami-robusto",
     name: "Herrera Estelí Miami Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/hmi/ci-hmi-robmm.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13684,6 +14029,7 @@ const CIGARS = [
 {
     id: "acid-blondie",
     name: "ACID Blondie",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/aci/CI-ACI-BBLON-40-BOX.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13714,6 +14060,7 @@ const CIGARS = [
 {
     id: "crowned-heads-four-kicks-robusto",
     name: "Four Kicks Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/c4k/ci-c4k-robn.jpg",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13744,6 +14091,7 @@ const CIGARS = [
 {
     id: "crowned-heads-mil-dias-robusto",
     name: "Mil Días Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/mil/ci-mil-drobn.jpg",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -13804,6 +14152,7 @@ const CIGARS = [
 {
     id: "crowned-heads-juarez-robusto",
     name: "Juarez Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/juz/ci-juz-obsm.jpg",
     brand: "Crowned Heads",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -13894,6 +14243,7 @@ const CIGARS = [
 {
     id: "foundation-el-gueguense-robusto",
     name: "El Güegüense Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/elg/ci-elg-ltd.jpg",
     brand: "Foundation Cigar Co.",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -13924,6 +14274,7 @@ const CIGARS = [
 {
     id: "foundation-olmec-claro-robusto",
     name: "Olmec Claro Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/olm/ci-olm-robn.jpg",
     brand: "Foundation Cigar Co.",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -13954,6 +14305,7 @@ const CIGARS = [
 {
     id: "foundation-tabernacle-robusto",
     name: "Tabernacle Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/tbr/ci-tbr-robm.jpg",
     brand: "Foundation Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13984,6 +14336,7 @@ const CIGARS = [
 {
     id: "foundation-charter-oak-habano-robusto",
     name: "Charter Oak Habano Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/chh/ci-chh-torpn.jpg",
     brand: "Foundation Cigar Co.",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -14044,6 +14397,7 @@ const CIGARS = [
 {
     id: "foundation-el-gueguense-toro",
     name: "El Güegüense Toro",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/elg/ci-elg-ltd.jpg",
     brand: "Foundation Cigar Co.",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -14074,6 +14428,7 @@ const CIGARS = [
 {
     id: "tatuaje-black-robusto",
     name: "Tatuaje Black Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/tbl/ci-tbl-probn.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14104,6 +14459,7 @@ const CIGARS = [
 {
     id: "tatuaje-brown-label-robusto",
     name: "Tatuaje Brown Label Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/tbc/ci-tbc-j21m.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14134,6 +14490,7 @@ const CIGARS = [
 {
     id: "tatuaje-havana-vi-robusto",
     name: "Tatuaje Havana VI Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/th6/ci-th6-nobn.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14164,6 +14521,7 @@ const CIGARS = [
 {
     id: "tatuaje-cabaiguan-guapo",
     name: "Tatuaje Cabaiguan Guapo",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/cbg/ci-cbg-guan.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -14194,6 +14552,7 @@ const CIGARS = [
 {
     id: "tatuaje-the-frank",
     name: "The Frank (Tatuaje)",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/tsm/ci-tsm-frank.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14254,6 +14613,7 @@ const CIGARS = [
   {
     id: "punch-gran-puro-nicaragua-robusto",
     name: "Punch Gran Puro Nicaragua Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ppn/ci-ppn-robm.jpg",
     brand: "Punch",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -14284,6 +14644,7 @@ const CIGARS = [
   {
     id: "romeo-y-julieta-1875-robusto",
     name: "Romeo y Julieta 1875 Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/ror/ci-ror-buln5pk.jpg",
     brand: "Romeo y Julieta",
     origin: "Dominican Republic",
     region: "Cibao Valley",

@@ -172,9 +172,14 @@ function renderCard(cigar, index) {
         onclick="event.stopPropagation();openModal('${s.id}')" tabindex="-1">${s.size}</button>`).join('')}
     </div>` : '';
 
+  const cardImg = cigar.image
+    ? `<div class="card-img-wrap"><img class="card-img" src="${cigar.image}" alt="${cigar.name}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`
+    : '';
+
   const inCompare = compareList.includes(cigar.id);
   return `
-    <article class="cigar-card" data-id="${cigar.id}" style="animation-delay:${Math.min(index * 0.04, 0.5)}s" role="button" tabindex="0">
+    <article class="cigar-card${cigar.image ? ' has-img' : ''}" data-id="${cigar.id}" style="animation-delay:${Math.min(index * 0.04, 0.5)}s" role="button" tabindex="0">
+      ${cardImg}
       ${limitedBadge}
       <button class="card-compare-btn${inCompare ? ' in-compare' : ''}" data-id="${cigar.id}" title="Compare" tabindex="-1">+</button>
       <div class="card-header">
@@ -317,6 +322,10 @@ function openModal(id) {
 
   const limitedBadge = cigar.limited ? `<span class="modal-badge limited">Limited Release</span>` : '';
 
+  const modalImg = cigar.image
+    ? `<div class="modal-hero-img-wrap"><img class="modal-hero-img" src="${cigar.image}" alt="${cigar.name}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`
+    : '';
+
   $modalBody.innerHTML = `
     <div class="modal-header">
       <div class="modal-badges">
@@ -328,6 +337,8 @@ function openModal(id) {
       <h2 class="modal-title">${cigar.name}</h2>
       <div class="modal-brand">${cigar.brand}</div>
     </div>
+
+    ${modalImg}
 
     <div class="modal-stats-row">
       <div class="modal-stat-box">

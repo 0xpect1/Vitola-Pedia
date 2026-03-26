@@ -43,6 +43,7 @@ Each cigar object in `CIGARS` array follows this shape:
   pairings: ["Bourbon", "Espresso"],
   yearFounded: 1962,
   limited: false,              // true for limited/rare releases
+  image: "https://cdn.famous-smoke.com/...",  // optional — direct product photo URL (jpg/png/webp)
   buyLinks: [                  // optional — specific product page links with prices
     { retailer: "Cigars International", url: "https://...", price: 11.95 },
     { retailer: "Famous Smoke Shop",    url: "https://...", price: 12.99 },
@@ -61,11 +62,9 @@ Each cigar object in `CIGARS` array follows this shape:
 
 ## After Adding Cigars — Always Update These
 
-Whenever cigars are added to `js/data.js`, update the count in **two places**:
-1. `index.html` line 43 — the hero eyebrow text (`Over X Premium Cigars`)
-2. `README.md` line 3 — the count in the description (`240+ cigars`)
-
-Both should reflect the current approximate count rounded down to the nearest 10.
+Whenever cigars are added to `js/data.js`:
+1. Update `README.md` — the count in the description (`240+ cigars`) to reflect the new approximate count rounded down to nearest 10.
+2. **Find and add product images** — for each new cigar, search for a direct product image URL on famous-smoke.com or cigarsinternational.com (look for the `og:image` meta tag on the product page) and add it as the `image` field. The URL must end in `.jpg`, `.jpeg`, `.png`, or `.webp`. If no image can be found, omit the field entirely — cards render fine without it.
 
 ## Running Locally
 
