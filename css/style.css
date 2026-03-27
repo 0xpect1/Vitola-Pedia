@@ -1514,7 +1514,7 @@ img { max-width: 100%; display: block; }
 .cigar-3d {
   position: relative;
   width: 380px;
-  height: 48px;
+  height: 52px;
   transform-style: preserve-3d;
   animation: cigarSpin 18s linear infinite;
 }
@@ -1527,102 +1527,150 @@ img { max-width: 100%; display: block; }
 .cigar-face {
   position: absolute;
   width: 380px;
-  height: 7px;
+  /* height set to match polygon face size: 2*R*sin(π/N) = 2*26*sin(π/20) ≈ 8.1px → 9px covers gaps */
+  height: 9px;
   top: 50%;
   left: 50%;
-  margin-top: -3.5px;
+  margin-top: -4.5px;
   margin-left: -190px;
   backface-visibility: hidden;
 }
-/* Wrapper — realistic Colorado Claro/Natural coloring with subtle grain */
+/* Wrapper — rich Colorado Natural with tobacco leaf vein texture */
 .cigar-face-body {
-  background: linear-gradient(90deg,
-    #2a1608 0%,
-    #4a2a12 4%,
-    #6a3e20 9%,
-    #7e4c2a 18%,
-    #8c5430 35%,
-    #925835 50%,
-    #8c5430 65%,
-    #7e4c2a 82%,
-    #6a3e20 91%,
-    #4a2a12 96%,
-    #2a1608 100%
-  );
+  background:
+    /* subtle leaf vein lines */
+    repeating-linear-gradient(90deg,
+      transparent 0px, transparent 17px,
+      rgba(0,0,0,0.055) 17px, rgba(0,0,0,0.055) 18px
+    ),
+    /* cylindrical shading gradient — authentic Colorado/Natural brown */
+    linear-gradient(to bottom,
+      #0c0804 0%,
+      #2a1408 5%,
+      #562a14 13%,
+      #7a3e22 26%,
+      #975030 42%,
+      #a45a36 50%,
+      #975030 58%,
+      #7a3e22 74%,
+      #562a14 87%,
+      #2a1408 95%,
+      #0c0804 100%
+    );
 }
-/* Cigar band — gold with decorative detail */
+/* Main cigar band — wide ornate gold */
 .cigar-face-band {
-  width: 64px;
+  width: 82px;
   left: 50%;
-  margin-left: -142px; /* band at ~25% from head end */
-  background: linear-gradient(90deg,
-    #6a5010 0%,
-    #c9a030 8%,
-    #e8c040 18%,
-    #f5d860 28%,
-    #fff0a0 38%,
-    #f5d860 50%,
-    #f5d860 52%,
-    #e8c040 62%,
-    #c9a030 72%,
-    #a07820 82%,
-    #6a5010 100%
-  );
-  border-top: 0.5px solid rgba(255,240,150,0.3);
-  border-bottom: 0.5px solid rgba(100,75,10,0.4);
+  margin-left: -140px;
+  background:
+    /* decorative inner border lines */
+    linear-gradient(to bottom,
+      transparent 0%, transparent 14%,
+      rgba(255,235,90,0.22) 14%, rgba(255,235,90,0.22) 18%,
+      transparent 18%, transparent 82%,
+      rgba(70,48,5,0.28) 82%, rgba(70,48,5,0.28) 86%,
+      transparent 86%
+    ),
+    /* gold gradient */
+    linear-gradient(90deg,
+      #322008 0%,
+      #7a5612 7%,
+      #c49018 16%,
+      #e4b020 28%,
+      #f8cc2c 40%,
+      #ffe860 50%,
+      #f8cc2c 60%,
+      #e4b020 72%,
+      #c49018 84%,
+      #7a5612 93%,
+      #322008 100%
+    );
+  border-top: 0.5px solid rgba(255,235,80,0.5);
+  border-bottom: 0.5px solid rgba(55,35,5,0.55);
 }
-/* Foot (lit end) glow */
-.cigar-face-foot {
+/* Secondary small band — just above foot, dark with thin gold stripe */
+.cigar-face-band2 {
   width: 28px;
   left: 50%;
-  margin-left: 162px; /* at the right/foot end */
+  margin-left: 110px;
+  background: linear-gradient(90deg,
+    #1e1408 0%, #5a4010 15%, #9a7820 35%, #c8a028 50%, #9a7820 65%, #5a4010 85%, #1e1408 100%
+  );
+  border-top: 0.5px solid rgba(200,165,40,0.4);
+  border-bottom: 0.5px solid rgba(40,25,5,0.45);
+}
+/* Foot glow — orange ember heat emanating from lit end */
+.cigar-face-foot {
+  width: 32px;
+  left: 50%;
+  margin-left: 158px;
   background: linear-gradient(90deg,
     transparent 0%,
-    rgba(255,100,20,0.08) 30%,
-    rgba(255,120,30,0.14) 60%,
-    rgba(255,80,10,0.2) 85%,
-    rgba(255,50,0,0.3) 100%
+    rgba(255,90,15,0.06) 20%,
+    rgba(255,110,25,0.13) 50%,
+    rgba(255,85,10,0.22) 78%,
+    rgba(255,55,5,0.34) 100%
   );
 }
 
 /* --- Cigar end caps --- */
 .cigar-cap {
   position: absolute;
-  width: 48px;
-  height: 48px;
+  width: 52px;
+  height: 52px;
   top: 50%;
   left: 50%;
-  margin-top: -24px;
-  margin-left: -24px;
+  margin-top: -26px;
+  margin-left: -26px;
   border-radius: 50%;
   backface-visibility: hidden;
 }
+/* Head cap — rounded dome with triple-cap sheen */
 .cigar-cap-head {
   transform: rotateY(-90deg) translateZ(190px);
-  background: radial-gradient(circle at 38% 35%,
-    #8a6040 0%, #6a4828 30%, #4a2e18 60%, #2e1a0a 85%, #1a0e04 100%
+  background: radial-gradient(circle at 38% 34%,
+    #d8a878 0%,    /* bright dome highlight */
+    #a87050 8%,
+    #825038 20%,
+    #603828 38%,
+    #422215 58%,
+    #2a1409 76%,
+    #180c06 92%,
+    #0e0804 100%
   );
-  box-shadow: inset -4px -4px 12px rgba(0,0,0,0.5), inset 2px 2px 8px rgba(255,200,150,0.08);
+  box-shadow:
+    inset -5px -5px 16px rgba(0,0,0,0.7),
+    inset 3px 3px 8px rgba(255,190,130,0.18),
+    inset 0 0 20px rgba(0,0,0,0.3);
 }
+/* Foot cap — glowing ember core + ash ring — like a freshly lit cigar */
 .cigar-cap-foot {
   transform: rotateY(90deg) translateZ(190px);
-  background: radial-gradient(circle at 45% 45%,
-    rgba(255,80,10,0.6) 0%,
-    rgba(180,40,5,0.7) 25%,
-    rgba(80,20,5,0.9) 55%,
-    #1a0a02 80%,
-    #0a0502 100%
+  background: radial-gradient(circle at 50% 50%,
+    rgba(255,250,180,0.98) 0%,    /* white-hot core */
+    rgba(255,190,40,0.97) 7%,     /* yellow-hot ring */
+    rgba(255,120,20,0.95) 16%,    /* orange ember */
+    rgba(210,55,8,0.92) 27%,      /* red coal ring */
+    rgba(90,28,6,0.9) 40%,        /* dark char */
+    rgba(48,38,32,0.92) 52%,      /* char ash */
+    rgba(148,138,128,0.88) 62%,   /* grey ash ring */
+    rgba(188,178,168,0.75) 70%,   /* light ash outer */
+    rgba(110,100,94,0.55) 80%,
+    #1a1610 90%,
+    #0e0c0a 100%
   );
-  box-shadow: 0 0 20px rgba(255,80,10,0.4), 0 0 40px rgba(255,50,0,0.15);
-}
-
-/* Ember glow animation on foot cap */
-.cigar-cap-foot {
-  animation: emberPulse 2.5s ease-in-out infinite;
+  animation: emberPulse 2.2s ease-in-out infinite;
 }
 @keyframes emberPulse {
-  0%, 100% { box-shadow: 0 0 18px rgba(255,80,10,0.4), 0 0 40px rgba(255,50,0,0.12); }
-  50%      { box-shadow: 0 0 28px rgba(255,100,30,0.6), 0 0 60px rgba(255,80,0,0.25); }
+  0%, 100% {
+    box-shadow: 0 0 24px rgba(255,120,20,0.55), 0 0 55px rgba(255,70,0,0.18);
+    filter: brightness(1);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255,150,40,0.75), 0 0 90px rgba(255,100,0,0.32);
+    filter: brightness(1.12);
+  }
 }
 
 /* --- Cigar shadow --- */

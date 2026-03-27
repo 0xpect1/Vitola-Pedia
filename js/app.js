@@ -1178,46 +1178,54 @@ function buildCigar3D() {
   const container = document.getElementById('cigar3d');
   if (!container) return;
 
-  const NUM_FACES = 32;   // more faces = smoother cylinder
-  const RADIUS = 24;      // cylinder radius in px
+  const NUM_FACES = 20;  // 20 faces: smooth cylinder with good performance
+  const RADIUS = 26;     // slightly larger radius for more presence
 
   for (let i = 0; i < NUM_FACES; i++) {
     const angle = (i / NUM_FACES) * 360;
     const rad = angle * Math.PI / 180;
 
-    // Directional light from above: brighter at top, darker at bottom
-    const light = 0.5 + 0.5 * Math.cos(rad);
-    const bodyBrightness = (0.42 + 0.58 * light).toFixed(3);
-    const bandBrightness = (0.55 + 0.45 * light).toFixed(3);
+    // Physically-based lighting: diffuse (Lambertian) + sharp specular (Phong)
+    const diffuse = Math.max(0, Math.cos(rad));
+    const specular = Math.pow(Math.max(0, Math.cos(rad)), 5);
+    const bodyBrightness = (0.26 + 0.58 * diffuse + 0.48 * specular).toFixed(3);
+    const bandBrightness = (0.38 + 0.44 * diffuse + 0.38 * specular).toFixed(3);
 
-    // Wrapper body face
+    // Wrapper body
     const face = document.createElement('div');
     face.className = 'cigar-face cigar-face-body';
     face.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS}px)`;
     face.style.filter = `brightness(${bodyBrightness})`;
     container.appendChild(face);
 
-    // Gold band overlay
+    // Gold band
     const band = document.createElement('div');
     band.className = 'cigar-face cigar-face-band';
-    band.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.8}px)`;
+    band.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.9}px)`;
     band.style.filter = `brightness(${bandBrightness})`;
     container.appendChild(band);
 
-    // Ember glow at foot end
+    // Secondary accent band
+    const band2 = document.createElement('div');
+    band2.className = 'cigar-face cigar-face-band2';
+    band2.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.6}px)`;
+    band2.style.filter = `brightness(${bandBrightness})`;
+    container.appendChild(band2);
+
+    // Ember glow at foot
     const foot = document.createElement('div');
     foot.className = 'cigar-face cigar-face-foot';
-    foot.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.4}px)`;
-    foot.style.opacity = (0.35 + 0.65 * light).toFixed(2);
+    foot.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.5}px)`;
+    foot.style.opacity = (0.3 + 0.7 * diffuse).toFixed(2);
     container.appendChild(foot);
   }
 
-  // Head cap
+  // Head cap (rounded triple-cap dome)
   const capHead = document.createElement('div');
   capHead.className = 'cigar-cap cigar-cap-head';
   container.appendChild(capHead);
 
-  // Foot cap
+  // Foot cap (glowing ember + ash ring)
   const capFoot = document.createElement('div');
   capFoot.className = 'cigar-cap cigar-cap-foot';
   container.appendChild(capFoot);
