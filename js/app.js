@@ -1178,36 +1178,46 @@ function buildCigar3D() {
   const container = document.getElementById('cigar3d');
   if (!container) return;
 
-  const NUM_FACES = 24;
-  const RADIUS = 22;
-  const CIGAR_LEN = 340;
-  const BAND_WIDTH = 60;
-  const BAND_OFFSET = 60;
+  const NUM_FACES = 32;   // more faces = smoother cylinder
+  const RADIUS = 24;      // cylinder radius in px
 
-  // Build body faces
   for (let i = 0; i < NUM_FACES; i++) {
     const angle = (i / NUM_FACES) * 360;
-    const brightness = 0.5 + 0.5 * Math.cos(angle * Math.PI / 180);
+    const rad = angle * Math.PI / 180;
 
+    // Directional light from above: brighter at top, darker at bottom
+    const light = 0.5 + 0.5 * Math.cos(rad);
+    const bodyBrightness = (0.42 + 0.58 * light).toFixed(3);
+    const bandBrightness = (0.55 + 0.45 * light).toFixed(3);
+
+    // Wrapper body face
     const face = document.createElement('div');
     face.className = 'cigar-face cigar-face-body';
     face.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS}px)`;
-    face.style.filter = `brightness(${(0.55 + 0.45 * brightness).toFixed(2)})`;
+    face.style.filter = `brightness(${bodyBrightness})`;
     container.appendChild(face);
 
-    // Band face (overlay on top)
+    // Gold band overlay
     const band = document.createElement('div');
     band.className = 'cigar-face cigar-face-band';
-    band.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.5}px)`;
-    band.style.filter = `brightness(${(0.6 + 0.4 * brightness).toFixed(2)})`;
+    band.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.8}px)`;
+    band.style.filter = `brightness(${bandBrightness})`;
     container.appendChild(band);
+
+    // Ember glow at foot end
+    const foot = document.createElement('div');
+    foot.className = 'cigar-face cigar-face-foot';
+    foot.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.4}px)`;
+    foot.style.opacity = (0.35 + 0.65 * light).toFixed(2);
+    container.appendChild(foot);
   }
 
-  // End caps
+  // Head cap
   const capHead = document.createElement('div');
   capHead.className = 'cigar-cap cigar-cap-head';
   container.appendChild(capHead);
 
+  // Foot cap
   const capFoot = document.createElement('div');
   capFoot.className = 'cigar-cap cigar-cap-foot';
   container.appendChild(capFoot);
