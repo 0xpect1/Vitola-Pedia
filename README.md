@@ -1,12 +1,12 @@
 # Vitola Pedia
 
-A premium digital cigar encyclopedia — 280+ cigars catalogued with full specs, flavor profiles, strength ratings, smoking times, and pairing recommendations.
+A premium digital cigar encyclopedia — 700+ cigars catalogued with full specs, flavor profiles, strength ratings, smoking times, and pairing recommendations.
 
 **Live site:** [vitolapedia.com](https://vitolapedia.com)
 
 ## Features
 
-- **240+ cigars** across 60+ brands — from Cuban classics to boutique Nicaraguan blends to everyday cigarillos
+- **700+ cigars** across 110+ brands — from Cuban classics to boutique Nicaraguan blends to everyday cigarillos
 - **Powerful filtering** by strength, origin, wrapper, price range, and flavor profile
 - **Search** by name, brand, or tasting note
 - **Sort** by rating, price, strength, or smoking time
