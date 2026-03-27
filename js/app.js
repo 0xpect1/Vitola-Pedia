@@ -1173,7 +1173,94 @@ function closeQuizModal() {
 const _origRenderCard = renderCard;
 // (patched inline below via modified render)
 
+// ── LANDING PAGE — 3D CIGAR ─────────────────────────────────────
+function buildCigar3D() {
+  const container = document.getElementById('cigar3d');
+  if (!container) return;
+
+  const NUM_FACES = 24;
+  const RADIUS = 22;
+  const CIGAR_LEN = 340;
+  const BAND_WIDTH = 60;
+  const BAND_OFFSET = 60;
+
+  // Build body faces
+  for (let i = 0; i < NUM_FACES; i++) {
+    const angle = (i / NUM_FACES) * 360;
+    const brightness = 0.5 + 0.5 * Math.cos(angle * Math.PI / 180);
+
+    const face = document.createElement('div');
+    face.className = 'cigar-face cigar-face-body';
+    face.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS}px)`;
+    face.style.filter = `brightness(${(0.55 + 0.45 * brightness).toFixed(2)})`;
+    container.appendChild(face);
+
+    // Band face (overlay on top)
+    const band = document.createElement('div');
+    band.className = 'cigar-face cigar-face-band';
+    band.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.5}px)`;
+    band.style.filter = `brightness(${(0.6 + 0.4 * brightness).toFixed(2)})`;
+    container.appendChild(band);
+  }
+
+  // End caps
+  const capHead = document.createElement('div');
+  capHead.className = 'cigar-cap cigar-cap-head';
+  container.appendChild(capHead);
+
+  const capFoot = document.createElement('div');
+  capFoot.className = 'cigar-cap cigar-cap-foot';
+  container.appendChild(capFoot);
+}
+
+function enterSite() {
+  const landing = document.getElementById('landing');
+  if (!landing) return;
+
+  landing.classList.add('landing-exit');
+  document.body.classList.remove('has-landing');
+  document.body.classList.add('site-entered');
+
+  landing.addEventListener('animationend', () => {
+    landing.classList.add('landing-hidden');
+  }, { once: true });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+  // Build 3D cigar and set up landing page
+  const landing = document.getElementById('landing');
+  if (landing) {
+    document.body.classList.add('has-landing');
+    buildCigar3D();
+
+    // CTA button
+    const enterBtn = document.getElementById('enterSite');
+    if (enterBtn) enterBtn.addEventListener('click', enterSite);
+
+    // Scroll detection — enter site on scroll
+    let scrollTriggered = false;
+    window.addEventListener('wheel', function onWheel(e) {
+      if (scrollTriggered) return;
+      if (e.deltaY > 20 && !document.body.classList.contains('site-entered')) {
+        scrollTriggered = true;
+        enterSite();
+        window.removeEventListener('wheel', onWheel);
+      }
+    }, { passive: true });
+
+    // Touch swipe up on mobile
+    let touchStartY = 0;
+    landing.addEventListener('touchstart', e => { touchStartY = e.touches[0].clientY; }, { passive: true });
+    landing.addEventListener('touchmove', e => {
+      if (scrollTriggered) return;
+      const delta = touchStartY - e.touches[0].clientY;
+      if (delta > 50 && !document.body.classList.contains('site-entered')) {
+        scrollTriggered = true;
+        enterSite();
+      }
+    }, { passive: true });
+  }
+
   init();
 
   // Quiz
