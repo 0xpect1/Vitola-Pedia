@@ -1248,15 +1248,18 @@ document.addEventListener('DOMContentLoaded', () => {
     if (enterBtn) enterBtn.addEventListener('click', enterSite);
 
     // Scroll detection — enter site on scroll
+    // Delay registration to avoid Mac trackpad momentum firing on page load
     let scrollTriggered = false;
-    window.addEventListener('wheel', function onWheel(e) {
-      if (scrollTriggered) return;
-      if (e.deltaY > 20 && !document.body.classList.contains('site-entered')) {
-        scrollTriggered = true;
-        enterSite();
-        window.removeEventListener('wheel', onWheel);
-      }
-    }, { passive: true });
+    setTimeout(() => {
+      window.addEventListener('wheel', function onWheel(e) {
+        if (scrollTriggered) return;
+        if (e.deltaY > 20 && !document.body.classList.contains('site-entered')) {
+          scrollTriggered = true;
+          enterSite();
+          window.removeEventListener('wheel', onWheel);
+        }
+      }, { passive: true });
+    }, 1500);
 
     // Touch swipe up on mobile
     let touchStartY = 0;
