@@ -63,7 +63,7 @@ Each cigar object in `CIGARS` array follows this shape:
 ## After Adding Cigars — Always Update These
 
 Whenever cigars are added to `js/data.js`:
-1. Update `README.md` — the count in the description (`240+ cigars`) to reflect the new approximate count rounded down to nearest 10.
+1. Update `README.md` — the count in the description (`690+ cigars`) to reflect the new approximate count rounded down to nearest 10.
 2. **Find and add product images** — for each new cigar, search for a direct product image URL on famous-smoke.com or cigarsinternational.com (look for the `og:image` meta tag on the product page) and add it as the `image` field. The URL must end in `.jpg`, `.jpeg`, `.png`, or `.webp`. If no image can be found, omit the field entirely — cards render fine without it.
 
 ## Running Locally
