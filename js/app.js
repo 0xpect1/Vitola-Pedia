@@ -1274,7 +1274,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { passive: true });
   }
 
-  init();
+  // Defer init so the landing page paints before processing 700 cigars
+  setTimeout(init, 0);
 
   // Quiz
   document.getElementById('quizTriggerBtn').addEventListener('click', openQuizModal);
