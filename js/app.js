@@ -1178,57 +1178,160 @@ function buildCigar3D() {
   const container = document.getElementById('cigar3d');
   if (!container) return;
 
-  const NUM_FACES = 20;  // 20 faces: smooth cylinder with good performance
-  const RADIUS = 26;     // slightly larger radius for more presence
+  // Canvas-based photorealistic cigar — no CSS polygon faces
+  const DPR = Math.min(window.devicePixelRatio || 1, 2);
+  const W = 400, H = 52;
+  const canvas = document.createElement('canvas');
+  canvas.width  = W * DPR;
+  canvas.height = H * DPR;
+  canvas.style.cssText = `width:${W}px;height:${H}px;display:block;`;
+  container.appendChild(canvas);
 
-  for (let i = 0; i < NUM_FACES; i++) {
-    const angle = (i / NUM_FACES) * 360;
-    const rad = angle * Math.PI / 180;
+  const ctx = canvas.getContext('2d');
+  ctx.scale(DPR, DPR);
 
-    // Physically-based lighting: diffuse (Lambertian) + sharp specular (Phong)
-    const diffuse = Math.max(0, Math.cos(rad));
-    const specular = Math.pow(Math.max(0, Math.cos(rad)), 5);
-    const bodyBrightness = (0.26 + 0.58 * diffuse + 0.48 * specular).toFixed(3);
-    const bandBrightness = (0.38 + 0.44 * diffuse + 0.38 * specular).toFixed(3);
-
-    // Wrapper body
-    const face = document.createElement('div');
-    face.className = 'cigar-face cigar-face-body';
-    face.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS}px)`;
-    face.style.filter = `brightness(${bodyBrightness})`;
-    container.appendChild(face);
-
-    // Gold band
-    const band = document.createElement('div');
-    band.className = 'cigar-face cigar-face-band';
-    band.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.9}px)`;
-    band.style.filter = `brightness(${bandBrightness})`;
-    container.appendChild(band);
-
-    // Secondary accent band
-    const band2 = document.createElement('div');
-    band2.className = 'cigar-face cigar-face-band2';
-    band2.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.6}px)`;
-    band2.style.filter = `brightness(${bandBrightness})`;
-    container.appendChild(band2);
-
-    // Ember glow at foot
-    const foot = document.createElement('div');
-    foot.className = 'cigar-face cigar-face-foot';
-    foot.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.5}px)`;
-    foot.style.opacity = (0.3 + 0.7 * diffuse).toFixed(2);
-    container.appendChild(foot);
+  // Clip path: head (right) fully domed, foot (left) square-cut
+  function clipBody() {
+    const capR = H / 2 - 0.5, footR = 4;
+    ctx.beginPath();
+    ctx.moveTo(footR, 0);
+    ctx.lineTo(W - capR, 0);
+    ctx.arc(W - capR, H / 2, capR, -Math.PI / 2, Math.PI / 2);
+    ctx.lineTo(footR, H);
+    ctx.arcTo(0, H, 0, H - footR, footR);
+    ctx.lineTo(0, footR);
+    ctx.arcTo(0, 0, footR, 0, footR);
+    ctx.closePath();
   }
 
-  // Head cap (rounded triple-cap dome)
-  const capHead = document.createElement('div');
-  capHead.className = 'cigar-cap cigar-cap-head';
-  container.appendChild(capHead);
+  let ep = 0; // ember phase
+  const EMBER_SPEED = (2 * Math.PI) / (60 * 2.2); // 2.2s ember pulse cycle
 
-  // Foot cap (glowing ember + ash ring)
-  const capFoot = document.createElement('div');
-  capFoot.className = 'cigar-cap cigar-cap-foot';
-  container.appendChild(capFoot);
+  function draw() {
+    ep += EMBER_SPEED;
+    const pulse = 0.5 + 0.5 * Math.sin(ep); // 0–1
+
+    ctx.clearRect(0, 0, W, H);
+
+    // ── 1. Body clip ──────────────────────────────────────────────────
+    ctx.save();
+    clipBody();
+    ctx.clip();
+
+    // ── 2. Wrapper — authentic Colorado Natural tobacco brown ─────────
+    const wrap = ctx.createLinearGradient(0, 0, 0, H);
+    wrap.addColorStop(0,    '#050302');
+    wrap.addColorStop(0.04, '#180c04');
+    wrap.addColorStop(0.12, '#3e1c0c');
+    wrap.addColorStop(0.25, '#663016');
+    wrap.addColorStop(0.40, '#8c4628');
+    wrap.addColorStop(0.50, '#a85432');  // highlight — warm chocolate
+    wrap.addColorStop(0.60, '#8c4628');
+    wrap.addColorStop(0.75, '#663016');
+    wrap.addColorStop(0.88, '#3e1c0c');
+    wrap.addColorStop(0.96, '#180c04');
+    wrap.addColorStop(1,    '#050302');
+    ctx.fillStyle = wrap;
+    ctx.fillRect(0, 0, W, H);
+
+    // ── 3. Longitudinal tobacco fibers (horizontal, very subtle) ─────
+    for (let y = 0.5; y < H; y += 2) {
+      ctx.beginPath();
+      ctx.moveTo(0, y);
+      ctx.lineTo(W, y);
+      ctx.strokeStyle = `rgba(0,0,0,${(0.015 + 0.01 * Math.sin(y * 1.5)).toFixed(3)})`;
+      ctx.lineWidth = 0.5;
+      ctx.stroke();
+    }
+
+    // ── 4. Specular gloss strip (oily tobacco sheen) ──────────────────
+    const sheen = ctx.createLinearGradient(0, H * 0.26, 0, H * 0.55);
+    sheen.addColorStop(0,   'rgba(255,205,160,0)');
+    sheen.addColorStop(0.3, 'rgba(255,205,160,0.17)');
+    sheen.addColorStop(0.6, 'rgba(255,218,178,0.23)');
+    sheen.addColorStop(1,   'rgba(255,200,155,0)');
+    ctx.fillStyle = sheen;
+    ctx.fillRect(0, H * 0.26, W, H * 0.30);
+
+    // ── 5. Primary band (wide, ornate gold) ───────────────────────────
+    const bx = W - 218, bw = 92;
+    const bg = ctx.createLinearGradient(bx, 0, bx + bw, 0);
+    bg.addColorStop(0,    'rgba(18,10,2,0.97)');
+    bg.addColorStop(0.05, 'rgba(62,42,8,0.96)');
+    bg.addColorStop(0.15, 'rgba(155,112,15,0.95)');
+    bg.addColorStop(0.30, 'rgba(215,158,22,0.95)');
+    bg.addColorStop(0.50, 'rgba(250,205,45,0.97)');
+    bg.addColorStop(0.70, 'rgba(215,158,22,0.95)');
+    bg.addColorStop(0.85, 'rgba(155,112,15,0.95)');
+    bg.addColorStop(0.95, 'rgba(62,42,8,0.96)');
+    bg.addColorStop(1,    'rgba(18,10,2,0.97)');
+    ctx.fillStyle = bg;
+    ctx.fillRect(bx, 0, bw, H);
+
+    // Band border lines
+    ctx.lineWidth = 1.0;
+    ctx.strokeStyle = 'rgba(255,230,70,0.65)';
+    ctx.beginPath();
+    ctx.moveTo(bx, 5); ctx.lineTo(bx + bw, 5);
+    ctx.moveTo(bx, H - 5); ctx.lineTo(bx + bw, H - 5);
+    ctx.stroke();
+    ctx.lineWidth = 0.5;
+    ctx.strokeStyle = 'rgba(255,240,100,0.32)';
+    ctx.beginPath();
+    ctx.moveTo(bx, 9); ctx.lineTo(bx + bw, 9);
+    ctx.moveTo(bx, H - 9); ctx.lineTo(bx + bw, H - 9);
+    ctx.stroke();
+
+    // ── 6. Secondary band near foot ───────────────────────────────────
+    const b2x = 65, b2w = 26;
+    const b2g = ctx.createLinearGradient(b2x, 0, b2x + b2w, 0);
+    b2g.addColorStop(0,   'rgba(14,8,2,0.92)');
+    b2g.addColorStop(0.3, 'rgba(68,48,12,0.9)');
+    b2g.addColorStop(0.5, 'rgba(158,122,28,0.9)');
+    b2g.addColorStop(0.7, 'rgba(68,48,12,0.9)');
+    b2g.addColorStop(1,   'rgba(14,8,2,0.92)');
+    ctx.fillStyle = b2g;
+    ctx.fillRect(b2x, 0, b2w, H);
+
+    // ── 7. Head cap dome highlight (right rounded end) ─────────────────
+    const hx = W - H / 2;
+    const hg = ctx.createRadialGradient(hx - 7, H / 2 - 9, 2, hx, H / 2, H / 2);
+    hg.addColorStop(0,    'rgba(200,148,84,0.62)');
+    hg.addColorStop(0.45, 'rgba(88,48,20,0.20)');
+    hg.addColorStop(1,    'rgba(0,0,0,0.52)');
+    ctx.fillStyle = hg;
+    ctx.beginPath();
+    ctx.arc(hx, H / 2, H / 2 + 1, 0, 2 * Math.PI);
+    ctx.fill();
+
+    // ── 8. Foot ember: white-hot core → orange → coal → ash ring ──────
+    const ex = 5;
+    const emg = ctx.createRadialGradient(ex, H / 2, 0, ex, H / 2, H / 2 + 8);
+    emg.addColorStop(0,    `rgba(255,252,${Math.round(170 + 55 * pulse)},${(0.88 + 0.12 * pulse).toFixed(2)})`);
+    emg.addColorStop(0.10, `rgba(255,${Math.round(155 + 50 * pulse)},20,0.97)`);
+    emg.addColorStop(0.24, 'rgba(208,52,6,0.93)');
+    emg.addColorStop(0.42, 'rgba(72,20,4,0.87)');
+    emg.addColorStop(0.56, 'rgba(46,36,30,0.91)');
+    emg.addColorStop(0.68, `rgba(138,128,115,${(0.82 + 0.10 * (1 - pulse)).toFixed(2)})`);
+    emg.addColorStop(0.82, `rgba(162,152,138,${(0.52 + 0.14 * (1 - pulse)).toFixed(2)})`);
+    emg.addColorStop(1,    'rgba(50,42,36,0)');
+    ctx.fillStyle = emg;
+    ctx.fillRect(0, 0, H + 10, H);
+
+    ctx.restore(); // end clip
+
+    // ── 9. Thin outline shadow ─────────────────────────────────────────
+    ctx.save();
+    clipBody();
+    ctx.strokeStyle = 'rgba(0,0,0,0.55)';
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+    ctx.restore();
+
+    requestAnimationFrame(draw);
+  }
+
+  requestAnimationFrame(draw);
 }
 
 function enterSite() {
