@@ -1178,35 +1178,56 @@ function buildCigar3D() {
   const container = document.getElementById('cigar3d');
   if (!container) return;
 
-  const NUM_FACES = 48;   // 48 faces: smooth cylinder, no visible polygon edges
+  // Use WebGL renderer if Three.js loaded successfully
+  if (window.THREE && window.initCigar3DWebGL) {
+    try { initCigar3DWebGL(container); return; } catch (e) { console.warn('WebGL cigar failed, falling back to CSS:', e); }
+  }
+
+  // ── CSS polygon fallback ──────────────────────────────────────
+  const NUM_FACES = 48;
   const RADIUS    = 24;
 
   for (let i = 0; i < NUM_FACES; i++) {
     const angle = (i / NUM_FACES) * 360;
     const rad   = angle * Math.PI / 180;
-
-    // v2 lighting formula — gentle, even illumination, no harsh specular
-    const light          = 0.5 + 0.5 * Math.cos(rad); // 0 → 1
-    const bodyBrightness = (0.42 + 0.58 * light).toFixed(3); // 0.42 → 1.00
-    const bandBrightness = (0.55 + 0.45 * light).toFixed(3); // 0.55 → 1.00
+    const cosA  = Math.cos(rad);
+    const light   = 0.5 + 0.5 * cosA;
+    const spec    = Math.pow(Math.max(0, cosA), 8);
+    const bodyBr  = (0.10 + 0.72 * light + 0.25 * spec).toFixed(3);
+    const bandBr  = (0.22 + 0.60 * light + 0.20 * spec).toFixed(3);
+    const hue     = Math.round(-8 + 16 * light);
+    const sat     = (0.78 + 0.32 * light).toFixed(2);
 
     const face = document.createElement('div');
     face.className = 'cigar-face cigar-face-body';
     face.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS}px)`;
-    face.style.filter    = `brightness(${bodyBrightness})`;
+    face.style.filter    = `brightness(${bodyBr}) saturate(${sat}) hue-rotate(${hue}deg)`;
+    face.style.setProperty('--vein-y', `${((i / NUM_FACES) * 15).toFixed(3)}px`);
     container.appendChild(face);
 
+    const inRedZone = (angle > 44 && angle < 136) || (angle > 224 && angle < 316);
     const band = document.createElement('div');
-    band.className = 'cigar-face cigar-face-band';
+    band.className = 'cigar-face ' + (inRedZone ? 'cigar-face-band-red' : 'cigar-face-band-gold');
     band.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.8}px)`;
-    band.style.filter    = `brightness(${bandBrightness})`;
+    band.style.filter    = `brightness(${bandBr})`;
     container.appendChild(band);
 
     const foot = document.createElement('div');
     foot.className = 'cigar-face cigar-face-foot';
     foot.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.4}px)`;
-    foot.style.opacity   = (0.35 + 0.65 * light).toFixed(2);
+    foot.style.opacity   = (0.28 + 0.72 * light).toFixed(2);
     container.appendChild(foot);
+  }
+
+  for (let i = 0; i < NUM_FACES; i++) {
+    const angle = (i / NUM_FACES) * 360;
+    const cosA  = Math.cos(angle * Math.PI / 180);
+    if (cosA < 0.55) continue;
+    const sheen = document.createElement('div');
+    sheen.className = 'cigar-face cigar-face-sheen';
+    sheen.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.4}px)`;
+    sheen.style.opacity   = (((cosA - 0.55) / 0.45) * 0.52).toFixed(3);
+    container.appendChild(sheen);
   }
 
   const capHead = document.createElement('div');
@@ -1239,7 +1260,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (landing) {
     document.body.classList.add('has-landing');
     window.scrollTo(0, 0);  // prevent browser scroll-restore showing blank area
-    buildCigar3D();
+    // 3D cigar is rendered via iframe (cigar3d/index.html) — no JS init needed
 
     // CTA button
     const enterBtn = document.getElementById('enterSite');

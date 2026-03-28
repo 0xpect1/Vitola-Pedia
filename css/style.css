@@ -1491,14 +1491,12 @@ img { max-width: 100%; display: block; }
 .cigar-scene {
   position: relative;
   width: 100%;
-  max-width: 560px;
-  height: 200px;
-  margin: 0 auto 52px;
+  max-width: 700px;
+  height: 400px;
+  margin: 0 auto 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  perspective: 700px;
-  perspective-origin: 50% 50%;
   opacity: 0;
   animation: fadeUp 1s ease 0.8s forwards;
 }
@@ -1535,58 +1533,116 @@ img { max-width: 100%; display: block; }
   margin-left: -190px;
   backface-visibility: hidden;
 }
-/* Wrapper — Arturo Fuente Opus X: warm reddish-brown rosado along the length,
-   darker at both ends (v2 90deg technique — DO NOT change to "to bottom") */
+/* Wrapper — Colorado Claro golden-brown with tobacco leaf fiber texture
+   (v2 90deg technique — DO NOT change to "to bottom") */
 .cigar-face-body {
+  background:
+    /* Fine horizontal fiber grain — barely visible, adds organic texture */
+    repeating-linear-gradient(
+      0deg,
+      transparent 0px, transparent 1.2px,
+      rgba(90, 40, 8, 0.07) 1.2px, rgba(90, 40, 8, 0.07) 1.8px,
+      transparent 1.8px, transparent 3px,
+      rgba(60, 26, 5, 0.05) 3px, rgba(60, 26, 5, 0.05) 3.5px,
+      transparent 3.5px, transparent 5px
+    ),
+    /* Main wrapper color gradient along cigar length */
+    linear-gradient(90deg,
+      #1a0e06 0%,
+      #3a2010 3%,
+      #6a3c1a 7%,
+      #9a6030 13%,
+      #b47838 22%,
+      #c28844 34%,
+      #c89050 50%,
+      #c28844 66%,
+      #b47838 78%,
+      #9a6030 87%,
+      #6a3c1a 93%,
+      #3a2010 97%,
+      #1a0e06 100%
+    );
+}
+/* Tobacco leaf mid-rib vein overlay — helical spiral set per-face via --vein-y in JS */
+.cigar-face-body::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent 0px,      transparent 1px,
+    rgba(18, 6, 1, 0.22)  1px,   rgba(18, 6, 1, 0.22)  1.7px,  /* fine lateral vein */
+    transparent 1.7px,    transparent 3.2px,
+    rgba(28, 10, 2, 0.44) 3.2px, rgba(28, 10, 2, 0.44) 4.6px,  /* main mid-rib */
+    transparent 4.6px,    transparent 5px
+  );
+  background-position-y: var(--vein-y, 0px);
+  pointer-events: none;
+}
+/* Oily specular sheen — warm cream highlight on top faces, simulates oily wrapper in light */
+.cigar-face-sheen {
   background: linear-gradient(90deg,
-    #1c0a06 0%,
-    #3a1810 3%,
-    #66281a 7%,
-    #8e3c28 13%,
-    #a04830 22%,
-    #aa5035 35%,
-    #b05538 50%,
-    #aa5035 65%,
-    #a04830 78%,
-    #8e3c28 87%,
-    #66281a 93%,
-    #3a1810 97%,
-    #1c0a06 100%
+    transparent 0%,           transparent 8%,
+    rgba(255, 245, 200, 0.22) 16%, rgba(255, 250, 218, 0.48) 26%,
+    rgba(255, 252, 228, 0.58) 44%, rgba(255, 250, 218, 0.48) 62%,
+    rgba(255, 245, 200, 0.22) 72%, transparent 82%,
+    transparent 100%
   );
 }
-/* Band — Opus X style: near-black body, prominent gold rule lines */
-.cigar-face-band {
+/* Band — Opus X Angel's Share: gold upper section (ornamental) */
+.cigar-face-band-gold {
   width: 72px;
   left: 50%;
   margin-left: -130px;
   background:
-    /* gold rule lines top & bottom */
     linear-gradient(to bottom,
-      transparent 0%,      transparent 10%,
-      rgba(210,162,24,0.7) 10%, rgba(210,162,24,0.7) 16%,
-      rgba(255,218,60,0.08) 16%, rgba(255,218,60,0.08) 84%,
-      rgba(210,162,24,0.7) 84%, rgba(210,162,24,0.7) 90%,
-      transparent 90%
+      transparent 0%,         transparent 8%,
+      rgba(200,160,20,0.85)   8%,  rgba(200,160,20,0.85)  14%,
+      rgba(240,200,60,0.12)  14%,  rgba(240,200,60,0.12)  86%,
+      rgba(200,160,20,0.85)  86%,  rgba(200,160,20,0.85)  92%,
+      transparent 92%
     ),
-    /* dark band body with very subtle centre warm glow */
     linear-gradient(90deg,
-      #0c0804 0%,  #1a1208 7%,
-      #141008 14%, #100c06 85%,
-      #141008 93%, #1a1208 96%, #0c0804 100%
+      #4a3608 0%,  #8a6818 8%,
+      #c8a030 20%, #e4bc48 50%,
+      #c8a030 80%, #8a6818 92%, #4a3608 100%
     );
-  border-top:    0.5px solid rgba(215,165,28,0.9);
-  border-bottom: 0.5px solid rgba(215,165,28,0.9);
+  border-top:    0.5px solid rgba(230,185,40,0.95);
+  border-bottom: 0.5px solid rgba(230,185,40,0.95);
 }
-/* Foot ember */
-.cigar-face-foot {
-  width: 28px;
+/* Band — Opus X Angel's Share: red lower section ("ANGEL'S SHARE" label) */
+.cigar-face-band-red {
+  width: 72px;
   left: 50%;
-  margin-left: 162px;
+  margin-left: -130px;
+  background:
+    linear-gradient(to bottom,
+      transparent 0%,         transparent 8%,
+      rgba(200,160,20,0.85)   8%,  rgba(200,160,20,0.85)  14%,
+      rgba(255,60,40,0.12)   14%,  rgba(255,60,40,0.12)   86%,
+      rgba(200,160,20,0.85)  86%,  rgba(200,160,20,0.85)  92%,
+      transparent 92%
+    ),
+    linear-gradient(90deg,
+      #3a0808 0%,  #7a1010 8%,
+      #b81818 20%, #d42020 50%,
+      #b81818 80%, #7a1010 92%, #3a0808 100%
+    );
+  border-top:    0.5px solid rgba(230,185,40,0.95);
+  border-bottom: 0.5px solid rgba(230,185,40,0.95);
+}
+/* Foot ember — glowing heat halo on the wrapper near the lit end */
+.cigar-face-foot {
+  width: 46px;
+  left: 50%;
+  margin-left: 148px;
   background: linear-gradient(90deg,
     transparent 0%,
-    rgba(255,100,20,0.08) 30%,
-    rgba(255,120,30,0.15) 65%,
-    rgba(255,60,5,0.28)  100%
+    rgba(255, 160, 50, 0.04) 20%,
+    rgba(255, 130, 30, 0.18) 48%,
+    rgba(255, 95,  15, 0.48) 74%,
+    rgba(255, 65,   8, 0.72) 90%,
+    rgba(255, 50,   5, 0.88) 100%
   );
 }
 
@@ -1602,41 +1658,73 @@ img { max-width: 100%; display: block; }
   border-radius: 50%;
   backface-visibility: hidden;
 }
-/* Head cap — Opus X rosado dome with off-centre highlight */
+/* Head cap — Colorado Claro golden-brown dome with off-centre highlight */
 .cigar-cap-head {
   transform: rotateY(-90deg) translateZ(190px);
   background: radial-gradient(circle at 38% 35%,
-    #c86050 0%,
-    #9a3e2c 14%,
-    #702418 30%,
-    #4e1408 52%,
-    #2c0c06 72%,
-    #160806 90%,
-    #0a0404 100%
+    #e8c070 0%,
+    #c89040 14%,
+    #a06820 30%,
+    #784010 52%,
+    #4a2408 72%,
+    #2a1406 90%,
+    #140a04 100%
   );
-  box-shadow: inset -4px -4px 12px rgba(0,0,0,0.55), inset 2px 2px 8px rgba(240,160,120,0.10);
+  box-shadow: inset -4px -4px 12px rgba(0,0,0,0.50), inset 2px 2px 8px rgba(255,210,120,0.18);
 }
-/* Foot cap — white-hot core → orange → coal → grey ash ring, pulsing */
+/* Foot cap — ash cone + glowing cherry ember ring, pulsing */
 .cigar-cap-foot {
   transform: rotateY(90deg) translateZ(190px);
-  background: radial-gradient(circle at 45% 45%,
-    rgba(255,248,180,0.98)  0%,
-    rgba(255,180,30,0.95)  10%,
-    rgba(240,90,10,0.90)   24%,
-    rgba(100,28,6,0.88)    42%,
-    rgba(50,38,30,0.90)    55%,
-    rgba(145,135,122,0.85) 65%,
-    rgba(180,170,158,0.68) 74%,
-    rgba(100,92,86,0.45)   82%,
-    #1a1610 90%,
-    #0e0c0a 100%
+  background: radial-gradient(circle at 48% 48%,
+    /* Dark charcoal ash center */
+    #1a1614  0%,
+    #111010  16%,
+    /* Burning cherry — where tobacco actively glows */
+    #ff6012  22%,
+    #ee4800  28%,
+    #c82400  34%,
+    /* Burned-out coal zone */
+    #4e1206  42%,
+    #2c0e06  50%,
+    /* Gray ash ring (cool ash formed after burning) */
+    #3e3632  58%,
+    #6a5e58  66%,
+    #908480  74%,
+    #b0a49e  80%,
+    /* Outer dark wrapper edge */
+    #7a6858  86%,
+    #3a2618  94%,
+    #100806  100%
   );
-  animation: emberPulse 2.2s ease-in-out infinite;
+  animation: emberPulse 2.4s ease-in-out infinite;
 }
 @keyframes emberPulse {
-  0%, 100% { box-shadow: 0 0 22px rgba(255,115,18,0.52), 0 0 52px rgba(255,65,0,0.16); }
-  50%      { box-shadow: 0 0 38px rgba(255,148,38,0.74), 0 0 85px rgba(255,95,0,0.30); }
+  0%, 100% {
+    box-shadow:
+      0 0 0  2px rgba(255, 100, 20, 0.45),
+      0 0  9px  4px rgba(255,  80, 10, 0.60),
+      0 0 20px  9px rgba(255,  50,  5, 0.38),
+      0 0 40px 18px rgba(210,  25,  0, 0.20),
+      0 0 70px 30px rgba(160,  10,  0, 0.08);
+  }
+  50% {
+    box-shadow:
+      0 0 0  2px rgba(255, 140, 50, 0.65),
+      0 0 14px  7px rgba(255, 115, 28, 0.78),
+      0 0 30px 14px rgba(255,  72, 12, 0.52),
+      0 0 58px 26px rgba(240,  38,  4, 0.30),
+      0 0 95px 42px rgba(200,  18,  0, 0.13);
+  }
 }
+
+/* ── WebGL mode overrides (when Three.js is active) ──────────────── */
+body.webgl-cigar .cigar-float { animation: none; }
+body.webgl-cigar .cigar-3d {
+  width: 100%; height: 100%;
+  animation: none; transform: none; transform-style: flat;
+}
+body.webgl-cigar .cigar-3d canvas { display: block; width: 100%; height: 100%; }
+body.webgl-cigar .cigar-shadow { display: none; }
 
 /* --- Cigar shadow --- */
 .cigar-shadow {
