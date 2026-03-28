@@ -1178,34 +1178,34 @@ function buildCigar3D() {
   const container = document.getElementById('cigar3d');
   if (!container) return;
 
-  // 32 CSS 3D faces — true geometry, mathematically gapless
-  // Face height = 2 * R * sin(π/32) = 2 * 26 * 0.09802 ≈ 5.1px → 5.5px ensures zero gaps
-  const NUM_FACES = 32;
-  const RADIUS    = 26;
+  const NUM_FACES = 48;   // 48 faces: smooth cylinder, no visible polygon edges
+  const RADIUS    = 24;
 
   for (let i = 0; i < NUM_FACES; i++) {
     const angle = (i / NUM_FACES) * 360;
     const rad   = angle * Math.PI / 180;
 
-    // Lambertian diffuse + tight Phong specular (exponent 8 = sharp highlight stripe)
-    const diffuse  = Math.max(0, Math.cos(rad));
-    const specular = Math.pow(diffuse, 8);
-    const bodyB    = (0.20 + 0.50 * diffuse + 0.90 * specular).toFixed(3);
-    const bandB    = (0.28 + 0.46 * diffuse + 0.68 * specular).toFixed(3);
+    // v2 lighting formula — gentle, even illumination, no harsh specular
+    const light          = 0.5 + 0.5 * Math.cos(rad); // 0 → 1
+    const bodyBrightness = (0.42 + 0.58 * light).toFixed(3); // 0.42 → 1.00
+    const bandBrightness = (0.55 + 0.45 * light).toFixed(3); // 0.55 → 1.00
 
     const face = document.createElement('div');
     face.className = 'cigar-face cigar-face-body';
-    face.style.cssText = `transform:rotateX(${angle}deg) translateZ(${RADIUS}px);filter:brightness(${bodyB})`;
+    face.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS}px)`;
+    face.style.filter    = `brightness(${bodyBrightness})`;
     container.appendChild(face);
 
     const band = document.createElement('div');
     band.className = 'cigar-face cigar-face-band';
-    band.style.cssText = `transform:rotateX(${angle}deg) translateZ(${RADIUS + 0.9}px);filter:brightness(${bandB})`;
+    band.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.8}px)`;
+    band.style.filter    = `brightness(${bandBrightness})`;
     container.appendChild(band);
 
     const foot = document.createElement('div');
     foot.className = 'cigar-face cigar-face-foot';
-    foot.style.cssText = `transform:rotateX(${angle}deg) translateZ(${RADIUS + 0.4}px);opacity:${(0.22 + 0.78 * diffuse).toFixed(2)}`;
+    foot.style.transform = `rotateX(${angle}deg) translateZ(${RADIUS + 0.4}px)`;
+    foot.style.opacity   = (0.35 + 0.65 * light).toFixed(2);
     container.appendChild(foot);
   }
 

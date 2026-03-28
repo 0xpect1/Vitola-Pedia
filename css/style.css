@@ -1524,110 +1524,110 @@ img { max-width: 100%; display: block; }
 }
 
 /* ── Cylinder faces ──────────────────────────────────────────────────
-   32 faces at R=26px: height = 2*26*sin(π/32) = 5.10px → 5.5px (overlap) */
+   48 faces at R=24: height = 2*24*sin(π/48) = 3.14px → 5px (heavy overlap = smooth) */
 .cigar-face {
   position: absolute;
   width: 380px;
-  height: 5.5px;
+  height: 5px;
   top: 50%;
   left: 50%;
-  margin-top: -2.75px;
+  margin-top: -2.5px;
   margin-left: -190px;
   backface-visibility: hidden;
 }
-/* Wrapper — Arturo Fuente Opus X Rosado (deep wine-mahogany) */
+/* Wrapper — Arturo Fuente Opus X: warm reddish-brown rosado along the length,
+   darker at both ends (v2 90deg technique — DO NOT change to "to bottom") */
 .cigar-face-body {
-  background: linear-gradient(to bottom,
-    #040102 0%,
-    #160608 5%,
-    #381014 13%,
-    #5e2018 26%,
-    #882e20 42%,
-    #a0382a 50%,
-    #882e20 58%,
-    #5e2018 74%,
-    #381014 87%,
-    #160608 95%,
-    #040102 100%
+  background: linear-gradient(90deg,
+    #1c0a06 0%,
+    #3a1810 3%,
+    #66281a 7%,
+    #8e3c28 13%,
+    #a04830 22%,
+    #aa5035 35%,
+    #b05538 50%,
+    #aa5035 65%,
+    #a04830 78%,
+    #8e3c28 87%,
+    #66281a 93%,
+    #3a1810 97%,
+    #1c0a06 100%
   );
 }
-/* Band — Opus X: near-black field, gold rule lines, warm centre glow */
+/* Band — Opus X style: near-black body, prominent gold rule lines */
 .cigar-face-band {
-  width: 78px;
+  width: 72px;
   left: 50%;
-  margin-left: -136px;
+  margin-left: -130px;
   background:
+    /* gold rule lines top & bottom */
     linear-gradient(to bottom,
-      transparent 0%, transparent 9%,
-      rgba(205,158,24,0.55) 9%,  rgba(205,158,24,0.55) 13%,
-      rgba(255,210,55,0.12) 13%, rgba(255,210,55,0.12) 87%,
-      rgba(205,158,24,0.55) 87%, rgba(205,158,24,0.55) 91%,
-      transparent 91%
+      transparent 0%,      transparent 10%,
+      rgba(210,162,24,0.7) 10%, rgba(210,162,24,0.7) 16%,
+      rgba(255,218,60,0.08) 16%, rgba(255,218,60,0.08) 84%,
+      rgba(210,162,24,0.7) 84%, rgba(210,162,24,0.7) 90%,
+      transparent 90%
     ),
+    /* dark band body with very subtle centre warm glow */
     linear-gradient(90deg,
-      #0a0604 0%, #1e160a 8%, #382a10 14%,
-      #160e06 19%, #0e0a04 36%,
-      #0e0a04 64%, #160e06 81%,
-      #382a10 86%, #1e160a 92%, #0a0604 100%
+      #0c0804 0%,  #1a1208 7%,
+      #141008 14%, #100c06 85%,
+      #141008 93%, #1a1208 96%, #0c0804 100%
     );
-  border-top:    0.5px solid rgba(210,165,30,0.75);
-  border-bottom: 0.5px solid rgba(210,165,30,0.75);
+  border-top:    0.5px solid rgba(215,165,28,0.9);
+  border-bottom: 0.5px solid rgba(215,165,28,0.9);
 }
-/* Foot ember — heat glow at the lit end */
+/* Foot ember */
 .cigar-face-foot {
-  width: 26px;
+  width: 28px;
   left: 50%;
-  margin-left: 164px;
+  margin-left: 162px;
   background: linear-gradient(90deg,
     transparent 0%,
-    rgba(255,85,12,0.06) 30%,
-    rgba(255,108,22,0.14) 65%,
-    rgba(255,55,4,0.26) 100%
+    rgba(255,100,20,0.08) 30%,
+    rgba(255,120,30,0.15) 65%,
+    rgba(255,60,5,0.28)  100%
   );
 }
 
 /* ── End caps ─────────────────────────────────────────────────────── */
 .cigar-cap {
   position: absolute;
-  width: 52px;
-  height: 52px;
+  width: 48px;
+  height: 48px;
   top: 50%;
   left: 50%;
-  margin-top: -26px;
-  margin-left: -26px;
+  margin-top: -24px;
+  margin-left: -24px;
   border-radius: 50%;
   backface-visibility: hidden;
 }
-/* Head cap — Opus X triple-cap dome, reddish with off-centre highlight */
+/* Head cap — Opus X rosado dome with off-centre highlight */
 .cigar-cap-head {
   transform: rotateY(-90deg) translateZ(190px);
-  background: radial-gradient(circle at 38% 34%,
-    #c85848 0%,
-    #8c3020 10%,
-    #641c10 24%,
-    #481008 44%,
-    #2c0a06 64%,
-    #180606 82%,
-    #0a0304 100%
+  background: radial-gradient(circle at 38% 35%,
+    #c86050 0%,
+    #9a3e2c 14%,
+    #702418 30%,
+    #4e1408 52%,
+    #2c0c06 72%,
+    #160806 90%,
+    #0a0404 100%
   );
-  box-shadow:
-    inset -4px -4px 14px rgba(0,0,0,0.75),
-    inset  3px  3px  8px rgba(220,130,100,0.16),
-    inset  0    0   18px rgba(0,0,0,0.35);
+  box-shadow: inset -4px -4px 12px rgba(0,0,0,0.55), inset 2px 2px 8px rgba(240,160,120,0.10);
 }
-/* Foot cap — white-hot core → orange → coal → grey ash ring */
+/* Foot cap — white-hot core → orange → coal → grey ash ring, pulsing */
 .cigar-cap-foot {
   transform: rotateY(90deg) translateZ(190px);
-  background: radial-gradient(circle at 50% 50%,
-    rgba(255,250,185,0.99)  0%,
-    rgba(255,195,42,0.97)   7%,
-    rgba(255,125,22,0.95)  16%,
-    rgba(212,55,8,0.92)    27%,
-    rgba(88,26,6,0.90)     40%,
-    rgba(46,36,30,0.92)    52%,
-    rgba(146,136,124,0.88) 62%,
-    rgba(186,176,164,0.72) 70%,
-    rgba(108,98,92,0.50)   80%,
+  background: radial-gradient(circle at 45% 45%,
+    rgba(255,248,180,0.98)  0%,
+    rgba(255,180,30,0.95)  10%,
+    rgba(240,90,10,0.90)   24%,
+    rgba(100,28,6,0.88)    42%,
+    rgba(50,38,30,0.90)    55%,
+    rgba(145,135,122,0.85) 65%,
+    rgba(180,170,158,0.68) 74%,
+    rgba(100,92,86,0.45)   82%,
     #1a1610 90%,
     #0e0c0a 100%
   );
