@@ -1244,11 +1244,15 @@ function enterSite() {
   }, { once: true });
 }
 
+// Disable browser scroll restoration so landing page always shows on reload
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+
 document.addEventListener('DOMContentLoaded', () => {
   // Build 3D cigar and set up landing page
   const landing = document.getElementById('landing');
   if (landing) {
     document.body.classList.add('has-landing');
+    window.scrollTo(0, 0);  // prevent browser scroll-restore showing blank area
     buildCigar3D();
 
     // CTA button
