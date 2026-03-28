@@ -23366,8 +23366,7 @@ const CIGARS = [
     pairings: ["Flavored Rum", "Herbal Tea", "Sweet Coffee"],
     yearFounded: 2000,
     limited: false
-  }
-],
+  },
   {
     id: "cavalier-geneve-white-series-ii-robusto",
     name: "Cavalier Genève White Series II Robusto",
