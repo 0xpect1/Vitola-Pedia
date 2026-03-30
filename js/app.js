@@ -487,11 +487,11 @@ for (const cigar of CIGARS) {
 }
 
 const US_RETAILERS = [
-  { name: 'Cigars International', search: 'https://www.cigarsinternational.com/search?q=',     tagline: 'Best Deals & Bundles',   badge: '★ Best Value Pick' },
+  { name: 'Famous Smoke Shop',    search: 'https://www.famous-smoke.com/search?q=',            tagline: 'Largest Online Selection', badge: '★ Best Value Pick' },
+  { name: 'Cigars International', search: 'https://www.cigarsinternational.com/search?q=',     tagline: 'Best Deals & Bundles' },
   { name: 'Cigar Page',           search: 'https://www.cigarpage.com/search?q=',               tagline: 'Top Prices, Huge Selection' },
-  { name: 'Famous Smoke Shop',    search: 'https://www.famous-smoke.com/search?q=',            tagline: 'Largest Online Selection' },
   { name: 'JR Cigars',            search: 'https://www.jrcigars.com/search?term=',             tagline: 'Est. 1975 · Trusted Since' },
-  { name: 'Neptune Cigar',        direct: 'https://www.neptunecigar.com/cigars/',              tagline: 'Great Prices, Fast Shipping' },
+  { name: 'Neptune Cigar',        search: 'https://www.neptunecigar.com/search?q=',            tagline: 'Great Prices, Fast Shipping' },
   { name: 'Smoke Inn',            search: 'https://www.smokeinn.com/search?q=',                tagline: 'Boutique & Premium Brands' },
 ];
 
@@ -503,17 +503,15 @@ const INTL_RETAILERS = [
 
 function buildBuySection(cigar) {
   const isCuban = cigar.origin === 'Cuba';
-  const query = encodeURIComponent(cigar.name);
+  // Strip diacritics so searches match retailer indexes (Padrón → Padron, Añejo → Anejo)
+  const searchName = cigar.name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[''`]/g, '');
+  const query = encodeURIComponent(searchName);
   const retailers = isCuban ? INTL_RETAILERS : US_RETAILERS;
 
-  // If cigar has handcrafted buyLinks (with prices), sort by price and flag cheapest.
-  // Exclude Neptune Cigar search-URL entries so Neptune always uses the direct-URL generator below.
+  // If cigar has handcrafted buyLinks, sort by price and flag cheapest.
   let specificLinks = [];
   if (cigar.buyLinks && cigar.buyLinks.length > 0) {
-    const filtered = cigar.buyLinks.filter(
-      l => !(l.retailer === 'Neptune Cigar' && l.url && l.url.includes('/search?'))
-    );
-    specificLinks = [...filtered].sort((a, b) => a.price - b.price);
+    specificLinks = [...cigar.buyLinks].sort((a, b) => (a.price || 0) - (b.price || 0));
     if (specificLinks.length > 0) specificLinks[0].isBest = true;
   }
 
@@ -523,7 +521,7 @@ function buildBuySection(cigar) {
     .filter(r => !covered.has(r.name))
     .map((r, i) => ({
       name: r.name,
-      url: r.direct ? r.direct + toNeptuneSlug(cigar.name) : r.search + query,
+      url: r.search + query,
       tagline: r.tagline,
       badge: (!specificLinks.length && i === 0) ? r.badge : null,
     }));

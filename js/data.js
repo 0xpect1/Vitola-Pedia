@@ -214,7 +214,7 @@ const CIGARS = [
     pairings: ["Aged Bourbon", "Port Wine", "Dark Chocolate"],
     yearFounded: 1964,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padrón+1964+Anniversary+Maduro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+1964+Anniversario+Maduro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+1964+Anniversario+Maduro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+1964+Anniversario+Maduro","price":null}]
+    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+1964+Anniversary+Maduro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+1964+Anniversario+Maduro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+1964+Anniversario+Maduro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+1964+Anniversario+Maduro","price":null}]
   },
   {
     id: "padron-80th-anniversario",
@@ -239,7 +239,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Aged Cognac", "Espresso"],
     yearFounded: 2006,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padrón+80th+Anniversary","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+80th+Anniversary","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+80th+Anniversary","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+80th+Anniversary","price":null}]
+    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+80th+Anniversary","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+80th+Anniversary","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+80th+Anniversary","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+80th+Anniversary","price":null}]
   },
   {
     id: "oliva-serie-v-melanio",
@@ -1024,7 +1024,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Dark Beer"],
     yearFounded: 1964,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padrón+Series+2000+Maduro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+2000+Maduro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+2000+Maduro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+2000+Maduro","price":null}]
+    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+Series+2000+Maduro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+2000+Maduro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+2000+Maduro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+2000+Maduro","price":null}]
   },
   {
     id: "oliva-serie-o-maduro",
@@ -1317,7 +1317,7 @@ const CIGARS = [
     pairings: ["Aged Bourbon", "Single Malt Scotch", "Espresso"],
     yearFounded: 2005,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padrón+Family+Reserve+No.+45","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+Family+Reserve+No+45","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+Family+Reserve+No+45","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+Family+Reserve+No+45","price":null}]
+    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+Family+Reserve+No.+45","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+Family+Reserve+No+45","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+Family+Reserve+No+45","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+Family+Reserve+No+45","price":null}]
   },
   {
     id: "fuente-fuente-opus-x-fe",
@@ -2840,7 +2840,7 @@ const CIGARS = [
     pairings: ["Café Cubano", "Rum", "Bourbon"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Estelí+Miami","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Miami","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Herrera+Esteli+Miami","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Miami","price":null}]
+    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Esteli+Miami","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Miami","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Herrera+Esteli+Miami","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Miami","price":null}]
   },
   {
     id: "alec-bradley-black-market",
@@ -3460,7 +3460,7 @@ const CIGARS = [
     pairings: ["Dark Rum", "Cognac", "Dried Fruit and Cheese"],
     yearFounded: 2018,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Crowned+Heads+Mil+Días","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Crowned+Heads+Mil+Dias","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Crowned+Heads+Mil+Dias","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Crowned+Heads+Mil+Dias","price":null}]
+    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Crowned+Heads+Mil+Dias","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Crowned+Heads+Mil+Dias","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Crowned+Heads+Mil+Dias","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Crowned+Heads+Mil+Dias","price":null}]
   },
   {
     id: "la-aroma-de-cuba-original",
@@ -4104,7 +4104,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Coffee", "Amber Ale"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Estelí+Robusto+Grande","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Herrera+Esteli+Robusto+Grande","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Robusto+Grande","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Robusto+Grande","price":null}]
+    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Esteli+Robusto+Grande","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Herrera+Esteli+Robusto+Grande","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Robusto+Grande","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Robusto+Grande","price":null}]
   },
   {
     id: "herrera-esteli-brazilian-maduro",
@@ -4275,7 +4275,7 @@ const CIGARS = [
     pairings: ["Champagne", "Crème Brûlée", "Café au Lait"],
     yearFounded: 2016,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Sobremesa+Brûlée","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Dunbarton+Sobremesa+Brulee","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Dunbarton+Sobremesa+Brulee","price":null}, {"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=Dunbarton+Sobremesa+Brulee","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Dunbarton+Sobremesa+Brulee","price":null}]
+    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Sobremesa+Brulee","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Dunbarton+Sobremesa+Brulee","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Dunbarton+Sobremesa+Brulee","price":null}, {"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=Dunbarton+Sobremesa+Brulee","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Dunbarton+Sobremesa+Brulee","price":null}]
   },
   {
     id: "dunbarton-sobremesa-madurito",
@@ -4447,7 +4447,7 @@ const CIGARS = [
     pairings: ["Peated Scotch", "Añejo Rum", "Black Espresso", "Cognac"],
     yearFounded: 2018,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Sin+Compromiso+Selección+No.+2","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Dunbarton+Sin+Compromiso+No+2","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Dunbarton+Sin+Compromiso","price":null}, {"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=Dunbarton+Sin+Compromiso","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Dunbarton+Sin+Compromiso","price":null}]
+    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Sin+Compromiso+Seleccion+No.+2","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Dunbarton+Sin+Compromiso+No+2","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Dunbarton+Sin+Compromiso","price":null}, {"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=Dunbarton+Sin+Compromiso","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Dunbarton+Sin+Compromiso","price":null}]
   },
   {
     id: "dunbarton-stillwell-star-aromatic-no1",
@@ -5748,7 +5748,7 @@ const CIGARS = [
     pairings: ["Morning Coffee", "Bourbon", "Beer", "Rum"],
     yearFounded: 1964,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padrón+Series+1000+Natural","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+1000+Natural","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+1000+Natural","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+1000+Natural","price":null}]
+    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+Series+1000+Natural","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+1000+Natural","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+1000+Natural","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+1000+Natural","price":null}]
   },
   {
     id: "rocky-patel-vintage-1990",
@@ -5968,7 +5968,7 @@ const CIGARS = [
     pairings: ["Champagne", "Café au Lait", "Light Rum", "Earl Grey Tea"],
     yearFounded: 1865,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alma+del+Campo+Travesía","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Plasencia+Alma+del+Campo","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+del+Campo","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+del+Campo","price":null}]
+    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alma+del+Campo+Travesia","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Plasencia+Alma+del+Campo","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+del+Campo","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+del+Campo","price":null}]
   },
   {
     id: "plasencia-cosecha-149",
