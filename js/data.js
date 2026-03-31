@@ -264,7 +264,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 1886,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-melanio-cigars/oliva-serie-v-melanio-robusto-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Melanio","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Melanio","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+V+Melanio","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Melanio","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-melanio-cigars/oliva-serie-v-melanio-churchill-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Melanio","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Melanio","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Melanio","price":null}]
   },
   {
     id: "nicaraguan-avo-classic-robusto",
@@ -314,7 +314,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Port", "Dark Espresso"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/my-father-le-bijou-1922-cigars/my-father-le-bijou-1922-churchill-cigars-oscuro","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=My+Father+Le+Bijou+1922","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=My+Father+Le+Bijou+1922","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=My+Father+Le+Bijou+1922","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=My+Father+Le+Bijou+1922","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/my-father-le-bijou-1922-cigars/my-father-le-bijou-1922-churchill-cigars-oscuro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=My+Father+Le+Bijou+1922","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=My+Father+Le+Bijou+1922","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=My+Father+Le+Bijou+1922","price":null}]
   },
   {
     id: "perdomo-reserve-champagne",
@@ -339,6 +339,7 @@ const CIGARS = [
     pairings: ["Champagne", "Coffee with Cream", "White Rum"],
     yearFounded: 1992,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/perdomo-champagne-cigars/perdomo-champagne-churchill-cigars-natural","price":null}],
   },
   {
     id: "joya-de-nicaragua-antano-1970",
@@ -387,7 +388,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Stout Beer", "Dark Espresso"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-t52-cigars/liga-privada-t52-toro-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Drew+Estate+Liga+Privada+T52","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Drew+Estate+Liga+Privada+T52","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Liga+Privada+T52","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Liga+Privada+T52","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-t52-cigars/liga-privada-t52-belicoso-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Drew+Estate+Liga+Privada+T52","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Liga+Privada+T52","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Liga+Privada+T52","price":null}]
   },
   {
     id: "drew-estate-liga-privada-no9",
@@ -412,7 +413,7 @@ const CIGARS = [
     pairings: ["Rye Whiskey", "Dark Beer", "Espresso"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-no-9-cigars/liga-privada-no-9-toro-cigars-maduro","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Drew+Estate+Liga+Privada+No.+9","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Drew+Estate+Liga+Privada+No+9","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Liga+Privada+No+9","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Liga+Privada+No+9","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-no-9-cigars/liga-privada-no-9-belicoso-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Drew+Estate+Liga+Privada+No.+9","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Liga+Privada+No+9","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Liga+Privada+No+9","price":null}]
   },
   {
     id: "rocky-patel-vintage-1990",
@@ -436,7 +437,7 @@ const CIGARS = [
     description: "Rocky Patel's 1990 series uses tobaccos aged 10+ years — genuine vintage aging that rounds off harsh edges and develops exceptional smoothness. The Ecuadorian Sumatra wrapper has a beautiful reddish-brown oily sheen. Medium-bodied with excellent complexity for its accessible price point.",
     pairings: ["Bourbon", "Coffee", "Amber Ale"],
     yearFounded: 2003,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-robusto-cigars-maduro","price":null}],
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-six-by-sixty-cigars-maduro","price":null}],
     limited: false
   },
   {
@@ -461,7 +462,7 @@ const CIGARS = [
     description: "Cigar Aficionado No. 1 Cigar of the Year 2011. The Prensado is box-pressed using tobaccos from Honduras's prized Jamastran Valley — a microclimate that produces tobacco of extraordinary richness. Guatemalan Habano wrapper brings cocoa and leather complexity. Consistently excellent across every format.",
     pairings: ["Rye Whiskey", "Dark Rum", "Coffee"],
     yearFounded: 2011,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-prensado-cigars/alec-bradley-prensado-gran-toro-cigars-natural","price":null}],
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-prensado-cigars/alec-bradley-prensado-corona-gorda-cigars-natural","price":null}],
     limited: false
   },
   {
@@ -487,7 +488,7 @@ const CIGARS = [
     pairings: ["Cognac", "Single Malt Scotch", "Espresso"],
     yearFounded: 1995,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Arturo+Fuente+Opus+X","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Arturo+Fuente+Opus+X","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Arturo+Fuente+Opus+X","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Arturo+Fuente+Opus+X","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-hemingway-cigars/arturo-fuente-hemingway-work-of-art-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Arturo+Fuente+Opus+X","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Arturo+Fuente+Opus+X","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Arturo+Fuente+Opus+X","price":null}]
   },
   {
     id: "arturo-fuente-don-carlos",
@@ -512,7 +513,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Brandy"],
     yearFounded: 1982,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-don-carlos-cigars/arturo-fuente-don-carlos-robusto-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Arturo+Fuente+Don+Carlos","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Arturo+Fuente+Don+Carlos","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Arturo+Fuente+Don+Carlos","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Arturo+Fuente+Don+Carlos","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-don-carlos-cigars/arturo-fuente-don-carlos-no-2-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Arturo+Fuente+Don+Carlos","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Arturo+Fuente+Don+Carlos","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Arturo+Fuente+Don+Carlos","price":null}]
   },
   {
     id: "macanudo-cafe-robusto",
@@ -537,6 +538,7 @@ const CIGARS = [
     pairings: ["Mild Coffee", "White Wine", "Ginger Ale"],
     yearFounded: 1868,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/macanudo-cafe-cigars/macanudo-cafe-ascot-10-cigars-natural","price":null}],
   },
   {
     id: "davidoff-grand-cru-no2",
@@ -561,7 +563,7 @@ const CIGARS = [
     pairings: ["Champagne", "Single Malt Scotch", "Café Crème"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-grand-cru-series-cigars/davidoff-grand-cru-series-no-2-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Grand+Cru+No.+2","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Grand+Cru+No+2","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Grand+Cru+No+2","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-grand-cru-series-cigars/davidoff-grand-cru-series-no-2-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Grand+Cru+No.+2","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Grand+Cru+No+2","price":null}]
   },
   {
     id: "davidoff-millennium-blend",
@@ -586,7 +588,7 @@ const CIGARS = [
     pairings: ["Cognac", "Café au Lait", "Pale Ale"],
     yearFounded: 2001,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-millennium-cigars/davidoff-millennium-robusto-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Millennium+Blend+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Millennium+Blend","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Millennium+Blend","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-millennium-cigars/davidoff-millennium-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Millennium+Blend+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Millennium+Blend","price":null}]
   },
   {
     id: "romeo-y-julieta-1875-robusto",
@@ -611,6 +613,7 @@ const CIGARS = [
     pairings: ["Coffee", "Light Beer", "Soda Water"],
     yearFounded: 1875,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/romeo-y-julieta-1875-cigars/romeo-y-julieta-1875-belicoso-cigars-natural","price":null}],
   },
   {
     id: "avo-classic-no9",
@@ -635,7 +638,7 @@ const CIGARS = [
     pairings: ["Jazz Whiskey", "Champagne", "Earl Grey"],
     yearFounded: 1988,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=AVO+Classic+No.+9","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Avo+Classic+No+9","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Avo+Classic+No+9","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Avo+Classic+No+9","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/avo-classic-cigars/avo-classic-no-2-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=AVO+Classic+No.+9","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Avo+Classic+No+9","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Avo+Classic+No+9","price":null}]
   },
   {
     id: "camacho-corojo-robusto",
@@ -660,7 +663,7 @@ const CIGARS = [
     pairings: ["Dark Rum", "Peated Scotch", "Black Coffee"],
     yearFounded: 1962,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/camacho-corojo-cigars/camacho-corojo-robusto-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Camacho+Corojo+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Camacho+Corojo+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Camacho+Corojo+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Camacho+Corojo+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/camacho-corojo-cigars/camacho-corojo-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Camacho+Corojo+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Camacho+Corojo+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Camacho+Corojo+Robusto","price":null}]
   },
   {
     id: "punch-gran-puro-nicaragua",
@@ -685,6 +688,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2014,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/punch-gran-puro-cigars/punch-gran-puro-pico-bonito-cigars-dark-natural","price":null}],
   },
   {
     id: "perdomo-champagne-connecticut",
@@ -709,6 +713,7 @@ const CIGARS = [
     pairings: ["Champagne", "Iced Coffee", "Light Lager"],
     yearFounded: 1995,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/perdomo-champagne-cigars/perdomo-champagne-churchill-cigars-natural","price":null}],
   },
   {
     id: "oliva-connecticut-reserve",
@@ -733,7 +738,7 @@ const CIGARS = [
     pairings: ["Coffee with Cream", "Sparkling Water", "Light Beer"],
     yearFounded: 2005,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Connecticut+Reserve","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Connecticut+Reserve","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Connecticut+Reserve","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Connecticut+Reserve","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-connecticut-reserve-cigars/oliva-connecticut-reserve-churchill-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Connecticut+Reserve","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Connecticut+Reserve","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Connecticut+Reserve","price":null}]
   },
   {
     id: "cao-mx2-maduro",
@@ -758,6 +763,7 @@ const CIGARS = [
     pairings: ["Dark Rum", "Port", "Espresso"],
     yearFounded: 2012,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-mx2-cigars/cao-mx2-beli-cigars-maduro","price":null}],
   },
   {
     id: "foundation-el-gueguense",
@@ -831,7 +837,7 @@ const CIGARS = [
     pairings: ["Rye Whiskey", "Dark Beer", "Black Coffee"],
     yearFounded: 2019,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Alma+del+Fuego","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Plasencia+Alma+del+Fuego","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+del+Fuego","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+del+Fuego","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/plasencia-alma-del-fuego-cigars/alma-del-fuego-flama-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Alma+del+Fuego","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+del+Fuego","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+del+Fuego","price":null}]
   },
   {
     id: "crowned-heads-jericho-hill",
@@ -880,6 +886,7 @@ const CIGARS = [
     pairings: ["Champagne", "Chardonnay", "Crème Brûlée"],
     yearFounded: 2009,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/illusione-epernay-cigars/illusione-epernay-le-elegance-petit-lancero-cigars-rosado","price":null}],
   },
   {
     id: "davidoff-winston-churchill",
@@ -904,7 +911,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Port", "Espresso"],
     yearFounded: 2017,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/winston-churchill-late-hour-cigars/wc-late-hour-robusto-cigars-oscuro","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Winston+Churchill+Late+Hour","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Winston+Churchill","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Winston+Churchill","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/winston-churchill-late-hour-cigars/winston-churchill-late-hour-belicoso-cigars-oscuro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Winston+Churchill+Late+Hour","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Winston+Churchill","price":null}]
   },
   {
     id: "tatuaje-verocu-no5",
@@ -929,7 +936,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Rum", "Coffee"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Tatuaje+Verocu+No.+5","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Tatuaje+Verocu+No+5","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Tatuaje+Verocu+No+5","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Tatuaje+Verocu+No+5","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/tatuaje-havana-vi-cigars/tatuaje-havana-vi-verocu-blu-1-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Tatuaje+Verocu+No.+5","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Tatuaje+Verocu+No+5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Tatuaje+Verocu+No+5","price":null}]
   },
   {
     id: "cao-cameroon",
@@ -954,7 +961,7 @@ const CIGARS = [
     pairings: ["Cognac", "Whiskey Sour", "Coffee"],
     yearFounded: 2002,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Cameroon+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=CAO+Cameroon","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Cameroon","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-cameroon-cigars/cao-cameroon-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Cameroon+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Cameroon","price":null}]
   },
   {
     id: "arturo-fuente-anejo-no77",
@@ -979,6 +986,7 @@ const CIGARS = [
     pairings: ["Cognac", "Port", "Dark Chocolate"],
     yearFounded: 1996,
     limited: true
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-hemingway-cigars/arturo-fuente-hemingway-work-of-art-cigars-natural","price":null}],
   },
   {
     id: "arturo-fuente-8-5-8",
@@ -1002,7 +1010,7 @@ const CIGARS = [
     description: "The 8-5-8 is Fuente's most celebrated everyday Churchill — the numbers refer to the measurement of the mold used to press the cigar. The Cameroon wrapper delivers that signature sweet spice, while the Dominican long-filler provides smooth, creamy complexity. An ideal long smoke for a relaxed afternoon.",
     pairings: ["Brandy", "Coffee", "Iced Tea"],
     yearFounded: 1956,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-cigars/arturo-fuente-858-natural-cigars","price":null}],
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-hemingway-cigars/arturo-fuente-hemingway-work-of-art-cigars-natural","price":null}],
     limited: false
   },
   {
@@ -1028,7 +1036,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Dark Beer"],
     yearFounded: 1964,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/padron-series-cigars/padron-2000-maduro-cigars","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+Series+2000+Maduro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+2000+Maduro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+2000+Maduro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+2000+Maduro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/padron-series-cigars/padron-2000-maduro-cigars","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+Series+2000+Maduro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+2000+Maduro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+2000+Maduro","price":null}]
   },
   {
     id: "oliva-serie-o-maduro",
@@ -1053,7 +1061,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Coffee", "Amber Ale"],
     yearFounded: 1886,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-o-cigars/oliva-serie-o-robusto-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+O+Maduro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+O+Maduro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+O+Maduro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+O+Maduro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-melanio-cigars/oliva-serie-v-melanio-maduro-double-toro-cigars","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+O+Maduro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+O+Maduro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+O+Maduro","price":null}]
   },
   {
     id: "my-father-no1",
@@ -1078,7 +1086,7 @@ const CIGARS = [
     pairings: ["Rye Whiskey", "Dark Rum", "Espresso"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/my-father-cigars/my-father-no-1-cigars-natural","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=My+Father+No+1","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=My+Father+No+1","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=My+Father+No+1","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/my-father-cigars/my-father-no-1-cigars-natural","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=My+Father+No+1","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=My+Father+No+1","price":null}]
   },
   {
     id: "alec-bradley-magic-toast",
@@ -1103,6 +1111,7 @@ const CIGARS = [
     pairings: ["Light Beer", "Coffee", "Croissant"],
     yearFounded: 2013,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-magic-toast-cigars/alec-bradley-magic-toast-chunk-cigars-natural","price":null}],
   },
   {
     id: "honduran-vintage-por-larranaga",
@@ -1150,7 +1159,7 @@ const CIGARS = [
     pairings: ["Cognac", "Coffee", "Caramel Cocktail"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-g-cigars/oliva-serie-g-robusto-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+G+Cameroon","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+G+Cameroon","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+G+Cameroon","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+G+Cameroon","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-no-4-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+G+Cameroon","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+G+Cameroon","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+G+Cameroon","price":null}]
   },
   {
     id: "acid-blondie",
@@ -1175,7 +1184,7 @@ const CIGARS = [
     pairings: ["Rum and Coke", "Herbal Tea", "Fruity Cocktails"],
     yearFounded: 1999,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/acid-cigars/acid-blondie-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=ACID+Blondie","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Acid+Blondie","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Acid+Blondie","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Acid+Blondie","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/acid-cigars/acid-blondie-belicoso-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=ACID+Blondie","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Acid+Blondie","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Acid+Blondie","price":null}]
   },
   {
     id: "cao-flavours-eileen",
@@ -1321,7 +1330,7 @@ const CIGARS = [
     pairings: ["Aged Bourbon", "Single Malt Scotch", "Espresso"],
     yearFounded: 2005,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+Family+Reserve+No.+45","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+Family+Reserve+No+45","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+Family+Reserve+No+45","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+Family+Reserve+No+45","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/padron-family-reserve-cigars/padron-family-reserve-44-years-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+Family+Reserve+No.+45","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+Family+Reserve+No+45","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+Family+Reserve+No+45","price":null}]
   },
   {
     id: "fuente-fuente-opus-x-fe",
@@ -1394,7 +1403,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Port", "Dark Coffee"],
     yearFounded: 1975,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Romeo+y+Julieta+Vintage+No.+5","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Romeo+y+Julieta+Vintage+No+5","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Romeo+y+Julieta+Vintage+No+5","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Romeo+y+Julieta+Vintage+No+5","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/romeo-y-julieta-vintage-cigars/romeo-y-julieta-vintage-no-5-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Romeo+y+Julieta+Vintage+No.+5","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Romeo+y+Julieta+Vintage+No+5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Romeo+y+Julieta+Vintage+No+5","price":null}]
   },
   {
     id: "cao-guatemalan-robusto",
@@ -1418,6 +1427,7 @@ const CIGARS = [
     pairings: ["Coffee", "Rum", "Light Whiskey"],
     yearFounded: 2009,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-mx2-cigars/cao-mx2-robusto-cigars-maduro","price":null}],
   },
   {
     id: "la-gloria-cubana-serie-r",
@@ -1513,7 +1523,7 @@ const CIGARS = [
     description: "Created to celebrate Rocky Patel's first decade in the cigar business. The Decade uses Ecuadorian Sumatra wrapper over aged Nicaraguan and Honduran filler — a beautifully balanced medium smoke that has stood the test of time. The construction quality and consistency make this a reliable choice.",
     pairings: ["Bourbon", "Coffee", "Pale Ale"],
     yearFounded: 2005,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-decade-cigars/rocky-patel-decade-robusto-cigars-natural","price":null}],
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-decade-cigars/rocky-patel-decade-forty-six-cigars-natural","price":null}],
     limited: false
   },
   {
@@ -1539,6 +1549,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Coffee"],
     yearFounded: 2016,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/macanudo-inspirado-orange-cigars/macanudo-inspirado-orange-churchill-cigars-natural","price":null}],
   },
   {
     id: "cohiba-espléndidos",
@@ -1681,7 +1692,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Port", "Dark Espresso"],
     yearFounded: 1989,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Gurkha+Black+Dragon","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Gurkha+Black+Dragon","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Gurkha+Black+Dragon","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/gurkha-black-dragon-cigars/gurkha-black-dragon-toro-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Gurkha+Black+Dragon","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Gurkha+Black+Dragon","price":null}]
   },
   {
     id: "nub-cafe-maduro",
@@ -1706,6 +1717,7 @@ const CIGARS = [
     pairings: ["Espresso", "Dark Beer", "Bourbon"],
     yearFounded: 2008,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/nub-maduro-cigars/nub-maduro-460-cigars","price":null}],
   },
   {
     id: "ep-carrillo-la-historia",
@@ -1754,7 +1766,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-no-4-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+V+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-double-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Robusto","price":null}]
   },
   {
     id: "oliva-serie-v-toro",
@@ -1779,7 +1791,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-double-toro-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Toro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Toro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+V+Toro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Toro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-double-toro-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Toro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Toro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Toro","price":null}]
   },
   {
     id: "oliva-serie-v-churchill",
@@ -1804,7 +1816,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Bourbon", "Strong Coffee"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-churchill-extra-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Churchill","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Churchill+Extra","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+V+Churchill","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Churchill","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-churchill-extra-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Churchill","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Churchill+Extra","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Churchill","price":null}]
   },
   {
     id: "oliva-serie-v-special-t",
@@ -1829,7 +1841,7 @@ const CIGARS = [
     pairings: ["Espresso", "Bourbon", "Dark Rum"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-torpedo-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Special+T","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+V+Special+T","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Special+T","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-special-v-figurado-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Special+T","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Special+T","price":null}]
   },
   {
     id: "oliva-serie-v-double-toro",
@@ -1854,7 +1866,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Aged Rum", "Black Coffee"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-double-toro-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Double+Toro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+V+Double+Toro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Double+Toro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-double-toro-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Double+Toro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Double+Toro","price":null}]
   },
   {
     id: "oliva-serie-v-lancero",
@@ -1879,7 +1891,7 @@ const CIGARS = [
     pairings: ["Espresso", "Cognac", "Single Malt"],
     yearFounded: 2010,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-lancero-cigars-natural","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+V+Lancero","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Lancero","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Lancero","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-lancero-cigars-natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Lancero","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Lancero","price":null}]
   },
   {
     id: "oliva-serie-v-melanio-maduro",
@@ -1904,7 +1916,7 @@ const CIGARS = [
     pairings: ["Port Wine", "Bourbon", "Dark Espresso"],
     yearFounded: 2016,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-melanio-cigars/oliva-serie-v-melanio-robusto-cigars-maduro","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Melanio+Maduro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Melanio+Maduro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Melanio+Maduro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-melanio-cigars/oliva-serie-v-melanio-maduro-double-toro-cigars","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Melanio+Maduro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Melanio+Maduro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Melanio+Maduro","price":null}]
   },
   {
     id: "oliva-serie-g-natural",
@@ -1929,7 +1941,7 @@ const CIGARS = [
     pairings: ["Coffee", "Amber Ale", "Bourbon"],
     yearFounded: 1999,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-g-cigars/oliva-serie-g-robusto-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+G+Natural","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+G+Natural","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+G+Natural","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+G+Natural","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-no-4-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+G+Natural","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+G+Natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+G+Natural","price":null}]
   },
   {
     id: "oliva-serie-g-special-t",
@@ -1954,7 +1966,7 @@ const CIGARS = [
     pairings: ["Coffee", "Light Whiskey", "Pale Ale"],
     yearFounded: 1999,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-g-cigars/oliva-serie-g-special-g-cigars-natural","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+G+Special+T","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+G+Special+T","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+G+Special+T","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-special-v-figurado-cigars-natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+G+Special+T","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+G+Special+T","price":null}]
   },
   {
     id: "oliva-serie-o-natural",
@@ -1979,7 +1991,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Pale Ale"],
     yearFounded: 1886,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-o-cigars/oliva-serie-o-robusto-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+O+Natural","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+O+Natural","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+O+Natural","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+O+Natural","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-no-4-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+O+Natural","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+O+Natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+O+Natural","price":null}]
   },
   {
     id: "oliva-flor-de-oliva",
@@ -2004,7 +2016,7 @@ const CIGARS = [
     pairings: ["Morning Coffee", "Light Beer", "Iced Tea"],
     yearFounded: 1886,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Flor+de+Oliva","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Flor+de+Oliva","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Flor+de+Oliva","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Flor+de+Oliva","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-no-4-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Flor+de+Oliva","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Flor+de+Oliva","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Flor+de+Oliva","price":null}]
   },
   {
     id: "oliva-master-blends-3",
@@ -2104,7 +2116,7 @@ const CIGARS = [
     pairings: ["Coffee with Cream", "White Wine", "Light Beer"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Connecticut+460","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Connecticut+460","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Nub+Connecticut+460","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Connecticut+460","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/nub-connecticut-cigars/nub-connecticut-460-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Connecticut+460","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Connecticut+460","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Connecticut+460","price":null}]
   },
   {
     id: "nub-habano-460",
@@ -2129,7 +2141,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Pale Ale"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Habano+460","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Habano+460","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Nub+Habano+460","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Habano+460","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/nub-habano-cigars/nub-habano-460-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Habano+460","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Habano+460","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Habano+460","price":null}]
   },
   {
     id: "nub-maduro-460",
@@ -2154,7 +2166,7 @@ const CIGARS = [
     pairings: ["Espresso", "Bourbon", "Dark Beer"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Maduro+460","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Nub+Maduro+460","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Maduro+460","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Maduro+460","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/nub-maduro-cigars/nub-maduro-460-cigars","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Maduro+460","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Maduro+460","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Maduro+460","price":null}]
   },
   {
     id: "nub-cameroon-508",
@@ -2179,7 +2191,7 @@ const CIGARS = [
     pairings: ["Cognac", "Coffee", "Caramel Cocktail"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Cameroon+508","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Cameroon+508","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Nub+Cameroon+508","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Cameroon+508","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/nub-cameroon-cigars/nub-cameroon-358-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Cameroon+508","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Cameroon+508","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Cameroon+508","price":null}]
   },
   {
     id: "nub-nuance-single-malt",
@@ -2278,7 +2290,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Strong Coffee", "Dark Beer"],
     yearFounded: 2010,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Habano+464T","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Habano+Torpedo","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Nub+Habano+Torpedo","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Habano+Torpedo","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/nub-habano-cigars/nub-habano-464t-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Habano+464T","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Habano+Torpedo","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Habano+Torpedo","price":null}]
   },
   {
     id: "ashton-classic-robusto",
@@ -2303,7 +2315,7 @@ const CIGARS = [
     pairings: ["Coffee with Cream", "Brandy", "White Wine"],
     yearFounded: 1985,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Classic+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Ashton+Classic+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Classic+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+Classic+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/ashton-classic-cigars/ashton-classic-8-9-8-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Classic+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Classic+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+Classic+Robusto","price":null}]
   },
   {
     id: "ashton-classic-churchill",
@@ -2328,7 +2340,7 @@ const CIGARS = [
     pairings: ["Cognac", "Brandy", "Café au Lait"],
     yearFounded: 1985,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Classic+Churchill","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Ashton+Classic+Churchill","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Classic+Churchill","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/ashton-classic-cigars/ashton-classic-churchill-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Classic+Churchill","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Classic+Churchill","price":null}]
   },
   {
     id: "ashton-cabinet-selection-no1",
@@ -2352,7 +2364,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Cognac", "Port"],
     yearFounded: 1988,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Cabinet+Selection+No.+1","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Cabinet+Selection+No+1","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+Cabinet+Selection","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/ashton-cabinet-selection-cigars/ashton-cabinet-selection-no-10-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Cabinet+Selection+No.+1","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Cabinet+Selection+No+1","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+Cabinet+Selection","price":null}]
   },
   {
     id: "ashton-vsg-robusto",
@@ -2377,7 +2389,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Aged Rum", "Espresso"],
     yearFounded: 2001,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+VSG+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Ashton+VSG+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+VSG+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+VSG+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/ashton-symmetry-cigars/ashton-symmetry-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+VSG+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+VSG+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+VSG+Robusto","price":null}]
   },
   {
     id: "ashton-vsg-torpedo",
@@ -2452,7 +2464,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Amber Ale"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Symmetry","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Ashton+Symmetry","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Symmetry","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/ashton-symmetry-cigars/ashton-symmetry-belicoso-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Symmetry","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Symmetry","price":null}]
   },
   {
     id: "ashton-aged-maduro-no40",
@@ -2477,7 +2489,7 @@ const CIGARS = [
     pairings: ["Port", "Bourbon", "Dark Coffee"],
     yearFounded: 1998,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Aged+Maduro+No.+40","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Ashton+Aged+Maduro+No+40","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Aged+Maduro+No+40","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+Aged+Maduro+No+40","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/ashton-aged-maduro-cigars/ashton-aged-maduro-no-10-cigars","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Aged+Maduro+No.+40","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Aged+Maduro+No+40","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+Aged+Maduro+No+40","price":null}]
   },
   {
     id: "ashton-small-batch",
@@ -2524,7 +2536,7 @@ const CIGARS = [
     pairings: ["Champagne", "Earl Grey", "Café Crème"],
     yearFounded: 1990,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Grand+Cru+No.+1","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Grand+Cru+No+1","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Grand+Cru+No+1","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-grand-cru-series-cigars/davidoff-grand-cru-series-no-2-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Grand+Cru+No.+1","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Grand+Cru+No+1","price":null}]
   },
   {
     id: "davidoff-grand-cru-no3",
@@ -2549,7 +2561,7 @@ const CIGARS = [
     pairings: ["Café au Lait", "White Wine", "Sparkling Water"],
     yearFounded: 1990,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-grand-cru-series-cigars/davidoff-grand-cru-robusto-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Grand+Cru+No.+3","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Grand+Cru+No+3","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Grand+Cru+No+3","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-grand-cru-series-cigars/davidoff-grand-cru-series-no-2-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Grand+Cru+No.+3","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Grand+Cru+No+3","price":null}]
   },
   {
     id: "davidoff-grand-cru-no4",
@@ -2573,7 +2585,7 @@ const CIGARS = [
     pairings: ["Morning Coffee", "Breakfast Tea", "Sparkling Water"],
     yearFounded: 1990,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Grand+Cru+No.+4","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Grand+Cru+No+4","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Grand+Cru+No+4","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-grand-cru-series-cigars/davidoff-grand-cru-series-no-2-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Grand+Cru+No.+4","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Grand+Cru+No+4","price":null}]
   },
   {
     id: "davidoff-grand-cru-no5",
@@ -2598,7 +2610,7 @@ const CIGARS = [
     pairings: ["Champagne", "Sparkling Water", "Light Coffee"],
     yearFounded: 1990,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-grand-cru-series-cigars/davidoff-grand-cru-series-no-5-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Grand+Cru+No.+5","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Grand+Cru+No+5","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Grand+Cru+No+5","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-grand-cru-series-cigars/davidoff-grand-cru-series-no-2-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Grand+Cru+No.+5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Grand+Cru+No+5","price":null}]
   },
   {
     id: "davidoff-winston-churchill-original",
@@ -2623,7 +2635,7 @@ const CIGARS = [
     pairings: ["Brandy", "Café Crème", "Champagne"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/winston-churchill-late-hour-cigars/wc-late-hour-robusto-cigars-oscuro","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Winston+Churchill+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Winston+Churchill+Original","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Winston+Churchill+Original","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/winston-churchill-cigars/winston-churchill-statesman-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Winston+Churchill+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Winston+Churchill+Original","price":null}]
   },
   {
     id: "davidoff-special-r",
@@ -2648,7 +2660,7 @@ const CIGARS = [
     pairings: ["Scotch", "Cognac", "Cream Coffee"],
     yearFounded: 1998,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Special+R","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Special+R","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Special+R","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-aniversario-series-cigars/davidoff-aniversario-special-r-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Special+R","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Special+R","price":null}]
   },
   {
     id: "davidoff-special-t",
@@ -2673,7 +2685,7 @@ const CIGARS = [
     pairings: ["Champagne", "White Wine", "Single Malt"],
     yearFounded: 1998,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Special+T","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Special+T","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Special+T","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-aniversario-series-cigars/davidoff-aniversario-special-r-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Special+T","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Special+T","price":null}]
   },
   {
     id: "davidoff-nicaragua",
@@ -2698,7 +2710,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2016,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Nicaragua","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Nicaragua","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Nicaragua","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-nicaragua-cigars/davidoff-nicaragua-diadema-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Nicaragua","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Nicaragua","price":null}]
   },
   {
     id: "davidoff-puro-doro",
@@ -2722,6 +2734,7 @@ const CIGARS = [
     pairings: ["Champagne", "Sauternes", "Café Crème"],
     yearFounded: 2014,
     limited: true
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-grand-cru-series-cigars/davidoff-grand-cru-series-no-2-cigars-natural","price":null}],
   },
   {
     id: "davidoff-aniversario-special",
@@ -2746,7 +2759,7 @@ const CIGARS = [
     pairings: ["Aged Cognac", "Single Malt", "Port"],
     yearFounded: 1993,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Aniversario+Special","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Aniversario+Special","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Aniversario+Special","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Aniversario+Special","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-aniversario-series-cigars/davidoff-aniversario-special-r-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Aniversario+Special","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Aniversario+Special","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Aniversario+Special","price":null}]
   },
   {
     id: "davidoff-signature-2000",
@@ -2771,7 +2784,7 @@ const CIGARS = [
     pairings: ["Morning Coffee", "Champagne", "Light Tea"],
     yearFounded: 1990,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Signature+2000","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Signature+2000","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Signature+2000","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-signature-series-cigars/davidoff-signature-2000-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Signature+2000","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Signature+2000","price":null}]
   },
   {
     id: "davidoff-royal-release",
@@ -2795,7 +2808,7 @@ const CIGARS = [
     pairings: ["Aged Cognac", "Armagnac", "Vintage Port"],
     yearFounded: 2010,
     limited: true,
-    buyLinks: [{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Royal+Release","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Royal+Release","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Royal+Release","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-grand-cru-series-cigars/davidoff-grand-cru-robusto-cigars-natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Royal+Release","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Royal+Release","price":null}]
   },
   {
     id: "davidoff-702-series",
@@ -2820,7 +2833,7 @@ const CIGARS = [
     pairings: ["Champagne", "White Wine", "Light Coffee"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+702+Series","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+702+Series","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+702+Series","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-grand-cru-series-cigars/davidoff-grand-cru-series-no-2-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+702+Series","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+702+Series","price":null}]
   },
   {
     id: "herrera-esteli-miami",
@@ -2845,7 +2858,7 @@ const CIGARS = [
     pairings: ["Café Cubano", "Rum", "Bourbon"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Esteli+Miami","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Miami","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Herrera+Esteli+Miami","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Miami","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/herrera-esteli-miami-cigars/herrera-esteli-miami-lonsdale-cigars-oscuro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Esteli+Miami","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Miami","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Miami","price":null}]
   },
   {
     id: "alec-bradley-black-market",
@@ -2870,7 +2883,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2010,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+Black+Market","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+Black+Market","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Alec+Bradley+Black+Market","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+Black+Market","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-black-market-cigars/alec-bradley-black-market-churchill-cigars-dark-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+Black+Market","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+Black+Market","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+Black+Market","price":null}]
   },
   {
     id: "alec-bradley-tempus",
@@ -2895,6 +2908,7 @@ const CIGARS = [
     pairings: ["Rye Whiskey", "Dark Coffee", "Amber Ale"],
     yearFounded: 2007,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-tempus-cigars/alec-bradley-tempus-corona-cigars-natural","price":null}],
   },
   {
     id: "alec-bradley-double-broadleaf",
@@ -2919,6 +2933,7 @@ const CIGARS = [
     pairings: ["Port", "Bourbon", "Dark Espresso"],
     yearFounded: 2015,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-prensado-cigars/alec-bradley-prensado-double-t-cigars-natural","price":null}],
   },
   {
     id: "rocky-patel-vintage-1999",
@@ -2943,7 +2958,7 @@ const CIGARS = [
     pairings: ["Coffee with Cream", "White Wine", "Light Beer"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Vintage+1999","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Vintage+1999","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Vintage+1999","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Vintage+1999","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-six-by-sixty-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Vintage+1999","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Vintage+1999","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Vintage+1999","price":null}]
   },
   {
     id: "rocky-patel-vintage-2006",
@@ -2968,7 +2983,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Coffee", "Amber Ale"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Vintage+2006","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Vintage+2006","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Vintage+2006","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Vintage+2006","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-six-by-sixty-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Vintage+2006","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Vintage+2006","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Vintage+2006","price":null}]
   },
   {
     id: "rocky-patel-gold-label",
@@ -2993,7 +3008,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Rye Whiskey", "Espresso"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Gold+Label","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Gold+Label","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Gold+Label","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Gold+Label","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-six-by-sixty-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Gold+Label","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Gold+Label","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Gold+Label","price":null}]
   },
   {
     id: "rocky-patel-fifteenth-anniversary",
@@ -3018,7 +3033,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Aged Bourbon", "Espresso"],
     yearFounded: 2010,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+15th+Anniversary","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Fifteenth+Anniversary","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+15th+Anniversary","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+15th+Anniversary","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-15th-anniversary-cigars/rocky-patel-15th-anniversary-sixty-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+15th+Anniversary","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+15th+Anniversary","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+15th+Anniversary","price":null}]
   },
   {
     id: "cao-brazilia",
@@ -3043,7 +3058,7 @@ const CIGARS = [
     pairings: ["Dark Rum", "Espresso", "Stout Beer"],
     yearFounded: 2004,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Brazilia","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Brazilia","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=CAO+Brazilia","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Brazilia","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-brazilia-cigars/cao-brazilia-amazon-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Brazilia","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Brazilia","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Brazilia","price":null}]
   },
   {
     id: "cao-nicaragua",
@@ -3068,7 +3083,7 @@ const CIGARS = [
     pairings: ["Coffee", "Light Beer", "Bourbon"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Nicaragua","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Nicaragua","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=CAO+Nicaragua","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Nicaragua","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-mx2-cigars/cao-mx2-beli-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Nicaragua","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Nicaragua","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Nicaragua","price":null}]
   },
   {
     id: "cao-flathead-v660",
@@ -3093,7 +3108,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Strong Coffee"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Flathead+V660","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Flathead+V660","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=CAO+Flathead+V660","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Flathead+V660","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-flathead-cigars/cao-flathead-big-block-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Flathead+V660","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Flathead+V660","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Flathead+V660","price":null}]
   },
   {
     id: "cao-italia",
@@ -3118,7 +3133,7 @@ const CIGARS = [
     pairings: ["Grappa", "Espresso", "Aged Balsamic"],
     yearFounded: 2002,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Italia","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Italia","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=CAO+Italia","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Italia","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-mx2-cigars/cao-mx2-beli-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Italia","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Italia","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Italia","price":null}]
   },
   {
     id: "macanudo-maduro",
@@ -3143,7 +3158,7 @@ const CIGARS = [
     pairings: ["Coffee with Cream", "Hot Chocolate", "Light Beer"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+Maduro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+Maduro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Macanudo+Maduro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+Maduro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/macanudo-maduro-cigars/macanudo-maduro-ascot-10-cigars","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+Maduro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+Maduro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+Maduro","price":null}]
   },
   {
     id: "macanudo-gold-label",
@@ -3193,7 +3208,7 @@ const CIGARS = [
     pairings: ["White Wine", "Coffee with Cream", "Sparkling Water"],
     yearFounded: 2016,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+Inspirado+White","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+Inspirado+White","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Macanudo+Inspirado+White","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+Inspirado+White","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/macanudo-inspirado-white-cigars/macanudo-inspirado-white-cigarillos-10-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+Inspirado+White","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+Inspirado+White","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+Inspirado+White","price":null}]
   },
   {
     id: "macanudo-cru-royale",
@@ -3243,7 +3258,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Light Beer"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Romeo+y+Julieta+1875+Natural","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Romeo+y+Julieta+1875+Natural","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Romeo+y+Julieta+1875+Natural","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Romeo+y+Julieta+1875+Natural","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/romeo-y-julieta-1875-cigars/romeo-y-julieta-1875-belicoso-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Romeo+y+Julieta+1875+Natural","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Romeo+y+Julieta+1875+Natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Romeo+y+Julieta+1875+Natural","price":null}]
   },
   {
     id: "romeo-y-julieta-reserva-real",
@@ -3268,7 +3283,7 @@ const CIGARS = [
     pairings: ["Brandy", "Coffee", "White Wine"],
     yearFounded: 1992,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Romeo+y+Julieta+Reserva+Real","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Romeo+y+Julieta+Reserva+Real","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Romeo+y+Julieta+Reserva+Real","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Romeo+y+Julieta+Reserva+Real","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/romeo-y-julieta-reserva-real-cigars/romeo-y-julieta-reserva-real-no-2-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Romeo+y+Julieta+Reserva+Real","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Romeo+y+Julieta+Reserva+Real","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Romeo+y+Julieta+Reserva+Real","price":null}]
   },
   {
     id: "romeo-y-julieta-nicaragua",
@@ -3293,6 +3308,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2020,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/romeo-y-julieta-reserva-real-cigars/romeo-y-julieta-reserva-real-no-2-cigars-natural","price":null}],
   },
   {
     id: "la-gloria-cubana-serie-r-esteli",
@@ -3665,6 +3681,7 @@ const CIGARS = [
     pairings: ["Port", "Bourbon", "Dark Espresso"],
     yearFounded: 2005,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/camacho-triple-maduro-cigars/camacho-triple-maduro-gordo-cigars","price":null}],
   },
   {
     id: "camacho-connecticut",
@@ -3689,6 +3706,7 @@ const CIGARS = [
     pairings: ["Coffee with Cream", "White Wine", "Light Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/camacho-connecticut-cigars/camacho-connecticut-6-x-60-cigars-natural","price":null}],
   },
   {
     id: "illusione-od-habano",
@@ -3712,7 +3730,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Dark Rum"],
     yearFounded: 2009,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Illusione+~ode~+Habano","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Illusione+OD+Habano","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Illusione+OD+Habano","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/illusione-original-documents-cigars/illusione-original-documents-habano-corona-minor-cigars-dark-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Illusione+~ode~+Habano","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Illusione+OD+Habano","price":null}]
   },
   {
     id: "illusione-garagiste",
@@ -3737,6 +3755,7 @@ const CIGARS = [
     pairings: ["Burgundy Wine", "Coffee", "Light Cognac"],
     yearFounded: 2012,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/illusione-epernay-cigars/illusione-epernay-le-elegance-petit-lancero-cigars-rosado","price":null}],
   },
   {
     id: "undercrown-maduro",
@@ -3761,7 +3780,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Stout Beer", "Dark Espresso"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Liga+Undercrown+Maduro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Undercrown+Maduro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Undercrown+Maduro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Undercrown+Maduro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/undercrown-shade-cigars/liga-undercrown-shade-toro-tubo-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Liga+Undercrown+Maduro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Undercrown+Maduro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Undercrown+Maduro","price":null}]
   },
   {
     id: "undercrown-sun-grown",
@@ -3785,7 +3804,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Black Coffee"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Liga+Undercrown+Sun+Grown","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Undercrown+Sun+Grown","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Undercrown+Sun+Grown","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/undercrown-shade-cigars/liga-undercrown-shade-toro-tubo-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Liga+Undercrown+Sun+Grown","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Undercrown+Sun+Grown","price":null}]
   },
   {
     id: "undercrown-shade",
@@ -3810,7 +3829,7 @@ const CIGARS = [
     pairings: ["Coffee", "Light Beer", "Bourbon"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Liga+Undercrown+Shade","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Undercrown+Shade","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Undercrown+Shade","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Undercrown+Shade","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/undercrown-shade-cigars/liga-undercrown-shade-toro-tubo-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Liga+Undercrown+Shade","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Undercrown+Shade","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Undercrown+Shade","price":null}]
   },
   {
     id: "foundation-tabernacle",
@@ -3910,7 +3929,7 @@ const CIGARS = [
     pairings: ["Coffee", "Bourbon", "Rum"],
     yearFounded: 2005,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Tatuaje+Havana+VI","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Tatuaje+Havana+VI","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Tatuaje+Havana+VI","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Tatuaje+Havana+VI","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/tatuaje-havana-vi-cigars/tatuaje-havana-vi-almirantes-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Tatuaje+Havana+VI","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Tatuaje+Havana+VI","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Tatuaje+Havana+VI","price":null}]
   },
   {
     id: "tatuaje-reserva",
@@ -3935,7 +3954,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Port", "Dark Espresso"],
     yearFounded: 2009,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Tatuaje+Reserva","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Tatuaje+Reserva","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Tatuaje+Reserva","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Tatuaje+Reserva","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/tatuaje-havana-vi-cigars/tatuaje-havana-vi-almirantes-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Tatuaje+Reserva","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Tatuaje+Reserva","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Tatuaje+Reserva","price":null}]
   },
   {
     id: "ep-carrillo-encore",
@@ -4059,7 +4078,7 @@ const CIGARS = [
     pairings: ["Peated Scotch", "Dark Rum", "Black Espresso"],
     yearFounded: 2016,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=My+Father+The+Judge","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=My+Father+The+Judge","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=My+Father+The+Judge","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=My+Father+The+Judge","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/my-father-cigars/my-father-no-1-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=My+Father+The+Judge","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=My+Father+The+Judge","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=My+Father+The+Judge","price":null}]
   },
   {
     id: "don-pepin-garcia-original",
@@ -4109,7 +4128,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Coffee", "Amber Ale"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Esteli+Robusto+Grande","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Herrera+Esteli+Robusto+Grande","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Robusto+Grande","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Robusto+Grande","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/herrera-esteli-miami-cigars/herrera-esteli-miami-lonsdale-cigars-oscuro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Esteli+Robusto+Grande","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Robusto+Grande","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Robusto+Grande","price":null}]
   },
   {
     id: "herrera-esteli-brazilian-maduro",
@@ -4134,6 +4153,7 @@ const CIGARS = [
     pairings: ["Aged Rum", "Bourbon", "Dark Coffee"],
     yearFounded: 2016,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/herrera-esteli-miami-cigars/herrera-esteli-miami-lonsdale-cigars-oscuro","price":null}],
   },
   {
     id: "perdomo-30th-anniversary-maduro",
@@ -4768,7 +4788,7 @@ const CIGARS = [
     pairings: ["Peated Scotch", "Dark Rum", "Black Espresso", "Cognac"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Double+Ligero+Chisel","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Double+Ligero+Chisel","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=LFD+Double+Ligero+Chisel","price":null}, {"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=LFD+Double+Ligero+Chisel","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=LFD+Double+Ligero+Chisel","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-double-ligero-cigars/la-flor-dominicana-double-ligero-chisel-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Double+Ligero+Chisel","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Double+Ligero+Chisel","price":null},{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=LFD+Double+Ligero+Chisel","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=LFD+Double+Ligero+Chisel","price":null}]
   },
   {
     id: "lfd-air-bender",
@@ -4793,7 +4813,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Aged Rum", "Espresso", "Single Malt Scotch"],
     yearFounded: 2005,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Air+Bender","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Air+Bender","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=LFD+Air+Bender","price":null}, {"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=LFD+Air+Bender","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=LFD+Air+Bender","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-air-bender-cigars/lfd-air-bender-chisel-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Air+Bender","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Air+Bender","price":null},{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=LFD+Air+Bender","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=LFD+Air+Bender","price":null}]
   },
   {
     id: "lfd-coronado",
@@ -4818,6 +4838,7 @@ const CIGARS = [
     pairings: ["Coffee", "Cognac", "Rum", "Iced Tea"],
     yearFounded: 1994,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-coronado-cigars/la-flor-dominicana-coronado-corona-especial-cigars-dark-natural","price":null}],
   },
   {
     id: "aganorsa-supreme-leaf",
@@ -4842,7 +4863,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Rye Whiskey", "Dark Rum", "Espresso"],
     yearFounded: 2018,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Supreme+Leaf","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Aganorsa+Supreme+Leaf","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Aganorsa+Supreme+Leaf","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Aganorsa+Supreme+Leaf","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/aganorsa-leaf-supreme-leaf-cigars/aganorsa-leaf-supreme-leaf-gran-toro-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Supreme+Leaf","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Aganorsa+Supreme+Leaf","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Aganorsa+Supreme+Leaf","price":null}]
   },
   {
     id: "aganorsa-rare-leaf",
@@ -4892,7 +4913,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Rye Whiskey", "Black Coffee", "Dark Rum"],
     yearFounded: 2016,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Kudzu","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Southern+Draw+Kudzu","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Southern+Draw+Kudzu","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Southern+Draw+Kudzu","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/southern-draw-kudzu-cigars/southern-draw-kudzu-toro-cigars-oscuro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Kudzu","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Southern+Draw+Kudzu","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Southern+Draw+Kudzu","price":null}]
   },
   {
     id: "southern-draw-rose-of-sharon",
@@ -4917,7 +4938,7 @@ const CIGARS = [
     pairings: ["Champagne", "Earl Grey Tea", "Light Rum", "Honey Whiskey"],
     yearFounded: 2016,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rose+of+Sharon","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Southern+Draw+Rose+of+Sharon","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Southern+Draw+Rose+of+Sharon","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Southern+Draw+Rose+of+Sharon","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/southern-draw-rose-of-sharon-cigars/southern-draw-rose-of-sharon-gordo-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rose+of+Sharon","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Southern+Draw+Rose+of+Sharon","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Southern+Draw+Rose+of+Sharon","price":null}]
   },
   {
     id: "southern-draw-300-hands",
@@ -5067,7 +5088,7 @@ const CIGARS = [
     pairings: ["Cognac", "Rum", "Café au Lait", "Champagne"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diamond+Crown+Maximus","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Diamond+Crown+Maximus","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diamond+Crown+Maximus","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diamond+Crown+Maximus","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/diamond-crown-maximus-cigars/diamond-crown-maximus-no-10-cigars-dark-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diamond+Crown+Maximus","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diamond+Crown+Maximus","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diamond+Crown+Maximus","price":null}]
   },
   {
     id: "brick-house-robusto",
@@ -5092,7 +5113,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Beer", "Coffee", "Rum"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Brick+House+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Brick+House+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Brick+House+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Brick+House+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/brick-house-cigars/brick-house-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Brick+House+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Brick+House+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Brick+House+Robusto","price":null}]
   },
   {
     id: "brick-house-mighty-mighty",
@@ -5117,7 +5138,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Stout Beer", "Coffee", "Aged Rum"],
     yearFounded: 2010,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Brick+House+Mighty+Mighty","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Brick+House+Mighty+Mighty","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Brick+House+Mighty+Mighty","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/brick-house-cigars/brick-house-mighty-mighty-cigars-maduro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Brick+House+Mighty+Mighty","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Brick+House+Mighty+Mighty","price":null}]
   },
   {
     id: "villiger-1888",
@@ -5728,7 +5749,7 @@ const CIGARS = [
     pairings: ["Cognac XO", "Añejo Rum", "Single Malt Scotch", "Black Espresso"],
     yearFounded: 1964,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Family+Reserve+No.+85+Natural","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+Family+Reserve+No+85","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+Family+Reserve+No+85","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+Family+Reserve+No+85","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/padron-family-reserve-cigars/padron-family-reserve-44-years-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Family+Reserve+No.+85+Natural","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+Family+Reserve+No+85","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+Family+Reserve+No+85","price":null}]
   },
   {
     id: "padron-series-1000-natural",
@@ -5777,7 +5798,7 @@ const CIGARS = [
     description: "Rocky Patel's Vintage series uses aged tobacco from specific years — the 1990 uses Connecticut Broadleaf that has been warehoused and aged for over a decade before rolling. The result is a remarkably smooth, complex medium-bodied cigar with dark chocolate, coffee, and cedar in a format that smokes cooler and more refined than typical mass-production Connecticut Broadleaf. The Vintage series put Rocky Patel on the map as a serious blender.",
     pairings: ["Bourbon", "Dark Rum", "Espresso", "Stout Beer"],
     yearFounded: 1996,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-robusto-cigars-maduro","price":null}],
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-six-by-sixty-cigars-maduro","price":null}],
     limited: false
   },
   {
@@ -5802,7 +5823,7 @@ const CIGARS = [
     description: "The Decade celebrates Rocky Patel's 10th year in the cigar business and is widely considered his finest achievement. An Ecuadorian Sumatra wrapper over Honduran and Nicaraguan filler creates a beautifully balanced medium-bodied toro with cocoa, cinnamon, and cedar that develop gracefully across the length of the cigar. Exceptional construction and an outstanding price-to-quality ratio make this one of the most recommended everyday luxury cigars on the market.",
     pairings: ["Scotch Whisky", "Cognac", "Espresso", "Rum"],
     yearFounded: 1996,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-decade-cigars/rocky-patel-decade-robusto-cigars-natural","price":null}],
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-decade-cigars/rocky-patel-decade-forty-six-cigars-natural","price":null}],
     limited: false
   },
   {
@@ -5828,7 +5849,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Beer", "Coffee", "Rum"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Edge+Torpedo","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Edge","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Edge","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Edge","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-torpedo-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Edge+Torpedo","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Edge","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Edge","price":null}]
   },
   {
     id: "rocky-patel-hamlet-2000",
@@ -5950,7 +5971,7 @@ const CIGARS = [
     pairings: ["Earl Grey Tea", "Champagne", "Light Rum", "Honey Whiskey"],
     yearFounded: 1992,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Perdomo+Epicure","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Perdomo+Epicure","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Perdomo+Epicure","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/perdomo-champagne-cigars/perdomo-champagne-epicure-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Perdomo+Epicure","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Perdomo+Epicure","price":null}]
   },
   {
     id: "plasencia-alma-del-campo",
@@ -5975,7 +5996,7 @@ const CIGARS = [
     pairings: ["Champagne", "Café au Lait", "Light Rum", "Earl Grey Tea"],
     yearFounded: 1865,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alma+del+Campo+Travesia","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Plasencia+Alma+del+Campo","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+del+Campo","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+del+Campo","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/plasencia-alma-del-campo-cigars/plasencia-alma-del-campo-travesia-box-pressed-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alma+del+Campo+Travesia","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+del+Campo","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+del+Campo","price":null}]
   },
   {
     id: "plasencia-cosecha-149",
@@ -6025,7 +6046,7 @@ const CIGARS = [
     pairings: ["Peated Scotch", "Añejo Rum", "Black Espresso", "Mezcal"],
     yearFounded: 1865,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alma+Fuerte+Generoso","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Plasencia+Alma+Fuerte+Generoso","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+Fuerte+Generoso","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+Fuerte+Generoso","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/plasencia-alma-fuerte-cigars/plasencia-alma-fuerte-generacion-v-salomon-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alma+Fuerte+Generoso","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+Fuerte+Generoso","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+Fuerte+Generoso","price":null}]
   },
   {
     id: "cao-flathead-v554",
@@ -6050,7 +6071,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Beer", "Coffee", "Rum"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Flathead+V554","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=CAO+Flathead+V554","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Flathead+V554","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-flathead-cigars/cao-flathead-big-block-cigars-maduro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Flathead+V554","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Flathead+V554","price":null}]
   },
   {
     id: "cao-nicaragua",
@@ -6075,6 +6096,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Rum", "Espresso", "Beer"],
     yearFounded: 1968,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-mx2-cigars/cao-mx2-beli-cigars-maduro","price":null}],
   },
   {
     id: "cao-amazonia",
@@ -6099,6 +6121,7 @@ const CIGARS = [
     pairings: ["Cognac", "Port Wine", "Rum", "Dark Coffee"],
     yearFounded: 1968,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-mx2-cigars/cao-mx2-beli-cigars-maduro","price":null}],
   },
   {
     id: "cao-pilon-robusto",
@@ -6123,7 +6146,7 @@ const CIGARS = [
     pairings: ["Coffee", "Beer", "Rum", "Bourbon"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Pilon+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Pilon+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=CAO+Pilon+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Pilon+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-mx2-cigars/cao-mx2-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Pilon+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Pilon+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Pilon+Robusto","price":null}]
   },
   {
     id: "casdagli-traditional-robusto",
@@ -6355,7 +6378,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Rye Whiskey", "Espresso", "Dark Beer"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Last+Rites+Robusto+Real","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Last+Rites","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=BLTC+Last+Rites","price":null}, {"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=Black+Label+Trading+Last+Rites","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Black+Label+Trading+Last+Rites","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/black-label-trading-last-rites-cigars/black-label-last-rites-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Last+Rites+Robusto+Real","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Last+Rites","price":null},{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=Black+Label+Trading+Last+Rites","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Black+Label+Trading+Last+Rites","price":null}]
   },
   {
     id: "bltc-lawless-robusto",
@@ -6405,7 +6428,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Rum", "Beer"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Royalty+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Royalty","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=BLTC+Royalty","price":null}, {"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=Black+Label+Trading+Royalty","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Black+Label+Trading+Royalty","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/black-label-trading-last-rites-cigars/black-label-last-rites-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Royalty+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Royalty","price":null},{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=Black+Label+Trading+Royalty","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Black+Label+Trading+Royalty","price":null}]
   },
   {
     id: "bltc-salvation-robusto",
@@ -6529,7 +6552,7 @@ const CIGARS = [
     pairings: ["Añejo Rum", "Peated Scotch", "Port Wine", "Espresso"],
     yearFounded: 2013,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Bishop's+Blend+2024","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=BLTC+Bishops+Blend","price":null}, {"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=Black+Label+Bishops+Blend","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Black+Label+Bishops+Blend","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/black-label-trading-bishops-blend-cigars/black-label-bishops-blend-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Bishop's+Blend+2024","price":null},{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=Black+Label+Bishops+Blend","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Black+Label+Bishops+Blend","price":null}]
   },
   {
     id: "bltc-orthodox",
@@ -6577,7 +6600,7 @@ const CIGARS = [
     pairings: ["Cognac", "Port Wine", "Dark Fruit Tea", "Rum"],
     yearFounded: 2013,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Eletto+Toro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Eletto","price":null}, {"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=Black+Label+Eletto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Black+Label+Eletto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/black-label-trading-last-rites-cigars/black-label-last-rites-grand-toro-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Eletto+Toro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Black+Label+Trading+Company+Eletto","price":null},{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/search?q=Black+Label+Eletto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Black+Label+Eletto","price":null}]
   },
   {
     id: "bltc-super-deluxe-2025",
@@ -7110,7 +7133,7 @@ const CIGARS = [
     pairings: ["Rye Whiskey", "Black Coffee", "Porter"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Esteli+Norteno+Robusto+Grande","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Norteno+Robusto+Grande","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Herrera+Esteli+Norteno+Robusto+Grande","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Norteno+Robusto+Grande","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Herrera+Esteli+Norteno+Robusto+Grande","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/herrera-esteli-miami-cigars/herrera-esteli-miami-lonsdale-cigars-oscuro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Esteli+Norteno+Robusto+Grande","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Norteno+Robusto+Grande","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Norteno+Robusto+Grande","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Herrera+Esteli+Norteno+Robusto+Grande","price":null}]
   },
   {
     id: "herrera-esteli-habano-robusto",
@@ -7135,7 +7158,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Café au Lait", "Amber Ale"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Esteli+Habano+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Habano+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Herrera+Esteli+Habano+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Habano+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Herrera+Esteli+Habano+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/herrera-esteli-miami-cigars/herrera-esteli-miami-lonsdale-cigars-oscuro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Esteli+Habano+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Habano+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Habano+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Herrera+Esteli+Habano+Robusto","price":null}]
   },
   {
     id: "herrera-esteli-connecticut-broadleaf-robusto",
@@ -7159,7 +7182,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Port Wine", "Espresso"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Esteli+Connecticut+Broadleaf+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Connecticut+Broadleaf+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Herrera+Esteli+Connecticut+Broadleaf+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Connecticut+Broadleaf+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Herrera+Esteli+Connecticut+Broadleaf+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/herrera-esteli-miami-cigars/herrera-esteli-miami-lonsdale-cigars-oscuro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Esteli+Connecticut+Broadleaf+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Connecticut+Broadleaf+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Connecticut+Broadleaf+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Herrera+Esteli+Connecticut+Broadleaf+Robusto","price":null}]
   },
   {
     id: "herrera-esteli-lonsdale-fino",
@@ -7184,7 +7207,7 @@ const CIGARS = [
     pairings: ["Coffee", "Green Tea", "White Wine"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Esteli+Lonsdale+Fino","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Lonsdale+Fino","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Herrera+Esteli+Lonsdale+Fino","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Lonsdale+Fino","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Herrera+Esteli+Lonsdale+Fino","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/herrera-esteli-miami-cigars/herrera-esteli-miami-lonsdale-cigars-oscuro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Herrera+Esteli+Lonsdale+Fino","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Herrera+Esteli+Lonsdale+Fino","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Herrera+Esteli+Lonsdale+Fino","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Herrera+Esteli+Lonsdale+Fino","price":null}]
   },
   {
     id: "joya-de-nicaragua-cuatro-cinco-robusto",
@@ -7331,7 +7354,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Pale Ale"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Oriente+Toro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Oriente+Toro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=CAO+Oriente+Toro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Oriente+Toro","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=CAO+Oriente+Toro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-mx2-cigars/cao-mx2-toro-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Oriente+Toro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Oriente+Toro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Oriente+Toro","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=CAO+Oriente+Toro","price":null}]
   },
   {
     id: "cao-bones-toro",
@@ -7356,7 +7379,7 @@ const CIGARS = [
     pairings: ["Rye Whiskey", "Black Coffee", "Stout"],
     yearFounded: 1968,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Bones+Toro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Bones+Toro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=CAO+Bones+Toro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Bones+Toro","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=CAO+Bones+Toro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-mx2-cigars/cao-mx2-toro-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Bones+Toro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Bones+Toro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Bones+Toro","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=CAO+Bones+Toro","price":null}]
   },
   {
     id: "cao-amazon-basin-robusto",
@@ -7381,7 +7404,7 @@ const CIGARS = [
     pairings: ["Dark Rum", "Espresso", "Port Wine"],
     yearFounded: 1968,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Amazon+Basin+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Amazon+Basin+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=CAO+Amazon+Basin+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Amazon+Basin+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=CAO+Amazon+Basin+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-mx2-cigars/cao-mx2-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Amazon+Basin+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Amazon+Basin+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Amazon+Basin+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=CAO+Amazon+Basin+Robusto","price":null}]
   },
   {
     id: "cao-gold-robusto",
@@ -7406,7 +7429,7 @@ const CIGARS = [
     pairings: ["Light Rum", "Cappuccino", "Chardonnay"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Gold+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Gold+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=CAO+Gold+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Gold+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=CAO+Gold+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-mx2-cigars/cao-mx2-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=CAO+Gold+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=CAO+Gold+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=CAO+Gold+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=CAO+Gold+Robusto","price":null}]
   },
   {
     id: "alec-bradley-coyol-robusto",
@@ -7431,7 +7454,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Black Coffee", "Dark Beer"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+Coyol+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+Coyol+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Alec+Bradley+Coyol+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+Coyol+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Alec+Bradley+Coyol+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-prensado-cigars/alec-bradley-prensado-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+Coyol+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+Coyol+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+Coyol+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Alec+Bradley+Coyol+Robusto","price":null}]
   },
   {
     id: "alec-bradley-nica-puro-robusto",
@@ -7455,7 +7478,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Porter"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+Nica+Puro+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+Nica+Puro+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Alec+Bradley+Nica+Puro+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+Nica+Puro+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Alec+Bradley+Nica+Puro+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-prensado-cigars/alec-bradley-prensado-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+Nica+Puro+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+Nica+Puro+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+Nica+Puro+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Alec+Bradley+Nica+Puro+Robusto","price":null}]
   },
   {
     id: "alec-bradley-american-classic-robusto",
@@ -7479,7 +7502,7 @@ const CIGARS = [
     pairings: ["Light Rum", "Milk Coffee", "Prosecco"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+American+Classic+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+American+Classic+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Alec+Bradley+American+Classic+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+American+Classic+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Alec+Bradley+American+Classic+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-prensado-cigars/alec-bradley-prensado-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+American+Classic+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+American+Classic+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+American+Classic+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Alec+Bradley+American+Classic+Robusto","price":null}]
   },
   {
     id: "alec-bradley-kintsugi-robusto",
@@ -7504,7 +7527,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Espresso", "Aged Rum"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+Kintsugi+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+Kintsugi+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Alec+Bradley+Kintsugi+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+Kintsugi+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Alec+Bradley+Kintsugi+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-prensado-cigars/alec-bradley-prensado-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+Kintsugi+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+Kintsugi+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+Kintsugi+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Alec+Bradley+Kintsugi+Robusto","price":null}]
   },
   {
     id: "warped-maestro-del-tiempo-6102-robusto",
@@ -7629,7 +7652,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Black Coffee", "Stout"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Southern+Draw+Jacobs+Ladder+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Southern+Draw+Jacobs+Ladder+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Southern+Draw+Jacobs+Ladder+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Southern+Draw+Jacobs+Ladder+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Southern+Draw+Jacobs+Ladder+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/southern-draw-jacobs-ladder-cigars/southern-draw-jacobs-ladder-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Southern+Draw+Jacobs+Ladder+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Southern+Draw+Jacobs+Ladder+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Southern+Draw+Jacobs+Ladder+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Southern+Draw+Jacobs+Ladder+Robusto","price":null}]
   },
   {
     id: "southern-draw-firethorn-robusto",
@@ -7654,7 +7677,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Café Americano", "Amber Ale"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Southern+Draw+Firethorn+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Southern+Draw+Firethorn+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Southern+Draw+Firethorn+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Southern+Draw+Firethorn+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Southern+Draw+Firethorn+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/southern-draw-jacobs-ladder-cigars/southern-draw-jacobs-ladder-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Southern+Draw+Firethorn+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Southern+Draw+Firethorn+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Southern+Draw+Firethorn+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Southern+Draw+Firethorn+Robusto","price":null}]
   },
   {
     id: "southern-draw-cedrus-robusto",
@@ -7679,7 +7702,7 @@ const CIGARS = [
     pairings: ["Light Rum", "Cappuccino", "Chardonnay"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Southern+Draw+Cedrus+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Southern+Draw+Cedrus+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Southern+Draw+Cedrus+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Southern+Draw+Cedrus+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Southern+Draw+Cedrus+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/southern-draw-jacobs-ladder-cigars/southern-draw-jacobs-ladder-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Southern+Draw+Cedrus+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Southern+Draw+Cedrus+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Southern+Draw+Cedrus+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Southern+Draw+Cedrus+Robusto","price":null}]
   },
   {
     id: "illusione-mk-ultra-robusto",
@@ -7703,7 +7726,7 @@ const CIGARS = [
     pairings: ["Overproof Rum", "Strong Black Coffee", "Mezcal"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Illusione+MK+Ultra+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Illusione+MK+Ultra+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Illusione+MK+Ultra+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Illusione+MK+Ultra+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Illusione+MK+Ultra+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/illusione-original-documents-cigars/illusione-original-documents-maduro-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Illusione+MK+Ultra+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Illusione+MK+Ultra+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Illusione+MK+Ultra+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Illusione+MK+Ultra+Robusto","price":null}]
   },
   {
     id: "illusione-888-robusto",
@@ -7728,7 +7751,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Rum"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Illusione+888+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Illusione+888+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Illusione+888+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Illusione+888+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Illusione+888+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/illusione-original-documents-cigars/illusione-original-documents-maduro-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Illusione+888+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Illusione+888+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Illusione+888+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Illusione+888+Robusto","price":null}]
   },
   {
     id: "illusione-singulare-robusto",
@@ -7752,7 +7775,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Coffee", "Pale Ale"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Illusione+Singulare+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Illusione+Singulare+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Illusione+Singulare+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Illusione+Singulare+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Illusione+Singulare+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/illusione-original-documents-cigars/illusione-original-documents-maduro-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Illusione+Singulare+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Illusione+Singulare+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Illusione+Singulare+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Illusione+Singulare+Robusto","price":null}]
   },
   {
     id: "kristoff-ligero-criollo-robusto",
@@ -8071,7 +8094,7 @@ const CIGARS = [
     pairings: ["Lager", "Latte"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Brick+House+Toro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Brick+House+Toro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Brick+House+Toro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Brick+House+Toro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/brick-house-cigars/brick-house-toro-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Brick+House+Toro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Brick+House+Toro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Brick+House+Toro","price":null}]
   },
   {
     id: "brick-house-double-connecticut-robusto",
@@ -8096,7 +8119,7 @@ const CIGARS = [
     pairings: ["Chardonnay", "Latte"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Brick+House+Double+Connecticut+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Brick+House+Double+Connecticut+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Brick+House+Double+Connecticut+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Brick+House+Double+Connecticut+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/brick-house-cigars/brick-house-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Brick+House+Double+Connecticut+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Brick+House+Double+Connecticut+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Brick+House+Double+Connecticut+Robusto","price":null}]
   },
   {
     id: "brick-house-maduro-robusto",
@@ -8121,7 +8144,7 @@ const CIGARS = [
     pairings: ["Stout Beer", "Espresso"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Brick+House+Maduro+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Brick+House+Maduro+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Brick+House+Maduro+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Brick+House+Maduro+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/brick-house-cigars/brick-house-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Brick+House+Maduro+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Brick+House+Maduro+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Brick+House+Maduro+Robusto","price":null}]
   },
   {
     id: "brick-house-mighty-mighty-toro",
@@ -8146,7 +8169,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Black Coffee"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Brick+House+Mighty+Mighty+Toro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Brick+House+Mighty+Mighty+Toro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Brick+House+Mighty+Mighty+Toro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Brick+House+Mighty+Mighty+Toro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/brick-house-cigars/brick-house-mighty-mighty-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Brick+House+Mighty+Mighty+Toro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Brick+House+Mighty+Mighty+Toro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Brick+House+Mighty+Mighty+Toro","price":null}]
   },
   {
     id: "nub-nuance-triple-roast-robusto",
@@ -8196,7 +8219,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Habano+554+Box+Pressed","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Habano+554+Box+Pressed","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Nub+Habano+554+Box+Pressed","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Habano+554+Box+Pressed","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/nub-habano-cigars/nub-habano-358-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Habano+554+Box+Pressed","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Habano+554+Box+Pressed","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Habano+554+Box+Pressed","price":null}]
   },
   {
     id: "nub-dub-connecticut-460",
@@ -8221,7 +8244,7 @@ const CIGARS = [
     pairings: ["Mimosa", "Café au Lait"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Dub+Connecticut+460","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Dub+Connecticut+460","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Nub+Dub+Connecticut+460","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Dub+Connecticut+460","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/nub-connecticut-cigars/nub-connecticut-460-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Dub+Connecticut+460","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Dub+Connecticut+460","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Dub+Connecticut+460","price":null}]
   },
   {
     id: "la-flor-dominicana-reserva-especial-no-1",
@@ -8246,7 +8269,7 @@ const CIGARS = [
     pairings: ["Cognac", "Dark Roast Coffee"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+Reserva+Especial+No.+1","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Reserva+Especial+No.+1","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=La+Flor+Dominicana+Reserva+Especial+No.+1","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+Reserva+Especial+No.+1","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-coronado-cigars/la-flor-dominicana-coronado-corona-especial-cigars-dark-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+Reserva+Especial+No.+1","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Reserva+Especial+No.+1","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+Reserva+Especial+No.+1","price":null}]
   },
   {
     id: "la-flor-dominicana-ligero-cabinet-no-4",
@@ -8271,7 +8294,7 @@ const CIGARS = [
     pairings: ["Añejo Rum", "Espresso"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+Ligero+Cabinet+No.+4","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Ligero+Cabinet+No.+4","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=La+Flor+Dominicana+Ligero+Cabinet+No.+4","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+Ligero+Cabinet+No.+4","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-double-ligero-cigars/la-flor-dominicana-double-ligero-no-452-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+Ligero+Cabinet+No.+4","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Ligero+Cabinet+No.+4","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+Ligero+Cabinet+No.+4","price":null}]
   },
   {
     id: "la-flor-dominicana-andalusian-bull",
@@ -8295,7 +8318,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Roast Coffee"],
     yearFounded: 1996,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+Andalusian+Bull","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Andalusian+Bull","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=La+Flor+Dominicana+Andalusian+Bull","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+Andalusian+Bull","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-air-bender-cigars/la-flor-dominicana-air-bender-double-press-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+Andalusian+Bull","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Andalusian+Bull","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+Andalusian+Bull","price":null}]
   },
   {
     id: "la-flor-dominicana-oscuro-robusto",
@@ -8320,7 +8343,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+Oscuro+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Oscuro+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=La+Flor+Dominicana+Oscuro+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+Oscuro+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-double-ligero-cigars/la-flor-dominicana-double-ligero-crystal-tubo-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+Oscuro+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Oscuro+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+Oscuro+Robusto","price":null}]
   },
   {
     id: "espinosa-las-6-provincias-robusto",
@@ -8419,7 +8442,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Latte"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+Vintage+1997+Churchill","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+Vintage+1997+Churchill","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Macanudo+Vintage+1997+Churchill","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+Vintage+1997+Churchill","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/macanudo-inspirado-orange-cigars/macanudo-inspirado-orange-churchill-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+Vintage+1997+Churchill","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+Vintage+1997+Churchill","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+Vintage+1997+Churchill","price":null}]
   },
   {
     id: "macanudo-inspirado-african-cameroon-robusto",
@@ -8444,7 +8467,7 @@ const CIGARS = [
     pairings: ["Cognac", "Earl Grey Tea"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+Inspirado+African+Cameroon+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+Inspirado+African+Cameroon+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Macanudo+Inspirado+African+Cameroon+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+Inspirado+African+Cameroon+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/macanudo-inspirado-orange-cigars/macanudo-inspirado-orange-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+Inspirado+African+Cameroon+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+Inspirado+African+Cameroon+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+Inspirado+African+Cameroon+Robusto","price":null}]
   },
   {
     id: "macanudo-ascots",
@@ -8469,7 +8492,7 @@ const CIGARS = [
     pairings: ["Champagne", "Green Tea"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+Ascots","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+Ascots","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Macanudo+Ascots","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+Ascots","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/macanudo-cafe-cigars/macanudo-cafe-ascot-10-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+Ascots","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+Ascots","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+Ascots","price":null}]
   },
   {
     id: "camacho-ecuador-robusto",
@@ -8494,7 +8517,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee"],
     yearFounded: 1962,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Camacho+Ecuador+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Camacho+Ecuador+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Camacho+Ecuador+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Camacho+Ecuador+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/camacho-ecuador-cigars/camacho-ecuador-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Camacho+Ecuador+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Camacho+Ecuador+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Camacho+Ecuador+Robusto","price":null}]
   },
   {
     id: "camacho-american-barrel-aged-robusto",
@@ -8518,7 +8541,7 @@ const CIGARS = [
     pairings: ["Bourbon", "American Whiskey"],
     yearFounded: 1962,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Camacho+American+Barrel+Aged+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Camacho+American+Barrel+Aged+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Camacho+American+Barrel+Aged+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Camacho+American+Barrel+Aged+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/camacho-corojo-cigars/camacho-corojo-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Camacho+American+Barrel+Aged+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Camacho+American+Barrel+Aged+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Camacho+American+Barrel+Aged+Robusto","price":null}]
   },
   {
     id: "camacho-criollo-robusto",
@@ -8543,7 +8566,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Black Coffee"],
     yearFounded: 1962,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Camacho+Criollo+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Camacho+Criollo+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Camacho+Criollo+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Camacho+Criollo+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/camacho-corojo-cigars/camacho-corojo-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Camacho+Criollo+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Camacho+Criollo+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Camacho+Criollo+Robusto","price":null}]
   },
   {
     id: "romeo-y-julieta-aniversario-robusto",
@@ -8567,7 +8590,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Romeo+y+Julieta+Aniversario+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Romeo+y+Julieta+Aniversario+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Romeo+y+Julieta+Aniversario+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Romeo+y+Julieta+Aniversario+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/romeo-y-julieta-reserve-cigars/romeo-y-julieta-reserve-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Romeo+y+Julieta+Aniversario+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Romeo+y+Julieta+Aniversario+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Romeo+y+Julieta+Aniversario+Robusto","price":null}]
   },
   {
     id: "romeo-y-julieta-vintage-v-robusto",
@@ -8592,7 +8615,7 @@ const CIGARS = [
     pairings: ["Chardonnay", "Latte"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Romeo+y+Julieta+Vintage+V+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Romeo+y+Julieta+Vintage+V+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Romeo+y+Julieta+Vintage+V+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Romeo+y+Julieta+Vintage+V+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/romeo-y-julieta-reserve-cigars/romeo-y-julieta-reserve-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Romeo+y+Julieta+Vintage+V+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Romeo+y+Julieta+Vintage+V+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Romeo+y+Julieta+Vintage+V+Robusto","price":null}]
   },
   {
     id: "romeo-y-julieta-wide-churchill",
@@ -8616,7 +8639,7 @@ const CIGARS = [
     pairings: ["Chardonnay", "Light Beer"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Romeo+y+Julieta+Wide+Churchill","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Romeo+y+Julieta+Wide+Churchill","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Romeo+y+Julieta+Wide+Churchill","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Romeo+y+Julieta+Wide+Churchill","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/romeo-y-julieta-1875-cigars/romeo-y-julieta-1875-churchill-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Romeo+y+Julieta+Wide+Churchill","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Romeo+y+Julieta+Wide+Churchill","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Romeo+y+Julieta+Wide+Churchill","price":null}]
   },
   {
     id: "h-upmann-the-good-stuff-robusto",
@@ -8640,7 +8663,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Black Coffee"],
     yearFounded: 1844,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=H.+Upmann+The+Good+Stuff+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=H.+Upmann+The+Good+Stuff+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=H.+Upmann+The+Good+Stuff+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=H.+Upmann+The+Good+Stuff+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/h-upmann-vintage-cameroon-cigars/h-upmann-vintage-cameroon-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=H.+Upmann+The+Good+Stuff+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=H.+Upmann+The+Good+Stuff+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=H.+Upmann+The+Good+Stuff+Robusto","price":null}]
   },
   {
     id: "h-upmann-connecticut-robusto",
@@ -8665,7 +8688,7 @@ const CIGARS = [
     pairings: ["Chardonnay", "Latte"],
     yearFounded: 1844,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=H.+Upmann+Connecticut+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=H.+Upmann+Connecticut+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=H.+Upmann+Connecticut+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=H.+Upmann+Connecticut+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/h-upmann-vintage-cameroon-cigars/h-upmann-vintage-cameroon-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=H.+Upmann+Connecticut+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=H.+Upmann+Connecticut+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=H.+Upmann+Connecticut+Robusto","price":null}]
   },
   {
     id: "h-upmann-legacy-robusto",
@@ -8689,7 +8712,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Espresso"],
     yearFounded: 1844,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=H.+Upmann+Legacy+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=H.+Upmann+Legacy+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=H.+Upmann+Legacy+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=H.+Upmann+Legacy+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/h-upmann-vintage-cameroon-cigars/h-upmann-vintage-cameroon-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=H.+Upmann+Legacy+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=H.+Upmann+Legacy+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=H.+Upmann+Legacy+Robusto","price":null}]
   },
   {
     id: "aging-room-quattro-f55-concerto",
@@ -8787,7 +8810,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Latte"],
     yearFounded: 1999,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diamond+Crown+Julius+Caeser+Toro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diamond+Crown+Julius+Caeser+Toro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Diamond+Crown+Julius+Caeser+Toro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diamond+Crown+Julius+Caeser+Toro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/diamond-crown-classic-cigars/diamond-crown-classic-maduro-toro-no-3-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diamond+Crown+Julius+Caeser+Toro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diamond+Crown+Julius+Caeser+Toro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diamond+Crown+Julius+Caeser+Toro","price":null}]
   },
   {
     id: "diamond-crown-classic-no-5",
@@ -8812,7 +8835,7 @@ const CIGARS = [
     pairings: ["Chardonnay", "Latte"],
     yearFounded: 1999,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diamond+Crown+Classic+No.+5","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diamond+Crown+Classic+No.+5","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Diamond+Crown+Classic+No.+5","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diamond+Crown+Classic+No.+5","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/diamond-crown-classic-cigars/diamond-crown-classic-churchill-no-2-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diamond+Crown+Classic+No.+5","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diamond+Crown+Classic+No.+5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diamond+Crown+Classic+No.+5","price":null}]
   },
   {
     id: "quesada-reserva-privada-robusto",
@@ -9225,7 +9248,7 @@ const CIGARS = [
     pairings: ["Aged Bourbon", "Añejo Rum", "Single Malt Scotch"],
     yearFounded: 2005,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+Family+Reserve+No+50+Natural","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+Family+Reserve+No+50+Natural","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+Family+Reserve+No+50+Natural","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+Family+Reserve+No+50+Natural","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Padron+Family+Reserve+No+50+Natural","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/padron-family-reserve-cigars/padron-family-reserve-44-years-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+Family+Reserve+No+50+Natural","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+Family+Reserve+No+50+Natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+Family+Reserve+No+50+Natural","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Padron+Family+Reserve+No+50+Natural","price":null}]
   },
   {
     id: "padron-3000-natural",
@@ -9250,7 +9273,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Dark Beer"],
     yearFounded: 1964,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+3000+Natural","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+3000+Natural","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+3000+Natural","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+3000+Natural","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Padron+3000+Natural","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/padron-series-cigars/padron-3000-maduro-cigars","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+3000+Natural","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+3000+Natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+3000+Natural","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Padron+3000+Natural","price":null}]
   },
   {
     id: "padron-7000-natural",
@@ -9275,7 +9298,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Iced Coffee", "Amber Ale"],
     yearFounded: 1964,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+7000+Natural","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+7000+Natural","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+7000+Natural","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+7000+Natural","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Padron+7000+Natural","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/padron-series-cigars/padron-7000-maduro-cigars","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+7000+Natural","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+7000+Natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+7000+Natural","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Padron+7000+Natural","price":null}]
   },
   {
     id: "padron-2000-natural",
@@ -9300,7 +9323,7 @@ const CIGARS = [
     pairings: ["Morning Coffee", "Bourbon", "Light Beer"],
     yearFounded: 1964,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+2000+Natural","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+2000+Natural","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Padron+2000+Natural","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+2000+Natural","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Padron+2000+Natural","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/padron-series-cigars/padron-2000-maduro-cigars","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Padron+2000+Natural","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Padron+2000+Natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Padron+2000+Natural","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Padron+2000+Natural","price":null}]
   },
   {
     id: "opus-x-fuente-fuente-robusto",
@@ -9324,7 +9347,7 @@ const CIGARS = [
     pairings: ["Cognac", "Single Malt Scotch", "Espresso"],
     yearFounded: 1995,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=OpusX+Fuente+Fuente","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=OpusX+Fuente+Fuente","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=OpusX+Fuente+Fuente","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=OpusX+Fuente+Fuente","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=OpusX+Fuente+Fuente","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-hemingway-cigars/arturo-fuente-hemingway-work-of-art-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=OpusX+Fuente+Fuente","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=OpusX+Fuente+Fuente","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=OpusX+Fuente+Fuente","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=OpusX+Fuente+Fuente","price":null}]
   },
   {
     id: "opus-x-perfecxion-x",
@@ -9348,7 +9371,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Cognac", "Espresso"],
     yearFounded: 1995,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=OpusX+Perfecxion+X","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=OpusX+Perfecxion+X","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=OpusX+Perfecxion+X","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=OpusX+Perfecxion+X","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=OpusX+Perfecxion+X","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-hemingway-cigars/arturo-fuente-hemingway-work-of-art-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=OpusX+Perfecxion+X","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=OpusX+Perfecxion+X","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=OpusX+Perfecxion+X","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=OpusX+Perfecxion+X","price":null}]
   },
   {
     id: "fuente-hemingway-best-seller",
@@ -9373,7 +9396,7 @@ const CIGARS = [
     pairings: ["Coffee", "Light Rum", "Brandy"],
     yearFounded: 1985,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Fuente+Hemingway+Best+Seller","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Fuente+Hemingway+Best+Seller","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Fuente+Hemingway+Best+Seller","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Fuente+Hemingway+Best+Seller","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Fuente+Hemingway+Best+Seller","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-hemingway-cigars/arturo-fuente-hemingway-best-seller-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Fuente+Hemingway+Best+Seller","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Fuente+Hemingway+Best+Seller","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Fuente+Hemingway+Best+Seller","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Fuente+Hemingway+Best+Seller","price":null}]
   },
   {
     id: "fuente-hemingway-classic",
@@ -9398,7 +9421,7 @@ const CIGARS = [
     pairings: ["Cognac", "Coffee", "White Wine"],
     yearFounded: 1980,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Fuente+Hemingway+Classic","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Fuente+Hemingway+Classic","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Fuente+Hemingway+Classic","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Fuente+Hemingway+Classic","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Fuente+Hemingway+Classic","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-hemingway-cigars/arturo-fuente-hemingway-classic-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Fuente+Hemingway+Classic","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Fuente+Hemingway+Classic","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Fuente+Hemingway+Classic","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Fuente+Hemingway+Classic","price":null}]
   },
   {
     id: "fuente-don-carlos-no3",
@@ -9423,7 +9446,7 @@ const CIGARS = [
     pairings: ["Coffee", "Brandy", "Bourbon"],
     yearFounded: 1982,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Fuente+Don+Carlos+No+3","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Fuente+Don+Carlos+No+3","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Fuente+Don+Carlos+No+3","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Fuente+Don+Carlos+No+3","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Fuente+Don+Carlos+No+3","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-don-carlos-cigars/arturo-fuente-don-carlos-no-2-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Fuente+Don+Carlos+No+3","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Fuente+Don+Carlos+No+3","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Fuente+Don+Carlos+No+3","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Fuente+Don+Carlos+No+3","price":null}]
   },
   {
     id: "fuente-don-carlos-robusto",
@@ -9448,7 +9471,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Brandy"],
     yearFounded: 1982,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Fuente+Don+Carlos+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Fuente+Don+Carlos+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Fuente+Don+Carlos+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Fuente+Don+Carlos+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Fuente+Don+Carlos+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-don-carlos-cigars/arturo-fuente-don-carlos-double-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Fuente+Don+Carlos+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Fuente+Don+Carlos+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Fuente+Don+Carlos+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Fuente+Don+Carlos+Robusto","price":null}]
   },
   {
     id: "arturo-fuente-opus-22-robusto",
@@ -9472,7 +9495,7 @@ const CIGARS = [
     pairings: ["Cognac", "Aged Rum", "Espresso"],
     yearFounded: 2017,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Arturo+Fuente+Opus+22+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Arturo+Fuente+Opus+22+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Arturo+Fuente+Opus+22+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Arturo+Fuente+Opus+22+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Arturo+Fuente+Opus+22+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-don-carlos-cigars/arturo-fuente-don-carlos-double-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Arturo+Fuente+Opus+22+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Arturo+Fuente+Opus+22+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Arturo+Fuente+Opus+22+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Arturo+Fuente+Opus+22+Robusto","price":null}]
   },
   {
     id: "fuente-858-natural-robusto",
@@ -9497,7 +9520,7 @@ const CIGARS = [
     pairings: ["Coffee", "Brandy", "Cream Sherry"],
     yearFounded: 1956,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Arturo+Fuente+858+Natural+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Arturo+Fuente+858+Natural+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Arturo+Fuente+858+Natural+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Arturo+Fuente+858+Natural+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Arturo+Fuente+858+Natural+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-don-carlos-cigars/arturo-fuente-don-carlos-double-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Arturo+Fuente+858+Natural+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Arturo+Fuente+858+Natural+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Arturo+Fuente+858+Natural+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Arturo+Fuente+858+Natural+Robusto","price":null}]
   },
   {
     id: "chateau-fuente-queen-b",
@@ -9522,7 +9545,7 @@ const CIGARS = [
     pairings: ["Cognac", "Coffee", "Bourbon"],
     yearFounded: 1994,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Chateau+Fuente+Queen+B","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Chateau+Fuente+Queen+B","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Chateau+Fuente+Queen+B","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Chateau+Fuente+Queen+B","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Chateau+Fuente+Queen+B","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-cigars/arturo-fuente-chateau-fuente-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Chateau+Fuente+Queen+B","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Chateau+Fuente+Queen+B","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Chateau+Fuente+Queen+B","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Chateau+Fuente+Queen+B","price":null}]
   },
   {
     id: "fuente-gran-aniversario",
@@ -9546,7 +9569,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Aged Cognac", "Espresso"],
     yearFounded: 2000,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Fuente+Gran+AniverXario","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Fuente+Gran+AniverXario","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Fuente+Gran+AniverXario","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Fuente+Gran+AniverXario","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Fuente+Gran+AniverXario","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-hemingway-cigars/arturo-fuente-hemingway-work-of-art-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Fuente+Gran+AniverXario","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Fuente+Gran+AniverXario","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Fuente+Gran+AniverXario","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Fuente+Gran+AniverXario","price":null}]
   },
   {
     id: "cohiba-black-robusto",
@@ -9816,7 +9839,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Rum", "Espresso"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Antiguedad+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Antiguedad+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=La+Antiguedad+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Antiguedad+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=La+Antiguedad+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/my-father-le-bijou-1922-cigars/my-father-le-bijou-1922-petit-robusto-cigars-oscuro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Antiguedad+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Antiguedad+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Antiguedad+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=La+Antiguedad+Robusto","price":null}]
   },
   {
     id: "my-father-la-antiguedad-toro",
@@ -9866,7 +9889,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Port", "Dark Coffee"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=My+Father+Le+Bijou+1922+Torpedo","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=My+Father+Le+Bijou+1922+Torpedo","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=My+Father+Le+Bijou+1922+Torpedo","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=My+Father+Le+Bijou+1922+Torpedo","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=My+Father+Le+Bijou+1922+Torpedo","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/my-father-le-bijou-1922-cigars/my-father-le-bijou-1922-churchill-cigars-oscuro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=My+Father+Le+Bijou+1922+Torpedo","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=My+Father+Le+Bijou+1922+Torpedo","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=My+Father+Le+Bijou+1922+Torpedo","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=My+Father+Le+Bijou+1922+Torpedo","price":null}]
   },
   {
     id: "my-father-le-bijou-1922-toro",
@@ -9891,7 +9914,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Port", "Dark Coffee"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=My+Father+Le+Bijou+1922+Toro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=My+Father+Le+Bijou+1922+Toro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=My+Father+Le+Bijou+1922+Toro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=My+Father+Le+Bijou+1922+Toro","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=My+Father+Le+Bijou+1922+Toro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/my-father-le-bijou-1922-cigars/my-father-le-bijou-1922-churchill-cigars-oscuro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=My+Father+Le+Bijou+1922+Toro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=My+Father+Le+Bijou+1922+Toro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=My+Father+Le+Bijou+1922+Toro","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=My+Father+Le+Bijou+1922+Toro","price":null}]
   },
   {
     id: "my-father-no1-robusto",
@@ -9916,7 +9939,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Scotch", "Black Coffee"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=My+Father+No.+1+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=My+Father+No.+1+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=My+Father+No.+1+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=My+Father+No.+1+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=My+Father+No.+1+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/my-father-le-bijou-1922-cigars/my-father-le-bijou-1922-petit-robusto-cigars-oscuro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=My+Father+No.+1+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=My+Father+No.+1+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=My+Father+No.+1+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=My+Father+No.+1+Robusto","price":null}]
   },
   {
     id: "my-father-no1-toro",
@@ -9940,7 +9963,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Scotch", "Black Coffee"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=My+Father+No.+1+Toro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=My+Father+No.+1+Toro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=My+Father+No.+1+Toro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=My+Father+No.+1+Toro","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=My+Father+No.+1+Toro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/my-father-cigars/my-father-no-1-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=My+Father+No.+1+Toro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=My+Father+No.+1+Toro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=My+Father+No.+1+Toro","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=My+Father+No.+1+Toro","price":null}]
   },
   {
     id: "my-father-flor-de-las-antillas-robusto",
@@ -10015,7 +10038,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "White Wine", "Light Coffee"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Vintage+1990+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Vintage+1990+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Vintage+1990+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Vintage+1990+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Vintage+1990+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Vintage+1990+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Vintage+1990+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Vintage+1990+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Vintage+1990+Robusto","price":null}]
   },
   {
     id: "rocky-patel-vintage-1992-robusto",
@@ -10040,7 +10063,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Aged Rum"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Vintage+1992+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Vintage+1992+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Vintage+1992+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Vintage+1992+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Vintage+1992+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Vintage+1992+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Vintage+1992+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Vintage+1992+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Vintage+1992+Robusto","price":null}]
   },
   {
     id: "rocky-patel-vintage-2003-torpedo",
@@ -10065,7 +10088,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Scotch", "Dark Coffee"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Vintage+2003+Torpedo","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Vintage+2003+Torpedo","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Vintage+2003+Torpedo","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Vintage+2003+Torpedo","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Vintage+2003+Torpedo","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-torpedo-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Vintage+2003+Torpedo","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Vintage+2003+Torpedo","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Vintage+2003+Torpedo","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Vintage+2003+Torpedo","price":null}]
   },
   {
     id: "rocky-patel-edge-habano-robusto",
@@ -10090,7 +10113,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Rum", "Espresso"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Edge+Habano+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Edge+Habano+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Edge+Habano+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Edge+Habano+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Edge+Habano+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Edge+Habano+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Edge+Habano+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Edge+Habano+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Edge+Habano+Robusto","price":null}]
   },
   {
     id: "rocky-patel-edge-maduro-robusto",
@@ -10115,7 +10138,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Port", "Espresso"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Edge+Maduro+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Edge+Maduro+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Edge+Maduro+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Edge+Maduro+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Edge+Maduro+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Edge+Maduro+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Edge+Maduro+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Edge+Maduro+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Edge+Maduro+Robusto","price":null}]
   },
   {
     id: "rocky-patel-decade-toro",
@@ -10140,7 +10163,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Bourbon", "Coffee"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Decade+Toro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Decade+Toro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Decade+Toro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Decade+Toro","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Decade+Toro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-decade-cigars/rocky-patel-decade-toro-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Decade+Toro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Decade+Toro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Decade+Toro","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Decade+Toro","price":null}]
   },
   {
     id: "rocky-patel-fifteenth-anniversary-robusto",
@@ -10165,7 +10188,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Aged Rum", "Coffee"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Fifteenth+Anniversary+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Fifteenth+Anniversary+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Fifteenth+Anniversary+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Fifteenth+Anniversary+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Fifteenth+Anniversary+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-15th-anniversary-cigars/rocky-patel-15th-anniversary-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Fifteenth+Anniversary+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Fifteenth+Anniversary+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Fifteenth+Anniversary+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Fifteenth+Anniversary+Robusto","price":null}]
   },
   {
     id: "rocky-patel-sun-grown-robusto",
@@ -10190,7 +10213,7 @@ const CIGARS = [
     pairings: ["Beer", "Coffee", "Bourbon"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Sun+Grown+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Sun+Grown+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Sun+Grown+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Sun+Grown+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Sun+Grown+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-sun-grown-cigars/rocky-patel-sun-grown-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Sun+Grown+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Sun+Grown+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Sun+Grown+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Sun+Grown+Robusto","price":null}]
   },
   {
     id: "rocky-patel-hamlet-2000-robusto",
@@ -10214,7 +10237,7 @@ const CIGARS = [
     pairings: ["Light Beer", "White Wine", "Café au Lait"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Hamlet+2000+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Hamlet+2000+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Hamlet+2000+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Hamlet+2000+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Hamlet+2000+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Hamlet+2000+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Hamlet+2000+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Hamlet+2000+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Hamlet+2000+Robusto","price":null}]
   },
   {
     id: "rocky-patel-ams-robusto",
@@ -10239,7 +10262,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Light Beer"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+American+Market+Selection+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+American+Market+Selection+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+American+Market+Selection+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+American+Market+Selection+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+American+Market+Selection+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-american-market-selection-cigars/rocky-patel-american-market-selection-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+American+Market+Selection+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+American+Market+Selection+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+American+Market+Selection+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+American+Market+Selection+Robusto","price":null}]
   },
   {
     id: "aj-fernandez-new-world-robusto",
@@ -10460,7 +10483,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Port", "Espresso"],
     yearFounded: 1992,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Perdomo+20th+Anniversary+Maduro+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Perdomo+20th+Anniversary+Maduro+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Perdomo+20th+Anniversary+Maduro+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Perdomo+20th+Anniversary+Maduro+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Perdomo+20th+Anniversary+Maduro+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/perdomo-champagne-cigars/perdomo-champagne-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Perdomo+20th+Anniversary+Maduro+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Perdomo+20th+Anniversary+Maduro+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Perdomo+20th+Anniversary+Maduro+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Perdomo+20th+Anniversary+Maduro+Robusto","price":null}]
   },
   {
     id: "perdomo-20th-anniversary-sun-grown-robusto",
@@ -10510,7 +10533,7 @@ const CIGARS = [
     pairings: ["Champagne", "White Wine", "Light Coffee"],
     yearFounded: 1992,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Perdomo+Reserve+10th+Anniversary+Champagne+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Perdomo+Reserve+10th+Anniversary+Champagne+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Perdomo+Reserve+10th+Anniversary+Champagne+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Perdomo+Reserve+10th+Anniversary+Champagne+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Perdomo+Reserve+10th+Anniversary+Champagne+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/perdomo-champagne-cigars/perdomo-champagne-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Perdomo+Reserve+10th+Anniversary+Champagne+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Perdomo+Reserve+10th+Anniversary+Champagne+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Perdomo+Reserve+10th+Anniversary+Champagne+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Perdomo+Reserve+10th+Anniversary+Champagne+Robusto","price":null}]
   },
   {
     id: "perdomo-habano-bourbon-barrel-sun-grown-robusto",
@@ -10608,7 +10631,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Dark Rum"],
     yearFounded: 1992,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Perdomo+ESX-B+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Perdomo+ESX-B+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Perdomo+ESX-B+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Perdomo+ESX-B+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Perdomo+ESX-B+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/perdomo-champagne-cigars/perdomo-champagne-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Perdomo+ESX-B+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Perdomo+ESX-B+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Perdomo+ESX-B+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Perdomo+ESX-B+Robusto","price":null}]
   },
   {
     id: "perdomo-inmenso-seventy-robusto",
@@ -10633,7 +10656,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Cognac", "Coffee"],
     yearFounded: 1992,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Perdomo+Inmenso+Seventy+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Perdomo+Inmenso+Seventy+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Perdomo+Inmenso+Seventy+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Perdomo+Inmenso+Seventy+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Perdomo+Inmenso+Seventy+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/perdomo-champagne-cigars/perdomo-champagne-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Perdomo+Inmenso+Seventy+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Perdomo+Inmenso+Seventy+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Perdomo+Inmenso+Seventy+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Perdomo+Inmenso+Seventy+Robusto","price":null}]
   },
   {
     id: "plasencia-alma-del-fuego-robustillo",
@@ -10658,7 +10681,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Scotch", "Espresso"],
     yearFounded: 1865,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Alma+del+Fuego+Robustillo","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+del+Fuego+Robustillo","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Plasencia+Alma+del+Fuego+Robustillo","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+del+Fuego+Robustillo","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Plasencia+Alma+del+Fuego+Robustillo","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/plasencia-alma-del-fuego-cigars/alma-del-fuego-flama-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Alma+del+Fuego+Robustillo","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+del+Fuego+Robustillo","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+del+Fuego+Robustillo","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Plasencia+Alma+del+Fuego+Robustillo","price":null}]
   },
   {
     id: "plasencia-alma-del-campo-robusto",
@@ -10683,7 +10706,7 @@ const CIGARS = [
     pairings: ["White Wine", "Green Tea", "Light Coffee"],
     yearFounded: 1865,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Alma+del+Campo+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+del+Campo+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Plasencia+Alma+del+Campo+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+del+Campo+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Plasencia+Alma+del+Campo+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/plasencia-alma-del-campo-cigars/plasencia-alma-del-campo-travesia-box-pressed-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Alma+del+Campo+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+del+Campo+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+del+Campo+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Plasencia+Alma+del+Campo+Robusto","price":null}]
   },
   {
     id: "plasencia-cosecha-146-robusto",
@@ -10707,7 +10730,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Aged Rum"],
     yearFounded: 1865,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Cosecha+146+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Cosecha+146+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Plasencia+Cosecha+146+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Cosecha+146+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Plasencia+Cosecha+146+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/plasencia-reserva-original-cigars/plasencia-reserva-original-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Cosecha+146+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Cosecha+146+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Cosecha+146+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Plasencia+Cosecha+146+Robusto","price":null}]
   },
   {
     id: "plasencia-reserva-original-robusto",
@@ -10732,7 +10755,7 @@ const CIGARS = [
     pairings: ["Scotch", "Coffee", "Beer"],
     yearFounded: 1865,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Reserva+Original+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Reserva+Original+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Plasencia+Reserva+Original+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Reserva+Original+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Plasencia+Reserva+Original+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/plasencia-reserva-original-cigars/plasencia-reserva-original-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Reserva+Original+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Reserva+Original+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Reserva+Original+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Plasencia+Reserva+Original+Robusto","price":null}]
   },
   {
     id: "plasencia-alma-fuerte-sixto-i",
@@ -10757,7 +10780,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Single Malt Scotch", "Espresso"],
     yearFounded: 1865,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Alma+Fuerte+Sixto+I","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+Fuerte+Sixto+I","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Plasencia+Alma+Fuerte+Sixto+I","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+Fuerte+Sixto+I","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Plasencia+Alma+Fuerte+Sixto+I","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/plasencia-alma-fuerte-cigars/plasencia-alma-fuerte-sixto-ii-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Alma+Fuerte+Sixto+I","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+Fuerte+Sixto+I","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+Fuerte+Sixto+I","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Plasencia+Alma+Fuerte+Sixto+I","price":null}]
   },
   {
     id: "plasencia-year-of-the-tiger",
@@ -10805,7 +10828,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Aged Rum"],
     yearFounded: 1990,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Aganorsa+Leaf+Supreme+Leaf+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Aganorsa+Leaf+Supreme+Leaf+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Aganorsa+Leaf+Supreme+Leaf+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Aganorsa+Leaf+Supreme+Leaf+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Aganorsa+Leaf+Supreme+Leaf+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/aganorsa-leaf-supreme-leaf-cigars/aganorsa-leaf-supreme-leaf-gran-toro-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Aganorsa+Leaf+Supreme+Leaf+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Aganorsa+Leaf+Supreme+Leaf+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Aganorsa+Leaf+Supreme+Leaf+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Aganorsa+Leaf+Supreme+Leaf+Robusto","price":null}]
   },
   {
     id: "aganorsa-leaf-jfr-maduro-robusto",
@@ -10830,7 +10853,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Port", "Dark Coffee"],
     yearFounded: 1990,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Aganorsa+Leaf+JFR+Maduro+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Aganorsa+Leaf+JFR+Maduro+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Aganorsa+Leaf+JFR+Maduro+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Aganorsa+Leaf+JFR+Maduro+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Aganorsa+Leaf+JFR+Maduro+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/aganorsa-leaf-supreme-leaf-cigars/aganorsa-leaf-supreme-leaf-gran-toro-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Aganorsa+Leaf+JFR+Maduro+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Aganorsa+Leaf+JFR+Maduro+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Aganorsa+Leaf+JFR+Maduro+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Aganorsa+Leaf+JFR+Maduro+Robusto","price":null}]
   },
   {
     id: "aganorsa-leaf-connecticut-robusto",
@@ -10855,7 +10878,7 @@ const CIGARS = [
     pairings: ["Coffee", "White Wine", "Light Lager"],
     yearFounded: 1990,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Aganorsa+Leaf+Connecticut+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Aganorsa+Leaf+Connecticut+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Aganorsa+Leaf+Connecticut+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Aganorsa+Leaf+Connecticut+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Aganorsa+Leaf+Connecticut+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/aganorsa-leaf-supreme-leaf-cigars/aganorsa-leaf-supreme-leaf-gran-toro-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Aganorsa+Leaf+Connecticut+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Aganorsa+Leaf+Connecticut+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Aganorsa+Leaf+Connecticut+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Aganorsa+Leaf+Connecticut+Robusto","price":null}]
   },
   {
     id: "aganorsa-leaf-swamp-thang-robusto",
@@ -10879,7 +10902,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Rye Whiskey", "Dark Coffee"],
     yearFounded: 1990,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Aganorsa+Leaf+Swamp+Thang+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Aganorsa+Leaf+Swamp+Thang+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Aganorsa+Leaf+Swamp+Thang+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Aganorsa+Leaf+Swamp+Thang+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Aganorsa+Leaf+Swamp+Thang+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/aganorsa-leaf-supreme-leaf-cigars/aganorsa-leaf-supreme-leaf-gran-toro-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Aganorsa+Leaf+Swamp+Thang+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Aganorsa+Leaf+Swamp+Thang+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Aganorsa+Leaf+Swamp+Thang+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Aganorsa+Leaf+Swamp+Thang+Robusto","price":null}]
   },
   {
     id: "casa-fernandez-aniversario-robusto",
@@ -10954,7 +10977,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 1886,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-torpedo-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Torpedo","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Torpedo","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+V+Torpedo","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Torpedo","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Oliva+Serie+V+Torpedo","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-torpedo-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Torpedo","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Torpedo","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Torpedo","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Oliva+Serie+V+Torpedo","price":null}]
   },
   {
     id: "oliva-serie-v-belicoso",
@@ -10979,7 +11002,7 @@ const CIGARS = [
     pairings: ["Rye Whiskey", "Cold Brew Coffee", "Porter"],
     yearFounded: 1886,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-belicoso-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Belicoso","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Belicoso","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+V+Belicoso","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Belicoso","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Oliva+Serie+V+Belicoso","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-belicoso-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+V+Belicoso","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+V+Belicoso","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+V+Belicoso","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Oliva+Serie+V+Belicoso","price":null}]
   },
   {
     id: "oliva-serie-g-robusto",
@@ -11004,7 +11027,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Vanilla Latte", "Dry Sherry"],
     yearFounded: 1886,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-g-cigars/oliva-serie-g-robusto-cigars-natural","price":null}, {"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+G+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+G+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+G+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+G+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Oliva+Serie+G+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-double-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+G+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+G+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+G+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Oliva+Serie+G+Robusto","price":null}]
   },
   {
     id: "nub-oliva-habano-460",
@@ -11029,7 +11052,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Americano", "Dark Lager"],
     yearFounded: 1886,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Oliva+Habano+460","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Oliva+Habano+460","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Nub+Oliva+Habano+460","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Oliva+Habano+460","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Nub+Oliva+Habano+460","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-nub-4-x-60-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Nub+Oliva+Habano+460","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Nub+Oliva+Habano+460","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Nub+Oliva+Habano+460","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Nub+Oliva+Habano+460","price":null}]
   },
   {
     id: "oliva-master-blends-iii-robusto",
@@ -11054,7 +11077,7 @@ const CIGARS = [
     pairings: ["Irish Whiskey", "Flat White", "Pale Ale"],
     yearFounded: 1886,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Master+Blends+III+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Master+Blends+III+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Master+Blends+III+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Master+Blends+III+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Oliva+Master+Blends+III+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-double-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Master+Blends+III+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Master+Blends+III+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Master+Blends+III+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Oliva+Master+Blends+III+Robusto","price":null}]
   },
   {
     id: "oliva-connecticut-reserve-robusto",
@@ -11079,7 +11102,7 @@ const CIGARS = [
     pairings: ["Mild Coffee", "Champagne", "Light Rum"],
     yearFounded: 1886,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Connecticut+Reserve+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Connecticut+Reserve+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Connecticut+Reserve+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Connecticut+Reserve+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Oliva+Connecticut+Reserve+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-connecticut-reserve-cigars/oliva-connecticut-reserve-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Connecticut+Reserve+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Connecticut+Reserve+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Connecticut+Reserve+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Oliva+Connecticut+Reserve+Robusto","price":null}]
   },
   {
     id: "oliva-serie-o-maduro-robusto",
@@ -11104,7 +11127,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Stout"],
     yearFounded: 1886,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+O+Maduro+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+O+Maduro+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Oliva+Serie+O+Maduro+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+O+Maduro+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Oliva+Serie+O+Maduro+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-cigars/oliva-serie-v-double-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Oliva+Serie+O+Maduro+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Oliva+Serie+O+Maduro+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Oliva+Serie+O+Maduro+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Oliva+Serie+O+Maduro+Robusto","price":null}]
   },
   {
     id: "davidoff-aniversario-no-3",
@@ -11129,7 +11152,7 @@ const CIGARS = [
     pairings: ["Cognac", "Champagne", "Mild Coffee"],
     yearFounded: 1946,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Aniversario+No.+3","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Aniversario+No.+3","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Aniversario+No.+3","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Aniversario+No.+3","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Davidoff+Aniversario+No.+3","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-aniversario-series-cigars/davidoff-aniversario-no-3-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Aniversario+No.+3","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Aniversario+No.+3","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Aniversario+No.+3","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Davidoff+Aniversario+No.+3","price":null}]
   },
   {
     id: "davidoff-primeros-dominican",
@@ -11179,7 +11202,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Aged Rum", "Stout"],
     yearFounded: 1946,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Escurio+Gran+Toro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Escurio+Gran+Toro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Escurio+Gran+Toro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Escurio+Gran+Toro","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Davidoff+Escurio+Gran+Toro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-escurio-cigars/davidoff-escurio-gran-toro-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Escurio+Gran+Toro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Escurio+Gran+Toro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Escurio+Gran+Toro","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Davidoff+Escurio+Gran+Toro","price":null}]
   },
   {
     id: "davidoff-nicaragua-box-pressed-toro",
@@ -11204,7 +11227,7 @@ const CIGARS = [
     pairings: ["Rye Whiskey", "Black Coffee", "IPA"],
     yearFounded: 1946,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Nicaragua+Box+Pressed+Toro","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Nicaragua+Box+Pressed+Toro","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Davidoff+Nicaragua+Box+Pressed+Toro","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Nicaragua+Box+Pressed+Toro","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Davidoff+Nicaragua+Box+Pressed+Toro","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-nicaragua-cigars/davidoff-nicaragua-toro-bp-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Davidoff+Nicaragua+Box+Pressed+Toro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Davidoff+Nicaragua+Box+Pressed+Toro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Davidoff+Nicaragua+Box+Pressed+Toro","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Davidoff+Nicaragua+Box+Pressed+Toro","price":null}]
   },
   {
     id: "davidoff-year-of-the-rabbit",
@@ -11253,7 +11276,7 @@ const CIGARS = [
     pairings: ["Cognac", "Mild Coffee", "Dry White Wine"],
     yearFounded: 1985,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Cabinet+No.+6","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+Cabinet+No.+6","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Ashton+Cabinet+No.+6","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Cabinet+No.+6","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Ashton+Cabinet+No.+6","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/ashton-cabinet-selection-cigars/ashton-cabinet-selection-no-10-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Cabinet+No.+6","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+Cabinet+No.+6","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Cabinet+No.+6","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Ashton+Cabinet+No.+6","price":null}]
   },
   {
     id: "ashton-aged-maduro-no-20",
@@ -11278,7 +11301,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Chocolate Liqueur"],
     yearFounded: 1985,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Aged+Maduro+No.+20","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+Aged+Maduro+No.+20","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Ashton+Aged+Maduro+No.+20","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Aged+Maduro+No.+20","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Ashton+Aged+Maduro+No.+20","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/ashton-aged-maduro-cigars/ashton-aged-maduro-no-10-cigars","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Aged+Maduro+No.+20","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+Aged+Maduro+No.+20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Aged+Maduro+No.+20","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Ashton+Aged+Maduro+No.+20","price":null}]
   },
   {
     id: "ashton-esg-torpedo",
@@ -11328,7 +11351,7 @@ const CIGARS = [
     pairings: ["Rum", "Café Americano", "Aged Brandy"],
     yearFounded: 1985,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Heritage+Puro+Sol+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+Heritage+Puro+Sol+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Ashton+Heritage+Puro+Sol+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Heritage+Puro+Sol+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Ashton+Heritage+Puro+Sol+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/ashton-symmetry-cigars/ashton-symmetry-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Heritage+Puro+Sol+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+Heritage+Puro+Sol+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Heritage+Puro+Sol+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Ashton+Heritage+Puro+Sol+Robusto","price":null}]
   },
   {
     id: "ashton-classic-corona",
@@ -11353,7 +11376,7 @@ const CIGARS = [
     pairings: ["Mild Coffee", "Champagne", "Iced Tea"],
     yearFounded: 1985,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Classic+Corona","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+Classic+Corona","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Ashton+Classic+Corona","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Classic+Corona","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Ashton+Classic+Corona","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/ashton-classic-cigars/ashton-classic-corona-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Ashton+Classic+Corona","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Ashton+Classic+Corona","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Ashton+Classic+Corona","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Ashton+Classic+Corona","price":null}]
   },
   {
     id: "liga-privada-no-9-robusto",
@@ -11378,7 +11401,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Stout", "Espresso"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Liga+Privada+No.+9+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Liga+Privada+No.+9+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Liga+Privada+No.+9+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Liga+Privada+No.+9+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Liga+Privada+No.+9+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-no-9-cigars/liga-privada-no-9-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Liga+Privada+No.+9+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Liga+Privada+No.+9+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Liga+Privada+No.+9+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Liga+Privada+No.+9+Robusto","price":null}]
   },
   {
     id: "liga-privada-t52-robusto",
@@ -11403,7 +11426,7 @@ const CIGARS = [
     pairings: ["Rye Whiskey", "Espresso", "Dark Stout"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Liga+Privada+T52+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Liga+Privada+T52+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Liga+Privada+T52+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Liga+Privada+T52+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Liga+Privada+T52+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-t52-cigars/liga-privada-t52-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Liga+Privada+T52+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Liga+Privada+T52+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Liga+Privada+T52+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Liga+Privada+T52+Robusto","price":null}]
   },
   {
     id: "undercrown-robusto-shade",
@@ -11428,7 +11451,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Latte", "Pale Ale"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Undercrown+Shade+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Undercrown+Shade+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Undercrown+Shade+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Undercrown+Shade+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Undercrown+Shade+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/undercrown-shade-cigars/undercrown-shade-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Undercrown+Shade+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Undercrown+Shade+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Undercrown+Shade+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Undercrown+Shade+Robusto","price":null}]
   },
   {
     id: "undercrown-maduro-robusto",
@@ -11453,7 +11476,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Coffee", "Stout"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Undercrown+Maduro+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Undercrown+Maduro+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Undercrown+Maduro+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Undercrown+Maduro+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Undercrown+Maduro+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/undercrown-shade-cigars/undercrown-shade-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Undercrown+Maduro+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Undercrown+Maduro+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Undercrown+Maduro+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Undercrown+Maduro+Robusto","price":null}]
   },
   {
     id: "herrera-esteli-miami-robusto",
@@ -11849,7 +11872,7 @@ const CIGARS = [
     pairings: ["Cuban Coffee", "Light Rum", "Dry Sherry"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Tatuaje+Havana+VI+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Tatuaje+Havana+VI+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Tatuaje+Havana+VI+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Tatuaje+Havana+VI+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Tatuaje+Havana+VI+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/tatuaje-havana-vi-cigars/tatuaje-havana-vi-almirantes-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Tatuaje+Havana+VI+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Tatuaje+Havana+VI+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Tatuaje+Havana+VI+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Tatuaje+Havana+VI+Robusto","price":null}]
   },
   {
     id: "tatuaje-cabaiguan-guapo",
@@ -11948,7 +11971,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Black Coffee"],
     yearFounded: 1840,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Punch+Gran+Puro+Nicaragua+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Punch+Gran+Puro+Nicaragua+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Punch+Gran+Puro+Nicaragua+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Punch+Gran+Puro+Nicaragua+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Punch+Gran+Puro+Nicaragua+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/punch-gran-puro-cigars/punch-gran-puro-pico-bonito-cigars-dark-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Punch+Gran+Puro+Nicaragua+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Punch+Gran+Puro+Nicaragua+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Punch+Gran+Puro+Nicaragua+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Punch+Gran+Puro+Nicaragua+Robusto","price":null}]
   },
   {
     id: "cohiba-robusto",
@@ -13172,7 +13195,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Rye Whiskey", "Dark Coffee"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diesel+Whiskey+Row+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diesel+Whiskey+Row+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Diesel+Whiskey+Row+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diesel+Whiskey+Row+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Diesel+Whiskey+Row+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/diesel-whiskey-row-cigars/diesel-whiskey-row-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diesel+Whiskey+Row+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diesel+Whiskey+Row+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diesel+Whiskey+Row+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Diesel+Whiskey+Row+Robusto","price":null}]
   },
   {
     id: "diesel-unlimited-dx-robusto",
@@ -13196,7 +13219,7 @@ const CIGARS = [
     pairings: ["Espresso", "Dark Stout", "Rye Whiskey"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diesel+Unlimited+d.X+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diesel+Unlimited+d.X+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Diesel+Unlimited+d.X+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diesel+Unlimited+d.X+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Diesel+Unlimited+d.X+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/diesel-whiskey-row-cigars/diesel-whiskey-row-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diesel+Unlimited+d.X+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diesel+Unlimited+d.X+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diesel+Unlimited+d.X+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Diesel+Unlimited+d.X+Robusto","price":null}]
   },
   {
     id: "diesel-grind-robusto",
@@ -13220,7 +13243,7 @@ const CIGARS = [
     pairings: ["Black Coffee", "Bourbon", "Amber Ale"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diesel+Grind+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diesel+Grind+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Diesel+Grind+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diesel+Grind+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Diesel+Grind+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/diesel-whiskey-row-cigars/diesel-whiskey-row-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diesel+Grind+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diesel+Grind+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diesel+Grind+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Diesel+Grind+Robusto","price":null}]
   },
   {
     id: "diesel-hair-of-the-dog-robusto",
@@ -13244,7 +13267,7 @@ const CIGARS = [
     pairings: ["Espresso", "Bourbon", "Imperial Stout"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diesel+Hair+of+the+Dog+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diesel+Hair+of+the+Dog+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Diesel+Hair+of+the+Dog+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diesel+Hair+of+the+Dog+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Diesel+Hair+of+the+Dog+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/diesel-whiskey-row-cigars/diesel-whiskey-row-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diesel+Hair+of+the+Dog+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diesel+Hair+of+the+Dog+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diesel+Hair+of+the+Dog+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Diesel+Hair+of+the+Dog+Robusto","price":null}]
   },
   {
     id: "diesel-rage-robusto",
@@ -13268,7 +13291,7 @@ const CIGARS = [
     pairings: ["Black Coffee", "Dark Rum", "Porter"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diesel+Rage+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diesel+Rage+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Diesel+Rage+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diesel+Rage+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Diesel+Rage+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/diesel-whiskey-row-cigars/diesel-whiskey-row-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Diesel+Rage+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Diesel+Rage+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Diesel+Rage+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Diesel+Rage+Robusto","price":null}]
   },
   {
     id: "man-o-war-ruination-robusto",
@@ -13292,7 +13315,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Stout"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Man+O+War+Ruination+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Man+O+War+Ruination+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Man+O+War+Ruination+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Man+O+War+Ruination+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Man+O+War+Ruination+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/man-o-war-ruination-cigars/man-o-war-ruination-belicoso-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Man+O+War+Ruination+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Man+O+War+Ruination+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Man+O+War+Ruination+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Man+O+War+Ruination+Robusto","price":null}]
   },
   {
     id: "man-o-war-virtue-robusto",
@@ -13316,7 +13339,7 @@ const CIGARS = [
     pairings: ["Cream Soda", "Light Beer", "Coffee with Milk"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Man+O+War+Virtue+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Man+O+War+Virtue+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Man+O+War+Virtue+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Man+O+War+Virtue+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Man+O+War+Virtue+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/man-o-war-ruination-cigars/man-o-war-ruination-belicoso-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Man+O+War+Virtue+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Man+O+War+Virtue+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Man+O+War+Virtue+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Man+O+War+Virtue+Robusto","price":null}]
   },
   {
     id: "man-o-war-dark-horse-robusto",
@@ -13340,7 +13363,7 @@ const CIGARS = [
     pairings: ["Dark Coffee", "Bourbon", "Porter"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Man+O+War+Dark+Horse+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Man+O+War+Dark+Horse+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Man+O+War+Dark+Horse+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Man+O+War+Dark+Horse+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Man+O+War+Dark+Horse+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/man-o-war-ruination-cigars/man-o-war-ruination-belicoso-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Man+O+War+Dark+Horse+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Man+O+War+Dark+Horse+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Man+O+War+Dark+Horse+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Man+O+War+Dark+Horse+Robusto","price":null}]
   },
   {
     id: "man-o-war-armada-robusto",
@@ -13364,7 +13387,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Black Coffee", "Amber Ale"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Man+O+War+Armada+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Man+O+War+Armada+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Man+O+War+Armada+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Man+O+War+Armada+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Man+O+War+Armada+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/man-o-war-ruination-cigars/man-o-war-ruination-belicoso-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Man+O+War+Armada+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Man+O+War+Armada+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Man+O+War+Armada+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Man+O+War+Armada+Robusto","price":null}]
   },
   {
     id: "man-o-war-puro-authentico-robusto",
@@ -13388,7 +13411,7 @@ const CIGARS = [
     pairings: ["Rye Whiskey", "Espresso", "Dark Rum"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Man+O+War+Puro+Authentico+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Man+O+War+Puro+Authentico+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Man+O+War+Puro+Authentico+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Man+O+War+Puro+Authentico+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Man+O+War+Puro+Authentico+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/man-o-war-ruination-cigars/man-o-war-ruination-belicoso-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Man+O+War+Puro+Authentico+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Man+O+War+Puro+Authentico+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Man+O+War+Puro+Authentico+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Man+O+War+Puro+Authentico+Robusto","price":null}]
   },
   {
     id: "gurkha-cellar-reserve-21-year-robusto",
@@ -13676,7 +13699,7 @@ const CIGARS = [
     pairings: ["Aged Bourbon", "Port", "Dark Espresso"],
     yearFounded: 1996,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Undercrown+10+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Undercrown+10+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Undercrown+10+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Undercrown+10+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Undercrown+10+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/undercrown-shade-cigars/undercrown-shade-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Undercrown+10+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Undercrown+10+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Undercrown+10+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Undercrown+10+Robusto","price":null}]
   },
   {
     id: "drew-estate-natural-dark-angel-robusto",
@@ -14468,7 +14491,7 @@ const CIGARS = [
     pairings: ["Coffee", "Bourbon", "Cream Ale", "Dark Chocolate"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Crux+Epicure","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Crux+Epicure","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Crux+Epicure","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Crux+Epicure","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Crux+Epicure","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/crux-epicure-cigars/crux-epicure-robusto-extra-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Crux+Epicure","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Crux+Epicure","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Crux+Epicure","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Crux+Epicure","price":null}]
   },
   {
     id: "crux-du-connoisseur-no4",
@@ -14492,7 +14515,7 @@ const CIGARS = [
     pairings: ["Champagne", "White Tea", "Light Rum", "Almond Biscotti"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Crux+du+Connoisseur","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Crux+du+Connoisseur","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Crux+du+Connoisseur","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Crux+du+Connoisseur","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Crux+du+Connoisseur","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/crux-epicure-cigars/crux-epicure-corona-gorda-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Crux+du+Connoisseur","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Crux+du+Connoisseur","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Crux+du+Connoisseur","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Crux+du+Connoisseur","price":null}]
   },
   {
     id: "crux-bull-and-bear-robusto",
@@ -14516,7 +14539,7 @@ const CIGARS = [
     pairings: ["Espresso", "Rye Whiskey", "Porter Beer", "Dark Rum"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Crux+Bull+Bear","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Crux+Bull+Bear","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Crux+Bull+Bear","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Crux+Bull+Bear","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Crux+Bull+Bear","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/crux-epicure-cigars/crux-epicure-robusto-extra-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Crux+Bull+Bear","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Crux+Bull+Bear","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Crux+Bull+Bear","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Crux+Bull+Bear","price":null}]
   },
   {
     id: "crux-limitada-ipcpr-2019-robusto",
@@ -14540,7 +14563,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Aged Rum", "Espresso", "Pecan Pie"],
     yearFounded: 2014,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Crux+Limitada+IPCPR+2019","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Crux+Limitada+IPCPR","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Crux+Limitada+IPCPR+2019","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Crux+Limitada+IPCPR","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Crux+Limitada+IPCPR+2019","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/crux-epicure-cigars/crux-epicure-robusto-extra-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Crux+Limitada+IPCPR+2019","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Crux+Limitada+IPCPR","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Crux+Limitada+IPCPR","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Crux+Limitada+IPCPR+2019","price":null}]
   },
   {
     id: "crux-guild-robusto",
@@ -14564,7 +14587,7 @@ const CIGARS = [
     pairings: ["Coffee", "Bourbon", "Amber Ale", "Dark Chocolate"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Crux+Guild","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Crux+Guild","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Crux+Guild","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Crux+Guild","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Crux+Guild","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/crux-guild-cigars/crux-guild-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Crux+Guild","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Crux+Guild","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Crux+Guild","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Crux+Guild","price":null}]
   },
   {
     id: "ezra-zion-tantrum-robusto",
@@ -15692,7 +15715,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Stout Beer", "Black Coffee"],
     yearFounded: 1840,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Punch+Rare+Corojo+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Punch+Rare+Corojo+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Punch+Rare+Corojo+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Punch+Rare+Corojo+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Punch+Rare+Corojo+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/punch-rare-corojo-cigars/punch-rare-corojo-champion-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Punch+Rare+Corojo+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Punch+Rare+Corojo+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Punch+Rare+Corojo+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Punch+Rare+Corojo+Robusto","price":null}]
   },
   {
     id: "punch-diablo-robusto",
@@ -15716,7 +15739,7 @@ const CIGARS = [
     pairings: ["Dark Rum", "Espresso", "Stout Beer"],
     yearFounded: 1840,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Punch+Diablo+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Punch+Diablo+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Punch+Diablo+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Punch+Diablo+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Punch+Diablo+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/punch-diablo-cigars/punch-diablo-brute-cigars-oscuro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Punch+Diablo+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Punch+Diablo+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Punch+Diablo+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Punch+Diablo+Robusto","price":null}]
   },
   {
     id: "la-gloria-cubana-serie-n-robusto",
@@ -15932,7 +15955,7 @@ const CIGARS = [
     pairings: ["Espresso", "Dark Rum", "Scotch Whisky"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+La+Nox+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+La+Nox+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=La+Flor+Dominicana+La+Nox+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+La+Nox+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=La+Flor+Dominicana+La+Nox+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-double-ligero-cigars/la-flor-dominicana-double-ligero-crystal-tubo-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+La+Nox+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+La+Nox+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+La+Nox+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=La+Flor+Dominicana+La+Nox+Robusto","price":null}]
   },
   {
     id: "la-flor-dominicana-suave-robusto",
@@ -15956,7 +15979,7 @@ const CIGARS = [
     pairings: ["Cappuccino", "White Wine", "Sparkling Water"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+Suave+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Suave+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=La+Flor+Dominicana+Suave+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+Suave+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=La+Flor+Dominicana+Suave+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-double-ligero-cigars/la-flor-dominicana-double-ligero-crystal-tubo-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+Suave+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Suave+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+Suave+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=La+Flor+Dominicana+Suave+Robusto","price":null}]
   },
   {
     id: "la-flor-dominicana-chapter-one-robusto",
@@ -15980,7 +16003,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Chocolate"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+Chapter+One+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Chapter+One+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=La+Flor+Dominicana+Chapter+One+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+Chapter+One+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=La+Flor+Dominicana+Chapter+One+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-double-ligero-cigars/la-flor-dominicana-double-ligero-crystal-tubo-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+Chapter+One+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+Chapter+One+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+Chapter+One+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=La+Flor+Dominicana+Chapter+One+Robusto","price":null}]
   },
   {
     id: "la-flor-dominicana-1994-robusto",
@@ -16004,7 +16027,7 @@ const CIGARS = [
     pairings: ["Coffee", "Bourbon", "Light Rum"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+1994+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+1994+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=La+Flor+Dominicana+1994+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+1994+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=La+Flor+Dominicana+1994+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-double-ligero-cigars/la-flor-dominicana-double-ligero-crystal-tubo-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=La+Flor+Dominicana+1994+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=La+Flor+Dominicana+1994+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=La+Flor+Dominicana+1994+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=La+Flor+Dominicana+1994+Robusto","price":null}]
   },
   {
     id: "foundation-charter-oak-habano-toro",
@@ -16244,7 +16267,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Black Coffee", "Cognac"],
     yearFounded: 1988,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=AVO+Syncro+Nicaragua+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=AVO+Syncro+Nicaragua+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=AVO+Syncro+Nicaragua+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=AVO+Syncro+Nicaragua+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=AVO+Syncro+Nicaragua+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/avo-classic-cigars/avo-classic-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=AVO+Syncro+Nicaragua+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=AVO+Syncro+Nicaragua+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=AVO+Syncro+Nicaragua+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=AVO+Syncro+Nicaragua+Robusto","price":null}]
   },
   {
     id: "avo-xo-robusto",
@@ -16268,7 +16291,7 @@ const CIGARS = [
     pairings: ["Cognac XO", "Champagne", "Earl Grey Tea"],
     yearFounded: 1988,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=AVO+XO+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=AVO+XO+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=AVO+XO+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=AVO+XO+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=AVO+XO+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/avo-classic-cigars/avo-classic-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=AVO+XO+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=AVO+XO+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=AVO+XO+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=AVO+XO+Robusto","price":null}]
   },
   {
     id: "nat-sherman-timeless-sterling-robusto",
@@ -16388,7 +16411,7 @@ const CIGARS = [
     pairings: ["Coffee", "Bourbon", "Cream Soda"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Number+6+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Number+6+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Number+6+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Number+6+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Number+6+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Number+6+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Number+6+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Number+6+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Number+6+Robusto","price":null}]
   },
   {
     id: "rocky-patel-royale-robusto",
@@ -16412,7 +16435,7 @@ const CIGARS = [
     pairings: ["Cognac", "Coffee", "Cream Ale"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Royale+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Royale+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+Royale+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Royale+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Royale+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+Royale+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+Royale+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+Royale+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+Royale+Robusto","price":null}]
   },
   {
     id: "rocky-patel-dbs-robusto",
@@ -16436,7 +16459,7 @@ const CIGARS = [
     pairings: ["Dark Rum", "Espresso", "Stout Beer"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+DBS+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+DBS+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Rocky+Patel+DBS+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+DBS+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+DBS+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-dbs-cigars/rocky-patel-dbs-robusto-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Rocky+Patel+DBS+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Rocky+Patel+DBS+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Rocky+Patel+DBS+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Rocky+Patel+DBS+Robusto","price":null}]
   },
   {
     id: "perdomo-lot-23-natural-robusto",
@@ -16460,7 +16483,7 @@ const CIGARS = [
     pairings: ["Coffee", "Light Beer", "Lemonade"],
     yearFounded: 1992,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Perdomo+Lot+23+Natural+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Perdomo+Lot+23+Natural+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Perdomo+Lot+23+Natural+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Perdomo+Lot+23+Natural+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Perdomo+Lot+23+Natural+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/perdomo-lot-23-cigars/perdomo-lot-23-robusto-connecticut-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Perdomo+Lot+23+Natural+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Perdomo+Lot+23+Natural+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Perdomo+Lot+23+Natural+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Perdomo+Lot+23+Natural+Robusto","price":null}]
   },
   {
     id: "perdomo-factory-tour-blend-sun-grown-robusto",
@@ -16532,7 +16555,7 @@ const CIGARS = [
     pairings: ["Coffee", "Bourbon", "Amber Ale"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+Project+40+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+Project+40+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Alec+Bradley+Project+40+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+Project+40+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Alec+Bradley+Project+40+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-prensado-cigars/alec-bradley-prensado-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+Project+40+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+Project+40+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+Project+40+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Alec+Bradley+Project+40+Robusto","price":null}]
   },
   {
     id: "alec-bradley-blind-faith-robusto",
@@ -16556,7 +16579,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Stout Beer"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+Blind+Faith+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+Blind+Faith+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Alec+Bradley+Blind+Faith+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+Blind+Faith+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Alec+Bradley+Blind+Faith+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-prensado-cigars/alec-bradley-prensado-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+Blind+Faith+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+Blind+Faith+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+Blind+Faith+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Alec+Bradley+Blind+Faith+Robusto","price":null}]
   },
   {
     id: "alec-bradley-texas-lancero",
@@ -16580,7 +16603,7 @@ const CIGARS = [
     pairings: ["Texas Bourbon", "Black Coffee", "BBQ"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+Texas+Lancero","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+Texas+Lancero","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Alec+Bradley+Texas+Lancero","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+Texas+Lancero","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Alec+Bradley+Texas+Lancero","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-prensado-cigars/alec-bradley-prensado-corona-gorda-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Alec+Bradley+Texas+Lancero","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Alec+Bradley+Texas+Lancero","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Alec+Bradley+Texas+Lancero","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Alec+Bradley+Texas+Lancero","price":null}]
   },
   {
     id: "macanudo-heritage-nuevo-robusto",
@@ -16604,7 +16627,7 @@ const CIGARS = [
     pairings: ["Cappuccino", "White Wine", "Sparkling Water"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+Heritage+Nuevo+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+Heritage+Nuevo+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Macanudo+Heritage+Nuevo+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+Heritage+Nuevo+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Macanudo+Heritage+Nuevo+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/macanudo-inspirado-orange-cigars/macanudo-inspirado-orange-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+Heritage+Nuevo+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+Heritage+Nuevo+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+Heritage+Nuevo+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Macanudo+Heritage+Nuevo+Robusto","price":null}]
   },
   {
     id: "macanudo-inspirado-brazilian-shade-robusto",
@@ -16628,7 +16651,7 @@ const CIGARS = [
     pairings: ["Coffee", "Cognac", "Hazelnut Liqueur"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+Inspirado+Brazilian+Shade+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+Inspirado+Brazilian+Shade+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Macanudo+Inspirado+Brazilian+Shade+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+Inspirado+Brazilian+Shade+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Macanudo+Inspirado+Brazilian+Shade+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/macanudo-inspirado-orange-cigars/macanudo-inspirado-orange-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+Inspirado+Brazilian+Shade+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+Inspirado+Brazilian+Shade+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+Inspirado+Brazilian+Shade+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Macanudo+Inspirado+Brazilian+Shade+Robusto","price":null}]
   },
   {
     id: "macanudo-m-robusto",
@@ -16652,7 +16675,7 @@ const CIGARS = [
     pairings: ["Espresso", "Aged Rum", "Scotch Whisky"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+M+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+M+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Macanudo+M+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+M+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Macanudo+M+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/macanudo-inspirado-orange-cigars/macanudo-inspirado-orange-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Macanudo+M+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Macanudo+M+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Macanudo+M+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Macanudo+M+Robusto","price":null}]
   },
   {
     id: "my-father-connecticut-robusto",
@@ -16724,7 +16747,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Espresso", "Dark Rum"],
     yearFounded: 1865,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Cosecha+151+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Cosecha+151+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Plasencia+Cosecha+151+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Cosecha+151+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Plasencia+Cosecha+151+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/plasencia-reserva-original-cigars/plasencia-reserva-original-robusto-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Cosecha+151+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Cosecha+151+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Cosecha+151+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Plasencia+Cosecha+151+Robusto","price":null}]
   },
   {
     id: "plasencia-alma-del-fuego-candente-robusto",
@@ -16748,7 +16771,7 @@ const CIGARS = [
     pairings: ["Barrel-Proof Bourbon", "Espresso", "Aged Rum"],
     yearFounded: 1865,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Alma+del+Fuego+Candente+Robusto","price":null}, {"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+del+Fuego+Candente+Robusto","price":null}, {"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/search?q=Plasencia+Alma+del+Fuego+Candente+Robusto","price":null}, {"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+del+Fuego+Candente+Robusto","price":null}, {"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Plasencia+Alma+del+Fuego+Candente+Robusto","price":null}]
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/plasencia-alma-del-fuego-cigars/alma-del-fuego-candente-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/search?q=Plasencia+Alma+del+Fuego+Candente+Robusto","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/search?q=Plasencia+Alma+del+Fuego+Candente+Robusto","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/search?term=Plasencia+Alma+del+Fuego+Candente+Robusto","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/search?q=Plasencia+Alma+del+Fuego+Candente+Robusto","price":null}]
   },
   {
     id: "illusione-epernay-le-taureau",
@@ -16772,6 +16795,7 @@ const CIGARS = [
     pairings: ["Champagne", "Prosecco", "Light White Wine"],
     yearFounded: 2009,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/illusione-epernay-cigars/illusione-epernay-le-taureau-bench-pressed-cigars-rosado","price":null}],
   },
   {
     id: "illusione-epernay-le-matin",
@@ -16795,6 +16819,7 @@ const CIGARS = [
     pairings: ["Champagne", "Cold Brew Coffee", "Earl Grey Tea"],
     yearFounded: 2009,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/illusione-epernay-cigars/illusione-epernay-le-elegance-petit-lancero-cigars-rosado","price":null}],
   },
   {
     id: "illusione-rothchildes",
@@ -16818,6 +16843,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2013,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/illusione-rothchildes-cigars/illusione-rothchildes-connecticut-cigars-natural","price":null}],
   },
   {
     id: "illusione-eccj-corona-gorda",
@@ -16841,6 +16867,7 @@ const CIGARS = [
     pairings: ["Champagne", "White Burgundy", "Green Tea"],
     yearFounded: 2008,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/illusione-epernay-cigars/illusione-epernay-le-grande-corona-gorda-cigars-rosado","price":null}],
   },
   {
     id: "illusione-singulare-origen-robusto",
@@ -16864,6 +16891,7 @@ const CIGARS = [
     pairings: ["Champagne", "Aged Rum", "Dark Chocolate"],
     yearFounded: 2023,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/illusione-original-documents-cigars/illusione-original-documents-maduro-robusto-cigars-maduro","price":null}],
   },
   {
     id: "southern-draw-kudzu-toro",
@@ -16887,6 +16915,7 @@ const CIGARS = [
     pairings: ["Craft IPA", "Bourbon", "Dark Roast Coffee"],
     yearFounded: 2015,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/southern-draw-kudzu-cigars/southern-draw-kudzu-toro-cigars-oscuro","price":null}],
   },
   {
     id: "southern-draw-rose-of-sharon-robusto",
@@ -16910,6 +16939,7 @@ const CIGARS = [
     pairings: ["Champagne", "Light Lager", "Green Tea"],
     yearFounded: 2015,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/southern-draw-rose-of-sharon-cigars/southern-draw-rose-of-sharon-gordo-cigars-natural","price":null}],
   },
   {
     id: "southern-draw-cedrus-toro",
@@ -16933,6 +16963,7 @@ const CIGARS = [
     pairings: ["Scotch Whisky", "Dark Rum", "Espresso"],
     yearFounded: 2017,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/southern-draw-kudzu-cigars/southern-draw-kudzu-toro-cigars-oscuro","price":null}],
   },
   {
     id: "asylum-13-ogre-660",
@@ -17416,6 +17447,7 @@ const CIGARS = [
     pairings: ["Cognac", "Dry White Wine", "Lightly Sweetened Coffee"],
     yearFounded: 1988,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/avo-classic-cigars/avo-classic-no-2-cigars-natural","price":null}],
   },
   {
     id: "avo-syncro-nicaragua-toro",
@@ -17439,6 +17471,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Pale Ale", "Espresso"],
     yearFounded: 2015,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/avo-heritage-cigars/avo-heritage-special-toro-cigars-natural","price":null}],
   },
   {
     id: "avo-heritage-toro",
@@ -17462,6 +17495,7 @@ const CIGARS = [
     pairings: ["Cognac", "Tawny Port", "Hazelnut Coffee"],
     yearFounded: 2017,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/avo-heritage-cigars/avo-heritage-special-toro-cigars-natural","price":null}],
   },
   {
     id: "diamond-crown-maximus-toro",
@@ -17485,6 +17519,7 @@ const CIGARS = [
     pairings: ["Aged Bourbon", "Espresso", "Tawny Port"],
     yearFounded: 2002,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/diamond-crown-classic-cigars/diamond-crown-classic-maduro-toro-no-3-cigars-maduro","price":null}],
   },
   {
     id: "diamond-crown-black-diamond-marquise",
@@ -17508,6 +17543,7 @@ const CIGARS = [
     pairings: ["Cognac", "Champagne", "Dark Chocolate"],
     yearFounded: 2008,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/diamond-crown-classic-cigars/diamond-crown-classic-churchill-no-2-cigars-natural","price":null}],
   },
   {
     id: "quesada-tributo-julio",
@@ -17715,6 +17751,7 @@ const CIGARS = [
     pairings: ["Champagne", "Single Malt Scotch", "Light Rum"],
     yearFounded: 2023,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/crux-epicure-cigars/crux-epicure-toro-cigars-natural","price":null}],
   },
   {
     id: "crux-bull-bear-robusto-extra",
@@ -17738,6 +17775,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Cold Brew Coffee"],
     yearFounded: 2015,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/crux-epicure-cigars/crux-epicure-robusto-extra-cigars-natural","price":null}],
   },
   {
     id: "crux-guild-toro",
@@ -17761,6 +17799,7 @@ const CIGARS = [
     pairings: ["Craft IPA", "Bourbon", "Espresso"],
     yearFounded: 2015,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/crux-guild-cigars/crux-guild-toro-cigars-natural","price":null}],
   },
   {
     id: "crux-limitada-2023",
@@ -18428,6 +18467,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Craft Stout", "Espresso"],
     yearFounded: 2018,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/crux-epicure-cigars/crux-epicure-robusto-extra-cigars-natural","price":null}],
   },
   {
     id: "quesada-espana-fabulosos",
@@ -18497,6 +18537,7 @@ const CIGARS = [
     pairings: ["Cognac", "Aged Bourbon", "Dark Chocolate"],
     yearFounded: 2008,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/diamond-crown-classic-cigars/diamond-crown-classic-churchill-no-2-cigars-natural","price":null}],
   },
   {
     id: "gran-habano-habano-5-robusto",
@@ -18589,6 +18630,7 @@ const CIGARS = [
     pairings: ["Aged Bourbon", "Imperial Stout", "Black Coffee"],
     yearFounded: 2019,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/southern-draw-jacobs-ladder-cigars/southern-draw-jacobs-ladder-robusto-cigars-maduro","price":null}],
   },
   {
     id: "fratello-arlequin-connecticut-robusto",
@@ -18634,7 +18676,7 @@ const CIGARS = [
     description: "The Robusto is the most accessible entry into the Melanio line — same award-winning Ecuadorian Sumatra wrapper that won Cigar Aficionado's #1 in 2014, packed into a classic 5x52 format. Expect cocoa, cedar, and a creamy body that builds into a long, spiced finish.",
     pairings: ["Bourbon", "Dark Roast Coffee", "Port"],
     yearFounded: 2000,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-melanio-cigars/oliva-serie-v-melanio-robusto-cigars-natural","price":null}],
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-melanio-cigars/oliva-serie-v-melanio-robusto-cigars-maduro","price":null}],
     limited: false
   },
   {
@@ -18659,6 +18701,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Espresso", "Aged Rum"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-melanio-cigars/oliva-serie-v-melanio-maduro-double-toro-cigars","price":null}],
   },
   {
     id: "oliva-serie-v-melanio-torpedo",
@@ -18681,7 +18724,7 @@ const CIGARS = [
     description: "The tapered head of the Torpedo concentrates the Melanio's flavors to a laser-sharp point at the start before opening into the full-bodied complexity the line is known for. One of the best torpedo cigars Nicaragua produces at any price.",
     pairings: ["Bourbon", "Dark Roast Coffee", "Cognac"],
     yearFounded: 2000,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-melanio-cigars/oliva-serie-v-melanio-torpedo-cigars-natural","price":null}],
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-melanio-cigars/oliva-serie-v-melanio-torpedo-cigars-maduro","price":null}],
     limited: false
   },
   {
@@ -18706,6 +18749,7 @@ const CIGARS = [
     pairings: ["Port Wine", "Espresso", "Dark Rum"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-melanio-cigars/oliva-serie-v-melanio-maduro-double-toro-cigars","price":null}],
   },
   {
     id: "liga-privada-no9-toro",
@@ -18729,6 +18773,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-no-9-cigars/liga-privada-no-9-toro-cigars-maduro","price":null}],
   },
   {
     id: "liga-privada-no9-flying-pig",
@@ -18752,6 +18797,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Armagnac", "Strong Coffee"],
     yearFounded: 2000,
     limited: true
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-no-9-cigars/liga-privada-no-9-flying-pig-cigars-maduro","price":null}],
   },
   {
     id: "liga-privada-no9-corona-doble",
@@ -18775,6 +18821,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Aged Bourbon", "Cognac"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-no-9-cigars/liga-privada-no-9-corona-doble-cigars-maduro","price":null}],
   },
   {
     id: "liga-privada-t52-flying-pig",
@@ -18798,6 +18845,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Rum"],
     yearFounded: 2000,
     limited: true
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-t52-cigars/liga-privada-t52-flying-pig-cigars-natural","price":null}],
   },
   {
     id: "liga-privada-t52-toro",
@@ -18821,6 +18869,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-t52-cigars/liga-privada-t52-toro-cigars-natural","price":null}],
   },
   {
     id: "padron-1926-no6-natural",
@@ -18982,6 +19031,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Single Malt Scotch", "Espresso"],
     yearFounded: 2000,
     limited: true
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/my-father-le-bijou-1922-cigars/my-father-le-bijou-1922-petit-robusto-cigars-oscuro","price":null}],
   },
   {
     id: "davidoff-winston-churchill-toro",
@@ -19005,6 +19055,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Cognac", "Champagne"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/winston-churchill-cigars/winston-churchill-commander-toro-cigars-natural","price":null}],
   },
   {
     id: "davidoff-winston-churchill-late-hour-toro",
@@ -19028,6 +19079,7 @@ const CIGARS = [
     pairings: ["Speyside Scotch", "Cognac", "Dark Rum"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/winston-churchill-late-hour-cigars/winston-churchill-late-hour-belicoso-cigars-oscuro","price":null}],
   },
   {
     id: "davidoff-winston-churchill-late-hour-churchill",
@@ -19051,6 +19103,7 @@ const CIGARS = [
     pairings: ["Speyside Scotch", "Aged Cognac", "Dark Chocolate"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/winston-churchill-late-hour-cigars/winston-churchill-late-hour-belicoso-cigars-oscuro","price":null}],
   },
   {
     id: "davidoff-year-of-the-ox-2021",
@@ -19235,6 +19288,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Coffee", "Nicaragua Rum"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/aganorsa-leaf-supreme-leaf-cigars/aganorsa-leaf-supreme-leaf-gran-toro-cigars-natural","price":null}],
   },
   {
     id: "aganorsa-leaf-jfr-lunatic-maduro-toro",
@@ -19258,6 +19312,7 @@ const CIGARS = [
     pairings: ["Dark Rum", "Espresso", "Stout Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/aganorsa-leaf-supreme-leaf-cigars/aganorsa-leaf-supreme-leaf-gran-toro-cigars-natural","price":null}],
   },
   {
     id: "viaje-skull-and-bones-frank-castle",
@@ -19741,6 +19796,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/camacho-corojo-cigars/camacho-corojo-toro-cigars-natural","price":null}],
   },
   {
     id: "joya-de-nicaragua-cuatro-cinco-toro",
@@ -19856,6 +19912,7 @@ const CIGARS = [
     pairings: ["Light Bourbon", "Coffee with Cream", "White Wine"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/perdomo-champagne-cigars/perdomo-champagne-epicure-cigars-natural","price":null}],
   },
   {
     id: "perdomo-20th-anniversary-maduro-gordo",
@@ -19902,6 +19959,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Light Ale"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-prensado-cigars/alec-bradley-prensado-gran-toro-cigars-natural","price":null}],
   },
   {
     id: "alec-bradley-project-40-gordo",
@@ -19925,6 +19983,7 @@ const CIGARS = [
     pairings: ["Coffee", "Light Whiskey", "Craft Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-black-market-cigars/alec-bradley-black-market-gordo-cigars-dark-natural","price":null}],
   },
   {
     id: "foundation-charter-oak-broadleaf-lonsdale",
@@ -20086,6 +20145,7 @@ const CIGARS = [
     pairings: ["Port Wine", "Dark Rum", "Espresso"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-air-bender-cigars/la-flor-dominicana-air-bender-double-press-cigars-natural","price":null}],
   },
   {
     id: "liga-privada-t52-corona-doble",
@@ -20109,6 +20169,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Aged Rum", "Strong Coffee"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-t52-cigars/liga-privada-t52-corona-doble-cigars-natural","price":null}],
   },
   {
     id: "padron-1926-no35-maduro",
@@ -20155,6 +20216,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Aged Rum"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/my-father-le-bijou-1922-cigars/my-father-le-bijou-1922-churchill-cigars-oscuro","price":null}],
   },
   {
     id: "davidoff-year-of-the-dragon-2024",
@@ -20340,6 +20402,7 @@ const CIGARS = [
     pairings: ["Coffee with Cream", "Prosecco", "Light Ale"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/camacho-connecticut-cigars/camacho-connecticut-toro-cigars-natural","price":null}],
   },
   {
     id: "camacho-triple-maduro-toro",
@@ -20363,6 +20426,7 @@ const CIGARS = [
     pairings: ["Dark Rum", "Espresso", "Port Wine"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/camacho-triple-maduro-cigars/camacho-triple-maduro-toro-cigars","price":null}],
   },
   {
     id: "joya-de-nicaragua-antano-1970-toro",
@@ -20432,6 +20496,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-air-bender-cigars/la-flor-dominicana-air-bender-double-press-cigars-natural","price":null}],
   },
   {
     id: "crowned-heads-four-kicks-maduro-toro",
@@ -20478,6 +20543,7 @@ const CIGARS = [
     pairings: ["Coffee", "Light Rum", "Bourbon"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/tatuaje-havana-vi-cigars/tatuaje-havana-vi-almirantes-cigars-natural","price":null}],
   },
   {
     id: "oliva-serie-v-melanio-petite-corona",
@@ -20501,6 +20567,7 @@ const CIGARS = [
     pairings: ["Espresso", "Light Bourbon", "Coffee"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/oliva-serie-v-melanio-cigars/oliva-serie-v-melanio-petit-corona-cigars-natural","price":null}],
   },
   {
     id: "perdomo-habano-bourbon-barrel-aged-maduro-robusto",
@@ -20547,6 +20614,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Coffee"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-black-market-cigars/alec-bradley-black-market-toro-cigars-dark-natural","price":null}],
   },
   {
     id: "alec-bradley-tempus-robusto",
@@ -20570,6 +20638,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/alec-bradley-prensado-cigars/alec-bradley-prensado-robusto-cigars-natural","price":null}],
   },
   {
     id: "camacho-american-barrel-aged-toro",
@@ -20593,6 +20662,7 @@ const CIGARS = [
     pairings: ["Kentucky Bourbon", "Whiskey", "Dark Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/camacho-corojo-cigars/camacho-corojo-toro-cigars-natural","price":null}],
   },
   {
     id: "foundation-tabernacle-toro",
@@ -20639,6 +20709,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-no-9-cigars/liga-privada-no-9-belicoso-cigars-maduro","price":null}],
   },
   {
     id: "dunbarton-sobremesa-toro",
@@ -20754,6 +20825,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Single Malt Scotch", "Espresso"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/my-father-cigars/my-father-no-1-cigars-natural","price":null}],
   },
   {
     id: "my-father-no1-torpedo",
@@ -20777,6 +20849,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/my-father-cigars/my-father-no-1-cigars-natural","price":null}],
   },
   {
     id: "tatuaje-brown-label-toro",
@@ -20823,6 +20896,7 @@ const CIGARS = [
     pairings: ["Coffee with Cream", "Light Rum", "Prosecco"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/undercrown-shade-cigars/liga-undercrown-shade-toro-tubo-cigars-natural","price":null}],
   },
   {
     id: "undercrown-sun-grown-toro",
@@ -20846,6 +20920,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Craft Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/undercrown-shade-cigars/liga-undercrown-shade-toro-tubo-cigars-natural","price":null}],
   },
   {
     id: "aganorsa-leaf-signature-selection-toro",
@@ -20869,6 +20944,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Coffee", "Light Rum"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/aganorsa-leaf-signature-selection-corojo-cigars/aganorsa-leaf-signature-selection-corojo-corona-gorda-cigars-natural","price":null}],
   },
   {
     id: "la-flor-dominicana-chapter-one-toro",
@@ -20892,6 +20968,7 @@ const CIGARS = [
     pairings: ["Coffee", "Light Bourbon", "Craft Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-air-bender-cigars/la-flor-dominicana-air-bender-double-press-cigars-natural","price":null}],
   },
   {
     id: "caldwell-king-is-dead-toro",
@@ -21030,6 +21107,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Porter"],
     yearFounded: 2000,
     limited: true
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/undercrown-shade-cigars/undercrown-shade-flying-pig-cigars-natural","price":null}],
   },
   {
     id: "undercrown-flying-pig-sun-grown",
@@ -21053,6 +21131,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Espresso", "Aged Rum"],
     yearFounded: 2000,
     limited: true
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/undercrown-shade-cigars/undercrown-shade-flying-pig-cigars-natural","price":null}],
   },
   {
     id: "undercrown-flying-pig-shade",
@@ -21076,6 +21155,7 @@ const CIGARS = [
     pairings: ["Champagne", "Light Rum", "Milk Coffee"],
     yearFounded: 2000,
     limited: true
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/undercrown-shade-cigars/undercrown-shade-flying-pig-cigars-natural","price":null}],
   },
   {
     id: "liga-privada-unico-dirty-rat",
@@ -21123,6 +21203,7 @@ const CIGARS = [
     pairings: ["Cognac", "Espresso", "Dark Rum"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-no-9-cigars/liga-privada-no-9-belicoso-cigars-maduro","price":null}],
   },
   {
     id: "liga-privada-unico-papas-fritas",
@@ -21168,7 +21249,7 @@ const CIGARS = [
     description: "The Feral Flying Pig is the untamed big brother of the original Liga Privada Flying Pig. At 5-3/8 x 60, it is an extremely full-bodied, robust, and flavorful monster that combines the complexity of the Liga Privada line with a perfecto format that concentrates flavor at the head. An annual limited release that sells out quickly.",
     pairings: ["Peaty Scotch", "Aged Bourbon", "Espresso"],
     yearFounded: 2000,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-t52-cigars/liga-privada-t52-flying-pig-cigars-natural","price":null}],
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-no-9-cigars/liga-privada-no-9-flying-pig-cigars-maduro","price":null}],
     limited: true
   },
   {
@@ -21217,6 +21298,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Rum"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/arturo-fuente-don-carlos-cigars/arturo-fuente-don-carlos-no-2-cigars-natural","price":null}],
   },
   {
     id: "rocky-patel-alr-second-edition-toro",
@@ -21240,6 +21322,7 @@ const CIGARS = [
     pairings: ["Aged Bourbon", "Single Malt Scotch", "Espresso"],
     yearFounded: 2000,
     limited: true
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-toro-cigars-maduro","price":null}],
   },
   {
     id: "rocky-patel-alr-second-edition-robusto",
@@ -21263,6 +21346,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Rum", "Espresso"],
     yearFounded: 2000,
     limited: true
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-vintage-1990-cigars/rocky-patel-vintage-1990-robusto-cigars-maduro","price":null}],
   },
   {
     id: "rocky-patel-dbs-toro",
@@ -21286,6 +21370,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Porter", "Espresso"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-dbs-cigars/rocky-patel-dbs-toro-cigars-maduro","price":null}],
   },
   {
     id: "rocky-patel-sun-grown-maduro-robusto",
@@ -21309,6 +21394,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Stout", "Espresso"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/rocky-patel-sun-grown-cigars/rocky-patel-sun-grown-robusto-cigars-natural","price":null}],
   },
   {
     id: "montecristo-epic-robusto",
@@ -21401,6 +21487,7 @@ const CIGARS = [
     pairings: ["Champagne", "Light Rum", "Café Latte"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/romeo-y-julieta-reserva-real-cigars/romeo-y-julieta-reserva-real-toro-cigars-natural","price":null}],
   },
   {
     id: "hoyo-excalibur-black-toro",
@@ -21447,6 +21534,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Porter", "Espresso"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/punch-diablo-cigars/punch-diablo-diabolus-cigars-oscuro","price":null}],
   },
   {
     id: "punch-champion-robusto",
@@ -21470,6 +21558,7 @@ const CIGARS = [
     pairings: ["Beer", "Black Coffee", "Rum"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/punch-rare-corojo-cigars/punch-rare-corojo-champion-cigars-natural","price":null}],
   },
   {
     id: "gurkha-cellar-reserve-15-year-toro",
@@ -21493,6 +21582,7 @@ const CIGARS = [
     pairings: ["Single Malt Scotch", "Cognac", "Espresso"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/gurkha-black-dragon-cigars/gurkha-black-dragon-toro-cigars-maduro","price":null}],
   },
   {
     id: "gurkha-heritage-robusto",
@@ -21539,6 +21629,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Rum", "Espresso"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/man-o-war-ruination-cigars/man-o-war-ruination-belicoso-cigars-natural","price":null}],
   },
   {
     id: "man-o-war-side-project-toro",
@@ -21562,6 +21653,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Dark Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/man-o-war-ruination-cigars/man-o-war-ruination-belicoso-cigars-natural","price":null}],
   },
   {
     id: "cao-session-toro",
@@ -21585,6 +21677,7 @@ const CIGARS = [
     pairings: ["Light Beer", "Iced Coffee", "White Wine"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-mx2-cigars/cao-mx2-toro-cigars-maduro","price":null}],
   },
   {
     id: "diesel-unlimited-d.x.-toro",
@@ -21608,6 +21701,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Porter"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/diesel-whiskey-row-cigars/diesel-whiskey-row-toro-cigars-natural","price":null}],
   },
   {
     id: "diesel-whiskey-row-toro",
@@ -21631,6 +21725,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Rye Whiskey", "Dark Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/diesel-whiskey-row-cigars/diesel-whiskey-row-toro-cigars-natural","price":null}],
   },
   {
     id: "diesel-hair-of-the-dog-toro",
@@ -21654,6 +21749,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
     limited: true
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/diesel-whiskey-row-cigars/diesel-whiskey-row-toro-cigars-natural","price":null}],
   },
   {
     id: "villiger-la-flor-de-ynclan-toro",
@@ -22160,6 +22256,7 @@ const CIGARS = [
     pairings: ["Champagne", "Light Rum", "Café Latte"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/brick-house-cigars/brick-house-toro-cigars-maduro","price":null}],
   },
   {
     id: "brick-house-natural-corona",
@@ -22183,6 +22280,7 @@ const CIGARS = [
     pairings: ["Coffee", "Light Rum", "Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/brick-house-cigars/brick-house-corona-larga-cigars-natural","price":null}],
   },
   {
     id: "nub-cafe-connecticut-460",
@@ -22206,6 +22304,7 @@ const CIGARS = [
     pairings: ["Coffee", "Café Latte", "Light Rum"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/nub-connecticut-cigars/nub-connecticut-460-cigars-natural","price":null}],
   },
   {
     id: "nub-sungrown-460",
@@ -22229,6 +22328,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Dark Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/nub-habano-cigars/nub-habano-460-cigars-natural","price":null}],
   },
   {
     id: "gurkha-royal-challenge-toro",
@@ -22252,6 +22352,7 @@ const CIGARS = [
     pairings: ["Champagne", "Light Rum", "Café Latte"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/gurkha-black-dragon-cigars/gurkha-black-dragon-toro-cigars-maduro","price":null}],
   },
   {
     id: "gurkha-ghost-toro",
@@ -22275,6 +22376,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Rum", "Espresso"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/gurkha-black-dragon-cigars/gurkha-black-dragon-toro-cigars-maduro","price":null}],
   },
   {
     id: "man-o-war-virtue-toro",
@@ -22298,6 +22400,7 @@ const CIGARS = [
     pairings: ["Champagne", "Café Latte", "Light Rum"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/man-o-war-ruination-cigars/man-o-war-ruination-belicoso-cigars-natural","price":null}],
   },
   {
     id: "cao-brazilia-gol",
@@ -22321,6 +22424,7 @@ const CIGARS = [
     pairings: ["Rum", "Espresso", "Dark Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-brazilia-cigars/cao-brazilia-gol-cigars-maduro","price":null}],
   },
   {
     id: "cao-flathead-v660-camshaft",
@@ -22344,6 +22448,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/cao-flathead-cigars/cao-flathead-camshaft-cigars-maduro","price":null}],
   },
   {
     id: "foundation-menelik-toro",
@@ -22459,6 +22564,7 @@ const CIGARS = [
     pairings: ["Cognac", "Champagne", "Single Malt Scotch"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/diamond-crown-maximus-cigars/diamond-crown-maximus-no-10-cigars-dark-natural","price":null}],
   },
   {
     id: "camacho-ecuador-toro",
@@ -22482,6 +22588,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Dark Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/camacho-ecuador-cigars/camacho-ecuador-toro-cigars-natural","price":null}],
   },
   {
     id: "tatuaje-havana-vi-toro",
@@ -22505,6 +22612,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Rum", "Espresso"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/tatuaje-havana-vi-cigars/tatuaje-havana-vi-almirantes-cigars-natural","price":null}],
   },
   {
     id: "tatuaje-black-toro",
@@ -22620,6 +22728,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/southern-draw-jacobs-ladder-cigars/southern-draw-jacobs-ladder-robusto-cigars-maduro","price":null}],
   },
   {
     id: "southern-draw-firethorn-toro",
@@ -22643,6 +22752,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Dark Ale"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/southern-draw-kudzu-cigars/southern-draw-kudzu-toro-cigars-oscuro","price":null}],
   },
   {
     id: "illusione-mk-ultra-toro",
@@ -22781,6 +22891,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Porter"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/perdomo-champagne-cigars/perdomo-champagne-super-toro-cigars-natural","price":null}],
   },
   {
     id: "davidoff-escurio-robusto",
@@ -22803,7 +22914,7 @@ const CIGARS = [
     description: "The Davidoff Escurio is one of the boldest departures from Davidoff's traditional mild-mannered Dominican heritage. Named after the Spanish word for dark or obscure, the Escurio features a dark Brazilian Arapiraca wrapper over Dominican binder and a complex blend of Dominican, Brazilian, and Peruvian fillers. The result is a medium-full body of dark chocolate, coffee, and leather — Davidoff's most intense regular blend.",
     pairings: ["Cognac", "Bourbon", "Espresso"],
     yearFounded: 2000,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-escurio-cigars","price":null}],
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-escurio-cigars/davidoff-escurio-petit-robusto-cigars-natural","price":null}],
     limited: false
   },
   {
@@ -22828,6 +22939,7 @@ const CIGARS = [
     pairings: ["Espresso", "Champagne", "Cognac"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/davidoff-grand-cru-series-cigars/davidoff-grand-cru-toro-cigars-natural","price":null}],
   },
   {
     id: "espinosa-601-orange-label-toro",
@@ -22943,6 +23055,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/aganorsa-leaf-supreme-leaf-cigars/aganorsa-leaf-supreme-leaf-gran-toro-cigars-natural","price":null}],
   },
   {
     id: "aganorsa-leaf-guardian-of-farm-toro",
@@ -22966,6 +23079,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Rum"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/aganorsa-leaf-supreme-leaf-cigars/aganorsa-leaf-supreme-leaf-gran-toro-cigars-natural","price":null}],
   },
   {
     id: "foundation-tabernacle-maduro-toro",
@@ -23058,6 +23172,7 @@ const CIGARS = [
     pairings: ["Rum", "Coffee", "Craft Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-coronado-cigars/la-flor-dominicana-coronado-corona-especial-cigars-dark-natural","price":null}],
   },
   {
     id: "lfd-air-bender-toro",
@@ -23081,6 +23196,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/la-flor-dominicana-air-bender-cigars/la-flor-dominicana-air-bender-double-press-cigars-natural","price":null}],
   },
   {
     id: "plasencia-reserva-original-toro",
@@ -23104,6 +23220,7 @@ const CIGARS = [
     pairings: ["Rum", "Coffee", "Dark Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/plasencia-reserva-original-cigars/plasencia-reserva-original-toro-cigars-natural","price":null}],
   },
   {
     id: "plasencia-cosecha-146-toro",
@@ -23127,6 +23244,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Espresso", "Dark Rum"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/plasencia-reserva-original-cigars/plasencia-reserva-original-toro-cigars-natural","price":null}],
   },
   {
     id: "romeo-y-julieta-1875-toro",
@@ -23150,6 +23268,7 @@ const CIGARS = [
     pairings: ["Light Rum", "Champagne", "Café Latte"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/romeo-y-julieta-1875-cigars/romeo-y-julieta-1875-belicoso-cigars-natural","price":null}],
   },
   {
     id: "aj-fernandez-new-world-connecticut-toro",
@@ -23265,6 +23384,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Coffee", "Dark Beer"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/herrera-esteli-miami-cigars/herrera-esteli-miami-lonsdale-cigars-oscuro","price":null}],
   },
   {
     id: "herrera-esteli-norteno-toro",
@@ -23288,6 +23408,7 @@ const CIGARS = [
     pairings: ["Bourbon", "Dark Stout", "Espresso"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/herrera-esteli-miami-cigars/herrera-esteli-miami-lonsdale-cigars-oscuro","price":null}],
   },
   {
     id: "protocol-blue-line-toro",
@@ -23357,6 +23478,7 @@ const CIGARS = [
     pairings: ["Champagne", "Cognac", "Single Malt Scotch"],
     yearFounded: 2000,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/illusione-epernay-cigars/illusione-epernay-le-elegance-petit-lancero-cigars-rosado","price":null}],
   },
   {
     id: "acid-kuba-grande",
@@ -23933,6 +24055,7 @@ const CIGARS = [
     pairings: ["Espresso", "Bourbon Neat", "Dark Chocolate Square"],
     yearFounded: 2006,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/liga-privada-no-9-cigars/liga-privada-no9-coronets-tin-of-10-cigars-maduro","price":null}],
   },
   {
     id: "drew-estate-herrera-esteli-miami-robusto",
@@ -24002,6 +24125,7 @@ const CIGARS = [
     pairings: ["Cognac VSOP", "Aged Rum", "Dark Berry Preserve"],
     yearFounded: 2009,
     limited: false
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/my-father-le-bijou-1922-cigars/my-father-le-bijou-1922-petit-robusto-cigars-oscuro","price":null}],
   },
   {
     id: "perdomo-craft-bourbon-barrel-aged-toro",
