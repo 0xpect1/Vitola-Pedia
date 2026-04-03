@@ -763,6 +763,77 @@ function updatePriceRangeStyle() {
   $priceRange.style.setProperty('--pct', `${pct}%`);
 }
 
+// ── FLAVOR SEARCH ────────────────────────────────────────────────
+function initFlavorSearch() {
+  const allFlavors = [...new Set(CIGARS.flatMap(c => c.flavors))].sort();
+  const $input = document.getElementById('flavorSearch');
+  const $clr   = document.getElementById('flavorSearchClr');
+  const $drop  = document.getElementById('flavorDropdown');
+
+  function clearFlavorSearch() {
+    $input.value = '';
+    $input.classList.remove('flavor-active');
+    $clr.classList.remove('visible');
+    $drop.classList.add('hidden');
+    $drop.innerHTML = '';
+  }
+
+  function applyFlavorNote(note) {
+    $input.value = note;
+    $input.classList.add('flavor-active');
+    $clr.classList.add('visible');
+    $drop.classList.add('hidden');
+    // Deactivate all pills
+    document.querySelectorAll('#flavorFilter .pill').forEach(p => p.classList.remove('active'));
+    state.flavor = note;
+    render();
+  }
+
+  $input.addEventListener('input', () => {
+    const q = $input.value.trim().toLowerCase();
+    if (!q) {
+      clearFlavorSearch();
+      // Restore 'All' pill active state
+      const allPill = document.querySelector('#flavorFilter .pill[data-value="all"]');
+      if (allPill) allPill.classList.add('active');
+      state.flavor = 'all';
+      render();
+      return;
+    }
+    const matches = allFlavors.filter(f => f.toLowerCase().includes(q));
+    $drop.innerHTML = matches.map(f => `<li>${f}</li>`).join('');
+    $drop.classList.toggle('hidden', matches.length === 0);
+    $clr.classList.add('visible');
+    $input.classList.add('flavor-active');
+    state.flavor = $input.value.trim();
+    render();
+  });
+
+  $drop.addEventListener('click', e => {
+    const li = e.target.closest('li');
+    if (!li) return;
+    applyFlavorNote(li.textContent);
+  });
+
+  $clr.addEventListener('click', () => {
+    clearFlavorSearch();
+    const allPill = document.querySelector('#flavorFilter .pill[data-value="all"]');
+    if (allPill) allPill.classList.add('active');
+    state.flavor = 'all';
+    render();
+  });
+
+  // Close dropdown when clicking outside
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.flavor-search-wrap')) {
+      $drop.classList.add('hidden');
+    }
+  });
+
+  // Expose clear fn for resetAll
+  window._clearFlavorSearch = clearFlavorSearch;
+}
+
 // ── INIT ─────────────────────────────────────────────────────────
 function init() {
   // Update total stat
@@ -809,7 +880,12 @@ function init() {
   bindPills('originFilter', 'origin');
   bindPills('wrapperFilter', 'wrapper');
   bindPills('flavorFilter', 'flavor');
+  // Clear flavor search when a quick-access pill is clicked
+  document.getElementById('flavorFilter').addEventListener('click', e => {
+    if (e.target.closest('.pill') && window._clearFlavorSearch) window._clearFlavorSearch();
+  });
   bindPills('timeFilter', 'time');
+  initFlavorSearch();
 
   // Price range
   $priceRange.addEventListener('input', e => {
@@ -889,6 +965,7 @@ function init() {
     document.getElementById('brandSelect').value = 'all';
     document.querySelectorAll('.pill.active').forEach(p => p.classList.remove('active'));
     document.querySelectorAll('.pill[data-value="all"]').forEach(p => p.classList.add('active'));
+    if (window._clearFlavorSearch) window._clearFlavorSearch();
     render();
   };
   document.getElementById('resetFilters').addEventListener('click', resetAll);

@@ -311,6 +311,44 @@ img { max-width: 100%; display: block; }
   gap: 6px;
 }
 .flavor-pills { max-height: 110px; overflow-y: auto; }
+
+/* Flavor note search */
+.flavor-search-wrap { position: relative; margin-top: 10px; }
+#flavorSearch {
+  width: 100%; box-sizing: border-box;
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  padding: 8px 28px 8px 12px;
+  font-size: 0.82rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+#flavorSearch::placeholder { color: var(--text-muted); }
+#flavorSearch:focus { border-color: var(--border-h); }
+#flavorSearch.flavor-active { border-color: var(--gold); color: var(--gold-light); }
+.flavor-srch-clr {
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+  background: none; border: none; color: var(--text-muted); cursor: pointer;
+  font-size: 0.75rem; padding: 2px; display: none; line-height: 1;
+}
+.flavor-srch-clr.visible { display: block; }
+.flavor-srch-clr:hover { color: var(--gold); }
+.flavor-dropdown {
+  position: absolute; top: calc(100% + 4px); left: 0; right: 0;
+  background: var(--bg-modal); border: 1px solid var(--border-h);
+  border-radius: 8px; max-height: 180px; overflow-y: auto;
+  list-style: none; margin: 0; padding: 4px 0; z-index: 200;
+}
+.flavor-dropdown.hidden { display: none; }
+.flavor-dropdown li {
+  padding: 7px 12px; cursor: pointer; font-size: 0.82rem;
+  color: var(--text-primary);
+}
+.flavor-dropdown li:hover { background: var(--gold-glow); color: var(--gold-light); }
+
 .pill {
   padding: 5px 12px;
   border: 1px solid var(--border);
