@@ -52,6 +52,7 @@ const CIGARS = [
   {
     id: "montecristo-no-2",
     name: "Montecristo No. 2",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -1126,6 +1127,7 @@ const CIGARS = [
   {
     id: "honduran-vintage-por-larranaga",
     name: "Por Larrañaga Panetelas",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Por Larrañaga",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -1249,6 +1251,7 @@ const CIGARS = [
   {
     id: "punch-punch-cuba",
     name: "Punch Punch (Cuba)",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Punch",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -1472,6 +1475,7 @@ const CIGARS = [
   {
     id: "baccarat-the-game",
     name: "Baccarat The Game",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/gyg/CI-GYG-VANN.jpg?_i=AB",
     brand: "Baccarat",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -1620,6 +1624,7 @@ const CIGARS = [
   {
     id: "quai-dorsay-imperiales",
     name: "Quai d'Orsay Imperiales",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Quai d'Orsay",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -4293,6 +4298,7 @@ const CIGARS = [
   {
     id: "dunbarton-mi-querida-seriocomica",
     name: "Dunbarton Mi Querida Seriocomica",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/miq/CI-MIQ-GORILA-20-BOX.jpg?_i=AB",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -4342,6 +4348,7 @@ const CIGARS = [
   {
     id: "dunbarton-sobremesa-madurito",
     name: "Dunbarton Sobremesa Madurito",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/df8/ci-df8-robm.jpg?_i=AB",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Jalapa & Condega",
@@ -4615,6 +4622,7 @@ const CIGARS = [
   {
     id: "bandido-cigarillo-natural",
     name: "Bandido Natural Cigarillo",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/gyv/ci-gyv-brn129.jpg?_i=AB",
     brand: "Bandido",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -4639,6 +4647,7 @@ const CIGARS = [
   {
     id: "bandido-cigarillo-sweet",
     name: "Bandido Sweet Cigarillo",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/ci-swi-grp5pk.jpg?_i=AB",
     brand: "Bandido",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -4662,6 +4671,7 @@ const CIGARS = [
   {
     id: "bandido-cigarillo-vanilla",
     name: "Bandido Vanilla Cigarillo",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/hah/ci-hah-tinvan.jpg?_i=AB",
     brand: "Bandido",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -5385,6 +5395,7 @@ const CIGARS = [
   {
     id: "ramon-allones-specially-selected",
     name: "Specially Selected",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Ramón Allones",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -5409,6 +5420,7 @@ const CIGARS = [
   {
     id: "cuaba-tradicionales",
     name: "Tradicionales",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Cuaba",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -5433,6 +5445,7 @@ const CIGARS = [
   {
     id: "vegas-robaina-unicos",
     name: "Únicos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Vegas Robaina",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -5457,6 +5470,7 @@ const CIGARS = [
   {
     id: "rafael-gonzalez-perlas",
     name: "Perlas",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Rafael González",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -5481,6 +5495,7 @@ const CIGARS = [
   {
     id: "el-rey-del-mundo-choix-supreme",
     name: "Choix Supreme",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "El Rey del Mundo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -5655,6 +5670,7 @@ const CIGARS = [
   {
     id: "gran-habano-el-gigante",
     name: "El Gigante",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/ods/ci-ods-gign.jpg?_i=AB",
     brand: "Gran Habano",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -6229,6 +6245,7 @@ const CIGARS = [
   {
     id: "casdagli-traditional-cotton-tail",
     name: "Traditional Cotton Tail",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/lgc/ci-lgc-corn.jpg?_i=AB",
     brand: "Casdagli",
     origin: "Dominican Republic",
     region: "Santiago (KBF)",
@@ -6252,6 +6269,7 @@ const CIGARS = [
   {
     id: "casdagli-basilica-a",
     name: "Basilica A",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/fbg/ci-fbg-brebn.jpg?_i=AB",
     brand: "Casdagli",
     origin: "Dominican Republic",
     region: "Santiago (KBF)",
@@ -6275,6 +6293,7 @@ const CIGARS = [
   {
     id: "casdagli-basilica-c1",
     name: "Basilica C #1",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/ar2/ci-ar2-cmajor.jpg?_i=AB",
     brand: "Casdagli",
     origin: "Dominican Republic",
     region: "Santiago (KBF)",
@@ -6323,6 +6342,7 @@ const CIGARS = [
   {
     id: "casdagli-cabinet-rosetta",
     name: "Cabinet Selection Rosetta",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/asc/ci-asc-10n.jpg?_i=AB",
     brand: "Casdagli",
     origin: "Dominican Republic",
     region: "Santiago (KBF)",
@@ -6622,6 +6642,7 @@ const CIGARS = [
   {
     id: "bltc-orthodox",
     name: "Orthodox Corona Gorda",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/lai/CI-LAI-CORGM-21-BOX.jpg?_i=AB",
     brand: "Black Label Trading Company",
     origin: "Nicaragua",
     region: "Estelí (Fábrica Oveja Negra)",
@@ -6671,6 +6692,7 @@ const CIGARS = [
   {
     id: "bltc-super-deluxe-2025",
     name: "Super Deluxe Box Press 2025",
+    image: "https://images.famous-smoke.com/image/upload/v1/main/site/fss_share.jpg",
     brand: "Black Label Trading Company",
     origin: "Nicaragua",
     region: "Estelí (Fábrica Oveja Negra)",
@@ -7970,6 +7992,7 @@ const CIGARS = [
   {
     id: "protocol-royal-canadian-mounted-robusto",
     name: "Protocol Royal Canadian Mounted Robusto",
+    image: "https://images.famous-smoke.com/image/upload/v1/main/site/fss_share.jpg",
     brand: "Protocol Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -7994,6 +8017,7 @@ const CIGARS = [
   {
     id: "protocol-palmdale-precision-robusto",
     name: "Protocol Palmdale Precision Robusto",
+    image: "https://images.famous-smoke.com/image/upload/v1/main/site/fss_share.jpg",
     brand: "Protocol Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -8018,6 +8042,7 @@ const CIGARS = [
   {
     id: "protocol-blue-line-robusto",
     name: "Protocol Blue Line Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/ci-abu-robm.jpg?_i=AB",
     brand: "Protocol Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -8042,6 +8067,7 @@ const CIGARS = [
   {
     id: "protocol-forgotten-soldier-maduro-robusto",
     name: "Protocol Forgotten Soldier Maduro Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/fsm/ci-fsm-robm.jpg?_i=AB",
     brand: "Protocol Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -8091,6 +8117,7 @@ const CIGARS = [
   {
     id: "caldwell-all-out-kings-robusto",
     name: "Caldwell All Out Kings Robusto",
+    image: "https://images.famous-smoke.com/image/upload/v1/main/site/fss_share.jpg",
     brand: "Caldwell Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -8115,6 +8142,7 @@ const CIGARS = [
   {
     id: "caldwell-anastasia-robusto",
     name: "Caldwell Anastasia Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/lnf/CI-LNF-ONSR-10-BOX.jpg?_i=AB",
     brand: "Caldwell Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -8739,6 +8767,7 @@ const CIGARS = [
   {
     id: "h-upmann-the-good-stuff-robusto",
     name: "H. Upmann The Good Stuff Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/hur/ci-hur-robn.jpg?_i=AB",
     brand: "H. Upmann",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -8788,6 +8817,7 @@ const CIGARS = [
   {
     id: "h-upmann-legacy-robusto",
     name: "H. Upmann Legacy Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/hur/ci-hur-robn.jpg?_i=AB",
     brand: "H. Upmann",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -8862,6 +8892,7 @@ const CIGARS = [
   {
     id: "aging-room-small-batch-m356-robusto",
     name: "Aging Room Small Batch M356 Robusto",
+    image: "https://images.famous-smoke.com/image/upload/v1/main/site/fss_share.jpg",
     brand: "Aging Room",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -8986,6 +9017,7 @@ const CIGARS = [
   {
     id: "quesada-tributo-robusto",
     name: "Quesada Tributo Robusto",
+    image: "https://images.famous-smoke.com/image/upload/v1/main/site/fss_share.jpg",
     brand: "Quesada",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -9035,6 +9067,7 @@ const CIGARS = [
   {
     id: "h-upmann-sir-winston",
     name: "H. Upmann Sir Winston",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "H. Upmann",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -9084,6 +9117,7 @@ const CIGARS = [
   {
     id: "punch-black-prince",
     name: "Punch Black Prince",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Punch",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -9108,6 +9142,7 @@ const CIGARS = [
   {
     id: "hoyo-le-hoyo-de-san-juan",
     name: "Hoyo de Monterrey Le Hoyo de San Juan",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Hoyo de Monterrey",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -9181,6 +9216,7 @@ const CIGARS = [
   {
     id: "vegas-robaina-don-alejandro",
     name: "Vegas Robaina Don Alejandro",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Vegas Robaina",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -9205,6 +9241,7 @@ const CIGARS = [
   {
     id: "la-flor-de-cano-gran-cano",
     name: "La Flor de Cano Gran Cano",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "La Flor de Cano",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -9229,6 +9266,7 @@ const CIGARS = [
   {
     id: "punch-punch-corona-extra",
     name: "Punch Punch",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Punch",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -9753,6 +9791,7 @@ const CIGARS = [
   {
     id: "montecristo-especial-no2",
     name: "Montecristo Especial No. 2",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12227,6 +12266,7 @@ const CIGARS = [
   {
     id: "montecristo-no-1",
     name: "Montecristo No. 1",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12251,6 +12291,7 @@ const CIGARS = [
   {
     id: "montecristo-no-4",
     name: "Montecristo No. 4",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12275,6 +12316,7 @@ const CIGARS = [
   {
     id: "montecristo-no-5",
     name: "Montecristo No. 5",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12299,6 +12341,7 @@ const CIGARS = [
   {
     id: "montecristo-edmundo",
     name: "Montecristo Edmundo",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12323,6 +12366,7 @@ const CIGARS = [
   {
     id: "montecristo-petit-edmundo",
     name: "Montecristo Petit Edmundo",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12347,6 +12391,7 @@ const CIGARS = [
   {
     id: "montecristo-open-eagle",
     name: "Montecristo Open Eagle",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12371,6 +12416,7 @@ const CIGARS = [
   {
     id: "montecristo-double-edmundo",
     name: "Montecristo Double Edmundo",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12470,6 +12516,7 @@ const CIGARS = [
   {
     id: "partagas-coronas-gordas-anejados",
     name: "Partagás Coronas Gordas Añejados",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Partagás",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12594,6 +12641,7 @@ const CIGARS = [
   {
     id: "h-upmann-royal-robusto",
     name: "H. Upmann Royal Robusto",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "H. Upmann",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12643,6 +12691,7 @@ const CIGARS = [
   {
     id: "hoyo-de-monterrey-epicure-especial",
     name: "Hoyo de Monterrey Epicure Especial",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Hoyo de Monterrey",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12667,6 +12716,7 @@ const CIGARS = [
   {
     id: "hoyo-de-monterrey-petit-robusto",
     name: "Hoyo de Monterrey Petit Robusto",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Hoyo de Monterrey",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12691,6 +12741,7 @@ const CIGARS = [
   {
     id: "juan-lopez-seleccion-no-2",
     name: "Juan López Selección No. 2",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Juan López",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12715,6 +12766,7 @@ const CIGARS = [
   {
     id: "juan-lopez-seleccion-no-1",
     name: "Juan López Selección No. 1",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Juan López",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12739,6 +12791,7 @@ const CIGARS = [
   {
     id: "san-cristobal-de-la-habana-el-principe",
     name: "San Cristóbal de la Habana El Príncipe",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "San Cristóbal de la Habana",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12763,6 +12816,7 @@ const CIGARS = [
   {
     id: "san-cristobal-de-la-habana-la-fuerza",
     name: "San Cristóbal de la Habana La Fuerza",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "San Cristóbal de la Habana",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12787,6 +12841,7 @@ const CIGARS = [
   {
     id: "fonseca-no-1",
     name: "Fonseca No. 1",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Fonseca",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12811,6 +12866,7 @@ const CIGARS = [
   {
     id: "fonseca-cosacos",
     name: "Fonseca Cosacos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Fonseca",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12835,6 +12891,7 @@ const CIGARS = [
   {
     id: "jose-l-piedra-petit-cazadores",
     name: "José L. Piedra Petit Cazadores",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "José L. Piedra",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12859,6 +12916,7 @@ const CIGARS = [
   {
     id: "quintero-y-hno-favoritos",
     name: "Quintero y Hno Favoritos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Quintero y Hno",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12883,6 +12941,7 @@ const CIGARS = [
   {
     id: "cuaba-tradicionales-cuba",
     name: "Cuaba Tradicionales",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Cuaba",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12907,6 +12966,7 @@ const CIGARS = [
   {
     id: "cuaba-divinos",
     name: "Cuaba Divinos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Cuaba",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -12981,6 +13041,7 @@ const CIGARS = [
   {
     id: "rafael-gonzalez-petit-coronas",
     name: "Rafael González Petit Coronas",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Rafael González",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -13005,6 +13066,7 @@ const CIGARS = [
   {
     id: "el-rey-del-mundo-demi-tasse",
     name: "El Rey del Mundo Demi Tasse",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "El Rey del Mundo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -13079,6 +13141,7 @@ const CIGARS = [
   {
     id: "punch-petit-coronas-del-punch",
     name: "Punch Petit Coronas del Punch",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Punch",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -13103,6 +13166,7 @@ const CIGARS = [
   {
     id: "punch-royal-selection-no-11",
     name: "Punch Royal Selection No. 11",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Punch",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -13127,6 +13191,7 @@ const CIGARS = [
   {
     id: "sancho-panza-non-plus",
     name: "Sancho Panza Non Plus",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Sancho Panza",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -13151,6 +13216,7 @@ const CIGARS = [
   {
     id: "vegueros-centrofinos",
     name: "Vegueros Centrofinos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Vegueros",
     origin: "Cuba",
     region: "Pinar del Río",
@@ -13175,6 +13241,7 @@ const CIGARS = [
   {
     id: "vegas-robaina-famosos",
     name: "Vegas Robaina Famosos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Vegas Robaina",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -13199,6 +13266,7 @@ const CIGARS = [
   {
     id: "ramon-allones-small-club-coronas",
     name: "Ramón Allones Small Club Coronas",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Ramón Allones",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -13298,6 +13366,7 @@ const CIGARS = [
   {
     id: "por-larranaga-petit-coronas",
     name: "Por Larrañaga Petit Coronas",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Por Larrañaga",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -17497,6 +17566,7 @@ const CIGARS = [
   {
     id: "torano-exodus-robusto",
     name: "Toraño Exodus Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/ci-ct5-robm10pk.jpg?_i=AB",
     brand: "Carlos Toraño",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -17521,6 +17591,7 @@ const CIGARS = [
   {
     id: "torano-vault-a008-robusto",
     name: "Toraño Vault A-008 Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/ci-ct5-robm10pk.jpg?_i=AB",
     brand: "Carlos Toraño",
     origin: "Nicaragua",
     region: "Estelí",
@@ -17545,6 +17616,7 @@ const CIGARS = [
   {
     id: "torano-casa-torano-robusto",
     name: "Toraño Casa Toraño Robusto",
+    image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_265,q_auto,w_265/v1/skupics/ci-ct5-robm10pk.jpg?_i=AB",
     brand: "Carlos Toraño",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23326,6 +23398,7 @@ const CIGARS = [
   {
     id: "warped-flor-del-valle-toro",
     name: "Warped Flor del Valle Toro",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Warped Cigars",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -25349,6 +25422,7 @@ const CIGARS = [
   {
     id: "cohiba-gran-reserva",
     name: "Cohiba Gran Reserva",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Cohiba",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -25523,6 +25597,7 @@ const CIGARS = [
   {
     id: "partagas-coronas-gordas",
     name: "Partagás Coronas Gordas",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Partagás",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -25572,6 +25647,7 @@ const CIGARS = [
   {
     id: "partagas-coronas-junior",
     name: "Partagás Coronas Junior",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Partagás",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -25771,6 +25847,7 @@ const CIGARS = [
   {
     id: "partagas-ramon-allones-8",
     name: "Partagás Ramón Allones 8",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Partagás",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -25820,6 +25897,7 @@ const CIGARS = [
   {
     id: "bolivar-palmas-extra",
     name: "Bolívar Palmas Extra",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Bolívar",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -25844,6 +25922,7 @@ const CIGARS = [
   {
     id: "bolivar-gold-medal",
     name: "Bolívar Gold Medal",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Bolívar",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -26018,6 +26097,7 @@ const CIGARS = [
   {
     id: "bolivar-short-churchills",
     name: "Bolívar Short Churchills",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Bolívar",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -26117,6 +26197,7 @@ const CIGARS = [
   {
     id: "bolivar-gold-medal-reserva",
     name: "Bolívar Gold Medal Reserva",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Bolívar",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -26141,6 +26222,7 @@ const CIGARS = [
   {
     id: "bolivar-inmensas-er",
     name: "Bolívar Inmensas Edición Regional",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Bolívar",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -26365,6 +26447,7 @@ const CIGARS = [
   {
     id: "h-upmann-palmas-extra",
     name: "H. Upmann Palmas Extra",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "H. Upmann",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -26439,6 +26522,7 @@ const CIGARS = [
   {
     id: "h-upmann-robusto-anejado",
     name: "H. Upmann Robusto Anejado",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "H. Upmann",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -26488,6 +26572,7 @@ const CIGARS = [
   {
     id: "h-upmann-petit-upmanns",
     name: "H. Upmann Petit Upmanns",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "H. Upmann",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -26537,6 +26622,7 @@ const CIGARS = [
   {
     id: "h-upmann-skinny-dude",
     name: "H. Upmann Skinny Dude",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "H. Upmann",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -26986,6 +27072,7 @@ const CIGARS = [
   {
     id: "montecristo-no-3",
     name: "Montecristo No. 3",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27010,6 +27097,7 @@ const CIGARS = [
   {
     id: "montecristo-joyitas",
     name: "Montecristo Joyitas",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27109,6 +27197,7 @@ const CIGARS = [
   {
     id: "montecristo-linea-1935-leyenda",
     name: "Montecristo Línea 1935 Leyenda",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27133,6 +27222,7 @@ const CIGARS = [
   {
     id: "montecristo-linea-1935-dumas",
     name: "Montecristo Línea 1935 Dumas",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27157,6 +27247,7 @@ const CIGARS = [
   {
     id: "montecristo-linea-1935-malraux",
     name: "Montecristo Línea 1935 Malraux",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27181,6 +27272,7 @@ const CIGARS = [
   {
     id: "montecristo-puritos",
     name: "Montecristo Puritos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27205,6 +27297,7 @@ const CIGARS = [
   {
     id: "montecristo-especial-no-1",
     name: "Montecristo Especial No. 1",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27229,6 +27322,7 @@ const CIGARS = [
   {
     id: "montecristo-regalos",
     name: "Montecristo Regalos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27253,6 +27347,7 @@ const CIGARS = [
   {
     id: "montecristo-coronas-junior",
     name: "Montecristo Coronas Junior",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27277,6 +27372,7 @@ const CIGARS = [
   {
     id: "montecristo-shorts",
     name: "Montecristo Shorts",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27301,6 +27397,7 @@ const CIGARS = [
   {
     id: "montecristo-edmundo-el",
     name: "Montecristo Edmundo EL",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27325,6 +27422,7 @@ const CIGARS = [
   {
     id: "montecristo-open-no-3",
     name: "Montecristo Open No. 3",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27349,6 +27447,7 @@ const CIGARS = [
   {
     id: "montecristo-open-no-4",
     name: "Montecristo Open No. 4",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27373,6 +27472,7 @@ const CIGARS = [
   {
     id: "montecristo-linea-1935-angeles",
     name: "Montecristo Línea 1935 Ángeles",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Montecristo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27497,6 +27597,7 @@ const CIGARS = [
   {
     id: "hoyo-de-monterrey-epicure-no1",
     name: "Hoyo de Monterrey Epicure No. 1",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Hoyo de Monterrey",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27521,6 +27622,7 @@ const CIGARS = [
   {
     id: "hoyo-de-monterrey-palmas-extra",
     name: "Hoyo de Monterrey Palmas Extra",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Hoyo de Monterrey",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27545,6 +27647,7 @@ const CIGARS = [
   {
     id: "hoyo-de-monterrey-no4",
     name: "Hoyo No. 4",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Hoyo de Monterrey",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27569,6 +27672,7 @@ const CIGARS = [
   {
     id: "hoyo-le-hoyo-des-dieux",
     name: "Le Hoyo des Dieux",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Hoyo de Monterrey",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27593,6 +27697,7 @@ const CIGARS = [
   {
     id: "fonseca-kdt-cadetes",
     name: "Fonseca KDT Cadetes",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Fonseca",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27617,6 +27722,7 @@ const CIGARS = [
   {
     id: "fonseca-delicias",
     name: "Fonseca Delicias",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Fonseca",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27641,6 +27747,7 @@ const CIGARS = [
   {
     id: "fonseca-invictos",
     name: "Fonseca Invictos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Fonseca",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27737,6 +27844,7 @@ const CIGARS = [
   {
     id: "el-rey-del-mundo-grandes-de-espana",
     name: "El Rey del Mundo Grandes de España",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "El Rey del Mundo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27761,6 +27869,7 @@ const CIGARS = [
   {
     id: "el-rey-del-mundo-coronas-de-luxe",
     name: "El Rey del Mundo Coronas de Luxe",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "El Rey del Mundo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27785,6 +27894,7 @@ const CIGARS = [
   {
     id: "el-rey-del-mundo-lunch-club",
     name: "El Rey del Mundo Lunch Club No. 2",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "El Rey del Mundo",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27809,6 +27919,7 @@ const CIGARS = [
   {
     id: "vegas-robaina-clasicos",
     name: "Vegas Robaina Clásicos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Vegas Robaina",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27833,6 +27944,7 @@ const CIGARS = [
   {
     id: "vegas-robaina-senores",
     name: "Vegas Robaina Señores",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Vegas Robaina",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27857,6 +27969,7 @@ const CIGARS = [
   {
     id: "cuaba-exclusivos",
     name: "Cuaba Exclusivos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Cuaba",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27881,6 +27994,7 @@ const CIGARS = [
   {
     id: "cuaba-generosos",
     name: "Cuaba Generosos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Cuaba",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27905,6 +28019,7 @@ const CIGARS = [
   {
     id: "cuaba-salomones",
     name: "Cuaba Salomones",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Cuaba",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27929,6 +28044,7 @@ const CIGARS = [
   {
     id: "vegueros-tainos",
     name: "Vegueros Tainos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Vegueros",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27978,6 +28094,7 @@ const CIGARS = [
   {
     id: "vegueros-entretiempos",
     name: "Vegueros Entretiempos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Vegueros",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28002,6 +28119,7 @@ const CIGARS = [
   {
     id: "juan-lopez-seleccion-suprema",
     name: "Juan López Selección Suprema",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Juan López",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28026,6 +28144,7 @@ const CIGARS = [
   {
     id: "juan-lopez-coronas-de-lomo",
     name: "Juan López Coronas de Lomo",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Juan López",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28050,6 +28169,7 @@ const CIGARS = [
   {
     id: "ramon-allones-club-allones",
     name: "Ramón Allones Club Allones",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Ramón Allones",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28074,6 +28194,7 @@ const CIGARS = [
   {
     id: "ramon-allones-ramonitas",
     name: "Ramón Allones Ramonitas",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Ramón Allones",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28098,6 +28219,7 @@ const CIGARS = [
   {
     id: "ramon-allones-phoenixes",
     name: "Ramón Allones Phoenixes",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Ramón Allones",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28122,6 +28244,7 @@ const CIGARS = [
   {
     id: "sancho-panza-coronas",
     name: "Sancho Panza Coronas",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Sancho Panza",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28146,6 +28269,7 @@ const CIGARS = [
   {
     id: "sancho-panza-molinos",
     name: "Sancho Panza Molinos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Sancho Panza",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28170,6 +28294,7 @@ const CIGARS = [
   {
     id: "sancho-panza-bachilleres",
     name: "Sancho Panza Bachilleres",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Sancho Panza",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28194,6 +28319,7 @@ const CIGARS = [
   {
     id: "quai-dorsay-no50",
     name: "Quai d'Orsay No. 50",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Quai d'Orsay",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28218,6 +28344,7 @@ const CIGARS = [
   {
     id: "quai-dorsay-senadores",
     name: "Quai d'Orsay Senadores",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Quai d'Orsay",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28242,6 +28369,7 @@ const CIGARS = [
   {
     id: "quai-dorsay-no54",
     name: "Quai d'Orsay No. 54",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Quai d'Orsay",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28338,6 +28466,7 @@ const CIGARS = [
   {
     id: "por-larranaga-montecarlos",
     name: "Por Larrañaga Montecarlos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Por Larrañaga",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28362,6 +28491,7 @@ const CIGARS = [
   {
     id: "por-larranaga-picadores",
     name: "Por Larrañaga Picadores",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Por Larrañaga",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28386,6 +28516,7 @@ const CIGARS = [
   {
     id: "por-larranaga-galanes",
     name: "Por Larrañaga Galanes",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Por Larrañaga",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28485,6 +28616,7 @@ const CIGARS = [
   {
     id: "la-flor-de-cano-short-churchill",
     name: "La Flor de Caño Short Churchill",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "La Flor de Caño",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28509,6 +28641,7 @@ const CIGARS = [
   {
     id: "la-flor-de-cano-preferidos",
     name: "La Flor de Caño Preferidos",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "La Flor de Caño",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28533,6 +28666,7 @@ const CIGARS = [
   {
     id: "saint-luis-rey-du-connoisseur",
     name: "Saint Luis Rey Du Connoisseur No. 1",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Saint Luis Rey",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28557,6 +28691,7 @@ const CIGARS = [
   {
     id: "saint-luis-rey-regios",
     name: "Saint Luis Rey Regios",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Saint Luis Rey",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28581,6 +28716,7 @@ const CIGARS = [
   {
     id: "quintero-no2",
     name: "Quintero No. 2",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Quintero y Hno.",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28630,6 +28766,7 @@ const CIGARS = [
   {
     id: "jose-l-piedra-conservas",
     name: "José L. Piedra Conservas",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "José L. Piedra",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28654,6 +28791,7 @@ const CIGARS = [
   {
     id: "jose-l-piedra-cazadores",
     name: "José L. Piedra Cazadores",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "José L. Piedra",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28703,6 +28841,7 @@ const CIGARS = [
   {
     id: "punch-superiores",
     name: "Punch Superiores",
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
     brand: "Punch",
     origin: "Cuba",
     region: "Vuelta Abajo",
