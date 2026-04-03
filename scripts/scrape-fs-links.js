@@ -90,7 +90,7 @@ async function worker(browser, queue, results, workerIdx) {
     }
   }
 
-  await page.close();
+  try { await page.close(); } catch(e) {}
 }
 
 async function main() {
