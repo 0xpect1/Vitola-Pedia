@@ -1340,6 +1340,7 @@ const CIGARS = [
   {
     id: "fuente-fuente-opus-x-fe",
     name: "Opus X FFOX",
+    image: "http://images.neptunecigar.com/avimg/33817.jpg",
     brand: "Arturo Fuente",
     origin: "Dominican Republic",
     region: "Chateau de la Fuente",
@@ -1414,6 +1415,7 @@ const CIGARS = [
   {
     id: "cao-guatemalan-robusto",
     name: "CAO Guatemala Robusto",
+    image: "https://www.cigarsinternational.com//theme/ci_responsive/social/fb_cigars_international.png",
     brand: "CAO",
     origin: "Guatemala",
     region: "Jalapa-Coban",
@@ -1632,6 +1634,7 @@ const CIGARS = [
   {
     id: "fuente-natural-colorado-claro",
     name: "Fuente Natural Colorado Claro",
+    image: "https://www.cigarsinternational.com//theme/ci_responsive/social/fb_cigars_international.png",
     brand: "Arturo Fuente",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -2206,6 +2209,7 @@ const CIGARS = [
   {
     id: "nub-nuance-single-malt",
     name: "Nub Nuance Single Malt",
+    image: "https://www.cigarsinternational.com//theme/ci_responsive/social/fb_cigars_international.png",
     brand: "Nub",
     origin: "Nicaragua",
     region: "Estelí",
@@ -2355,6 +2359,7 @@ const CIGARS = [
   {
     id: "ashton-cabinet-selection-no1",
     name: "Ashton Cabinet Selection No. 1",
+    image: "http://images.neptunecigar.com/avimg/32020.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -2504,6 +2509,7 @@ const CIGARS = [
   {
     id: "ashton-small-batch",
     name: "Ashton Small Batch",
+    image: "http://images.neptunecigar.com/avimg/44215.jpg",
     brand: "Ashton",
     origin: "Dominican Republic",
     region: "Chateau de la Fuente",
@@ -2528,6 +2534,7 @@ const CIGARS = [
   {
     id: "davidoff-grand-cru-no1",
     name: "Davidoff Grand Cru No. 1",
+    image: "http://images.neptunecigar.com/avimg/37806.gif",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -2577,6 +2584,7 @@ const CIGARS = [
   {
     id: "davidoff-grand-cru-no4",
     name: "Davidoff Grand Cru No. 4",
+    image: "http://images.neptunecigar.com/avimg/37806.gif",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -2726,6 +2734,7 @@ const CIGARS = [
   {
     id: "davidoff-puro-doro",
     name: "Davidoff Puro d'Oro",
+    image: "http://images.neptunecigar.com/avimg/39172.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -2800,6 +2809,7 @@ const CIGARS = [
   {
     id: "davidoff-royal-release",
     name: "Davidoff Royal Release Robusto",
+    image: "http://images.neptunecigar.com/avimg/39406.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -3349,6 +3359,7 @@ const CIGARS = [
   {
     id: "aging-room-quattro-original",
     name: "Aging Room Quattro Original",
+    image: "http://images.neptunecigar.com/avimg/36126.jpg",
     brand: "Aging Room",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -3723,6 +3734,7 @@ const CIGARS = [
   {
     id: "illusione-od-habano",
     name: "Illusione ~ode~ Habano",
+    image: "http://images.neptunecigar.com/avimg/43241.jpg",
     brand: "Illusione",
     origin: "Nicaragua",
     region: "Estelí & Jalapa",
@@ -3797,6 +3809,7 @@ const CIGARS = [
   {
     id: "undercrown-sun-grown",
     name: "Liga Undercrown Sun Grown",
+    image: "http://images.neptunecigar.com/avimg/42319.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4221,6 +4234,7 @@ const CIGARS = [
   {
     id: "quesada-1974",
     name: "Quesada 1974 Robusto",
+    image: "http://images.neptunecigar.com/avimg/41632.jpg",
     brand: "Quesada",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -4342,6 +4356,7 @@ const CIGARS = [
   {
     id: "dunbarton-todos-las-dias",
     name: "Dunbarton Todos Las Dias",
+    image: "http://images.neptunecigar.com/avimg/39445.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Estelí",
@@ -4711,6 +4726,7 @@ const CIGARS = [
   {
     id: "aj-fernandez-san-lotano-oval",
     name: "San Lotano Oval",
+    image: "http://images.neptunecigar.com/avimg/34295.jpg",
     brand: "AJ Fernandez",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -4760,6 +4776,7 @@ const CIGARS = [
   {
     id: "aj-fernandez-puro-atlantico",
     name: "Puro Atlántico",
+    image: "http://images.neptunecigar.com/avimg/39172.jpg",
     brand: "AJ Fernandez",
     origin: "Nicaragua",
     region: "Estelí",
@@ -5927,6 +5944,7 @@ const CIGARS = [
   {
     id: "perdomo-habano-gold",
     name: "Habano Gold",
+    image: "http://images.neptunecigar.com/avimg/38101.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí & Jalapa",
@@ -6176,6 +6194,7 @@ const CIGARS = [
   {
     id: "casdagli-traditional-robusto",
     name: "Traditional Robusto",
+    image: "http://images.neptunecigar.com/avimg/39951.jpg",
     brand: "Casdagli",
     origin: "Dominican Republic",
     region: "Santiago (KBF)",
@@ -6269,6 +6288,7 @@ const CIGARS = [
   {
     id: "casdagli-brothers-forrader",
     name: "Brothers of the Sabre — Forrader",
+    image: "http://images.neptunecigar.com/avimg/43477.jpg",
     brand: "Casdagli",
     origin: "Dominican Republic",
     region: "Santiago (KBF)",
@@ -6317,6 +6337,7 @@ const CIGARS = [
   {
     id: "casdagli-daughters-pony-express",
     name: "Daughters of the Wind — Pony Express",
+    image: "http://images.neptunecigar.com/avimg/39956.jpg",
     brand: "Casdagli",
     origin: "Costa Rica",
     region: "Puriscal Valley",
@@ -6341,6 +6362,7 @@ const CIGARS = [
   {
     id: "casdagli-villa-pigasus",
     name: "Villa Casdagli Pigasus",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Casdagli",
     origin: "Costa Rica",
     region: "Tabacos de Costa Rica",
@@ -6365,6 +6387,7 @@ const CIGARS = [
   {
     id: "casdagli-cypher-3311-needle",
     name: "Cypher 3311 Needle",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Casdagli",
     origin: "Costa Rica",
     region: "IGM Cigars, Costa Rica",
@@ -6514,6 +6537,7 @@ const CIGARS = [
   {
     id: "bltc-deliverance-nocturne",
     name: "Deliverance Nocturne Perfecto",
+    image: "http://images.neptunecigar.com/avimg/39914.jpg",
     brand: "Black Label Trading Company",
     origin: "Nicaragua",
     region: "Estelí (Fábrica Oveja Negra)",
@@ -6612,6 +6636,7 @@ const CIGARS = [
   {
     id: "bltc-eletto",
     name: "Eletto Toro",
+    image: "http://images.neptunecigar.com/avimg/44197.jpg",
     brand: "Black Label Trading Company",
     origin: "Nicaragua",
     region: "Estelí (Fábrica Oveja Negra)",
@@ -6660,6 +6685,7 @@ const CIGARS = [
   {
     id: "bltc-morphine-10yr",
     name: "Morphine 10 Year Anniversary",
+    image: "http://images.neptunecigar.com/avimg/43799.jpg",
     brand: "Black Label Trading Company",
     origin: "Nicaragua",
     region: "Estelí (Fábrica Oveja Negra)",
@@ -6734,6 +6760,7 @@ const CIGARS = [
   {
     id: "ferio-tego-generosidad-toro",
     name: "Ferio Tego Generosidad Toro",
+    image: "http://images.neptunecigar.com/avimg/42735.jpg",
     brand: "Ferio Tego",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -6758,6 +6785,7 @@ const CIGARS = [
   {
     id: "ferio-tego-toro-de-fuego",
     name: "Ferio Tego Toro de Fuego",
+    image: "http://images.neptunecigar.com/avimg/42735.jpg",
     brand: "Ferio Tego",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -6807,6 +6835,7 @@ const CIGARS = [
   {
     id: "room-101-big-stick-robusto",
     name: "Room 101 Big Stick Robusto",
+    image: "http://images.neptunecigar.com/avimg/41472.jpg",
     brand: "Room 101",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -6856,6 +6885,7 @@ const CIGARS = [
   {
     id: "room-101-namakubi-robusto",
     name: "Room 101 Namakubi Robusto",
+    image: "http://images.neptunecigar.com/avimg/33737.jpg",
     brand: "Room 101",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -6880,6 +6910,7 @@ const CIGARS = [
   {
     id: "room-101-daruma-robusto",
     name: "Room 101 Daruma Robusto",
+    image: "http://images.neptunecigar.com/avimg/34198.jpg",
     brand: "Room 101",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -6904,6 +6935,7 @@ const CIGARS = [
   {
     id: "room-101-osok-robusto",
     name: "Room 101 OSOK Robusto",
+    image: "http://images.neptunecigar.com/avimg/34198.jpg",
     brand: "Room 101",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -6928,6 +6960,7 @@ const CIGARS = [
   {
     id: "ace-prime-fiat-lux-robusto",
     name: "Ace Prime Fiat Lux Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Ace Prime",
     origin: "Nicaragua",
     region: "Estelí",
@@ -6952,6 +6985,7 @@ const CIGARS = [
   {
     id: "ace-prime-el-oso-grande-robusto",
     name: "Ace Prime El Oso Grande Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Ace Prime",
     origin: "Nicaragua",
     region: "Estelí",
@@ -6976,6 +7010,7 @@ const CIGARS = [
   {
     id: "ace-prime-palmita-robusto",
     name: "Ace Prime Palmita Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Ace Prime",
     origin: "Nicaragua",
     region: "Estelí",
@@ -7000,6 +7035,7 @@ const CIGARS = [
   {
     id: "ace-prime-lux-cameroon-robusto",
     name: "Ace Prime Lux Cameroon Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Ace Prime",
     origin: "Nicaragua",
     region: "Estelí",
@@ -7024,6 +7060,7 @@ const CIGARS = [
   {
     id: "ace-prime-mombacho-diplomatico-robusto",
     name: "Ace Prime Mombacho Diplomatico Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Ace Prime",
     origin: "Nicaragua",
     region: "Granada",
@@ -7073,6 +7110,7 @@ const CIGARS = [
   {
     id: "viaje-white-label-project-wlp-robusto",
     name: "Viaje White Label Project WLP Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Viaje Cigar",
     origin: "Nicaragua",
     region: "Estelí",
@@ -7097,6 +7135,7 @@ const CIGARS = [
   {
     id: "viaje-honey-and-hand-grenades-robusto",
     name: "Viaje Honey and Hand Grenades Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Viaje Cigar",
     origin: "Nicaragua",
     region: "Estelí",
@@ -7121,6 +7160,7 @@ const CIGARS = [
   {
     id: "viaje-summerfest-robusto",
     name: "Viaje Summerfest Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Viaje Cigar",
     origin: "Nicaragua",
     region: "Estelí",
@@ -7145,6 +7185,7 @@ const CIGARS = [
   {
     id: "herrera-esteli-norteno-robusto-grande",
     name: "Herrera Estelí Norteño Robusto Grande",
+    image: "http://images.neptunecigar.com/avimg/36296.jpg",
     brand: "Herrera Estelí",
     origin: "Nicaragua",
     region: "Estelí",
@@ -7194,6 +7235,7 @@ const CIGARS = [
   {
     id: "herrera-esteli-connecticut-broadleaf-robusto",
     name: "Herrera Estelí Connecticut Broadleaf Robusto",
+    image: "http://images.neptunecigar.com/avimg/42317.jpg",
     brand: "Herrera Estelí",
     origin: "Nicaragua",
     region: "Estelí",
@@ -7268,6 +7310,7 @@ const CIGARS = [
   {
     id: "joya-de-nicaragua-cinco-decadas-el-fundador",
     name: "Joya de Nicaragua Cinco Décadas El Fundador",
+    image: "http://images.neptunecigar.com/avimg/39837.jpg",
     brand: "Joya de Nicaragua",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -7292,6 +7335,7 @@ const CIGARS = [
   {
     id: "joya-de-nicaragua-numero-uno-robusto",
     name: "Joya de Nicaragua Número Uno Robusto",
+    image: "http://images.neptunecigar.com/avimg/41283.jpg",
     brand: "Joya de Nicaragua",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -7366,6 +7410,7 @@ const CIGARS = [
   {
     id: "cao-oriente-toro",
     name: "CAO Oriente Toro",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "CAO",
     origin: "Nicaragua",
     region: "Estelí",
@@ -7490,6 +7535,7 @@ const CIGARS = [
   {
     id: "alec-bradley-nica-puro-robusto",
     name: "Alec Bradley Nica Puro Robusto",
+    image: "http://images.neptunecigar.com/avimg/34307.jpg",
     brand: "Alec Bradley",
     origin: "Nicaragua",
     region: "Estelí",
@@ -7514,6 +7560,7 @@ const CIGARS = [
   {
     id: "alec-bradley-american-classic-robusto",
     name: "Alec Bradley American Classic Robusto",
+    image: "http://images.neptunecigar.com/avimg/33928.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -7738,6 +7785,7 @@ const CIGARS = [
   {
     id: "illusione-mk-ultra-robusto",
     name: "Illusione MK Ultra Robusto",
+    image: "http://images.neptunecigar.com/avimg/34207.jpg",
     brand: "Illusione",
     origin: "Nicaragua",
     region: "Estelí",
@@ -7787,6 +7835,7 @@ const CIGARS = [
   {
     id: "illusione-singulare-robusto",
     name: "Illusione Singularé Robusto",
+    image: "http://images.neptunecigar.com/avimg/34208.jpg",
     brand: "Illusione",
     origin: "Nicaragua",
     region: "Estelí",
@@ -8330,6 +8379,7 @@ const CIGARS = [
   {
     id: "la-flor-dominicana-andalusian-bull",
     name: "La Flor Dominicana Andalusian Bull",
+    image: "http://images.neptunecigar.com/avimg/36294.jpg",
     brand: "La Flor Dominicana",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -8379,6 +8429,7 @@ const CIGARS = [
   {
     id: "espinosa-las-6-provincias-robusto",
     name: "Espinosa Las 6 Provincias Robusto",
+    image: "http://images.neptunecigar.com/avimg/39718.jpg",
     brand: "Espinosa Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -8553,6 +8604,7 @@ const CIGARS = [
   {
     id: "camacho-american-barrel-aged-robusto",
     name: "Camacho American Barrel Aged Robusto",
+    image: "http://images.neptunecigar.com/avimg/37896.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -8602,6 +8654,7 @@ const CIGARS = [
   {
     id: "romeo-y-julieta-aniversario-robusto",
     name: "Romeo y Julieta Aniversario Robusto",
+    image: "http://images.neptunecigar.com/avimg/37410.jpg",
     brand: "Romeo y Julieta",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -8651,6 +8704,7 @@ const CIGARS = [
   {
     id: "romeo-y-julieta-wide-churchill",
     name: "Romeo y Julieta Wide Churchill",
+    image: "http://images.neptunecigar.com/avimg/37410.jpg",
     brand: "Romeo y Julieta",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -8773,6 +8827,7 @@ const CIGARS = [
   {
     id: "aging-room-bin-no-1-robusto",
     name: "Aging Room Bin No. 1 Robusto",
+    image: "http://images.neptunecigar.com/avimg/41271.jpg",
     brand: "Aging Room",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -8896,6 +8951,7 @@ const CIGARS = [
   {
     id: "quesada-oktoberfest-robusto",
     name: "Quesada Oktoberfest Robusto",
+    image: "http://images.neptunecigar.com/avimg/38373.jpg",
     brand: "Quesada",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -9359,6 +9415,7 @@ const CIGARS = [
   {
     id: "opus-x-fuente-fuente-robusto",
     name: "Arturo Fuente OpusX Fuente Fuente",
+    image: "http://images.neptunecigar.com/avimg/32017.jpg",
     brand: "Arturo Fuente",
     origin: "Dominican Republic",
     region: "Chateau de la Fuente",
@@ -9383,6 +9440,7 @@ const CIGARS = [
   {
     id: "opus-x-perfecxion-x",
     name: "Arturo Fuente OpusX Perfecxion X",
+    image: "http://images.neptunecigar.com/avimg/32017.jpg",
     brand: "Arturo Fuente",
     origin: "Dominican Republic",
     region: "Chateau de la Fuente",
@@ -9507,6 +9565,7 @@ const CIGARS = [
   {
     id: "arturo-fuente-opus-22-robusto",
     name: "Arturo Fuente Opus 22 Robusto",
+    image: "http://images.neptunecigar.com/avimg/33817.jpg",
     brand: "Arturo Fuente",
     origin: "Dominican Republic",
     region: "Chateau de la Fuente",
@@ -9581,6 +9640,7 @@ const CIGARS = [
   {
     id: "fuente-gran-aniversario",
     name: "Arturo Fuente Gran AniverXario",
+    image: "http://images.neptunecigar.com/avimg/32017.jpg",
     brand: "Arturo Fuente",
     origin: "Dominican Republic",
     region: "Chateau de la Fuente",
@@ -9655,6 +9715,7 @@ const CIGARS = [
   {
     id: "cohiba-macassar-toro",
     name: "Cohiba Macassar Toro",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Cohiba (General Cigar)",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -9975,6 +10036,7 @@ const CIGARS = [
   {
     id: "my-father-no1-toro",
     name: "My Father No. 1 Toro",
+    image: "http://images.neptunecigar.com/avimg/44197.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -10249,6 +10311,7 @@ const CIGARS = [
   {
     id: "rocky-patel-hamlet-2000-robusto",
     name: "Rocky Patel Hamlet 2000 Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Rocky Patel",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -10373,6 +10436,7 @@ const CIGARS = [
   {
     id: "aj-fernandez-last-call-robusto",
     name: "AJ Fernandez Last Call Robusto",
+    image: "http://images.neptunecigar.com/avimg/38921.jpg",
     brand: "AJ Fernandez",
     origin: "Nicaragua",
     region: "Estelí",
@@ -10422,6 +10486,7 @@ const CIGARS = [
   {
     id: "aj-fernandez-san-lotano-oval-robusto",
     name: "AJ Fernandez San Lotano Oval Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "AJ Fernandez",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -10446,6 +10511,7 @@ const CIGARS = [
   {
     id: "aj-fernandez-blend-no1-robusto",
     name: "AJ Fernandez Blend No. 1 Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "AJ Fernandez",
     origin: "Nicaragua",
     region: "Estelí",
@@ -10470,6 +10536,7 @@ const CIGARS = [
   {
     id: "aj-fernandez-aging-bull-robusto",
     name: "AJ Fernandez Aging Bull Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "AJ Fernandez",
     origin: "Nicaragua",
     region: "Estelí",
@@ -10619,6 +10686,7 @@ const CIGARS = [
   {
     id: "perdomo-craft-series-barrel-aged-stout-robusto",
     name: "Perdomo Craft Series Barrel-Aged Stout Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -10643,6 +10711,7 @@ const CIGARS = [
   {
     id: "perdomo-esx-b-robusto",
     name: "Perdomo ESX-B Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -10742,6 +10811,7 @@ const CIGARS = [
   {
     id: "plasencia-cosecha-146-robusto",
     name: "Plasencia Cosecha 146 Robusto",
+    image: "http://images.neptunecigar.com/avimg/39367.jpg",
     brand: "Plasencia",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -10816,6 +10886,7 @@ const CIGARS = [
   {
     id: "plasencia-year-of-the-tiger",
     name: "Plasencia Year of the Tiger",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Plasencia",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -10840,6 +10911,7 @@ const CIGARS = [
   {
     id: "aganorsa-leaf-supreme-leaf-robusto",
     name: "Aganorsa Leaf Supreme Leaf Robusto",
+    image: "http://images.neptunecigar.com/avimg/42100.jpg",
     brand: "Aganorsa Leaf",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -10914,6 +10986,7 @@ const CIGARS = [
   {
     id: "aganorsa-leaf-swamp-thang-robusto",
     name: "Aganorsa Leaf Swamp Thang Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Aganorsa Leaf",
     origin: "Nicaragua",
     region: "Estelí",
@@ -11263,6 +11336,7 @@ const CIGARS = [
   {
     id: "davidoff-year-of-the-rabbit",
     name: "Davidoff Year of the Rabbit",
+    image: "http://images.neptunecigar.com/avimg/44216.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -11587,6 +11661,7 @@ const CIGARS = [
   {
     id: "crowned-heads-los-cincos-diablos-robusto",
     name: "Los Cincos Diablos Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Estelí",
@@ -11636,6 +11711,7 @@ const CIGARS = [
   {
     id: "crowned-heads-le-careme-robusto",
     name: "Le Careme Robusto",
+    image: "http://images.neptunecigar.com/avimg/39029.jpg",
     brand: "Crowned Heads",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -11660,6 +11736,7 @@ const CIGARS = [
   {
     id: "crowned-heads-luminosa-robusto",
     name: "Luminosa Robusto",
+    image: "http://images.neptunecigar.com/prodimgl/358330_0.jpg?dummy=095526310",
     brand: "Crowned Heads",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -11784,6 +11861,7 @@ const CIGARS = [
   {
     id: "foundation-menelik-robusto",
     name: "Menelik Robusto",
+    image: "http://images.neptunecigar.com/avimg/41443.jpg",
     brand: "Foundation Cigar Co.",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -11958,6 +12036,7 @@ const CIGARS = [
   {
     id: "tatuaje-monster-series",
     name: "Tatuaje Monster Series",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13207,6 +13286,7 @@ const CIGARS = [
   {
     id: "diesel-whiskey-row-robusto",
     name: "Diesel Whiskey Row Robusto",
+    image: "http://images.neptunecigar.com/avimg/39533.jpg",
     brand: "Diesel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13231,6 +13311,7 @@ const CIGARS = [
   {
     id: "diesel-unlimited-dx-robusto",
     name: "Diesel Unlimited d.X Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Diesel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13255,6 +13336,7 @@ const CIGARS = [
   {
     id: "diesel-grind-robusto",
     name: "Diesel Grind Robusto",
+    image: "http://images.neptunecigar.com/avimg/39196.jpg",
     brand: "Diesel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13279,6 +13361,7 @@ const CIGARS = [
   {
     id: "diesel-hair-of-the-dog-robusto",
     name: "Diesel Hair of the Dog Robusto",
+    image: "http://images.neptunecigar.com/avimg/38153.jpg",
     brand: "Diesel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13303,6 +13386,7 @@ const CIGARS = [
   {
     id: "diesel-rage-robusto",
     name: "Diesel Rage Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Diesel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13327,6 +13411,7 @@ const CIGARS = [
   {
     id: "man-o-war-ruination-robusto",
     name: "Man O' War Ruination Robusto",
+    image: "http://images.neptunecigar.com/avimg/43508.jpg",
     brand: "Man O' War",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13351,6 +13436,7 @@ const CIGARS = [
   {
     id: "man-o-war-virtue-robusto",
     name: "Man O' War Virtue Robusto",
+    image: "http://images.neptunecigar.com/avimg/43508.jpg",
     brand: "Man O' War",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13375,6 +13461,7 @@ const CIGARS = [
   {
     id: "man-o-war-dark-horse-robusto",
     name: "Man O' War Dark Horse Robusto",
+    image: "http://images.neptunecigar.com/avimg/43508.jpg",
     brand: "Man O' War",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13399,6 +13486,7 @@ const CIGARS = [
   {
     id: "man-o-war-armada-robusto",
     name: "Man O' War Armada Robusto",
+    image: "http://images.neptunecigar.com/avimg/43508.jpg",
     brand: "Man O' War",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13423,6 +13511,7 @@ const CIGARS = [
   {
     id: "man-o-war-puro-authentico-robusto",
     name: "Man O' War Puro Authentico Robusto",
+    image: "http://images.neptunecigar.com/avimg/43508.jpg",
     brand: "Man O' War",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13447,6 +13536,7 @@ const CIGARS = [
   {
     id: "gurkha-cellar-reserve-21-year-robusto",
     name: "Gurkha Cellar Reserve 21 Year Robusto",
+    image: "http://images.neptunecigar.com/avimg/40701.jpg",
     brand: "Gurkha",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -13471,6 +13561,7 @@ const CIGARS = [
   {
     id: "gurkha-ghost-robusto",
     name: "Gurkha Ghost Robusto",
+    image: "http://images.neptunecigar.com/avimg/38024.jpg",
     brand: "Gurkha",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13495,6 +13586,7 @@ const CIGARS = [
   {
     id: "gurkha-grand-reserve-robusto",
     name: "Gurkha Grand Reserve Robusto",
+    image: "http://images.neptunecigar.com/avimg/1364.jpg",
     brand: "Gurkha",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13519,6 +13611,7 @@ const CIGARS = [
   {
     id: "gurkha-assassin-robusto",
     name: "Gurkha Assassin Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Gurkha",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13543,6 +13636,7 @@ const CIGARS = [
   {
     id: "gurkha-royal-challenge-robusto",
     name: "Gurkha Royal Challenge Robusto",
+    image: "http://images.neptunecigar.com/avimg/38020.jpg",
     brand: "Gurkha",
     origin: "Honduras",
     region: "Danlí",
@@ -13567,6 +13661,7 @@ const CIGARS = [
   {
     id: "drew-estate-java-robusto",
     name: "Drew Estate Java Robusto",
+    image: "http://images.neptunecigar.com/avimg/43519.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13591,6 +13686,7 @@ const CIGARS = [
   {
     id: "drew-estate-java-maduro-robusto",
     name: "Drew Estate Java Maduro Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13615,6 +13711,7 @@ const CIGARS = [
   {
     id: "drew-estate-tabak-especial-dulce-robusto",
     name: "Drew Estate Tabak Especial Dulce Robusto",
+    image: "http://images.neptunecigar.com/avimg/1120.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13639,6 +13736,7 @@ const CIGARS = [
   {
     id: "drew-estate-tabak-especial-negra-robusto",
     name: "Drew Estate Tabak Especial Negra Robusto",
+    image: "http://images.neptunecigar.com/avimg/1095.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13663,6 +13761,7 @@ const CIGARS = [
   {
     id: "drew-estate-nica-rustica-el-brujito",
     name: "Drew Estate Nica Rustica El Brujito",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -13687,6 +13786,7 @@ const CIGARS = [
   {
     id: "drew-estate-kentucky-fire-cured-chunky",
     name: "Drew Estate Kentucky Fire Cured Chunky",
+    image: "http://images.neptunecigar.com/avimg/35950.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13711,6 +13811,7 @@ const CIGARS = [
   {
     id: "drew-estate-undercrown-10-robusto",
     name: "Drew Estate Undercrown 10 Robusto",
+    image: "http://images.neptunecigar.com/avimg/43519.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13735,6 +13836,7 @@ const CIGARS = [
   {
     id: "drew-estate-natural-dark-angel-robusto",
     name: "Drew Estate Natural Dark Angel Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13759,6 +13861,7 @@ const CIGARS = [
   {
     id: "5-vegas-gold-robusto",
     name: "5 Vegas Gold Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "5 Vegas",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13783,6 +13886,7 @@ const CIGARS = [
   {
     id: "5-vegas-triple-a-robusto",
     name: "5 Vegas Triple-A Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "5 Vegas",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13807,6 +13911,7 @@ const CIGARS = [
   {
     id: "5-vegas-series-a-robusto",
     name: "5 Vegas Series A Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "5 Vegas",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13831,6 +13936,7 @@ const CIGARS = [
   {
     id: "5-vegas-cask-strength-robusto",
     name: "5 Vegas Cask-Strength Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "5 Vegas",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13855,6 +13961,7 @@ const CIGARS = [
   {
     id: "asylum-13-robusto",
     name: "Asylum 13 Robusto",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Asylum",
     origin: "Nicaragua",
     region: "Estelí",
@@ -13879,6 +13986,7 @@ const CIGARS = [
   {
     id: "asylum-insidious-robusto",
     name: "Asylum Insidious Robusto",
+    image: "http://images.neptunecigar.com/avimg/36279.jpg",
     brand: "Asylum",
     origin: "Honduras",
     region: "Danlí",
@@ -13903,6 +14011,7 @@ const CIGARS = [
   {
     id: "asylum-premium-robusto",
     name: "Asylum Premium Robusto",
+    image: "http://images.neptunecigar.com/avimg/35959.jpg",
     brand: "Asylum",
     origin: "Honduras",
     region: "Danlí",
@@ -13927,6 +14036,7 @@ const CIGARS = [
   {
     id: "henry-clay-war-hawk-robusto",
     name: "Henry Clay War Hawk Robusto",
+    image: "http://images.neptunecigar.com/avimg/40566.jpg",
     brand: "Henry Clay",
     origin: "Honduras",
     region: "Danlí",
@@ -13951,6 +14061,7 @@ const CIGARS = [
   {
     id: "henry-clay-stalk-cut-robusto",
     name: "Henry Clay Stalk Cut Robusto",
+    image: "http://images.neptunecigar.com/avimg/38524.jpg",
     brand: "Henry Clay",
     origin: "Honduras",
     region: "Danlí",
@@ -13975,6 +14086,7 @@ const CIGARS = [
   {
     id: "henry-clay-tattoo-robusto",
     name: "Henry Clay Tattoo Robusto",
+    image: "http://images.neptunecigar.com/avimg/287.jpg",
     brand: "Henry Clay",
     origin: "Honduras",
     region: "Danlí",
@@ -13999,6 +14111,7 @@ const CIGARS = [
   {
     id: "la-palina-black-label-robusto",
     name: "La Palina Black Label Robusto",
+    image: "http://images.neptunecigar.com/avimg/38350.jpg",
     brand: "La Palina",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14023,6 +14136,7 @@ const CIGARS = [
   {
     id: "la-palina-red-label-robusto",
     name: "La Palina Red Label Robusto",
+    image: "http://images.neptunecigar.com/avimg/38348.jpg",
     brand: "La Palina",
     origin: "Honduras",
     region: "Danlí",
@@ -14047,6 +14161,7 @@ const CIGARS = [
   {
     id: "la-palina-classic-robusto",
     name: "La Palina Classic Robusto",
+    image: "http://images.neptunecigar.com/avimg/39601.jpg",
     brand: "La Palina",
     origin: "Honduras",
     region: "Danlí",
@@ -14071,6 +14186,7 @@ const CIGARS = [
   {
     id: "eiroa-first-20-years-robusto",
     name: "Eiroa First 20 Years Robusto",
+    image: "http://images.neptunecigar.com/avimg/38084.jpg",
     brand: "Eiroa",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -14095,6 +14211,7 @@ const CIGARS = [
   {
     id: "eiroa-cbt-maduro-robusto",
     name: "Eiroa CBT Maduro Robusto",
+    image: "http://images.neptunecigar.com/avimg/36243.jpg",
     brand: "Eiroa",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -14119,6 +14236,7 @@ const CIGARS = [
   {
     id: "eiroa-first-20-years-colorado-robusto",
     name: "Eiroa The First 20 Years Colorado Robusto",
+    image: "http://images.neptunecigar.com/avimg/39218.jpg",
     brand: "Eiroa",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -14143,6 +14261,7 @@ const CIGARS = [
   {
     id: "balmoral-anejo-xo-rothschild-masivo",
     name: "Balmoral Añejo XO Rothschild Masivo",
+    image: "http://images.neptunecigar.com/avimg/37751.jpg",
     brand: "Balmoral",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -14167,6 +14286,7 @@ const CIGARS = [
   {
     id: "balmoral-serie-signaturas-dueto-robusto",
     name: "Balmoral Serie Signaturas Dueto Robusto",
+    image: "http://images.neptunecigar.com/avimg/39616.jpg",
     brand: "Balmoral",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -14191,6 +14311,7 @@ const CIGARS = [
   {
     id: "balmoral-royal-selection-anejo-18-robusto",
     name: "Balmoral Royal Selection Anejo 18 Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Balmoral",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -14215,6 +14336,7 @@ const CIGARS = [
   {
     id: "fratello-navetta-discovery-robusto",
     name: "Fratello Navetta Discovery Robusto",
+    image: "http://images.neptunecigar.com/avimg/40056.jpg",
     brand: "Fratello",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14239,6 +14361,7 @@ const CIGARS = [
   {
     id: "fratello-arlequin-robusto",
     name: "Fratello Arlequin Robusto",
+    image: "http://images.neptunecigar.com/avimg/41823.jpg",
     brand: "Fratello",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14263,6 +14386,7 @@ const CIGARS = [
   {
     id: "fratello-bianco-robusto",
     name: "Fratello Bianco Robusto",
+    image: "http://images.neptunecigar.com/avimg/38539.jpg",
     brand: "Fratello",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14287,6 +14411,7 @@ const CIGARS = [
   {
     id: "hvc-first-selection-robusto",
     name: "HVC First Selection Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "HVC",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14311,6 +14436,7 @@ const CIGARS = [
   {
     id: "hvc-pan-caliente-robusto",
     name: "HVC Pan Caliente Robusto",
+    image: "http://images.neptunecigar.com/avimg/39982.jpg",
     brand: "HVC",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14335,6 +14461,7 @@ const CIGARS = [
   {
     id: "hvc-black-friday-robusto",
     name: "HVC Black Friday Robusto",
+    image: "http://images.neptunecigar.com/avimg/40251.jpg",
     brand: "HVC",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14359,6 +14486,7 @@ const CIGARS = [
   {
     id: "hvc-cerro-maduro-robusto",
     name: "HVC Cerro Maduro Robusto",
+    image: "http://images.neptunecigar.com/avimg/39983.jpg",
     brand: "HVC",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14383,6 +14511,7 @@ const CIGARS = [
   {
     id: "hvc-serie-a-perlas-robusto",
     name: "HVC Serie A Perlas Robusto",
+    image: "http://images.neptunecigar.com/avimg/41348.jpg",
     brand: "HVC",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14407,6 +14536,7 @@ const CIGARS = [
   {
     id: "cornelius-anthony-venganza-robusto",
     name: "Cornelius & Anthony Venganza Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Cornelius & Anthony",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14431,6 +14561,7 @@ const CIGARS = [
   {
     id: "cornelius-anthony-meridian-robusto",
     name: "Cornelius & Anthony Meridian Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Cornelius & Anthony",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14455,6 +14586,7 @@ const CIGARS = [
   {
     id: "cornelius-anthony-daddy-mac-robusto",
     name: "Cornelius & Anthony Daddy Mac Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Cornelius & Anthony",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14479,6 +14611,7 @@ const CIGARS = [
   {
     id: "cornelius-anthony-senor-esugars-robusto",
     name: "Cornelius & Anthony Señor Esugars Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Cornelius & Anthony",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14503,6 +14636,7 @@ const CIGARS = [
   {
     id: "crux-epicure-robusto",
     name: "Crux Epicure Robusto",
+    image: "http://images.neptunecigar.com/avimg/43595.jpg",
     brand: "Crux Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14527,6 +14661,7 @@ const CIGARS = [
   {
     id: "crux-du-connoisseur-no4",
     name: "Crux du Connoisseur No. 4",
+    image: "http://images.neptunecigar.com/avimg/39943.jpg",
     brand: "Crux Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14551,6 +14686,7 @@ const CIGARS = [
   {
     id: "crux-bull-and-bear-robusto",
     name: "Crux Bull & Bear Robusto",
+    image: "http://images.neptunecigar.com/avimg/39943.jpg",
     brand: "Crux Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14575,6 +14711,7 @@ const CIGARS = [
   {
     id: "crux-limitada-ipcpr-2019-robusto",
     name: "Crux Limitada IPCPR 2019 Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Crux Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14599,6 +14736,7 @@ const CIGARS = [
   {
     id: "crux-guild-robusto",
     name: "Crux Guild Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Crux Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14623,6 +14761,7 @@ const CIGARS = [
   {
     id: "ezra-zion-tantrum-robusto",
     name: "Ezra Zion Tantrum Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Ezra Zion",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14647,6 +14786,7 @@ const CIGARS = [
   {
     id: "ezra-zion-fhk-robusto",
     name: "Ezra Zion FHK Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Ezra Zion",
     origin: "Honduras",
     region: "Danlí",
@@ -14671,6 +14811,7 @@ const CIGARS = [
   {
     id: "ezra-zion-all-my-exes-robusto",
     name: "Ezra Zion All My Exes Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Ezra Zion",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14695,6 +14836,7 @@ const CIGARS = [
   {
     id: "ezra-zion-honor-series-robusto",
     name: "Ezra Zion Honor Series Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Ezra Zion",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14719,6 +14861,7 @@ const CIGARS = [
   {
     id: "romacraft-neanderthal-hn-robusto",
     name: "RoMa Craft Neanderthal HN Robusto",
+    image: "http://images.neptunecigar.com/avimg/38779.jpg",
     brand: "RoMa Craft Tobac",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14743,6 +14886,7 @@ const CIGARS = [
   {
     id: "romacraft-aquitaine-emh-robusto",
     name: "RoMa Craft Aquitaine EMH Robusto",
+    image: "http://images.neptunecigar.com/avimg/38915.jpg",
     brand: "RoMa Craft Tobac",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14767,6 +14911,7 @@ const CIGARS = [
   {
     id: "romacraft-intemperance-ba-xxi-robusto",
     name: "RoMa Craft Intemperance BA XXI Robusto",
+    image: "http://images.neptunecigar.com/avimg/38512.jpg",
     brand: "RoMa Craft Tobac",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14791,6 +14936,7 @@ const CIGARS = [
   {
     id: "romacraft-weaselsnout-robusto",
     name: "RoMa Craft Weaselsnout Robusto",
+    image: "http://images.neptunecigar.com/avimg/41285.jpg",
     brand: "RoMa Craft Tobac",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14815,6 +14961,7 @@ const CIGARS = [
   {
     id: "dapper-cubo-claro-robusto",
     name: "Dapper Cubo Claro Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Dapper Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14839,6 +14986,7 @@ const CIGARS = [
   {
     id: "dapper-el-borracho-robusto",
     name: "Dapper El Borracho Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Dapper Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14863,6 +15011,7 @@ const CIGARS = [
   {
     id: "dapper-la-madrina-robusto",
     name: "Dapper La Madrina Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Dapper Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14887,6 +15036,7 @@ const CIGARS = [
   {
     id: "dapper-siempre-rosado-robusto",
     name: "Dapper Siempre Rosado Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Dapper Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -14911,6 +15061,7 @@ const CIGARS = [
   {
     id: "matilde-renacer-robusto",
     name: "Matilde Renacer Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Matilde",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -14935,6 +15086,7 @@ const CIGARS = [
   {
     id: "matilde-oscura-robusto",
     name: "Matilde Oscura Robusto",
+    image: "http://images.neptunecigar.com/avimg/37995.jpg",
     brand: "Matilde",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -14959,6 +15111,7 @@ const CIGARS = [
   {
     id: "matilde-serena-robusto",
     name: "Matilde Serena Robusto",
+    image: "http://images.neptunecigar.com/avimg/39145.jpg",
     brand: "Matilde",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -14983,6 +15136,7 @@ const CIGARS = [
   {
     id: "dissident-soapbox-robusto",
     name: "Dissident Soapbox Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Dissident",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15007,6 +15161,7 @@ const CIGARS = [
   {
     id: "dissident-bloc-robusto",
     name: "Dissident Bloc Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Dissident",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15031,6 +15186,7 @@ const CIGARS = [
   {
     id: "dissident-rant-robusto",
     name: "Dissident Rant Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Dissident",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15055,6 +15211,7 @@ const CIGARS = [
   {
     id: "serino-taino-heritage-robusto",
     name: "Serino Taíno Heritage Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Serino Cigars",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -15079,6 +15236,7 @@ const CIGARS = [
   {
     id: "serino-wayfarer-corona-gorda",
     name: "Serino Wayfarer Corona Gorda",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Serino Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15103,6 +15261,7 @@ const CIGARS = [
   {
     id: "serino-royale-maduro-xx-robusto",
     name: "Serino Royale Maduro XX Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Serino Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15127,6 +15286,7 @@ const CIGARS = [
   {
     id: "amendola-signature-series-robusto",
     name: "Amendola Signature Series Robusto",
+    image: "http://images.neptunecigar.com/avimg/36274.jpg",
     brand: "Amendola",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15151,6 +15311,7 @@ const CIGARS = [
   {
     id: "amendola-cannoli-robusto",
     name: "Amendola Cannoli Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Amendola",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15175,6 +15336,7 @@ const CIGARS = [
   {
     id: "amendola-eight-seconds-robusto",
     name: "Amendola Eight Seconds Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Amendola",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15199,6 +15361,7 @@ const CIGARS = [
   {
     id: "mombacho-tierra-volcan-robusto",
     name: "Mombacho Tierra Volcán Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Mombacho",
     origin: "Nicaragua",
     region: "Granada",
@@ -15223,6 +15386,7 @@ const CIGARS = [
   {
     id: "mombacho-liga-maestro-robusto",
     name: "Mombacho Liga Maestro Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Mombacho",
     origin: "Nicaragua",
     region: "Granada",
@@ -15247,6 +15411,7 @@ const CIGARS = [
   {
     id: "mombacho-casa-real-robusto",
     name: "Mombacho Casa Real Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Mombacho",
     origin: "Nicaragua",
     region: "Granada",
@@ -15271,6 +15436,7 @@ const CIGARS = [
   {
     id: "villiger-la-flor-de-ynclan-robusto",
     name: "Villiger La Flor de Ynclan Robusto",
+    image: "http://images.neptunecigar.com/avimg/39216.jpg",
     brand: "Villiger",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -15295,6 +15461,7 @@ const CIGARS = [
   {
     id: "villiger-cuellar-connecticut-kreme-robusto",
     name: "Villiger Cuellar Connecticut Kreme Robusto",
+    image: "http://images.neptunecigar.com/avimg/38505.jpg",
     brand: "Villiger",
     origin: "Honduras",
     region: "Danlí",
@@ -15319,6 +15486,7 @@ const CIGARS = [
   {
     id: "villiger-sandoro-colorado-robusto",
     name: "Villiger San'Doro Colorado Robusto",
+    image: "http://images.neptunecigar.com/avimg/38691.gif",
     brand: "Villiger",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -15343,6 +15511,7 @@ const CIGARS = [
   {
     id: "carlos-torano-exodus-1959-fifty-years-robusto",
     name: "Carlos Toraño Exodus 1959 Fifty Years Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Carlos Toraño",
     origin: "Honduras",
     region: "Danlí",
@@ -15367,6 +15536,7 @@ const CIGARS = [
   {
     id: "carlos-torano-1916-cameroon-robusto",
     name: "Carlos Toraño 1916 Cameroon Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Carlos Toraño",
     origin: "Honduras",
     region: "Danlí",
@@ -15391,6 +15561,7 @@ const CIGARS = [
   {
     id: "carlos-torano-casa-torano-robusto",
     name: "Carlos Toraño Casa Toraño Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Carlos Toraño",
     origin: "Honduras",
     region: "Danlí",
@@ -15415,6 +15586,7 @@ const CIGARS = [
   {
     id: "j-fuego-origen-robusto",
     name: "J. Fuego Origen Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "J. Fuego",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15439,6 +15611,7 @@ const CIGARS = [
   {
     id: "j-fuego-sangre-de-toro-robusto",
     name: "J. Fuego Sangre de Toro Robusto",
+    image: "http://images.neptunecigar.com/avimg/44197.jpg",
     brand: "J. Fuego",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15463,6 +15636,7 @@ const CIGARS = [
   {
     id: "j-fuego-gran-reserva-robusto",
     name: "J. Fuego Gran Reserva Robusto",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "J. Fuego",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15487,6 +15661,7 @@ const CIGARS = [
   {
     id: "san-cristobal-revelation-legend",
     name: "San Cristobal Revelation Legend",
+    image: "http://images.neptunecigar.com/avimg/35859.jpg",
     brand: "San Cristobal",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15511,6 +15686,7 @@ const CIGARS = [
   {
     id: "san-cristobal-elegancia-imperial",
     name: "San Cristobal Elegancia Imperial",
+    image: "http://images.neptunecigar.com/avimg/33695.jpg",
     brand: "San Cristobal",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15535,6 +15711,7 @@ const CIGARS = [
   {
     id: "san-cristobal-quintessence-robusto",
     name: "San Cristobal Quintessence Robusto",
+    image: "http://images.neptunecigar.com/avimg/39084.jpg",
     brand: "San Cristobal",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15559,6 +15736,7 @@ const CIGARS = [
   {
     id: "nestor-miranda-special-selection-robusto",
     name: "Nestor Miranda Special Selection Robusto",
+    image: "http://images.neptunecigar.com/avimg/34170.jpg",
     brand: "Nestor Miranda",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15583,6 +15761,7 @@ const CIGARS = [
   {
     id: "nestor-miranda-collection-maduro-robusto",
     name: "Nestor Miranda Collection Maduro Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Nestor Miranda",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15607,6 +15786,7 @@ const CIGARS = [
   {
     id: "montecristo-classic-robusto",
     name: "Montecristo Classic Robusto",
+    image: "http://images.neptunecigar.com/avimg/32925.jpg",
     brand: "Montecristo",
     origin: "Dominican Republic",
     region: "La Romana",
@@ -15631,6 +15811,7 @@ const CIGARS = [
   {
     id: "montecristo-epic-craft-cured-robusto",
     name: "Montecristo Epic Craft Cured Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Montecristo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15655,6 +15836,7 @@ const CIGARS = [
   {
     id: "montecristo-espada-ricasso",
     name: "Montecristo Espada Ricasso",
+    image: "http://images.neptunecigar.com/avimg/36254.jpg",
     brand: "Montecristo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15679,6 +15861,7 @@ const CIGARS = [
   {
     id: "montecristo-white-robusto-grande",
     name: "Montecristo White Robusto Grande",
+    image: "http://images.neptunecigar.com/avimg/32090.jpg",
     brand: "Montecristo",
     origin: "Dominican Republic",
     region: "La Romana",
@@ -15703,6 +15886,7 @@ const CIGARS = [
   {
     id: "punch-signature-robusto",
     name: "Punch Signature Robusto",
+    image: "http://images.neptunecigar.com/avimg/37450.jpg",
     brand: "Punch",
     origin: "Honduras",
     region: "Danlí",
@@ -15727,6 +15911,7 @@ const CIGARS = [
   {
     id: "punch-rare-corojo-robusto",
     name: "Punch Rare Corojo Robusto",
+    image: "http://images.neptunecigar.com/avimg/36176.jpg",
     brand: "Punch",
     origin: "Honduras",
     region: "Danlí",
@@ -15751,6 +15936,7 @@ const CIGARS = [
   {
     id: "punch-diablo-robusto",
     name: "Punch Diablo Robusto",
+    image: "http://images.neptunecigar.com/avimg/39737.jpg",
     brand: "Punch",
     origin: "Honduras",
     region: "Danlí",
@@ -15775,6 +15961,7 @@ const CIGARS = [
   {
     id: "la-gloria-cubana-serie-n-robusto",
     name: "La Gloria Cubana Serie N Robusto",
+    image: "http://images.neptunecigar.com/avimg/294.jpg",
     brand: "La Gloria Cubana",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -15799,6 +15986,7 @@ const CIGARS = [
   {
     id: "la-gloria-cubana-esteli-robusto",
     name: "La Gloria Cubana Estelí Robusto",
+    image: "http://images.neptunecigar.com/avimg/39713.jpg",
     brand: "La Gloria Cubana",
     origin: "Nicaragua",
     region: "Estelí",
@@ -15823,6 +16011,7 @@ const CIGARS = [
   {
     id: "la-gloria-cubana-spirit-of-the-lady-robusto",
     name: "La Gloria Cubana Spirit of the Lady Robusto",
+    image: "http://images.neptunecigar.com/avimg/42585.jpg",
     brand: "La Gloria Cubana",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -15847,6 +16036,7 @@ const CIGARS = [
   {
     id: "hoyo-de-monterrey-excalibur-robusto",
     name: "Hoyo de Monterrey Excalibur Robusto",
+    image: "http://images.neptunecigar.com/avimg/42906.jpg",
     brand: "Hoyo de Monterrey",
     origin: "Honduras",
     region: "Danlí",
@@ -15871,6 +16061,7 @@ const CIGARS = [
   {
     id: "hoyo-de-monterrey-dark-sumatra-robusto",
     name: "Hoyo de Monterrey Dark Sumatra Robusto",
+    image: "http://images.neptunecigar.com/avimg/41297.jpg",
     brand: "Hoyo de Monterrey",
     origin: "Honduras",
     region: "Danlí",
@@ -15895,6 +16086,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-pledge-prequel-robusto",
     name: "E.P. Carrillo Pledge Prequel Robusto",
+    image: "http://images.neptunecigar.com/avimg/42474.jpg",
     brand: "E.P. Carrillo",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -15919,6 +16111,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-inch-natural-no-62",
     name: "E.P. Carrillo Inch Natural No. 62",
+    image: "http://images.neptunecigar.com/avimg/42904.jpg",
     brand: "E.P. Carrillo",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -15943,6 +16136,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-seleccion-oscuro-robusto",
     name: "E.P. Carrillo Selección Oscuro Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "E.P. Carrillo",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -15967,6 +16161,7 @@ const CIGARS = [
   {
     id: "la-flor-dominicana-la-nox-robusto",
     name: "La Flor Dominicana La Nox Robusto",
+    image: "http://images.neptunecigar.com/avimg/38598.jpg",
     brand: "La Flor Dominicana",
     origin: "Dominican Republic",
     region: "La Canela",
@@ -15991,6 +16186,7 @@ const CIGARS = [
   {
     id: "la-flor-dominicana-suave-robusto",
     name: "La Flor Dominicana Suave Robusto",
+    image: "http://images.neptunecigar.com/avimg/36294.jpg",
     brand: "La Flor Dominicana",
     origin: "Dominican Republic",
     region: "La Canela",
@@ -16015,6 +16211,7 @@ const CIGARS = [
   {
     id: "la-flor-dominicana-chapter-one-robusto",
     name: "La Flor Dominicana Chapter One Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "La Flor Dominicana",
     origin: "Dominican Republic",
     region: "La Canela",
@@ -16039,6 +16236,7 @@ const CIGARS = [
   {
     id: "la-flor-dominicana-1994-robusto",
     name: "La Flor Dominicana 1994 Robusto",
+    image: "http://images.neptunecigar.com/avimg/36294.jpg",
     brand: "La Flor Dominicana",
     origin: "Dominican Republic",
     region: "La Canela",
@@ -16063,6 +16261,7 @@ const CIGARS = [
   {
     id: "foundation-charter-oak-habano-toro",
     name: "Foundation Charter Oak Habano Toro",
+    image: "http://images.neptunecigar.com/avimg/42522.jpg",
     brand: "Foundation Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16087,6 +16286,7 @@ const CIGARS = [
   {
     id: "foundation-charter-oak-shade-robusto",
     name: "Foundation Charter Oak Shade Robusto",
+    image: "http://images.neptunecigar.com/avimg/39399.jpg",
     brand: "Foundation Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16111,6 +16311,7 @@ const CIGARS = [
   {
     id: "foundation-olmec-maduro-robusto",
     name: "Foundation Olmec Maduro Robusto",
+    image: "http://images.neptunecigar.com/avimg/42974.jpg",
     brand: "Foundation Cigar Co.",
     origin: "Mexico",
     region: "San Andrés Valley",
@@ -16135,6 +16336,7 @@ const CIGARS = [
   {
     id: "espinosa-laranja-reserva-robusto",
     name: "Espinosa Laranja Reserva Robusto",
+    image: "http://images.neptunecigar.com/avimg/42725.jpg",
     brand: "Espinosa Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16159,6 +16361,7 @@ const CIGARS = [
   {
     id: "espinosa-knuckle-sandwich-robusto",
     name: "Espinosa Knuckle Sandwich Robusto",
+    image: "http://images.neptunecigar.com/avimg/43269.jpg",
     brand: "Espinosa Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16183,6 +16386,7 @@ const CIGARS = [
   {
     id: "espinosa-alpha-dawg-robusto",
     name: "Espinosa Alpha Dawg Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Espinosa Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16207,6 +16411,7 @@ const CIGARS = [
   {
     id: "crowned-heads-las-calaveras-2024-robusto",
     name: "Crowned Heads Las Calaveras 2024 Robusto",
+    image: "http://images.neptunecigar.com/avimg/43621.jpg",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16231,6 +16436,7 @@ const CIGARS = [
   {
     id: "crowned-heads-tennessee-waltz-robusto",
     name: "Crowned Heads Tennessee Waltz Robusto",
+    image: "http://images.neptunecigar.com/avimg/40025.jpg",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16255,6 +16461,7 @@ const CIGARS = [
   {
     id: "crowned-heads-court-reserve-xviii-robusto",
     name: "Crowned Heads Court Reserve XVIII Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16279,6 +16486,7 @@ const CIGARS = [
   {
     id: "avo-syncro-nicaragua-robusto",
     name: "AVO Syncro Nicaragua Robusto",
+    image: "http://images.neptunecigar.com/avimg/37900.gif",
     brand: "AVO",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -16303,6 +16511,7 @@ const CIGARS = [
   {
     id: "avo-xo-robusto",
     name: "AVO XO Robusto",
+    image: "http://images.neptunecigar.com/avimg/227.jpg",
     brand: "AVO",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -16327,6 +16536,7 @@ const CIGARS = [
   {
     id: "nat-sherman-timeless-sterling-robusto",
     name: "Nat Sherman Timeless Sterling Robusto",
+    image: "http://images.neptunecigar.com/avimg/38127.jpg",
     brand: "Nat Sherman",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -16351,6 +16561,7 @@ const CIGARS = [
   {
     id: "nat-sherman-metropolitan-maduro-robusto",
     name: "Nat Sherman Metropolitan Maduro Robusto",
+    image: "http://images.neptunecigar.com/avimg/38126.jpg",
     brand: "Nat Sherman",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -16375,6 +16586,7 @@ const CIGARS = [
   {
     id: "gran-habano-vintage-2002-robusto",
     name: "Gran Habano Vintage 2002 Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Gran Habano",
     origin: "Honduras",
     region: "Danlí",
@@ -16399,6 +16611,7 @@ const CIGARS = [
   {
     id: "la-herencia-cubana-core-robusto",
     name: "La Herencia Cubana Core Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "La Herencia Cubana",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16423,6 +16636,7 @@ const CIGARS = [
   {
     id: "rocky-patel-number-6-robusto",
     name: "Rocky Patel Number 6 Robusto",
+    image: "http://images.neptunecigar.com/avimg/41242.jpg",
     brand: "Rocky Patel",
     origin: "Honduras",
     region: "Danlí",
@@ -16447,6 +16661,7 @@ const CIGARS = [
   {
     id: "rocky-patel-royale-robusto",
     name: "Rocky Patel Royale Robusto",
+    image: "http://images.neptunecigar.com/avimg/36258.jpg",
     brand: "Rocky Patel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16471,6 +16686,7 @@ const CIGARS = [
   {
     id: "rocky-patel-dbs-robusto",
     name: "Rocky Patel DBS Robusto",
+    image: "http://images.neptunecigar.com/avimg/42894.jpg",
     brand: "Rocky Patel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16495,6 +16711,7 @@ const CIGARS = [
   {
     id: "perdomo-lot-23-natural-robusto",
     name: "Perdomo Lot 23 Natural Robusto",
+    image: "http://images.neptunecigar.com/avimg/332.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16519,6 +16736,7 @@ const CIGARS = [
   {
     id: "perdomo-factory-tour-blend-sun-grown-robusto",
     name: "Perdomo Factory Tour Blend Sun Grown Robusto",
+    image: "https://images.neptunecigar.com/res/Logo.png",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16543,6 +16761,7 @@ const CIGARS = [
   {
     id: "perdomo-small-batch-series-maduro-robusto",
     name: "Perdomo Small Batch Series Maduro Robusto",
+    image: "http://images.neptunecigar.com/avimg/37552.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16567,6 +16786,7 @@ const CIGARS = [
   {
     id: "alec-bradley-project-40-robusto",
     name: "Alec Bradley Project 40 Robusto",
+    image: "http://images.neptunecigar.com/avimg/40812.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Danlí",
@@ -16591,6 +16811,7 @@ const CIGARS = [
   {
     id: "alec-bradley-blind-faith-robusto",
     name: "Alec Bradley Blind Faith Robusto",
+    image: "http://images.neptunecigar.com/avimg/39544.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Danlí",
@@ -16615,6 +16836,7 @@ const CIGARS = [
   {
     id: "alec-bradley-texas-lancero",
     name: "Alec Bradley Texas Lancero",
+    image: "http://images.neptunecigar.com/avimg/36293.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Danlí",
@@ -16639,6 +16861,7 @@ const CIGARS = [
   {
     id: "macanudo-heritage-nuevo-robusto",
     name: "Macanudo Heritage Nuevo Robusto",
+    image: "http://images.neptunecigar.com/avimg/41256.jpg",
     brand: "Macanudo",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -16663,6 +16886,7 @@ const CIGARS = [
   {
     id: "macanudo-inspirado-brazilian-shade-robusto",
     name: "Macanudo Inspirado Brazilian Shade Robusto",
+    image: "http://images.neptunecigar.com/avimg/42639.jpg",
     brand: "Macanudo",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -16687,6 +16911,7 @@ const CIGARS = [
   {
     id: "macanudo-m-robusto",
     name: "Macanudo M Robusto",
+    image: "http://images.neptunecigar.com/avimg/41396.jpg",
     brand: "Macanudo",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -16711,6 +16936,7 @@ const CIGARS = [
   {
     id: "my-father-connecticut-robusto",
     name: "My Father Connecticut Robusto",
+    image: "http://images.neptunecigar.com/avimg/37413.jpg",
     brand: "My Father",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16735,6 +16961,7 @@ const CIGARS = [
   {
     id: "my-father-la-gran-oferta-robusto",
     name: "My Father La Gran Oferta Robusto",
+    image: "http://images.neptunecigar.com/avimg/39660.jpg",
     brand: "My Father",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16759,6 +16986,7 @@ const CIGARS = [
   {
     id: "plasencia-cosecha-151-robusto",
     name: "Plasencia Cosecha 151 Robusto",
+    image: "http://images.neptunecigar.com/avimg/43319.jpg",
     brand: "Plasencia",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -16783,6 +17011,7 @@ const CIGARS = [
   {
     id: "plasencia-alma-del-fuego-candente-robusto",
     name: "Plasencia Alma del Fuego Candente Robusto",
+    image: "http://images.neptunecigar.com/avimg/41109.jpg",
     brand: "Plasencia",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16807,6 +17036,7 @@ const CIGARS = [
   {
     id: "illusione-epernay-le-taureau",
     name: "Illusione Epernay Le Taureau",
+    image: "http://images.neptunecigar.com/avimg/41233.jpg",
     brand: "Illusione",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16831,6 +17061,7 @@ const CIGARS = [
   {
     id: "illusione-epernay-le-matin",
     name: "Illusione Epernay Le Matin",
+    image: "http://images.neptunecigar.com/avimg/41233.jpg",
     brand: "Illusione",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16855,6 +17086,7 @@ const CIGARS = [
   {
     id: "illusione-rothchildes",
     name: "Illusione *r* Rothchildes",
+    image: "http://images.neptunecigar.com/avimg/37429.jpg",
     brand: "Illusione",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -16879,6 +17111,7 @@ const CIGARS = [
   {
     id: "illusione-eccj-corona-gorda",
     name: "Illusione ~eccj~ Corona Gorda",
+    image: "http://images.neptunecigar.com/avimg/38031.jpg",
     brand: "Illusione",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16903,6 +17136,7 @@ const CIGARS = [
   {
     id: "illusione-singulare-origen-robusto",
     name: "Illusione Singularé Origen Robusto",
+    image: "http://images.neptunecigar.com/avimg/43248.jpg",
     brand: "Illusione",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -16927,6 +17161,7 @@ const CIGARS = [
   {
     id: "southern-draw-kudzu-toro",
     name: "Southern Draw Kudzu Toro",
+    image: "http://images.neptunecigar.com/avimg/38805.jpg",
     brand: "Southern Draw",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16951,6 +17186,7 @@ const CIGARS = [
   {
     id: "southern-draw-rose-of-sharon-robusto",
     name: "Southern Draw Rose of Sharon Robusto",
+    image: "http://images.neptunecigar.com/avimg/39598.jpg",
     brand: "Southern Draw",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16975,6 +17211,7 @@ const CIGARS = [
   {
     id: "southern-draw-cedrus-toro",
     name: "Southern Draw Cedrus Toro",
+    image: "http://images.neptunecigar.com/avimg/40280.jpg",
     brand: "Southern Draw",
     origin: "Nicaragua",
     region: "Estelí",
@@ -16999,6 +17236,7 @@ const CIGARS = [
   {
     id: "asylum-13-ogre-660",
     name: "Asylum 13 Ogre 660",
+    image: "http://images.neptunecigar.com/avimg/37983.jpg",
     brand: "Asylum",
     origin: "Nicaragua",
     region: "Estelí",
@@ -17023,6 +17261,7 @@ const CIGARS = [
   {
     id: "balmoral-anejo-xo-nicaragua-gran-toro",
     name: "Balmoral Añejo XO Nicaragua Gran Toro",
+    image: "http://images.neptunecigar.com/avimg/41446.jpg",
     brand: "Balmoral",
     origin: "Dominican Republic",
     region: "San Pedro de Macorís",
@@ -17047,6 +17286,7 @@ const CIGARS = [
   {
     id: "balmoral-anejo-xo-oscuro-rothschild",
     name: "Balmoral Añejo XO Oscuro Rothschild Masivo",
+    image: "http://images.neptunecigar.com/avimg/39646.jpg",
     brand: "Balmoral",
     origin: "Dominican Republic",
     region: "San Pedro de Macorís",
@@ -17071,6 +17311,7 @@ const CIGARS = [
   {
     id: "balmoral-serie-signaturas-dueto-gran-toro",
     name: "Balmoral Serie Signaturas Dueto Gran Toro",
+    image: "http://images.neptunecigar.com/avimg/39616.jpg",
     brand: "Balmoral",
     origin: "Dominican Republic",
     region: "La Romana",
@@ -17095,6 +17336,7 @@ const CIGARS = [
   {
     id: "fratello-oro-robusto",
     name: "Fratello Oro Robusto",
+    image: "http://images.neptunecigar.com/avimg/40081.jpg",
     brand: "Fratello",
     origin: "Nicaragua",
     region: "Estelí",
@@ -17119,6 +17361,7 @@ const CIGARS = [
   {
     id: "fratello-navetta-discovery",
     name: "Fratello Navetta Discovery",
+    image: "http://images.neptunecigar.com/avimg/40056.jpg",
     brand: "Fratello",
     origin: "Nicaragua",
     region: "Estelí",
@@ -17143,6 +17386,7 @@ const CIGARS = [
   {
     id: "fratello-navetta-inverso-robusto",
     name: "Fratello Navetta Inverso Robusto",
+    image: "http://images.neptunecigar.com/avimg/40055.jpg",
     brand: "Fratello",
     origin: "Nicaragua",
     region: "Estelí",
@@ -17167,6 +17411,7 @@ const CIGARS = [
   {
     id: "fratello-arlequin-prensado-toro",
     name: "Fratello Arlequín Prensado Toro",
+    image: "http://images.neptunecigar.com/avimg/41823.jpg",
     brand: "Fratello",
     origin: "Nicaragua",
     region: "Estelí",
@@ -17191,6 +17436,7 @@ const CIGARS = [
   {
     id: "fratello-classico-robusto",
     name: "Fratello Classico Robusto",
+    image: "http://images.neptunecigar.com/avimg/38836.jpg",
     brand: "Fratello",
     origin: "Nicaragua",
     region: "Estelí",
@@ -17287,6 +17533,7 @@ const CIGARS = [
   {
     id: "nestor-miranda-special-selection-toro",
     name: "Nestor Miranda Special Selection Toro",
+    image: "http://images.neptunecigar.com/avimg/34170.jpg",
     brand: "Nestor Miranda",
     origin: "Nicaragua",
     region: "Estelí",
@@ -17311,6 +17558,7 @@ const CIGARS = [
   {
     id: "la-palina-black-label-toro",
     name: "La Palina Black Label Toro",
+    image: "http://images.neptunecigar.com/avimg/38350.jpg",
     brand: "La Palina",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -17383,6 +17631,7 @@ const CIGARS = [
   {
     id: "leaf-by-oscar-maduro-toro",
     name: "Leaf by Oscar Maduro Toro",
+    image: "http://images.neptunecigar.com/avimg/42768.jpg",
     brand: "Leaf by Oscar",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -17407,6 +17656,7 @@ const CIGARS = [
   {
     id: "leaf-by-oscar-corojo-toro",
     name: "Leaf by Oscar Corojo Toro",
+    image: "http://images.neptunecigar.com/avimg/42767.jpg",
     brand: "Leaf by Oscar",
     origin: "Honduras",
     region: "Danli",
@@ -17431,6 +17681,7 @@ const CIGARS = [
   {
     id: "leaf-by-oscar-connecticut-toro",
     name: "Leaf by Oscar Connecticut Toro",
+    image: "http://images.neptunecigar.com/avimg/43275.jpg",
     brand: "Leaf by Oscar",
     origin: "Honduras",
     region: "Danli",
@@ -17455,6 +17706,7 @@ const CIGARS = [
   {
     id: "nat-sherman-timeless-sterling-short-robusto",
     name: "Nat Sherman Timeless Sterling Short Robusto",
+    image: "http://images.neptunecigar.com/avimg/38127.jpg",
     brand: "Nat Sherman",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -17479,6 +17731,7 @@ const CIGARS = [
   {
     id: "avo-classic-no2",
     name: "AVO Classic No. 2",
+    image: "http://images.neptunecigar.com/avimg/42198.jpg",
     brand: "AVO",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -17503,6 +17756,7 @@ const CIGARS = [
   {
     id: "avo-syncro-nicaragua-toro",
     name: "AVO Syncro Nicaragua Toro",
+    image: "http://images.neptunecigar.com/avimg/37900.gif",
     brand: "AVO",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -17527,6 +17781,7 @@ const CIGARS = [
   {
     id: "avo-heritage-toro",
     name: "AVO Heritage Toro",
+    image: "http://images.neptunecigar.com/avimg/33670.jpg",
     brand: "AVO",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -17551,6 +17806,7 @@ const CIGARS = [
   {
     id: "diamond-crown-maximus-toro",
     name: "Diamond Crown Maximus Toro",
+    image: "http://images.neptunecigar.com/avimg/35971.jpg",
     brand: "Diamond Crown",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -17575,6 +17831,7 @@ const CIGARS = [
   {
     id: "diamond-crown-black-diamond-marquise",
     name: "Diamond Crown Black Diamond Marquise",
+    image: "http://images.neptunecigar.com/avimg/39247.jpg",
     brand: "Diamond Crown",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -17622,6 +17879,7 @@ const CIGARS = [
   {
     id: "quesada-40th-anniversary-corona",
     name: "Quesada 40th Anniversary Corona Clasica",
+    image: "http://images.neptunecigar.com/avimg/38000.jpg",
     brand: "Quesada",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -17741,6 +17999,7 @@ const CIGARS = [
   {
     id: "gran-habano-vintage-2002-churchill",
     name: "Gran Habano Vintage Corojo 2002 Churchill",
+    image: "http://images.neptunecigar.com/avimg/38185.jpg",
     brand: "Gran Habano",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -17765,6 +18024,7 @@ const CIGARS = [
   {
     id: "gran-habano-gran-reserva-5-gran-robusto",
     name: "Gran Habano Gran Reserva No. 5 Gran Robusto",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Gran Habano",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -17789,6 +18049,7 @@ const CIGARS = [
   {
     id: "crux-epicure-habano-toro",
     name: "Crux Epicure Habano Toro",
+    image: "http://images.neptunecigar.com/avimg/43595.jpg",
     brand: "Crux Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -17813,6 +18074,7 @@ const CIGARS = [
   {
     id: "crux-bull-bear-robusto-extra",
     name: "Crux Bull & Bear Robusto Extra",
+    image: "http://images.neptunecigar.com/avimg/39943.jpg",
     brand: "Crux Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -17861,6 +18123,7 @@ const CIGARS = [
   {
     id: "crux-limitada-2023",
     name: "Crux Limitada 2023 Edition",
+    image: "http://images.neptunecigar.com/avimg/43226.jpg",
     brand: "Crux Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -17957,6 +18220,7 @@ const CIGARS = [
   {
     id: "eiroa-first-20-years-550",
     name: "Eiroa The First 20 Years 50 x 5",
+    image: "http://images.neptunecigar.com/avimg/38084.jpg",
     brand: "Eiroa",
     origin: "Honduras",
     region: "Jamastrán Valley",
@@ -17981,6 +18245,7 @@ const CIGARS = [
   {
     id: "kristoff-ligero-maduro-matador",
     name: "Kristoff Ligero Maduro Matador",
+    image: "http://images.neptunecigar.com/avimg/33641.jpg",
     brand: "Kristoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -18005,6 +18270,7 @@ const CIGARS = [
   {
     id: "kristoff-shade-grown-robusto",
     name: "Kristoff Shade Grown Robusto",
+    image: "http://images.neptunecigar.com/avimg/41645.jpg",
     brand: "Kristoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -18029,6 +18295,7 @@ const CIGARS = [
   {
     id: "j-fuego-sangre-de-toro-toro",
     name: "J. Fuego Sangre de Toro Toro",
+    image: "http://images.neptunecigar.com/avimg/44197.jpg",
     brand: "J. Fuego",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18101,6 +18368,7 @@ const CIGARS = [
   {
     id: "matilde-quadrata-robusto",
     name: "Matilde Quadrata Robusto",
+    image: "http://images.neptunecigar.com/avimg/39008.jpg",
     brand: "Matilde",
     origin: "Dominican Republic",
     region: "Tamboril",
@@ -18125,6 +18393,7 @@ const CIGARS = [
   {
     id: "matilde-oscura-toro-bravo",
     name: "Matilde Oscura Toro Bravo",
+    image: "http://images.neptunecigar.com/avimg/37995.jpg",
     brand: "Matilde",
     origin: "Dominican Republic",
     region: "Tamboril",
@@ -18289,6 +18558,7 @@ const CIGARS = [
   {
     id: "ace-prime-luciano-dreamer",
     name: "Luciano The Dreamer",
+    image: "http://images.neptunecigar.com/avimg/44227.jpg",
     brand: "Ace Prime",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18433,6 +18703,7 @@ const CIGARS = [
   {
     id: "nat-sherman-timeless-metropolitan-toro",
     name: "Nat Sherman Timeless Metropolitan Toro",
+    image: "http://images.neptunecigar.com/avimg/38126.jpg",
     brand: "Nat Sherman",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -18457,6 +18728,7 @@ const CIGARS = [
   {
     id: "balmoral-serie-signaturas-paso-doble-gran-toro",
     name: "Balmoral Serie Signaturas Paso Doble Gran Toro",
+    image: "http://images.neptunecigar.com/avimg/41274.jpg",
     brand: "Balmoral",
     origin: "Dominican Republic",
     region: "La Romana",
@@ -18481,6 +18753,7 @@ const CIGARS = [
   {
     id: "5-vegas-alpha",
     name: "5 Vegas Alpha",
+    image: "http://images.neptunecigar.com/avimg/33199.jpg",
     brand: "5 Vegas",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18505,6 +18778,7 @@ const CIGARS = [
   {
     id: "nestor-miranda-collection-connecticut-robusto",
     name: "Nestor Miranda Collection Connecticut Robusto",
+    image: "http://images.neptunecigar.com/avimg/34170.jpg",
     brand: "Nestor Miranda",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18529,6 +18803,7 @@ const CIGARS = [
   {
     id: "crux-epicure-maduro-robusto",
     name: "Crux Epicure Maduro Robusto",
+    image: "http://images.neptunecigar.com/avimg/39940.jpg",
     brand: "Crux Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18600,6 +18875,7 @@ const CIGARS = [
   {
     id: "diamond-crown-black-diamond-emerald",
     name: "Diamond Crown Black Diamond Emerald",
+    image: "http://images.neptunecigar.com/avimg/39247.jpg",
     brand: "Diamond Crown",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -18624,6 +18900,7 @@ const CIGARS = [
   {
     id: "gran-habano-habano-5-robusto",
     name: "Gran Habano Habano No. 5 Robusto",
+    image: "http://images.neptunecigar.com/avimg/41474.jpg",
     brand: "Gran Habano",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -18648,6 +18925,7 @@ const CIGARS = [
   {
     id: "la-palina-classic-series-robusto",
     name: "La Palina Classic Series Robusto",
+    image: "http://images.neptunecigar.com/avimg/39601.jpg",
     brand: "La Palina",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -18672,6 +18950,7 @@ const CIGARS = [
   {
     id: "asylum-13-770",
     name: "Asylum 13 770",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Asylum",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18696,6 +18975,7 @@ const CIGARS = [
   {
     id: "southern-draw-jacobs-ladder-brimstone-perfecto",
     name: "Southern Draw Jacob's Ladder Brimstone Perfecto",
+    image: "http://images.neptunecigar.com/avimg/40277.jpg",
     brand: "Southern Draw",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18720,6 +19000,7 @@ const CIGARS = [
   {
     id: "fratello-arlequin-connecticut-robusto",
     name: "Fratello Arlequín Connecticut Robusto",
+    image: "http://images.neptunecigar.com/avimg/41823.jpg",
     brand: "Fratello",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18744,6 +19025,7 @@ const CIGARS = [
   {
     id: "oliva-serie-v-melanio-robusto",
     name: "Oliva Serie V Melanio Robusto",
+    image: "http://images.neptunecigar.com/avimg/34181.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -18768,6 +19050,7 @@ const CIGARS = [
   {
     id: "oliva-serie-v-melanio-toro",
     name: "Oliva Serie V Melanio Toro",
+    image: "http://images.neptunecigar.com/avimg/34181.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -18792,6 +19075,7 @@ const CIGARS = [
   {
     id: "oliva-serie-v-melanio-torpedo",
     name: "Oliva Serie V Melanio Torpedo",
+    image: "http://images.neptunecigar.com/avimg/34181.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -18816,6 +19100,7 @@ const CIGARS = [
   {
     id: "oliva-serie-v-melanio-maduro-robusto",
     name: "Oliva Serie V Melanio Maduro Robusto",
+    image: "http://images.neptunecigar.com/avimg/34366.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -18840,6 +19125,7 @@ const CIGARS = [
   {
     id: "liga-privada-no9-toro",
     name: "Liga Privada No. 9 Toro",
+    image: "http://images.neptunecigar.com/avimg/39675.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18864,6 +19150,7 @@ const CIGARS = [
   {
     id: "liga-privada-no9-flying-pig",
     name: "Liga Privada No. 9 Flying Pig",
+    image: "http://images.neptunecigar.com/avimg/39675.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18888,6 +19175,7 @@ const CIGARS = [
   {
     id: "liga-privada-no9-corona-doble",
     name: "Liga Privada No. 9 Corona Doble",
+    image: "http://images.neptunecigar.com/avimg/39675.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18912,6 +19200,7 @@ const CIGARS = [
   {
     id: "liga-privada-t52-flying-pig",
     name: "Liga Privada T52 Flying Pig",
+    image: "http://images.neptunecigar.com/avimg/1329.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18936,6 +19225,7 @@ const CIGARS = [
   {
     id: "liga-privada-t52-toro",
     name: "Liga Privada T52 Toro",
+    image: "http://images.neptunecigar.com/avimg/1329.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18960,6 +19250,7 @@ const CIGARS = [
   {
     id: "padron-1926-no6-natural",
     name: "Padrón 1926 Serie No. 6 Natural",
+    image: "http://images.neptunecigar.com/avimg/43123.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -18984,6 +19275,7 @@ const CIGARS = [
   {
     id: "padron-1926-no9-maduro",
     name: "Padrón 1926 Serie No. 9 Maduro",
+    image: "http://images.neptunecigar.com/avimg/33093.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -19008,6 +19300,7 @@ const CIGARS = [
   {
     id: "padron-1926-no40-natural",
     name: "Padrón 1926 Serie No. 40 Natural",
+    image: "http://images.neptunecigar.com/avimg/43123.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -19032,6 +19325,7 @@ const CIGARS = [
   {
     id: "padron-1964-torpedo-natural",
     name: "Padrón 1964 Anniversary Torpedo Natural",
+    image: "http://images.neptunecigar.com/avimg/33112.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -19056,6 +19350,7 @@ const CIGARS = [
   {
     id: "padron-1964-torpedo-maduro",
     name: "Padrón 1964 Anniversary Torpedo Maduro",
+    image: "http://images.neptunecigar.com/avimg/33112.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -19080,6 +19375,7 @@ const CIGARS = [
   {
     id: "my-father-garcia-y-garcia-toro-extra",
     name: "My Father García & García Toro Extra",
+    image: "http://images.neptunecigar.com/avimg/38979.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19104,6 +19400,7 @@ const CIGARS = [
   {
     id: "my-father-garcia-y-garcia-robusto-deluxe",
     name: "My Father García & García Robusto Deluxe",
+    image: "http://images.neptunecigar.com/avimg/38979.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19128,6 +19425,7 @@ const CIGARS = [
   {
     id: "davidoff-winston-churchill-toro",
     name: "Davidoff Winston Churchill Toro",
+    image: "http://images.neptunecigar.com/avimg/39224.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -19152,6 +19450,7 @@ const CIGARS = [
   {
     id: "davidoff-winston-churchill-late-hour-toro",
     name: "Davidoff Winston Churchill Late Hour Toro",
+    image: "http://images.neptunecigar.com/avimg/39224.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -19176,6 +19475,7 @@ const CIGARS = [
   {
     id: "davidoff-winston-churchill-late-hour-churchill",
     name: "Davidoff Winston Churchill Late Hour Churchill",
+    image: "http://images.neptunecigar.com/avimg/39224.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -19200,6 +19500,7 @@ const CIGARS = [
   {
     id: "davidoff-year-of-the-ox-2021",
     name: "Davidoff Year of the Ox 2021",
+    image: "http://images.neptunecigar.com/avimg/44216.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -19224,6 +19525,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-encore-majestic",
     name: "E.P. Carrillo Encore Majestic",
+    image: "http://images.neptunecigar.com/avimg/39364.jpg",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19248,6 +19550,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-la-historia-e-iii",
     name: "E.P. Carrillo La Historia E-III",
+    image: "http://images.neptunecigar.com/avimg/36266.jpg",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19272,6 +19575,7 @@ const CIGARS = [
   {
     id: "crowned-heads-le-careme-canonazo",
     name: "Crowned Heads Le Carême Canonazo",
+    image: "http://images.neptunecigar.com/avimg/39029.jpg",
     brand: "Crowned Heads",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -19296,6 +19600,7 @@ const CIGARS = [
   {
     id: "crowned-heads-le-careme-cosacos",
     name: "Crowned Heads Le Carême Cosacos",
+    image: "http://images.neptunecigar.com/avimg/39029.jpg",
     brand: "Crowned Heads",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -19320,6 +19625,7 @@ const CIGARS = [
   {
     id: "crowned-heads-mil-dias-sublime",
     name: "Crowned Heads Mil Días Sublime",
+    image: "http://images.neptunecigar.com/avimg/42381.jpg",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -19344,6 +19650,7 @@ const CIGARS = [
   {
     id: "crowned-heads-mil-dias-toro",
     name: "Crowned Heads Mil Días Toro",
+    image: "http://images.neptunecigar.com/avimg/42381.jpg",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -19368,6 +19675,7 @@ const CIGARS = [
   {
     id: "aganorsa-leaf-jfr-lunatic-torch",
     name: "Aganorsa Leaf JFR Lunatic Torch",
+    image: "http://images.neptunecigar.com/avimg/42218.jpg",
     brand: "Aganorsa Leaf",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -19392,6 +19700,7 @@ const CIGARS = [
   {
     id: "aganorsa-leaf-jfr-lunatic-maduro-toro",
     name: "Aganorsa Leaf JFR Lunatic Maduro Toro",
+    image: "http://images.neptunecigar.com/avimg/42768.jpg",
     brand: "Aganorsa Leaf",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19464,6 +19773,7 @@ const CIGARS = [
   {
     id: "dunbarton-sin-compromiso-no5",
     name: "Dunbarton Sin Compromiso Selección No. 5",
+    image: "http://images.neptunecigar.com/avimg/39829.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -19511,6 +19821,7 @@ const CIGARS = [
   {
     id: "warped-la-colmena-no44",
     name: "Warped La Colmena No. 44",
+    image: "http://images.neptunecigar.com/avimg/39391.jpg",
     brand: "Warped Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -19535,6 +19846,7 @@ const CIGARS = [
   {
     id: "warped-maestro-del-tiempo-6102-toro",
     name: "Warped Maestro del Tiempo 6102 Toro",
+    image: "http://images.neptunecigar.com/avimg/39586.jpg",
     brand: "Warped Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -19559,6 +19871,7 @@ const CIGARS = [
   {
     id: "warped-guardian-of-the-farm-apollo",
     name: "Warped Guardian of the Farm Apollo",
+    image: "http://images.neptunecigar.com/avimg/39323.jpg",
     brand: "Warped Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -19583,6 +19896,7 @@ const CIGARS = [
   {
     id: "roma-craft-cromagnon-aquitaine-mode5",
     name: "RoMa Craft CroMagnon Aquitaine Mode 5",
+    image: "http://images.neptunecigar.com/avimg/38915.jpg",
     brand: "RoMa Craft Tobac",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19607,6 +19921,7 @@ const CIGARS = [
   {
     id: "roma-craft-neanderthal-hn",
     name: "RoMa Craft Neanderthal HN",
+    image: "http://images.neptunecigar.com/avimg/38779.jpg",
     brand: "RoMa Craft Tobac",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19631,6 +19946,7 @@ const CIGARS = [
   {
     id: "caldwell-long-live-the-king-toro",
     name: "Caldwell Long Live the King Toro",
+    image: "http://images.neptunecigar.com/avimg/38337.jpg",
     brand: "Caldwell Cigar Co.",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -19655,6 +19971,7 @@ const CIGARS = [
   {
     id: "caldwell-eastern-standard-toro",
     name: "Caldwell Eastern Standard Toro",
+    image: "http://images.neptunecigar.com/avimg/38336.jpg",
     brand: "Caldwell Cigar Co.",
     origin: "Honduras",
     region: "Jamastran",
@@ -19679,6 +19996,7 @@ const CIGARS = [
   {
     id: "caldwell-blind-mans-bluff-habano-toro",
     name: "Caldwell Blind Man's Bluff Habano Toro",
+    image: "http://images.neptunecigar.com/avimg/39911.jpg",
     brand: "Caldwell Cigar Co.",
     origin: "Honduras",
     region: "Jamastran",
@@ -19751,6 +20069,7 @@ const CIGARS = [
   {
     id: "tatuaje-cojonu-2012",
     name: "Tatuaje Cojonú 2012 Habano",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19798,6 +20117,7 @@ const CIGARS = [
   {
     id: "espinosa-las-6-provincias-cmw",
     name: "Espinosa Las 6 Provincias CMW",
+    image: "http://images.neptunecigar.com/avimg/39718.jpg",
     brand: "Espinosa Premium Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19822,6 +20142,7 @@ const CIGARS = [
   {
     id: "espinosa-las-6-provincias-zdt",
     name: "Espinosa Las 6 Provincias ZDT",
+    image: "http://images.neptunecigar.com/avimg/39718.jpg",
     brand: "Espinosa Premium Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19846,6 +20167,7 @@ const CIGARS = [
   {
     id: "espinosa-knuckle-sandwich-habano-toro",
     name: "Espinosa Knuckle Sandwich Habano Toro",
+    image: "http://images.neptunecigar.com/avimg/42796.jpg",
     brand: "Espinosa Premium Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19870,6 +20192,7 @@ const CIGARS = [
   {
     id: "espinosa-laranja-toro",
     name: "Espinosa Laranja Reserva Toro",
+    image: "http://images.neptunecigar.com/avimg/42725.jpg",
     brand: "Espinosa Premium Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19918,6 +20241,7 @@ const CIGARS = [
   {
     id: "joya-de-nicaragua-cuatro-cinco-toro",
     name: "Joya de Nicaragua Cuatro Cinco Toro",
+    image: "http://images.neptunecigar.com/avimg/37752.jpg",
     brand: "Joya de Nicaragua",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19942,6 +20266,7 @@ const CIGARS = [
   {
     id: "joya-de-nicaragua-cuatro-cinco-torpedo",
     name: "Joya de Nicaragua Cuatro Cinco Torpedo",
+    image: "http://images.neptunecigar.com/avimg/37752.jpg",
     brand: "Joya de Nicaragua",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19966,6 +20291,7 @@ const CIGARS = [
   {
     id: "joya-de-nicaragua-cinco-decadas-diadema",
     name: "Joya de Nicaragua Cinco Décadas Diadema",
+    image: "http://images.neptunecigar.com/avimg/39837.jpg",
     brand: "Joya de Nicaragua",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19990,6 +20316,7 @@ const CIGARS = [
   {
     id: "perdomo-20th-anniversary-sun-grown-gordo",
     name: "Perdomo 20th Anniversary Sun Grown Gordo",
+    image: "http://images.neptunecigar.com/avimg/34195.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20014,6 +20341,7 @@ const CIGARS = [
   {
     id: "perdomo-20th-anniversary-connecticut-epicure",
     name: "Perdomo 20th Anniversary Connecticut Epicure",
+    image: "http://images.neptunecigar.com/avimg/40286.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20038,6 +20366,7 @@ const CIGARS = [
   {
     id: "perdomo-20th-anniversary-maduro-gordo",
     name: "Perdomo 20th Anniversary Maduro Gordo",
+    image: "http://images.neptunecigar.com/avimg/38818.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20062,6 +20391,7 @@ const CIGARS = [
   {
     id: "alec-bradley-project-40-toro",
     name: "Alec Bradley Project 40 Toro",
+    image: "http://images.neptunecigar.com/avimg/40812.jpg",
     brand: "Alec Bradley",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20086,6 +20416,7 @@ const CIGARS = [
   {
     id: "alec-bradley-project-40-gordo",
     name: "Alec Bradley Project 40 Gordo",
+    image: "http://images.neptunecigar.com/avimg/40812.jpg",
     brand: "Alec Bradley",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20110,6 +20441,7 @@ const CIGARS = [
   {
     id: "foundation-charter-oak-broadleaf-lonsdale",
     name: "Foundation Charter Oak Broadleaf Lonsdale",
+    image: "http://images.neptunecigar.com/avimg/39399.jpg",
     brand: "Foundation Cigar Company",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -20134,6 +20466,7 @@ const CIGARS = [
   {
     id: "foundation-charter-oak-shade-toro",
     name: "Foundation Charter Oak Connecticut Shade Toro",
+    image: "http://images.neptunecigar.com/avimg/39399.jpg",
     brand: "Foundation Cigar Company",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -20158,6 +20491,7 @@ const CIGARS = [
   {
     id: "foundation-olmec-maduro-toro",
     name: "Foundation Olmec Maduro Toro",
+    image: "http://images.neptunecigar.com/avimg/42974.jpg",
     brand: "Foundation Cigar Company",
     origin: "Mexico",
     region: "San Andrés",
@@ -20182,6 +20516,7 @@ const CIGARS = [
   {
     id: "hvc-hot-cake-corona-gorda",
     name: "HVC Hot Cake Corona Gorda",
+    image: "http://images.neptunecigar.com/avimg/42464.jpg",
     brand: "HVC Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -20206,6 +20541,7 @@ const CIGARS = [
   {
     id: "hvc-hot-cake-gran-canon",
     name: "HVC Hot Cake Gran Cañon",
+    image: "http://images.neptunecigar.com/avimg/42464.jpg",
     brand: "HVC Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -20230,6 +20566,7 @@ const CIGARS = [
   {
     id: "la-flor-dominicana-litto-gomez-diez-toro",
     name: "La Flor Dominicana Litto Gomez Diez Toro",
+    image: "http://images.neptunecigar.com/avimg/43169.jpg",
     brand: "La Flor Dominicana",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -20254,6 +20591,7 @@ const CIGARS = [
   {
     id: "la-flor-dominicana-la-nox-toro",
     name: "La Flor Dominicana La Nox Toro",
+    image: "http://images.neptunecigar.com/avimg/38598.jpg",
     brand: "La Flor Dominicana",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -20278,6 +20616,7 @@ const CIGARS = [
   {
     id: "liga-privada-t52-corona-doble",
     name: "Liga Privada T52 Corona Doble",
+    image: "http://images.neptunecigar.com/avimg/1329.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20302,6 +20641,7 @@ const CIGARS = [
   {
     id: "padron-1926-no35-maduro",
     name: "Padrón 1926 Serie No. 35 Maduro",
+    image: "http://images.neptunecigar.com/avimg/33093.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -20326,6 +20666,7 @@ const CIGARS = [
   {
     id: "my-father-le-bijou-box-press",
     name: "My Father Le Bijou 1922 Box Pressed",
+    image: "http://images.neptunecigar.com/avimg/33200.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20350,6 +20691,7 @@ const CIGARS = [
   {
     id: "davidoff-year-of-the-dragon-2024",
     name: "Davidoff Year of the Dragon 2024",
+    image: "http://images.neptunecigar.com/avimg/44216.jpg",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -20374,6 +20716,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-encore-celestial",
     name: "E.P. Carrillo Encore Celestial",
+    image: "http://images.neptunecigar.com/avimg/39364.jpg",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20398,6 +20741,7 @@ const CIGARS = [
   {
     id: "warped-flor-del-valle-sky-flower",
     name: "Warped Flor del Valle Sky Flower",
+    image: "http://images.neptunecigar.com/avimg/38752.jpg",
     brand: "Warped Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -20422,6 +20766,7 @@ const CIGARS = [
   {
     id: "hvc-pan-caliente-toro",
     name: "HVC Pan Caliente Toro",
+    image: "http://images.neptunecigar.com/avimg/39982.jpg",
     brand: "HVC Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -20470,6 +20815,7 @@ const CIGARS = [
   {
     id: "espinosa-knuckle-sandwich-maduro-robusto",
     name: "Espinosa Knuckle Sandwich Maduro Robusto",
+    image: "http://images.neptunecigar.com/avimg/42797.jpg",
     brand: "Espinosa Premium Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20494,6 +20840,7 @@ const CIGARS = [
   {
     id: "camacho-corojo-toro",
     name: "Camacho Corojo Toro",
+    image: "http://images.neptunecigar.com/avimg/32027.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -20518,6 +20865,7 @@ const CIGARS = [
   {
     id: "camacho-connecticut-toro",
     name: "Camacho Connecticut Toro",
+    image: "http://images.neptunecigar.com/avimg/32942.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -20542,6 +20890,7 @@ const CIGARS = [
   {
     id: "camacho-triple-maduro-toro",
     name: "Camacho Triple Maduro Toro",
+    image: "http://images.neptunecigar.com/avimg/33008.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -20566,6 +20915,7 @@ const CIGARS = [
   {
     id: "joya-de-nicaragua-antano-1970-toro",
     name: "Joya de Nicaragua Antaño 1970 Toro",
+    image: "http://images.neptunecigar.com/avimg/34282.jpg",
     brand: "Joya de Nicaragua",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20590,6 +20940,7 @@ const CIGARS = [
   {
     id: "joya-de-nicaragua-cinco-decadas-el-general",
     name: "Joya de Nicaragua Cinco Décadas El General",
+    image: "http://images.neptunecigar.com/avimg/39837.jpg",
     brand: "Joya de Nicaragua",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20638,6 +20989,7 @@ const CIGARS = [
   {
     id: "crowned-heads-four-kicks-maduro-toro",
     name: "Crowned Heads Four Kicks Maduro Toro",
+    image: "http://images.neptunecigar.com/avimg/39274.jpg",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20662,6 +21014,7 @@ const CIGARS = [
   {
     id: "tatuaje-havana-vi-torpedo",
     name: "Tatuaje Havana VI Torpedo",
+    image: "http://images.neptunecigar.com/avimg/33789.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20686,6 +21039,7 @@ const CIGARS = [
   {
     id: "oliva-serie-v-melanio-petite-corona",
     name: "Oliva Serie V Melanio Petite Corona",
+    image: "http://images.neptunecigar.com/avimg/34181.jpg",
     brand: "Oliva",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -20734,6 +21088,7 @@ const CIGARS = [
   {
     id: "alec-bradley-black-market-toro",
     name: "Alec Bradley Black Market Toro",
+    image: "http://images.neptunecigar.com/avimg/33935.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran",
@@ -20758,6 +21113,7 @@ const CIGARS = [
   {
     id: "alec-bradley-tempus-robusto",
     name: "Alec Bradley Tempus Robusto",
+    image: "http://images.neptunecigar.com/avimg/33933.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran",
@@ -20782,6 +21138,7 @@ const CIGARS = [
   {
     id: "camacho-american-barrel-aged-toro",
     name: "Camacho American Barrel Aged Toro",
+    image: "http://images.neptunecigar.com/avimg/37896.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -20830,6 +21187,7 @@ const CIGARS = [
   {
     id: "liga-privada-no9-belicoso",
     name: "Liga Privada No. 9 Belicoso",
+    image: "http://images.neptunecigar.com/avimg/39675.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20878,6 +21236,7 @@ const CIGARS = [
   {
     id: "roma-craft-cromagnon-knuckledragger",
     name: "RoMa Craft CroMagnon Knuckledragger",
+    image: "http://images.neptunecigar.com/avimg/38822.jpg",
     brand: "RoMa Craft Tobac",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20902,6 +21261,7 @@ const CIGARS = [
   {
     id: "padron-1964-anniversary-maduro-toro",
     name: "Padrón 1964 Anniversary Maduro Toro",
+    image: "http://images.neptunecigar.com/avimg/33112.jpg",
     brand: "Padrón",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -20926,6 +21286,7 @@ const CIGARS = [
   {
     id: "perdomo-20th-anniversary-torpedo",
     name: "Perdomo 20th Anniversary Sun Grown Torpedo",
+    image: "http://images.neptunecigar.com/avimg/34195.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20950,6 +21311,7 @@ const CIGARS = [
   {
     id: "my-father-judge-toro",
     name: "My Father The Judge Toro",
+    image: "http://images.neptunecigar.com/avimg/39168.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20974,6 +21336,7 @@ const CIGARS = [
   {
     id: "my-father-no1-torpedo",
     name: "My Father No. 1 Torpedo",
+    image: "http://images.neptunecigar.com/avimg/42478.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20998,6 +21361,7 @@ const CIGARS = [
   {
     id: "tatuaje-brown-label-toro",
     name: "Tatuaje Brown Label Toro",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21022,6 +21386,7 @@ const CIGARS = [
   {
     id: "undercrown-shade-toro",
     name: "Liga Undercrown Shade Toro",
+    image: "http://images.neptunecigar.com/avimg/38082.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21046,6 +21411,7 @@ const CIGARS = [
   {
     id: "undercrown-sun-grown-toro",
     name: "Liga Undercrown Sun Grown Toro",
+    image: "http://images.neptunecigar.com/avimg/42319.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21070,6 +21436,7 @@ const CIGARS = [
   {
     id: "aganorsa-leaf-signature-selection-toro",
     name: "Aganorsa Leaf Signature Selection Toro",
+    image: "http://images.neptunecigar.com/avimg/39901.jpg",
     brand: "Aganorsa Leaf",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -21118,6 +21485,7 @@ const CIGARS = [
   {
     id: "caldwell-king-is-dead-toro",
     name: "Caldwell The King Is Dead Toro",
+    image: "http://images.neptunecigar.com/avimg/38338.jpg",
     brand: "Caldwell Cigar Co.",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -21213,6 +21581,7 @@ const CIGARS = [
   {
     id: "crowned-heads-four-kicks-toro",
     name: "Crowned Heads Four Kicks Toro",
+    image: "http://images.neptunecigar.com/avimg/38189.jpg",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21237,6 +21606,7 @@ const CIGARS = [
   {
     id: "undercrown-flying-pig-maduro",
     name: "Undercrown Maduro Flying Pig",
+    image: "http://images.neptunecigar.com/avimg/33727.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21261,6 +21631,7 @@ const CIGARS = [
   {
     id: "undercrown-flying-pig-sun-grown",
     name: "Undercrown Sun Grown Flying Pig",
+    image: "http://images.neptunecigar.com/avimg/42319.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21285,6 +21656,7 @@ const CIGARS = [
   {
     id: "undercrown-flying-pig-shade",
     name: "Undercrown Shade Flying Pig",
+    image: "http://images.neptunecigar.com/avimg/38082.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21405,6 +21777,7 @@ const CIGARS = [
   {
     id: "arturo-fuente-hemingway-signature",
     name: "Arturo Fuente Hemingway Signature",
+    image: "http://images.neptunecigar.com/avimg/33779.jpg",
     brand: "Arturo Fuente",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -21429,6 +21802,7 @@ const CIGARS = [
   {
     id: "arturo-fuente-don-carlos-eye-of-bull",
     name: "Arturo Fuente Don Carlos Eye of the Bull",
+    image: "http://images.neptunecigar.com/avimg/33532.jpg",
     brand: "Arturo Fuente",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -21453,6 +21827,7 @@ const CIGARS = [
   {
     id: "rocky-patel-alr-second-edition-toro",
     name: "Rocky Patel A.L.R. Second Edition Toro",
+    image: "http://images.neptunecigar.com/avimg/41243.jpg",
     brand: "Rocky Patel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21477,6 +21852,7 @@ const CIGARS = [
   {
     id: "rocky-patel-alr-second-edition-robusto",
     name: "Rocky Patel A.L.R. Second Edition Robusto",
+    image: "http://images.neptunecigar.com/avimg/41243.jpg",
     brand: "Rocky Patel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21501,6 +21877,7 @@ const CIGARS = [
   {
     id: "rocky-patel-dbs-toro",
     name: "Rocky Patel DBS Toro",
+    image: "http://images.neptunecigar.com/avimg/42894.jpg",
     brand: "Rocky Patel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21525,6 +21902,7 @@ const CIGARS = [
   {
     id: "rocky-patel-sun-grown-maduro-robusto",
     name: "Rocky Patel Sun Grown Maduro Robusto",
+    image: "http://images.neptunecigar.com/avimg/37889.jpg",
     brand: "Rocky Patel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21549,6 +21927,7 @@ const CIGARS = [
   {
     id: "montecristo-epic-robusto",
     name: "Montecristo Epic Robusto",
+    image: "http://images.neptunecigar.com/avimg/34096.jpg",
     brand: "Montecristo",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -21573,6 +21952,7 @@ const CIGARS = [
   {
     id: "montecristo-espada-toro",
     name: "Montecristo Espada Toro",
+    image: "http://images.neptunecigar.com/avimg/36254.jpg",
     brand: "Montecristo",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -21597,6 +21977,7 @@ const CIGARS = [
   {
     id: "montecristo-crafted-aj-fernandez-toro",
     name: "Montecristo Crafted by AJ Fernandez Toro",
+    image: "http://images.neptunecigar.com/avimg/39100.jpg",
     brand: "Montecristo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21621,6 +22002,7 @@ const CIGARS = [
   {
     id: "romeo-y-julieta-reserva-real-toro",
     name: "Romeo y Julieta Reserva Real Toro",
+    image: "http://images.neptunecigar.com/avimg/32120.jpg",
     brand: "Romeo y Julieta",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -21645,6 +22027,7 @@ const CIGARS = [
   {
     id: "hoyo-excalibur-black-toro",
     name: "Hoyo de Monterrey Excalibur Black Toro",
+    image: "http://images.neptunecigar.com/avimg/42906.jpg",
     brand: "Hoyo de Monterrey",
     origin: "Honduras",
     region: "Danlí",
@@ -21669,6 +22052,7 @@ const CIGARS = [
   {
     id: "punch-diablo-diabolus",
     name: "Punch Diablo Diabolus",
+    image: "http://images.neptunecigar.com/avimg/39737.jpg",
     brand: "Punch",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21717,6 +22101,7 @@ const CIGARS = [
   {
     id: "gurkha-cellar-reserve-15-year-toro",
     name: "Gurkha Cellar Reserve 15 Year Toro",
+    image: "http://images.neptunecigar.com/avimg/40701.jpg",
     brand: "Gurkha",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21741,6 +22126,7 @@ const CIGARS = [
   {
     id: "gurkha-heritage-robusto",
     name: "Gurkha Heritage Robusto",
+    image: "http://images.neptunecigar.com/avimg/38366.jpg",
     brand: "Gurkha",
     origin: "Honduras",
     region: "Danlí",
@@ -21765,6 +22151,7 @@ const CIGARS = [
   {
     id: "man-o-war-armada-warship",
     name: "Man O' War Armada Warship",
+    image: "http://images.neptunecigar.com/avimg/43508.jpg",
     brand: "Man O' War",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21789,6 +22176,7 @@ const CIGARS = [
   {
     id: "man-o-war-side-project-toro",
     name: "Man O' War Side Project Toro",
+    image: "http://images.neptunecigar.com/avimg/43508.jpg",
     brand: "Man O' War",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21813,6 +22201,7 @@ const CIGARS = [
   {
     id: "cao-session-toro",
     name: "CAO Session Toro",
+    image: "http://images.neptunecigar.com/avimg/41270.jpg",
     brand: "CAO",
     origin: "Honduras",
     region: "Danlí",
@@ -21861,6 +22250,7 @@ const CIGARS = [
   {
     id: "diesel-whiskey-row-toro",
     name: "Diesel Whiskey Row Toro",
+    image: "http://images.neptunecigar.com/avimg/39533.jpg",
     brand: "Diesel",
     origin: "Honduras",
     region: "Danlí",
@@ -21885,6 +22275,7 @@ const CIGARS = [
   {
     id: "diesel-hair-of-the-dog-toro",
     name: "Diesel Hair of the Dog Toro",
+    image: "http://images.neptunecigar.com/avimg/38153.jpg",
     brand: "Diesel",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21909,6 +22300,7 @@ const CIGARS = [
   {
     id: "villiger-la-flor-de-ynclan-toro",
     name: "Villiger La Flor de Ynclan Toro",
+    image: "http://images.neptunecigar.com/avimg/39216.jpg",
     brand: "Villiger",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -21933,6 +22325,7 @@ const CIGARS = [
   {
     id: "villiger-la-flor-de-ynclan-lancero",
     name: "Villiger La Flor de Ynclan Lancero Especial",
+    image: "http://images.neptunecigar.com/avimg/39216.jpg",
     brand: "Villiger",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -21957,6 +22350,7 @@ const CIGARS = [
   {
     id: "la-aroma-de-cuba-noblesse-toro",
     name: "La Aroma de Cuba Noblesse Toro",
+    image: "http://images.neptunecigar.com/avimg/36303.jpg",
     brand: "La Aroma de Cuba",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21981,6 +22375,7 @@ const CIGARS = [
   {
     id: "la-aroma-de-cuba-edicion-especial-no1",
     name: "La Aroma de Cuba Edición Especial No. 1",
+    image: "http://images.neptunecigar.com/avimg/1352.jpg",
     brand: "La Aroma de Cuba",
     origin: "Nicaragua",
     region: "Estelí",
@@ -22005,6 +22400,7 @@ const CIGARS = [
   {
     id: "henry-clay-war-hawk-toro",
     name: "Henry Clay War Hawk Toro",
+    image: "http://images.neptunecigar.com/avimg/40566.jpg",
     brand: "Henry Clay",
     origin: "Honduras",
     region: "Danlí",
@@ -22029,6 +22425,7 @@ const CIGARS = [
   {
     id: "henry-clay-stalk-cut-toro",
     name: "Henry Clay Stalk Cut Toro",
+    image: "http://images.neptunecigar.com/avimg/38524.jpg",
     brand: "Henry Clay",
     origin: "Honduras",
     region: "Danlí",
@@ -22053,6 +22450,7 @@ const CIGARS = [
   {
     id: "room-101-big-payback-toro",
     name: "Room 101 The Big Payback Toro",
+    image: "http://images.neptunecigar.com/avimg/41472.jpg",
     brand: "Room 101",
     origin: "Nicaragua",
     region: "Estelí",
@@ -22077,6 +22475,7 @@ const CIGARS = [
   {
     id: "room-101-hit-and-run-redux-toro",
     name: "Room 101 Hit & Run Redux Toro",
+    image: "http://images.neptunecigar.com/avimg/43502.jpg",
     brand: "Room 101",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -22148,6 +22547,7 @@ const CIGARS = [
   {
     id: "cavalier-geneve-black-series-ii-toro",
     name: "Cavalier Genève Black Series II Toro",
+    image: "http://images.neptunecigar.com/avimg/40703.jpg",
     brand: "Cavalier Genève",
     origin: "Honduras",
     region: "Jamastran",
@@ -22172,6 +22572,7 @@ const CIGARS = [
   {
     id: "cavalier-geneve-white-series-toro",
     name: "Cavalier Genève White Series Toro",
+    image: "http://images.neptunecigar.com/avimg/40707.jpg",
     brand: "Cavalier Genève",
     origin: "Honduras",
     region: "Jamastran",
@@ -22244,6 +22645,7 @@ const CIGARS = [
   {
     id: "blackbird-superb-robusto-gordo",
     name: "Blackbird Superb Robusto Gordo",
+    image: "http://images.neptunecigar.com/avimg/43433.jpg",
     brand: "Blackbird Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -22268,6 +22670,7 @@ const CIGARS = [
   {
     id: "blackbird-jackdaw-robusto",
     name: "Blackbird Jackdaw Robusto",
+    image: "http://images.neptunecigar.com/avimg/41248.jpg",
     brand: "Blackbird Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -22292,6 +22695,7 @@ const CIGARS = [
   {
     id: "blackbird-crow-robusto",
     name: "Blackbird Crow Robusto",
+    image: "http://images.neptunecigar.com/avimg/41245.jpg",
     brand: "Blackbird Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -22316,6 +22720,7 @@ const CIGARS = [
   {
     id: "blackbird-rook-robusto",
     name: "Blackbird Rook Robusto",
+    image: "http://images.neptunecigar.com/avimg/41247.jpg",
     brand: "Blackbird Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -22386,6 +22791,7 @@ const CIGARS = [
   {
     id: "la-gloria-cubana-spirit-toro",
     name: "La Gloria Cubana Serie Spirit Toro",
+    image: "http://images.neptunecigar.com/avimg/294.jpg",
     brand: "La Gloria Cubana",
     origin: "Honduras",
     region: "Danlí",
@@ -22410,6 +22816,7 @@ const CIGARS = [
   {
     id: "brick-house-double-connecticut-toro",
     name: "Brick House Double Connecticut Toro",
+    image: "http://images.neptunecigar.com/avimg/39246.jpg",
     brand: "Brick House",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -22434,6 +22841,7 @@ const CIGARS = [
   {
     id: "brick-house-natural-corona",
     name: "Brick House Natural Corona",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Brick House",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -22458,6 +22866,7 @@ const CIGARS = [
   {
     id: "nub-cafe-connecticut-460",
     name: "Nub Café Connecticut 460",
+    image: "http://images.neptunecigar.com/avimg/33185.jpg",
     brand: "Nub",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -22482,6 +22891,7 @@ const CIGARS = [
   {
     id: "nub-sungrown-460",
     name: "Nub Sun Grown 460",
+    image: "http://images.neptunecigar.com/avimg/34091.jpg",
     brand: "Nub",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -22506,6 +22916,7 @@ const CIGARS = [
   {
     id: "gurkha-royal-challenge-toro",
     name: "Gurkha Royal Challenge Toro",
+    image: "http://images.neptunecigar.com/avimg/38020.jpg",
     brand: "Gurkha",
     origin: "Honduras",
     region: "Danlí",
@@ -22530,6 +22941,7 @@ const CIGARS = [
   {
     id: "gurkha-ghost-toro",
     name: "Gurkha Ghost Toro",
+    image: "http://images.neptunecigar.com/avimg/38024.jpg",
     brand: "Gurkha",
     origin: "Honduras",
     region: "Danlí",
@@ -22554,6 +22966,7 @@ const CIGARS = [
   {
     id: "man-o-war-virtue-toro",
     name: "Man O' War Virtue Toro",
+    image: "http://images.neptunecigar.com/avimg/43508.jpg",
     brand: "Man O' War",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -22578,6 +22991,7 @@ const CIGARS = [
   {
     id: "cao-brazilia-gol",
     name: "CAO Brazilia Gol!",
+    image: "http://images.neptunecigar.com/avimg/251.jpg",
     brand: "CAO",
     origin: "Honduras",
     region: "Danlí",
@@ -22602,6 +23016,7 @@ const CIGARS = [
   {
     id: "cao-flathead-v660-camshaft",
     name: "CAO Flathead V660 Camshaft",
+    image: "http://images.neptunecigar.com/avimg/35498.jpg",
     brand: "CAO",
     origin: "Honduras",
     region: "Danlí",
@@ -22626,6 +23041,7 @@ const CIGARS = [
   {
     id: "foundation-menelik-toro",
     name: "Foundation Menelik Toro",
+    image: "http://images.neptunecigar.com/avimg/41443.jpg",
     brand: "Foundation Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -22650,6 +23066,7 @@ const CIGARS = [
   {
     id: "foundation-olmec-claro-toro",
     name: "Foundation Olmec Claro Toro",
+    image: "http://images.neptunecigar.com/avimg/42973.jpg",
     brand: "Foundation Cigar Co.",
     origin: "Mexico",
     region: "San Andrés",
@@ -22674,6 +23091,7 @@ const CIGARS = [
   {
     id: "aged-room-quattro-nicaragua-toro",
     name: "Aging Room Quattro Nicaragua Toro",
+    image: "http://images.neptunecigar.com/avimg/40301.jpg",
     brand: "Aging Room",
     origin: "Nicaragua",
     region: "Estelí",
@@ -22722,6 +23140,7 @@ const CIGARS = [
   {
     id: "diamond-crown-maximus-no5",
     name: "Diamond Crown Maximus No. 5",
+    image: "http://images.neptunecigar.com/avimg/35971.jpg",
     brand: "Diamond Crown",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -22746,6 +23165,7 @@ const CIGARS = [
   {
     id: "camacho-ecuador-toro",
     name: "Camacho Ecuador Toro",
+    image: "http://images.neptunecigar.com/avimg/36240.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -22770,6 +23190,7 @@ const CIGARS = [
   {
     id: "tatuaje-havana-vi-toro",
     name: "Tatuaje Havana VI Toro",
+    image: "http://images.neptunecigar.com/avimg/33789.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -22794,6 +23215,7 @@ const CIGARS = [
   {
     id: "tatuaje-black-toro",
     name: "Tatuaje Black Toro",
+    image: "http://images.neptunecigar.com/avimg/33786.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -22818,6 +23240,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-encore-celestial-toro",
     name: "E.P. Carrillo Encore Celestial Toro",
+    image: "http://images.neptunecigar.com/avimg/39364.jpg",
     brand: "E.P. Carrillo",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -22842,6 +23265,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-pledge-prequel-toro",
     name: "E.P. Carrillo Pledge Prequel Toro",
+    image: "http://images.neptunecigar.com/avimg/42474.jpg",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -22889,6 +23313,7 @@ const CIGARS = [
   {
     id: "southern-draw-jacobs-ladder-toro",
     name: "Southern Draw Jacob's Ladder Toro",
+    image: "http://images.neptunecigar.com/avimg/40277.jpg",
     brand: "Southern Draw",
     origin: "Nicaragua",
     region: "Estelí",
@@ -22913,6 +23338,7 @@ const CIGARS = [
   {
     id: "southern-draw-firethorn-toro",
     name: "Southern Draw Firethorn Toro",
+    image: "http://images.neptunecigar.com/avimg/38804.jpg",
     brand: "Southern Draw",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -22937,6 +23363,7 @@ const CIGARS = [
   {
     id: "illusione-mk-ultra-toro",
     name: "Illusione MK Ultra Toro",
+    image: "http://images.neptunecigar.com/avimg/34207.jpg",
     brand: "Illusione",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -23007,6 +23434,7 @@ const CIGARS = [
   {
     id: "kristoff-ligero-criollo-toro",
     name: "Kristoff Ligero Criollo Toro",
+    image: "http://images.neptunecigar.com/avimg/40083.jpg",
     brand: "Kristoff",
     origin: "Honduras",
     region: "Jamastran",
@@ -23031,6 +23459,7 @@ const CIGARS = [
   {
     id: "perdomo-habano-bourbon-barrel-toro",
     name: "Perdomo Habano Bourbon Barrel-Aged Sun Grown Toro",
+    image: "http://images.neptunecigar.com/avimg/36311.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23079,6 +23508,7 @@ const CIGARS = [
   {
     id: "davidoff-escurio-robusto",
     name: "Davidoff Escurio Robusto",
+    image: "http://images.neptunecigar.com/avimg/37814.gif",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -23103,6 +23533,7 @@ const CIGARS = [
   {
     id: "davidoff-primeros-dominican-toro",
     name: "Davidoff Primeros Dominican Toro",
+    image: "http://images.neptunecigar.com/avimg/37800.gif",
     brand: "Davidoff",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -23151,6 +23582,7 @@ const CIGARS = [
   {
     id: "espinosa-las-6-provincias-toro",
     name: "Espinosa Las 6 Provincias Toro",
+    image: "http://images.neptunecigar.com/avimg/39718.jpg",
     brand: "Espinosa Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23175,6 +23607,7 @@ const CIGARS = [
   {
     id: "crowned-heads-le-careme-toro",
     name: "Crowned Heads Le Carême Toro",
+    image: "http://images.neptunecigar.com/avimg/39029.jpg",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23199,6 +23632,7 @@ const CIGARS = [
   {
     id: "crowned-heads-luminosa-toro",
     name: "Crowned Heads Luminosa Toro",
+    image: "http://images.neptunecigar.com/avimg/43485.jpg",
     brand: "Crowned Heads",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23223,6 +23657,7 @@ const CIGARS = [
   {
     id: "aganorsa-leaf-jfr-maduro-toro",
     name: "Aganorsa Leaf JFR Maduro Toro",
+    image: "http://images.neptunecigar.com/avimg/42768.jpg",
     brand: "Aganorsa Leaf",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -23247,6 +23682,7 @@ const CIGARS = [
   {
     id: "aganorsa-leaf-guardian-of-farm-toro",
     name: "Aganorsa Leaf Guardian of the Farm Toro",
+    image: "http://images.neptunecigar.com/avimg/39323.jpg",
     brand: "Aganorsa Leaf",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -23271,6 +23707,7 @@ const CIGARS = [
   {
     id: "foundation-tabernacle-maduro-toro",
     name: "Foundation Tabernacle Maduro Toro",
+    image: "http://images.neptunecigar.com/avimg/43264.jpg",
     brand: "Foundation Cigar Co.",
     origin: "Honduras",
     region: "Jamastran",
@@ -23295,6 +23732,7 @@ const CIGARS = [
   {
     id: "quesada-1974-toro",
     name: "Quesada 1974 Toro",
+    image: "http://images.neptunecigar.com/avimg/41632.jpg",
     brand: "Quesada Cigars",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -23319,6 +23757,7 @@ const CIGARS = [
   {
     id: "quesada-oktoberfest-toro",
     name: "Quesada Oktoberfest Toro",
+    image: "http://images.neptunecigar.com/avimg/38373.jpg",
     brand: "Quesada Cigars",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -23343,6 +23782,7 @@ const CIGARS = [
   {
     id: "lfd-coronado-toro",
     name: "La Flor Dominicana Coronado Toro",
+    image: "http://images.neptunecigar.com/avimg/36294.jpg",
     brand: "La Flor Dominicana",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -23367,6 +23807,7 @@ const CIGARS = [
   {
     id: "lfd-air-bender-toro",
     name: "La Flor Dominicana Air Bender Toro",
+    image: "http://images.neptunecigar.com/avimg/33649.jpg",
     brand: "La Flor Dominicana",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -23391,6 +23832,7 @@ const CIGARS = [
   {
     id: "plasencia-reserva-original-toro",
     name: "Plasencia Reserva Original Toro",
+    image: "http://images.neptunecigar.com/avimg/39211.jpg",
     brand: "Plasencia",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -23415,6 +23857,7 @@ const CIGARS = [
   {
     id: "plasencia-cosecha-146-toro",
     name: "Plasencia Cosecha 146 Toro",
+    image: "http://images.neptunecigar.com/avimg/39367.jpg",
     brand: "Plasencia",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -23439,6 +23882,7 @@ const CIGARS = [
   {
     id: "romeo-y-julieta-1875-toro",
     name: "Romeo y Julieta 1875 Toro",
+    image: "http://images.neptunecigar.com/avimg/37410.jpg",
     brand: "Romeo y Julieta",
     origin: "Honduras",
     region: "Danlí",
@@ -23463,6 +23907,7 @@ const CIGARS = [
   {
     id: "aj-fernandez-new-world-connecticut-toro",
     name: "AJ Fernandez New World Connecticut Toro",
+    image: "http://images.neptunecigar.com/avimg/37879.jpg",
     brand: "AJ Fernandez",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23487,6 +23932,7 @@ const CIGARS = [
   {
     id: "aj-fernandez-bellas-artes-toro",
     name: "AJ Fernandez Bellas Artes Toro",
+    image: "http://images.neptunecigar.com/avimg/38998.jpg",
     brand: "AJ Fernandez",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23511,6 +23957,7 @@ const CIGARS = [
   {
     id: "dunbarton-sobremesa-brulée-toro",
     name: "Dunbarton Tobacco & Trust Sobremesa Brûlée Toro",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23535,6 +23982,7 @@ const CIGARS = [
   {
     id: "dunbarton-sin-compromiso-toro",
     name: "Dunbarton Tobacco & Trust Sin Compromiso Toro",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23559,6 +24007,7 @@ const CIGARS = [
   {
     id: "herrera-esteli-habano-toro",
     name: "Herrera Estelí Habano Toro",
+    image: "http://images.neptunecigar.com/avimg/34363.jpg",
     brand: "Herrera Estelí",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23583,6 +24032,7 @@ const CIGARS = [
   {
     id: "herrera-esteli-norteno-toro",
     name: "Herrera Estelí Norteño Toro",
+    image: "http://images.neptunecigar.com/avimg/36296.jpg",
     brand: "Herrera Estelí",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23655,6 +24105,7 @@ const CIGARS = [
   {
     id: "epernay-illusione-robusto",
     name: "Illusione Epernay Robusto",
+    image: "http://images.neptunecigar.com/avimg/41233.jpg",
     brand: "Illusione",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -23679,6 +24130,7 @@ const CIGARS = [
   {
     id: "acid-kuba-grande",
     name: "ACID Kuba Grande",
+    image: "http://images.neptunecigar.com/avimg/41393.jpg",
     brand: "ACID by Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23703,6 +24155,7 @@ const CIGARS = [
   {
     id: "cavalier-geneve-white-series-ii-robusto",
     name: "Cavalier Genève White Series II Robusto",
+    image: "http://images.neptunecigar.com/avimg/40707.jpg",
     brand: "Cavalier Genève",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -23727,6 +24180,7 @@ const CIGARS = [
   {
     id: "cavalier-geneve-black-series-ii-robusto",
     name: "Cavalier Genève Black Series II Robusto",
+    image: "http://images.neptunecigar.com/avimg/40703.jpg",
     brand: "Cavalier Genève",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -23751,6 +24205,7 @@ const CIGARS = [
   {
     id: "la-barba-red-robusto",
     name: "La Barba Red Robusto",
+    image: "http://images.neptunecigar.com/avimg/39553.jpg",
     brand: "La Barba Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23822,6 +24277,7 @@ const CIGARS = [
   {
     id: "blackbird-superb-robusto",
     name: "Blackbird Cigar Superb Robusto",
+    image: "http://images.neptunecigar.com/avimg/43433.jpg",
     brand: "Blackbird Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23846,6 +24302,7 @@ const CIGARS = [
   {
     id: "stillwell-star-no-1",
     name: "StillWell Star No. 1",
+    image: "http://images.neptunecigar.com/avimg/42766.jpg",
     brand: "StillWell Star",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -23916,6 +24373,7 @@ const CIGARS = [
   {
     id: "umbagog-dunbarton",
     name: "Umbagog by Dunbarton Tobacco & Trust",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23940,6 +24398,7 @@ const CIGARS = [
   {
     id: "aging-room-quattro-nicaragua-maestro",
     name: "Aging Room Quattro Nicaragua Maestro",
+    image: "http://images.neptunecigar.com/avimg/40301.jpg",
     brand: "Aging Room",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -23964,6 +24423,7 @@ const CIGARS = [
   {
     id: "aging-room-bin-no-1-corona",
     name: "Aging Room Bin No. 1 Corona",
+    image: "http://images.neptunecigar.com/avimg/41271.jpg",
     brand: "Aging Room",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -23988,6 +24448,7 @@ const CIGARS = [
   {
     id: "espinosa-601-la-bomba-warhead",
     name: "Espinosa 601 La Bomba Warhead",
+    image: "http://images.neptunecigar.com/avimg/43357.jpg",
     brand: "Espinosa Premium Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24012,6 +24473,7 @@ const CIGARS = [
   {
     id: "espinosa-laranja-reserva-corona",
     name: "Espinosa Laranja Reserva Corona",
+    image: "http://images.neptunecigar.com/avimg/42725.jpg",
     brand: "Espinosa Premium Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -24036,6 +24498,7 @@ const CIGARS = [
   {
     id: "black-label-porcelain-god-robusto",
     name: "Black Label Trading Co. Porcelain God Robusto",
+    image: "http://images.neptunecigar.com/avimg/40997.jpg",
     brand: "Black Label Trading Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24060,6 +24523,7 @@ const CIGARS = [
   {
     id: "black-label-last-rites-robusto",
     name: "Black Label Trading Co. Last Rites Robusto",
+    image: "http://images.neptunecigar.com/avimg/38372.jpg",
     brand: "Black Label Trading Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24084,6 +24548,7 @@ const CIGARS = [
   {
     id: "caldwell-blind-mans-bluff-connecticut",
     name: "Caldwell Blind Man's Bluff Connecticut",
+    image: "http://images.neptunecigar.com/avimg/39911.jpg",
     brand: "Caldwell Cigar Co.",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -24131,6 +24596,7 @@ const CIGARS = [
   {
     id: "crux-bull-bear-toro",
     name: "Crux Bull & Bear Toro",
+    image: "http://images.neptunecigar.com/avimg/39943.jpg",
     brand: "Crux Cigar Co.",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -24155,6 +24621,7 @@ const CIGARS = [
   {
     id: "crux-epicure-toro",
     name: "Crux Epicure Toro",
+    image: "http://images.neptunecigar.com/avimg/43595.jpg",
     brand: "Crux Cigar Co.",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -24250,6 +24717,7 @@ const CIGARS = [
   {
     id: "liga-privada-no-9-coronet",
     name: "Liga Privada No. 9 Coronet",
+    image: "http://images.neptunecigar.com/avimg/39675.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24274,6 +24742,7 @@ const CIGARS = [
   {
     id: "drew-estate-herrera-esteli-miami-robusto",
     name: "Drew Estate Herrera Estelí Miami Robusto",
+    image: "http://images.neptunecigar.com/avimg/39049.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24298,6 +24767,7 @@ const CIGARS = [
   {
     id: "tatuaje-havana-vi-robusto-extra",
     name: "Tatuaje Havana VI Robusto Extra",
+    image: "http://images.neptunecigar.com/avimg/33789.jpg",
     brand: "Tatuaje Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24322,6 +24792,7 @@ const CIGARS = [
   {
     id: "my-father-la-opulencia-robusto",
     name: "My Father Cigars La Opulencia Robusto",
+    image: "http://images.neptunecigar.com/avimg/39198.jpg",
     brand: "My Father Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -24370,6 +24841,7 @@ const CIGARS = [
   {
     id: "hvc-hot-cake-robusto",
     name: "HVC Hot Cake Robusto",
+    image: "http://images.neptunecigar.com/avimg/42464.jpg",
     brand: "HVC Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -30788,6 +31260,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-short-run-2019-robusto",
     name: "E.P. Carrillo Short Run 2019 Robusto",
+    image: "http://images.neptunecigar.com/avimg/34308.jpg",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -30812,6 +31285,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-short-run-2020-toro",
     name: "E.P. Carrillo Short Run 2020 Toro",
+    image: "http://images.neptunecigar.com/avimg/34308.jpg",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -30860,6 +31334,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-la-historia-ev",
     name: "E.P. Carrillo La Historia E-V",
+    image: "http://images.neptunecigar.com/avimg/36266.jpg",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -30884,6 +31359,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-la-historia-eh",
     name: "E.P. Carrillo La Historia EH",
+    image: "http://images.neptunecigar.com/avimg/36266.jpg",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -30956,6 +31432,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-inch-maduro-no64",
     name: "E.P. Carrillo INCH Maduro No.64",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -30980,6 +31457,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-new-wave-maduro-robusto",
     name: "E.P. Carrillo New Wave Maduro Robusto",
+    image: "http://images.neptunecigar.com/avimg/33703.jpg",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -31028,6 +31506,7 @@ const CIGARS = [
   {
     id: "camacho-liberty-2019",
     name: "Camacho Liberty 2019",
+    image: "http://images.neptunecigar.com/avimg/33020.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -31052,6 +31531,7 @@ const CIGARS = [
   {
     id: "camacho-liberty-2020-toro",
     name: "Camacho Liberty 2020 Toro",
+    image: "http://images.neptunecigar.com/avimg/33020.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -31076,6 +31556,7 @@ const CIGARS = [
   {
     id: "camacho-diploma-robusto",
     name: "Camacho Diploma Robusto",
+    image: "http://images.neptunecigar.com/avimg/32610.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -31100,6 +31581,7 @@ const CIGARS = [
   {
     id: "camacho-coyolar-robusto",
     name: "Camacho Coyolar Robusto",
+    image: "http://images.neptunecigar.com/avimg/242.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Coyolar",
@@ -31148,6 +31630,7 @@ const CIGARS = [
   {
     id: "camacho-corojo-cameroon-robusto",
     name: "Camacho Corojo Cameroon Robusto",
+    image: "http://images.neptunecigar.com/avimg/32027.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -31196,6 +31679,7 @@ const CIGARS = [
   {
     id: "camacho-triple-maduro-robusto",
     name: "Camacho Triple Maduro Robusto",
+    image: "http://images.neptunecigar.com/avimg/33008.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -31220,6 +31704,7 @@ const CIGARS = [
   {
     id: "camacho-american-barrel-aged-gordo",
     name: "Camacho American Barrel Aged Gordo",
+    image: "http://images.neptunecigar.com/avimg/37896.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -31268,6 +31753,7 @@ const CIGARS = [
   {
     id: "camacho-liberty-2021",
     name: "Camacho Liberty 2021",
+    image: "http://images.neptunecigar.com/avimg/33020.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -31292,6 +31778,7 @@ const CIGARS = [
   {
     id: "camacho-ecuador-churchill",
     name: "Camacho Ecuador Churchill",
+    image: "http://images.neptunecigar.com/avimg/36240.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -31316,6 +31803,7 @@ const CIGARS = [
   {
     id: "macanudo-cafe-lonsdale",
     name: "Macanudo Café Lonsdale",
+    image: "http://images.neptunecigar.com/avimg/305.jpg",
     brand: "Macanudo",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -31340,6 +31828,7 @@ const CIGARS = [
   {
     id: "macanudo-cafe-baron-de-rothschild",
     name: "Macanudo Café Baron de Rothschild",
+    image: "http://images.neptunecigar.com/avimg/305.jpg",
     brand: "Macanudo",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -31364,6 +31853,7 @@ const CIGARS = [
   {
     id: "macanudo-cafe-hyde-park",
     name: "Macanudo Café Hyde Park",
+    image: "http://images.neptunecigar.com/avimg/305.jpg",
     brand: "Macanudo",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -31388,6 +31878,7 @@ const CIGARS = [
   {
     id: "macanudo-inspirado-blue-robusto",
     name: "Macanudo Inspirado Blue Robusto",
+    image: "http://images.neptunecigar.com/avimg/39188.jpg",
     brand: "Macanudo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -31412,6 +31903,7 @@ const CIGARS = [
   {
     id: "macanudo-inspirado-red-robusto",
     name: "Macanudo Inspirado Red Robusto",
+    image: "http://images.neptunecigar.com/avimg/39396.jpg",
     brand: "Macanudo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -31436,6 +31928,7 @@ const CIGARS = [
   {
     id: "macanudo-inspirado-green-robusto",
     name: "Macanudo Inspirado Green Robusto",
+    image: "http://images.neptunecigar.com/avimg/42238.jpg",
     brand: "Macanudo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -31460,6 +31953,7 @@ const CIGARS = [
   {
     id: "macanudo-vintage-1993-churchill",
     name: "Macanudo Vintage 1993 Churchill",
+    image: "http://images.neptunecigar.com/avimg/33248.jpg",
     brand: "Macanudo",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -31484,6 +31978,7 @@ const CIGARS = [
   {
     id: "macanudo-estate-reserve-robusto",
     name: "Macanudo Estate Reserve Robusto",
+    image: "http://images.neptunecigar.com/avimg/43010.jpg",
     brand: "Macanudo",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -31508,6 +32003,7 @@ const CIGARS = [
   {
     id: "macanudo-inspirado-tubo-robusto",
     name: "Macanudo Inspirado Tubo Robusto",
+    image: "http://images.neptunecigar.com/avimg/39188.jpg",
     brand: "Macanudo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -31532,6 +32028,7 @@ const CIGARS = [
   {
     id: "macanudo-inspirado-ecuador-robusto",
     name: "Macanudo Inspirado Ecuador Robusto",
+    image: "http://images.neptunecigar.com/avimg/39188.jpg",
     brand: "Macanudo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -31556,6 +32053,7 @@ const CIGARS = [
   {
     id: "macanudo-cafe-lords",
     name: "Macanudo Café Lords",
+    image: "http://images.neptunecigar.com/avimg/305.jpg",
     brand: "Macanudo",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -31580,6 +32078,7 @@ const CIGARS = [
   {
     id: "macanudo-cafe-claybourne",
     name: "Macanudo Café Claybourne",
+    image: "http://images.neptunecigar.com/avimg/305.jpg",
     brand: "Macanudo",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -31604,6 +32103,7 @@ const CIGARS = [
   {
     id: "joya-de-nicaragua-cinco-decadas-edmundo-toro",
     name: "Joya de Nicaragua Cinco Décadas Toro",
+    image: "http://images.neptunecigar.com/avimg/39837.jpg",
     brand: "Joya de Nicaragua",
     origin: "Nicaragua",
     region: "Estelí",
@@ -31628,6 +32128,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-inch-no66",
     name: "E.P. Carrillo INCH No.66",
+    image: "http://images.neptunecigar.com/avimg/42904.jpg",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -31676,6 +32177,7 @@ const CIGARS = [
   {
     id: "macanudo-cafe-prince-of-wales",
     name: "Macanudo Café Prince of Wales",
+    image: "http://images.neptunecigar.com/avimg/305.jpg",
     brand: "Macanudo",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -31700,6 +32202,7 @@ const CIGARS = [
   {
     id: "joya-de-nicaragua-antano-1970-robusto",
     name: "Joya de Nicaragua Antaño 1970 Robusto",
+    image: "http://images.neptunecigar.com/avimg/34282.jpg",
     brand: "Joya de Nicaragua",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -31724,6 +32227,7 @@ const CIGARS = [
   {
     id: "camacho-triple-maduro-churchill",
     name: "Camacho Triple Maduro Churchill",
+    image: "http://images.neptunecigar.com/avimg/33008.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -31748,6 +32252,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-pledge-sojourn-robusto",
     name: "E.P. Carrillo Pledge Sojourn Robusto",
+    image: "http://images.neptunecigar.com/avimg/42474.jpg",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -31772,6 +32277,7 @@ const CIGARS = [
   {
     id: "macanudo-inspirado-nicaraguan-robusto",
     name: "Macanudo Inspirado Nicaraguan Robusto",
+    image: "http://images.neptunecigar.com/avimg/39188.jpg",
     brand: "Macanudo",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -31796,6 +32302,7 @@ const CIGARS = [
   {
     id: "camacho-corojo-robusto-extra",
     name: "Camacho Corojo Robusto Extra",
+    image: "http://images.neptunecigar.com/avimg/32027.jpg",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -31820,6 +32327,7 @@ const CIGARS = [
   {
     id: "joya-de-nicaragua-antano-dark-corojo-toro",
     name: "Joya de Nicaragua Antaño Dark Corojo Toro",
+    image: "http://images.neptunecigar.com/avimg/36251.jpg",
     brand: "Joya de Nicaragua",
     origin: "Nicaragua",
     region: "Estelí",
@@ -31868,6 +32376,7 @@ const CIGARS = [
   {
     id: "black-works-studio-rorschach-robusto",
     name: "Black Works Studio Rorschach Robusto",
+    image: "http://images.neptunecigar.com/avimg/38932.jpg",
     brand: "Black Works Studio",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -31892,6 +32401,7 @@ const CIGARS = [
   {
     id: "black-works-studio-rorschach-toro",
     name: "Black Works Studio Rorschach Toro",
+    image: "http://images.neptunecigar.com/avimg/38932.jpg",
     brand: "Black Works Studio",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -31916,6 +32426,7 @@ const CIGARS = [
   {
     id: "black-works-studio-sindustry-robusto",
     name: "Black Works Studio Sindustry Robusto",
+    image: "http://images.neptunecigar.com/avimg/38932.jpg",
     brand: "Black Works Studio",
     origin: "Nicaragua",
     region: "Estelí",
@@ -31940,6 +32451,7 @@ const CIGARS = [
   {
     id: "black-works-studio-killer-bee-robusto",
     name: "Black Works Studio Killer Bee Robusto",
+    image: "http://images.neptunecigar.com/avimg/38932.jpg",
     brand: "Black Works Studio",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -31964,6 +32476,7 @@ const CIGARS = [
   {
     id: "black-works-studio-tears-of-zeus-toro",
     name: "Black Works Studio Tears of Zeus Toro",
+    image: "http://images.neptunecigar.com/avimg/38932.jpg",
     brand: "Black Works Studio",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -31988,6 +32501,7 @@ const CIGARS = [
   {
     id: "black-works-studio-sparrow-and-lion-robusto",
     name: "Black Works Studio Sparrow & Lion Robusto",
+    image: "http://images.neptunecigar.com/avimg/38932.jpg",
     brand: "Black Works Studio",
     origin: "Nicaragua",
     region: "Estelí",
@@ -32012,6 +32526,7 @@ const CIGARS = [
   {
     id: "black-works-studio-genesis-robusto",
     name: "Black Works Studio Genesis Robusto",
+    image: "http://images.neptunecigar.com/avimg/38932.jpg",
     brand: "Black Works Studio",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -32036,6 +32551,7 @@ const CIGARS = [
   {
     id: "black-works-studio-hyena-robusto",
     name: "Black Works Studio Hyena Robusto",
+    image: "http://images.neptunecigar.com/avimg/38932.jpg",
     brand: "Black Works Studio",
     origin: "Nicaragua",
     region: "Estelí",
@@ -32204,6 +32720,7 @@ const CIGARS = [
   {
     id: "alec-bradley-sanctum-robusto",
     name: "Alec Bradley Sanctum Robusto",
+    image: "http://images.neptunecigar.com/avimg/39544.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -32228,6 +32745,7 @@ const CIGARS = [
   {
     id: "alec-bradley-mchurchill",
     name: "Alec Bradley MChurchill",
+    image: "http://images.neptunecigar.com/avimg/39544.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -32276,6 +32794,7 @@ const CIGARS = [
   {
     id: "alec-bradley-medalist-robusto",
     name: "Alec Bradley Medalist Robusto",
+    image: "http://images.neptunecigar.com/avimg/39465.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -32300,6 +32819,7 @@ const CIGARS = [
   {
     id: "alec-bradley-lineage-robusto",
     name: "Alec Bradley The Lineage Robusto",
+    image: "http://images.neptunecigar.com/avimg/36241.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -32324,6 +32844,7 @@ const CIGARS = [
   {
     id: "alec-bradley-sr71-toro",
     name: "Alec Bradley SR-71 Toro",
+    image: "http://images.neptunecigar.com/avimg/39544.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -32372,6 +32893,7 @@ const CIGARS = [
   {
     id: "alec-bradley-gatekeeper-robusto",
     name: "Alec Bradley Gatekeeper Robusto",
+    image: "http://images.neptunecigar.com/avimg/41265.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -32396,6 +32918,7 @@ const CIGARS = [
   {
     id: "espinosa-laranja-reserva-toro",
     name: "Espinosa Laranja Reserva Toro",
+    image: "http://images.neptunecigar.com/avimg/42725.jpg",
     brand: "Espinosa Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -32420,6 +32943,7 @@ const CIGARS = [
   {
     id: "espinosa-601-la-bomba-robusto",
     name: "Espinosa 601 La Bomba Robusto",
+    image: "http://images.neptunecigar.com/avimg/34367.jpg",
     brand: "Espinosa Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -32444,6 +32968,7 @@ const CIGARS = [
   {
     id: "espinosa-knuckle-sandwich-toro",
     name: "Espinosa Knuckle Sandwich Toro",
+    image: "http://images.neptunecigar.com/avimg/43269.jpg",
     brand: "Espinosa Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -32468,6 +32993,7 @@ const CIGARS = [
   {
     id: "espinosa-crema-no7-toro",
     name: "Espinosa Crema No. 7 Toro",
+    image: "http://images.neptunecigar.com/avimg/39416.jpg",
     brand: "Espinosa Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -32564,6 +33090,7 @@ const CIGARS = [
   {
     id: "la-palina-blue-label-toro",
     name: "La Palina Blue Label Toro",
+    image: "http://images.neptunecigar.com/avimg/39440.jpg",
     brand: "La Palina",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -32588,6 +33115,7 @@ const CIGARS = [
   {
     id: "la-palina-goldie-lonsdale",
     name: "La Palina Goldie Lonsdale",
+    image: "http://images.neptunecigar.com/avimg/39157.jpg",
     brand: "La Palina",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -32684,6 +33212,7 @@ const CIGARS = [
   {
     id: "la-palina-goldie-robusto",
     name: "La Palina Goldie Robusto",
+    image: "http://images.neptunecigar.com/avimg/39157.jpg",
     brand: "La Palina",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -32708,6 +33237,7 @@ const CIGARS = [
   {
     id: "room-101-great-wall-robusto",
     name: "Room 101 The Great Wall Robusto",
+    image: "http://images.neptunecigar.com/avimg/41472.jpg",
     brand: "Room 101",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -32756,6 +33286,7 @@ const CIGARS = [
   {
     id: "room-101-shinigami-robusto",
     name: "Room 101 Shinigami Robusto",
+    image: "http://images.neptunecigar.com/avimg/34198.jpg",
     brand: "Room 101",
     origin: "Nicaragua",
     region: "Estelí",
@@ -32780,6 +33311,7 @@ const CIGARS = [
   {
     id: "room-101-uncle-buck-robusto",
     name: "Room 101 Uncle Buck Robusto",
+    image: "http://images.neptunecigar.com/avimg/37894.jpg",
     brand: "Room 101",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -32804,6 +33336,7 @@ const CIGARS = [
   {
     id: "room-101-sunbather-toro",
     name: "Room 101 Sunbather Toro",
+    image: "http://images.neptunecigar.com/avimg/34198.jpg",
     brand: "Room 101",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -32828,6 +33361,7 @@ const CIGARS = [
   {
     id: "cavalier-geneve-latelier-ii-toro",
     name: "Cavalier Genève L'Atelier II Toro",
+    image: "http://images.neptunecigar.com/avimg/40703.jpg",
     brand: "Cavalier Genève",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -32852,6 +33386,7 @@ const CIGARS = [
   {
     id: "cavalier-geneve-c-series-robusto",
     name: "Cavalier Genève C-Series Robusto",
+    image: "http://images.neptunecigar.com/avimg/40703.jpg",
     brand: "Cavalier Genève",
     origin: "Nicaragua",
     region: "Estelí",
@@ -32876,6 +33411,7 @@ const CIGARS = [
   {
     id: "cavalier-geneve-b52-robusto",
     name: "Cavalier Genève B52 Robusto",
+    image: "http://images.neptunecigar.com/avimg/40703.jpg",
     brand: "Cavalier Genève",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -32900,6 +33436,7 @@ const CIGARS = [
   {
     id: "cavalier-geneve-r-series-robusto",
     name: "Cavalier Genève R-Series Robusto",
+    image: "http://images.neptunecigar.com/avimg/40703.jpg",
     brand: "Cavalier Genève",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -32924,6 +33461,7 @@ const CIGARS = [
   {
     id: "cavalier-geneve-white-ii-toro",
     name: "Cavalier Genève White II Toro",
+    image: "http://images.neptunecigar.com/avimg/40707.jpg",
     brand: "Cavalier Genève",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -32948,6 +33486,7 @@ const CIGARS = [
   {
     id: "cavalier-geneve-black-ii-churchill",
     name: "Cavalier Genève Black II Churchill",
+    image: "http://images.neptunecigar.com/avimg/40703.jpg",
     brand: "Cavalier Genève",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -32972,6 +33511,7 @@ const CIGARS = [
   {
     id: "room-101-big-stick-toro",
     name: "Room 101 Big Stick Toro",
+    image: "http://images.neptunecigar.com/avimg/41472.jpg",
     brand: "Room 101",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -33020,6 +33560,7 @@ const CIGARS = [
   {
     id: "alec-bradley-prensado-robusto",
     name: "Alec Bradley Prensado Robusto",
+    image: "http://images.neptunecigar.com/avimg/33932.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -33068,6 +33609,7 @@ const CIGARS = [
   {
     id: "black-works-studio-rorschach-short-robusto",
     name: "Black Works Studio Rorschach Short Robusto",
+    image: "http://images.neptunecigar.com/avimg/38932.jpg",
     brand: "Black Works Studio",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -33092,6 +33634,7 @@ const CIGARS = [
   {
     id: "espinosa-601-la-bomba-toro",
     name: "Espinosa 601 La Bomba Toro",
+    image: "http://images.neptunecigar.com/avimg/34367.jpg",
     brand: "Espinosa Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -33116,6 +33659,7 @@ const CIGARS = [
   {
     id: "cavalier-geneve-black-series-robusto",
     name: "Cavalier Genève Black Series Robusto",
+    image: "http://images.neptunecigar.com/avimg/40703.jpg",
     brand: "Cavalier Genève",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -33236,6 +33780,7 @@ const CIGARS = [
   {
     id: "tatuaje-unicos-no1",
     name: "Tatuaje Unicos No. 1",
+    image: "http://images.neptunecigar.com/avimg/33541.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -33260,6 +33805,7 @@ const CIGARS = [
   {
     id: "tatuaje-fausto-short-robusto",
     name: "Tatuaje Fausto Short Robusto",
+    image: "http://images.neptunecigar.com/avimg/33787.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -33284,6 +33830,7 @@ const CIGARS = [
   {
     id: "tatuaje-fausto-toro",
     name: "Tatuaje Fausto Toro",
+    image: "http://images.neptunecigar.com/avimg/33787.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -33332,6 +33879,7 @@ const CIGARS = [
   {
     id: "tatuaje-tattoo-maduro-robusto",
     name: "Tatuaje Tattoo Maduro Robusto",
+    image: "http://images.neptunecigar.com/avimg/39797.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -33356,6 +33904,7 @@ const CIGARS = [
   {
     id: "tatuaje-xl-robusto",
     name: "Tatuaje XL Robusto",
+    image: "http://images.neptunecigar.com/avimg/44189.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -33380,6 +33929,7 @@ const CIGARS = [
   {
     id: "kristoff-gc-corojo-robusto",
     name: "Kristoff GC Corojo Robusto",
+    image: "http://images.neptunecigar.com/avimg/34372.jpg",
     brand: "Kristoff",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -33404,6 +33954,7 @@ const CIGARS = [
   {
     id: "kristoff-ligero-habano-toro",
     name: "Kristoff Ligero Habano Toro",
+    image: "http://images.neptunecigar.com/avimg/40085.jpg",
     brand: "Kristoff",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -33428,6 +33979,7 @@ const CIGARS = [
   {
     id: "kristoff-shade-grown-toro",
     name: "Kristoff Shade Grown Toro",
+    image: "http://images.neptunecigar.com/avimg/41645.jpg",
     brand: "Kristoff",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -33452,6 +34004,7 @@ const CIGARS = [
   {
     id: "kristoff-original-corojo-robusto",
     name: "Kristoff Original Corojo Robusto",
+    image: "http://images.neptunecigar.com/avimg/34204.jpg",
     brand: "Kristoff",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -33500,6 +34053,7 @@ const CIGARS = [
   {
     id: "kristoff-pistoff-kristoff-toro",
     name: "Kristoff Pistoff Kristoff Toro",
+    image: "http://images.neptunecigar.com/avimg/38996.jpg",
     brand: "Kristoff",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -33692,6 +34246,7 @@ const CIGARS = [
   {
     id: "hvc-serie-b-robusto",
     name: "HVC Serie B Robusto",
+    image: "http://images.neptunecigar.com/avimg/41348.jpg",
     brand: "HVC",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -33716,6 +34271,7 @@ const CIGARS = [
   {
     id: "hvc-black-friday-toro",
     name: "HVC Black Friday Toro",
+    image: "http://images.neptunecigar.com/avimg/40251.jpg",
     brand: "HVC",
     origin: "Nicaragua",
     region: "Estelí",
@@ -33740,6 +34296,7 @@ const CIGARS = [
   {
     id: "hvc-san-isidro-robusto",
     name: "HVC San Isidro Robusto",
+    image: "http://images.neptunecigar.com/avimg/39980.jpg",
     brand: "HVC",
     origin: "Nicaragua",
     region: "Estelí",
@@ -33764,6 +34321,7 @@ const CIGARS = [
   {
     id: "hvc-500-anos-robusto",
     name: "HVC 500 Años Robusto",
+    image: "http://images.neptunecigar.com/avimg/41682.jpg",
     brand: "HVC",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -33788,6 +34346,7 @@ const CIGARS = [
   {
     id: "ferio-tego-timeless-sterling-toro",
     name: "Ferio Tego Timeless Sterling Toro",
+    image: "http://images.neptunecigar.com/avimg/42733.jpg",
     brand: "Ferio Tego",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -33812,6 +34371,7 @@ const CIGARS = [
   {
     id: "ferio-tego-generosidad-robusto",
     name: "Ferio Tego Generosidad Robusto",
+    image: "http://images.neptunecigar.com/avimg/42735.jpg",
     brand: "Ferio Tego",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -33836,6 +34396,7 @@ const CIGARS = [
   {
     id: "ferio-tego-affinity-toro",
     name: "Ferio Tego Affinity Toro",
+    image: "http://images.neptunecigar.com/avimg/42735.jpg",
     brand: "Ferio Tego",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -34172,6 +34733,7 @@ const CIGARS = [
   {
     id: "ace-prime-esteban-carreras-chupacabra",
     name: "Esteban Carreras Chupacabra",
+    image: "http://images.neptunecigar.com/avimg/38323.jpg",
     brand: "ACE Prime",
     origin: "Nicaragua",
     region: "Estelí",
@@ -34196,6 +34758,7 @@ const CIGARS = [
   {
     id: "ace-prime-esteban-carreras-red-robusto",
     name: "Esteban Carreras Red Robusto",
+    image: "http://images.neptunecigar.com/avimg/38323.jpg",
     brand: "ACE Prime",
     origin: "Nicaragua",
     region: "Estelí",
@@ -34388,6 +34951,7 @@ const CIGARS = [
   {
     id: "tatuaje-verocu-no4",
     name: "Tatuaje Verocu No. 4",
+    image: "http://images.neptunecigar.com/avimg/42493.jpg",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -34436,6 +35000,7 @@ const CIGARS = [
   {
     id: "hvc-cerro-natural-robusto",
     name: "HVC Cerro Natural Robusto",
+    image: "http://images.neptunecigar.com/avimg/39983.jpg",
     brand: "HVC",
     origin: "Nicaragua",
     region: "Jalapa",
