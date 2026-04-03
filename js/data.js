@@ -338,7 +338,7 @@ const CIGARS = [
     description: "An outstanding value cigar — silky Connecticut wrapper over Nicaraguan tobaccos aged eight years. The contrast between the mild, creamy wrapper and the well-aged Nicaraguan filler creates a smooth, approachable smoke that punches well above its price point. Ideal for daytime smoking.",
     pairings: ["Champagne", "Coffee with Cream", "White Rum"],
     yearFounded: 1992,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/perdomo-champagne-magnum-tubo-cigars-natural-single","price":null}],
   },
   {
@@ -363,7 +363,7 @@ const CIGARS = [
     description: "Joya de Nicaragua is the oldest premium cigar factory in Nicaragua, and the Antaño 1970 revives the ultra-full-bodied blends of the pre-revolution era. A pepper bomb with relentless strength from start to finish. The Corojo wrapper delivers massive spice — not for the mild-cigar smoker.",
     pairings: ["Dark Rum", "Peated Scotch", "Black Coffee"],
     yearFounded: 1968,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/joya-de-nicaragua-antano-1970-gran-reserva-belicoso-cigars-dark-natural-single","price":null}],
   },
   {
@@ -538,7 +538,7 @@ const CIGARS = [
     description: "The best-selling premium cigar in the United States for decades. The Macanudo Café is the definition of mild, smooth, and approachable — often recommended as the perfect first cigar. Connecticut Shade wrapper delivers a buttery creaminess with virtually no harshness. An institution in the cigar world.",
     pairings: ["Mild Coffee", "White Wine", "Ginger Ale"],
     yearFounded: 1868,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/macanudo-cafe-ascot-10-cigars-natural-tin-of-10","price":null}],
   },
   {
@@ -613,7 +613,7 @@ const CIGARS = [
     description: "Not to be confused with the Cuban original, the Dominican Romeo y Julieta 1875 is an approachable, affordable classic. The Connecticut wrapper produces a mild, creamy smoke — excellent for beginners or for when you want something smooth and easygoing. Widely available and consistently reliable.",
     pairings: ["Coffee", "Light Beer", "Soda Water"],
     yearFounded: 1875,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -688,7 +688,7 @@ const CIGARS = [
     description: "A puro (all leaves from one country) Nicaraguan expression from the historically Honduran Punch brand. The Gran Puro Nicaragua showcases Estelí's terroir in its purest form — earthy, peppery, and complex. A serious smoke at a very fair price.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -713,7 +713,7 @@ const CIGARS = [
     description: "For those who want a long, leisurely mild smoke, the Perdomo Champagne is a standout value. The Ecuadorian Connecticut wrapper is silky and mild, while the Nicaraguan interior adds just enough depth. Perfect for a relaxed afternoon when you're not looking for intensity.",
     pairings: ["Champagne", "Iced Coffee", "Light Lager"],
     yearFounded: 1995,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/perdomo-champagne-magnum-tubo-cigars-natural-single","price":null}],
   },
   {
@@ -763,7 +763,7 @@ const CIGARS = [
     description: "The Brazilian Arapiraca Maduro wrapper on the CAO MX2 is one of the most distinctive in the maduro world — thick, oily, and black with naturally occurring sweetness. Dark chocolate and coffee dominate from start to finish, backed by Jamastran earthiness. An outstanding maduro value.",
     pairings: ["Dark Rum", "Port", "Espresso"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -788,7 +788,7 @@ const CIGARS = [
     description: "Named after Nicaragua's most beloved folk tale, El Güegüense (The Whistler) is Foundation's masterpiece. Honduran Corojo Maduro wrapper provides natural sweetness and complexity, while the Nicaraguan core delivers body and depth. One of the most complete maduro expressions at any price. Cigar of the Year 2015.",
     pairings: ["Bourbon", "Dark Beer", "Café de Olla"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/foundation-the-wise-man-maduro-lancero-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -863,7 +863,7 @@ const CIGARS = [
     description: "Crowned Heads is Nashville's answer to boutique cigar blending — creative, passionate, and uncompromising. Jericho Hill is a powerhouse with Connecticut Broadleaf maduro wrapper delivering rich dark chocolate and earth notes over a full-bodied Nicaraguan core. Each blend in their lineup is named after a Johnny Cash song.",
     pairings: ["Tennessee Whiskey", "Stout Beer", "Dark Coffee"],
     yearFounded: 2011,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/jericho-hill-jack-brown-cigars-maduro-single","price":null}],
   },
   {
@@ -888,7 +888,7 @@ const CIGARS = [
     description: "Dion Giolito's Illusione brand is a cult favorite among aficionados who value nuance over power. The ~epernay~ (named after France's Champagne capital) is a beautifully elegant mild-to-medium smoke — creamy, floral, and honeyed. Exceptional construction from My Father's factory in Estelí.",
     pairings: ["Champagne", "Chardonnay", "Crème Brûlée"],
     yearFounded: 2009,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/illusione-epernay-lalpinste-bench-pressed-torpedo-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -988,7 +988,7 @@ const CIGARS = [
     description: "The Añejo was created when Carlos Fuente Jr. found a supply of vintage Connecticut Broadleaf maduro wrapper aged in cognac barrels. The cognac barrel aging adds a subtle sweetness and complexity that's utterly unique. The No. 77 Shark shape is one of the most distinctive in cigar production. Notoriously limited and coveted.",
     pairings: ["Cognac", "Port", "Dark Chocolate"],
     yearFounded: 1996,
-    limited: true
+    limited: true,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/arturo-fuente-holiday-collection-xtra-special-cigars-varies-sampler-of-10","price":null}],
   },
   {
@@ -1113,7 +1113,7 @@ const CIGARS = [
     description: "The name says it all — toasted bread, nuts, and cream dominate this medium-bodied Honduran beauty. The Magic Toast is a remarkably unique flavor profile in a world of pepper and earth — clean, light, and utterly distinctive. An unexpected gem from Alec Bradley that has earned a devoted cult following.",
     pairings: ["Light Beer", "Coffee", "Croissant"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/alec-bradley-magic-toast-chunk-5pk-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -1235,7 +1235,7 @@ const CIGARS = [
     description: "The Imperial is Padrón's most commanding stick — a massive 9-inch smoke that requires a genuine commitment of two hours. The large ring gauge ensures a cool, slow burn, and the extended smoking time allows the Nicaraguan tobacco to transition through multiple distinct flavor stages. For serious aficionados only.",
     pairings: ["Single Malt Scotch", "Aged Rum", "Strong Coffee"],
     yearFounded: 1994,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/padron-1964-anniversary-natural-imperial-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -1382,7 +1382,7 @@ const CIGARS = [
     description: "Not to be confused with the Cuban Cohiba — General Cigar's Cohiba Blue is a separate brand using the name under US trademark. A quality mild-to-medium Dominican stick with good construction and an accessible price point. The blue band gives it a distinctive look in the humidor.",
     pairings: ["Coffee", "Light Whiskey", "Beer"],
     yearFounded: 1978,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cohiba-blue-pequenos-6-cigars-natural-tin-of-6","price":null}],
   },
   {
@@ -1431,7 +1431,7 @@ const CIGARS = [
     description: "A rare Guatemalan puro — all tobacco from Guatemala's high-altitude Jalapa-Coban growing region. Guatemalan tobacco has a distinctive mineral, earthy quality shaped by the volcanic highlands. The Guatemala Robusto is medium-bodied and one of the few true expressions of Guatemalan tobacco terroir.",
     pairings: ["Coffee", "Rum", "Light Whiskey"],
     yearFounded: 2009,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cao-gold-robusto-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -1456,7 +1456,7 @@ const CIGARS = [
     description: "La Gloria Cubana's Serie R is their bold-and-beefy line — the large ring gauge cigars that deliver massive smoke output and complex flavor. The No. 5 is their sweet spot: full-bodied Nicaraguan tobacco under an oily Ecuadorian Sun Grown wrapper. An excellent value for the power smoker.",
     pairings: ["Bourbon", "Dark Beer", "Black Coffee"],
     yearFounded: 1968,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-gloria-cubana-serie-r-no-4-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -1554,7 +1554,7 @@ const CIGARS = [
     description: "Macanudo's bold departure from their signature mild style — the Inspirado Orange uses a peppery Ecuadorian Habano wrapper to deliver a medium-to-full-bodied smoke that would surprise anyone familiar with the brand. An excellent transition cigar for Macanudo fans ready to explore more complex territory.",
     pairings: ["Bourbon", "Dark Beer", "Coffee"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/macanudo-inspirado-orange-minis-20-cigars-natural-tin-of-20","price":null}],
   },
   {
@@ -1722,7 +1722,7 @@ const CIGARS = [
     description: "The Nub concept is radical: the best part of any cigar is the final third where flavors concentrate, so why not start there? At just 3.75 inches with a 60 ring gauge, the Nub delivers the complexity of a full-sized cigar in 30 minutes. The Café Maduro edition adds coffee-infused tobaccos to the mix. An ingenious approach.",
     pairings: ["Espresso", "Dark Beer", "Bourbon"],
     yearFounded: 2008,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -1747,7 +1747,7 @@ const CIGARS = [
     description: "Ernesto Perez-Carrillo Jr. is one of the great cigar minds of the modern era — his father created the original La Gloria Cubana. La Historia is his masterpiece: a bold, complex, full-bodied blend using tobaccos from multiple countries in perfect harmony. Cigar of the Year 2015 from Cigar Aficionado.",
     pairings: ["Bourbon", "Aged Rum", "Dark Coffee"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/e-p-carrillo-endure-toro-cigars-dark-natural-pack-of-5","price":null}],
   },
   {
@@ -2519,7 +2519,7 @@ const CIGARS = [
     description: "Ashton's most limited annual release — produced in small quantities each year with a different wrapper leaf from the Fuente estate's experimental crops. The Small Batch is a collector's item: a technically adventurous cigar that pushes Ashton's blending team beyond their usual mild comfort zone into genuinely bold territory.",
     pairings: ["Single Malt Scotch", "Aged Bourbon", "Dark Rum"],
     yearFounded: 2013,
-    limited: true
+    limited: true,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/nestor-miranda-small-batch-toro-cigars-natural-single","price":null}],
   },
   {
@@ -2741,7 +2741,7 @@ const CIGARS = [
     description: "The Puro d'Oro ('Pure Gold') is Davidoff's most prestigious Dominican puro — every leaf grown and processed in the Dominican Republic. The rare Dominican shade-grown wrapper is the centerpiece: extraordinary delicacy, honey-like sweetness, and a pearlescent appearance. One of the finest mild cigars made anywhere in the world.",
     pairings: ["Champagne", "Sauternes", "Café Crème"],
     yearFounded: 2014,
-    limited: true
+    limited: true,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/davidoff-6-figurado-collection-cigars-varies-sampler-of-6","price":null}],
   },
   {
@@ -2915,7 +2915,7 @@ const CIGARS = [
     description: "Named after the Latin word for time, the Tempus uses a rare dark, oily Honduran Criollo '98 wrapper on both wrapper and binder — a unique tobacco-forward approach. Deeply woody and earthy with a slow, even burn. The result is a cigar that rewards patience, evolving from initial earthiness into a complex cedar and leather finish.",
     pairings: ["Rye Whiskey", "Dark Coffee", "Amber Ale"],
     yearFounded: 2007,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/alec-bradley-tempus-toro-5-pk-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -2940,7 +2940,7 @@ const CIGARS = [
     description: "A maduro lover's dream — both wrapper and binder are broadleaf leaves, creating a double dose of dark sweetness around the Honduran core. The proprietary Connecticut-seed Honduran broadleaf wrapper is Alec Bradley's most ambitious leaf experiment: sweet, dark, and oily with a complexity that rivals any single-country maduro.",
     pairings: ["Port", "Bourbon", "Dark Espresso"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/alec-bradley-double-broadleaf-robusto-cigars-maduro-single","price":null}],
   },
   {
@@ -3315,7 +3315,7 @@ const CIGARS = [
     description: "A collaboration with AJ Fernandez that shook the Romeo brand out of its mild comfort zone — this is a full Nicaraguan puro with genuine body and complexity. Rated 93 by Cigar Aficionado, it was named #9 Cigar of the Year 2022. The familiar Romeo band on a genuinely powerful smoke surprised critics and consumers alike.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2020,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -3340,7 +3340,7 @@ const CIGARS = [
     description: "A rare Nicaraguan puro from La Gloria Cubana — entirely from sun-grown Jalapa wrapper to Estelí filler. The sun-grown Jalapa wrapper imparts a distinctive nuttiness and floral note that sets it apart from typical Estelí smokes. Rated 93, this is the Serie R Estelí's most defining quality: Nicaraguan tobacco's elegance, not just its power.",
     pairings: ["Rum", "Coffee", "Pale Ale"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-gloria-cubana-serie-r-esteli-no-fifty-two-cigars-dark-natural-single","price":null}],
   },
   {
@@ -3689,7 +3689,7 @@ const CIGARS = [
     description: "The world's first all-maduro cigar — wrapper, binder, and filler are all maduro leaves from three different countries. The Mexican San Andrés wrapper, Dominican binder, and Brazilian filler each contribute different dimensions of maduro sweetness and complexity. The result is a layered dark chocolate and caramel experience unlike any single-country maduro.",
     pairings: ["Port", "Bourbon", "Dark Espresso"],
     yearFounded: 2005,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/camacho-triple-maduro-gordo-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -3714,7 +3714,7 @@ const CIGARS = [
     description: "The mildest cigar in Camacho's predominantly bold lineup — the Connecticut uses an Ecuadorian Connecticut wrapper to deliver a smooth, creamy smoke that belies the brand's reputation for power. An Ecuadorian Connecticut over Honduran tobacco creates an unusual, slightly earthy mild smoke — 'Camacho mild' still has more character than most brands' mild cigars.",
     pairings: ["Coffee with Cream", "White Wine", "Light Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/camacho-scorpion-fumas-connecticut-5x50-cigars-natural-bundle-of-16","price":null}],
   },
   {
@@ -3763,7 +3763,7 @@ const CIGARS = [
     description: "Named after the French term for small-batch, garage-style artisan winemakers, the Garagiste is Illusione's tribute to handcraft. Made at Raíces Cubanas factory in Honduras, it bridges the gap between Illusione's Nicaraguan and Honduran expressions. A medium-bodied cigar of careful balance — earthy and cedary with a clean finish.",
     pairings: ["Burgundy Wine", "Coffee", "Light Cognac"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/illusione-garagiste-gordo-cigars-natural-box-of-20","price":null}],
   },
   {
@@ -4037,7 +4037,7 @@ const CIGARS = [
     description: "Carrillo's entry into the mild-to-medium category — but true to his style, the New Wave Connecticut is bolder than most Connecticut-wrapped cigars. The Ecuadorian Connecticut wrapper delivers its usual cream and vanilla, while the Nicaraguan and Dominican filler adds unusual leather and toasted wood complexity. A mild cigar for people who get bored with mild cigars.",
     pairings: ["Coffee with Cream", "Brandy", "Light Beer"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/ep-carrillo-new-wave-connecticut-el-decano-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -4162,7 +4162,7 @@ const CIGARS = [
     description: "Willy Herrera's most adventurous blend — a Brazilian Mata Fina wrapper over a Connecticut Broadleaf binder and Nicaraguan filler. The Mata Fina wrapper is rare in premium cigars, delivering an unusually silky, sweet-and-earthy character with a distinctive barnyard note. This is Herrera Estelí for the connoisseur who wants something completely unique.",
     pairings: ["Aged Rum", "Bourbon", "Dark Coffee"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/herrera-esteli-brazilian-maduro-toro-especial-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -4285,7 +4285,7 @@ const CIGARS = [
     description: "The Seriocomica ('serious-comedic' in Spanish) captures the playful paradox at the heart of Dunbarton — a serious blend with an irreverent spirit. A Jalapa Nicaraguan Habano wrapper delivers the sweetness and complexity Steve Saka prizes, over a full-bodied multi-region Nicaraguan core. Medium-to-full with a long, warming finish.",
     pairings: ["Bourbon", "Dark Coffee", "Dark Beer"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/dunbarton-mi-querida-gorila-gordo-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -4606,7 +4606,7 @@ const CIGARS = [
     description: "The Bandido Natural is a straightforward Dominican cigarillo — a quick, honest 15-minute smoke with an Indonesian Java wrapper that delivers mild earthiness and cedar without pretension. Machine-bunched with Dominican filler, these are the grab-and-go option for the cigar smoker who needs something small, quick, and satisfying between full-size cigars.",
     pairings: ["Black Coffee", "Light Beer", "Rum and Coke"],
     yearFounded: 1995,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/garcia-y-vega-natural-brown-cigarillo-152-cigars-natural-upright-of-30","price":null}],
   },
   {
@@ -4775,7 +4775,7 @@ const CIGARS = [
     description: "Puro Atlántico is AJ Fernandez's fullest expression — an all-Nicaraguan powerhouse using tobaccos from three distinct Nicaraguan growing regions for extraordinary depth. The Condega adds woody earthiness, Jalapa brings sweetness, and Estelí delivers the strength and pepper that define this blend. Not for the faint-hearted — this is a cigar for experienced full-strength smokers seeking the absolute pinnacle of Nicaraguan tobacco.",
     pairings: ["Peated Scotch", "Añejo Rum", "Black Espresso", "Mezcal"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/aj-fernandez-new-world-puro-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -4850,7 +4850,7 @@ const CIGARS = [
     description: "The Coronado is La Flor Dominicana's medium-bodied flagship — a more approachable entry point into the LFD catalog than the powerhouse Double Ligero. Dominican through and through, the Coronado delivers classic cedar, cream, and leather with gentle pepper on the finish. Excellent construction, even burn, and an ideal daily smoke for the medium-strength enthusiast.",
     pairings: ["Coffee", "Cognac", "Rum", "Iced Tea"],
     yearFounded: 1994,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-coronado-corona-especial-cigars-dark-natural-single","price":null}],
   },
   {
@@ -5350,7 +5350,7 @@ const CIGARS = [
     description: "The 601 Blue Label is the Ecuadorian Habano-wrapped complement to the 601 line's various expressions. Medium-bodied and versatile, it's one of Espinosa's best everyday offerings — well-constructed, consistent, and priced for daily enjoyment. Cedar and cinnamon dominate the first third, transitioning to leather and cocoa through a clean, dry finish. A solid boutique value cigar.",
     pairings: ["Coffee", "Bourbon", "Beer", "Rum"],
     yearFounded: 2008,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/601-blue-label-robusto-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -5544,7 +5544,7 @@ const CIGARS = [
     description: "Swisher Sweets is the best-selling cigarillo in the United States — a ubiquitous machine-made smoke found at every gas station and convenience store across the country. The homogenized tobacco wrapper is machine-manufactured and sweetened, producing the brand's signature candy-like sweetness. Not a premium cigar experience by any measure, but a cultural staple and the gateway for millions of people to the broader world of cigars.",
     pairings: ["Soda", "Beer", "Sweet Tea", "Energy Drink"],
     yearFounded: 1958,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/swisher-sweets-little-cigars-regular-1020-cigars-natural-carton-of-200","price":null}],
   },
   {
@@ -5569,7 +5569,7 @@ const CIGARS = [
     description: "Black & Mild Wine is one of the most popular flavored cigarillos in America — a pipe tobacco-filled cigarillo with a wine-flavored tip that delivers a distinctly sweet, grape-wine aroma and flavor. Made by Middleton & Co. (now Altria), it occupies a unique space between traditional cigars and pipe smoking. The wine flavor is unmistakable and has made this one of the defining products of the flavored cigarillo category.",
     pairings: ["Red Wine", "Grape Juice", "Sweet Soda", "Berry Cocktails"],
     yearFounded: 1982,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/black-mild-by-middleton-wine-wood-tip-105-cigars-natural-pack-of-50","price":null}],
   },
   {
@@ -5594,7 +5594,7 @@ const CIGARS = [
     description: "Dutch Masters Corona is one of America's oldest and most recognized mass-market cigar brands — named after the Dutch Golden Age master Rembrandt and featuring his famous 'The Syndics' painting on the box. A machine-made corona using homogenized tobacco construction, Dutch Masters delivers a mild, accessible smoke at an extremely affordable price. A staple of convenience stores and corner shops for over a century.",
     pairings: ["Coffee", "Beer", "Soda", "Tea"],
     yearFounded: 1911,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/dutch-masters-corona-honey-sports-54-cigars-claro-upright-of-20","price":null}],
   },
   {
@@ -5619,7 +5619,7 @@ const CIGARS = [
     description: "Garcia y Vega is General Cigar's mass-market brand — one of the classic American machine-made coronas that has been available since the mid-20th century. The English Corona is a slightly longer, more traditional shape than cigarillos, offering a 20-minute mild smoke with simple tobacco character. An accessible entry point for new smokers who want a traditional corona format without premium pricing.",
     pairings: ["Coffee", "Beer", "Iced Tea", "Soda"],
     yearFounded: 1882,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/garcia-y-vega-english-corona-tubes-cigars-natural-box-of-30","price":null}],
   },
   {
@@ -5643,7 +5643,7 @@ const CIGARS = [
     description: "El Gigante is exactly what it claims to be — one of the largest production cigars in the world at 9 inches by 60 ring gauge. Gran Habano, the Honduran brand co-founded by George Rico, produces this novelty XXL cigar as a genuine two-hour-plus smoke. The Connecticut Broadleaf wrapper keeps the profile mild despite the massive size, with cream, cedar, and vanilla throughout. An event cigar or a conversation piece as much as a smoke.",
     pairings: ["Bourbon", "Rum", "Coffee", "Beer"],
     yearFounded: 1995,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/odyssey-sweet-tip-gigante-cigars-natural-bundle-of-10","price":null}],
   },
   {
@@ -5668,7 +5668,7 @@ const CIGARS = [
     description: "Nat Sherman's Timeless Prestige is the flagship of what was once New York City's most famous tobacconist. The Ecuadorian Sumatra wrapper brings the signature cocoa and cream notes that define the Timeless line, while Dominican and Nicaraguan filler provide the backbone. After Nat Sherman's retail locations closed, the brand continues under General Cigar, maintaining the Timeless Prestige as one of the finest accessible medium-bodied cigars in production.",
     pairings: ["Cognac", "Scotch Whisky", "Espresso", "Aged Rum"],
     yearFounded: 1930,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/ferio-tego-timeless-prestige-churchill-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -5893,7 +5893,7 @@ const CIGARS = [
     description: "Named for the millennium, the Hamlet 2000 is Rocky Patel's Honduran Habano-wrapped robusto — a classic expression of Jamastran Valley terroir. Cedar, earth, and mild pepper define the profile, with the Honduran Habano wrapper adding a subtle sweetness that distinguishes it from more aggressive Nicaraguan blends. A consistently enjoyable medium-bodied smoke with reliable construction.",
     pairings: ["Coffee", "Bourbon", "Rum", "Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/famous-dominican-2000-gordo-habano-cigars-natural-bundle-of-20","price":null}],
   },
   {
@@ -5942,7 +5942,7 @@ const CIGARS = [
     description: "Perdomo's Habano Gold is the spicier counterpart to the Reserve Champagne — a Nicaraguan Habano wrapper over the same quality Estelí and Jalapa core. Red pepper and cedar come forward immediately, with the characteristic Habano spice building through the middle third. Nick Perdomo's aged-tobacco approach means there's none of the harshness common to less carefully produced Habano cigars. An outstanding value in the medium-strength Nicaraguan category.",
     pairings: ["Bourbon", "Dark Rum", "Coffee", "Beer"],
     yearFounded: 1992,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/hoyo-la-amistad-gold-robusto-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -6117,7 +6117,7 @@ const CIGARS = [
     description: "CAO Nicaragua is a three-region Nicaraguan blend — Estelí, Jalapa, and Ometepe each contributing distinct character under an Ecuadorian Habano wrapper. Estelí brings the strength and pepper, Jalapa adds sweetness and cinnamon, and Ometepe contributes volcanic earthiness. The result is one of CAO's most nuanced Nicaraguan offerings — a medium-full toro with real complexity and outstanding value for the price.",
     pairings: ["Bourbon", "Dark Rum", "Espresso", "Beer"],
     yearFounded: 1968,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cao-nicaragua-tipitapa-cigars-natural-single","price":null}],
   },
   {
@@ -6142,7 +6142,7 @@ const CIGARS = [
     description: "CAO Amazonia is one of the cigar world's most geographically adventurous blends — combining Brazilian Bragança wrapper with Peruvian binder and a Nicaraguan/Dominican/Peruvian filler. The Brazilian Bragança wrapper is rarely seen in premium cigars and delivers unique cocoa and dark fruit notes distinct from any Central American leaf. A medium-bodied explorer's cigar that rewards the smoker willing to go off the beaten path.",
     pairings: ["Cognac", "Port Wine", "Rum", "Dark Coffee"],
     yearFounded: 1968,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cao-brazilia-amazon-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -6191,7 +6191,7 @@ const CIGARS = [
     description: "The cornerstone of Casdagli Cigars — a Dominican Cotui-wrapped robusto that showcases the natural honey sweetness of the Cotui Valley leaf. Blended by Hendrik Kelner Jr. at the Kelner Boutique Factory, the Traditional combines Dominican, Nicaraguan, and USA filler for a medium-bodied, approachable profile that rewards slow smoking. Honey sweetness, gentle cedar spice, and a long, clean finish. Rated 93 pts by Blind Man's Puff.",
     pairings: ["Earl Grey Tea", "Champagne", "Light Rum", "Cognac"],
     yearFounded: 1997,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/quorum-classic-robusto-cigars-natural-bundle-of-20","price":null}],
   },
   {
@@ -6307,7 +6307,7 @@ const CIGARS = [
     description: "The Cabinet Selection is Casdagli's coffee-pairing line — small-format cigars designed to complement an espresso or filter coffee. The Rosetta is a tiny pyramide with a Dominican Cotui wrapper and the same extraordinary 11-year aged Bonao binder used in the Basilica A. Despite its modest price, it delivers milk chocolate, cream, and vanilla in a 25-minute smoke that's ideal as a post-breakfast or mid-afternoon cigar. Packaged in cedar boxes of 25.",
     pairings: ["Espresso", "Cappuccino", "Earl Grey Tea", "Cortado"],
     yearFounded: 1997,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/ashton-cabinet-selection-no-10-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -16818,7 +16818,7 @@ const CIGARS = [
     description: "Part of Illusione's flagship Epernay line — created to complement champagne — Le Taureau is a wider-ring expression of Dion Giolito's Café Rosado Corojo Nicaraguan puro. Mild-to-medium body, floral sweetness, white pepper on the retrohale, and a creamy cedar finish make it a benchmark boutique smoke.",
     pairings: ["Champagne", "Prosecco", "Light White Wine"],
     yearFounded: 2009,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/illusione-epernay-le-taureau-bench-pressed-cigars-rosado-pack-of-5","price":null}],
   },
   {
@@ -16842,7 +16842,7 @@ const CIGARS = [
     description: "A box-pressed morning vitola in the Epernay series, Le Matin offers Illusione's signature Café Rosado Corojo wrapper in an elongated, elegant format. Mild-to-medium bodied, it opens with floral sweetness and transitions to cedar, cream, and a clean pepper finish — perfectly suited for a champagne pairing at any hour.",
     pairings: ["Champagne", "Cold Brew Coffee", "Earl Grey Tea"],
     yearFounded: 2009,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/illusione-epernay-le-elegance-petit-lancero-cigars-rosado-pack-of-5","price":null}],
   },
   {
@@ -16866,7 +16866,7 @@ const CIGARS = [
     description: "A short, punchy petite robusto wrapped in a dark Mexican San Andrés leaf. The Rothchildes opens with a black pepper blast that quickly gives way to sweet natural tobacco with black cherry, chocolate, and cinnamon notes. An accessible yet nuanced small-format smoke at a remarkable price, packaged in cabinets of 50.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/illusione-rothchildes-connecticut-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -16890,7 +16890,7 @@ const CIGARS = [
     description: "Originally commissioned for the European Cigar Cult Journal, this AAA-grade Café Rosado Corojo Nicaraguan puro uses low-priming tobaccos for a delicate, nuanced complexity rarely found at this price. Medium-to-medium-full body with natural sweetness, woodsy spice, and a clean finish.",
     pairings: ["Champagne", "White Burgundy", "Green Tea"],
     yearFounded: 2008,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/illusione-epernay-le-grande-corona-gorda-cigars-rosado-pack-of-5","price":null}],
   },
   {
@@ -16914,7 +16914,7 @@ const CIGARS = [
     description: "Distilling years of Dion Giolito's annual limited Singularé experiments into a full regular-production line, the Origen uses the same AAA Café Rosado Corojo wrapper to deliver cocoa, dark fruit, and cedar complexity in a medium-full profile. Rated 94 points and packaged in boxes of 15.",
     pairings: ["Champagne", "Aged Rum", "Dark Chocolate"],
     yearFounded: 2023,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/illusione-original-documents-maduro-robusto-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -16938,7 +16938,7 @@ const CIGARS = [
     description: "Double-fermented Habano Oscuro wrapper, Cuban-seed Nicaraguan filler — Kudzu is Southern Draw's dark, complex, and inviting medium-to-full profile. Cedar, coffee, and cocoa notes with a touch of sweetness make it an accessible full-flavor smoke and a beloved pairing with craft beers and boutique wines. Rated 93.",
     pairings: ["Craft IPA", "Bourbon", "Dark Roast Coffee"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/southern-draw-kudzu-toro-cigars-oscuro-box-of-20","price":null}],
   },
   {
@@ -16962,7 +16962,7 @@ const CIGARS = [
     description: "Named for owner Robert Holt's wife, Rose of Sharon is the mildest cigar in Southern Draw's portfolio. A silky Ecuadorian Connecticut wrapper envelops Dominican and Nicaraguan tobaccos, delivering creamy cedar and honey notes with mild-to-medium body. Excellent construction, complex enough for veterans seeking something more refined.",
     pairings: ["Champagne", "Light Lager", "Green Tea"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -16986,7 +16986,7 @@ const CIGARS = [
     description: "Cedrus showcases an exotic Indonesian Sumatra Besuki TBN wrapper over a complex multi-nation tobacco core. A full-strength cigar with cedar, black walnut, and red pepper at its core, charred wood complexity deepens through the final third. Made at AJ Fernandez's factory; each vitola name pays homage to cedar trees.",
     pairings: ["Scotch Whisky", "Dark Rum", "Espresso"],
     yearFounded: 2017,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cedrus-toro-cigars-natural-box-of-20","price":null}],
   },
   {
@@ -17010,7 +17010,7 @@ const CIGARS = [
     description: "One of the most visually striking cigars on the market, the Ogre 660 features a barber-pole construction of green Candela and dark Habano Maduro wrappers. The contrasting leaves deliver a uniquely complex interplay of grassy, earthy, and buttery notes building to a bold, full-strength finish in this oversized Gordo.",
     pairings: ["Dark Beer", "Bourbon", "Cold Brew Coffee"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/asylum-13-ogre-60x6-cigars-barber-pole-pack-of-5","price":null}],
   },
   {
@@ -17218,7 +17218,7 @@ const CIGARS = [
     description: "One of the most flavor-forward value smokes in the premium category, the Toraño Exodus pairs a rugged Honduran San Agustín wrapper and Connecticut Broadleaf binder for evolving complexity. Pepper, cedar, and earthy tobacco build across the thirds in a medium-full body with impressive length of flavor at its price point.",
     pairings: ["Bourbon", "Dark Beer", "Black Coffee"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/carlos-torano-exodus-1959-50-years-robusto-cigars-maduro-single","price":null}],
   },
   {
@@ -17242,7 +17242,7 @@ const CIGARS = [
     description: "The Vault A-008 unlocks the best of the Toraño tobacco vault: a shade-grown Colorado Nicaraguan wrapper over a dual binder of Ometepe and Jamastran leaf. Earthy, nutty, and peppery complexity in a medium-to-full body at a price that consistently overdelivers versus the competition.",
     pairings: ["Scotch", "Coffee", "Amber Ale"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/carlos-torano-exodus-1959-50-years-robusto-cigars-maduro-single","price":null}],
   },
   {
@@ -17266,7 +17266,7 @@ const CIGARS = [
     description: "Casa Toraño is the everyday-accessible Toraño family blend — crafted for an uncomplicated, enjoyable smoking experience. The Ecuadorian Connecticut wrapper delivers creamy cedar and honey notes in a mild-to-medium body. Praised as a superb morning smoke that finishes cool and clean, making it an excellent daily driver.",
     pairings: ["Coffee", "Breakfast Tea", "Light Lager"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/carlos-torano-exodus-1959-50-years-robusto-cigars-maduro-single","price":null}],
   },
   {
@@ -17290,7 +17290,7 @@ const CIGARS = [
     description: "Originally released in 2006 and revived for Miami Cigar & Company's 30th anniversary, the Special Selection is a Nicaraguan puro crafted at the My Father Cigars factory in Estelí. Plum, dark chocolate, and brown sugar notes emerge from a medium-to-full body with remarkable value for the quality delivered.",
     pairings: ["Bourbon", "Espresso", "Dark Cherry Soda"],
     yearFounded: 2006,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/nestor-miranda-special-selection-connecticut-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -17314,7 +17314,7 @@ const CIGARS = [
     description: "La Palina's boldest blend, the Black Label combines a dark Brazilian Bahiano wrapper with Dominican and Nicaraguan tobaccos at the PDR factory. Earth, leather, and cocoa anchor a full-bodied profile with hints of dark fruit sweetness that rewards patient smokers. One of La Palina's most critically acclaimed releases.",
     pairings: ["Rye Whiskey", "Dark Rum", "Espresso"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/black-label-last-rites-grand-toro-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -17384,7 +17384,7 @@ const CIGARS = [
     description: "Leaf by Oscar wraps each cigar in a rustic tobacco leaf for presentation — remove it before smoking. The Maduro Toro is a Honduran puro with a dark fermented wrapper delivering earth, leather, and dark chocolate in a medium-full profile. A novel presentation that earns its keep on flavor alone.",
     pairings: ["Bourbon", "Dark Beer", "Black Coffee"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/leaf-by-oscar-toro-maduro-cigars-maduro-bundle-of-20","price":null}],
   },
   {
@@ -17408,7 +17408,7 @@ const CIGARS = [
     description: "The Corojo expression in the Leaf by Oscar line showcases a reddish Honduran Corojo wrapper beneath the brand's signature rustic-leaf presentation. Remove the outer leaf to reveal a well-constructed mild-to-medium Honduran puro with red pepper, leather, and dried fruit notes — a unique conversation piece with genuine quality.",
     pairings: ["Craft Lager", "Rum", "Iced Coffee"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/leaf-by-oscar-toro-corojo-cigars-natural-bundle-of-20","price":null}],
   },
   {
@@ -17432,7 +17432,7 @@ const CIGARS = [
     description: "The mildest entry in the Leaf by Oscar family, the Connecticut Toro wraps a light Honduran Connecticut leaf beneath the brand's rustic natural-leaf outer packaging. Cream, cedar, and toasted grain notes unfold in a smooth, mild smoke that provides a perfect introduction to the Leaf by Oscar concept.",
     pairings: ["Light Lager", "Green Tea", "Champagne"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/leaf-by-oscar-toro-connecticut-cigars-natural-bundle-of-20","price":null}],
   },
   {
@@ -17479,7 +17479,7 @@ const CIGARS = [
     description: "AVO Classic No. 2 is the definitive expression of Avo Uvezian's original vision — a silky golden Ecuadorian Connecticut sun-grown wrapper over a five-tobacco Dominican blend that includes 25-year-aged leaf. Medium-bodied with cream, cedar, and dried fruit complexity. Handmade at the Davidoff factory in the Dominican Republic.",
     pairings: ["Cognac", "Dry White Wine", "Lightly Sweetened Coffee"],
     yearFounded: 1988,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/avo-classic-no2-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -17503,7 +17503,7 @@ const CIGARS = [
     description: "AVO's first box-pressed cigar and first to use Nicaraguan Ometepe tobacco grown in volcanic black soil. The Syncro Nicaragua blends Dominican expertise with Nicaraguan spice in a medium-to-full profile of burnt honey, oak, and pepper. An accessible, complex smoke that bridges the brand's heritage with modern blending trends.",
     pairings: ["Single Malt Scotch", "Pale Ale", "Espresso"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/avo-syncro-nic-fogata-toro-cigars-natural-single","price":null}],
   },
   {
@@ -17527,7 +17527,7 @@ const CIGARS = [
     description: "AVO Heritage celebrates the brand's Dominican roots with an oily Ecuadorian sun-grown wrapper and a sophisticated blend of Dominican ligero and seco with Peruvian seco. It smokes medium in practice despite its full-flavored construction, delivering roasted nuts, caramel, and cedar in an elegant, craftsman-level experience.",
     pairings: ["Cognac", "Tawny Port", "Hazelnut Coffee"],
     yearFounded: 2017,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/avo-heritage-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -17551,7 +17551,7 @@ const CIGARS = [
     description: "The Maximus arrived in 2002 as a bolder sibling to the original Diamond Crown, wrapped in a dark oily Ecuadorian El Bajo sun-grown leaf from the Oliva family's farm. Full-flavored and richly constructed at Tabacalera A. Fuente, it delivers leather, dark chocolate, and coffee in a bold, premium package.",
     pairings: ["Aged Bourbon", "Espresso", "Tawny Port"],
     yearFounded: 2002,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/diamond-crown-maximus-4-toro-5-pack-cigars-dark-natural-pack-of-5","price":null}],
   },
   {
@@ -17575,7 +17575,7 @@ const CIGARS = [
     description: "Crafted by Eric and Bobby Newman and made at Tabacalera A. Fuente, the Black Diamond Marquise uses a silky Connecticut Havana wrapper over five-year-aged Dominican tobaccos. The medium-to-full profile offers cream, cedar, and dark fruit with a spice-forward complexity and outstanding construction in a luxurious wide-ring format.",
     pairings: ["Cognac", "Champagne", "Dark Chocolate"],
     yearFounded: 2008,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/diamond-crown-julius-caeser-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -17622,7 +17622,7 @@ const CIGARS = [
     description: "Created in 2014 to commemorate Manuel Quesada's 40 years as a cigar maker, the Q40 is a medium-bodied Dominican blend with a dark Mexican San Andrés wrapper. Aromatics and herbal notes in the first third give way to spicy licorice and rich chocolate — complex, flavorful, and extraordinary at its modest price.",
     pairings: ["Aged Rum", "Espresso", "Dark Chocolate"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/perdomo-20th-anniversary-sun-grown-corona-grande-cigars-natural-single","price":null}],
   },
   {
@@ -17646,7 +17646,7 @@ const CIGARS = [
     description: "Originally created for the Spanish market and debuted at the ProCigar festival in 2011, the Selección España became a stateside hit due to its rare Ecuadorian Arapiraca wrapper. Medium-bodied with cream, cedar, and nutmeg notes, it punches well above its weight and was rated 92 by Cigar Aficionado.",
     pairings: ["Rioja", "Dry Sherry", "Café con Leche"],
     yearFounded: 2011,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/quorum-shade-short-robusto-cigars-natural-bundle-of-20","price":null}],
   },
   {
@@ -17739,7 +17739,7 @@ const CIGARS = [
     description: "The Gran Habano Vintage 2002 Churchill is a cedar-rested Corojo wrapper cigar blended from Nicaraguan tobaccos and manufactured in Honduras. The extended cedar aging deepens the natural earthiness and coffee-bean complexity. A medium-to-full smoke that provides outstanding value and an hour and a half of unhurried pleasure.",
     pairings: ["Single Malt Scotch", "Espresso", "Aged Rum"],
     yearFounded: 2002,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gran-habano-fumas-churchill-cigars-natural-bundle-of-25","price":null}],
   },
   {
@@ -17763,7 +17763,7 @@ const CIGARS = [
     description: "The Gran Reserva No. 5 represents Gran Habano at its apex — using 2005-vintage Corojo wrappers and Habano Ligero binders from Nicaragua's Jalapa Valley, aged for years before rolling. Medium-to-full in body, it offers cedar, leather, and espresso notes with a gradual strength increase into the final third. Exceptional value under ten dollars.",
     pairings: ["Aged Rum", "Espresso", "Dark Beer"],
     yearFounded: 2010,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gran-habano-gran-reserva-5-2010-gran-robusto-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -17787,7 +17787,7 @@ const CIGARS = [
     description: "Ranked No. 4 Cigar of the Year 2023 by Cigar Dojo, the Epicure Habano is a Nicaraguan puro with a rare subtlety for the ring gauge. Bright, delicate spice on the retrohale, creamy caramel mid-palate, and floral notes make for a sophisticated mild-to-medium experience. Manufactured at the Plasencia factory in Estelí.",
     pairings: ["Champagne", "Single Malt Scotch", "Light Rum"],
     yearFounded: 2023,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/crux-epicure-habano-cgorda-5pk-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -17811,7 +17811,7 @@ const CIGARS = [
     description: "A hefty medium-strength Nicaraguan puro, the Bull & Bear Robusto Extra is a backbone blend for Crux — woodsy, chocolatey, and earthy with a gradual pepper build. Made at the Plasencia factory in Estelí, it is accessible enough for newer smokers yet complex enough to satisfy veterans looking for a reliable daily driver.",
     pairings: ["Bourbon", "Dark Beer", "Cold Brew Coffee"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/crux-bull-bear-robusto-extra-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -17835,7 +17835,7 @@ const CIGARS = [
     description: "The Crux Guild uses an Ecuadorian Habano wrapper over Nicaraguan binder and filler from the Plasencia factory in Estelí. Chocolate, cedar, and earth anchor a building medium-to-full profile, with raisin sweetness and white pepper rounding out a highly rated, approachable everyday smoke.",
     pairings: ["Craft IPA", "Bourbon", "Espresso"],
     yearFounded: 2015,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/crux-guild-toro-5pk-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -17928,7 +17928,7 @@ const CIGARS = [
     description: "The 5 Vegas Classic is the crown jewel of the 5 Vegas budget-premium lineup — rated 90 points and delivering cocoa, earth, and pepper from an Indonesian Sumatra wrapper over a multi-nation filler. The Torpedo vitola accentuates the blend's complexity and makes it one of the best-smoking sub-$5 cigars available.",
     pairings: ["Coffee", "Light Lager", "Amber Ale"],
     yearFounded: 2003,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/quorum-classic-torpedo-cigars-natural-bundle-of-20","price":null}],
   },
   {
@@ -17975,7 +17975,7 @@ const CIGARS = [
     description: "Kristoff's Ligero Maduro packs three times the normal ligero leaf for an intense, full-flavored profile beneath a dark Brazilian Maduro wrapper. The Matador's extra length accentuates the transition from pepper and leather early to rich dark chocolate and coffee in the final third. A powerful Dominican made for experienced palates.",
     pairings: ["Rye Whiskey", "Dark Rum", "Cold Brew Coffee"],
     yearFounded: 2010,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/kristoff-ligero-maduro-matador-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -17999,7 +17999,7 @@ const CIGARS = [
     description: "Kristoff's first Connecticut Shade wrapper cigar, the Shade Grown is the brand's elegant, approachable counterpart to its bold maduro lines. Heavy cream, hazelnut, and buttery notes dominate a mild-to-medium body from the Honduran shade wrapper, making it an ideal morning smoke or introduction to the brand.",
     pairings: ["Café con Leche", "Light White Wine", "Earl Grey Tea"],
     yearFounded: 2019,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/perdomo-legacy-nicaraguan-shade-grown-robusto-cigars-natural-single","price":null}],
   },
   {
@@ -18023,7 +18023,7 @@ const CIGARS = [
     description: "Sangre de Toro — 'Bull's Blood' — is a fitting name for this full-flavored Nicaraguan puro from J. Fuego. A sun-grown Corojo wrapper over Criollo binder and Corojo/Criollo filler delivers dark cherry, leather, and spice with accessible pricing that earned it a 'best bargain of the year' designation in 2012.",
     pairings: ["Zinfandel", "Bourbon", "Dark Beer"],
     yearFounded: 2009,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/nicaraguan-factory-seconds-by-fuego-toro-habano-cigars-natural-bundle-of-20","price":null}],
   },
   {
@@ -18047,7 +18047,7 @@ const CIGARS = [
     description: "The Origen is J. Fuego's boutique small-batch flagship, rated 92 by Cigar Aficionado and named one of the best cigars of its year. A Brazilian Corojo wrapper, Costa Rican Corojo binder, and multi-nation Corojo filler create a complex medium-to-full blend of leather, dark fruit, and sweet spice with exceptional construction.",
     pairings: ["Cabernet Sauvignon", "Aged Rum", "Espresso"],
     yearFounded: 2009,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/nicaraguan-factory-seconds-by-fuego-toro-habano-cigars-natural-bundle-of-20","price":null}],
   },
   {
@@ -18071,7 +18071,7 @@ const CIGARS = [
     description: "J. Fuego Heat is the brand's accessible, natural-sweetness-forward blend using a Honduran Corojo wrapper over Ecuadorian Sumatra and Nicaraguan Criollo fillers. A medium body with creamy pepper and dried fruit notes makes it an excellent everyday smoke under five dollars — remarkable quality for the price.",
     pairings: ["Coffee", "Light Rum", "Craft Lager"],
     yearFounded: 2010,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/nicaraguan-factory-seconds-by-fuego-robusto-habano-cigars-natural-bundle-of-20","price":null}],
   },
   {
@@ -18187,7 +18187,7 @@ const CIGARS = [
     description: "The Cubo Sumatra uses an Ecuadorian Sumatran Rosado leaf from Oliva Tobacco over a complex Nicaraguan and Connecticut Broadleaf filler blend. Cedar, oak, leather, vanilla cream, and dark roast coffee notes in a medium body rated 91 points make this an extremely satisfying everyday smoke at a modest price.",
     pairings: ["Café Latte", "Aged Rum", "Dry Riesling"],
     yearFounded: 2018,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/leaf-by-oscar-toro-sumatra-cigars-natural-bundle-of-20","price":null}],
   },
   {
@@ -18303,7 +18303,7 @@ const CIGARS = [
     description: "The Pichardo Reserva Familiar San Andrés is a tribute to the Pichardo family's multi-generational tobacco heritage. A Mexican San Andrés wrapper over Nicaraguan Habano binder and three-region Nicaraguan filler creates a dark, complex medium-to-full profile of chocolate, earth, and leather produced at Tabacalera Pichardo in Estelí.",
     pairings: ["Bourbon", "Mezcal", "Dark Beer"],
     yearFounded: 2020,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/nicaraguan-factory-seconds-by-fuego-toro-san-andres-cigars-maduro-single","price":null}],
   },
   {
@@ -18350,7 +18350,7 @@ const CIGARS = [
     description: "Serino's Royale Medio is a wide-ring expression of the brand's Jalapa-forward Habano claro approach, made at La Corona factory in Nicaragua. Full-flavored and complex with roasted nuts, cedar, and cream in a mild-to-medium body — a highly rated cigar that satisfies aficionados seeking Cuban-inspired subtlety in a big-ring format.",
     pairings: ["Dry White Wine", "Craft Lager", "Light Rum"],
     yearFounded: 2017,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/macanudo-cru-royale-robusto-cigars-natural-single","price":null}],
   },
   {
@@ -18374,7 +18374,7 @@ const CIGARS = [
     description: "The Royale Maduro XX deepens the Serino Royale foundation with a dark Ecuadorian Habano Oscuro wrapper over the brand's signature five-year-aged Jalapa blend. Dark chocolate, earth, and leather notes in a medium-to-full body reward those who appreciate well-balanced maduro complexity without overpowering strength.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2017,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/macanudo-cru-royale-toro-cigars-natural-single","price":null}],
   },
   {
@@ -18398,7 +18398,7 @@ const CIGARS = [
     description: "The Royale Connecticut extends Serino's Jalapa-forward philosophy to a Connecticut Shade wrapper, the brand's lightest expression. A long Churchill format gives the Ecuadorian Connecticut shade ample time to express cream, hay, and almond notes over a five-year-aged Jalapa core — rated 91 by Cigar Aficionado.",
     pairings: ["Champagne", "Earl Grey Tea", "Light White Wine"],
     yearFounded: 2021,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rocky-patel-factory-selects-edge-connecticut-churchill-cigars-natural-bundle-of-15","price":null}],
   },
   {
@@ -18514,7 +18514,7 @@ const CIGARS = [
     description: "The Epicure Maduro is the darker sibling of the celebrated Epicure line, using an Ecuadorian Habano Oscuro wrapper over an all-Nicaraguan puro blend at the Plasencia factory. Dark chocolate, coffee, and cedar notes build in a medium-to-full body — a well-balanced maduro that showcases Crux's Nicaraguan expertise.",
     pairings: ["Bourbon", "Craft Stout", "Espresso"],
     yearFounded: 2018,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/crux-epicure-maduro-robusto-5pk-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -18584,7 +18584,7 @@ const CIGARS = [
     description: "The Emerald is the full-toro format in the Diamond Crown Black Diamond line, made at Tabacalera A. Fuente with five-year-aged Dominican tobaccos. A silky Connecticut Havana wrapper delivers cream, cedar, cocoa, and pecan across a medium-to-full arc that builds elegantly toward the final third — a benchmark luxury Dominican smoke.",
     pairings: ["Cognac", "Aged Bourbon", "Dark Chocolate"],
     yearFounded: 2008,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/diamond-crown-julius-caeser-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -18608,7 +18608,7 @@ const CIGARS = [
     description: "The Gran Habano Habano No. 5 is the brand's workhorse medium-to-full blend — a Nicaraguan Habano wrapper and binder over Nicaraguan and Honduran filler, handmade in Honduras. Earth, spice, leather, and cedar notes in a package that consistently overdelivers on quality for its modest price. A superb everyday choice.",
     pairings: ["Bourbon", "Coffee", "Dark Beer"],
     yearFounded: 2005,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gran-habano-3-habano-shorty-robusto-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -18632,7 +18632,7 @@ const CIGARS = [
     description: "La Palina's entry-level Classic Series uses an Ecuadorian Connecticut wrapper over Dominican and Honduran tobaccos blended at the PDR factory. A straightforward mild-to-medium profile of cream, cedar, and light pepper makes this the ideal starting point for smokers discovering the La Palina brand or seeking an uncomplicated everyday smoke.",
     pairings: ["Coffee", "Light Beer", "Dry White Wine"],
     yearFounded: 2012,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/quorum-classic-robusto-cigars-natural-bundle-of-20","price":null}],
   },
   {
@@ -18656,7 +18656,7 @@ const CIGARS = [
     description: "The Asylum 13 770 is a true monster — a 7 x 70 behemoth built for the smoker who wants maximum time and bold, Nicaraguan medium-to-full flavor. The oversized format starts sweet and earthy, deepening into leather, dark chocolate, and spice across a two-hour smoke. A statement cigar that delivers on its audacious promise.",
     pairings: ["Bourbon", "Imperial Stout", "Cold Brew Coffee"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/asylum-lobotomy-770-cigars-maduro-bundle-of-10","price":null}],
   },
   {
@@ -18680,7 +18680,7 @@ const CIGARS = [
     description: "The Brimstone extension of Jacob's Ladder pushes into full-strength territory with an all-American tobacco profile — three different ligero tobaccos from the Dominican Republic and Nicaragua in the filler beneath a Pennsylvania Broadleaf maduro wrapper. The Perfecto vitola adds a tapered foot for a nuanced, evolving entry to the dark cherry and molasses core.",
     pairings: ["Aged Bourbon", "Imperial Stout", "Black Coffee"],
     yearFounded: 2019,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/southern-draw-jacobs-ladder-brimstone-perfecto-cigars-maduro-box-of-20","price":null}],
   },
   {
@@ -18704,7 +18704,7 @@ const CIGARS = [
     description: "The Connecticut variant of Fratello's Arlequín line brings a lighter, creamier dimension to the same Peruvian and Nicaraguan filler core. An Ecuadorian Connecticut wrapper delivers cream, cedar, and toasted almond in a medium-to-full-bodied profile that earned a Standard of Excellence from Cigar Coop. Rolled at Joya de Nicaragua.",
     pairings: ["Dry White Wine", "Light Rum", "Earl Grey Tea"],
     yearFounded: 2024,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cuban-rounds-connecticut-robusto-cigars-natural-bundle-of-20","price":null}],
   },
   {
@@ -18752,7 +18752,7 @@ const CIGARS = [
     description: "The Toro vitola gives the Melanio blend more time to develop, amplifying its signature dark chocolate and cedar complexity. Named for the renowned Melanio Oliva, this rated the #8 Cigar of 2020 by Cigar Aficionado, cementing its place among Nicaragua's elite.",
     pairings: ["Single Malt Scotch", "Espresso", "Aged Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/oliva-serie-v-melanio-double-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -18800,7 +18800,7 @@ const CIGARS = [
     description: "The Maduro sibling of the celebrated Melanio uses a Mexican San Andrés wrapper instead of Ecuadorian Sumatra, adding layers of dried fruit, dark cocoa, and natural sweetness to the already complex Nicaraguan ligero core.",
     pairings: ["Port Wine", "Espresso", "Dark Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/oliva-serie-v-melanio-robusto-maduro-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -18824,7 +18824,7 @@ const CIGARS = [
     description: "The Toro is arguably the most balanced expression of the Liga Privada No. 9 blend — the Connecticut Broadleaf wrapper lends its signature barnyard earthiness while the Brazilian binder bridges the core and wrapper with dark fruit and spice. Full-flavored from the first draw to the final third.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-privada-no-9-toro-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -18848,7 +18848,7 @@ const CIGARS = [
     description: "The Flying Pig is a squat, wide perfecto with a pigtail head — one of the most cult-followed formats in premium cigars. Made with extra ligero in its core compared to the standard No. 9, it's stronger, denser, and delivers an incredibly concentrated 35-minute experience. Limited annual production.",
     pairings: ["Bourbon", "Armagnac", "Strong Coffee"],
     yearFounded: 2000,
-    limited: true
+    limited: true,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-privada-no-9-flying-pig-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -18872,7 +18872,7 @@ const CIGARS = [
     description: "The large Corona Doble format gives the Liga Privada No. 9 blend a generous 90-minute canvas. The extended burn reveals nuanced transitions from initial pepper and espresso to rich chocolate and cedar in the final third — a masterclass in complexity for patient smokers.",
     pairings: ["Single Malt Scotch", "Aged Bourbon", "Cognac"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-privada-no-9-corona-doble-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -18896,7 +18896,7 @@ const CIGARS = [
     description: "The T52 Flying Pig shares the perfecto format with its No. 9 sibling but uses the T52's stalk-cut Connecticut Sun Grown Habano wrapper for a slightly more nuanced, less earthy profile. A collector-grade short smoke with disproportionate complexity.",
     pairings: ["Bourbon", "Espresso", "Rum"],
     yearFounded: 2000,
-    limited: true
+    limited: true,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-privada-t52-flying-pig-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -18920,7 +18920,7 @@ const CIGARS = [
     description: "The T52 Toro is Drew Estate's flagship longer smoke — the stalk-cut Sun Grown Habano wrapper distinguishes this from the No. 9, delivering a slightly sweeter, nuttier profile that eases into dark chocolate and leather over a 65-minute burn.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-privada-t52-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -18944,7 +18944,7 @@ const CIGARS = [
     description: "Padrón's #4 Cigar of 2024 per Cigar Aficionado, the No. 6 is a box-pressed robusto grande built from 5-year aged Nicaraguan tobacco. It delivers the quintessential 1926 experience — silky, refined, and devastatingly complex — in an approachable format that suits both new and seasoned aficionados.",
     pairings: ["Aged Rum", "Espresso", "Bourbon"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/padron-serie-1926-natural-aniversario-gift-pack-cigars-natural-sampler-of-4","price":null}],
   },
   {
@@ -18968,7 +18968,7 @@ const CIGARS = [
     description: "The No. 9 is one of the widest vitolas in the 1926 Serie, bringing added richness from the larger ring gauge. The maduro wrapper delivers natural sweetness and dark fruit notes over the already complex, 5-year-aged Nicaraguan puro core.",
     pairings: ["Dark Rum", "Espresso", "Port Wine"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/padron-serie-1926-no-9-maduro-cigars-maduro-box-of-10","price":null}],
   },
   {
@@ -18992,7 +18992,7 @@ const CIGARS = [
     description: "Originally released as the 40th Anniversary commemorative, this box-pressed torpedo became a beloved permanent member of the 1926 Serie. Its tapered head focuses the blend's full-bodied complexity — earning multiple 96-97 point ratings from the major publications.",
     pairings: ["Single Malt Scotch", "Cognac", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/padron-serie-1926-natural-aniversario-gift-pack-cigars-natural-sampler-of-4","price":null}],
   },
   {
@@ -19016,7 +19016,7 @@ const CIGARS = [
     description: "Named Cigar of the Year 2021 by Cigar Aficionado with a 97-point rating, the 1964 Torpedo Natural is the pinnacle of the anniversary line. Its box-pressed silhouette tapers to a precision point that delivers hazelnut and dark chocolate notes with uncanny exactness. A benchmark Nicaraguan cigar.",
     pairings: ["Aged Rum", "Bourbon", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/padron-1964-anniversary-maduro-torpedo-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -19040,7 +19040,7 @@ const CIGARS = [
     description: "The Maduro sibling of the 2021 Cigar of the Year, the 1964 Torpedo Maduro swaps the sun-grown wrapper for a darker, sweeter Nicaraguan maduro leaf that adds dried fruit and chocolate overtones to the 4-year-aged puro core. An outstanding box-pressed torpedo.",
     pairings: ["Dark Rum", "Espresso", "Port Wine"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/padron-1964-anniversary-maduro-torpedo-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -19064,7 +19064,7 @@ const CIGARS = [
     description: "Named for the father-son duo of Don Pepín and Janny García who blended it together, the García & García is the most prestigious cigar in the My Father portfolio. The Ecuadorian Habano Rosado wrapper over rare Pelo de Oro filler delivers an opulent, full-flavored smoke available only at select retailers.",
     pairings: ["Cognac", "Single Malt Scotch", "Espresso"],
     yearFounded: 2000,
-    limited: true
+    limited: true,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/casa-de-garcia-centenario-gold-label-toro-cigars-natural-bundle-of-25","price":null}],
   },
   {
@@ -19088,7 +19088,7 @@ const CIGARS = [
     description: "Introduced in 2021, this smaller expression of the García & García blend makes the pinnacle of My Father's lineup more accessible without sacrificing any complexity. The Ecuadorian Habano Rosado wrapper gleams with oils and delivers a full-flavored experience that justifies its $30 price tag.",
     pairings: ["Bourbon", "Single Malt Scotch", "Espresso"],
     yearFounded: 2000,
-    limited: true
+    limited: true,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/casa-de-garcia-centenario-gold-label-robusto-cigars-natural-bundle-of-25","price":null}],
   },
   {
@@ -19112,7 +19112,7 @@ const CIGARS = [
     description: "The Winston Churchill Toro (officially 'The Commander') honors the legendary statesman's love of premium cigars. The Ecuadorian Rojiza wrapper over Mexican San Andrés binder produces a beautifully balanced medium-bodied smoke with notes of almonds, cream, and caramel — quintessential Davidoff refinement.",
     pairings: ["Single Malt Scotch", "Cognac", "Champagne"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/winston-churchill-belicoso-4-cigars-natural-tin-of-4","price":null}],
   },
   {
@@ -19136,7 +19136,7 @@ const CIGARS = [
     description: "The Late Hour Toro uses Nicaraguan Condega tobacco aged in single-malt Speyside scotch barrels — a unique technique that imparts mineral and caramel notes unlike any other Davidoff. A darker, stronger counterpart to the Original Series, ideal for evening enjoyment.",
     pairings: ["Speyside Scotch", "Cognac", "Dark Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/winston-churchill-late-hour-toro-4-pack-cigars-oscuro-pack-of-4","price":null}],
   },
   {
@@ -19160,7 +19160,7 @@ const CIGARS = [
     description: "The flagship size of the Late Hour line — a Churchill format honoring the man himself. The Scotch-barrel-aged Condega tobaccos create a flavor dimension unique in Davidoff's portfolio: dry minerals, rich caramel, and a lingering Speyside whisky character that makes it ideal after dinner with a dram in hand.",
     pairings: ["Speyside Scotch", "Aged Cognac", "Dark Chocolate"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/winston-churchill-late-hour-churchill-cigars-oscuro-box-of-20","price":null}],
   },
   {
@@ -19253,7 +19253,7 @@ const CIGARS = [
     description: "The Canonazo is the widest vitola in Crowned Heads' Le Carême line, named after the legendary 19th-century French chef. Rolled at E.P. Carrillo's Dominican factory, this soft box-pressed cigar uses a Connecticut Broadleaf wrapper that provides earthy richness, while the Ecuadorian binder adds smooth complexity.",
     pairings: ["Bourbon", "Dark Coffee", "Aged Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/juarez-by-crowned-heads-mini-dozer-le-2026-cigars-maduro-single","price":null}],
   },
   {
@@ -19277,7 +19277,7 @@ const CIGARS = [
     description: "The smallest and most accessible expression of Crowned Heads' culinary-inspired Le Carême line. Its slender ring gauge concentrates the Connecticut Broadleaf wrapper's earthy richness, making for a focused, shorter smoke ideal for a quick afternoon break.",
     pairings: ["Espresso", "Black Coffee", "Light Bourbon"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/juarez-by-crowned-heads-mini-dozer-le-2026-cigars-maduro-single","price":null}],
   },
   {
@@ -19301,7 +19301,7 @@ const CIGARS = [
     description: "The Sublime is the largest regular production size in the Mil Días (Thousand Days) line. Its unique filler blend includes rare Peruvian and Costa Rican tobaccos alongside Nicaraguan core leaves, producing a medium-plus body with toasty, nutty flavors unlike typical Nicaraguan blends.",
     pairings: ["Coffee", "Light Rum", "Pale Ale"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/mil-dias-maduro-sublime-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -19325,7 +19325,7 @@ const CIGARS = [
     description: "The Double Robusto (Toro) in Crowned Heads' Mil Días blend offers the best balance of time and complexity in the line. Handcrafted at the AJ Fernandez factory in Nicaragua, the multi-country filler blend gives this cigar a complexity that belies its medium body.",
     pairings: ["Coffee", "Light Bourbon", "Craft Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/crowned-heads-tennessee-waltz-toro-cigars-maduro-single","price":null}],
   },
   {
@@ -19349,7 +19349,7 @@ const CIGARS = [
     description: "A Nicaraguan puro from Aganorsa's own farms, the JFR Lunatic Torch uses exclusively Corojo 99 tobacco for its wrapper and core — delivering an authentic, full-flavored expression of Jalapa and Estelí leaf. Priced well below its quality level, this is a best-kept secret among value-conscious aficionados.",
     pairings: ["Bourbon", "Dark Coffee", "Nicaragua Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/jfr-lunatic-torch-visionaries-cigars-natural-box-of-10","price":null}],
   },
   {
@@ -19373,7 +19373,7 @@ const CIGARS = [
     description: "The Lunatic Maduro brings Aganorsa's estate-grown Nicaraguan tobacco under a Mexican San Andrés wrapper for a rich, full-bodied experience with dark chocolate and earthy depth. An underrated medium-full smoke that punches well above its sub-$10 price.",
     pairings: ["Dark Rum", "Espresso", "Stout Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/jfr-lunatic-maduro-10x100-cigars-maduro-coffin-of-1","price":null}],
   },
   {
@@ -19397,7 +19397,7 @@ const CIGARS = [
     description: "Part of Viaje's popular Skull and Bones series, the Frank Castle is a full-bodied Nicaraguan toro wrapped in sun-grown Criollo. Known for its bold, rugged character — earth, leather, and black pepper dominate — this is a cult-followed limited release from one of boutique cigars' most innovative brands.",
     pairings: ["Bourbon", "Dark Beer", "Strong Coffee"],
     yearFounded: 2000,
-    limited: true
+    limited: true,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/viaje-skull-bones-wolverine-cigars-dark-natural-bundle-of-25","price":null}],
   },
   {
@@ -19490,7 +19490,7 @@ const CIGARS = [
     description: "La Colmena (The Beehive) is Warped's flagship — a Cuban-inspired blend that revived the slender formats beloved in pre-revolution Havana. The No. 44 is a slim, elegant smoke with an Ecuadorian wrapper and smooth Nicaraguan core that produces notes of cream, cedar, and light spice across a 40-minute burn.",
     pairings: ["Coffee", "Light Rum", "White Wine"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-colmena-no44-by-warped-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -19537,7 +19537,7 @@ const CIGARS = [
     description: "A collaboration between Warped Cigars and Casa Fernandez, Guardian of the Farm uses 100% Aganorsa tobacco from Nicaragua's Jalapa Valley — wrapper, binder, and filler all from the same pedigree farm. Named for the dogs that protect the Aganorsa farms, the Apollo size is a slender, lively smoke.",
     pairings: ["Coffee", "Bourbon", "Light Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/guardian-of-the-farm-apollo-seleccion-de-warped-cigars-natural-box-of-25","price":null}],
   },
   {
@@ -19561,7 +19561,7 @@ const CIGARS = [
     description: "The Aquitaine line uses an Ecuadorian Habano Ligero from the ninth priming for its oily, spicy wrapper instead of the classic CroMagnon's Habano. The Mode 5 robusto is the most approachable vitola — a compact, dense smoke with Cameroon binder complexity and a powerful Nicaraguan core.",
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cromagnon-aquitaine-mode-5-cigars-natural-single","price":null}],
   },
   {
@@ -19585,7 +19585,7 @@ const CIGARS = [
     description: "RoMa Craft's Neanderthal is deliberately engineered to be powerful — a short, wide, full-strength smoke. The HN vitola (4.5x58) is compact and intense, delivering black pepper, espresso, and dark chocolate in concentrated waves. Not for the faint-hearted, but revered by full-strength devotees.",
     pairings: ["Peaty Scotch", "Strong Coffee", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/neanderthal-by-roma-craft-hn-cigars-maduro-bundle-of-25","price":null}],
   },
   {
@@ -19609,7 +19609,7 @@ const CIGARS = [
     description: "Caldwell's first blend, Long Live the King introduced the world to the brand's unique use of Dominican Corojo — aged vintage tobacco from 2006-2009 — blended with Peruvian Pelo de Oro for a medium-to-full profile with earthy, chocolatey depth uncommon in Dominican blends.",
     pairings: ["Bourbon", "Dark Coffee", "Red Wine"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/long-live-the-king-the-heater-cigars-natural-single","price":null}],
   },
   {
@@ -19633,7 +19633,7 @@ const CIGARS = [
     description: "Eastern Standard is Caldwell's approachable everyday smoker — a medium-bodied Honduran Corojo-wrapped blend that delivers consistent cedar, cream, and coffee notes without the intensity of the flagship Long Live the King. A crowd-pleasing smoke that builds a loyal following.",
     pairings: ["Coffee", "Light Whiskey", "Craft Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/eastern-standard-cypress-room-cigars-natural-single","price":null}],
   },
   {
@@ -19657,7 +19657,7 @@ const CIGARS = [
     description: "Blind Man's Bluff is Caldwell's entry-level gem — a sub-$10 cigar that consistently punches above its price class. The Ecuadorian habano wrapper over Honduran criollo binder creates a medium-bodied smoke that reviews well with mainstream aficionados and value-seekers alike.",
     pairings: ["Coffee", "Bourbon", "Light Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/caldwell-blind-mans-bluff-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -19681,7 +19681,7 @@ const CIGARS = [
     description: "Tatuaje's Cojonú series began in 2003 as a bold, uncompromising statement from Pete Johnson — a raw, full-bodied Nicaraguan puro with Corojo wrapper that announced a new era of boutique cigars. The 2003 vitola is a classic 6.5x52 toro that remains the series' most traditional expression.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/tatuaje-miami-reserva-cojonu-2003-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -19705,7 +19705,7 @@ const CIGARS = [
     description: "The 2006 incarnation of the Cojonú series changes wrapper to a Nicaraguan Shade Grown Viso leaf and uses a robusto body with torpedo head. This produces a slightly more nuanced, fruit-forward profile compared to the 2003 — a fascinating parallel study in how wrapper tobacco shapes the smoking experience.",
     pairings: ["Bourbon", "Dark Rum", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/tatuaje-miami-reserva-cojonu-2009-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -19729,7 +19729,7 @@ const CIGARS = [
     description: "The 2012 Cojonú introduced box-pressing to the triennial series and an Ecuadorian Habano wrapper that adds complexity compared to previous releases. Available with three wrapper options (Habano, Sumatra, Connecticut Broadleaf), the Habano remains the most celebrated for its espresso and leather depth.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/tatuaje-reserva-nicaragua-cojonu-2012-habano-cigars-natural-single","price":null}],
   },
   {
@@ -19822,7 +19822,7 @@ const CIGARS = [
     description: "The Habano expression of the Knuckle Sandwich is Espinosa's most popular blend. A 6x54 Toro wrapped in Ecuadorian Habano, it delivers a punchy, full-flavored experience with coffee, leather, and cedar notes. The name reflects its character — bold, direct, and satisfying.",
     pairings: ["Bourbon", "Dark Coffee", "Craft Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/espinosa-knuckle-sandwich-habano-toro-4-pack-cigars-natural-pack-of-4","price":null}],
   },
   {
@@ -19846,7 +19846,7 @@ const CIGARS = [
     description: "Laranja (Portuguese for 'orange') refers to the sun-kissed Brazilian Mata Fina wrapper that defines this Espinosa blend. The natural sweetness of the Brazilian leaf over a Nicaraguan core produces a unique dried fruit and chocolate complexity that sets this apart from typical Nicaraguan offerings.",
     pairings: ["Rum", "Espresso", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/laranja-reserva-escuro-toro-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -19870,7 +19870,7 @@ const CIGARS = [
     description: "Camacho's Powerband uses a proprietary bunching technique that alternates ligero-heavy sections to create waves of accelerating flavor. The unique Ecuadorian Habano 2000 wrapper over Mexican San Andrés binder delivers bold chili pepper and oak notes that evolve into dark coffee and cocoa in the final third.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/camacho-connecticut-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -19917,7 +19917,7 @@ const CIGARS = [
     description: "The tapered Torpedo vitola of the Cuatro Cinco concentrates the blend's Cedar, leather, and spice notes into a focused opening that gradually broadens. A fine example of Joya de Nicaragua's craft — traditional construction meeting carefully aged Nicaraguan leaf from Central America's most historic cigar-making nation.",
     pairings: ["Bourbon", "Coffee", "Light Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/joya-de-nicaragua-antano-1970-gran-reserva-belicoso-cigars-dark-natural-single","price":null}],
   },
   {
@@ -19941,7 +19941,7 @@ const CIGARS = [
     description: "Released in 2018 to celebrate 50 years of Joya de Nicaragua, the Cinco Décadas (Five Decades) is one of the most prestigious lines in Nicaraguan cigar history. The Diadema format honors the classic sizes made famous in Joya's first decade, delivering a full-bodied, cedar-rich experience.",
     pairings: ["Aged Rum", "Bourbon", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/joya-de-nicaragua-antano-1970-gran-reserva-belicoso-cigars-dark-natural-single","price":null}],
   },
   {
@@ -19965,7 +19965,7 @@ const CIGARS = [
     description: "The Gordo vitola in the Perdomo 20th Anniversary Sun Grown line uses aged Nicaraguan sun-grown tobacco for its wrapper, showcasing the brand's long history cultivating premium leaf. Smooth and medium-bodied, with cedar, leather, and coffee that build gradually across a generous 85-minute experience.",
     pairings: ["Bourbon", "Coffee", "Craft Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/perdomo-20th-anniversary-sun-grown-gordo-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -19989,7 +19989,7 @@ const CIGARS = [
     description: "The Epicure is the largest vitola in Perdomo's 20th Anniversary Connecticut line — featuring 8-year-old Ecuadorian Connecticut wrappers bourbon barrel-aged for an additional 8 months. The result is a remarkably smooth, creamy smoke with hints of honey and cedar that rewards even mild-preference smokers.",
     pairings: ["Light Bourbon", "Coffee with Cream", "White Wine"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/perdomo-20th-anniversary-connecticut-epicure-cigars-natural-single","price":null}],
   },
   {
@@ -20013,7 +20013,7 @@ const CIGARS = [
     description: "The Maduro Gordo in Perdomo's 20th Anniversary line uses aged Nicaraguan maduro wrapper tobacco to deliver a rich, full-bodied experience. Dark chocolate, leather, and dried fruit give way to earthy complexity in the final third — one of the best large-ring-gauge Nicaraguan maduros at any price.",
     pairings: ["Dark Rum", "Espresso", "Stout Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/perdomo-20th-anniversary-maduro-gordo-cigars-maduro-single","price":null}],
   },
   {
@@ -20037,7 +20037,7 @@ const CIGARS = [
     description: "Cigar Aficionado's #1 Cigar of 2019, the Project 40 Toro is an extraordinary value at under $6. A Nicaraguan Colorado wrapper over Brazilian Habano binder produces a beautifully balanced medium-bodied smoke with cedar, cream, and sweet tobacco notes that punches far above its price point.",
     pairings: ["Bourbon", "Coffee", "Light Ale"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/alec-bradley-project-40-toro-cigars-natural-single","price":null}],
   },
   {
@@ -20061,7 +20061,7 @@ const CIGARS = [
     description: "The Gordo vitola expands the Project 40 blend into a wider format, adding a cooler, slower burn that amplifies the creamier, nuttier notes. An exceptional everyday smoke at under $6 — among the best value large-ring-gauge cigars produced in Nicaragua.",
     pairings: ["Coffee", "Light Whiskey", "Craft Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/alec-bradley-project-40-churchill-cigars-natural-single","price":null}],
   },
   {
@@ -20131,7 +20131,7 @@ const CIGARS = [
     description: "Named after the ancient Mesoamerican civilization that cultivated San Andrés tobacco in Mexico, the Foundation Olmec Maduro uses a Mexican San Andrés wrapper and Honduran binder for a full-bodied blend that pays homage to the origins of tobacco cultivation in the Americas.",
     pairings: ["Bourbon", "Espresso", "Mezcal"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/foundation-the-wise-man-maduro-lancero-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -20155,7 +20155,7 @@ const CIGARS = [
     description: "HVC's Hot Cake is the follow-up to their beloved Pan Caliente, using a Mexican San Andrés wrapper over a Corojo 99 binder blend and aged Corojo Maduro Viso filler. Named for its immediate demand at launch, the Corona Gorda format delivers a focused, medium-bodied experience with wood, earth, and cocoa.",
     pairings: ["Coffee", "Bourbon", "Light Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/hvc-hot-cake-corona-gorda-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -20179,7 +20179,7 @@ const CIGARS = [
     description: "The Gran Cañon is the largest format in HVC's Hot Cake line — a 6x60 gordo that gives the Mexican San Andrés-wrapped blend plenty of room to develop. Notes of wood, earth, and cocoa come in waves, with the large ring gauge keeping temperatures cool throughout a leisurely 75-minute smoke.",
     pairings: ["Dark Beer", "Bourbon", "Coffee"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/hvc-hot-cake-golden-line-connecticut-gran-canon-cigars-natural-box-of-25","price":null}],
   },
   {
@@ -20226,7 +20226,7 @@ const CIGARS = [
     description: "La Nox (The Night) is one of LFD's most distinctive blends — a Brazilian maduro-wrapped torpedo presented in a jet-black box. Its dark, sweet wrapper over Mexican San Andrés binder and Dominican fillers produces a uniquely anise-forward, clove-accented profile with rich walnut depth.",
     pairings: ["Port Wine", "Dark Rum", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-la-nox-petit-la-nox-5-cigars-maduro-tin-of-5","price":null}],
   },
   {
@@ -20250,7 +20250,7 @@ const CIGARS = [
     description: "The Corona Doble is the majestic long-smoke expression of the Liga Privada T52 blend. The stalk-cut Connecticut Sun Grown Habano wrapper provides the T52 its unique character — slightly sweet and nutty compared to the No. 9's Broadleaf — over a robust international filler blend that rewards patient smokers.",
     pairings: ["Single Malt Scotch", "Aged Rum", "Strong Coffee"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-privada-t52-corona-doble-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -20274,7 +20274,7 @@ const CIGARS = [
     description: "The Maduro companion to the No. 35, this box-pressed robusto adds natural sweetness and dried fruit character from its dark Nicaraguan maduro wrapper. A full-flavored, compact powerhouse that delivers the premium 1926 experience in less than an hour.",
     pairings: ["Dark Rum", "Espresso", "Port Wine"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/padron-serie-1926-maduro-aniversario-gift-pack-cigars-maduro-sampler-of-4","price":null}],
   },
   {
@@ -20298,7 +20298,7 @@ const CIGARS = [
     description: "The square-pressed format of Le Bijou delivers the #1 Cigar of 2015 (Cigar Aficionado) in a compact 5x52. The Nicaraguan Pelo de Oro oscuro wrapper produces an intense, full-bodied profile with coffee, dark chocolate, and pepper. A must-try box-pressed benchmark at a surprisingly accessible price.",
     pairings: ["Bourbon", "Espresso", "Aged Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -20322,7 +20322,7 @@ const CIGARS = [
     description: "The 2024 installment of Davidoff's celebrated Chinese Zodiac series features a rare 7.5x50 Double Corona format. Only 19,500 boxes worldwide, the Year of the Dragon earned exceptional 97-point acclaim for its extended blend of Dominican, Nicaraguan, and Mexican tobaccos under a premium Ecuadorian wrapper.",
     pairings: ["Single Malt Scotch", "Aged Cognac", "Champagne"],
     yearFounded: 2000,
-    limited: true
+    limited: true,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/espanola-year-of-the-dragon-toro-cigars-natural-box-of-24","price":null}],
   },
   {
@@ -20369,7 +20369,7 @@ const CIGARS = [
     description: "Flor del Valle (Valley Flower) is a Nicaraguan puro from Aganorsa's Casa Fernandez factory, using exclusively Corojo 99 and Criollo 98 tobacco from the Jalapa Valley. The Sky Flower Gran Corona is the flagship vitola — elegant, medium-bodied, and Cuban-influenced in the tradition that defines Warped.",
     pairings: ["Coffee", "Light Rum", "White Wine"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/flor-del-valle-sky-flower-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -20393,7 +20393,7 @@ const CIGARS = [
     description: "Pan Caliente (Hot Bread) was HVC's debut line and the blend that put the brand on the map. Named for the irresistible freshness of warm bread — a metaphor for a cigar you can't wait to light — this Toro delivers Ecuadorian habano-wrapped Nicaraguan complexity with coffee, cedar, and spice.",
     pairings: ["Coffee", "Bourbon", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/hvc-pan-caliente-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -20440,7 +20440,7 @@ const CIGARS = [
     description: "The Maduro expression of the Knuckle Sandwich uses an Ecuadorian Sumatra wrapper (darker and sweeter than the Habano version) to add natural cocoa and chocolate sweetness to the Nicaraguan core. A compact, punchy robusto that delivers full-bodied impact in under an hour.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/espinosa-knuckle-sandwich-maduro-robusto-cigars-maduro-box-of-20","price":null}],
   },
   {
@@ -20488,7 +20488,7 @@ const CIGARS = [
     description: "The Connecticut variant shows Camacho's versatility — a mild-to-medium Ecuadorian Connecticut-wrapped cigar that pairs the silky smooth wrapper with Honduran Corojo Ligero and Nicaraguan filler for more backbone than typical Connecticut blends. An excellent gateway for new aficionados.",
     pairings: ["Coffee with Cream", "Prosecco", "Light Ale"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/camacho-connecticut-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -20512,7 +20512,7 @@ const CIGARS = [
     description: "As the name suggests, every component of the Triple Maduro has been through the maduro process — wrapper, binder, and filler. The result is an intensely rich, full-bodied experience dominated by dark chocolate, coffee, and dried fruit with a remarkably smooth finish that belies the cigar's power.",
     pairings: ["Dark Rum", "Espresso", "Port Wine"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/camacho-triple-maduro-toro-cigars-maduro-box-of-20","price":null}],
   },
   {
@@ -20536,7 +20536,7 @@ const CIGARS = [
     description: "Antaño 1970 pays tribute to the year Joya de Nicaragua produced its first full-strength cigars for Nicaraguan President Somoza. The Toro uses a near-black Nicaraguan Habano Oscuro wrapper over a dense puro core — a bone-dry, full-strength cigar with leather, dark earth, and black pepper throughout.",
     pairings: ["Peaty Scotch", "Dark Rum", "Strong Coffee"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/joya-de-nicaragua-antano-1970-gran-reserva-belicoso-cigars-dark-natural-single","price":null}],
   },
   {
@@ -20583,7 +20583,7 @@ const CIGARS = [
     description: "Named for the powerful bulls of the Andalusian region of Spain, the LFD Andalusian Bull is a heavy-hitting toro with an Ecuadorian Sumatra wrapper over Dominican and Nicaraguan fillers. Full-bodied and robust, it delivers persistent coffee, leather, and dark chocolate with the intensity to match its namesake.",
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-toro-selection-cigars-varies-sampler-of-5","price":null}],
   },
   {
@@ -20607,7 +20607,7 @@ const CIGARS = [
     description: "The Maduro Toro adds a Pennsylvania Broadleaf wrapper to the beloved Four Kicks blend, deepening the profile with dark chocolate, sweet spice, and earthy complexity. One of Crowned Heads' best-selling expressions, it demonstrates how the right maduro wrapper can transform an already excellent Nicaraguan blend.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/crowned-heads-tennessee-waltz-toro-cigars-maduro-single","price":null}],
   },
   {
@@ -20631,7 +20631,7 @@ const CIGARS = [
     description: "The Torpedo vitola of the Tatuaje Havana VI line shows the brand's Cuban-inspired philosophy at its most refined — the tapered head of the Ecuadorian habano-wrapped torpedo focuses medium-bodied cedar, coffee, and earth notes into a precise, elegant opening before broadening into a satisfying finish.",
     pairings: ["Coffee", "Light Rum", "Bourbon"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -20655,7 +20655,7 @@ const CIGARS = [
     description: "The Petite Corona is the smallest expression of the Melanio line — a slender 4.5x46 cigar that packs the award-winning blend's dark chocolate and coffee complexity into a quick 35-minute experience. Perfect for those who want a taste of Melanio's excellence without committing to a full-size smoke.",
     pairings: ["Espresso", "Light Bourbon", "Coffee"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/oliva-serie-v-melanio-petite-corona-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -20702,7 +20702,7 @@ const CIGARS = [
     description: "The Black Market Toro is Alec Bradley's most popular everyday smoker — a Honduran Corojo-wrapped full-flavored blend that delivers consistent leather, coffee, and pepper at an honest price. A perennial retailer bestseller and an ideal introduction to the Alec Bradley portfolio.",
     pairings: ["Bourbon", "Dark Beer", "Coffee"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/alec-bradley-black-market-toro-pack-of-5-cigars-dark-natural-pack-of-5","price":null}],
   },
   {
@@ -20726,7 +20726,7 @@ const CIGARS = [
     description: "The Tempus (Latin for 'time') robusto uses a Honduran Habano wrapper with five-year-aged tobaccos — a tribute to the time invested in aging Alec Bradley's premium lines. Its full-bodied profile of leather, cedar, and earth evolves through three distinct stages across its 55-minute burn.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/alec-bradley-double-broadleaf-robusto-cigars-maduro-single","price":null}],
   },
   {
@@ -20750,7 +20750,7 @@ const CIGARS = [
     description: "Camacho's American Barrel Aged line uses Nicaraguan filler tobacco aged in American bourbon barrels, infusing the Honduran Corojo wrapper-led blend with distinct caramel, vanilla, and oak notes. A unique crossover between the bourbon and premium cigar worlds.",
     pairings: ["Kentucky Bourbon", "Whiskey", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-aurora-barrel-aged-churchill-cigars-maduro-single","price":null}],
   },
   {
@@ -20797,7 +20797,7 @@ const CIGARS = [
     description: "The Belicoso vitola's tapered head concentrates the Liga Privada No. 9 blend's signature dark chocolate and espresso flavors into an intense opening, gradually broadening to reveal layers of black pepper and leather. An excellent choice for those who want the Robusto's character with added complexity.",
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-privada-no-9-belicoso-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -20844,7 +20844,7 @@ const CIGARS = [
     description: "The smallest and most intense expression of the CroMagnon blend, the Knuckledragger is a compact powerhouse. What it lacks in length, it makes up for in concentration — a quick, intense full-strength experience with black pepper, espresso, and dark chocolate in rapid succession. Perfect for tight schedules.",
     pairings: ["Strong Coffee", "Peaty Scotch", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/baka-hunter-gatherer-by-roma-craft-5pk-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -20868,7 +20868,7 @@ const CIGARS = [
     description: "The box-pressed Toro in the 1964 Anniversary Maduro series features 4-year-aged Nicaraguan puro tobacco under a dark, oily maduro wrapper. The standard Toro is the most approachable 1964 format, offering exceptional value relative to its quality — dark chocolate, coffee, and dried fruit in balanced harmony.",
     pairings: ["Dark Rum", "Espresso", "Port Wine"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/padron-1964-anniversary-maduro-gift-pack-5-cigars-maduro-sampler-of-5","price":null}],
   },
   {
@@ -20892,7 +20892,7 @@ const CIGARS = [
     description: "The tapered torpedo vitola gives the 20th Anniversary Sun Grown blend a more focused, refined character — cedar and oak emerge sharply at the start, gradually developing toward leather and spice. An excellent choice for those who prefer the traditional elegance of a torpedo over the barrel-aged maduro expression.",
     pairings: ["Bourbon", "Coffee", "Craft Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/perdomo-20th-anniversary-sun-grown-torpedo-cigars-natural-single","price":null}],
   },
   {
@@ -20916,7 +20916,7 @@ const CIGARS = [
     description: "The Judge Toro extends the award-winning My Father The Judge blend into a larger, longer format. The Guatemalan Habano wrapper's unique oiliness over a Nicaraguan core delivers exceptional dark chocolate, coffee, and cedar complexity over 65 minutes — a step up in magnitude from the standard Churchill.",
     pairings: ["Bourbon", "Single Malt Scotch", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/my-father-the-judge-toro-5pk-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -20940,7 +20940,7 @@ const CIGARS = [
     description: "The Torpedo expression of My Father No. 1 uses its tapered head to focus the Ecuadorian Habano-wrapped Nicaraguan puro's complexity. An outstanding representation of the Garcia family's blending philosophy — full-flavored, complex, and beautifully constructed at a price that invites daily enjoyment.",
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/my-father-no-1-cigars-natural-single","price":null}],
   },
   {
@@ -20964,7 +20964,7 @@ const CIGARS = [
     description: "The Brown Label Toro is the medium-bodied backbone of Tatuaje's core lineup — an Ecuadorian habano-wrapped Nicaraguan blend with Cuban-inspired character. Pete Johnson's most approachable everyday line delivers consistent cedar, coffee, and leather without the intensity of the Cojonu or Monster series.",
     pairings: ["Coffee", "Bourbon", "Light Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/casa-de-garcia-centenario-gold-label-toro-cigars-natural-bundle-of-25","price":null}],
   },
   {
@@ -20988,7 +20988,7 @@ const CIGARS = [
     description: "The Shade Toro gives the Undercrown blend — born as the Liga Privada smokers that didn't make the final cut — a Connecticut Shade wrapper for a mild-to-medium expression. The Brazilian Mata Fina binder from the Liga Privada DNA shines through, bridging the creamy wrapper with a flavorful Nicaraguan core.",
     pairings: ["Coffee with Cream", "Light Rum", "Prosecco"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-undercrown-shade-toro-tubo-cigars-natural-upright-of-25","price":null}],
   },
   {
@@ -21012,7 +21012,7 @@ const CIGARS = [
     description: "The Sun Grown sits between the Shade and Maduro in the Undercrown family — a Connecticut Sun Grown wrapper adds medium-body character with coffee and earth notes that the Shade lacks. The same Liga Privada-lineage Brazilian binder ties the blend together, offering outstanding value in the Drew Estate portfolio.",
     pairings: ["Bourbon", "Coffee", "Craft Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-undercrown-maduro-toro-tubo-cigars-maduro-upright-of-25","price":null}],
   },
   {
@@ -21036,7 +21036,7 @@ const CIGARS = [
     description: "The Signature Selection Toro is Aganorsa Leaf's showcase of estate-grown Corojo 99 tobacco — wrapper, binder, and filler all from the same legendary Jalapa Valley farm. A Nicaraguan puro in the truest sense, delivering genuine corojo character: cedar, coffee, and leather with a long, satisfying finish.",
     pairings: ["Bourbon", "Dark Coffee", "Light Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/aganorsa-leaf-signature-selection-toro-maduro-5pk-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -21060,7 +21060,7 @@ const CIGARS = [
     description: "Chapter One represents LFD's most accessible blend — a medium-bodied Ecuadorian habano-wrapped Dominican and Nicaraguan blend that serves as an ideal introduction to the La Flor Dominicana portfolio. Clean construction, consistent flavor, and a moderate price point make this a reliable everyday smoke.",
     pairings: ["Coffee", "Light Bourbon", "Craft Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-reserva-especial-toro-cigars-natural-single","price":null}],
   },
   {
@@ -21084,7 +21084,7 @@ const CIGARS = [
     description: "Where Long Live the King uses vintage Dominican Corojo, The King Is Dead goes darker with a Mexican San Andrés wrapper for a more powerful, maduro-forward profile. Peruvian Pelo de Oro filler adds unique sweet complexity to the dark chocolate and leather core. A study in Caldwell's range.",
     pairings: ["Bourbon", "Dark Rum", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/caldwell-blind-mans-bluff-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -21131,7 +21131,7 @@ const CIGARS = [
     description: "Alpha Dawg is Espinosa's value-oriented everyday line — an Ecuadorian habano-wrapped Nicaraguan blend that delivers consistent cedar, coffee, and leather at a price well under $10. Produced at AJ Fernandez's factory, it benefits from the same quality control as Espinosa's premium lines.",
     pairings: ["Coffee", "Light Whiskey", "Craft Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/espinosa-crs-maduro-toro-cigars-maduro-bundle-of-10","price":null}],
   },
   {
@@ -21178,7 +21178,7 @@ const CIGARS = [
     description: "The Toro is the most versatile format in the Four Kicks line — Crowned Heads' flagship Nicaraguan blend named after a beloved restaurant near the brand's Nashville headquarters. Medium-bodied cedar, coffee, and leather notes make it an all-day smoker that has become one of the boutique era's defining blends.",
     pairings: ["Bourbon", "Coffee", "Craft Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/crowned-heads-tennessee-waltz-toro-cigars-maduro-single","price":null}],
   },
   {
@@ -21202,7 +21202,7 @@ const CIGARS = [
     description: "The Undercrown Maduro Flying Pig is one of the most sought-after seasonal releases from Drew Estate. The pig-tail cap and perfecto shape make it a challenging cigar to roll, requiring specially trained artisans at La Gran Fabrica in Estelí. The Mexican San Andrés maduro wrapper delivers rich chocolate and espresso notes in a compact, intense 35-minute smoke.",
     pairings: ["Bourbon", "Espresso", "Dark Porter"],
     yearFounded: 2000,
-    limited: true
+    limited: true,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-undercrown-flying-pig-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -21226,7 +21226,7 @@ const CIGARS = [
     description: "The Sun Grown Flying Pig is a box-pressed perfecto exclusive to Drew Diplomat retailers. A uniquely challenging vitola to produce, the pig-tail cap and tapered body require specialist rollers at Drew Estate's Estelí factory. The Ecuadorian sun grown wrapper provides a medium-full profile with rich leather, cedar, and peppery spice.",
     pairings: ["Single Malt Scotch", "Espresso", "Aged Rum"],
     yearFounded: 2000,
-    limited: true
+    limited: true,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-undercrown-flying-pig-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -21250,7 +21250,7 @@ const CIGARS = [
     description: "The mildest of the Undercrown Flying Pig trio, the Shade Flying Pig showcases a silky Ecuadorian shade wrapper that delivers a creamy, balanced medium-bodied experience. Like all Flying Pigs, the pigtail cap makes this an exceptionally complex cigar to roll, packaged in 12-count boxes and exclusive to Drew Diplomat retailers.",
     pairings: ["Champagne", "Light Rum", "Milk Coffee"],
     yearFounded: 2000,
-    limited: true
+    limited: true,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/undercrown-shade-flying-pig-cigars-natural-box-of-12","price":null}],
   },
   {
@@ -21298,7 +21298,7 @@ const CIGARS = [
     description: "Ratzilla is the elegantly elongated cousin of the Dirty Rat. A creamier, velvety-smooth rendition of the same legendary Unico blend, it delivers the same complex tobacco character but with added refinement and length. The longer format allows the T52 Habano wrapper to reveal deeper sweetness and nuance across a longer smoking experience.",
     pairings: ["Cognac", "Espresso", "Dark Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-privada-unico-serie-ratzilla-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -21322,7 +21322,7 @@ const CIGARS = [
     description: "Sold in tins of four, the Papas Fritas is one of the most unique offerings in the Drew Estate portfolio. Using the same No. 9 wrapper leaf from Connecticut paired with a Mata Fina binder, this compact cigar delivers the Liga Privada flavor experience in a quick, casual format — perfect for the aficionado on the go.",
     pairings: ["Espresso", "Bourbon", "Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-privada-unico-serie-papas-fritas-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -21394,7 +21394,7 @@ const CIGARS = [
     description: "The Eye of the Bull is a compact but punchy member of the Don Carlos family — easily identified by its distinctive small maduro cap that resembles a bullseye. Drawing on 10-year-old Dominican filler and binder tobaccos draped in a silky African Cameroon wrapper, it charges with baking spices, cedar, and walnut, finishing with a bright orange peel note. Named Cigar Aficionado Top 25 Cigar of 2024.",
     pairings: ["Bourbon", "Espresso", "Dark Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -21418,7 +21418,7 @@ const CIGARS = [
     description: "A.L.R. stands for Aged, Limited, and Rare — and the Second Edition lives up to all three. Blended in 2016 at TAVICUSA in Estelí and aged an additional two years before release, this box-pressed toro earned a 96-point rating and the No. 4 Cigar of the Year honor from Cigar Aficionado in 2023. The San Andrés wrapper delivers rich earth, black cherry, and toasted wood complexity.",
     pairings: ["Aged Bourbon", "Single Malt Scotch", "Espresso"],
     yearFounded: 2000,
-    limited: true
+    limited: true,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rocky-patel-alrii-toro-gift-pack-cigars-maduro-sampler-of-5","price":null}],
   },
   {
@@ -21442,7 +21442,7 @@ const CIGARS = [
     description: "The compact robusto expression of Rocky Patel's acclaimed A.L.R. Second Edition. After being rolled at TAVICUSA from aged Nicaraguan tobaccos and a dark San Andrés wrapper, each cigar was aged an additional two years to develop a level of complexity and refinement rare at this price point. Box-pressed with a tri-seam cap.",
     pairings: ["Bourbon", "Dark Rum", "Espresso"],
     yearFounded: 2000,
-    limited: true
+    limited: true,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rocky-patel-alr-2nd-edition-robusto-5pk-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -21466,7 +21466,7 @@ const CIGARS = [
     description: "DBS stands for Double Broadleaf Selection — a nod to the dual use of Connecticut Broadleaf in both the binder and the filler, alongside a dark Mexican San Andrés wrapper. This bold combination creates a powerfully earthy, pepper-driven profile with espresso and oak undertones. Named a Robb Report Best of 2023 selection, it offers outstanding value for its complexity.",
     pairings: ["Bourbon", "Porter", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rocky-patel-dbs-toro-cigars-maduro-box-of-20","price":null}],
   },
   {
@@ -21490,7 +21490,7 @@ const CIGARS = [
     description: "The Sun Grown Maduro Robusto earned a stunning 95 points and the No. 2 Cigar of the Year ranking from Cigar Aficionado in 2016 — one of the highest ever awarded to a Rocky Patel blend. The Connecticut Broadleaf maduro wrapper over an all-Nicaraguan core delivers a rich, dark, espresso-forward profile with exceptional balance and construction at a remarkably accessible price.",
     pairings: ["Bourbon", "Dark Stout", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rocky-patel-sun-grown-maduro-robusto-5pk-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -21583,7 +21583,7 @@ const CIGARS = [
     description: "The Reserva Real is Romeo y Julieta's tribute to premium Dominican craftsmanship. Wrapped in a silky Ecuadorian Connecticut leaf, the Reserva Real delivers a smooth, mild-to-medium experience defined by creamy cedar, honey, and nutty sweetness. It is the go-to choice for those who appreciate the Romeo y Julieta heritage in a more refined, accessible format.",
     pairings: ["Champagne", "Light Rum", "Café Latte"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -21630,7 +21630,7 @@ const CIGARS = [
     description: "The Punch Diablo Diabolus is a rare collaboration between General Cigar's Honduran Punch brand and AJ Fernandez in Nicaragua — the first time a Punch line was produced outside the company's Honduran factory. The dark Ecuadorian oscuro wrapper over a Connecticut Broadleaf binder delivers a rich, full-flavored profile of dark chocolate, leather, and earth at a remarkable price.",
     pairings: ["Bourbon", "Porter", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -21654,7 +21654,7 @@ const CIGARS = [
     description: "The Punch Champion is a medium-bodied Honduran puro that exemplifies the classic, earthy, cedar-forward character for which Punch is known. Made at the legendary HATSA factory in Honduras, this approachable blend is built for everyday enjoyment, offering genuine complexity and solid construction at a value price that has made Punch a staple of cigar shops for decades.",
     pairings: ["Beer", "Black Coffee", "Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -21678,7 +21678,7 @@ const CIGARS = [
     description: "The Cellar Reserve 15 Year is the jewel of the Gurkha lineup and one of the most awarded cigars the brand has produced. Featuring a lustrous aged Criollo 1998 wrapper over 15-year-old reserves of Dominican and Nicaraguan tobacco, this medium-full smoke was rated 97 points and earned a Top 10 Cigar of the Year honor. An exceptional smoking experience at a surprisingly reasonable price.",
     pairings: ["Single Malt Scotch", "Cognac", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -21702,7 +21702,7 @@ const CIGARS = [
     description: "The Gurkha Heritage is a mild-to-medium robusto built for those who appreciate smoothness and approachability. A Connecticut shade wrapper over Honduran and Nicaraguan fillers creates a clean, creamy profile with cedar, nuts, and a light honey sweetness. A reliable everyday cigar from one of the premium industry's most recognizable brands.",
     pairings: ["Coffee with Cream", "Light Rum", "Champagne"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/avo-heritage-robusto-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -21726,7 +21726,7 @@ const CIGARS = [
     description: "The Man O' War Armada is AJ Fernandez's powerfully constructed flagship for the Man O' War brand. The dark Ecuadorian Sumatra maduro wrapper delivers an eruption of vanilla, coffee, and earthy spice with notes of cedar and chocolate. Built at Fernandez's factory in Estelí, the Armada earned a near-perfect 4.75/5 rating for its exceptional complexity and Cuban-esque character.",
     pairings: ["Bourbon", "Dark Rum", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/man-o-war-robusto-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -21750,7 +21750,7 @@ const CIGARS = [
     description: "The Man O' War Side Project is a refined Mexican San Andrés maduro expression from AJ Fernandez's Man O' War portfolio. Accessible in price but serious in character, the Side Project delivers a medium-full body with dark chocolate, earth, and leather notes that make it an excellent daily smoker for those seeking big flavor without a premium price tag.",
     pairings: ["Bourbon", "Coffee", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/man-o-war-robusto-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -21774,7 +21774,7 @@ const CIGARS = [
     description: "The CAO Session is a shorter, lighter smoke designed for occasions when a quick, flavorful break is needed without committing to a long session cigar. The Nicaraguan shade wrapper over Honduran and Dominican fillers produces a mild-to-medium body with creamy cedar, nuts, and honey sweetness — a perfect choice for the newer enthusiast or for pairing with lighter beverages.",
     pairings: ["Light Beer", "Iced Coffee", "White Wine"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cao-surplus-maduro-toro-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -21798,7 +21798,7 @@ const CIGARS = [
     description: "The Diesel Unlimited D.X. is the full-powered expression of the Diesel brand's Unlimited line, featuring a Honduran Corojo wrapper that delivers intense leather, earth, and cocoa notes. Produced at the General Cigar factory in Danlí, Honduras, the D.X. is a bold, uncompromising blend that lives up to the Diesel name — strong, raw, and unapologetic.",
     pairings: ["Bourbon", "Espresso", "Dark Porter"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/diesel-unlimited-d5-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -21822,7 +21822,7 @@ const CIGARS = [
     description: "Inspired by the legendary bourbon distilleries along Louisville's Whiskey Row, the Diesel Whiskey Row bridges two great American pleasures. A Honduran Corojo wrapper over a Nicaraguan binder and Honduran fillers creates a medium-full body with distinctive bourbon oak, vanilla, and dark chocolate notes that pair exceptionally well with its namesake spirit. Rated 91 points.",
     pairings: ["Bourbon", "Rye Whiskey", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/diesel-whiskey-row-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -21846,7 +21846,7 @@ const CIGARS = [
     description: "The Diesel Hair of the Dog is a limited-edition box-pressed toro produced in only 5,000 rustic wooden boxes. Named for the notion that the best cure for a hangover is 'the hair of the dog that bit you,' this cigar delivers a medium-full body with cedar, earth, and espresso notes. The Ecuadorian Sumatra wrapper and Habano binder give it excellent construction and a satisfying, complex finish.",
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
-    limited: true
+    limited: true,
     buyLinks: [],
   },
   {
@@ -21870,7 +21870,7 @@ const CIGARS = [
     description: "La Flor de Ynclan Toro is a premium expression from Swiss cigar giant Villiger, blended by master blender José Matías Maragoto and rolled at the ABAM factory in the Dominican Republic. This medium-bodied cigar was rated No. 10 Cigar of 2017 by Cigar Aficionado with 93 points, delivering cedar, cream, and earthy leather notes with excellent balance and refinement.",
     pairings: ["Cognac", "Single Malt Scotch", "Black Coffee"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-toro-selection-cigars-varies-sampler-of-5","price":null}],
   },
   {
@@ -21917,7 +21917,7 @@ const CIGARS = [
     description: "La Aroma de Cuba Noblesse is one of the most sophisticated expressions from the Garcia family's La Aroma de Cuba brand. A dark, lustrous San Andrés Oscuro wrapper sits over triple-fermented Nicaraguan tobaccos harvested from the Garcia family's own estates in Estelí, Jalapa, and Namanji. The result is a 92-rated, medium-full smoke with exceptional dark chocolate, earth, and leather complexity.",
     pairings: ["Bourbon", "Espresso", "Dark Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-aroma-de-cuba-noblesse-coronation-cigars-rosado-single","price":null}],
   },
   {
@@ -21987,7 +21987,7 @@ const CIGARS = [
     description: "The Henry Clay Stalk Cut honors the traditional stalk-cut harvest method, where whole tobacco plants are cut and hung to cure, developing richer, more complex flavors. A Connecticut Broadleaf wrapper over a Dominican piloto binder and three different filler tobaccos creates a rich, nutty, cedar-forward profile with cinnamon and cocoa. Earned a 92-point Cigar Aficionado Top 25 rating in 2016.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/henry-clay-war-hawk-rebellious-cigars-natural-box-of-20","price":null}],
   },
   {
@@ -22011,7 +22011,7 @@ const CIGARS = [
     description: "Matt Booth created The Big Payback as a thank-you to the loyal fans who supported Room 101 from the beginning — a full-quality Nicaraguan puro at a fraction of the price of other Room 101 lines. This fully Nicaraguan smoke delivers a medium-full body of earth, espresso, and dark chocolate. An honest, no-frills cigar that punches far above its price point.",
     pairings: ["Bourbon", "Coffee", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/room-101-payback-connecticut-robusto-cigars-natural-bundle-of-20","price":null}],
   },
   {
@@ -22058,7 +22058,7 @@ const CIGARS = [
     description: "La Barba Red is a bold Honduran-forward blend from the boutique La Barba Cigars label. The Honduran Corojo wrapper over a Honduran binder and tri-leaf filler incorporating Corojo, Habano, and Pele de Oro creates a rich, earthy, leather-forward profile with dark chocolate and Honduran pepper character. A standout offering from one of the industry's most respected boutique blenders.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-imperiosa-corona-gorda-cigars-oscuro-single","price":null}],
   },
   {
@@ -22128,7 +22128,7 @@ const CIGARS = [
     description: "The White Series is the original flagship blend of Cavalier Genève, conceived by brand owner Sébastien Decoppet as the ideal mild-to-medium cigar that sacrifices nothing in complexity. The Habano wrapper over a Connecticut binder and multi-country filler creates a refined, creamy profile with herbs, white pepper, and nutty sweetness. Adorned with the brand's distinctive gold diamond.",
     pairings: ["Champagne", "White Wine", "Café Latte"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/alec-bradley-white-gold-toro-cigars-natural-single","price":null}],
   },
   {
@@ -22152,7 +22152,7 @@ const CIGARS = [
     description: "The Rojas Unfinished Business Corona Gorda is the debut release from Noel Rojas's new factory in Estelí, Nicaragua. This partially closed-foot, soft box-pressed cigar brings an Ecuadorian Sumatra wrapper over Nicaraguan binder and a blend of Nicaraguan and Mexican fillers. It earned an impressive 93-point rating with praise for its cedar, citrus, black pepper, and roasted almond complexity.",
     pairings: ["Bourbon", "Coffee", "Craft Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rojas-factory-overruns-unfinished-business-mareva-cigars-dark-natural-bundle-of-20","price":null}],
   },
   {
@@ -22176,7 +22176,7 @@ const CIGARS = [
     description: "The toro expression of Noel Rojas's acclaimed Unfinished Business line delivers the brand's signature Ecuadorian Sumatra wrapper over Nicaraguan binder and a Mexican-accented filler blend. The soft box-press and partially closed foot make this an unusual, premium boutique cigar with complex cedar, raisin bread, and black pepper notes that reward patient, attentive smoking.",
     pairings: ["Bourbon", "Coffee", "Craft Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rojas-factory-overruns-unfinished-business-mareva-cigars-dark-natural-bundle-of-20","price":null}],
   },
   {
@@ -22200,7 +22200,7 @@ const CIGARS = [
     description: "The Blackbird Superb is the highest-rated release from this boutique brand named for its bird-themed lineup. A stunning 96 from Stogie Press, the Superb Robusto Gordo uses an Ecuadorian Habano wrapper over a Nicaraguan core to deliver a balanced, complex medium-bodied profile with cedar, coffee, earth, and spice. Packaged in distinctive 21-count boxes.",
     pairings: ["Bourbon", "Coffee", "Craft Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/blackbird-nest-maduro-gordo-cigars-maduro-bundle-of-25","price":null}],
   },
   {
@@ -22247,7 +22247,7 @@ const CIGARS = [
     description: "The Blackbird Crow is the full-bodied flagship of this boutique brand. A dark Mexican wrapper draped over a Habano binder and a complex multi-country filler featuring Corojo Criollo 98 creates a medium-full to full body smoke with slow burn and smooth draw. Dark chocolate, earth, and pepper notes shine through, making the Crow a satisfying choice for experienced palates.",
     pairings: ["Bourbon", "Espresso", "Dark Porter"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/blackbird-crow-robusto-cigars-maduro-box-of-21","price":null}],
   },
   {
@@ -22340,7 +22340,7 @@ const CIGARS = [
     description: "The La Gloria Cubana Serie Spirit pays tribute to the Honduran tobacco tradition with a Honduran Corojo wrapper and domestic binder over Honduran and Nicaraguan long-fillers. A medium-bodied smoke with cedar, leather, and nut notes, the Spirit toro is an excellent everyday cigar that represents the accessible end of La Gloria Cubana's premium lineup.",
     pairings: ["Rum", "Coffee", "Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-gloria-cubana-serie-r-black-maduro-no-54-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -22364,7 +22364,7 @@ const CIGARS = [
     description: "The Brick House Double Connecticut uses Connecticut-seed tobacco in both the wrapper and binder — hence 'double' — for a silky, creamy, mild-to-medium profile. Built at the PENSA factory in Nicaragua's Jalapa region, this well-constructed toro delivers cream, cedar, and nutty sweetness with exceptional draw and burn consistency at an outstanding price point.",
     pairings: ["Champagne", "Light Rum", "Café Latte"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brick-house-connecticut-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -22388,7 +22388,7 @@ const CIGARS = [
     description: "The Brick House Natural is a classic Nicaraguan medium-bodied blend from the PENSA factory in Jalapa — one of Nicaragua's most celebrated tobacco regions. The Natural corona delivers a no-nonsense, flavorful smoke with cedar, coffee, and earthy nut notes. Brick House has built a loyal following for its outstanding quality-to-price ratio and the Jalapa pedigree behind every leaf.",
     pairings: ["Coffee", "Light Rum", "Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brick-house-connecticut-corona-larga-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -22412,7 +22412,7 @@ const CIGARS = [
     description: "The Nub Café Connecticut 460 is a uniquely infused cigar in the beloved Nub format — a 4 x 60 square-pressed stub that drops you immediately into the 'sweet spot' of the cigar where flavor is most concentrated. The Ecuadorian Connecticut wrapper over coffee-infused Nicaraguan Jalapa filler creates a smooth, creamy coffee-forward experience perfect for breakfast or afternoon pairing.",
     pairings: ["Coffee", "Café Latte", "Light Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/the-nub-club-460-cigars-varies-sampler-of-8","price":null}],
   },
   {
@@ -22436,7 +22436,7 @@ const CIGARS = [
     description: "The Nub Sun Grown 460 drops the shade-grown wrapper in favor of a boldly flavored Ecuadorian sun-grown leaf, creating a more robust, medium-full body compared to the classic Connecticut Nub. Produced at the Oliva factory in Jalapa, Nicaragua, this square-pressed 4 x 60 stub delivers earth, cedar, and coffee flavors from the very first puff — no wasted first third here.",
     pairings: ["Bourbon", "Coffee", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/the-nub-club-460-cigars-varies-sampler-of-8","price":null}],
   },
   {
@@ -22460,7 +22460,7 @@ const CIGARS = [
     description: "The Gurkha Royal Challenge is a smooth, medium-bodied cigar built for the everyday aficionado. A silky Ecuadorian Connecticut shade wrapper over a Honduran Habano binder and Nicaraguan/Dominican fillers creates a balanced, accessible profile with cream, cedar, and honey sweetness. Priced for daily enjoyment and available in five sizes, it's one of Gurkha's most widely distributed non-luxury lines.",
     pairings: ["Champagne", "Light Rum", "Café Latte"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gurkha-crest-toro-cigars-natural-single","price":null}],
   },
   {
@@ -22484,7 +22484,7 @@ const CIGARS = [
     description: "The Gurkha Ghost is a full-bodied maduro that lives up to its ominous name. Featuring a dark Honduran San Andrés-seed maduro wrapper over domestic binder and filler, the Ghost delivers a rich, bold combination of dark chocolate, cocoa, and earthly spice. A powerful smoke best enjoyed by experienced aficionados who appreciate a strong, flavorful challenge.",
     pairings: ["Bourbon", "Dark Rum", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gurkha-crest-toro-cigars-natural-single","price":null}],
   },
   {
@@ -22508,7 +22508,7 @@ const CIGARS = [
     description: "The Man O' War Virtue is AJ Fernandez's milder alternative to his powerful Man O' War Ruination line. A Connecticut shade wrapper over Dominican binder and filler creates a creamy, medium-bodied profile with cedar, nuts, and natural sweetness. An ideal introduction to the Man O' War brand for the aficionado who appreciates AJ Fernandez's craftsmanship but prefers a lighter smoke.",
     pairings: ["Champagne", "Café Latte", "Light Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/man-o-war-robusto-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -22532,7 +22532,7 @@ const CIGARS = [
     description: "The CAO Brazilia Gol! is named for the Brazilian soccer goal celebration, and its Brazilian Arapiraca wrapper is the star of the show. This dark, oily wrapper over Nicaraguan binder and Brazilian/Honduran fillers creates a medium-full body with distinctive earthy, coffee-forward character that sets it apart from other CAO blends. A tribute to the unique, complex character of Brazilian tobacco.",
     pairings: ["Rum", "Espresso", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cao-brazilia-gol-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -22556,7 +22556,7 @@ const CIGARS = [
     description: "The CAO Flathead is a tribute to American hot-rod culture and big engines, and the V660 Camshaft is its largest expression. A dark Brazilian Mata Fina maduro wrapper over a Nicaraguan binder and tri-country filler blend creates a medium-full body with dark chocolate, earth, and cedar character. The large 60-ring gauge offers a cool, smooth draw throughout this impressive big smoke.",
     pairings: ["Bourbon", "Dark Beer", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cao-flathead-camshaft-v554-cigars-maduro-single","price":null}],
   },
   {
@@ -22626,7 +22626,7 @@ const CIGARS = [
     description: "The Aging Room Quattro Nicaragua is blender Rafael Nodal's bold, full-flavored Nicaraguan expression. A Nicaraguan Habano wrapper over an all-Nicaraguan core creates a rich, medium-full body with leather, earth, espresso, and dark chocolate character. Building on the success of the Dominican Quattro Original, the Nicaragua expression demonstrates Nodal's mastery of Nicaragua's powerful tobacco terroir.",
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/aging-room-quattro-nicaragua-maestro-5pk-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -22650,7 +22650,7 @@ const CIGARS = [
     description: "The Aging Room Small Batch M356 is a laboratory of Dominican craftsmanship — blended in micro-batches by Rafael Nodal at Tabacalera William Ventura. The Ecuadorian Connecticut wrapper over Dominican binder and filler delivers a refined mild-to-medium profile with cream, cedar, and honey sweetness. Each small batch may vary slightly, making it a collector's choice for those who appreciate artisanal consistency.",
     pairings: ["Champagne", "Light Rum", "Café Latte"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/nestor-miranda-small-batch-toro-cigars-natural-single","price":null}],
   },
   {
@@ -22674,7 +22674,7 @@ const CIGARS = [
     description: "The Diamond Crown Maximus is a premium extension of the legendary Diamond Crown line, featuring tobaccos aged 12 years — far longer than standard premium cigars. The result is an ultra-smooth, creamy mild-to-medium body with cedar, vanilla, and honey notes that represent the absolute pinnacle of gentle, refined Dominican craftsmanship. A luxury smoke for those who prize subtlety and elegance.",
     pairings: ["Cognac", "Champagne", "Single Malt Scotch"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/diamond-crown-maximus-no-5-robusto-5-pack-cigars-dark-natural-pack-of-5","price":null}],
   },
   {
@@ -22698,7 +22698,7 @@ const CIGARS = [
     description: "The Camacho Ecuador showcases the versatility of Camacho's Honduran Jamastran tobaccos paired with an Ecuadorian Habano wrapper. This medium-full blend delivers a clean, focused flavor profile of cedar, earth, and leather with a Honduran spice signature that is unmistakably Camacho. A refined, accessible everyday smoke with the brand's signature bold character.",
     pairings: ["Bourbon", "Coffee", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/camacho-ecuador-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -22722,7 +22722,7 @@ const CIGARS = [
     description: "The Tatuaje Havana VI is Pete Johnson's tribute to the old Havana blending style — a Nicaraguan-crafted cigar built to evoke the soul of pre-revolution Cuban tobacco. An Ecuadorian Habano wrapper over a Nicaraguan core delivers a medium-full body with leather, cedar, espresso, and dark chocolate character. One of the most consistently excellent and accessible cigars in the Tatuaje portfolio.",
     pairings: ["Bourbon", "Dark Rum", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/tatuaje-havana-vi-angeles-cigars-natural-single","price":null}],
   },
   {
@@ -22746,7 +22746,7 @@ const CIGARS = [
     description: "The Tatuaje Black is the dark, maduro-adjacent alternative to the standard Brown Label, featuring a Mexican San Andrés wrapper for an earthier, fuller-bodied profile. Pete Johnson's Black line consistently earns high praise for its excellent construction and bold flavor delivery at an accessible price. An ideal choice for the Tatuaje enthusiast seeking more depth and intensity.",
     pairings: ["Bourbon", "Espresso", "Dark Porter"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/tatuaje-black-gran-toro-5-pk-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -22770,7 +22770,7 @@ const CIGARS = [
     description: "The E.P. Carrillo Encore Celestial is Ernesto Pérez-Carrillo's artisan showcase of Dominican tobacco at its finest. A Dominican wrapper, binder, and filler blend is enriched with Nicaraguan leaves for added complexity, delivering a medium-full body with cedar, earth, coffee, and leather notes. Built at Tabacalera La Alianza in the Dominican Republic, the Encore Celestial represents the brand at its most refined.",
     pairings: ["Cognac", "Bourbon", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/e-p-carrillo-endure-toro-cigars-dark-natural-pack-of-5","price":null}],
   },
   {
@@ -22794,7 +22794,7 @@ const CIGARS = [
     description: "The E.P. Carrillo Pledge Prequel is Ernesto Pérez-Carrillo's Nicaraguan powerhouse — a bold, medium-full to full-bodied blend featuring an Ecuadorian Habano wrapper over Nicaraguan Estelí and Jalapa fillers. The Pledge Prequel earned a 94-point rating for its exceptional tobacco quality and balance, delivering cedar, leather, and dark chocolate from start to finish with flawless construction.",
     pairings: ["Bourbon", "Espresso", "Dark Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/e-p-carrillo-endure-toro-cigars-dark-natural-pack-of-5","price":null}],
   },
   {
@@ -22841,7 +22841,7 @@ const CIGARS = [
     description: "The Southern Draw Jacob's Ladder is named for the biblical stairway to heaven — an apt name for a maduro that strives for elevation. The Broadleaf maduro wrapper over Nicaraguan binder and filler delivers a medium-full body with dark chocolate, coffee, earth, and leather complexity. Produced at the TABSA factory in Estelí, the Jacob's Ladder is one of the finest value maduros in the boutique market.",
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/southern-draw-jacobs-ladder-brimstone-perfecto-cigars-maduro-box-of-20","price":null}],
   },
   {
@@ -22865,7 +22865,7 @@ const CIGARS = [
     description: "Southern Draw Firethorn is named for the thorny ornamental shrub known for its vivid red berries — a reference to the cigar's vibrant, complex flavor profile. The Ecuadorian Habano wrapper over Nicaraguan Jalapa and Estelí fillers creates a medium-full body with cedar, leather, coffee, and spice notes. Robert Holt's Southern Draw brand consistently delivers artisan-quality blends with excellent tobacco sourcing.",
     pairings: ["Bourbon", "Coffee", "Dark Ale"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/southern-draw-manzanita-toro-cigars-natural-single","price":null}],
   },
   {
@@ -22958,7 +22958,7 @@ const CIGARS = [
     description: "The Kristoff Ligero Criollo is a full-bodied powerhouse built from top-shelf Honduran ligero and Criollo tobaccos. A Honduran Criollo wrapper over Honduran binder and pure ligero filler creates an intensely flavorful, full-strength smoke with earth, dark chocolate, and pepper character. For the experienced aficionado who craves maximum strength and complex Honduran tobacco character.",
     pairings: ["Peaty Scotch", "Bourbon", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/kristoff-ligero-criollo-robusto-cigars-natural-single","price":null}],
   },
   {
@@ -23005,7 +23005,7 @@ const CIGARS = [
     description: "The Perdomo ESX-B is Nick Perdomo's bold Ecuadorian broadleaf maduro expression — a step up in body and richness from the standard Habano line. The Ecuadorian broadleaf wrapper brings added depth of dark chocolate and coffee to the Nicaraguan Estelí core, creating a medium-full to full body with excellent balance and the flawless construction for which Perdomo is renowned.",
     pairings: ["Bourbon", "Espresso", "Dark Porter"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -23053,7 +23053,7 @@ const CIGARS = [
     description: "The Davidoff Primeros Dominican is a short, thin cigarillo designed for the quick, sophisticated smoking break. Despite its modest dimensions, this all-Dominican blend wrapped in Ecuadorian Connecticut delivers the classic Davidoff cream, cedar, and nutty sweetness in a compact format. Perfect for when time is limited but the desire for quality is not.",
     pairings: ["Espresso", "Champagne", "Cognac"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/davidoff-primeros-dominican-maduro-6-cigars-maduro-tin-of-6","price":null}],
   },
   {
@@ -23077,7 +23077,7 @@ const CIGARS = [
     description: "The Espinosa 601 Orange Label is a core release from Erik Espinosa's 601 series, named for Miami's area code — Espinosa's spiritual home. An Ecuadorian Habano wrapper over Nicaraguan binder and filler delivers a medium-full body with cedar, earth, coffee, and spice notes. Produced at the La Zona factory in Estelí, this is a workhorse blend with excellent construction and reliable, complex flavors.",
     pairings: ["Bourbon", "Coffee", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/601-blue-label-toro-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -23101,7 +23101,7 @@ const CIGARS = [
     description: "Las 6 Provincias is Espinosa's tribute to the six provinces of Cuba that contributed to the country's tobacco legacy. A Mexican San Andrés maduro wrapper over a complex Nicaraguan filler blend from Estelí, Jalapa, and Condega creates a medium-full body of dark chocolate, earth, and coffee. One of Erik Espinosa's most ambitious blends, it was awarded a 93-point rating by reviewers who praised its Cuban-inspired complexity.",
     pairings: ["Bourbon", "Espresso", "Dark Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/flor-de-las-antillas-toro-cigars-natural-single","price":null}],
   },
   {
@@ -23125,7 +23125,7 @@ const CIGARS = [
     description: "Named for Marie-Antoine Carême — the legendary 'King of Chefs' of the 19th century — the Crowned Heads Le Carême is a culinary-inspired cigar of exceptional refinement. The Ecuadorian Connecticut wrapper over Nicaraguan binder and filler delivers a mild-to-medium profile of cream, cedar, vanilla, and nuts that channels the same elegance and precision as the chef for whom it is named.",
     pairings: ["Champagne", "White Wine", "Café Latte"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/crowned-heads-tennessee-waltz-toro-cigars-maduro-single","price":null}],
   },
   {
@@ -23149,7 +23149,7 @@ const CIGARS = [
     description: "The Crowned Heads Luminosa is Jon Huber and Matt Booth's tribute to the glowing, luminescent character of great tobacco. An Ecuadorian Habano wrapper over Nicaraguan binder and filler creates a medium-bodied smoke with cedar, coffee, and earthy nut notes. Luminosa is the more accessible counterpart to the brand's heavier Jericho Hill and Mil Días expressions.",
     pairings: ["Bourbon", "Coffee", "Light Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/crowned-heads-tennessee-waltz-toro-cigars-maduro-single","price":null}],
   },
   {
@@ -23173,7 +23173,7 @@ const CIGARS = [
     description: "The Aganorsa Leaf JFR Maduro Toro is built on the foundation of Aganorsa's prized Jalapa-grown Corojo tobaccos wrapped in a dark Connecticut Broadleaf. The result is a medium-full body of dark chocolate, coffee, and cedar with earthy Jalapa character throughout. Aganorsa's ownership of its Nicaraguan farms gives this cigar exceptional tobacco quality and consistency that punches well above its price.",
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/aganorsa-leaf-maduro-toro-5-pack-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -23197,7 +23197,7 @@ const CIGARS = [
     description: "The Guardian of the Farm is Aganorsa's flagship puro — a fully Nicaraguan Corojo blend from their own farms in Jalapa. Every leaf from wrapper to filler was grown on Aganorsa's estate, making this one of the truest farm-to-cigar expressions in the industry. Medium-full bodied with leather, cedar, earth, and pepper complexity, this is Jalapa Corojo tobacco at its unfiltered best.",
     pairings: ["Bourbon", "Espresso", "Dark Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -23221,7 +23221,7 @@ const CIGARS = [
     description: "The Foundation Tabernacle Maduro is Nicholas Melillo's dark counterpart to the natural Tabernacle. A Connecticut Broadleaf wrapper over Honduran binder and Honduran/Nicaraguan filler creates a medium-full body of dark chocolate, coffee, cedar, and leather. Named after the sacred sanctuary of ancient Israel, the Tabernacle Maduro is a reverent, complex smoke that has become one of Foundation's most celebrated releases.",
     pairings: ["Bourbon", "Espresso", "Dark Stout"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/foundation-the-wise-man-maduro-lancero-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -23291,7 +23291,7 @@ const CIGARS = [
     description: "La Flor Dominicana's Coronado is Litto Gomez's tribute to the classic Dominican cigar tradition. The Ecuadorian Habano wrapper over Dominican binder and filler delivers a medium body of cedar, coffee, nuts, and cream. Made at LFD's own factory in Santiago, the Coronado demonstrates Gomez's mastery of Dominican tobacco in a straightforward, satisfying everyday blend.",
     pairings: ["Rum", "Coffee", "Craft Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-coronado-corona-especial-cigars-dark-natural-single","price":null}],
   },
   {
@@ -23315,7 +23315,7 @@ const CIGARS = [
     description: "The La Flor Dominicana Air Bender is a full Dominican puro that showcases the depth and complexity possible from the island's tobacco. Litto Gomez blends Dominican wrapper, binder, and filler into a medium-full body of cedar, leather, coffee, and dark chocolate. Made at the LFD factory in Santiago, the Air Bender is a testament to Gomez's belief that Dominican tobacco can achieve full-bodied power without sacrificing finesse.",
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-air-bender-valiente-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -23339,7 +23339,7 @@ const CIGARS = [
     description: "The Plasencia Reserva Original is a straightforward expression of the Plasencia family's Nicaraguan heritage. Using Jalapa-grown tobacco throughout, this medium-bodied puro delivers consistent cedar, coffee, and earth notes with a creamy finish. At an outstanding price point, the Reserva Original is a go-to choice for anyone seeking reliable, daily-quality Nicaraguan tobacco backed by one of the industry's most trusted growing families.",
     pairings: ["Rum", "Coffee", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/plasencia-reserva-original-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -23363,7 +23363,7 @@ const CIGARS = [
     description: "Cosecha 146 is named for the latitude of Jalapa, Nicaragua — the heart of Plasencia's growing region. A Nicaraguan Habano wrapper over a complex tri-region filler of Jalapa, Estelí, and Ometepe creates a medium-full body of leather, dark chocolate, cedar, and coffee. This 94-rated blend represents one of the finest achievements from the Plasencia family's recent boutique releases.",
     pairings: ["Bourbon", "Espresso", "Dark Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/plasencia-cosecha-151-san-diego-5-pk-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -23387,7 +23387,7 @@ const CIGARS = [
     description: "Named for the year the Romeo y Julieta brand was founded in Havana, the 1875 Toro is the accessible core line of this storied brand's non-Cuban portfolio. A smooth Ecuadorian Connecticut wrapper over Honduran binder and multi-country filler delivers a mild-to-medium smoke of cream, cedar, and honey sweetness. One of the most widely available and reliably pleasant everyday cigars on the market.",
     pairings: ["Light Rum", "Champagne", "Café Latte"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [],
   },
   {
@@ -23411,7 +23411,7 @@ const CIGARS = [
     description: "AJ Fernandez's New World Connecticut brings his masterful Nicaraguan tobacco sourcing to a milder, Connecticut-wrapped format. The Ecuadorian Connecticut wrapper over Nicaraguan binder and filler creates a smooth, mild-to-medium body of cream, cedar, and honey sweetness that showcases how even AJ's lighter blends carry complexity and balance. An excellent entry-point into the Fernandez portfolio.",
     pairings: ["Champagne", "Café Latte", "Light Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/aj-fernandez-new-world-puro-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -23435,7 +23435,7 @@ const CIGARS = [
     description: "The AJ Fernandez Bellas Artes — Spanish for 'fine arts' — is a celebration of Nicaraguan tobacco as high craft. A Cuban-seed Habano wrapper over Nicaraguan binder and Estelí/Jalapa fillers creates a medium-full body with leather, cedar, coffee, and dark chocolate character. Produced at Tabacalera Fernandez in Estelí, the Bellas Artes demonstrates Fernandez's artisan approach to blending complex, accessible Nicaraguan cigars.",
     pairings: ["Bourbon", "Espresso", "Dark Rum"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/bellas-artes-by-aj-fernandez-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -23505,7 +23505,7 @@ const CIGARS = [
     description: "The Herrera Estelí Habano is Will Herrera and Willy Herrera's most straightforward expression of Nicaraguan Habano tobacco. A Jalapa-grown Habano wrapper over Estelí and Jalapa fillers creates a medium-full body of leather, cedar, and earthy pepper notes. Made at Drew Estate's La Gran Fabrica in Estelí, the Habano line is an honest, powerful daily cigar from one of the industry's most talented young blending teams.",
     pairings: ["Bourbon", "Coffee", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/herrera-esteli-toro-cigars-natural-single","price":null}],
   },
   {
@@ -23529,7 +23529,7 @@ const CIGARS = [
     description: "The Herrera Estelí Norteño features an unusual Pennsylvania Broadleaf wrapper — a nod to the Northern U.S. tobacco heritage implied by its name. Over Honduran binder and Nicaraguan/Honduran filler, this wrapper produces a dark, rich, medium-full body of chocolate, earth, and leather. A bold departure from the standard Herrera Estelí profile and one of the most distinctive offerings in their catalog.",
     pairings: ["Bourbon", "Dark Stout", "Espresso"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/herrera-esteli-toro-cigars-natural-single","price":null}],
   },
   {
@@ -23576,7 +23576,7 @@ const CIGARS = [
     description: "The Protocol Forgotten Soldier is a tribute to the veterans and fallen who are too often overlooked. A Connecticut Broadleaf maduro wrapper over Nicaraguan binder and filler creates a medium-full body of dark chocolate, coffee, and cedar at a price that respects the working-class spirit of the cigar's name. A sincere, well-crafted maduro that consistently outperforms expectations.",
     pairings: ["Bourbon", "Espresso", "Dark Beer"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/factory-smokes-maduro-toro-cigars-maduro-bundle-of-25","price":null}],
   },
   {
@@ -23600,7 +23600,7 @@ const CIGARS = [
     description: "Named for the French champagne region, the Illusione Epernay is Dion Giolito's most refined expression — a cigar that prioritizes elegance and creaminess over brute strength. A Nicaraguan Corojo wrapper over Jalapa filler delivers a medium-full body with cream, cedar, coffee, and vanilla notes that evolve gracefully through three distinct thirds. One of the most complex and rewarding medium-strength cigars from this boutique Nevada brand.",
     pairings: ["Champagne", "Cognac", "Single Malt Scotch"],
     yearFounded: 2000,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/illusione-epernay-lalpinste-bench-pressed-torpedo-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -23694,7 +23694,7 @@ const CIGARS = [
     description: "La Barba Red is the flagship line from Tony Bellatto's boutique brand, blending Ecuadorian Habano Colorado with a hearty Nicaraguan core. It delivers a satisfying medium-full experience packed with cedar, coffee, and a distinctive red pepper spice that fades into a smooth earthy leather finish.",
     pairings: ["Colombian Coffee", "Aged Rum", "Craft Lager"],
     yearFounded: 2013,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/casa-de-garcia-centenario-red-label-robusto-cigars-natural-bundle-of-25","price":null}],
   },
   {
@@ -23741,7 +23741,7 @@ const CIGARS = [
     description: "The Rojas Unfinished Business Robusto is a compact powerhouse from Nick Melillo's boutique brand, delivering intense Nicaraguan character in a shorter format. Bold black pepper, leather, and deep espresso notes make it a go-to for seasoned enthusiasts seeking full flavors in under an hour.",
     pairings: ["Espresso", "Rye Whiskey", "Aged Gouda"],
     yearFounded: 2016,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rojas-factory-overruns-unfinished-business-mareva-cigars-dark-natural-bundle-of-20","price":null}],
   },
   {
@@ -23788,7 +23788,7 @@ const CIGARS = [
     description: "StillWell Star No. 1 is a boutique collaboration that showcases Dominican terroir under a luxurious Ecuadorian Habano wrapper. The blend produces complex layers of dried cherry, cinnamon spice, and fine cedar that evolve gracefully across a 60-minute smoke.",
     pairings: ["Cognac", "Pinot Noir", "Almond Biscotti"],
     yearFounded: 2018,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/stillwell-star-aromatic-no22-cigars-natural-single","price":null}],
   },
   {
@@ -23881,7 +23881,7 @@ const CIGARS = [
     description: "The Aging Room Quattro Nicaragua Maestro is an elegant long-format cigar showcasing Rafael Nodal's mastery with Jalapa valley tobaccos. The extended smoke allows the blend's complex cedar, dark fruit, and espresso flavors to evolve beautifully through three distinct thirds.",
     pairings: ["Single Malt Whisky", "Black Coffee", "Dried Apricot"],
     yearFounded: 2011,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/aging-room-quattro-nicaragua-maestro-5pk-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -23928,7 +23928,7 @@ const CIGARS = [
     description: "The 601 La Bomba Warhead lives up to its explosive name as Erik Espinosa's most full-bodied release, detonating with intense black pepper, leather, and earth from the first draw. It is not for the faint of heart, but experienced smokers will find deep complexity beneath its bold strength.",
     pairings: ["Cask Strength Bourbon", "Strong Espresso", "Dark Stout"],
     yearFounded: 2003,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/601-la-bomba-warhead-11-limited-edition-cigars-maduro-single","price":null}],
   },
   {
@@ -23952,7 +23952,7 @@ const CIGARS = [
     description: "The Laranja Reserva Corona is a beautifully approachable Connecticut smoke from Espinosa that carries a subtle orange citrus sweetness unique to this line. A shorter format that still showcases the cream, vanilla, and cedar complexity that earned the Laranja series its following.",
     pairings: ["Orange Blossom Tea", "Light Lager", "White Chocolate"],
     yearFounded: 2003,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/laranja-reserva-corona-gorda-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -24022,7 +24022,7 @@ const CIGARS = [
     description: "Caldwell's Blind Man's Bluff Connecticut is a surprise hit from a brand known for bolder blends, delivering outstanding creaminess and balance at a remarkable value. The smooth Ecuadorian wrapper envelops almond, cream, and lightly toasted cedar in a satisfying medium smoke.",
     pairings: ["Flat White", "Honey Wheat Ale", "Brie"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/caldwell-blind-mans-bluff-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -24069,7 +24069,7 @@ const CIGARS = [
     description: "The Crux Bull & Bear Toro extends the celebrated Bull & Bear blend into a larger format, allowing the Ecuadorian Habano wrapper to fully express its oily, leathery complexity. A longer burn time delivers more cedar and coffee notes as the toro progresses through its final third.",
     pairings: ["Single Malt Scotch", "Americano", "Dark Fruit Preserve"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/crux-bull-bear-toro-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -24093,7 +24093,7 @@ const CIGARS = [
     description: "The Crux Epicure Toro offers the same refined Connecticut creaminess as the beloved robusto in a more leisurely 60-minute format. Smooth, consistent, and beautifully constructed, it rewards the patient smoker with evolving notes of cream, cedar, and toasted nuts.",
     pairings: ["Chardonnay", "Café Latte", "Cashews"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/crux-epicure-maduro-toro-5pk-cigars-maduro-pack-of-5","price":null}],
   },
   {
@@ -24117,7 +24117,7 @@ const CIGARS = [
     description: "The Crux Guild Corona packs the Guild line's earthy Nicaraguan character into a streamlined format ideal for a shorter smoke break. Concentrated cedar, earth, and coffee flavors come through clearly, with a satisfying spice note on the retrohale.",
     pairings: ["Doppio Espresso", "Craft IPA", "Cheddar"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/crux-guild-corona-5pk-cigars-natural-pack-of-5","price":null}],
   },
   {
@@ -24164,7 +24164,7 @@ const CIGARS = [
     description: "Viaje's Skull & Bones El Catrin is an annual Halloween-themed limited release that pairs a dark San Andres Maduro wrapper with deeply complex Nicaraguan fillers. Rich dark chocolate, espresso, and earthy leather create a hauntingly good smoke worthy of its macabre branding.",
     pairings: ["Bourbon", "Dark Rum", "Bittersweet Chocolate"],
     yearFounded: 2010,
-    limited: true
+    limited: true,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/viaje-skull-bones-wolverine-cigars-dark-natural-bundle-of-25","price":null}],
   },
   {
@@ -24188,7 +24188,7 @@ const CIGARS = [
     description: "The Liga Privada No. 9 Coronet delivers the full, complex flavors of Drew Estate's iconic blend in a quick 25-minute format. Despite its small size, the dark Broadleaf Maduro wrapper still imparts intense dark chocolate, espresso, and pepper complexity.",
     pairings: ["Espresso", "Bourbon Neat", "Dark Chocolate Square"],
     yearFounded: 2006,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-privada-no9-coronets-tin-of-10-cigars-maduro-tin-of-10","price":null}],
   },
   {
@@ -24235,7 +24235,7 @@ const CIGARS = [
     description: "The Tatuaje Havana VI Robusto Extra is a beefier take on Pete Johnson's flagship Havana VI line, adding extra length and ring gauge for a longer, richer smoke. The wider format opens up the blend's cedar, leather, and espresso complexity while adding a smoother, more refined finish.",
     pairings: ["Single Barrel Bourbon", "Café Cubano", "Dark Rum"],
     yearFounded: 2003,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/tatuaje-havana-vi-angeles-cigars-natural-single","price":null}],
   },
   {
@@ -24259,7 +24259,7 @@ const CIGARS = [
     description: "La Opulencia is José 'Pepin' Garcia's luxury expression for My Father Cigars, featuring a sumptuous Nicaraguan Habano Oscuro wrapper grown in the fertile Jalapa valley. It is richly complex with dark fruit, cedar, and espresso layers befitting its opulent name.",
     pairings: ["Cognac VSOP", "Aged Rum", "Dark Berry Preserve"],
     yearFounded: 2009,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/my-father-la-opulencia-robusto-cigars-maduro-box-of-20","price":null}],
   },
   {
@@ -24306,7 +24306,7 @@ const CIGARS = [
     description: "HVC's Hot Cake Robusto earned its name by flying off shelves the moment it hits retailers, owing to its exceptional value and consistent quality. The Ecuadorian Connecticut wrapper over a Jalapa Nicaraguan core delivers warm baking spice, vanilla cream, and cedar in a smooth, approachable package.",
     pairings: ["Maple Latte", "Light Ale", "Buttercream Pastry"],
     yearFounded: 2014,
-    limited: false
+    limited: false,
     buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/hvc-hot-cake-golden-line-connecticut-coronas-gordas-5-pack-cigars-natural-pack-of-5","price":null}],
   },
   {
