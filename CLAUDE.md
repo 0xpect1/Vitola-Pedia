@@ -60,11 +60,78 @@ Each cigar object in `CIGARS` array follows this shape:
 - When adding new cigars, update **both** `js/data.js` and `data/cigars.json` to keep them in sync.
 - **Where to Buy** auto-generates search links to 5 US retailers (or 3 international retailers for Cuban cigars) for every cigar. Preferred retailers (in priority order): Cigars International, Cigar Page, Famous Smoke Shop, JR Cigars, Smoke Inn. If `buyLinks` is provided on a cigar, those specific product links are shown first, sorted cheapest-first with "Best Price" badge on the cheapest entry.
 
-## After Adding Cigars — Always Update These
+## Adding New Cigars — Complete Checklist (MANDATORY)
 
-Whenever cigars are added to `js/data.js`:
-1. Update `README.md` — the count in the description (`690+ cigars`) to reflect the new approximate count rounded down to nearest 10.
-2. **Find and add product images** — for each new cigar, search for a direct product image URL on famous-smoke.com or cigarsinternational.com (look for the `og:image` meta tag on the product page) and add it as the `image` field. The URL must end in `.jpg`, `.jpeg`, `.png`, or `.webp`. If no image can be found, omit the field entirely — cards render fine without it.
+Every cigar added to `js/data.js` MUST be complete from day one. Never add a cigar with placeholder data or missing fields. Do all of the following before committing:
+
+### 1. Fill all schema fields
+All fields in the schema above are required. No empty strings, no `null` for required fields, no guessed values — research each field accurately.
+
+### 2. Find a product image
+Search for a direct product photo URL on famous-smoke.com or cigarsinternational.com. Use Puppeteer to load the product page and extract the `og:image` meta tag value. The URL must end in `.jpg`, `.jpeg`, `.png`, or `.webp`. If absolutely no image can be found after searching both sites, omit the `image` field entirely (cards render fine without it).
+
+### 3. Find direct buy links for ALL retailers (REQUIRED)
+
+**This is the most important step.** Every cigar must have `buyLinks` populated with direct product page URLs — not search URLs. Users must land on the exact product page with one click.
+
+Use Puppeteer to search each retailer and extract the first matching product URL:
+
+**US retailers (non-Cuban cigars):**
+```js
+buyLinks: [
+  { retailer: "Famous Smoke Shop",    url: "https://www.famous-smoke.com/{product-slug}",                        price: null },
+  { retailer: "JR Cigars",            url: "https://www.jrcigars.com/item/{brand}/{product}/{code}.html",        price: null },
+  { retailer: "Neptune Cigar",        url: "https://www.neptunecigar.com/cigar/{slug}",                         price: null },
+  { retailer: "Cigars International", url: "https://www.cigarsinternational.com/p/{slug}/{id}/",                 price: null },
+]
+```
+
+**Cuban cigars only:**
+```js
+buyLinks: [
+  { retailer: "Havana House", url: "https://www.havanahouse.co.uk/product/{slug}/", price: null },
+  { retailer: "C.Gars Ltd",   url: "https://www.cgarsltd.co.uk/{slug}-p-{id}.html", price: null },
+]
+```
+
+**How to find URLs for a new cigar using Puppeteer:**
+```js
+// Famous Smoke — search and extract product slug from DOM
+await page.goto(`https://www.famous-smoke.com/search?q=${encodeURIComponent(name)}`);
+// Product URLs match: /-cigars-/ in the path at root level
+
+// JR Cigars — sitemap has all 10,600+ products at:
+// https://www.jrcigars.com/sitemap_0-product.xml
+// URLs pattern: /item/{brand}/{product}/{code}.html
+
+// Neptune — brand page: https://www.neptunecigar.com/{brand-slug}-cigar
+// Product URLs pattern: /cigar/{slug}
+
+// Cigars International — sitemap has all 6,100+ products at:
+// https://www.cigarsinternational.com/sitemap.xml
+// URLs pattern: /p/{slug}/{id}/
+
+// Havana House — category: https://www.havanahouse.co.uk/product-category/cigars/cuban/{brand}/
+// Product URLs pattern: /product/{slug}/
+
+// C.Gars — category: https://www.cgarsltd.co.uk/cuban-cigars-{brand}-c-{id}.html
+// Product URLs pattern: /{slug}-p-{id}.html
+```
+
+If a retailer genuinely doesn't stock the cigar (very niche/boutique brands), omit that retailer from `buyLinks` — the app will auto-generate a search fallback for it.
+
+### 4. Verify all URLs return 200
+Before committing, confirm each `buyLinks` URL actually loads (not 404). Cloudflare on CI/JR may return 403 to bots but will work fine for real users — that's acceptable.
+
+### 5. Update README.md count
+Update the cigar count in `README.md` to reflect the new total (round down to nearest 10).
+
+### 6. Syntax check
+After editing `js/data.js`, always verify no JS syntax errors were introduced:
+```bash
+node -e "const c=require('fs').readFileSync('js/data.js','utf8'); eval(c.replace(/^const /gm,'var ')); console.log('OK:', CIGARS.length);"
+```
+Common mistake: inserting a `buyLinks:` line after `limited: false` without adding a comma to the preceding line. Always add the comma.
 
 ## Running Locally
 
