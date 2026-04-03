@@ -770,6 +770,45 @@ function initFlavorSearch() {
   const $clr   = document.getElementById('flavorSearchClr');
   const $drop  = document.getElementById('flavorDropdown');
 
+  const PREVIEW_CATEGORIES = [
+    { label: 'Earth & Wood',    keywords: ['earth','cedar','wood','barnyard','hay','grass','tobacco','damp','dark earth','charred wood','smoked wood','dark wood','light cedar','mild cedar','toasted cedar','sweet cedar','rich tobacco'] },
+    { label: 'Spice',           keywords: ['pepper','spice','cinnamon','clove','nutmeg','anise','chili','licorice','star anise'] },
+    { label: 'Coffee & Cocoa',  keywords: ['coffee','espresso','mocha','cocoa','chocolate','cacao','dark roast'] },
+    { label: 'Cream & Sweet',   keywords: ['cream','vanilla','caramel','honey','butter','sugar','toast','almond','nut','waffle','oatmeal','graham','marshmallow','milk chocolate','sweet','molasses'] },
+    { label: 'Leather & Smoke', keywords: ['leather','tar','charcoal','smoke','hickory','campfire','mesquite','bbq','latakia'] },
+    { label: 'Floral & Fruit',  keywords: ['floral','cherry','raisin','fruit','plum','grape','citrus','orange','apricot','herbal','herb','dried herb','earl grey'] },
+  ];
+
+  function buildPreviewHtml() {
+    let html = '';
+    const used = new Set();
+    for (const cat of PREVIEW_CATEGORIES) {
+      const matches = allFlavors.filter(f => {
+        const fl = f.toLowerCase();
+        return !used.has(f) && cat.keywords.some(k => fl.includes(k));
+      });
+      if (!matches.length) continue;
+      matches.forEach(f => used.add(f));
+      html += `<li class="flavor-dd-header">${cat.label}</li>`;
+      html += matches.map(f => `<li>${f}</li>`).join('');
+    }
+    // Anything uncategorised
+    const rest = allFlavors.filter(f => !used.has(f));
+    if (rest.length) {
+      html += `<li class="flavor-dd-header">Other</li>`;
+      html += rest.map(f => `<li>${f}</li>`).join('');
+    }
+    return html;
+  }
+
+  const previewHtml = buildPreviewHtml();
+
+  function showPreview() {
+    $drop.innerHTML = previewHtml;
+    $drop.classList.remove('hidden');
+    $drop.scrollTop = 0;
+  }
+
   function clearFlavorSearch() {
     $input.value = '';
     $input.classList.remove('flavor-active');
@@ -783,35 +822,39 @@ function initFlavorSearch() {
     $input.classList.add('flavor-active');
     $clr.classList.add('visible');
     $drop.classList.add('hidden');
-    // Deactivate all pills
     document.querySelectorAll('#flavorFilter .pill').forEach(p => p.classList.remove('active'));
     state.flavor = note;
     render();
   }
 
+  $input.addEventListener('focus', () => {
+    if (!$input.value.trim()) showPreview();
+  });
+
   $input.addEventListener('input', () => {
-    const q = $input.value.trim().toLowerCase();
+    const q = $input.value.trim();
     if (!q) {
-      clearFlavorSearch();
-      // Restore 'All' pill active state
+      $input.classList.remove('flavor-active');
+      $clr.classList.remove('visible');
+      showPreview();
       const allPill = document.querySelector('#flavorFilter .pill[data-value="all"]');
       if (allPill) allPill.classList.add('active');
       state.flavor = 'all';
       render();
       return;
     }
-    const matches = allFlavors.filter(f => f.toLowerCase().includes(q));
+    const matches = allFlavors.filter(f => f.toLowerCase().includes(q.toLowerCase()));
     $drop.innerHTML = matches.map(f => `<li>${f}</li>`).join('');
     $drop.classList.toggle('hidden', matches.length === 0);
     $clr.classList.add('visible');
     $input.classList.add('flavor-active');
-    state.flavor = $input.value.trim();
+    state.flavor = q;
     render();
   });
 
   $drop.addEventListener('click', e => {
     const li = e.target.closest('li');
-    if (!li) return;
+    if (!li || li.classList.contains('flavor-dd-header')) return;
     applyFlavorNote(li.textContent);
   });
 
@@ -823,14 +866,12 @@ function initFlavorSearch() {
     render();
   });
 
-  // Close dropdown when clicking outside
   document.addEventListener('click', e => {
     if (!e.target.closest('.flavor-search-wrap')) {
       $drop.classList.add('hidden');
     }
   });
 
-  // Expose clear fn for resetAll
   window._clearFlavorSearch = clearFlavorSearch;
 }
 

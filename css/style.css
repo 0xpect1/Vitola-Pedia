@@ -348,6 +348,18 @@ img { max-width: 100%; display: block; }
   color: var(--text-primary);
 }
 .flavor-dropdown li:hover { background: var(--gold-glow); color: var(--gold-light); }
+.flavor-dropdown li.flavor-dd-header {
+  padding: 10px 12px 4px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: default;
+  pointer-events: none;
+  border-top: 1px solid var(--border);
+}
+.flavor-dropdown li.flavor-dd-header:first-child { border-top: none; }
 
 .pill {
   padding: 5px 12px;
