@@ -9192,6 +9192,7 @@ const CIGARS = [
   {
     id: "ramon-allones-specially-selected",
     name: "Ramon Allones Specially Selected",
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/ramonspeciallyselected2.jpg",
     brand: "Ramon Allones",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -17691,6 +17692,7 @@ const CIGARS = [
   {
     id: "la-palina-lp01-robusto",
     name: "La Palina LP Number 1 Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/1/1/1145103941la-palina-classic.png",
     brand: "La Palina",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -17715,6 +17717,7 @@ const CIGARS = [
   {
     id: "la-palina-lp02-robusto",
     name: "La Palina LP Number 2 Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/1/1/1145103941la-palina-classic.png",
     brand: "La Palina",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -17964,6 +17967,7 @@ const CIGARS = [
   {
     id: "quesada-tributo-julio",
     name: "Quesada Tributo Julio",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/7/2/72305965quesada-reserva-privada.png",
     brand: "Quesada",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -18012,6 +18016,7 @@ const CIGARS = [
   {
     id: "quesada-seleccion-espana-short-robusto",
     name: "Quesada Selección España Short Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/7/2/72305965quesada-reserva-privada.png",
     brand: "Quesada",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -18036,6 +18041,7 @@ const CIGARS = [
   {
     id: "cornelius-anthony-venganza-judge",
     name: "Cornelius & Anthony Venganza Judge",
+    image: "http://images.neptunecigar.com/avimg/39559.jpg",
     brand: "Cornelius & Anthony",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18060,6 +18066,7 @@ const CIGARS = [
   {
     id: "cornelius-anthony-daddy-mac-toro",
     name: "Cornelius & Anthony Daddy Mac Toro",
+    image: "http://images.neptunecigar.com/avimg/39556.jpg",
     brand: "Cornelius & Anthony",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18083,6 +18090,7 @@ const CIGARS = [
   {
     id: "cornelius-anthony-aerial-robusto",
     name: "Cornelius & Anthony Aerial Robusto",
+    image: "http://images.neptunecigar.com/avimg/39559.jpg",
     brand: "Cornelius & Anthony",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18207,6 +18215,7 @@ const CIGARS = [
   {
     id: "crux-guild-toro",
     name: "Crux Guild Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2016/07/Crux-Guild-Robusto-Extra-3.jpg",
     brand: "Crux Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18256,6 +18265,7 @@ const CIGARS = [
   {
     id: "5-vegas-gold-double-nickel",
     name: "5 Vegas Gold Double Nickel",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/5/-/5-vegas-2025.png",
     brand: "5 Vegas",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18280,6 +18290,7 @@ const CIGARS = [
   {
     id: "5-vegas-triple-a-box-press",
     name: "5 Vegas Triple-A Box-Press",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/5/-/5-vegas-2025.png",
     brand: "5 Vegas",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18304,6 +18315,7 @@ const CIGARS = [
   {
     id: "5-vegas-classic-torpedo",
     name: "5 Vegas Classic Torpedo",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/5/-/5-vegas-2025.png",
     brand: "5 Vegas",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18428,6 +18440,7 @@ const CIGARS = [
   {
     id: "j-fuego-origen-toro",
     name: "J. Fuego Origen Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/5/0/504280779j.-fuego-americano.png",
     brand: "J. Fuego",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18452,6 +18465,7 @@ const CIGARS = [
   {
     id: "j-fuego-heat-robusto",
     name: "J. Fuego Heat Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/5/0/504280779j.-fuego-americano.png",
     brand: "J. Fuego",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18526,6 +18540,7 @@ const CIGARS = [
   {
     id: "dapper-el-borracho-toro",
     name: "Dapper El Borracho Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2022/08/El-Borracho-San-Andres-Belicoso-2.jpg",
     brand: "Dapper Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18550,6 +18565,7 @@ const CIGARS = [
   {
     id: "dapper-desvalido-robusto",
     name: "Dapper Desvalido Robusto",
+    image: "https://halfwheel.com/wp-content/uploads/2020/12/Desvalido-Toro-2.jpg",
     brand: "Dapper Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18573,6 +18589,7 @@ const CIGARS = [
   {
     id: "dapper-cubo-sumatra-toro",
     name: "Dapper Cubo Sumatra Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2019/03/Cubo-Sumatra-3.jpg",
     brand: "Dapper Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18597,6 +18614,7 @@ const CIGARS = [
   {
     id: "protocol-themis-toro",
     name: "Protocol Themis Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2018/02/Protocol-Themis-Toro-3.jpg",
     brand: "Protocol Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18620,6 +18638,7 @@ const CIGARS = [
   {
     id: "protocol-probable-cause-lancero",
     name: "Protocol Probable Cause Lancero",
+    image: "https://halfwheel.com/wp-content/uploads/2016/09/Protocol-Probable-Cause-1-.jpg",
     brand: "Protocol Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18643,6 +18662,7 @@ const CIGARS = [
   {
     id: "protocol-john-doe-20",
     name: "Protocol John Doe 2.0",
+    image: "https://halfwheel.com/wp-content/uploads/2016/09/Protocol-Probable-Cause-1-.jpg",
     brand: "Protocol Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18691,6 +18711,7 @@ const CIGARS = [
   {
     id: "ace-prime-pichardo-san-andres-toro",
     name: "Pichardo Reserva Familiar San Andrés Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2021/02/M.X.S.-Adrian-Gonzalez-El-Titan-2.jpg",
     brand: "Ace Prime",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18715,6 +18736,7 @@ const CIGARS = [
   {
     id: "ace-prime-mxs-dominique-wilkins",
     name: "ACE Prime M.X.S. Dominique Wilkins",
+    image: "https://halfwheel.com/wp-content/uploads/2021/02/M.X.S.-Adrian-Gonzalez-El-Titan-2.jpg",
     brand: "Ace Prime",
     origin: "Nicaragua",
     region: "Estelí",
@@ -18739,6 +18761,7 @@ const CIGARS = [
   {
     id: "serino-royale-medio-robusto-gordo",
     name: "Serino Royale Medio Robusto Gordo",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/s/e/serino-royale-maduro.png",
     brand: "Serino Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -18763,6 +18786,7 @@ const CIGARS = [
   {
     id: "serino-royale-maduro-xx-toro",
     name: "Serino Royale Maduro XX Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/s/e/serino-royale-maduro.png",
     brand: "Serino Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -18787,6 +18811,7 @@ const CIGARS = [
   {
     id: "serino-royale-connecticut-churchill",
     name: "Serino Royale Connecticut Churchill",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/s/e/serino-royale-maduro.png",
     brand: "Serino Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -18936,6 +18961,7 @@ const CIGARS = [
   {
     id: "quesada-espana-fabulosos",
     name: "Quesada Selección España Fabulosos",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/7/2/72305965quesada-reserva-privada.png",
     brand: "Quesada",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -18960,6 +18986,7 @@ const CIGARS = [
   {
     id: "serino-talon-toro",
     name: "Serino Talon Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/s/e/serino-royale-maduro.png",
     brand: "Serino Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -19833,6 +19860,7 @@ const CIGARS = [
   {
     id: "viaje-skull-and-bones-frank-castle",
     name: "Viaje Skull and Bones Frank Castle",
+    image: "https://halfwheel.com/wp-content/uploads/2022/12/Viaje-Skull-and-Bones-Vitolas.jpg",
     brand: "Viaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -19857,6 +19885,7 @@ const CIGARS = [
   {
     id: "viaje-skull-and-bones-ten-ton-tess",
     name: "Viaje Skull and Bones Ten Ton Tess",
+    image: "https://halfwheel.com/wp-content/uploads/2022/12/Viaje-Skull-and-Bones-Vitolas.jpg",
     brand: "Viaje",
     origin: "Dominican Republic",
     region: "Santiago",
@@ -19906,6 +19935,7 @@ const CIGARS = [
   {
     id: "dunbarton-sobremesa-cervantes-fino",
     name: "Dunbarton Sobremesa Cervantes Fino",
+    image: "https://halfwheel.com/wp-content/uploads/2020/09/Sobremesa-Brulee-Blue-2.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -20129,6 +20159,7 @@ const CIGARS = [
   {
     id: "tatuaje-cojonu-2003",
     name: "Tatuaje Cojonú 2003",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/t/a/tatuaje_2-coj.png",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20153,6 +20184,7 @@ const CIGARS = [
   {
     id: "tatuaje-cojonu-2006",
     name: "Tatuaje Cojonú 2006",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/t/a/tatuaje_2-coj.png",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20202,6 +20234,7 @@ const CIGARS = [
   {
     id: "tatuaje-wolfman-redux4",
     name: "Tatuaje The Wolfman Redux 4",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/t/a/tatuaje_2-coj.png",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20325,6 +20358,7 @@ const CIGARS = [
   {
     id: "camacho-powerband-toro",
     name: "Camacho Powerband Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/c/a/camacho-corojo_4.png",
     brand: "Camacho",
     origin: "Nicaragua",
     region: "Estelí",
@@ -20899,6 +20933,7 @@ const CIGARS = [
   {
     id: "dunbarton-muestra-de-saka-exclusivo-toro",
     name: "Dunbarton Muestra de Saka Exclusivo Toro",
+    image: "http://images.neptunecigar.com/avimg/39460.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -21073,6 +21108,7 @@ const CIGARS = [
   {
     id: "la-flor-dominicana-andalusian-bull-toro",
     name: "La Flor Dominicana Andalusian Bull Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/l/a/la-flor-dominicana-andalusian-bull_2.png",
     brand: "La Flor Dominicana",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -21172,6 +21208,7 @@ const CIGARS = [
   {
     id: "perdomo-habano-bourbon-barrel-aged-maduro-robusto",
     name: "Perdomo Habano Bourbon Barrel-Aged Maduro Robusto",
+    image: "http://images.neptunecigar.com/avimg/37329.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21271,6 +21308,7 @@ const CIGARS = [
   {
     id: "foundation-tabernacle-toro",
     name: "Foundation Tabernacle Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/f/o/foundation-10-year-aniversario-salomon.png",
     brand: "Foundation Cigar Company",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -21320,6 +21358,7 @@ const CIGARS = [
   {
     id: "dunbarton-sobremesa-toro",
     name: "Dunbarton Sobremesa Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2020/09/Sobremesa-Brulee-Blue-2.jpg",
     brand: "Dunbarton Tobacco & Trust",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -21569,6 +21608,7 @@ const CIGARS = [
   {
     id: "la-flor-dominicana-chapter-one-toro",
     name: "La Flor Dominicana Chapter One Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/l/a/la-flor-dominicana-chapter-1_1.png",
     brand: "La Flor Dominicana",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -21618,6 +21658,7 @@ const CIGARS = [
   {
     id: "viaje-honey-hand-grenades-toro",
     name: "Viaje Honey and Hand Grenades Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2023/03/Viaje-Honey-and-Hand-Grenades-Falchion.jpg",
     brand: "Viaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21641,6 +21682,7 @@ const CIGARS = [
   {
     id: "espinosa-alpha-dawg-toro",
     name: "Espinosa Alpha Dawg Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2014/09/Espinosa-Habano-Corona.jpg",
     brand: "Espinosa Premium Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21665,6 +21707,7 @@ const CIGARS = [
   {
     id: "perdomo-habano-bourbon-barrel-aged-natural-toro",
     name: "Perdomo Habano Bourbon Barrel-Aged Natural Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2016/12/Perdomo-20th-Anniversary-Connecticut-Gordo-December-2016-14-1.jpg",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21789,6 +21832,7 @@ const CIGARS = [
   {
     id: "liga-privada-unico-dirty-rat",
     name: "Liga Privada Unico Serie Dirty Rat",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/l/i/liga-privada-_9-belicoso.png",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21813,6 +21857,7 @@ const CIGARS = [
   {
     id: "liga-privada-unico-ratzilla",
     name: "Liga Privada Unico Serie Ratzilla",
+    image: "http://images.neptunecigar.com/avimg/39675.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21837,6 +21882,7 @@ const CIGARS = [
   {
     id: "liga-privada-unico-papas-fritas",
     name: "Liga Privada Unico Serie Papas Fritas",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/l/i/liga-privada-_9-belicoso.png",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -21861,6 +21907,7 @@ const CIGARS = [
   {
     id: "liga-privada-unico-feral-flying-pig",
     name: "Liga Privada Unico Serie Feral Flying Pig",
+    image: "http://halfwheel.com/wp-content/uploads/2014/02/Liga-Privada-Feral-Flying-Pig.jpg",
     brand: "Drew Estate",
     origin: "Nicaragua",
     region: "Estelí",
@@ -22185,6 +22232,7 @@ const CIGARS = [
   {
     id: "punch-champion-robusto",
     name: "Punch Champion Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/p/u/punch-gran-cru_3.png",
     brand: "Punch",
     origin: "Honduras",
     region: "Danlí",
@@ -22334,6 +22382,7 @@ const CIGARS = [
   {
     id: "diesel-unlimited-d.x.-toro",
     name: "Diesel Unlimited D.X. Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/d/i/diesel-unlimited-d7_2.png",
     brand: "Diesel",
     origin: "Honduras",
     region: "Danlí",
@@ -22608,6 +22657,7 @@ const CIGARS = [
   {
     id: "la-barba-red-corona-gorda",
     name: "La Barba Red Corona Gorda",
+    image: "http://images.neptunecigar.com/avimg/39553.jpg",
     brand: "La Barba",
     origin: "Honduras",
     region: "Jamastran",
@@ -22632,6 +22682,7 @@ const CIGARS = [
   {
     id: "la-barba-ricochet-toro",
     name: "La Barba Ricochet Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2018/12/La-Barba-Ricochet-1.jpg",
     brand: "La Barba",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -22705,6 +22756,7 @@ const CIGARS = [
   {
     id: "rojas-unfinished-business-corona-gorda",
     name: "Rojas Unfinished Business Corona Gorda",
+    image: "https://halfwheel.com/wp-content/uploads/2020/11/Rojas-Street-Tacos-band-feature.jpg",
     brand: "Rojas Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -22729,6 +22781,7 @@ const CIGARS = [
   {
     id: "rojas-unfinished-business-toro",
     name: "Rojas Unfinished Business Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2020/11/Rojas-Street-Tacos-band-feature.jpg",
     brand: "Rojas Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -22853,6 +22906,7 @@ const CIGARS = [
   {
     id: "ventura-archetype-initiation-toro",
     name: "Ventura Archetype Initiation Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2017/03/Archetype-Initiation-Corona-3.jpg",
     brand: "Ventura Cigar Co.",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -22876,6 +22930,7 @@ const CIGARS = [
   {
     id: "ventura-case-study-cs03-toro",
     name: "Ventura Case Study CS/03 Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2018/07/Case-Study-13.jpg",
     brand: "Ventura Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23224,6 +23279,7 @@ const CIGARS = [
   {
     id: "aging-room-small-batch-m356-toro",
     name: "Aging Room Small Batch M356 Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/a/g/aging-room-small-batch.png",
     brand: "Aging Room",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -23497,6 +23553,7 @@ const CIGARS = [
   {
     id: "illusione-888-toro",
     name: "Illusione 888 Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/i/l/illusione.jpg",
     brand: "Illusione",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -23520,6 +23577,7 @@ const CIGARS = [
   {
     id: "protocol-probable-cause-toro",
     name: "Protocol Probable Cause Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2016/09/Protocol-Probable-Cause-1-.jpg",
     brand: "Protocol",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23593,6 +23651,7 @@ const CIGARS = [
   {
     id: "perdomo-esx-b-toro",
     name: "Perdomo ESX-B Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/p/e/perdomo-10th-anniversary-champagne_3.png",
     brand: "Perdomo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -23667,6 +23726,7 @@ const CIGARS = [
   {
     id: "espinosa-601-orange-label-toro",
     name: "Espinosa 601 Orange Label Toro",
+    image: "http://images.neptunecigar.com/avimg/33040.jpg",
     brand: "Espinosa Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24166,6 +24226,7 @@ const CIGARS = [
   {
     id: "protocol-blue-line-toro",
     name: "Protocol Blue Line Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2021/06/Protocol-Gordo-6x60-feature.jpg",
     brand: "Protocol",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24190,6 +24251,7 @@ const CIGARS = [
   {
     id: "protocol-forgotten-soldier-toro",
     name: "Protocol Forgotten Soldier Maduro Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2021/06/Protocol-Gordo-6x60-feature.jpg",
     brand: "Protocol",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24339,6 +24401,7 @@ const CIGARS = [
   {
     id: "la-barba-ricochet-robusto",
     name: "La Barba Ricochet Robusto",
+    image: "https://halfwheel.com/wp-content/uploads/2018/12/La-Barba-Ricochet-1.jpg",
     brand: "La Barba Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -24362,6 +24425,7 @@ const CIGARS = [
   {
     id: "rojas-unfinished-business-robusto",
     name: "Rojas Unfinished Business Robusto",
+    image: "https://halfwheel.com/wp-content/uploads/2020/11/Rojas-Street-Tacos-band-feature.jpg",
     brand: "Rojas Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24436,6 +24500,7 @@ const CIGARS = [
   {
     id: "ventura-archetype-american-hero",
     name: "Ventura Archetype American Hero",
+    image: "https://halfwheel.com/wp-content/uploads/2016/09/Archetype-Strange-Passage-August-2016-12.jpg",
     brand: "Ventura Cigar Co.",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -24459,6 +24524,7 @@ const CIGARS = [
   {
     id: "ventura-case-study-no-13",
     name: "Ventura Case Study No. 13",
+    image: "https://halfwheel.com/wp-content/uploads/2018/07/Case-Study-13.jpg",
     brand: "Ventura Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24682,6 +24748,7 @@ const CIGARS = [
   {
     id: "caldwell-all-out-kings",
     name: "Caldwell All Out Kings",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/c/a/caldwell-all-out-kings.png",
     brand: "Caldwell Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24755,6 +24822,7 @@ const CIGARS = [
   {
     id: "crux-guild-corona",
     name: "Crux Guild Corona",
+    image: "https://halfwheel.com/wp-content/uploads/2016/07/Crux-Guild-Robusto-Extra-3.jpg",
     brand: "Crux Cigar Co.",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24779,6 +24847,7 @@ const CIGARS = [
   {
     id: "viaje-honey-hand-grenades",
     name: "Viaje Honey & Hand Grenades Sweet & Spicy",
+    image: "https://halfwheel.com/wp-content/uploads/2023/03/Viaje-Honey-and-Hand-Grenades-Falchion.jpg",
     brand: "Viaje Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24802,6 +24871,7 @@ const CIGARS = [
   {
     id: "viaje-skull-bones-el-catrin",
     name: "Viaje Skull & Bones El Catrin",
+    image: "https://halfwheel.com/wp-content/uploads/2022/12/Viaje-Skull-and-Bones-Vitolas.jpg",
     brand: "Viaje Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24926,6 +24996,7 @@ const CIGARS = [
   {
     id: "perdomo-craft-bourbon-barrel-aged-toro",
     name: "Perdomo Craft Series Bourbon Barrel-Aged Toro",
+    image: "http://images.neptunecigar.com/avimg/38484.jpg",
     brand: "Perdomo Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -24975,6 +25046,7 @@ const CIGARS = [
   {
     id: "mombacho-clasico-robusto",
     name: "Mombacho Clasico Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/1/2/1255245751mombacho-tierra-volcan.png",
     brand: "Mombacho Cigars",
     origin: "Nicaragua",
     region: "Granada",
@@ -25348,6 +25420,7 @@ const CIGARS = [
   {
     id: "cohiba-robustos-supremos",
     name: "Cohiba Robustos Supremos",
+    image: "https://halfwheel.com/wp-content/uploads/2015/04/Cohiba-Robustos-Supremos-Edicion-Limitada-2014-3.jpg",
     brand: "Cohiba",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27772,6 +27845,7 @@ const CIGARS = [
   {
     id: "san-cristobal-el-castillo",
     name: "San Cristóbal El Castillo",
+    image: "https://halfwheel.com/wp-content/uploads/2021/03/San-Cristobal-de-La-Habana-20-Aniversario-2.jpg",
     brand: "San Cristóbal de la Habana",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27796,6 +27870,7 @@ const CIGARS = [
   {
     id: "san-cristobal-la-punta",
     name: "San Cristóbal La Punta",
+    image: "https://halfwheel.com/wp-content/uploads/2021/03/San-Cristobal-de-La-Habana-20-Aniversario-2.jpg",
     brand: "San Cristóbal de la Habana",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -27820,6 +27895,7 @@ const CIGARS = [
   {
     id: "san-cristobal-quinteto",
     name: "San Cristóbal Quinteto",
+    image: "https://halfwheel.com/wp-content/uploads/2021/03/San-Cristobal-de-La-Habana-20-Aniversario-2.jpg",
     brand: "San Cristóbal de la Habana",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28394,6 +28470,7 @@ const CIGARS = [
   {
     id: "rafael-gonzalez-coronas-extra",
     name: "Rafael González Coronas Extra",
+    image: "https://halfwheel.com/wp-content/uploads/2018/04/Rafael-Gonzlez-88-Edicion-Regional-Asia-Pacific-2016-3.jpg",
     brand: "Rafael González",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28418,6 +28495,7 @@ const CIGARS = [
   {
     id: "rafael-gonzalez-lonsdale",
     name: "Rafael González Lonsdale",
+    image: "https://halfwheel.com/wp-content/uploads/2018/04/Rafael-Gonzlez-88-Edicion-Regional-Asia-Pacific-2016-3.jpg",
     brand: "Rafael González",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -28442,6 +28520,7 @@ const CIGARS = [
   {
     id: "rafael-gonzalez-panetela-extras",
     name: "Rafael González Panetela Extras",
+    image: "https://halfwheel.com/wp-content/uploads/2018/04/Rafael-Gonzlez-88-Edicion-Regional-Asia-Pacific-2016-3.jpg",
     brand: "Rafael González",
     origin: "Cuba",
     region: "Vuelta Abajo",
@@ -31567,6 +31646,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-time-for-fun-toro",
     name: "E.P. Carrillo Time For Fun Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2019/07/E.P.-Carrillo-10th-Anniversary-La-Historia-and-Encore-Box.jpg",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -31641,6 +31721,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-dusk-till-dawn-robusto",
     name: "E.P. Carrillo Dusk Till Dawn Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/e/p/ep-carrillo-dusk_2.png",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -31665,6 +31746,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-seleccion-oscuro-toro",
     name: "E.P. Carrillo Selección Oscuro Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/e/-/e-p-carrillo-seleccion-oscuro.png",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -31739,6 +31821,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-encantos-robusto",
     name: "E.P. Carrillo Encantos Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/e/p/ep-carrillo.png",
     brand: "E.P. Carrillo",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -31863,6 +31946,7 @@ const CIGARS = [
   {
     id: "camacho-sp-habano-robusto",
     name: "Camacho SP Habano Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/c/a/camacho-corojo_4.png",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -31912,6 +31996,7 @@ const CIGARS = [
   {
     id: "camacho-powerband-robusto",
     name: "Camacho Powerband Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/c/a/camacho-corojo_4.png",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -31986,6 +32071,7 @@ const CIGARS = [
   {
     id: "camacho-bravura-robusto",
     name: "Camacho Bravura Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/c/a/camacho-corojo_4.png",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -32410,6 +32496,7 @@ const CIGARS = [
   {
     id: "camacho-powerband-gordo",
     name: "Camacho Powerband Gordo",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/c/a/camacho-corojo_4.png",
     brand: "Camacho",
     origin: "Honduras",
     region: "Jamastran",
@@ -32609,6 +32696,7 @@ const CIGARS = [
   {
     id: "ep-carrillo-elencos-toro",
     name: "E.P. Carrillo Elencos Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/e/p/ep-carrillo.png",
     brand: "E.P. Carrillo",
     origin: "Nicaragua",
     region: "Estelí",
@@ -32833,6 +32921,7 @@ const CIGARS = [
   {
     id: "principle-cigars-accomplice-habano-robusto",
     name: "Principle Accomplice Habano Robusto",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Principle Cigars",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -32857,6 +32946,7 @@ const CIGARS = [
   {
     id: "principle-cigars-accomplice-connecticut-robusto",
     name: "Principle Accomplice Connecticut Robusto",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Principle Cigars",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -32881,6 +32971,7 @@ const CIGARS = [
   {
     id: "principle-cigars-el-caballero-robusto",
     name: "Principle El Caballero Robusto",
+    image: "https://halfwheel.com/wp-content/uploads/2025/06/Principle-Cigars-Boy-Band-Vol-1-Jochy-1-scaled.jpg",
     brand: "Principle Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -32905,6 +32996,7 @@ const CIGARS = [
   {
     id: "principle-cigars-momento-dios-robusto",
     name: "Principle Momento Dios Robusto",
+    image: "https://halfwheel.com/wp-content/uploads/2025/06/Principle-Cigars-Boy-Band-Vol-1-Jochy-1-scaled.jpg",
     brand: "Principle Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -32929,6 +33021,7 @@ const CIGARS = [
   {
     id: "principle-cigars-isleno-robusto",
     name: "Principle Isleño Robusto",
+    image: "https://halfwheel.com/wp-content/uploads/2025/06/Principle-Cigars-Boy-Band-Vol-1-Jochy-1-scaled.jpg",
     brand: "Principle Cigars",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -32953,6 +33046,7 @@ const CIGARS = [
   {
     id: "principle-cigars-cardinal-robusto",
     name: "Principle Cardinal Robusto",
+    image: "https://halfwheel.com/wp-content/uploads/2025/06/Principle-Cigars-Boy-Band-Vol-1-Jochy-1-scaled.jpg",
     brand: "Principle Cigars",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -33027,6 +33121,7 @@ const CIGARS = [
   {
     id: "alec-bradley-star-navigator-robusto",
     name: "Alec Bradley Star Navigator Robusto",
+    image: "http://images.neptunecigar.com/avimg/39544.jpg",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -33126,6 +33221,7 @@ const CIGARS = [
   {
     id: "alec-bradley-taste-of-the-town-robusto",
     name: "Alec Bradley Taste of the Town Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/a/l/alec-bradley-maxx-2022.png",
     brand: "Alec Bradley",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -33275,6 +33371,7 @@ const CIGARS = [
   {
     id: "espinosa-murcielago-toro",
     name: "Espinosa Murcielago Toro",
+    image: "http://images.neptunecigar.com/avimg/33255.jpg",
     brand: "Espinosa Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -33299,6 +33396,7 @@ const CIGARS = [
   {
     id: "espinosa-alpha-dawg-gordo",
     name: "Espinosa Alpha Dawg Gordo",
+    image: "https://halfwheel.com/wp-content/uploads/2014/09/Espinosa-Habano-Corona.jpg",
     brand: "Espinosa Cigars",
     origin: "Nicaragua",
     region: "Estelí",
@@ -33323,6 +33421,7 @@ const CIGARS = [
   {
     id: "la-palina-gramercy-toro",
     name: "La Palina Gramercy Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/1/1/1145103941la-palina-classic.png",
     brand: "La Palina",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -33397,6 +33496,7 @@ const CIGARS = [
   {
     id: "la-palina-el-diario-toro",
     name: "La Palina El Diario Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/1/1/1145103941la-palina-classic.png",
     brand: "La Palina",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -33421,6 +33521,7 @@ const CIGARS = [
   {
     id: "la-palina-lp03-robusto",
     name: "La Palina LP03 Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/1/1/1145103941la-palina-classic.png",
     brand: "La Palina",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -33445,6 +33546,7 @@ const CIGARS = [
   {
     id: "la-palina-sunday-smoke-robusto",
     name: "La Palina Sunday Smoke Robusto",
+    image: "https://halfwheel.com/wp-content/uploads/2022/03/La-Palina-125-Anos-2.jpg",
     brand: "La Palina",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -33519,6 +33621,7 @@ const CIGARS = [
   {
     id: "room-101-new-york-robusto",
     name: "Room 101 New York Robusto",
+    image: "http://images.neptunecigar.com/avimg/34198.jpg",
     brand: "Room 101",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -33793,6 +33896,7 @@ const CIGARS = [
   {
     id: "la-palina-gramercy-robusto",
     name: "La Palina Gramercy Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/1/1/1145103941la-palina-classic.png",
     brand: "La Palina",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -33842,6 +33946,7 @@ const CIGARS = [
   {
     id: "principle-cigars-accomplice-habano-toro",
     name: "Principle Accomplice Habano Toro",
+    image: "http://images.neptunecigar.com/prodimgl/non.jpg",
     brand: "Principle Cigars",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -33941,6 +34046,7 @@ const CIGARS = [
   {
     id: "tatuaje-arsenal-robusto",
     name: "Tatuaje Arsenal Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/t/a/tatuaje_2-coj.png",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -33965,6 +34071,7 @@ const CIGARS = [
   {
     id: "tatuaje-arsenal-toro",
     name: "Tatuaje Arsenal Toro",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/t/a/tatuaje_2-coj.png",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -33989,6 +34096,7 @@ const CIGARS = [
   {
     id: "tatuaje-noches-de-paris-robusto",
     name: "Tatuaje Noches de Paris Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/t/a/tatuaje_2-coj.png",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -34013,6 +34121,7 @@ const CIGARS = [
   {
     id: "tatuaje-coronado-robusto",
     name: "Tatuaje Coronado Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/t/a/tatuaje_2-coj.png",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -34112,6 +34221,7 @@ const CIGARS = [
   {
     id: "tatuaje-petit-cazadores",
     name: "Tatuaje Petit Cazadores",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/t/a/tatuaje_2-coj.png",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -34286,6 +34396,7 @@ const CIGARS = [
   {
     id: "kristoff-uva-robusto",
     name: "Kristoff Uva Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/k/r/kristoff-ligero-maduro.png",
     brand: "Kristoff",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -34335,6 +34446,7 @@ const CIGARS = [
   {
     id: "ezra-zion-tantrum-toro",
     name: "Ezra Zion Tantrum Toro",
+    image: "http://www.ezrazionstore.com/cdn/shop/products/CEE35454-357A-42CB-8631-19A94830753B.jpg?v=1645114394",
     brand: "Ezra Zion",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -34359,6 +34471,7 @@ const CIGARS = [
   {
     id: "ezra-zion-fhk-toro",
     name: "Ezra Zion FHK Toro",
+    image: "http://www.ezrazionstore.com/cdn/shop/products/0509BE45-A8D8-4ECE-B59A-3904163A8D12.jpg?v=1645114095",
     brand: "Ezra Zion",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -34383,6 +34496,7 @@ const CIGARS = [
   {
     id: "ezra-zion-possession-robusto",
     name: "Ezra Zion Possession Robusto",
+    image: "http://www.ezrazionstore.com/cdn/shop/files/IMG_5550.png?v=1768838042",
     brand: "Ezra Zion",
     origin: "Nicaragua",
     region: "Estelí",
@@ -34407,6 +34521,7 @@ const CIGARS = [
   {
     id: "ezra-zion-section-1-robusto",
     name: "Ezra Zion Section 1 Robusto",
+    image: "http://www.ezrazionstore.com/cdn/shop/products/54E1150F-D423-425D-8F80-AAB964A6C424.png?v=1646754747",
     brand: "Ezra Zion",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -34431,6 +34546,7 @@ const CIGARS = [
   {
     id: "ezra-zion-inception-robusto",
     name: "Ezra Zion Inception Robusto",
+    image: "http://www.ezrazionstore.com/cdn/shop/products/3CD597E4-8A71-4C4C-AA67-59FCBBACCA62.png?v=1645113290",
     brand: "Ezra Zion",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -34455,6 +34571,7 @@ const CIGARS = [
   {
     id: "ezra-zion-collaboration-robusto",
     name: "Ezra Zion Collaboration Robusto",
+    image: "http://www.ezrazionstore.com/cdn/shop/products/5C6A7B76-1C58-4721-A54E-B3396BCBE10B.png?v=1679927804",
     brand: "Ezra Zion",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -34479,6 +34596,7 @@ const CIGARS = [
   {
     id: "hvc-first-selection-toro",
     name: "HVC First Selection Toro",
+    image: "http://images.neptunecigar.com/avimg/39999.jpg",
     brand: "HVC",
     origin: "Nicaragua",
     region: "Estelí",
@@ -34678,6 +34796,7 @@ const CIGARS = [
   {
     id: "ferio-tego-magnum-opus-toro",
     name: "Ferio Tego Magnum Opus Toro",
+    image: "http://images.neptunecigar.com/avimg/42735.jpg",
     brand: "Ferio Tego",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -34702,6 +34821,7 @@ const CIGARS = [
   {
     id: "ferio-tego-toro-de-fuego-robusto",
     name: "Ferio Tego Toro de Fuego Robusto",
+    image: "http://images.neptunecigar.com/avimg/42735.jpg",
     brand: "Ferio Tego",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -34726,6 +34846,7 @@ const CIGARS = [
   {
     id: "viaje-circa-robusto",
     name: "Viaje Circa Robusto",
+    image: "https://halfwheel.com/wp-content/uploads/2018/02/Viaje-Circa-45-Maduro-Vitolas.jpg",
     brand: "Viaje Cigar",
     origin: "Nicaragua",
     region: "Estelí",
@@ -34750,6 +34871,7 @@ const CIGARS = [
   {
     id: "viaje-skull-and-bones-robusto",
     name: "Viaje Skull and Bones Robusto",
+    image: "https://halfwheel.com/wp-content/uploads/2022/12/Viaje-Skull-and-Bones-Vitolas.jpg",
     brand: "Viaje Cigar",
     origin: "Nicaragua",
     region: "Estelí",
@@ -34774,6 +34896,7 @@ const CIGARS = [
   {
     id: "viaje-wlp-robusto",
     name: "Viaje WLP Robusto",
+    image: "https://halfwheel.com/wp-content/uploads/2022/04/Viaje-WLP-Amuse-Bouche-II-2.jpg",
     brand: "Viaje Cigar",
     origin: "Nicaragua",
     region: "Estelí",
@@ -34798,6 +34921,7 @@ const CIGARS = [
   {
     id: "viaje-exclusivo-florida-robusto",
     name: "Viaje Exclusivo Florida Robusto",
+    image: "https://halfwheel.com/wp-content/uploads/2016/08/Viaje-Exclusivo-Reserva-Robusto-3.jpg",
     brand: "Viaje Cigar",
     origin: "Nicaragua",
     region: "Estelí",
@@ -34822,6 +34946,7 @@ const CIGARS = [
   {
     id: "viaje-honey-and-money-toro",
     name: "Viaje Honey and Money Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2023/03/Viaje-Honey-and-Hand-Grenades-Falchion.jpg",
     brand: "Viaje Cigar",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -34846,6 +34971,7 @@ const CIGARS = [
   {
     id: "ace-prime-lucia-robusto",
     name: "ACE Prime Lucía Robusto",
+    image: "http://images.neptunecigar.com/avimg/42921.jpg",
     brand: "ACE Prime",
     origin: "Nicaragua",
     region: "Estelí",
@@ -34870,6 +34996,7 @@ const CIGARS = [
   {
     id: "ace-prime-lucia-toro",
     name: "ACE Prime Lucía Toro",
+    image: "http://images.neptunecigar.com/avimg/42921.jpg",
     brand: "ACE Prime",
     origin: "Nicaragua",
     region: "Estelí",
@@ -34894,6 +35021,7 @@ const CIGARS = [
   {
     id: "ace-prime-muestra-de-saka-nacatamale",
     name: "ACE Prime Muestra de Saka Nacatamale",
+    image: "https://halfwheel.com/wp-content/uploads/2020/09/Sobremesa-Brulee-Blue-2.jpg",
     brand: "ACE Prime",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -34918,6 +35046,7 @@ const CIGARS = [
   {
     id: "ace-prime-muestra-de-saka-mionca",
     name: "ACE Prime Muestra de Saka Mionca",
+    image: "https://halfwheel.com/wp-content/uploads/2020/09/Sobremesa-Brulee-Blue-2.jpg",
     brand: "ACE Prime",
     origin: "Nicaragua",
     region: "Ometepe",
@@ -34942,6 +35071,7 @@ const CIGARS = [
   {
     id: "ace-prime-mona-y-lisa-corona",
     name: "ACE Prime Mona & Lisa Corona",
+    image: "https://halfwheel.com/wp-content/uploads/2020/08/Pichardo-Maduro.jpeg",
     brand: "ACE Prime",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -34966,6 +35096,7 @@ const CIGARS = [
   {
     id: "ace-prime-mona-y-lisa-toro",
     name: "ACE Prime Mona & Lisa Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2020/08/Pichardo-Maduro.jpeg",
     brand: "ACE Prime",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -35040,6 +35171,7 @@ const CIGARS = [
   {
     id: "tatuaje-arsenal-belicoso",
     name: "Tatuaje Arsenal Belicoso",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/t/a/tatuaje_2-coj.png",
     brand: "Tatuaje",
     origin: "Nicaragua",
     region: "Estelí",
@@ -35064,6 +35196,7 @@ const CIGARS = [
   {
     id: "kristoff-gc-natural-robusto",
     name: "Kristoff GC Natural Robusto",
+    image: "https://www.holts.com/media//categoryimage//thumb/600x600/k/r/kristoff-ligero-maduro.png",
     brand: "Kristoff",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -35088,6 +35221,7 @@ const CIGARS = [
   {
     id: "ezra-zion-encore-robusto",
     name: "Ezra Zion Encore Robusto",
+    image: "http://www.ezrazionstore.com/cdn/shop/products/1EB861D2-6224-4489-8A94-0C08D1DD2A31.png?v=1645113225",
     brand: "Ezra Zion",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -35112,6 +35246,7 @@ const CIGARS = [
   {
     id: "hvc-4-you-robusto",
     name: "HVC 4 You Robusto",
+    image: "http://images.neptunecigar.com/avimg/39981.jpg",
     brand: "HVC",
     origin: "Nicaragua",
     region: "Estelí",
@@ -35136,6 +35271,7 @@ const CIGARS = [
   {
     id: "viaje-oro-reserva-robusto",
     name: "Viaje Oro Reserva Robusto",
+    image: "https://halfwheel.com/wp-content/uploads/2014/05/Viaje-Oro-Lancero-3.jpg",
     brand: "Viaje Cigar",
     origin: "Nicaragua",
     region: "Jalapa",
@@ -35160,6 +35296,7 @@ const CIGARS = [
   {
     id: "ace-prime-fiat-lux-toro",
     name: "ACE Prime Fiat Lux Toro",
+    image: "http://images.neptunecigar.com/avimg/42681.jpg",
     brand: "ACE Prime",
     origin: "Nicaragua",
     region: "Estelí",
@@ -35184,6 +35321,7 @@ const CIGARS = [
   {
     id: "ferio-tego-generosidad-gran-toro",
     name: "Ferio Tego Generosidad Gran Toro",
+    image: "http://images.neptunecigar.com/avimg/42735.jpg",
     brand: "Ferio Tego",
     origin: "Dominican Republic",
     region: "Cibao Valley",
@@ -35233,6 +35371,7 @@ const CIGARS = [
   {
     id: "ezra-zion-commencement-toro",
     name: "Ezra Zion Commencement Toro",
+    image: "http://www.ezrazionstore.com/cdn/shop/products/0509BE45-A8D8-4ECE-B59A-3904163A8D12.jpg?v=1645114095",
     brand: "Ezra Zion",
     origin: "Honduras",
     region: "Jamastran Valley",
@@ -35282,6 +35421,7 @@ const CIGARS = [
   {
     id: "viaje-exclusivo-nicaragua-toro",
     name: "Viaje Exclusivo Nicaragua Toro",
+    image: "https://halfwheel.com/wp-content/uploads/2019/04/Viaje-Exclusivo-Nicaragua-Leaded-Corona-Gorda-Edicion-Limitada-3.jpg",
     brand: "Viaje Cigar",
     origin: "Nicaragua",
     region: "Estelí",
