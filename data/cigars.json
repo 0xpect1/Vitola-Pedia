@@ -3619,11 +3619,6 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/baccarat-jawn-ttt_trinidad-jawn_roasted-nicaraguan_overruns-black_label_trading_co-the_upsetters-scratch_blends-gispert-dunbarton_tobacco_and_trust-megilla__-display-gilberto_oliva-davidoff-romeo_y_julieta-henry_clay-double_nicaraguans-chillin_moose-drew_estate-cavalier-black_swan-java-murcielago-cohiba-class_34-hoyo_de_monterrey-bdl-merchants_queen-liga_privada_unico_serie-guardian_of_the_farm-rocky_patel-esteban_carerra-dominican_overruns-roma_craft-jfr-oliva-aganorsa_leaf-cao-oscar-los_statos-a_flores-ortega_-sancho_panza-foundation_cigar_co-san_lotano-la_gloria_cubana-macanudo-espinosa-jad-roly_long_filler-avo-cle-cusano-montesino.html",
         "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Rocky-Patel-Decade-10-Pack-HWD.html",
-        "price": null
       }
     ]
   },
@@ -7393,68 +7388,6 @@
     ]
   },
   {
-    "id": "cao-nicaragua",
-    "name": "CAO Nicaragua",
-    "brand": "CAO",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Honduran",
-    "binder": "Honduran",
-    "filler": "Nicaraguan",
-    "strength": 3,
-    "smokingTime": 55,
-    "price": 9,
-    "rating": 90,
-    "flavors": [
-      "Earth",
-      "Coffee",
-      "Cedar",
-      "Mild Pepper",
-      "Leather",
-      "Hay"
-    ],
-    "size": "Robusto",
-    "length": 5,
-    "ringGauge": 50,
-    "popularity": 6,
-    "description": "A counterintuitive cigar — Honduran wrapper and binder over Nicaraguan filler, made for CAO at their Honduran factory. The result is a more laid-back, medium-bodied profile that showcases Nicaraguan earthy complexity without the full pepper punch of a true Nicaraguan puro. An accessible, food-friendly everyday smoke.",
-    "pairings": [
-      "Coffee",
-      "Light Beer",
-      "Bourbon"
-    ],
-    "yearFounded": 2013,
-    "limited": false,
-    "image": "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/coi/ci-coi-tipm.jpg",
-    "buyLinks": [
-      {
-        "retailer": "Famous Smoke Shop",
-        "url": "https://www.famous-smoke.com/cao-nicaragua-tipitapa-cigars-natural-single",
-        "price": null
-      },
-      {
-        "retailer": "Cigars International",
-        "url": "https://www.cigarsinternational.com/p/cao-nicaragua-cigars/2014966/",
-        "price": null
-      },
-      {
-        "retailer": "Neptune Cigar",
-        "url": "https://www.neptunecigar.com/cigar/cao-nicaragua",
-        "price": null
-      },
-      {
-        "retailer": "JR Cigars",
-        "url": "https://www.jrcigars.com/item/cao-brazilia/gol/CBG.html",
-        "price": null
-      },
-      {
-        "retailer": "Cigar Page",
-        "url": "https://www.cigarpage.com/cigars/cao.html",
-        "price": null
-      }
-    ]
-  },
-  {
     "id": "cao-flathead-v660",
     "name": "CAO Flathead V660",
     "brand": "CAO",
@@ -9133,11 +9066,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/illusione-garagiste.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Illusione-Garagiste-Short-Robusto-5-Pack-Clearance.html",
         "price": null
       }
     ]
@@ -11419,11 +11347,6 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/cigars/new-world-puro-especial-by-aj-fernandez.html",
         "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/AJ-Fernandez-New-World-Dorado-Figurado-Clearance.html",
-        "price": null
       }
     ]
   },
@@ -11486,11 +11409,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/cigars/enclave-broadleaf-by-aj-fernandez.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Taste-of-Nicaragua-Sampler-by-AJ-Fernandez.html",
         "price": null
       }
     ]
@@ -11615,11 +11533,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/cigars/last-call-maduro-by-aj-fernandez.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Taste-of-Nicaragua-Sampler-by-AJ-Fernandez.html",
         "price": null
       }
     ]
@@ -12377,11 +12290,6 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/caldwell-long-live-the-king.html",
         "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Caldwell-Long-Live-The-King-Manzanita-HWD.html",
-        "price": null
       }
     ]
   },
@@ -12444,11 +12352,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/cigars/caldwell-eastern-standard.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Caldwell-Eastern-Standard-Euro-Express-HWD.html",
         "price": null
       }
     ]
@@ -13142,54 +13045,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/601-blue-label-maduro.html",
-        "price": null
-      }
-    ]
-  },
-  {
-    "id": "ramon-allones-specially-selected",
-    "name": "Specially Selected",
-    "brand": "Ramón Allones",
-    "origin": "Cuba",
-    "region": "Vuelta Abajo",
-    "wrapper": "Cuban Colorado Maduro",
-    "binder": "Cuban",
-    "filler": "Cuban Vuelta Abajo",
-    "strength": 4,
-    "smokingTime": 50,
-    "price": 22,
-    "rating": 95,
-    "flavors": [
-      "Dark Chocolate",
-      "Leather",
-      "Earth",
-      "Coffee",
-      "Dried Fruit",
-      "Pepper"
-    ],
-    "size": "Robusto",
-    "length": 4.9,
-    "ringGauge": 50,
-    "popularity": 8,
-    "description": "The Ramón Allones Specially Selected is the quintessential Cuban robusto — widely considered one of the finest expressions of the vitola from Havana. The Colorado Maduro wrapper adds dark sweetness that frames the rich Vuelta Abajo core, delivering dark chocolate, leather, and dried fruit with genuine Cuban pepper on the finish. This is the benchmark against which all other Cuban robustos are measured.",
-    "pairings": [
-      "Aged Rum",
-      "Cognac",
-      "Espresso",
-      "Port Wine"
-    ],
-    "yearFounded": 1837,
-    "limited": false,
-    "image": "https://www.havanahouse.co.uk/wp-content/uploads/2026/04/aprilcotm.webp",
-    "buyLinks": [
-      {
-        "retailer": "Havana House",
-        "url": "https://www.havanahouse.co.uk/product/ramon-allones-specially-selected-cigar-box-25/",
-        "price": null
-      },
-      {
-        "retailer": "C.Gars Ltd",
-        "url": "https://www.cgarsltd.co.uk/davidoff-year-the-snake-accessory-set-2025-cigar-ashtray-case-rest-cutter-p-62010.html",
         "price": null
       }
     ]
@@ -14178,142 +14033,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/padron-1926-series-no-9-natural-5pk.html",
-        "price": null
-      }
-    ]
-  },
-  {
-    "id": "rocky-patel-vintage-1990",
-    "name": "Vintage 1990",
-    "brand": "Rocky Patel",
-    "origin": "Honduras",
-    "region": "Jamastran Valley",
-    "wrapper": "Connecticut Broadleaf (aged)",
-    "binder": "Honduran",
-    "filler": "Honduran, Nicaraguan",
-    "strength": 3,
-    "smokingTime": 60,
-    "price": 11,
-    "rating": 92,
-    "flavors": [
-      "Dark Chocolate",
-      "Coffee",
-      "Earth",
-      "Cedar",
-      "Leather",
-      "Caramel"
-    ],
-    "size": "Toro (6x52)",
-    "length": 6,
-    "ringGauge": 52,
-    "popularity": 8,
-    "description": "Rocky Patel's Vintage series uses aged tobacco from specific years — the 1990 uses Connecticut Broadleaf that has been warehoused and aged for over a decade before rolling. The result is a remarkably smooth, complex medium-bodied cigar with dark chocolate, coffee, and cedar in a format that smokes cooler and more refined than typical mass-production Connecticut Broadleaf. The Vintage series put Rocky Patel on the map as a serious blender.",
-    "pairings": [
-      "Bourbon",
-      "Dark Rum",
-      "Espresso",
-      "Stout Beer"
-    ],
-    "yearFounded": 1996,
-    "limited": false,
-    "image": "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/vnumbers/ci-v90-torm.jpg",
-    "buyLinks": [
-      {
-        "retailer": "Famous Smoke Shop",
-        "url": "https://www.famous-smoke.com/rocky-patel-vintage-1990-juniors-5-cigars-maduro-tin-of-5",
-        "price": null
-      },
-      {
-        "retailer": "Cigars International",
-        "url": "https://www.cigarsinternational.com/p/rocky-patel-vintage-1990-cigars/1489702/",
-        "price": null
-      },
-      {
-        "retailer": "Neptune Cigar",
-        "url": "https://www.neptunecigar.com/cigar/rocky-patel-vintage-1990",
-        "price": null
-      },
-      {
-        "retailer": "JR Cigars",
-        "url": "https://www.jrcigars.com/item/rocky-patel-vintage-1990/juniors/RPVJ.html",
-        "price": null
-      },
-      {
-        "retailer": "Cigar Page",
-        "url": "https://www.cigarpage.com/rocky-patel-vintage-1990.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Rocky-Patel-Vintage-Series-Robustos.html",
-        "price": null
-      }
-    ]
-  },
-  {
-    "id": "rocky-patel-decade",
-    "name": "Rocky Patel Decade",
-    "brand": "Rocky Patel",
-    "origin": "Honduras",
-    "region": "Jamastran Valley",
-    "wrapper": "Ecuadorian Sumatra",
-    "binder": "Honduran",
-    "filler": "Honduran, Nicaraguan",
-    "strength": 3,
-    "smokingTime": 65,
-    "price": 12.5,
-    "rating": 93,
-    "flavors": [
-      "Cocoa",
-      "Cedar",
-      "Leather",
-      "Cinnamon",
-      "Earth",
-      "Mild Pepper"
-    ],
-    "size": "Toro (6x52)",
-    "length": 6,
-    "ringGauge": 52,
-    "popularity": 8,
-    "description": "The Decade celebrates Rocky Patel's 10th year in the cigar business and is widely considered his finest achievement. An Ecuadorian Sumatra wrapper over Honduran and Nicaraguan filler creates a beautifully balanced medium-bodied toro with cocoa, cinnamon, and cedar that develop gracefully across the length of the cigar. Exceptional construction and an outstanding price-to-quality ratio make this one of the most recommended everyday luxury cigars on the market.",
-    "pairings": [
-      "Scotch Whisky",
-      "Cognac",
-      "Espresso",
-      "Rum"
-    ],
-    "yearFounded": 1996,
-    "limited": false,
-    "image": "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/rpd/ci-rpd-torn.jpg",
-    "buyLinks": [
-      {
-        "retailer": "Famous Smoke Shop",
-        "url": "https://www.famous-smoke.com/rocky-patel-decade-robusto-5-pack-cigars-natural-pack-of-5",
-        "price": null
-      },
-      {
-        "retailer": "Cigars International",
-        "url": "https://www.cigarsinternational.com/p/rocky-patel-decade-robusto-cigars/2008520/",
-        "price": null
-      },
-      {
-        "retailer": "Neptune Cigar",
-        "url": "https://www.neptunecigar.com/cigar/rocky-patel-decade",
-        "price": null
-      },
-      {
-        "retailer": "JR Cigars",
-        "url": "https://www.jrcigars.com/item/rocky-patel-decade/toro/RPDTO.html",
-        "price": null
-      },
-      {
-        "retailer": "Cigar Page",
-        "url": "https://www.cigarpage.com/baccarat-jawn-ttt_trinidad-jawn_roasted-nicaraguan_overruns-black_label_trading_co-the_upsetters-scratch_blends-gispert-dunbarton_tobacco_and_trust-megilla__-display-gilberto_oliva-davidoff-romeo_y_julieta-henry_clay-double_nicaraguans-chillin_moose-drew_estate-cavalier-black_swan-java-murcielago-cohiba-class_34-hoyo_de_monterrey-bdl-merchants_queen-liga_privada_unico_serie-guardian_of_the_farm-rocky_patel-esteban_carerra-dominican_overruns-roma_craft-jfr-oliva-aganorsa_leaf-cao-oscar-los_statos-a_flores-ortega_-sancho_panza-foundation_cigar_co-san_lotano-la_gloria_cubana-macanudo-espinosa-jad-roly_long_filler-avo-cle-cusano-montesino.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Rocky-Patel-Decade-10-Pack-HWD.html",
         "price": null
       }
     ]
@@ -19238,11 +18957,6 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/kristoff-ligero-maduro.html",
         "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Kristoff-Criollo-Robusto-5-Pack-Clearance.html",
-        "price": null
       }
     ]
   },
@@ -19877,11 +19591,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/caldwell-long-live-the-king-my-style-is-jalapeno-box-24-kb-cll7040-qa5.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Caldwell-The-King-Is-Dead-Premier-HWD.html",
         "price": null
       }
     ]
@@ -21382,11 +21091,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/h-upmann-connecticut.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/H-Upmann-Grupo-de-Maestros-Connecticut-Robusto-10-Pack-Clearance.html",
         "price": null
       }
     ]
@@ -24834,11 +24538,6 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/cigars/rocky_patel.html",
         "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Rocky-Patel-Decade-10-Pack-HWD.html",
-        "price": null
       }
     ]
   },
@@ -25148,11 +24847,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/cigars/new-world-puro-especial-by-aj-fernandez.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/AJ-Fernandez-New-World-Dorado-Robusto-5-Pack-SKU3478511.html",
         "price": null
       }
     ]
@@ -32656,11 +32350,6 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/cigars/drew_estate.html",
         "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Maduro-Robusto.html",
-        "price": null
       }
     ]
   },
@@ -32721,11 +32410,6 @@
       {
         "retailer": "Neptune Cigar",
         "url": "https://www.neptunecigar.com/cigar/blackened-cigars-by-drew-estate-s84-shade-to-black",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Maduro-Robusto.html",
         "price": null
       }
     ]
@@ -33891,11 +33575,6 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/cigars/la_palina.html",
         "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/La-Palina-125-Anos-Robusto-5-Pack-Clearance.html",
-        "price": null
       }
     ]
   },
@@ -34691,11 +34370,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/hvc-cerro-natural.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/HVC-Cerro-Maduro-Robusto-10-Pack-Clearance.html",
         "price": null
       }
     ]
@@ -47831,11 +47505,6 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/caldwell-long-live-the-king.html",
         "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Caldwell-Long-Live-The-King-Manzanita-HWD.html",
-        "price": null
       }
     ]
   },
@@ -47896,11 +47565,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/caldwell-eastern-standard.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Caldwell-Eastern-Standard-Sungrown-Toro-Extra-HWD.html",
         "price": null
       }
     ]
@@ -49299,11 +48963,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/hvc-hot-cake-maduro.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/HVC-Hot-Cake-Maduro-Gran-Canon-5-Pack-Clearance.html",
         "price": null
       }
     ]
@@ -51613,11 +51272,6 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/caldwell-king-is-dead-toro-10pk.html",
         "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Caldwell-The-King-Is-Dead-Toro-HWD.html",
-        "price": null
       }
     ]
   },
@@ -52583,11 +52237,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/rocky-patel-dbs.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Rocky-Patel-Seed-to-Smoke-Classic-Toro.html",
         "price": null
       }
     ]
@@ -54292,11 +53941,6 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/perdomo-craft-series-stout-toro-grande-maduro-humipacks-5-4-s.html",
         "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Cavalier-Geneve-White-Series-Limited-Release-2023-Toro-15-Pack-Clearance.html",
-        "price": null
       }
     ]
   },
@@ -55410,6 +55054,11 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/best-of-foundation-ultimate-5-cigar-collection.html",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/foundation-menelik-cigars/2025764/",
         "price": null
       }
     ]
@@ -59748,11 +59397,6 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/hvc-hot-cake-maduro.html",
         "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/HVC-Hot-Cake-Maduro-Gran-Canon-5-Pack-Clearance.html",
-        "price": null
       }
     ]
   },
@@ -61555,6 +61199,11 @@
         "retailer": "Havana House",
         "url": "https://havanahouse.co.uk/product/davidoff-mini-cigarillos-gold-pack-of-20/",
         "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/bolivar-gold-medal-box-10s-p-4354.html",
+        "price": null
       }
     ]
   },
@@ -62052,6 +61701,11 @@
       {
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/",
+        "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/bolivar-gold-medal-box-10s-p-4354.html",
         "price": null
       }
     ]
@@ -63433,6 +63087,11 @@
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/romeo-y-julieta-linea-de-oro-dianas-cigar-single/",
         "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/romeo-julieta-linea-oro-dianas-cigar-single-p-49262.html",
+        "price": null
       }
     ]
   },
@@ -63842,6 +63501,11 @@
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/montecristo-linea-1935-leyenda-cigar-single/",
         "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/montecristo-linea-1935-leyenda-cigar-box-p-30068.html",
+        "price": null
       }
     ]
   },
@@ -63883,6 +63547,11 @@
       {
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/montecristo-linea-1935-dumas-cigar-single/",
+        "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/montecristo-linea-1935-dumas-cigar-box-p-30065.html",
         "price": null
       }
     ]
@@ -64102,6 +63771,11 @@
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/montecristo-open-junior-cigar-single/",
         "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/montecristo-open-junior-cigars-outside-p-6742.html",
+        "price": null
       }
     ]
   },
@@ -64189,6 +63863,11 @@
       {
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/montecristo-double-edmundo-cigar-pack-3/",
+        "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/montecristo-edmundo-cigar-single-p-501.html",
         "price": null
       }
     ]
@@ -64676,6 +64355,11 @@
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/",
         "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/hoyo-des-dieux-cigar-single-p-480.html",
+        "price": null
       }
     ]
   },
@@ -64715,6 +64399,11 @@
       {
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/",
+        "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/fonseca-kdt-cadetes-cigar-box-p-115.html",
         "price": null
       }
     ]
@@ -65431,6 +65120,11 @@
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/",
         "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/juan-lopez-seleccion-suprema-cigar-regional-edition-2009-single-p-7613.html",
+        "price": null
       }
     ]
   },
@@ -65510,6 +65204,11 @@
       {
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/romeo-y-julieta-club-kings-cigar-single/",
+        "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/ramon-allones-club-allones-limited-edition-2015-cigar-single-p-17197.html",
         "price": null
       }
     ]
@@ -65631,6 +65330,11 @@
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/h-upmann-coronas-junior-tubos-cigar-single/",
         "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/sancho-panza-coronas-gigantes-cigar-box-p-332.html",
+        "price": null
       }
     ]
   },
@@ -65670,6 +65374,11 @@
       {
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/",
+        "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/sancho-panza-molinos-cigar-box-p-333.html",
         "price": null
       }
     ]
@@ -65790,6 +65499,11 @@
       {
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/",
+        "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/quai-orsay-senadores-limited-edition-2019-cigar-box-p-43035.html",
         "price": null
       }
     ]
@@ -66276,6 +65990,11 @@
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/romeo-y-julieta-short-churchill-cigar-box-10/",
         "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/flor-cano-short-robusto-regional-edition-2010-single-p-10286.html",
+        "price": null
       }
     ]
   },
@@ -66395,6 +66114,11 @@
       {
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/",
+        "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/saint-luis-rey-regios-cigar-box-p-31289.html",
         "price": null
       }
     ]
@@ -66521,6 +66245,11 @@
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/",
         "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/jose-piedra-conservas-cigar-box-p-51493.html",
+        "price": null
       }
     ]
   },
@@ -66560,6 +66289,11 @@
       {
         "retailer": "Havana House",
         "url": "https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/",
+        "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/jose-piedra-cazadores-cigar-bundle-p-220.html",
         "price": null
       }
     ]
@@ -69134,6 +68868,11 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/gurkha-marquesa.html",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/gurkha-marquesa/2016684/",
         "price": null
       }
     ]
@@ -73653,6 +73392,11 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/camacho-liberty-2012-throwback-humidor.html",
         "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/camacho-liberty-series-2020-cigars/2031916/",
+        "price": null
       }
     ]
   },
@@ -74196,6 +73940,11 @@
       {
         "retailer": "JR Cigars",
         "url": "https://www.jrcigars.com/item/camacho/liberty-2021/CAML21.html",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/camacho-liberty-series-2021/2039965/",
         "price": null
       }
     ]
@@ -74745,11 +74494,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/baccarat-jawn-ttt_trinidad-jawn_roasted-nicaraguan_overruns-black_label_trading_co-the_upsetters-scratch_blends-gispert-dunbarton_tobacco_and_trust-megilla__-display-gilberto_oliva-davidoff-romeo_y_julieta-henry_clay-double_nicaraguans-chillin_moose-drew_estate-cavalier-black_swan-java-murcielago-cohiba-class_34-hoyo_de_monterrey-bdl-merchants_queen-liga_privada_unico_serie-guardian_of_the_farm-rocky_patel-esteban_carerra-dominican_overruns-roma_craft-jfr-oliva-aganorsa_leaf-cao-oscar-los_statos-a_flores-ortega_-sancho_panza-foundation_cigar_co-san_lotano-la_gloria_cubana-macanudo-espinosa-jad-roly_long_filler-avo-cle-cusano-montesino.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Macanudo-Estate-Reserve-Toro.html",
         "price": null
       }
     ]
@@ -77616,11 +77360,6 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/la-palina-no-2-robusto-10pk.html",
         "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/La-Palina-125-Anos-Robusto-5-Pack-Clearance.html",
-        "price": null
       }
     ]
   },
@@ -77742,11 +77481,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/la-palina-goldie.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/La-Palina-125-Anos-Robusto-5-Pack-Clearance.html",
         "price": null
       }
     ]
@@ -78170,11 +77904,6 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/tatuaje-series-p-robusto-10-pk.html",
         "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Cavalier-Geneve-White-Series-Limited-Release-2023-Toro-15-Pack-Clearance.html",
-        "price": null
       }
     ]
   },
@@ -78292,11 +78021,6 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/tatuaje-series-p-robusto-10-pk.html",
         "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Cavalier-Geneve-White-Series-Limited-Release-2023-Toro-15-Pack-Clearance.html",
-        "price": null
       }
     ]
   },
@@ -78357,11 +78081,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/montecristo-white-toro-5pk-k5-mtw6054-qap.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/Cavalier-Geneve-White-Series-Limited-Release-2023-Toro-15-Pack-Clearance.html",
         "price": null
       }
     ]
@@ -78545,11 +78264,6 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/la-palina-no-2-robusto-10pk.html",
-        "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/La-Palina-125-Anos-Robusto-5-Pack-Clearance.html",
         "price": null
       }
     ]
@@ -79311,6 +79025,11 @@
       {
         "retailer": "Neptune Cigar",
         "url": "https://www.neptunecigar.com/cigar/tatuaje-10th-anniversary",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/tatuaje-skinny-monsters-cazadores-sampler/2006058/",
         "price": null
       }
     ]
@@ -81964,11 +81683,6 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/hvc-cerro-natural.html",
         "price": null
-      },
-      {
-        "retailer": "Smoke Inn",
-        "url": "https://www.smokeinn.com/HVC-Cerro-Maduro-Robusto-10-Pack-Clearance.html",
-        "price": null
       }
     ]
   },
@@ -82024,6 +81738,1149 @@
       {
         "retailer": "Neptune Cigar",
         "url": "https://www.neptunecigar.com/cigar/1502-nicaragua",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-maduro-robusto",
+    "name": "Drew Estate Factory Smokes Maduro Robusto",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Brazilian Mata Fina",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí, Jalapa)",
+    "strength": 3,
+    "smokingTime": 45,
+    "price": 4.5,
+    "rating": 89,
+    "flavors": [
+      "Coffee",
+      "Earth",
+      "Leather",
+      "Pepper",
+      "Cocoa"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 54,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Maduro are factory-made bundles crafted from the same premium Nicaraguan tobaccos and Brazilian Mata Fina wrapper used in Drew Estate's top lines. Rustic and unbanded, they deliver a genuinely satisfying full-flavored smoke at an exceptional value.",
+    "pairings": [
+      "Espresso",
+      "Dark Ale",
+      "Bourbon"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-29.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Maduro-Robusto.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/factory-smokes-maduro-robusto-cigars",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/robusto-maduro/DEFSMR.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-maduro-robusto",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-maduro/2014945/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-maduro.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-maduro-toro",
+    "name": "Drew Estate Factory Smokes Maduro Toro",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Brazilian Mata Fina",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí, Jalapa)",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 4.5,
+    "rating": 89,
+    "flavors": [
+      "Coffee",
+      "Earth",
+      "Leather",
+      "Pepper",
+      "Cocoa"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 54,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Maduro are factory-made bundles crafted from the same premium Nicaraguan tobaccos and Brazilian Mata Fina wrapper used in Drew Estate's top lines. Rustic and unbanded, they deliver a genuinely satisfying full-flavored smoke at an exceptional value.",
+    "pairings": [
+      "Espresso",
+      "Dark Ale",
+      "Bourbon"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-29.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Maduro-Toro.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/factory-smokes-maduro-toro-cigars",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/toro-maduro/DEFSMT.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-maduro-toro",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-maduro/2014945/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-maduro.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-maduro-churchill",
+    "name": "Drew Estate Factory Smokes Maduro Churchill",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Brazilian Mata Fina",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí, Jalapa)",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 4.5,
+    "rating": 89,
+    "flavors": [
+      "Coffee",
+      "Earth",
+      "Leather",
+      "Pepper",
+      "Cocoa"
+    ],
+    "size": "Churchill",
+    "length": 7,
+    "ringGauge": 50,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Maduro are factory-made bundles crafted from the same premium Nicaraguan tobaccos and Brazilian Mata Fina wrapper used in Drew Estate's top lines. Rustic and unbanded, they deliver a genuinely satisfying full-flavored smoke at an exceptional value.",
+    "pairings": [
+      "Espresso",
+      "Dark Ale",
+      "Bourbon"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-29.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Maduro-Churchill.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/factory-smokes-maduro-churchil-cigars",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/churchill-maduro/DEFSMCH.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-maduro-churchill",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-maduro/2014945/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-maduro.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-maduro-gordito",
+    "name": "Drew Estate Factory Smokes Maduro Gordito",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Brazilian Mata Fina",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí, Jalapa)",
+    "strength": 3,
+    "smokingTime": 40,
+    "price": 4.5,
+    "rating": 89,
+    "flavors": [
+      "Coffee",
+      "Earth",
+      "Leather",
+      "Pepper",
+      "Cocoa"
+    ],
+    "size": "Gordito",
+    "length": 4.5,
+    "ringGauge": 60,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Maduro are factory-made bundles crafted from the same premium Nicaraguan tobaccos and Brazilian Mata Fina wrapper used in Drew Estate's top lines. Rustic and unbanded, they deliver a genuinely satisfying full-flavored smoke at an exceptional value.",
+    "pairings": [
+      "Espresso",
+      "Dark Ale",
+      "Bourbon"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-29.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Maduro-Gordito.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/factory-smokes-maduro-gordito-cigars",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/gordito-maduro/DEFSMG.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-maduro-gordito",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-maduro/2014945/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-maduro.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-shade-robusto",
+    "name": "Drew Estate Factory Smokes Shade Robusto",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuadorian Connecticut Shade",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí, Jalapa)",
+    "strength": 2,
+    "smokingTime": 45,
+    "price": 4.5,
+    "rating": 88,
+    "flavors": [
+      "Cream",
+      "Nuts",
+      "Cedar",
+      "Toast",
+      "Hay"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 54,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Shade wraps Nicaraguan long-fillers in a smooth Ecuadorian Connecticut Shade leaf, delivering a creamy, mild-medium experience. These unbanded factory bundles offer outstanding value without sacrificing quality.",
+    "pairings": [
+      "Light Coffee",
+      "Lager",
+      "Iced Tea"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-30.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Shade-Robusto.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/factory-smoke-ct-shade-robusto-cigars-natural",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/robusto-shade/DEFSSR.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-shade-robusto",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-connecticut-shade/2014947/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-connecticut-shade.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-shade-toro",
+    "name": "Drew Estate Factory Smokes Shade Toro",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuadorian Connecticut Shade",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí, Jalapa)",
+    "strength": 2,
+    "smokingTime": 60,
+    "price": 4.5,
+    "rating": 88,
+    "flavors": [
+      "Cream",
+      "Nuts",
+      "Cedar",
+      "Toast",
+      "Hay"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 54,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Shade wraps Nicaraguan long-fillers in a smooth Ecuadorian Connecticut Shade leaf, delivering a creamy, mild-medium experience. These unbanded factory bundles offer outstanding value without sacrificing quality.",
+    "pairings": [
+      "Light Coffee",
+      "Lager",
+      "Iced Tea"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-30.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Shade-Toro.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/factory-smoke-ct-shade-toro-cigars-natural",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/toro-shade/DEFSST.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-shade-toro",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-connecticut-shade/2014947/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-connecticut-shade.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-shade-churchill",
+    "name": "Drew Estate Factory Smokes Shade Churchill",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuadorian Connecticut Shade",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí, Jalapa)",
+    "strength": 2,
+    "smokingTime": 75,
+    "price": 4.5,
+    "rating": 88,
+    "flavors": [
+      "Cream",
+      "Nuts",
+      "Cedar",
+      "Toast",
+      "Hay"
+    ],
+    "size": "Churchill",
+    "length": 7,
+    "ringGauge": 50,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Shade wraps Nicaraguan long-fillers in a smooth Ecuadorian Connecticut Shade leaf, delivering a creamy, mild-medium experience. These unbanded factory bundles offer outstanding value without sacrificing quality.",
+    "pairings": [
+      "Light Coffee",
+      "Lager",
+      "Iced Tea"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-30.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Shade-Churchill.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/factory-smoke-ct-shade-churchi-cigars-natural",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/churchill-shade/DEFSSCH.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-shade-churchill",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-connecticut-shade/2014947/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-connecticut-shade.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-shade-gordito",
+    "name": "Drew Estate Factory Smokes Shade Gordito",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuadorian Connecticut Shade",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí, Jalapa)",
+    "strength": 2,
+    "smokingTime": 40,
+    "price": 4.5,
+    "rating": 88,
+    "flavors": [
+      "Cream",
+      "Nuts",
+      "Cedar",
+      "Toast",
+      "Hay"
+    ],
+    "size": "Gordito",
+    "length": 4.5,
+    "ringGauge": 60,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Shade wraps Nicaraguan long-fillers in a smooth Ecuadorian Connecticut Shade leaf, delivering a creamy, mild-medium experience. These unbanded factory bundles offer outstanding value without sacrificing quality.",
+    "pairings": [
+      "Light Coffee",
+      "Lager",
+      "Iced Tea"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-30.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Shade-Gordito.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/factory-smoke-ct-shade-gordito-cigars-natural",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/gordito-shade/DEFSSG.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-shade-gordito",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-connecticut-shade/2014947/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-connecticut-shade.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-sun-grown-robusto",
+    "name": "Drew Estate Factory Smokes Sun Grown Robusto",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuadorian Sun Grown",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí, Jalapa)",
+    "strength": 3,
+    "smokingTime": 45,
+    "price": 4.5,
+    "rating": 88,
+    "flavors": [
+      "Earth",
+      "Pepper",
+      "Nuts",
+      "Coffee",
+      "Oak"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 54,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Sun Grown feature an Ecuadorian Sun Grown wrapper over full Nicaraguan long-fillers. These rustic, unbanded factory bundles deliver a medium-strength smoke with earthy depth and genuine complexity at a remarkable price point.",
+    "pairings": [
+      "Coffee",
+      "Rum",
+      "Craft Beer"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-31.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Sun-Grown-Robusto.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/factory-smokes-sungrown-robust-cigars-natural",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/robusto-sungrown/DEFSGR.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-sungrown-robusto",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-sun-grown/2014946/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-sun-grown.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-sun-grown-toro",
+    "name": "Drew Estate Factory Smokes Sun Grown Toro",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuadorian Sun Grown",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí, Jalapa)",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 4.5,
+    "rating": 88,
+    "flavors": [
+      "Earth",
+      "Pepper",
+      "Nuts",
+      "Coffee",
+      "Oak"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 54,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Sun Grown feature an Ecuadorian Sun Grown wrapper over full Nicaraguan long-fillers. These rustic, unbanded factory bundles deliver a medium-strength smoke with earthy depth and genuine complexity at a remarkable price point.",
+    "pairings": [
+      "Coffee",
+      "Rum",
+      "Craft Beer"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-31.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Sun-Grown-Toro.html",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/toro-sungrown/DEFSGT.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-sun-grown-toro",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-sun-grown/2014946/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-sun-grown.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-sun-grown-churchill",
+    "name": "Drew Estate Factory Smokes Sun Grown Churchill",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuadorian Sun Grown",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí, Jalapa)",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 4.5,
+    "rating": 88,
+    "flavors": [
+      "Earth",
+      "Pepper",
+      "Nuts",
+      "Coffee",
+      "Oak"
+    ],
+    "size": "Churchill",
+    "length": 7,
+    "ringGauge": 50,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Sun Grown feature an Ecuadorian Sun Grown wrapper over full Nicaraguan long-fillers. These rustic, unbanded factory bundles deliver a medium-strength smoke with earthy depth and genuine complexity at a remarkable price point.",
+    "pairings": [
+      "Coffee",
+      "Rum",
+      "Craft Beer"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-31.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Sun-Grown-Churchill.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/factory-smokes-sungrown-church-cigars-natural",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/churchill-sungrown/DEFSGCH.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-sun-grown-churchill",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-sun-grown/2014946/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-sun-grown.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-sun-grown-gordito",
+    "name": "Drew Estate Factory Smokes Sun Grown Gordito",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuadorian Sun Grown",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí, Jalapa)",
+    "strength": 3,
+    "smokingTime": 40,
+    "price": 4.5,
+    "rating": 88,
+    "flavors": [
+      "Earth",
+      "Pepper",
+      "Nuts",
+      "Coffee",
+      "Oak"
+    ],
+    "size": "Gordito",
+    "length": 4.5,
+    "ringGauge": 60,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Sun Grown feature an Ecuadorian Sun Grown wrapper over full Nicaraguan long-fillers. These rustic, unbanded factory bundles deliver a medium-strength smoke with earthy depth and genuine complexity at a remarkable price point.",
+    "pairings": [
+      "Coffee",
+      "Rum",
+      "Craft Beer"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-31.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Sun-Grown-Gordito.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/factory-smokes-sungrown-gordit-cigars-natural",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/gordito-sungrown/DEFSGG.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-sun-grown-gordito",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-sun-grown/2014946/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-sun-grown.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-sweet-robusto",
+    "name": "Drew Estate Factory Smokes Sweet Robusto",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Connecticut Shade (sweet tip)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí)",
+    "strength": 1,
+    "smokingTime": 45,
+    "price": 4.5,
+    "rating": 86,
+    "flavors": [
+      "Sweet",
+      "Cream",
+      "Vanilla",
+      "Honey",
+      "Light Toast"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 54,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Sweet are mild flavored cigars with a lightly sweetened Connecticut Shade wrapper. Perfect for occasional smokers or those who prefer a sweet, mellow smoke, these factory bundles deliver Drew Estate quality at an accessible price.",
+    "pairings": [
+      "Dessert Wine",
+      "Sweet Coffee",
+      "Rum"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-32.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Sweet-Robusto.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/factory-smokes-sweet-robusto-cigars-natural",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/robusto-sweets/DEFSWR.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-sweets-robusto",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-sweets/2014948/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-sweet.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-sweet-toro",
+    "name": "Drew Estate Factory Smokes Sweet Toro",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Connecticut Shade (sweet tip)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí)",
+    "strength": 1,
+    "smokingTime": 60,
+    "price": 4.5,
+    "rating": 86,
+    "flavors": [
+      "Sweet",
+      "Cream",
+      "Vanilla",
+      "Honey",
+      "Light Toast"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 54,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Sweet are mild flavored cigars with a lightly sweetened Connecticut Shade wrapper. Perfect for occasional smokers or those who prefer a sweet, mellow smoke, these factory bundles deliver Drew Estate quality at an accessible price.",
+    "pairings": [
+      "Dessert Wine",
+      "Sweet Coffee",
+      "Rum"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-32.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Sweet-Toro.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/factory-smokes-sweet-toro-cigars-natural",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/toro-sweets/DEFSWT.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-sweets-toro",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-sweets/2014948/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-sweet.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-sweet-churchill",
+    "name": "Drew Estate Factory Smokes Sweet Churchill",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Connecticut Shade (sweet tip)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí)",
+    "strength": 1,
+    "smokingTime": 75,
+    "price": 4.5,
+    "rating": 86,
+    "flavors": [
+      "Sweet",
+      "Cream",
+      "Vanilla",
+      "Honey",
+      "Light Toast"
+    ],
+    "size": "Churchill",
+    "length": 7,
+    "ringGauge": 50,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Sweet are mild flavored cigars with a lightly sweetened Connecticut Shade wrapper. Perfect for occasional smokers or those who prefer a sweet, mellow smoke, these factory bundles deliver Drew Estate quality at an accessible price.",
+    "pairings": [
+      "Dessert Wine",
+      "Sweet Coffee",
+      "Rum"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-32.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Sweet-Churchill.html",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/churchill-sweets/DEFSWCH.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-sweets-churchill",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-sweets/2014948/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-sweet-churchill-10pk.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-factory-smokes-sweet-belicoso",
+    "name": "Drew Estate Factory Smokes Sweet Belicoso",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Connecticut Shade (sweet tip)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Estelí)",
+    "strength": 1,
+    "smokingTime": 50,
+    "price": 4.5,
+    "rating": 86,
+    "flavors": [
+      "Sweet",
+      "Cream",
+      "Vanilla",
+      "Honey",
+      "Light Toast"
+    ],
+    "size": "Belicoso",
+    "length": 5.5,
+    "ringGauge": 52,
+    "popularity": 7,
+    "description": "Drew Estate Factory Smokes Sweet are mild flavored cigars with a lightly sweetened Connecticut Shade wrapper. Perfect for occasional smokers or those who prefer a sweet, mellow smoke, these factory bundles deliver Drew Estate quality at an accessible price.",
+    "pairings": [
+      "Dessert Wine",
+      "Sweet Coffee",
+      "Rum"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "image": "https://www.smokeinn.com/images/P/drew-estate-32.jpg",
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Sweet-Belicoso.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/factory-smokes-sweet-belicoso-cigars-natural",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/factory-smokes-by-drew-estate/belicoso-sweets/DEFSWB.html",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/factory-smokes-sweets-belicoso",
+        "price": null
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/drew-estate-factory-smokes-sweets/2014948/",
+        "price": null
+      },
+      {
+        "retailer": "Cigar Page",
+        "url": "https://www.cigarpage.com/drew-estate-factory-smokes-sweet.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "espinosa-601-la-bomba-warhead-viii",
+    "name": "601 La Bomba Warhead VIII",
+    "brand": "Espinosa Cigars",
+    "origin": "Nicaragua",
+    "region": "Ocotal",
+    "wrapper": "Nicaraguan Broadleaf",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": 5,
+    "smokingTime": 75,
+    "price": 11,
+    "rating": 90,
+    "flavors": [
+      "Black Pepper",
+      "Earth",
+      "Leather",
+      "Cocoa",
+      "Coffee",
+      "Dark Chocolate"
+    ],
+    "size": "Gordo",
+    "length": 6,
+    "ringGauge": 60,
+    "popularity": 7,
+    "description": "The eighth annual limited release in Espinosa's La Bomba Warhead series, Warhead VIII is the most aggressive size in the line's history — a 6×60 box-pressed gordo. Loaded with Nicaraguan Ligero and wrapped in a dark, oily Nicaraguan Broadleaf. The band unfolds to reveal WWII-era Flying Tigers nose art. Full-bodied with escalating strength and notes of black pepper, leather, earth, cocoa, and dark chocolate. Only 2,500 boxes produced.",
+    "pairings": [
+      "Cask Strength Bourbon",
+      "Dark Stout",
+      "Strong Espresso"
+    ],
+    "yearFounded": 2003,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/601-La-Bomba-Warhead-VIII-596651.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/601-la-bomba-warhead-viii-cigars-maduro",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "espinosa-601-la-bomba-warhead-ix",
+    "name": "601 La Bomba Warhead IX",
+    "brand": "Espinosa Cigars",
+    "origin": "Nicaragua",
+    "region": "Ocotal",
+    "wrapper": "Nicaraguan Broadleaf",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": 5,
+    "smokingTime": 70,
+    "price": 13,
+    "rating": 90,
+    "flavors": [
+      "Earth",
+      "Mocha",
+      "Red Pepper",
+      "Coffee",
+      "Citrus",
+      "Dark Chocolate"
+    ],
+    "size": "Perfecto",
+    "length": 6,
+    "ringGauge": 56,
+    "popularity": 7,
+    "description": "The ninth annual limited release in the La Bomba Warhead series, switching to a perfecto shape for the first time. A 100% Nicaraguan puro with dark Nicaraguan Broadleaf wrapper, the Warhead IX opens with earth and mocha, developing red pepper and coffee, finishing with chocolate and citrus. Seven of the first eight Warhead editions appeared on Cigar Coop's Cigar of the Year countdown. 5,000 boxes produced.",
+    "pairings": [
+      "Cask Strength Bourbon",
+      "Dark Stout",
+      "Strong Espresso"
+    ],
+    "yearFounded": 2003,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/601-La-Bomba-Warhead-IX-488962.html",
+        "price": null
+      },
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/601-la-bomba-limited-edition-warhead-ix-cigars-maduro",
+        "price": null
+      },
+      {
+        "retailer": "Neptune Cigar",
+        "url": "https://www.neptunecigar.com/cigars/601-la-bomba-warhead-ix",
         "price": null
       }
     ]
