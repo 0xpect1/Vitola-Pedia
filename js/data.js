@@ -36900,7 +36900,7 @@ const CIGARS = [
     pairings: ["Espresso","Aged Rum","Craft Lager"],
     yearFounded: 2010,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/New-Cuba-Corojo-Robusto.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/New-Cuba-Corojo-Robusto.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/aganorsa-leaf-new-cub-corojo-robusto-10pk.html","price":null}],
   },
   {
     id: "aganorsa-new-cuba-corojo-toro",
@@ -36996,7 +36996,7 @@ const CIGARS = [
     pairings: ["Coffee","Craft Beer","Light Scotch"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Schizo-505-Bundle.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Schizo-505-Bundle.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/asylum-schizo-natural.html","price":null}],
   },
   {
     id: "asylum-schizo-506",
@@ -37020,7 +37020,7 @@ const CIGARS = [
     pairings: ["Coffee","Craft Beer","Light Scotch"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Schizo-506-Bundle.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Schizo-506-Bundle.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/asylum-schizo-natural.html","price":null}],
   },
   {
     id: "asylum-schizo-606",
@@ -37044,6 +37044,6 @@ const CIGARS = [
     pairings: ["Coffee","Craft Beer","Light Scotch"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Schizo-606-Bundle.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Schizo-606-Bundle.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/asylum-schizo-natural.html","price":null}],
   }
 ];
