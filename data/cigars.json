@@ -81628,7 +81628,7 @@
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Sumatra Maduro",
-    "binder": "Nicaraguan",
+    "binder": "Connecticut Broadleaf",
     "filler": "Nicaraguan",
     "strength": 3,
     "smokingTime": 40,
@@ -81693,7 +81693,7 @@
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Sumatra Maduro",
-    "binder": "Nicaraguan",
+    "binder": "Connecticut Broadleaf",
     "filler": "Nicaraguan",
     "strength": 3,
     "smokingTime": 55,
@@ -81758,7 +81758,7 @@
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Sumatra Maduro",
-    "binder": "Nicaraguan",
+    "binder": "Connecticut Broadleaf",
     "filler": "Nicaraguan",
     "strength": 3,
     "smokingTime": 70,
@@ -81823,7 +81823,7 @@
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Sumatra Maduro",
-    "binder": "Nicaraguan",
+    "binder": "Connecticut Broadleaf",
     "filler": "Nicaraguan",
     "strength": 3,
     "smokingTime": 60,
@@ -82436,6 +82436,361 @@
       {
         "retailer": "Famous Smoke Shop",
         "url": "https://www.famous-smoke.com/e-bundle-by-espinosa-gordo-connecticut-cigars-natural",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "casa-bella-natural-corona",
+    "name": "Casa Bella Natural Corona",
+    "brand": "Sindicato Cigar Group",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuadorian Connecticut",
+    "binder": "Indonesian",
+    "filler": "Dominican, Nicaraguan",
+    "strength": 1,
+    "smokingTime": 40,
+    "price": 1.93,
+    "rating": 87,
+    "flavors": [
+      "Hay",
+      "Nuts",
+      "Sweet Tobacco",
+      "Cream"
+    ],
+    "size": "Corona",
+    "length": 5.5,
+    "ringGauge": 44,
+    "popularity": 6,
+    "description": "Casa Bella Natural is Sindicato's flagship bundle, blending tobacco from four countries under a silky Ecuadorian Connecticut Shade wrapper. Made at the 888 Tabac factory in Santiago, DR. Mild-bodied with consistent flavors of hay, nuts, and sweet tobacco — one of the best sub- everyday smokes available.",
+    "pairings": [
+      "Coffee",
+      "Tea",
+      "Mild Bourbon"
+    ],
+    "yearFounded": 2013,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Casa-Bella-Corona.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "casa-bella-natural-robusto",
+    "name": "Casa Bella Natural Robusto",
+    "brand": "Sindicato Cigar Group",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuadorian Connecticut",
+    "binder": "Indonesian",
+    "filler": "Dominican, Nicaraguan",
+    "strength": 1,
+    "smokingTime": 45,
+    "price": 2.08,
+    "rating": 87,
+    "flavors": [
+      "Hay",
+      "Nuts",
+      "Sweet Tobacco",
+      "Cream"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 52,
+    "popularity": 6,
+    "description": "Casa Bella Natural is Sindicato's flagship bundle, blending tobacco from four countries under a silky Ecuadorian Connecticut Shade wrapper. Made at the 888 Tabac factory in Santiago, DR. Mild-bodied with consistent flavors of hay, nuts, and sweet tobacco — one of the best sub- everyday smokes available.",
+    "pairings": [
+      "Coffee",
+      "Tea",
+      "Mild Bourbon"
+    ],
+    "yearFounded": 2013,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Casa-Bella-Robusto.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "casa-bella-natural-toro",
+    "name": "Casa Bella Natural Toro",
+    "brand": "Sindicato Cigar Group",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuadorian Connecticut",
+    "binder": "Indonesian",
+    "filler": "Dominican, Nicaraguan",
+    "strength": 1,
+    "smokingTime": 60,
+    "price": 2.15,
+    "rating": 87,
+    "flavors": [
+      "Hay",
+      "Nuts",
+      "Sweet Tobacco",
+      "Cream"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 54,
+    "popularity": 6,
+    "description": "Casa Bella Natural is Sindicato's flagship bundle, blending tobacco from four countries under a silky Ecuadorian Connecticut Shade wrapper. Made at the 888 Tabac factory in Santiago, DR. Mild-bodied with consistent flavors of hay, nuts, and sweet tobacco — one of the best sub- everyday smokes available.",
+    "pairings": [
+      "Coffee",
+      "Tea",
+      "Mild Bourbon"
+    ],
+    "yearFounded": 2013,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Casa-Bella-Toro.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "casa-bella-natural-churchill",
+    "name": "Casa Bella Natural Churchill",
+    "brand": "Sindicato Cigar Group",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuadorian Connecticut",
+    "binder": "Indonesian",
+    "filler": "Dominican, Nicaraguan",
+    "strength": 1,
+    "smokingTime": 70,
+    "price": 2.25,
+    "rating": 87,
+    "flavors": [
+      "Hay",
+      "Nuts",
+      "Sweet Tobacco",
+      "Cream"
+    ],
+    "size": "Churchill",
+    "length": 7,
+    "ringGauge": 52,
+    "popularity": 6,
+    "description": "Casa Bella Natural is Sindicato's flagship bundle, blending tobacco from four countries under a silky Ecuadorian Connecticut Shade wrapper. Made at the 888 Tabac factory in Santiago, DR. Mild-bodied with consistent flavors of hay, nuts, and sweet tobacco — one of the best sub- everyday smokes available.",
+    "pairings": [
+      "Coffee",
+      "Tea",
+      "Mild Bourbon"
+    ],
+    "yearFounded": 2013,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Casa-Bella-Churchill.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "casa-bella-natural-gran-toro",
+    "name": "Casa Bella Natural Gran Toro",
+    "brand": "Sindicato Cigar Group",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuadorian Connecticut",
+    "binder": "Indonesian",
+    "filler": "Dominican, Nicaraguan",
+    "strength": 1,
+    "smokingTime": 60,
+    "price": 2.48,
+    "rating": 87,
+    "flavors": [
+      "Hay",
+      "Nuts",
+      "Sweet Tobacco",
+      "Cream"
+    ],
+    "size": "Gran Toro",
+    "length": 6,
+    "ringGauge": 60,
+    "popularity": 6,
+    "description": "Casa Bella Natural is Sindicato's flagship bundle, blending tobacco from four countries under a silky Ecuadorian Connecticut Shade wrapper. Made at the 888 Tabac factory in Santiago, DR. Mild-bodied with consistent flavors of hay, nuts, and sweet tobacco — one of the best sub- everyday smokes available.",
+    "pairings": [
+      "Coffee",
+      "Tea",
+      "Mild Bourbon"
+    ],
+    "yearFounded": 2013,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Casa-Bella-Gran-Toro.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "casa-bella-maduro-robusto",
+    "name": "Casa Bella Maduro Robusto",
+    "brand": "Sindicato Cigar Group",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Connecticut Broadleaf Maduro",
+    "binder": "Indonesian",
+    "filler": "Dominican, Nicaraguan",
+    "strength": 3,
+    "smokingTime": 45,
+    "price": 2.08,
+    "rating": 87,
+    "flavors": [
+      "Sweet Tobacco",
+      "Spice",
+      "Nuts",
+      "Dark Fruit",
+      "Earth"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 52,
+    "popularity": 6,
+    "description": "Casa Bella Maduro wraps the same multi-national blend from the Natural in a Connecticut Broadleaf for a medium-full boost in body and sweetness. Made at the 888 Tabac factory in Santiago, DR. More complex than its sibling, delivering earthy depth and spice at a remarkable sub- price.",
+    "pairings": [
+      "Bourbon",
+      "Dark Beer",
+      "Espresso"
+    ],
+    "yearFounded": 2013,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Casa-Bella-Maduro-Robusto-SKU197021118.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "casa-bella-maduro-toro",
+    "name": "Casa Bella Maduro Toro",
+    "brand": "Sindicato Cigar Group",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Connecticut Broadleaf Maduro",
+    "binder": "Indonesian",
+    "filler": "Dominican, Nicaraguan",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 2.15,
+    "rating": 87,
+    "flavors": [
+      "Sweet Tobacco",
+      "Spice",
+      "Nuts",
+      "Dark Fruit",
+      "Earth"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 54,
+    "popularity": 6,
+    "description": "Casa Bella Maduro wraps the same multi-national blend from the Natural in a Connecticut Broadleaf for a medium-full boost in body and sweetness. Made at the 888 Tabac factory in Santiago, DR. More complex than its sibling, delivering earthy depth and spice at a remarkable sub- price.",
+    "pairings": [
+      "Bourbon",
+      "Dark Beer",
+      "Espresso"
+    ],
+    "yearFounded": 2013,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Casa-Bella-Maduro-Toro.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "casa-bella-maduro-churchill",
+    "name": "Casa Bella Maduro Churchill",
+    "brand": "Sindicato Cigar Group",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Connecticut Broadleaf Maduro",
+    "binder": "Indonesian",
+    "filler": "Dominican, Nicaraguan",
+    "strength": 3,
+    "smokingTime": 70,
+    "price": 2.25,
+    "rating": 87,
+    "flavors": [
+      "Sweet Tobacco",
+      "Spice",
+      "Nuts",
+      "Dark Fruit",
+      "Earth"
+    ],
+    "size": "Churchill",
+    "length": 7,
+    "ringGauge": 52,
+    "popularity": 6,
+    "description": "Casa Bella Maduro wraps the same multi-national blend from the Natural in a Connecticut Broadleaf for a medium-full boost in body and sweetness. Made at the 888 Tabac factory in Santiago, DR. More complex than its sibling, delivering earthy depth and spice at a remarkable sub- price.",
+    "pairings": [
+      "Bourbon",
+      "Dark Beer",
+      "Espresso"
+    ],
+    "yearFounded": 2013,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Casa-Bella-Maduro-Churchill.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "casa-bella-maduro-gran-toro",
+    "name": "Casa Bella Maduro Gran Toro",
+    "brand": "Sindicato Cigar Group",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Connecticut Broadleaf Maduro",
+    "binder": "Indonesian",
+    "filler": "Dominican, Nicaraguan",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 2.48,
+    "rating": 87,
+    "flavors": [
+      "Sweet Tobacco",
+      "Spice",
+      "Nuts",
+      "Dark Fruit",
+      "Earth"
+    ],
+    "size": "Gran Toro",
+    "length": 6,
+    "ringGauge": 60,
+    "popularity": 6,
+    "description": "Casa Bella Maduro wraps the same multi-national blend from the Natural in a Connecticut Broadleaf for a medium-full boost in body and sweetness. Made at the 888 Tabac factory in Santiago, DR. More complex than its sibling, delivering earthy depth and spice at a remarkable sub- price.",
+    "pairings": [
+      "Bourbon",
+      "Dark Beer",
+      "Espresso"
+    ],
+    "yearFounded": 2013,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Casa-Bella-Maduro-Gran-Toro.html",
         "price": null
       }
     ]
