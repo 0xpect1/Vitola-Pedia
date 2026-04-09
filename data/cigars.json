@@ -82794,5 +82794,685 @@
         "price": null
       }
     ]
+  },
+  {
+    "id": "casa-bella-nicaragua-corona",
+    "name": "Casa Bella Nicaragua Corona",
+    "brand": "Sindicato Cigar Group",
+    "origin": "Nicaragua",
+    "region": "Esteli",
+    "wrapper": "Nicaraguan Corojo",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": 4,
+    "smokingTime": 40,
+    "price": 1.93,
+    "rating": 86,
+    "flavors": [
+      "Black Pepper",
+      "Chocolate",
+      "Earth",
+      "Raw Tobacco",
+      "Dark Roast Coffee"
+    ],
+    "size": "Corona",
+    "length": 5.5,
+    "ringGauge": 44,
+    "popularity": 6,
+    "description": "Casa Bella Nicaragua is the most intense entry in the Casa Bella lineup, a full-on Nicaraguan puro made at the 888 Tabac factory in Santiago, DR. Delivers bold black pepper, chocolate, and dark-roast coffee at a sub-$3 price point.",
+    "pairings": [
+      "Espresso",
+      "Dark Rum",
+      "Craft Beer"
+    ],
+    "yearFounded": 2015,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Casa-Bella-Nicaragua-Corona.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "casa-bella-nicaragua-robusto",
+    "name": "Casa Bella Nicaragua Robusto",
+    "brand": "Sindicato Cigar Group",
+    "origin": "Nicaragua",
+    "region": "Esteli",
+    "wrapper": "Nicaraguan Corojo",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": 4,
+    "smokingTime": 45,
+    "price": 2.08,
+    "rating": 86,
+    "flavors": [
+      "Black Pepper",
+      "Chocolate",
+      "Earth",
+      "Raw Tobacco",
+      "Dark Roast Coffee"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 52,
+    "popularity": 6,
+    "description": "Casa Bella Nicaragua is the most intense entry in the Casa Bella lineup, a full-on Nicaraguan puro made at the 888 Tabac factory in Santiago, DR. Delivers bold black pepper, chocolate, and dark-roast coffee at a sub-$3 price point.",
+    "pairings": [
+      "Espresso",
+      "Dark Rum",
+      "Craft Beer"
+    ],
+    "yearFounded": 2015,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Casa-Bella-Nicaragua-Robusto.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "casa-bella-nicaragua-toro",
+    "name": "Casa Bella Nicaragua Toro",
+    "brand": "Sindicato Cigar Group",
+    "origin": "Nicaragua",
+    "region": "Esteli",
+    "wrapper": "Nicaraguan Corojo",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": 4,
+    "smokingTime": 60,
+    "price": 2.15,
+    "rating": 86,
+    "flavors": [
+      "Black Pepper",
+      "Chocolate",
+      "Earth",
+      "Raw Tobacco",
+      "Dark Roast Coffee"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 54,
+    "popularity": 6,
+    "description": "Casa Bella Nicaragua is the most intense entry in the Casa Bella lineup, a full-on Nicaraguan puro made at the 888 Tabac factory in Santiago, DR. Delivers bold black pepper, chocolate, and dark-roast coffee at a sub-$3 price point.",
+    "pairings": [
+      "Espresso",
+      "Dark Rum",
+      "Craft Beer"
+    ],
+    "yearFounded": 2015,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Casa-Bella-Nicaragua-Toro.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "casa-bella-nicaragua-churchill",
+    "name": "Casa Bella Nicaragua Churchill",
+    "brand": "Sindicato Cigar Group",
+    "origin": "Nicaragua",
+    "region": "Esteli",
+    "wrapper": "Nicaraguan Corojo",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": 4,
+    "smokingTime": 70,
+    "price": 2.25,
+    "rating": 86,
+    "flavors": [
+      "Black Pepper",
+      "Chocolate",
+      "Earth",
+      "Raw Tobacco",
+      "Dark Roast Coffee"
+    ],
+    "size": "Churchill",
+    "length": 7,
+    "ringGauge": 52,
+    "popularity": 6,
+    "description": "Casa Bella Nicaragua is the most intense entry in the Casa Bella lineup, a full-on Nicaraguan puro made at the 888 Tabac factory in Santiago, DR. Delivers bold black pepper, chocolate, and dark-roast coffee at a sub-$3 price point.",
+    "pairings": [
+      "Espresso",
+      "Dark Rum",
+      "Craft Beer"
+    ],
+    "yearFounded": 2015,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Casa-Bella-Nicaragua-Churchill.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "casa-bella-nicaragua-gran-toro",
+    "name": "Casa Bella Nicaragua Gran Toro",
+    "brand": "Sindicato Cigar Group",
+    "origin": "Nicaragua",
+    "region": "Esteli",
+    "wrapper": "Nicaraguan Corojo",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": 4,
+    "smokingTime": 60,
+    "price": 2.48,
+    "rating": 86,
+    "flavors": [
+      "Black Pepper",
+      "Chocolate",
+      "Earth",
+      "Raw Tobacco",
+      "Dark Roast Coffee"
+    ],
+    "size": "Gran Toro",
+    "length": 6,
+    "ringGauge": 60,
+    "popularity": 6,
+    "description": "Casa Bella Nicaragua is the most intense entry in the Casa Bella lineup, a full-on Nicaraguan puro made at the 888 Tabac factory in Santiago, DR. Delivers bold black pepper, chocolate, and dark-roast coffee at a sub-$3 price point.",
+    "pairings": [
+      "Espresso",
+      "Dark Rum",
+      "Craft Beer"
+    ],
+    "yearFounded": 2015,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Casa-Bella-Nicaragua-Gran-Toro.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "occidental-reserve-robusto",
+    "name": "Occidental Reserve Robusto",
+    "brand": "Alec Bradley",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Honduran Connecticut Shade",
+    "binder": "Nicaraguan",
+    "filler": "Dominican, Colombian, Nicaraguan, Honduran",
+    "strength": 2,
+    "smokingTime": 45,
+    "price": 4.45,
+    "rating": 88,
+    "flavors": [
+      "Hay",
+      "Cream",
+      "Cedar",
+      "Buttered Crackers",
+      "Light Spice"
+    ],
+    "size": "Robusto",
+    "length": 4.875,
+    "ringGauge": 50,
+    "popularity": 6,
+    "description": "The longest-tenured Alec Bradley brand, Occidental Reserve was blended by Henke Kelner to prove that a truly premium cigar need not cost $10+. The 2023 reformulation features a silky Honduran Connecticut Shade wrapper over a Nicaraguan binder and multi-country long-fill blend. Creamy, woody, and delicately spicy.",
+    "pairings": [
+      "Milk Coffee",
+      "Light Whisky",
+      "Sparkling Water"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/occidental-reserve/occidental-reserve-robusto-natural.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "occidental-reserve-toro",
+    "name": "Occidental Reserve Toro",
+    "brand": "Alec Bradley",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Honduran Connecticut Shade",
+    "binder": "Nicaraguan",
+    "filler": "Dominican, Colombian, Nicaraguan, Honduran",
+    "strength": 2,
+    "smokingTime": 60,
+    "price": 4.7,
+    "rating": 88,
+    "flavors": [
+      "Hay",
+      "Cream",
+      "Cedar",
+      "Buttered Crackers",
+      "Light Spice"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 48,
+    "popularity": 6,
+    "description": "The longest-tenured Alec Bradley brand, Occidental Reserve was blended by Henke Kelner to prove that a truly premium cigar need not cost $10+. The 2023 reformulation features a silky Honduran Connecticut Shade wrapper over a Nicaraguan binder and multi-country long-fill blend. Creamy, woody, and delicately spicy.",
+    "pairings": [
+      "Milk Coffee",
+      "Light Whisky",
+      "Sparkling Water"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/occidental-reserve/occidental-reserve-toro-natural.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "occidental-reserve-churchill",
+    "name": "Occidental Reserve Churchill",
+    "brand": "Alec Bradley",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Honduran Connecticut Shade",
+    "binder": "Nicaraguan",
+    "filler": "Dominican, Colombian, Nicaraguan, Honduran",
+    "strength": 2,
+    "smokingTime": 70,
+    "price": 4.85,
+    "rating": 88,
+    "flavors": [
+      "Hay",
+      "Cream",
+      "Cedar",
+      "Buttered Crackers",
+      "Light Spice"
+    ],
+    "size": "Churchill",
+    "length": 7,
+    "ringGauge": 48,
+    "popularity": 6,
+    "description": "The longest-tenured Alec Bradley brand, Occidental Reserve was blended by Henke Kelner to prove that a truly premium cigar need not cost $10+. The 2023 reformulation features a silky Honduran Connecticut Shade wrapper over a Nicaraguan binder and multi-country long-fill blend. Creamy, woody, and delicately spicy.",
+    "pairings": [
+      "Milk Coffee",
+      "Light Whisky",
+      "Sparkling Water"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/occidental-reserve/occidental-reserve-churchill-natural.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "occidental-reserve-torpedo",
+    "name": "Occidental Reserve Torpedo",
+    "brand": "Alec Bradley",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Honduran Connecticut Shade",
+    "binder": "Nicaraguan",
+    "filler": "Dominican, Colombian, Nicaraguan, Honduran",
+    "strength": 2,
+    "smokingTime": 55,
+    "price": 5.05,
+    "rating": 88,
+    "flavors": [
+      "Hay",
+      "Cream",
+      "Cedar",
+      "Buttered Crackers",
+      "Light Spice"
+    ],
+    "size": "Torpedo",
+    "length": 6,
+    "ringGauge": 52,
+    "popularity": 6,
+    "description": "The longest-tenured Alec Bradley brand, Occidental Reserve was blended by Henke Kelner to prove that a truly premium cigar need not cost $10+. The 2023 reformulation features a silky Honduran Connecticut Shade wrapper over a Nicaraguan binder and multi-country long-fill blend. Creamy, woody, and delicately spicy.",
+    "pairings": [
+      "Milk Coffee",
+      "Light Whisky",
+      "Sparkling Water"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/occidental-reserve/occidental-reserve-torpedo-natural.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "occidental-reserve-gigante",
+    "name": "Occidental Reserve Gigante",
+    "brand": "Alec Bradley",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Honduran Connecticut Shade",
+    "binder": "Nicaraguan",
+    "filler": "Dominican, Colombian, Nicaraguan, Honduran",
+    "strength": 2,
+    "smokingTime": 90,
+    "price": 5.75,
+    "rating": 88,
+    "flavors": [
+      "Hay",
+      "Cream",
+      "Cedar",
+      "Buttered Crackers",
+      "Light Spice"
+    ],
+    "size": "Gigante",
+    "length": 8.5,
+    "ringGauge": 52,
+    "popularity": 6,
+    "description": "The longest-tenured Alec Bradley brand, Occidental Reserve was blended by Henke Kelner to prove that a truly premium cigar need not cost $10+. The 2023 reformulation features a silky Honduran Connecticut Shade wrapper over a Nicaraguan binder and multi-country long-fill blend. Creamy, woody, and delicately spicy.",
+    "pairings": [
+      "Milk Coffee",
+      "Light Whisky",
+      "Sparkling Water"
+    ],
+    "yearFounded": 1996,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/occidental-reserve.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "aganorsa-new-cuba-corojo-robusto",
+    "name": "New Cuba Corojo Robusto",
+    "brand": "Aganorsa Leaf",
+    "origin": "Nicaragua",
+    "region": "Esteli",
+    "wrapper": "Nicaraguan Corojo 99",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan Corojo 99, Criollo 98",
+    "strength": 3,
+    "smokingTime": 45,
+    "price": 2.08,
+    "rating": 87,
+    "flavors": [
+      "Cedar",
+      "Earth",
+      "Coffee Bean",
+      "Pepper",
+      "Cream"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 50,
+    "popularity": 6,
+    "description": "New Cuba Corojo is Aganorsa Leaf's everyday value line, built entirely from the company's own prized Nicaraguan farms. Cuban-seed Corojo and Criollo leaves are blended via Cuban Sandwich construction into an even-burning, medium-bodied smoke with dry cedar, earthiness, and a clean peppery retrohale.",
+    "pairings": [
+      "Espresso",
+      "Aged Rum",
+      "Craft Lager"
+    ],
+    "yearFounded": 2010,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/New-Cuba-Corojo-Robusto.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "aganorsa-new-cuba-corojo-toro",
+    "name": "New Cuba Corojo Toro",
+    "brand": "Aganorsa Leaf",
+    "origin": "Nicaragua",
+    "region": "Esteli",
+    "wrapper": "Nicaraguan Corojo 99",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan Corojo 99, Criollo 98",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 2.12,
+    "rating": 87,
+    "flavors": [
+      "Cedar",
+      "Earth",
+      "Coffee Bean",
+      "Pepper",
+      "Cream"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 50,
+    "popularity": 6,
+    "description": "New Cuba Corojo is Aganorsa Leaf's everyday value line, built entirely from the company's own prized Nicaraguan farms. Cuban-seed Corojo and Criollo leaves are blended via Cuban Sandwich construction into an even-burning, medium-bodied smoke with dry cedar, earthiness, and a clean peppery retrohale.",
+    "pairings": [
+      "Espresso",
+      "Aged Rum",
+      "Craft Lager"
+    ],
+    "yearFounded": 2010,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/New-Cuba-Corojo-Toro.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "aganorsa-new-cuba-corojo-churchill",
+    "name": "New Cuba Corojo Churchill",
+    "brand": "Aganorsa Leaf",
+    "origin": "Nicaragua",
+    "region": "Esteli",
+    "wrapper": "Nicaraguan Corojo 99",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan Corojo 99, Criollo 98",
+    "strength": 3,
+    "smokingTime": 70,
+    "price": 2.32,
+    "rating": 87,
+    "flavors": [
+      "Cedar",
+      "Earth",
+      "Coffee Bean",
+      "Pepper",
+      "Cream"
+    ],
+    "size": "Churchill",
+    "length": 7,
+    "ringGauge": 48,
+    "popularity": 6,
+    "description": "New Cuba Corojo is Aganorsa Leaf's everyday value line, built entirely from the company's own prized Nicaraguan farms. Cuban-seed Corojo and Criollo leaves are blended via Cuban Sandwich construction into an even-burning, medium-bodied smoke with dry cedar, earthiness, and a clean peppery retrohale.",
+    "pairings": [
+      "Espresso",
+      "Aged Rum",
+      "Craft Lager"
+    ],
+    "yearFounded": 2010,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/New-Cuba-Corojo-Churchill.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "aganorsa-new-cuba-corojo-titan",
+    "name": "New Cuba Corojo Titan",
+    "brand": "Aganorsa Leaf",
+    "origin": "Nicaragua",
+    "region": "Esteli",
+    "wrapper": "Nicaraguan Corojo 99",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan Corojo 99, Criollo 98",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 2.66,
+    "rating": 87,
+    "flavors": [
+      "Cedar",
+      "Earth",
+      "Coffee Bean",
+      "Pepper",
+      "Cream"
+    ],
+    "size": "Gordo",
+    "length": 6,
+    "ringGauge": 60,
+    "popularity": 6,
+    "description": "New Cuba Corojo is Aganorsa Leaf's everyday value line, built entirely from the company's own prized Nicaraguan farms. Cuban-seed Corojo and Criollo leaves are blended via Cuban Sandwich construction into an even-burning, medium-bodied smoke with dry cedar, earthiness, and a clean peppery retrohale.",
+    "pairings": [
+      "Espresso",
+      "Aged Rum",
+      "Craft Lager"
+    ],
+    "yearFounded": 2010,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/New-Cuba-Corojo-Titan.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "asylum-schizo-505",
+    "name": "Asylum Schizo 505",
+    "brand": "Asylum Cigars",
+    "origin": "Honduras",
+    "region": "Danli",
+    "wrapper": "Nicaraguan Habano",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": 3,
+    "smokingTime": 45,
+    "price": 4.33,
+    "rating": 87,
+    "flavors": [
+      "Leather",
+      "Cream",
+      "Light Spice",
+      "Cocoa",
+      "Natural Sweetness"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 50,
+    "popularity": 6,
+    "description": "Asylum Schizo is CLE/Christian Eiroa's budget workhorse, hand-rolled at the Aladino factory in Danli, Honduras with an all-Nicaraguan blend packed via Cuban Sandwich construction. Mild-to-medium bodied with leather, cream, gentle spice, and a hint of cocoa.",
+    "pairings": [
+      "Coffee",
+      "Craft Beer",
+      "Light Scotch"
+    ],
+    "yearFounded": 2012,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Schizo-505-Bundle.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "asylum-schizo-506",
+    "name": "Asylum Schizo 506",
+    "brand": "Asylum Cigars",
+    "origin": "Honduras",
+    "region": "Danli",
+    "wrapper": "Nicaraguan Habano",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": 3,
+    "smokingTime": 55,
+    "price": 4.48,
+    "rating": 87,
+    "flavors": [
+      "Leather",
+      "Cream",
+      "Light Spice",
+      "Cocoa",
+      "Natural Sweetness"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 50,
+    "popularity": 6,
+    "description": "Asylum Schizo is CLE/Christian Eiroa's budget workhorse, hand-rolled at the Aladino factory in Danli, Honduras with an all-Nicaraguan blend packed via Cuban Sandwich construction. Mild-to-medium bodied with leather, cream, gentle spice, and a hint of cocoa.",
+    "pairings": [
+      "Coffee",
+      "Craft Beer",
+      "Light Scotch"
+    ],
+    "yearFounded": 2012,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Schizo-506-Bundle.html",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "asylum-schizo-606",
+    "name": "Asylum Schizo 606",
+    "brand": "Asylum Cigars",
+    "origin": "Honduras",
+    "region": "Danli",
+    "wrapper": "Nicaraguan Habano",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 4.73,
+    "rating": 87,
+    "flavors": [
+      "Leather",
+      "Cream",
+      "Light Spice",
+      "Cocoa",
+      "Natural Sweetness"
+    ],
+    "size": "Gordo",
+    "length": 6,
+    "ringGauge": 60,
+    "popularity": 6,
+    "description": "Asylum Schizo is CLE/Christian Eiroa's budget workhorse, hand-rolled at the Aladino factory in Danli, Honduras with an all-Nicaraguan blend packed via Cuban Sandwich construction. Mild-to-medium bodied with leather, cream, gentle spice, and a hint of cocoa.",
+    "pairings": [
+      "Coffee",
+      "Craft Beer",
+      "Light Scotch"
+    ],
+    "yearFounded": 2012,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Smoke Inn",
+        "url": "https://www.smokeinn.com/Schizo-606-Bundle.html",
+        "price": null
+      }
+    ]
   }
 ]
