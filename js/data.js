@@ -36564,7 +36564,7 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Espresso"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Maduro-Robusto-SKU197021118.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Maduro-Robusto-SKU197021118.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/sindicato-casa-bella-maduro","price":null}],
   },
   {
     id: "casa-bella-maduro-toro",
@@ -36588,7 +36588,7 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Espresso"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Maduro-Toro.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Maduro-Toro.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/sindicato-casa-bella-maduro","price":null}],
   },
   {
     id: "casa-bella-maduro-churchill",
@@ -36612,7 +36612,7 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Espresso"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Maduro-Churchill.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Maduro-Churchill.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/sindicato-casa-bella-maduro","price":null}],
   },
   {
     id: "casa-bella-maduro-gran-toro",
@@ -36636,7 +36636,7 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Espresso"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Maduro-Gran-Toro.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Maduro-Gran-Toro.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/sindicato-casa-bella-maduro","price":null}],
   },
   {
     id: "casa-bella-nicaragua-corona",
@@ -36660,7 +36660,7 @@ const CIGARS = [
     pairings: ["Espresso","Dark Rum","Craft Beer"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Nicaragua-Corona.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Nicaragua-Corona.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/sindicato-casa-bella-puro-nicaragua","price":null}],
   },
   {
     id: "casa-bella-nicaragua-robusto",
@@ -36684,7 +36684,7 @@ const CIGARS = [
     pairings: ["Espresso","Dark Rum","Craft Beer"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Nicaragua-Robusto.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Nicaragua-Robusto.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/sindicato-casa-bella-puro-nicaragua","price":null}],
   },
   {
     id: "casa-bella-nicaragua-toro",
@@ -36708,7 +36708,7 @@ const CIGARS = [
     pairings: ["Espresso","Dark Rum","Craft Beer"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Nicaragua-Toro.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Nicaragua-Toro.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/sindicato-casa-bella-puro-nicaragua","price":null}],
   },
   {
     id: "casa-bella-nicaragua-churchill",
@@ -36732,7 +36732,7 @@ const CIGARS = [
     pairings: ["Espresso","Dark Rum","Craft Beer"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Nicaragua-Churchill.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Nicaragua-Churchill.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/sindicato-casa-bella-puro-nicaragua","price":null}],
   },
   {
     id: "casa-bella-nicaragua-gran-toro",
@@ -36756,7 +36756,7 @@ const CIGARS = [
     pairings: ["Espresso","Dark Rum","Craft Beer"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Nicaragua-Gran-Toro.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Casa-Bella-Nicaragua-Gran-Toro.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/sindicato-casa-bella-puro-nicaragua","price":null}],
   },
   {
     id: "occidental-reserve-robusto",
@@ -36780,7 +36780,7 @@ const CIGARS = [
     pairings: ["Milk Coffee","Light Whisky","Sparkling Water"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/occidental-reserve/occidental-reserve-robusto-natural.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/occidental-reserve/occidental-reserve-robusto-natural.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigars/alec-bradley-occidental-reserve-robusto","price":null}],
   },
   {
     id: "occidental-reserve-toro",
@@ -36924,7 +36924,7 @@ const CIGARS = [
     pairings: ["Espresso","Aged Rum","Craft Lager"],
     yearFounded: 2010,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/New-Cuba-Corojo-Toro.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/New-Cuba-Corojo-Toro.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigars/new-cuba-corojo-toro","price":null}],
   },
   {
     id: "aganorsa-new-cuba-corojo-churchill",
@@ -36996,7 +36996,7 @@ const CIGARS = [
     pairings: ["Coffee","Craft Beer","Light Scotch"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Schizo-505-Bundle.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/asylum-schizo-natural.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Schizo-505-Bundle.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/asylum-schizo-natural.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigars/asylum-schizo-50-5","price":null}],
   },
   {
     id: "asylum-schizo-506",
@@ -37020,7 +37020,7 @@ const CIGARS = [
     pairings: ["Coffee","Craft Beer","Light Scotch"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Schizo-506-Bundle.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/asylum-schizo-natural.html","price":null}],
+    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Schizo-506-Bundle.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/asylum-schizo-natural.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigars/asylum-schizo-50-6","price":null}],
   },
   {
     id: "asylum-schizo-606",
