@@ -1347,7 +1347,7 @@ const CIGARS = [
     yearFounded: 2005,
     limited: true,
     image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pfr/ci-pfr-45m.jpg",
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/padron-family-reserve-45-years-5-pack-cigars-maduro-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/padron-family-reserve-cigars/1474729/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/padron-family-reserve-maduro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/padron-family-reserve.html","price":null}],
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/padron-family-reserve-45-years-5-pack-cigars-maduro-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/padron-family-reserve-cigars/1474729/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/padron-family-reserve-maduro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/padron-family-reserve.html","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/padron-family-reserve/45-years/PDF45.html","price":null}],
   },
   {
     id: "fuente-fuente-opus-x-fe",
@@ -9297,7 +9297,7 @@ const CIGARS = [
     yearFounded: 2005,
     limited: true,
     image: "https://images.famous-smoke.com/image/upload/c_lpad,dpr_2.0,f_auto,h_400,q_auto,w_400/v1/skupics/pfr/ci-pfr-50n.jpg",
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/padron-family-reserve-gift-set-cigars-maduro-sampler-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/padron-family-reserve-cigars/1474729/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/padron-family-reserve-maduro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/padron-family-reserve-sampler-natural-box-5.html","price":null}],
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/padron-family-reserve-gift-set-cigars-maduro-sampler-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/padron-family-reserve-cigars/1474729/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/padron-family-reserve-maduro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/padron-family-reserve-sampler-natural-box-5.html","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/padron-family-reserve/50-years/PDF50.html","price":null}],
   },
   {
     id: "padron-3000-natural",
@@ -20820,7 +20820,7 @@ const CIGARS = [
     yearFounded: 2000,
     limited: false,
     image: "http://images.neptunecigar.com/avimg/38752.jpg",
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/flor-del-valle-sky-flower-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/warped-flor-del-valle-cigars/1487244/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/warped-flor-del-valle","price":null}],
+    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/flor-del-valle-sky-flower-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/warped-flor-del-valle-cigars/1487244/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/warped-flor-del-valle","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/warped-flor-del-valle/sky-flower/WRPFSF.html","price":null}],
   },
   {
     id: "hvc-pan-caliente-toro",

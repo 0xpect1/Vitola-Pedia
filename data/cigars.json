@@ -3101,6 +3101,11 @@
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/padron-family-reserve.html",
         "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/padron-family-reserve/45-years/PDF45.html",
+        "price": null
       }
     ]
   },
@@ -21908,6 +21913,11 @@
       {
         "retailer": "Cigar Page",
         "url": "https://www.cigarpage.com/padron-family-reserve-sampler-natural-box-5.html",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/padron-family-reserve/50-years/PDF50.html",
         "price": null
       }
     ]
@@ -48397,6 +48407,11 @@
       {
         "retailer": "Neptune Cigar",
         "url": "https://www.neptunecigar.com/cigar/warped-flor-del-valle",
+        "price": null
+      },
+      {
+        "retailer": "JR Cigars",
+        "url": "https://www.jrcigars.com/item/warped-flor-del-valle/sky-flower/WRPFSF.html",
         "price": null
       }
     ]
