@@ -307,6 +307,9 @@ function openModal(id) {
   const cigar = CIGARS.find(c => c.id === id);
   if (!cigar) return;
 
+  history.pushState({ cigarId: id }, '', '/#/cigar/' + id);
+  document.title = cigar.name + ' — Vitola Pedia';
+
   const sc = strengthConfig(cigar.strength);
   const strengthPct = (cigar.strength / 5) * 100;
   const flag = ORIGIN_FLAGS[cigar.origin] || '';
@@ -418,6 +421,10 @@ function openModal(id) {
 function closeModal() {
   $modalOverlay.classList.add('hidden');
   document.body.style.overflow = '';
+  if (window.location.hash.startsWith('#/cigar/') || window.location.hash.startsWith('#/tobacco/')) {
+    history.pushState({}, '', '/');
+  }
+  document.title = 'Vitola Pedia — Premium Cigar Encyclopedia | 1,484 Cigars';
 }
 
 // ── WHERE TO BUY ─────────────────────────────────────────────────
@@ -561,6 +568,478 @@ function buildBuySection(cigar) {
       <div class="buy-cards-grid">${cards}</div>
       <p class="buy-disclaimer">Prices vary by retailer and change often — click through for current pricing.</p>
     </div>`;
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// PIPE TOBACCO ENGINE
+// ═══════════════════════════════════════════════════════════════════
+
+const PT_RETAILERS = [
+  { name: 'Pipes & Cigars', search: 'https://www.pipesandcigars.com/search/?q=', tagline: 'Largest Pipe Tobacco Selection', badge: '★ Top Pick' },
+  { name: '4 Noggins',      search: 'https://www.4noggins.com/search/?q=',       tagline: 'Specialty Pipe Tobacco Shop' },
+];
+
+const PT_BLEND_COLORS = {
+  'English':          '#8b5e3c',
+  'Balkan':           '#6b4a2a',
+  'Aromatic':         '#c9943a',
+  'Virginia':         '#7a8c5e',
+  'Virginia/Perique': '#5e8a4a',
+  'Virginia/Burley':  '#8c7a5e',
+  'Burley':           '#a0714f',
+  'Dark Fired':       '#4a5a8a',
+  'Scottish':         '#7a5e8a',
+  'Oriental':         '#8a7a3a',
+};
+
+const ptState = {
+  search: '',
+  brand: 'all',
+  blendType: 'all',
+  cut: 'all',
+  strength: 'all',
+  maxPrice: 50,
+  sort: 'rating-desc',
+  view: 'grid',
+};
+
+function ptBlendColor(bt) {
+  return PT_BLEND_COLORS[bt] || '#c9943a';
+}
+
+function matchesPTSearch(pt, query) {
+  if (!query) return true;
+  const q = query.toLowerCase();
+  return (
+    pt.name.toLowerCase().includes(q) ||
+    pt.brand.toLowerCase().includes(q) ||
+    pt.blendType.toLowerCase().includes(q) ||
+    pt.cut.toLowerCase().includes(q) ||
+    pt.components.some(c => c.toLowerCase().includes(q)) ||
+    pt.flavors.some(f => f.toLowerCase().includes(q)) ||
+    pt.description.toLowerCase().includes(q)
+  );
+}
+
+function getFilteredPT() {
+  return PIPE_TOBACCOS.filter(pt =>
+    (ptState.brand === 'all' || pt.brand === ptState.brand) &&
+    (ptState.blendType === 'all' || pt.blendType === ptState.blendType) &&
+    (ptState.cut === 'all' || pt.cut.toLowerCase().includes(ptState.cut.toLowerCase())) &&
+    (ptState.strength === 'all' || pt.strength === parseInt(ptState.strength)) &&
+    pt.price <= ptState.maxPrice &&
+    matchesPTSearch(pt, ptState.search)
+  );
+}
+
+function sortPT(items) {
+  const [key, dir] = ptState.sort.split('-');
+  return [...items].sort((a, b) => {
+    let av = a[key], bv = b[key];
+    if (key === 'name') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
+    if (dir === 'asc') return av < bv ? -1 : av > bv ? 1 : 0;
+    return av > bv ? -1 : av < bv ? 1 : 0;
+  });
+}
+
+function buildPTBuySection(pt) {
+  const searchName = (pt.brand + ' ' + pt.name).normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const query = encodeURIComponent(searchName);
+
+  let specificLinks = [];
+  if (pt.buyLinks && pt.buyLinks.length > 0) {
+    specificLinks = [...pt.buyLinks].sort((a, b) => (a.price || 0) - (b.price || 0));
+    if (specificLinks.length > 0) specificLinks[0].isBest = true;
+  }
+
+  const covered = new Set(specificLinks.map(l => l.retailer));
+  const autoLinks = PT_RETAILERS
+    .filter(r => !covered.has(r.name))
+    .map((r, i) => ({
+      name: r.name,
+      url: r.search + query,
+      tagline: r.tagline,
+      badge: (!specificLinks.length && i === 0) ? r.badge : null,
+    }));
+
+  const allLinks = [
+    ...specificLinks.map(l => ({
+      name: l.retailer, url: l.url, tagline: '', badge: l.isBest ? '★ Best Price' : null, price: l.price,
+    })),
+    ...autoLinks,
+  ];
+
+  const cards = allLinks.map(link => {
+    const badgeHtml = link.badge ? `<div class="buy-badge">${link.badge}</div>` : '';
+    const priceHtml = link.price != null
+      ? `<div class="buy-cta buy-price-tag">$${link.price.toFixed(2)} / tin</div>`
+      : `<div class="buy-cta">Shop Now →</div>`;
+    return `<a href="${link.url}" target="_blank" rel="noopener noreferrer" class="buy-card${link.badge ? ' buy-card-top' : ''}">
+      ${badgeHtml}
+      <div class="buy-card-name">${link.name}</div>
+      <div class="buy-card-tagline">${link.tagline}</div>
+      ${priceHtml}
+    </a>`;
+  }).join('');
+
+  return `
+    <div class="modal-buy-section">
+      <div class="modal-section-title">Where to Buy</div>
+      <div class="buy-cards-grid">${cards}</div>
+      <p class="buy-disclaimer">Prices vary and change often — click through for current pricing.</p>
+    </div>`;
+}
+
+function renderPTCard(pt, index) {
+  const sc = strengthConfig(pt.strength);
+  const bc = ptBlendColor(pt.blendType);
+
+  const dots = Array.from({ length: 5 }, (_, i) => {
+    const filled = i < pt.strength;
+    return `<div class="strength-dot${filled ? ' filled' : ''}" style="${filled ? `--strength-val:${sc.color}` : ''}"></div>`;
+  }).join('');
+
+  const roomStars = Array.from({ length: 5 }, (_, i) =>
+    `<span style="color:${i < pt.roomNote ? '#c9943a' : 'var(--text-muted)'}">★</span>`
+  ).join('');
+
+  const topFlavors = pt.flavors.slice(0, 4).map(f => `<span class="flavor-tag">${f}</span>`).join('');
+
+  const cardImg = pt.image
+    ? `<div class="card-img-wrap"><img class="card-img" src="${pt.image}" alt="${pt.name}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`
+    : '';
+
+  return `
+    <article class="cigar-card${pt.image ? ' has-img' : ''}" data-pt-id="${pt.id}" style="animation-delay:${Math.min(index * 0.04, 0.5)}s" role="button" tabindex="0">
+      ${cardImg}
+      <div class="card-header">
+        <span class="card-origin-badge" style="background:${bc}22;color:${bc};border-color:${bc}44">${pt.blendType}</span>
+        <div>
+          <div class="card-rating">${pt.rating}</div>
+          <span class="card-rating-label">pts</span>
+        </div>
+      </div>
+      <div class="card-name">${pt.name}</div>
+      <div class="card-brand">${pt.brand}</div>
+      <div class="strength-row">
+        <span class="strength-label">Strength</span>
+        <div class="strength-dots">${dots}</div>
+        <span class="strength-text" style="color:${sc.color}">${sc.label}</span>
+      </div>
+      <div class="card-details">
+        <div class="detail-item">
+          <span class="detail-label">Cut</span>
+          <span class="detail-value">${pt.cut}</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label">Tin</span>
+          <span class="detail-value">${pt.tinWeight}g</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label">Room Note</span>
+          <span class="detail-value" style="letter-spacing:1px;font-size:13px">${roomStars}</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label">Price / Tin</span>
+          <span class="detail-value price">$${pt.price.toFixed(2)}</span>
+        </div>
+      </div>
+      <div class="flavor-tags">${topFlavors}</div>
+    </article>`;
+}
+
+function renderPTListCard(pt) {
+  const sc = strengthConfig(pt.strength);
+  const bc = ptBlendColor(pt.blendType);
+  const dots = Array.from({ length: 5 }, (_, i) => {
+    const filled = i < pt.strength;
+    return `<div class="strength-dot${filled ? ' filled' : ''}" style="${filled ? `--strength-val:${sc.color}` : ''}"></div>`;
+  }).join('');
+
+  return `
+    <article class="cigar-card" data-pt-id="${pt.id}" role="button" tabindex="0">
+      <div class="card-left">
+        <div class="card-name">${pt.name}</div>
+        <div class="card-brand">${pt.brand} · <span style="color:${bc}">${pt.blendType}</span> · ${pt.origin}</div>
+        <div class="card-details">
+          <div class="detail-item"><span class="detail-label">Cut:</span><span class="detail-value">${pt.cut}</span></div>
+          <div class="detail-item"><span class="detail-label">Components:</span><span class="detail-value">${pt.components.join(', ')}</span></div>
+          <div class="detail-item"><span class="detail-label">Tin:</span><span class="detail-value">${pt.tinWeight}g</span></div>
+        </div>
+        <div class="strength-row" style="margin-top:8px">
+          <div class="strength-dots">${dots}</div>
+          <span class="strength-text" style="color:${sc.color}">${sc.label}</span>
+        </div>
+      </div>
+      <div class="card-right">
+        <div class="card-rating">${pt.rating}<span class="card-rating-label">pts</span></div>
+        <div class="detail-value price" style="font-size:16px">$${pt.price.toFixed(2)}</div>
+      </div>
+    </article>`;
+}
+
+function openPTModal(id) {
+  const pt = PIPE_TOBACCOS.find(p => p.id === id);
+  if (!pt) return;
+
+  const sc = strengthConfig(pt.strength);
+  const bc = ptBlendColor(pt.blendType);
+  const strengthPct = (pt.strength / 5) * 100;
+
+  const flavorChips = pt.flavors.map(f => {
+    const icon = FLAVOR_ICONS[f] || '·';
+    return `<span class="flavor-chip">${icon} ${f}</span>`;
+  }).join('');
+
+  const componentsHtml = pt.components.map(c => `<span class="flavor-chip">🌿 ${c}</span>`).join('');
+  const pairingItems = (pt.pairings || []).map(p => `<span class="pairing-item">🥃 ${p}</span>`).join('');
+
+  const roomStarsHtml = Array.from({ length: 5 }, (_, i) =>
+    `<span style="color:${i < pt.roomNote ? '#c9943a' : 'rgba(201,168,76,0.25)'}; font-size:18px">★</span>`
+  ).join('');
+
+  const modalImg = pt.image
+    ? `<div class="modal-hero-img-wrap"><img class="modal-hero-img" src="${pt.image}" alt="${pt.name}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`
+    : '';
+
+  $modalBody.innerHTML = `
+    <div class="modal-header">
+      <div class="modal-badges">
+        <span class="modal-badge origin" style="background:${bc}22;color:${bc};border-color:${bc}44">${pt.blendType}</span>
+        <span class="modal-badge">${pt.cut}</span>
+        <span class="modal-badge">${pt.origin}</span>
+        <span class="modal-badge">${pt.tinWeight}g tin</span>
+      </div>
+      <h2 class="modal-title">${pt.name}</h2>
+      <div class="modal-brand">${pt.brand}</div>
+    </div>
+
+    ${modalImg}
+
+    <div class="modal-stats-row">
+      <div class="modal-stat-box">
+        <div class="msb-val">${pt.rating}</div>
+        <div class="msb-label">Expert Rating</div>
+      </div>
+      <div class="modal-stat-box">
+        <div class="msb-val">$${pt.price.toFixed(2)}</div>
+        <div class="msb-label">Per Tin</div>
+      </div>
+      <div class="modal-stat-box">
+        <div class="msb-val" style="letter-spacing:2px;font-size:18px">${roomStarsHtml}</div>
+        <div class="msb-label">Room Note</div>
+      </div>
+      <div class="modal-strength-full">
+        <div class="msf-label">Body &amp; Strength</div>
+        <div class="msf-bar-track">
+          <div class="msf-bar-fill" style="width:${strengthPct}%; --fill-end:${sc.color}"></div>
+        </div>
+        <div class="msf-text" style="color:${sc.color}">${sc.label}</div>
+      </div>
+    </div>
+
+    <div class="modal-description">${pt.description}</div>
+
+    <div class="modal-specs">
+      <div class="spec-item">
+        <div class="spec-label">Blend Type</div>
+        <div class="spec-value" style="color:${bc}">${pt.blendType}</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Cut</div>
+        <div class="spec-value">${pt.cut}</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Tin Weight</div>
+        <div class="spec-value">${pt.tinWeight}g</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Origin</div>
+        <div class="spec-value">${pt.origin}</div>
+      </div>
+    </div>
+
+    <div class="modal-flavors">
+      <div class="modal-section-title">Leaf Components</div>
+      <div class="flavor-chips">${componentsHtml}</div>
+    </div>
+
+    <div class="modal-flavors">
+      <div class="modal-section-title">Flavor Profile</div>
+      <div class="flavor-wheel-wrap">
+        ${buildFlavorWheel(pt.flavors)}
+      </div>
+      <div class="flavor-chips">${flavorChips}</div>
+    </div>
+
+    ${pairingItems ? `
+    <div class="modal-pairings">
+      <div class="modal-section-title">Pairs Well With</div>
+      <div class="pairing-list">${pairingItems}</div>
+    </div>` : ''}
+
+    ${buildPTBuySection(pt)}
+  `;
+
+  $modalOverlay.classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+  $modal.scrollTop = 0;
+  history.pushState({ ptId: id }, '', '/#/tobacco/' + id);
+  document.title = pt.name + ' — Vitola Pedia';
+}
+
+function renderPT() {
+  const filtered = sortPT(getFilteredPT());
+  const count = filtered.length;
+  const $ptCount = document.getElementById('ptResultsCount');
+  const $ptNoResults = document.getElementById('ptNoResults');
+  const $ptGrid = document.getElementById('ptGrid');
+  if (!$ptGrid) return;
+
+  if ($ptCount) $ptCount.innerHTML = `<strong>${count}</strong> blend${count !== 1 ? 's' : ''} found`;
+  if ($ptNoResults) $ptNoResults.classList.toggle('hidden', count > 0);
+  $ptGrid.innerHTML = '';
+  if (count === 0) return;
+
+  $ptGrid.innerHTML = ptState.view === 'list'
+    ? filtered.map(pt => renderPTListCard(pt)).join('')
+    : filtered.map((pt, i) => renderPTCard(pt, i)).join('');
+
+  $ptGrid.classList.toggle('list-view', ptState.view === 'list');
+
+  $ptGrid.querySelectorAll('.cigar-card[data-pt-id]').forEach(card => {
+    const open = () => openPTModal(card.dataset.ptId);
+    card.addEventListener('click', open);
+    card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+  });
+}
+
+function bindPTpills(containerId, stateKey) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  container.addEventListener('click', e => {
+    const pill = e.target.closest('.pill');
+    if (!pill) return;
+    container.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
+    pill.classList.add('active');
+    ptState[stateKey] = pill.dataset.value;
+    renderPT();
+  });
+}
+
+function updatePTPriceRangeStyle() {
+  const $r = document.getElementById('ptPriceRange');
+  if (!$r) return;
+  const pct = ((ptState.maxPrice - 5) / (50 - 5)) * 100;
+  $r.style.setProperty('--pct', `${pct}%`);
+}
+
+function initPipeTobacco() {
+  if (!PIPE_TOBACCOS || !PIPE_TOBACCOS.length) return;
+
+  const $ptStat = document.getElementById('ptStatTotal');
+  if ($ptStat) $ptStat.textContent = PIPE_TOBACCOS.length;
+
+  const $ptBrand = document.getElementById('ptBrandSelect');
+  if ($ptBrand) {
+    const brands = [...new Set(PIPE_TOBACCOS.map(p => p.brand))].sort();
+    brands.forEach(b => {
+      const opt = document.createElement('option');
+      opt.value = b; opt.textContent = b;
+      $ptBrand.appendChild(opt);
+    });
+    $ptBrand.addEventListener('change', e => { ptState.brand = e.target.value; renderPT(); });
+  }
+
+  const $ptSearch = document.getElementById('ptSearchInput');
+  const $ptClr = document.getElementById('ptSearchClear');
+  if ($ptSearch) {
+    $ptSearch.addEventListener('input', e => {
+      ptState.search = e.target.value.trim();
+      if ($ptClr) $ptClr.classList.toggle('visible', ptState.search.length > 0);
+      renderPT();
+    });
+  }
+  if ($ptClr) {
+    $ptClr.addEventListener('click', () => {
+      if ($ptSearch) $ptSearch.value = '';
+      ptState.search = '';
+      $ptClr.classList.remove('visible');
+      renderPT();
+    });
+  }
+
+  const $ptSort = document.getElementById('ptSortSelect');
+  if ($ptSort) $ptSort.addEventListener('change', e => { ptState.sort = e.target.value; renderPT(); });
+
+  bindPTpills('ptBlendFilter', 'blendType');
+  bindPTpills('ptCutFilter', 'cut');
+  bindPTpills('ptStrengthFilter', 'strength');
+
+  const $ptPrice = document.getElementById('ptPriceRange');
+  const $ptPriceLabel = document.getElementById('ptPriceLabel');
+  if ($ptPrice) {
+    $ptPrice.addEventListener('input', e => {
+      ptState.maxPrice = parseInt(e.target.value);
+      if ($ptPriceLabel) $ptPriceLabel.textContent = ptState.maxPrice >= 50 ? 'All prices' : `Up to $${ptState.maxPrice}`;
+      updatePTPriceRangeStyle();
+      renderPT();
+    });
+    updatePTPriceRangeStyle();
+  }
+
+  const resetPT = () => {
+    ptState.search = ''; ptState.brand = 'all'; ptState.blendType = 'all';
+    ptState.cut = 'all'; ptState.strength = 'all'; ptState.maxPrice = 50;
+    if ($ptSearch) $ptSearch.value = '';
+    if ($ptClr) $ptClr.classList.remove('visible');
+    if ($ptBrand) $ptBrand.value = 'all';
+    if ($ptPrice) { $ptPrice.value = 50; updatePTPriceRangeStyle(); }
+    if ($ptPriceLabel) $ptPriceLabel.textContent = 'All prices';
+    ['ptBlendFilter','ptCutFilter','ptStrengthFilter'].forEach(id => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
+      const allPill = el.querySelector('.pill[data-value="all"]');
+      if (allPill) allPill.classList.add('active');
+    });
+    renderPT();
+  };
+
+  const $ptReset = document.getElementById('ptResetFilters');
+  if ($ptReset) $ptReset.addEventListener('click', resetPT);
+  const $ptNR = document.getElementById('ptNoResultsReset');
+  if ($ptNR) $ptNR.addEventListener('click', resetPT);
+
+  const $ptMobileBtn = document.getElementById('ptMobileFilterBtn');
+  const $ptFiltersPanel = document.getElementById('ptFiltersPanel');
+  const $ptFilterOverlay = document.getElementById('ptFilterOverlay');
+  const $ptFilterClose = document.getElementById('ptFiltersMobileClose');
+  if ($ptMobileBtn && $ptFiltersPanel && $ptFilterOverlay) {
+    $ptMobileBtn.addEventListener('click', () => {
+      $ptFiltersPanel.classList.add('open');
+      $ptFilterOverlay.classList.remove('hidden');
+    });
+    const closePTFilters = () => {
+      $ptFiltersPanel.classList.remove('open');
+      $ptFilterOverlay.classList.add('hidden');
+    };
+    $ptFilterOverlay.addEventListener('click', closePTFilters);
+    if ($ptFilterClose) $ptFilterClose.addEventListener('click', closePTFilters);
+  }
+
+  const $ptViewGrid = document.getElementById('ptViewGrid');
+  const $ptViewList = document.getElementById('ptViewList');
+  if ($ptViewGrid && $ptViewList) {
+    $ptViewGrid.addEventListener('click', () => {
+      ptState.view = 'grid'; $ptViewGrid.classList.add('active'); $ptViewList.classList.remove('active'); renderPT();
+    });
+    $ptViewList.addEventListener('click', () => {
+      ptState.view = 'list'; $ptViewList.classList.add('active'); $ptViewGrid.classList.remove('active'); renderPT();
+    });
+  }
+
+  renderPT();
 }
 
 // ── FLAVOR WHEEL SVG ─────────────────────────────────────────────
@@ -723,13 +1202,13 @@ function renderRegions() {
 function switchView(viewName) {
   state.currentView = viewName;
 
-  const views = ['library', 'regions', 'guide'];
+  const views = ['library', 'regions', 'guide', 'pipe-tobacco'];
   views.forEach(v => {
     const el = document.getElementById(`view-${v}`);
     if (el) el.classList.toggle('hidden', v !== viewName);
   });
 
-  // main-content visibility
+  // main-content (cigar library) visibility
   const mainContent = document.querySelector('.main-content');
   if (mainContent) mainContent.classList.toggle('hidden', viewName !== 'library');
 
@@ -1353,6 +1832,63 @@ function buildCigar3D() {
   capFoot.className = 'cigar-cap cigar-cap-foot';
   container.appendChild(capFoot);
 }
+// ── HASH ROUTING ─────────────────────────────────────────────────
+function _parseHashCigar(hash) {
+  const m = hash.match(/^#\/cigar\/(.+)$/);
+  return m ? m[1] : null;
+}
+
+function _handleHashRouting() {
+  const hash = window.location.hash;
+
+  // Cigar deep-link: /#/cigar/{id}
+  const id = _parseHashCigar(hash);
+  if (id) {
+    const landing = document.getElementById('landing');
+    if (landing && !document.body.classList.contains('site-entered')) {
+      landing.classList.add('landing-hidden');
+      document.body.classList.remove('has-landing');
+      document.body.classList.add('site-entered');
+    }
+    openModal(id);
+    return;
+  }
+
+  // Pipe tobacco deep-link: /#/tobacco/{id}
+  const ptm = hash.match(/^#\/tobacco\/(.+)$/);
+  if (ptm) {
+    const landing = document.getElementById('landing');
+    if (landing && !document.body.classList.contains('site-entered')) {
+      landing.classList.add('landing-hidden');
+      document.body.classList.remove('has-landing');
+      document.body.classList.add('site-entered');
+    }
+    switchView('pipe-tobacco');
+    openPTModal(ptm[1]);
+    return;
+  }
+
+  // Search shortcut: /#search={query}
+  const sm = hash.match(/^#search=(.+)$/);
+  if (sm) {
+    const q = decodeURIComponent(sm[1]);
+    const $s = document.getElementById('searchInput');
+    if ($s) { $s.value = q; state.search = q; render(); }
+  }
+}
+
+window.addEventListener('popstate', (e) => {
+  if (e.state && e.state.cigarId) {
+    openModal(e.state.cigarId);
+  } else if (e.state && e.state.ptId) {
+    openPTModal(e.state.ptId);
+  } else {
+    $modalOverlay.classList.add('hidden');
+    document.body.style.overflow = '';
+    document.title = 'Vitola Pedia — Premium Cigar Encyclopedia | 1,484 Cigars';
+  }
+});
+
 function enterSite() {
   const landing = document.getElementById('landing');
   if (!landing) return;
@@ -1408,8 +1944,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { passive: true });
   }
 
-  // Defer init so the landing page paints before processing 700 cigars
-  setTimeout(init, 0);
+  // Defer init so the landing page paints before processing all data
+  setTimeout(() => { init(); initPipeTobacco(); _handleHashRouting(); }, 0);
 
   // Quiz
   document.getElementById('quizTriggerBtn').addEventListener('click', openQuizModal);
