@@ -294,12 +294,14 @@ function render() {
   // Attach click handlers
   $grid.querySelectorAll('.cigar-card').forEach(card => {
     const open = (e) => {
-      if (e.target.closest('.card-compare-btn')) return;
+      if (e.target.closest('.card-compare-btn') || e.target.closest('.card-heart-btn')) return;
       openModal(card.dataset.id);
     };
     card.addEventListener('click', open);
     card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') open(e); });
   });
+
+  if (window.VP && VP.onGridRender) VP.onGridRender($grid);
 }
 
 // ── MODAL ────────────────────────────────────────────────────────
@@ -613,6 +615,7 @@ function matchesPTSearch(pt, query) {
   return (
     pt.name.toLowerCase().includes(q) ||
     pt.brand.toLowerCase().includes(q) ||
+    pt.origin.toLowerCase().includes(q) ||
     pt.blendType.toLowerCase().includes(q) ||
     pt.cut.toLowerCase().includes(q) ||
     pt.components.some(c => c.toLowerCase().includes(q)) ||
@@ -908,10 +911,15 @@ function renderPT() {
   $ptGrid.classList.toggle('list-view', ptState.view === 'list');
 
   $ptGrid.querySelectorAll('.cigar-card[data-pt-id]').forEach(card => {
-    const open = () => openPTModal(card.dataset.ptId);
+    const open = (e) => {
+      if (e.target && e.target.closest && e.target.closest('.card-heart-btn')) return;
+      openPTModal(card.dataset.ptId);
+    };
     card.addEventListener('click', open);
-    card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+    card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(e); } });
   });
+
+  if (window.VP && VP.onGridRender) VP.onGridRender($ptGrid);
 }
 
 function bindPTpills(containerId, stateKey) {

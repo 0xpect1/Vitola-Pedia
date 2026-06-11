@@ -194,7 +194,8 @@ img { max-width: 100%; display: block; }
   flex-shrink: 0;
   margin-left: 18px;
 }
-#searchInput {
+#searchInput,
+#ptSearchInput {
   flex: 1;
   background: none;
   border: none;
@@ -204,7 +205,9 @@ img { max-width: 100%; display: block; }
   padding: 14px 16px;
   caret-color: var(--gold);
 }
-#searchInput::placeholder { color: var(--text-muted); }
+#searchInput::placeholder,
+#ptSearchInput::placeholder { color: var(--text-muted); }
+.search-box { width: 100%; }
 .search-clear {
   padding: 8px 16px;
   color: var(--text-muted);
@@ -2360,4 +2363,442 @@ body.site-entered .site-footer {
   .compare-slots { flex-direction: column; }
   .compare-grid { grid-template-columns: 1fr; }
   .compare-divider-col { display: none; }
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   IMMERSIVE LAYER — ember trail, smoke, humidor, COTD, pairing,
+   origin map, tilt sheen, burn line, ambient sound
+═══════════════════════════════════════════════════════════════════ */
+
+/* ── Ember cursor canvas ─────────────────────────────────────────── */
+#emberCanvas {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2000;
+}
+
+/* ── Site-wide drifting smoke ────────────────────────────────────── */
+.site-smoke {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+body.site-entered .site-smoke { opacity: 1; }
+.ss-wisp {
+  position: absolute;
+  bottom: -180px;
+  width: 220px;
+  height: 480px;
+  background: radial-gradient(ellipse 45% 50% at 50% 60%, rgba(201,168,76,0.045), transparent 70%);
+  filter: blur(28px);
+  animation: ssDrift 26s ease-in-out infinite;
+}
+.ss-1 { left: 6%;  animation-delay: 0s;   animation-duration: 30s; }
+.ss-2 { left: 38%; animation-delay: -9s;  animation-duration: 36s; }
+.ss-3 { left: 67%; animation-delay: -18s; animation-duration: 28s; }
+.ss-4 { left: 88%; animation-delay: -5s;  animation-duration: 40s; }
+@keyframes ssDrift {
+  0%   { transform: translateY(0) translateX(0) scaleX(1); opacity: 0; }
+  12%  { opacity: 1; }
+  55%  { transform: translateY(-48vh) translateX(36px) scaleX(1.4); opacity: 0.7; }
+  100% { transform: translateY(-105vh) translateX(-28px) scaleX(1.9); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ss-wisp { animation: none; opacity: 0; }
+}
+
+/* ── Scroll reveal ───────────────────────────────────────────────── */
+body.js-reveal .cigar-card { animation-play-state: paused; }
+body.js-reveal .cigar-card.in-view { animation-play-state: running; }
+
+/* ── Header icon buttons (sound + humidor) ───────────────────────── */
+.nav-icon-btn {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: var(--transition);
+  flex-shrink: 0;
+}
+.nav-icon-btn:hover { color: var(--gold); border-color: var(--gold); background: var(--gold-glow); }
+.nav-icon-btn.active { color: var(--gold); border-color: var(--gold); background: var(--gold-glow); }
+.nav-icon-btn svg { width: 16px; height: 16px; }
+.hum-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: 8px;
+  background: var(--gold);
+  color: #1a1209;
+  font-size: 10px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+.hum-badge.hidden { display: none; }
+
+/* ── Card heart (save to humidor) ────────────────────────────────── */
+.card-heart-btn {
+  position: absolute;
+  bottom: 14px;
+  right: 50px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--bg-base);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: var(--transition);
+  cursor: pointer;
+  z-index: 3;
+}
+.cigar-card[data-pt-id] .card-heart-btn { right: 14px; }
+.cigar-card:hover .card-heart-btn { opacity: 1; }
+.card-heart-btn svg { width: 13px; height: 13px; }
+.card-heart-btn:hover { border-color: #d04060; color: #d04060; background: rgba(208,64,96,0.12); }
+.card-heart-btn.saved { opacity: 1; border-color: #d04060; color: #d04060; background: rgba(208,64,96,0.12); }
+
+/* Modal save button */
+.modal-heart-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 12px;
+  padding: 8px 18px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.modal-heart-btn svg { width: 13px; height: 13px; }
+.modal-heart-btn:hover { border-color: #d04060; color: #d04060; }
+.modal-heart-btn.saved { border-color: #d04060; color: #d04060; background: rgba(208,64,96,0.1); }
+
+/* ── Cigar of the Day banner ─────────────────────────────────────── */
+.cotd-banner {
+  max-width: 580px;
+  margin: 22px auto 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 20px;
+  background: linear-gradient(135deg, rgba(201,168,76,0.10), rgba(201,168,76,0.03));
+  border: 1px solid rgba(201,168,76,0.35);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: left;
+}
+.cotd-banner:hover {
+  border-color: var(--gold);
+  box-shadow: 0 0 24px rgba(201,168,76,0.12);
+  transform: translateY(-1px);
+}
+.cotd-flame {
+  font-size: 22px;
+  flex-shrink: 0;
+  animation: emberFlicker 2.2s ease-in-out infinite;
+}
+@keyframes emberFlicker {
+  0%, 100% { transform: scale(1); filter: brightness(1); }
+  50%      { transform: scale(1.12); filter: brightness(1.3); }
+}
+.cotd-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--gold);
+  margin-bottom: 3px;
+}
+.cotd-name {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.25;
+}
+.cotd-meta { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+.cotd-arrow { margin-left: auto; color: var(--gold); flex-shrink: 0; }
+
+/* ── Hero button row ─────────────────────────────────────────────── */
+.hero-btn-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ── Surprise roulette overlay ───────────────────────────────────── */
+.roulette-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(10,7,3,0.88);
+  backdrop-filter: blur(6px);
+}
+.roulette-box { text-align: center; padding: 40px; }
+.roulette-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--gold);
+  margin-bottom: 18px;
+}
+.roulette-name {
+  font-family: var(--font-serif);
+  font-size: clamp(22px, 4vw, 38px);
+  font-weight: 700;
+  color: var(--text-primary);
+  min-height: 1.4em;
+}
+
+/* ── Pairing explorer ────────────────────────────────────────────── */
+.pairing-intro { text-align: center; margin-bottom: 26px; }
+.pairing-intro h3 {
+  font-family: var(--font-serif);
+  font-size: 26px;
+  color: var(--gold-light);
+  margin-bottom: 6px;
+}
+.pairing-intro p { color: var(--text-muted); font-size: 14px; }
+.pairing-choices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+.pairing-choice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 18px 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: var(--transition);
+  color: var(--text-primary);
+  font-size: 13.5px;
+  font-weight: 500;
+}
+.pairing-choice:hover {
+  border-color: var(--gold);
+  background: var(--gold-glow);
+  transform: translateY(-2px);
+}
+.pairing-choice .pc-emoji { font-size: 26px; }
+.pairing-back {
+  background: none;
+  border: none;
+  color: var(--gold);
+  font-size: 13px;
+  cursor: pointer;
+  margin-bottom: 16px;
+  padding: 4px 0;
+}
+.pairing-back:hover { color: var(--gold-light); }
+.pairing-section-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin: 20px 0 10px;
+}
+@media (max-width: 600px) {
+  .pairing-choices { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ── Humidor modal ───────────────────────────────────────────────── */
+.hum-empty {
+  text-align: center;
+  padding: 48px 20px;
+  color: var(--text-muted);
+}
+.hum-empty .he-icon { font-size: 40px; margin-bottom: 14px; }
+.hum-empty h3 {
+  font-family: var(--font-serif);
+  color: var(--text-primary);
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.hum-title {
+  font-family: var(--font-serif);
+  font-size: 26px;
+  color: var(--gold-light);
+  margin-bottom: 4px;
+  text-align: center;
+}
+.hum-sub { text-align: center; color: var(--text-muted); font-size: 13px; margin-bottom: 22px; }
+.hum-remove {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 15px;
+  cursor: pointer;
+  padding: 6px;
+  flex-shrink: 0;
+  transition: var(--transition);
+}
+.hum-remove:hover { color: #d04060; }
+
+/* ── Origin map ──────────────────────────────────────────────────── */
+.origin-map-wrap {
+  max-width: 1100px;
+  margin: 0 auto 48px;
+  padding: 0 24px;
+}
+.origin-map-title {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  color: var(--gold-light);
+  text-align: center;
+  margin-bottom: 4px;
+}
+.origin-map-sub {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.origin-map {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background:
+    radial-gradient(ellipse 80% 70% at 50% 45%, rgba(201,168,76,0.05), transparent 75%),
+    repeating-linear-gradient(0deg, transparent, transparent 11.05%, rgba(201,168,76,0.07) 11.1%, transparent 11.2%),
+    repeating-linear-gradient(90deg, transparent, transparent 11.05%, rgba(201,168,76,0.07) 11.1%, transparent 11.2%),
+    var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+.om-dot {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  z-index: 2;
+  background: none;
+  border: none;
+  padding: 6px;
+}
+.om-pulse {
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--gold-light) 0%, var(--gold) 55%, rgba(201,168,76,0.4) 100%);
+  box-shadow: 0 0 12px rgba(201,168,76,0.7);
+  animation: omPulse 2.6s ease-in-out infinite;
+}
+@keyframes omPulse {
+  0%, 100% { box-shadow: 0 0 8px rgba(201,168,76,0.55); }
+  50%      { box-shadow: 0 0 20px rgba(201,168,76,0.95); }
+}
+.om-label {
+  margin-top: 5px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  white-space: nowrap;
+  transition: var(--transition);
+  text-transform: uppercase;
+}
+.om-count {
+  font-size: 9.5px;
+  color: var(--gold);
+  white-space: nowrap;
+  opacity: 0;
+  transition: var(--transition);
+}
+.om-dot:hover .om-label { color: var(--gold-light); }
+.om-dot:hover .om-count { opacity: 1; }
+.om-dot:hover .om-pulse { animation-duration: 1s; }
+@media (max-width: 768px) {
+  .om-label { font-size: 8.5px; }
+  .origin-map { aspect-ratio: 4 / 3; }
+}
+
+/* ── 3D tilt + gold sheen ────────────────────────────────────────── */
+body.js-tilt .cigar-card { transform-style: preserve-3d; will-change: transform; }
+.card-sheen {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 50%), rgba(224,192,112,0.09), transparent 45%);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  z-index: 2;
+}
+.cigar-card:hover .card-sheen { opacity: 1; }
+
+/* ── Burn line ───────────────────────────────────────────────────── */
+.burn-line {
+  margin: 22px 0;
+  padding: 18px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+.burn-line .bl-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 12px;
+}
+.burn-line .bl-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+}
+.burn-line .bl-time {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  color: var(--gold-light);
+  font-weight: 600;
+}
+.bl-svg { width: 100%; height: auto; display: block; }
+.bl-ember-dot { animation: blEmber 1.6s ease-in-out infinite; }
+@keyframes blEmber {
+  0%, 100% { opacity: 0.75; }
+  50%      { opacity: 1; }
+}
+.bl-smoke-path {
+  stroke-dasharray: 4 5;
+  animation: blSmoke 3.2s linear infinite;
+}
+@keyframes blSmoke {
+  to { stroke-dashoffset: -36; }
 }
