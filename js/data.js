@@ -62,6 +62,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 24,
     rating: 95,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/10/Montecristo-No.2-House-Reserve-Aged-10-Years-Cigar-Single-6-18-x-52.webp",
     flavors: ["Earth","Cedar","Coffee","Leather","Spice","Nuts"],
     size: "Piramide",
     length: 6.1,
@@ -110,6 +111,7 @@ const CIGARS = [
     smokingTime: 90,
     price: 26,
     rating: 93,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2018/02/Romeo-y-Julieta-Churchill-Cigar-–-Single-1.webp",
     flavors: ["Floral","Cedar","Cream","Mild Spice","Vanilla","Hay"],
     size: "Churchill",
     length: 7,
@@ -333,6 +335,7 @@ const CIGARS = [
     smokingTime: 45,
     price: 10,
     rating: 90,
+    image: "http://images.neptunecigar.com/avimg/32105.jpg",
     flavors: ["Cream","Cedar","Vanilla","Hay","Mild Pepper"],
     size: "Robusto",
     length: 5,
@@ -657,6 +660,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 12,
     rating: 92,
+    image: "http://images.neptunecigar.com/avimg/32027.jpg",
     flavors: ["Pepper","Spice","Earth","Leather","Wood","Tobacco"],
     size: "Robusto",
     length: 5,
@@ -830,6 +834,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 16,
     rating: 94,
+    image: "http://images.neptunecigar.com/avimg/41109.jpg",
     flavors: ["Pepper","Leather","Earth","Dark Coffee","Cedar","Spice"],
     size: "Ometepe",
     length: 6,
@@ -1498,6 +1503,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 11,
     rating: 92,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw750d6771/images/jrcigars/Single_Images_2/PEBAC/pebac_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Pepper","Earth","Coffee","Leather","Cedar","Spice"],
     size: "Robusto",
     length: 5,
@@ -1943,6 +1949,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 9.5,
     rating: 91,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwa350b21f/images/jrcigars/OSGB.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Earth","Coffee","Cedar","Mild Pepper","Leather","Nuts"],
     size: "Robusto",
     length: 5,
@@ -2141,6 +2148,7 @@ const CIGARS = [
     smokingTime: 30,
     price: 9,
     rating: 89,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw828d0076/images/Images%20for%20JR%20Master%20List/JR%20Master%20List%203/NC460H_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Pepper","Earth","Coffee","Cedar","Spice"],
     size: "Nub (Short/Wide)",
     length: 4,
@@ -2150,7 +2158,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Pale Ale"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/nub-habano-460-tubos-cigars-natural-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/nub-by-oliva-460-habano/2066077/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/nub-habano","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/nub/460-habano/N460H.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/nub-460-maduro-10-pk.html","price":null}],
   },
   {
     id: "nub-maduro-460",
@@ -2165,6 +2172,7 @@ const CIGARS = [
     smokingTime: 30,
     price: 9,
     rating: 90,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw0f9a39a5/images/jrcigars/Single_Images_2/N4603/N4603_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Dark Chocolate","Coffee","Earth","Sweet Spice","Leather"],
     size: "Nub (Short/Wide)",
     length: 4,
@@ -2223,7 +2231,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Cream Ale","Earl Grey"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/nub-nuance-triple-roast-460-cigars-natural-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/nub-nuance-cigars-by-oliva/1483764/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/nub-nuance-single-roast","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/nub-nuance-single-roast/3.75x54/NC354C.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/nub-nuance-18-cigar-infused-sampler-3-6-s.html","price":null}],
   },
   {
     id: "nub-nuance-double-roast",
@@ -2662,6 +2669,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 34,
     rating: 92,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw5ac2072d/images/Images%20for%20JR%20Master%20List/JR%20Master%20List%202/dase_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cream","Cedar","Nuts","Vanilla","White Pepper","Leather"],
     size: "Robusto Extra",
     length: 5.5,
@@ -2671,7 +2679,6 @@ const CIGARS = [
     pairings: ["Scotch","Cognac","Cream Coffee"],
     yearFounded: 1998,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/davidoff-colorado-claro-special-t-cigars-natural-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/davidoff-cigarillos-cigars/1410932/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/davidoff-aniversario-series","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/davidoff-special-series/entreacto/DASE.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/davidoff.html","price":null}],
   },
   {
     id: "davidoff-special-t",
@@ -2745,7 +2752,6 @@ const CIGARS = [
     pairings: ["Champagne","Sauternes","Café Crème"],
     yearFounded: 2014,
     limited: true,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/davidoff-6-figurado-collection-cigars-varies-sampler-of-6","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/davidoff-cigarillos-cigars/1410932/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/davidoff-aniversario-series/no.-3/DAA3.html","price":null}],
   },
   {
     id: "davidoff-aniversario-special",
@@ -2769,7 +2775,6 @@ const CIGARS = [
     pairings: ["Aged Cognac","Single Malt","Port"],
     yearFounded: 1993,
     limited: true,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/davidoff-aniversario-special-r-4-pack-cigars-natural-pack-of-4","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/davidoff-aniversario-series-cigars/1512827/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/davidoff-aniversario-series","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/davidoff-aniversario-series/no.-3/DAA3.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/davidoff-special-series-special-r-tubos-it-s-a-girl-10pk.html","price":null}],
   },
   {
     id: "davidoff-signature-2000",
@@ -2843,7 +2848,6 @@ const CIGARS = [
     pairings: ["Champagne","White Wine","Light Coffee"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/davidoff-aniversario-series-cigars/1512827/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/davidoff-aniversario-series","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/davidoff-aniversario-series/no.-3/DAA3.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/davidoff-grand-cru-series-no-2-cigars-natural-box-of-25","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/davidoff-special-series-special-r-tubos-it-s-a-girl-10pk.html","price":null}],
   },
   {
     id: "herrera-esteli-miami",
@@ -2858,6 +2862,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 14,
     rating: 93,
+    image: "http://images.neptunecigar.com/avimg/39049.jpg",
     flavors: ["Pepper","Earth","Leather","Coffee","Cedar"],
     size: "Toro Especial",
     length: 6,
@@ -3032,6 +3037,7 @@ const CIGARS = [
     smokingTime: 70,
     price: 16,
     rating: 94,
+    image: "http://images.neptunecigar.com/avimg/33962.jpg",
     flavors: ["Leather","Espresso","Dark Chocolate","Cedar","Earth","Spice"],
     size: "Toro",
     length: 6,
@@ -3789,7 +3795,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Black Coffee"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-undercrown-coronets-10-cigars-maduro-tin-of-10","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/drew-estate-undercrown-sun-grown-cigars/2005045/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/liga-undercrown-sun-grown-dojo-dogma","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/arturo-fuente-sun-grown/8-5-8/AF8S.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/perdomo-habano-bourbon-barrel-aged-sun-grown.html","price":null}],
   },
   {
     id: "undercrown-shade",
@@ -4104,6 +4109,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 10,
     rating: 96,
+    image: "http://images.neptunecigar.com/avimg/39700.jpg",
     flavors: ["Pepper","Earth","Coffee","Leather","Cedar","Spice"],
     size: "Robusto Grande",
     length: 5.25,
@@ -4762,7 +4768,6 @@ const CIGARS = [
     pairings: ["Peated Scotch","Añejo Rum","Black Espresso","Mezcal"],
     yearFounded: 2016,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/aj-fernandez-new-world-puro-toro-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/espinosa-knuckle-sandwich-puro-nicaragua/2063925/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/ashton-heritage-puro-sol/corona-gorda/ASHCG.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/punch-gran-puro-nicaragua.html","price":null}],
   },
   {
     id: "lfd-double-ligero-chisel",
@@ -5002,6 +5007,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 12,
     rating: 92,
+    image: "http://images.neptunecigar.com/avimg/38752.jpg",
     flavors: ["Cream","Vanilla","Cedar","Floral","Mild Pepper","Hay"],
     size: "Corona",
     length: 5.5,
@@ -5351,6 +5357,7 @@ const CIGARS = [
     smokingTime: 45,
     price: 18,
     rating: 92,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/cuabatradicionalessingle.webp",
     flavors: ["Cedar","Floral","Cream","Honey","Mild Pepper","Leather"],
     size: "Figurado (Perfectos)",
     length: 4.5,
@@ -5375,6 +5382,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 28,
     rating: 94,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/vegasrobainaunicosbox.webp",
     flavors: ["Dark Earth","Leather","Cedar","Coffee","Dried Fruit","Black Pepper"],
     size: "Piramide",
     length: 6.1,
@@ -5399,6 +5407,7 @@ const CIGARS = [
     smokingTime: 25,
     price: 12,
     rating: 91,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/rafaelgonzalezperlasbox.webp",
     flavors: ["Cream","Cedar","Honey","Floral","Mild Pepper","Hay"],
     size: "Perla (small panatela)",
     length: 4,
@@ -5423,6 +5432,7 @@ const CIGARS = [
     smokingTime: 45,
     price: 18,
     rating: 93,
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2025/02/elreychoixsupremebox.jpg",
     flavors: ["Cream","Mild Earth","Cedar","Vanilla","Floral","Hay"],
     size: "Demi Tasse (Corona)",
     length: 5.6,
@@ -5647,6 +5657,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 18,
     rating: 96,
+    image: "http://images.neptunecigar.com/avimg/33112.jpg",
     flavors: ["Cocoa","Coffee","Cedar","Leather","Earth","Mild Pepper"],
     size: "Robusto (5x50)",
     length: 5,
@@ -5755,7 +5766,6 @@ const CIGARS = [
     pairings: ["Morning Coffee","Bourbon","Beer","Rum"],
     yearFounded: 1964,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/padron-series-4000-natural-cigars-natural-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/diesel-vintage-series-natural/2069207/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/diesel-vintage-series-natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/padron-1926-series/no.1-natural/PD261.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/padron-1926-series-no-9-natural-5pk.html","price":null}],
   },
   {
     id: "rocky-patel-edge",
@@ -5829,7 +5839,6 @@ const CIGARS = [
     pairings: ["Champagne","Café au Lait","Light Rum","Honey Whiskey"],
     yearFounded: 1992,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/occidental-reserve-connecticut-churchill-cigars-natural-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/oliva-connecticut-reserve-fresh-pack-cigars/2066796/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/perdomo-reserve-champagne-connecticut","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/oliva-connecticut-reserve/lonsdale/OLCL.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/perdomo-reserve-champagne-epicure-2-6-s-kp-pec6054-12.html","price":null}],
   },
   {
     id: "perdomo-habano-gold",
@@ -6053,7 +6062,6 @@ const CIGARS = [
     pairings: ["Cognac","Port Wine","Rum","Dark Coffee"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cao-brazilia-amazon-5-pack-cigars-maduro-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/cao-surplus-3-cigar-sampler/2069963/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/cao-brazilia/gol/CBG.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/other/padron-cao-archetype-rocky_patel-cult-arturo_fuente.html","price":null}],
   },
   {
     id: "cao-pilon-robusto",
@@ -6673,7 +6681,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso","Dark Beer"],
     yearFounded: 2021,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/ferio-tego-metropolitan-habano-gordito-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/ferio-tego-elegencia-le-2023-toro/2063798/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/ferio-tego-limited-edition","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/ferio-tego-timeless-sterling/toro/FTSTT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/ferio_tego.html","price":null}],
   },
   {
     id: "ferio-tego-toro-de-fuego",
@@ -6697,7 +6704,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso","Port Wine"],
     yearFounded: 2021,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/ferio-tego-metropolitan-habano-gordito-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/ferio-tego-elegencia-le-2023-toro/2063798/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/ferio-tego-limited-edition","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/ferio-tego-timeless-sterling/toro/FTSTT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/ferio_tego.html","price":null}],
   },
   {
     id: "ferio-tego-magnum-opus-robusto",
@@ -6746,7 +6752,6 @@ const CIGARS = [
     pairings: ["Bourbon","Black Coffee","Beer"],
     yearFounded: 2011,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/room-101-payback-maduro-robusto-cigars-maduro-bundle-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/room-101-the-big-payback-connecticut-cigars/1503215/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/room-101-the-big-payback-maduro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/room-101-cigars/robusto/ROJTR5.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/room_101.html","price":null}],
   },
   {
     id: "room-101-farce-maduro-robusto",
@@ -6811,6 +6816,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 12,
     rating: 91,
+    image: "http://images.neptunecigar.com/avimg/34198.jpg",
     flavors: ["Cedar","Leather","Coffee","Spice","Earth"],
     size: "Robusto",
     length: 5,
@@ -6844,7 +6850,6 @@ const CIGARS = [
     pairings: ["Rye Whiskey","Black Coffee","Stout Beer"],
     yearFounded: 2011,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/room-101-payback-connecticut-robusto-cigars-natural-bundle-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/room-101-johnny-tobacconaut-cigars/1499467/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/room-101-daruma","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/room-101-cigars/robusto/ROJTR5.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/room_101.html","price":null}],
   },
   {
     id: "ace-prime-fiat-lux-robusto",
@@ -6940,7 +6945,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Cognac","Espresso"],
     yearFounded: 2017,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/ace-prime-mas-igneus-cigars/2064024/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cao-cameroon-robusto-cigars-natural-box-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/cao-cameroon/robusto/CCR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/ace-prime-quattro-robusto-16-cigar-collection-2-8-s.html","price":null}],
   },
   {
     id: "ace-prime-mombacho-diplomatico-robusto",
@@ -7061,7 +7065,6 @@ const CIGARS = [
     pairings: ["Bourbon","Cold Brew Coffee","Dark Beer"],
     yearFounded: 2007,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/rocky-patel-vintage-20th-anniversary-robusto-cigar/2060111/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/pdr-fresh-pack-robusto-5-cigar-original-version-cigars-varies-sampler-of-5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/blind-mans-bluff-by-caldwell-cigar-co./robusto/CABBR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/robusto","price":null}],
   },
   {
     id: "herrera-esteli-norteno-robusto-grande",
@@ -7101,6 +7104,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 12,
     rating: 91,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw0245c6a2/images/jrcigars/Herrera%20Esteli/HERHRG_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cedar","Leather","Earth","Coffee","Spice","Nuts"],
     size: "Robusto",
     length: 5,
@@ -7110,7 +7114,6 @@ const CIGARS = [
     pairings: ["Bourbon","Café au Lait","Amber Ale"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/herrera-esteli-robusto-grande-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/drew-estate-herrera-esteli-habano/2016310/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/herrera-esteli-habano","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/herrera-esteli-habano/robusto-grande/HERHRG.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/drew_estate_herrera_esteli.html","price":null}],
   },
   {
     id: "herrera-esteli-connecticut-broadleaf-robusto",
@@ -7209,7 +7212,6 @@ const CIGARS = [
     pairings: ["Premium Bourbon","Espresso","Cognac"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/joya-de-nicaragua-cinco-de-cinco-corona-extra-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/joya-de-nicaragua-cuatro-cinco-secrect-cask-edicion-limitada-cigars/2066922/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/joya-de-nicaragua-cinco-decadas","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/joya-de-nicaragua-cuatro-cinco-reserva-especial/toro/JNCCT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/joya_de_nicaragua.html","price":null}],
   },
   {
     id: "joya-de-nicaragua-numero-uno-robusto",
@@ -7308,7 +7310,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Pale Ale"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cao-surplus-maduro-toro-cigars-maduro-pack-of-5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/cao-cameroon/toro/CCT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/other/padron-cao-archetype-rocky_patel-cult-arturo_fuente.html","price":null}],
   },
   {
     id: "cao-bones-toro",
@@ -7348,6 +7349,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 18,
     rating: 93,
+    image: "http://images.neptunecigar.com/avimg/36264.jpg",
     flavors: ["Earth","Dark Fruit","Leather","Coffee","Cocoa","Sweet Spice"],
     size: "Robusto",
     length: 5,
@@ -7556,7 +7558,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Coffee","White Wine"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/flor-del-valle-sky-flower-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/warped-serie-gran-reserva-1988/robusto/WRGR885.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/alec-bradley-white-gold-robusto-cigars/2004461/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/warped-chinchalle","price":null}],
   },
   {
     id: "warped-chinchalle-robusto",
@@ -7978,7 +7979,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/caldwell-cigar-co-blind-mans-bluff-connecticut-sweet-tip-cigars/2067053/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/caldwell-blind-mans-bluff-robusto-cigars-natural-box-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/blind-mans-bluff-by-caldwell-cigar-co./robusto/CABBR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/caldwell-all-out-kings.html","price":null}],
   },
   {
     id: "caldwell-anastasia-robusto",
@@ -8266,6 +8266,7 @@ const CIGARS = [
     smokingTime: 40,
     price: 20,
     rating: 93,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw405c5884/images/jrcigars/1481830264543-0.jpeg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Dark Earth","Leather","Coffee","Spice","Cedar"],
     size: "Figurado",
     length: 4.5,
@@ -8275,7 +8276,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Roast Coffee"],
     yearFounded: 1996,
     limited: true,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-toro-selection-cigars-varies-sampler-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/la-flor-dominicana-oro-cigars/2069544/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-flor-dominicana-1994","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/la-flor-dominicana/andalusian-bull/LFAB.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/la_flor_dominicana.html","price":null}],
   },
   {
     id: "la-flor-dominicana-oscuro-robusto",
@@ -8315,6 +8315,7 @@ const CIGARS = [
     smokingTime: 45,
     price: 14,
     rating: 92,
+    image: "http://images.neptunecigar.com/avimg/39718.jpg",
     flavors: ["Leather","Dark Earth","Pepper","Coffee","Cedar"],
     size: "Robusto",
     length: 5,
@@ -8514,6 +8515,7 @@ const CIGARS = [
     smokingTime: 45,
     price: 10,
     rating: 91,
+    image: "http://images.neptunecigar.com/avimg/35258.jpg",
     flavors: ["Earth","Leather","Pepper","Coffee","Wood"],
     size: "Robusto",
     length: 5,
@@ -8538,6 +8540,7 @@ const CIGARS = [
     smokingTime: 45,
     price: 14,
     rating: 91,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw2f7b7143/images/Images%20for%20JR%20Master%20List/JR%20Master%20List%202/JUAR_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cedar","Leather","Earth","Coffee","Mild Spice"],
     size: "Robusto",
     length: 5,
@@ -8547,7 +8550,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/romeo-y-julieta-aniversario-robusto-cigars/2064058/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/1875-by-romeo-y-julieta","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/romeo-y-julieta-aniversario/robusto/JUAR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/romeo_y_julieta.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/romeo-y-julieta-house-of-romeo-nicaragua-robusto-cigars-maduro-box-of-20","price":null}],
   },
   {
     id: "romeo-y-julieta-vintage-v-robusto",
@@ -8596,7 +8598,6 @@ const CIGARS = [
     pairings: ["Chardonnay","Light Beer"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/romeo-y-julieta-reserve/2069968/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/1875-by-romeo-y-julieta","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/romeo-y-julieta-1875/churchill/JUCH.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/romeo_y_julieta.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/romeo-by-romeo-y-julieta-churchill-cigars-natural-box-of-20","price":null}],
   },
   {
     id: "h-upmann-the-good-stuff-robusto",
@@ -8620,7 +8621,6 @@ const CIGARS = [
     pairings: ["Bourbon","Black Coffee"],
     yearFounded: 1844,
     limited: false,
-    buyLinks: [{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/h.-upmann-the-banker/daytrader-robusto/UPBDR.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/ramon-bueso-genesis-the-project-robusto-cigars/2011082/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/the-colecciones-de-tatuaje-6-robusto-sampler-cigars-varies-sampler-of-6","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/h-upmann-the-banker","price":null}],
   },
   {
     id: "h-upmann-connecticut-robusto",
@@ -8669,7 +8669,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Espresso"],
     yearFounded: 1844,
     limited: false,
-    buyLinks: [{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/h.-upmann-vintage-cameroon/robusto/UPVR.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/h-upmann-aj-fernandez-robusto-cigars-natural-box-of-20","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/h-upmann-1844-anejo","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/h-upmann-legacy-box-5-wine-set-118863.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/h-upmann-legacy-cigars/1467768/","price":null}],
   },
   {
     id: "aging-room-quattro-f55-concerto",
@@ -8743,7 +8742,6 @@ const CIGARS = [
     pairings: ["Bourbon","Black Coffee"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/nestor-miranda-small-batch-toro-cigars-natural-single","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/aging-room-bin-no-2","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/aging-room-small-batch-cigars/1480293/","price":null}],
   },
   {
     id: "diamond-crown-julius-caeser-toro",
@@ -8867,7 +8865,6 @@ const CIGARS = [
     pairings: ["Bourbon","Black Coffee"],
     yearFounded: 1974,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/quesada-res-privada-robusto-cigars-natural-box-of-10","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/quesada-1974","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/quesada-40th-anniversary-toro-press-10pk.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/quesada-tributo-cigars/2029988/","price":null}],
   },
   {
     id: "h-upmann-magnum-46",
@@ -8916,7 +8913,6 @@ const CIGARS = [
     pairings: ["Cognac","Aged Rum","Champagne"],
     yearFounded: 1844,
     limited: false,
-    buyLinks: [{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/montecristo-linea-1935-dumas-cigar-single-p-30064.html","price":null},{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/h-upmann-connoisseur-a-cigar-single/","price":null}],
   },
   {
     id: "bolivar-belicosos-finos",
@@ -8965,7 +8961,6 @@ const CIGARS = [
     pairings: ["Rum","Brandy","Black Tea"],
     yearFounded: 1840,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/dunhill-the-white-spot-bullet-cigar-punch-black/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/dupont-cigar-cutter-cigar-stand-black-gold-p-54239.html","price":null}],
   },
   {
     id: "hoyo-le-hoyo-de-san-juan",
@@ -8980,6 +8975,7 @@ const CIGARS = [
     smokingTime: 70,
     price: 30,
     rating: 93,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/hoyosanjuan10box.webp",
     flavors: ["Cream","Floral","Cedar","Honey","Vanilla","Mild Spice"],
     size: "Lonsdale",
     length: 6.5,
@@ -9063,7 +9059,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Aged Rum","Black Coffee"],
     yearFounded: 1997,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/vegas-robaina-unicos-box-of-25/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/dupont-cigar-cutter-cigar-stand-black-gold-p-54239.html","price":null}],
   },
   {
     id: "la-flor-de-cano-gran-cano",
@@ -9078,6 +9073,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 18,
     rating: 90,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/11/La-Flor-de-Cano-Selectos-No.-3-Cigar-Bundle-2-x-Box-of-25-50.webp",
     flavors: ["Cedar","Earth","Hay","Coffee","Mild Spice","Barnyard"],
     size: "Lonsdale",
     length: 6.7,
@@ -9102,6 +9098,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 20,
     rating: 92,
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2026/02/1Dunhill-The-White-Spot-Bullet-Cigar-Punch-–-Copper.webp",
     flavors: ["Earth","Cedar","Leather","Barnyard","Coffee","Mild Pepper"],
     size: "Corona Extra",
     length: 5.6,
@@ -9151,6 +9148,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 26,
     rating: 95,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw787a2657/images/jrcigars/1529072524421-0.jpeg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Earth","Cedar","Leather","Coffee","Pepper","Dark Chocolate"],
     size: "Monarca",
     length: 6.25,
@@ -9160,7 +9158,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Espresso"],
     yearFounded: 1994,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/padron-1964-anniversary-natural-monarca-cigars-natural-box-of-25","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/padron-1964-anniversary-series-maduro/2035410/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/padron-1964-anniversary-maduro","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/padron-1964-anniversary-series/monarca/PD64M.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/padron-1964-aniversario-sampler-natural-box-5.html","price":null}],
   },
   {
     id: "padron-1964-imperial-natural",
@@ -9225,6 +9222,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 10,
     rating: 93,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwc76ef963/images/jrcigars/Single_Images_2/PD30/pd30_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Earth","Cedar","Coffee","Leather","Pepper","Nuts"],
     size: "Robusto",
     length: 5.5,
@@ -9308,7 +9306,6 @@ const CIGARS = [
     pairings: ["Cognac","Single Malt Scotch","Espresso"],
     yearFounded: 1995,
     limited: true,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/arturo-fuente-chateau-fuente-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/arturo-fuente-hemingway-cigars/1410664/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/arturo-fuente","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/arturo-fuente/privada-no.-1/AF1.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/arturo_fuente.html","price":null}],
   },
   {
     id: "opus-x-perfecxion-x",
@@ -9332,7 +9329,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Cognac","Espresso"],
     yearFounded: 1995,
     limited: true,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/arturo-fuente-hemingway-short-story-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/arturo-fuente-hemingway-cigars/1410664/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/arturo-fuente","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/arturo-fuente/privada-no.-1/AF1.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/arturo_fuente.html","price":null}],
   },
   {
     id: "fuente-hemingway-best-seller",
@@ -9456,7 +9452,6 @@ const CIGARS = [
     pairings: ["Cognac","Aged Rum","Espresso"],
     yearFounded: 2017,
     limited: true,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/arturo-fuente-don-carlos-robusto-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/arturo-fuente-hemingway-cigars/1410664/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/arturo-fuente-opus-x","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/arturo-fuente-don-carlos/robusto/DCR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/arturo_fuente.html","price":null}],
   },
   {
     id: "fuente-858-natural-robusto",
@@ -9530,7 +9525,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Aged Cognac","Espresso"],
     yearFounded: 2000,
     limited: true,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/arturo-fuente-holiday-collection-xtra-special-cigars-varies-sampler-of-10","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/arturo-fuente-gran-reserva-cigars/1410632/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/arturo-fuente","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/arturo-fuente/privada-no.-1/AF1.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/arturo_fuente.html","price":null}],
   },
   {
     id: "cohiba-black-robusto",
@@ -9604,7 +9598,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Cognac","Espresso"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cohiba-serie-m-reserva-azul-toro-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/cohiba-macassar-cigars/1508600/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/cohiba-riviera/box-pressed-toro/CDRT.html","price":null}],
   },
   {
     id: "montecristo-especial-no2",
@@ -9619,6 +9612,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 24,
     rating: 93,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/montecristoespecialno2box.webp",
     flavors: ["Earth","Cedar","Coffee","Cream","Leather","Nuts"],
     size: "Laguito No. 2",
     length: 6,
@@ -9652,7 +9646,6 @@ const CIGARS = [
     pairings: ["Peated Scotch","Dark Rum","Espresso"],
     yearFounded: 1845,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-aliados-casa-del-habanos-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/partagas-lusitanias-cigar-single-p-523.html","price":null}],
   },
   {
     id: "h-upmann-coronas-major",
@@ -9692,6 +9685,7 @@ const CIGARS = [
     smokingTime: 35,
     price: 16,
     rating: 92,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/bolivarcoronaj.webp",
     flavors: ["Dark Earth","Pepper","Leather","Tar","Tobacco","Coffee"],
     size: "Petit Corona",
     length: 5.1,
@@ -9725,7 +9719,6 @@ const CIGARS = [
     pairings: ["Champagne","Light Rum","Earl Grey Tea"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-petit-churchill-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/dupont-cigar-cutter-double-blade-chrome-p-42211.html","price":null}],
   },
   {
     id: "punch-double-coronas",
@@ -10139,6 +10132,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 15,
     rating: 92,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwa633a810/images/jrcigars/RPR15.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cedar","Leather","Earth","Spice","Coffee","Chocolate"],
     size: "Robusto",
     length: 5.5,
@@ -10148,7 +10142,6 @@ const CIGARS = [
     pairings: ["Bourbon","Aged Rum","Coffee"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rocky-patel-20-fumas-robusto-cigars-varies-sampler-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/rocky-patel-vintage-20th-anniversary-robusto-cigar/2060111/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/rocky-patel-15th-anniversary","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/rocky-patel-fifteenth-anniversary/robusto/RPR15.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/rocky_patel.html","price":null}],
   },
   {
     id: "rocky-patel-sun-grown-robusto",
@@ -10197,7 +10190,6 @@ const CIGARS = [
     pairings: ["Light Beer","White Wine","Café au Lait"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rocky-patel-20-fumas-robusto-cigars-varies-sampler-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/rocky-patel-decade-robusto-cigars/2008520/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/rocky-patel-freedom/robusto/FRER.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/rocky_patel.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/rocky-patel-15th-anniversary","price":null}],
   },
   {
     id: "rocky-patel-ams-robusto",
@@ -10371,7 +10363,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Aged Rum"],
     yearFounded: 2001,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/san-lotano-requiem-maduro-robusto-5-pack-cigars-maduro-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/san-lotano-oval-maduro-cigars/1412053/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/aj-fernandez-san-lotano-requiem-habano/robusto/AJSLR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/aj-fernandez-20th-anniversary","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/brand-flight-fiver-aj-fernandez-san-lotano.html","price":null}],
   },
   {
     id: "aj-fernandez-blend-no1-robusto",
@@ -10395,7 +10386,6 @@ const CIGARS = [
     pairings: ["Bourbon","Scotch","Espresso"],
     yearFounded: 2001,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/bellas-artes-by-aj-fernandez-robusto-cigars-natural-box-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/aj-fernandez-enclave/robusto/AJER.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/new-world-by-aj-fernandez-cigars/2069964/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/aj_fernandez.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/aj-fernandez-20th-anniversary","price":null}],
   },
   {
     id: "aj-fernandez-aging-bull-robusto",
@@ -10509,6 +10499,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 14.5,
     rating: 92,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw17d025a4/images/jrcigars/Single_Images_2/PEBAR/pebar_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Caramel","Leather","Cedar","Vanilla","Spice","Honey"],
     size: "Robusto",
     length: 5,
@@ -10567,7 +10558,6 @@ const CIGARS = [
     pairings: ["Stout Beer","Porter","Espresso"],
     yearFounded: 1992,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/perdomo-habano-barrel-aged-robusto-maduro-cigars-maduro-box-of-24","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/perdomo-habano-bourbon-barrel-aged-sun-grown/robusto/PEBAR.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/perdomo-habano-bourbon-barrel-aged-connecticut-cigars/1496355/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/perdomo-craft-series-pilsner","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/perdomo-craft-series-stout-toro-grande-maduro-humipacks-5-4-s.html","price":null}],
   },
   {
     id: "perdomo-esx-b-robusto",
@@ -10591,7 +10581,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Dark Rum"],
     yearFounded: 1992,
     limited: false,
-    buyLinks: [{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/perdomo-fresco/robusto/PEFR.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/perdomo-lot-23-robusto-connecticut-cigars-natural-box-of-24","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/perdomo-20th-anniversary-connecticut","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/perdomo-reserve-champagne-robusto-10pk.html","price":null}],
   },
   {
     id: "perdomo-inmenso-seventy-robusto",
@@ -10640,7 +10629,6 @@ const CIGARS = [
     pairings: ["Bourbon","Scotch","Espresso"],
     yearFounded: 1865,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/plasencia-alma-del-fuego-concepcion-5pk-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/plasencia-alma-del-fuego-ometepe/2058892/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/plasencia-alma-del-fuego","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/plasencia-alma-del-fuego/candente-robusto/PLADFR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/plasencia-alma-del-fuego.html","price":null}],
   },
   {
     id: "plasencia-alma-del-campo-robusto",
@@ -10863,7 +10851,6 @@ const CIGARS = [
     pairings: ["Bourbon","Rye Whiskey","Dark Coffee"],
     yearFounded: 1990,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/aganorsa-leaf-signature-selection-robusto-maduro-5pk-cigars-maduro-pack-of-5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/aganorsa-leaf-arsenio/robusto/AGARR.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/aganorsa-leaf-signature-selection/2016680/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/aganorsa_leaf.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/aganorsa-leaf-aniversario-connecticut","price":null}],
   },
   {
     id: "casa-fernandez-aniversario-robusto",
@@ -10978,6 +10965,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 9.5,
     rating: 91,
+    image: "http://images.neptunecigar.com/avimg/1223.jpg",
     flavors: ["Cream","Cedar","Nuts","Caramel","Mild Spice","Earth"],
     size: "Robusto",
     length: 5,
@@ -11011,7 +10999,6 @@ const CIGARS = [
     pairings: ["Bourbon","Americano","Dark Lager"],
     yearFounded: 1886,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/oliva-cain-nub-460-habano-5-pk-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/nub-by-oliva-460-habano/2066077/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/nub-habano","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/oliva-cain/nub-460-habano/OCN460H.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cain-nub-habano-by-oliva.html","price":null}],
   },
   {
     id: "oliva-master-blends-iii-robusto",
@@ -11101,6 +11088,7 @@ const CIGARS = [
     smokingTime: 45,
     price: 28,
     rating: 94,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw8f329e0b/images/Images%20for%20JR%20Master%20List/JR%20Master%20List%203/daa3_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cream","Vanilla","Cedar","Honey","Floral","Almond"],
     size: "Petit Corona",
     length: 4.5,
@@ -11457,7 +11445,6 @@ const CIGARS = [
     pairings: ["Cuban Coffee","Rum","Bourbon"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/herrera-esteli-toro-cigars-natural-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/drew-estate-herrera-esteli-miami/2015114/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/herrera-esteli-miami","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/herrera-esteli-miami-edition/robusto-grande/HEMIRG.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/drew_estate_herrera_esteli.html","price":null}],
   },
   {
     id: "crowned-heads-four-kicks-robusto",
@@ -11571,6 +11558,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 14,
     rating: 93,
+    image: "http://images.neptunecigar.com/avimg/39029.jpg",
     flavors: ["Cream","Floral","Cedar","Honey","Toast","Vanilla"],
     size: "Robusto",
     length: 5,
@@ -11904,7 +11892,6 @@ const CIGARS = [
     pairings: ["Bourbon Barrel Stout","Single Barrel Bourbon","Dark Rum"],
     yearFounded: 2003,
     limited: true,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/tatuaje-series-p-toro-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/tatuaje-series-honduras-cigars/2066846/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/tatuaje-exclusive-series","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/montecristo-white-series/churchill/MXWCH.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/tatuaje-monster-mash-2024-sampler-box-14.html","price":null}],
   },
   {
     id: "punch-gran-puro-nicaragua-robusto",
@@ -11978,7 +11965,6 @@ const CIGARS = [
     pairings: ["Champagne","Aged Rum","Jasmine Tea"],
     yearFounded: 1966,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/cohiba-55-aniversario-cigar-2021-limited-edition-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/cohiba-robustos-cigar-single-p-428.html","price":null}],
   },
   {
     id: "cohiba-medio-siglo",
@@ -12068,6 +12054,7 @@ const CIGARS = [
     smokingTime: 75,
     price: 22,
     rating: 94,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/10/Montecristo-No.2-House-Reserve-Aged-10-Years-Cigar-Single-6-18-x-52.webp",
     flavors: ["Cedar","Earth","Coffee","Cream","Leather","Subtle Spice"],
     size: "Lonsdale",
     length: 6.5,
@@ -12140,6 +12127,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 20,
     rating: 93,
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2018/02/Montecristo-Petit-Edmundo-Cigar-–-Single.webp",
     flavors: ["Earth","Cedar","Coffee","Leather","Cocoa","Black Pepper"],
     size: "Edmundo",
     length: 5.2,
@@ -12164,6 +12152,7 @@ const CIGARS = [
     smokingTime: 40,
     price: 16,
     rating: 92,
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2018/02/Montecristo-Petit-Edmundo-Cigar-–-Single.webp",
     flavors: ["Cedar","Coffee","Earth","Cream","Cocoa"],
     size: "Petit Edmundo",
     length: 4.3,
@@ -12188,6 +12177,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 18,
     rating: 90,
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2018/02/Montecristo-Open-Eagle-Cigar-–-Single.webp",
     flavors: ["Cream","Hay","Mild Cedar","Vanilla","Light Pepper"],
     size: "Corona Gorda",
     length: 5.6,
@@ -12212,6 +12202,7 @@ const CIGARS = [
     smokingTime: 75,
     price: 24,
     rating: 94,
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2025/02/montecristodoubleedmundobox10.webp",
     flavors: ["Earth","Dark Coffee","Leather","Cedar","Black Pepper","Cocoa"],
     size: "Double Robusto",
     length: 6.1,
@@ -12245,7 +12236,6 @@ const CIGARS = [
     pairings: ["Peated Scotch","Espresso","Aged Cheddar"],
     yearFounded: 2005,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-aliados-casa-del-habanos-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/partagas-serie-cigar-single-p-528.html","price":null}],
   },
   {
     id: "partagas-8-9-8",
@@ -12293,7 +12283,6 @@ const CIGARS = [
     pairings: ["Espresso","Cuban Coffee","Dark Chocolate"],
     yearFounded: 1845,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-aliados-casa-del-habanos-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/montecristo-shorts-cigar-pack-p-45799.html","price":null}],
   },
   {
     id: "partagas-coronas-gordas-anejados",
@@ -12391,7 +12380,6 @@ const CIGARS = [
     pairings: ["Champagne","Earl Grey Tea","Brandy"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-churchill-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/dupont-cigar-cutter-cigar-stand-black-gold-p-54239.html","price":null}],
   },
   {
     id: "h-upmann-half-corona",
@@ -12440,7 +12428,6 @@ const CIGARS = [
     pairings: ["Cognac","Café Latte","Almond Pastry"],
     yearFounded: 2011,
     limited: false,
-    buyLinks: [{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/dupont-cigar-punch-cutter-maxijet-black-lacquer-chrome-p-13106.html","price":null},{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/gurkha-royal-challenge-robusto-cigar-box-of-20/","price":null}],
   },
   {
     id: "h-upmann-connoisseur-no-1",
@@ -12464,7 +12451,6 @@ const CIGARS = [
     pairings: ["Cream Sherry","Chamomile Tea","White Wine"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/h-upmann-connoisseur-a-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/upmann-connoisseur-cigar-single-p-13763.html","price":null}],
   },
   {
     id: "hoyo-de-monterrey-epicure-especial",
@@ -12479,6 +12465,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 18,
     rating: 93,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/hoyoepicureespecial25.webp",
     flavors: ["Cream","Honey","Cedar","Mild Pepper","Earth","Hay"],
     size: "Corona Gorda",
     length: 5.6,
@@ -12503,6 +12490,7 @@ const CIGARS = [
     smokingTime: 35,
     price: 12,
     rating: 90,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/hoyopetitrobusto3pack.webp",
     flavors: ["Cream","Cedar","Honey","Hay","Light Pepper"],
     size: "Petit Robusto",
     length: 4,
@@ -12527,6 +12515,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 14,
     rating: 92,
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2025/02/juanlopezseleccionno2box.webp",
     flavors: ["Earth","Cedar","Pepper","Cream","Coffee","Nuts"],
     size: "Robusto",
     length: 4.9,
@@ -12575,6 +12564,7 @@ const CIGARS = [
     smokingTime: 25,
     price: 10,
     rating: 88,
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2025/02/sancristobalelprincipebox.webp",
     flavors: ["Cream","Cedar","Hay","Mild Pepper","Vanilla"],
     size: "Petit Corona",
     length: 4.3,
@@ -12599,6 +12589,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 16,
     rating: 91,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/sancristobalalfuerza.webp",
     flavors: ["Earth","Cedar","Cream","Pepper","Coffee","Leather"],
     size: "Robusto",
     length: 5,
@@ -12623,6 +12614,7 @@ const CIGARS = [
     smokingTime: 40,
     price: 9,
     rating: 87,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/fonsecano1box.webp",
     flavors: ["Cream","Hay","Floral","Mild Cedar","Vanilla"],
     size: "Corona",
     length: 5.6,
@@ -12647,6 +12639,7 @@ const CIGARS = [
     smokingTime: 30,
     price: 7,
     rating: 86,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/fonsecacosacossingle.webp",
     flavors: ["Cream","Hay","Vanilla","Light Cedar"],
     size: "Petit Corona",
     length: 5.2,
@@ -12671,6 +12664,7 @@ const CIGARS = [
     smokingTime: 30,
     price: 4,
     rating: 85,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/joselpiedrapetitcazadorespack.webp",
     flavors: ["Earth","Pepper","Wood","Tobacco","Hay"],
     size: "Petit Corona",
     length: 4.6,
@@ -12695,6 +12689,7 @@ const CIGARS = [
     smokingTime: 35,
     price: 5,
     rating: 86,
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2025/02/quinterofavoritos.jpg",
     flavors: ["Earth","Cedar","Mild Pepper","Hay","Nuts"],
     size: "Petit Corona",
     length: 4.5,
@@ -12719,6 +12714,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 12,
     rating: 89,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/cuabatradicionalessingle.webp",
     flavors: ["Cedar","Earth","Pepper","Cream","Leather","Cocoa"],
     size: "Figurado",
     length: 4.8,
@@ -12743,6 +12739,7 @@ const CIGARS = [
     smokingTime: 25,
     price: 8,
     rating: 87,
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2025/02/cuabadivinosbox.webp",
     flavors: ["Cedar","Cream","Hay","Mild Pepper","Nuts"],
     size: "Figurado",
     length: 4,
@@ -12817,6 +12814,7 @@ const CIGARS = [
     smokingTime: 35,
     price: 9,
     rating: 89,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/rafaelgonzalezpetitcoronanew.webp",
     flavors: ["Cedar","Cream","Hay","Floral","Light Earth"],
     size: "Petit Corona",
     length: 5,
@@ -12841,6 +12839,7 @@ const CIGARS = [
     smokingTime: 20,
     price: 5,
     rating: 86,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2020/09/El-Rey-Del-Mundo-Demi-Tasse-Cigars-–-Box-of-25.webp",
     flavors: ["Cream","Cedar","Hay","Vanilla","Mild Nuts"],
     size: "Cigarillo",
     length: 3.9,
@@ -12874,7 +12873,6 @@ const CIGARS = [
     pairings: ["Peated Scotch","Espresso","Dark Rum"],
     yearFounded: 1902,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/bolivar-coronas-j-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/bolivar-petit-coronas-cigar-single-p-415.html","price":null}],
   },
   {
     id: "bolivar-libertador",
@@ -12898,7 +12896,6 @@ const CIGARS = [
     pairings: ["Peated Scotch","Dark Rum","Black Coffee"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/bolivar-royal-corona-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/lcdh-bolivar-libertador-cigar-single-p-15610.html","price":null}],
   },
   {
     id: "punch-petit-coronas-del-punch",
@@ -12913,6 +12910,7 @@ const CIGARS = [
     smokingTime: 35,
     price: 10,
     rating: 90,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/punch48box.webp",
     flavors: ["Earth","Cedar","Pepper","Leather","Nuts","Hay"],
     size: "Petit Corona",
     length: 5,
@@ -12946,7 +12944,6 @@ const CIGARS = [
     pairings: ["Brandy","Black Coffee","Dark Chocolate"],
     yearFounded: 1840,
     limited: false,
-    buyLinks: [{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/punch-selection-sampler-cigars-p-59294.html","price":null},{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/punch-serie-d-oro-no-1-humidor-2/","price":null}],
   },
   {
     id: "sancho-panza-non-plus",
@@ -12961,6 +12958,7 @@ const CIGARS = [
     smokingTime: 35,
     price: 9,
     rating: 88,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/sanchopanzanonplus.webp",
     flavors: ["Cream","Hay","Cedar","Light Earth","Mild Spice"],
     size: "Petit Corona",
     length: 5,
@@ -12985,6 +12983,7 @@ const CIGARS = [
     smokingTime: 30,
     price: 6,
     rating: 87,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/vegueroscentrofinospack.webp",
     flavors: ["Cedar","Hay","Cream","Mild Earth","Grass"],
     size: "Petit Corona",
     length: 4.7,
@@ -13009,6 +13008,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 16,
     rating: 92,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/vegasrobainafamososbox.webp",
     flavors: ["Earth","Cedar","Cream","Coffee","Pepper","Leather"],
     size: "Robusto",
     length: 5,
@@ -13033,6 +13033,7 @@ const CIGARS = [
     smokingTime: 20,
     price: 7,
     rating: 89,
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2025/02/ramonsmallclubcoronas1.jpg",
     flavors: ["Earth","Pepper","Cedar","Nuts","Leather"],
     size: "Small Panetela",
     length: 4.3,
@@ -13116,7 +13117,6 @@ const CIGARS = [
     pairings: ["Light Coffee","Sparkling Water","Mild Tea"],
     yearFounded: 1844,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/h-upmann-connoisseur-a-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/upmann-half-corona-cigar-single-p-11520.html","price":null}],
   },
   {
     id: "por-larranaga-petit-coronas",
@@ -13482,7 +13482,6 @@ const CIGARS = [
     pairings: ["Dark Rum","Bourbon","Black Coffee"],
     yearFounded: 1989,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gurkha-125th-anniversary-toro-cigars-natural-pack-of-10","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/gurkha-cellar-reserve/double-robusto-solara-15-year/GURCRR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/gurkha-black-dragon-special-edition-tubo","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/gurkha-assassin-torpedo/2004242/","price":null}],
   },
   {
     id: "gurkha-royal-challenge-robusto",
@@ -13750,7 +13749,6 @@ const CIGARS = [
     pairings: ["Bourbon","Black Coffee","Dark Stout"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/camacho-triple-maduro-robusto-cigars-maduro-box-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/5-vegas-triple-a-cigars/1410410/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/camacho-triple-maduro/robusto/CTMR20.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/camacho-triple-maduro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/triple-a-big-brand-combo-sampler.html","price":null}],
   },
   {
     id: "5-vegas-series-a-robusto",
@@ -13774,7 +13772,6 @@ const CIGARS = [
     pairings: ["Coffee","Amber Ale","Bourbon"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/diesel-vintage-series-robusto-gordo-cigars-maduro-box-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/5-vegas-series-a-cigars/1410408/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/davidoff-millennium-blend-series/robusto/DAMR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/black-works-studios-tiger-series","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/5-vegas-series-a-alpha-10pk.html","price":null}],
   },
   {
     id: "5-vegas-cask-strength-robusto",
@@ -13798,7 +13795,6 @@ const CIGARS = [
     pairings: ["Cask-Strength Bourbon","Espresso","Imperial Stout"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/diesel-whiskey-row-px-sherry-cask-aged-robusto-cigars-maduro-box-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/5-vegas-cask-strength-cigars/1466910/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/diesel-whiskey-row-sherry-cask/robusto/DIEWSR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/don-pepin-vegas-cubanas","price":null}],
   },
   {
     id: "asylum-13-robusto",
@@ -13822,7 +13818,6 @@ const CIGARS = [
     pairings: ["Bourbon","Black Coffee","Dark Beer"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/asylum-13-10-count-sampler-cigars-varies-sampler-of-10","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/camacho-connecticut-robusto-cigars/1507776/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/asylum-13-arabian-nights","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/cao-cameroon/robusto/CCR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/asylum-13-corojo.html","price":null}],
   },
   {
     id: "asylum-insidious-robusto",
@@ -14012,6 +14007,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 9,
     rating: 89,
+    image: "http://images.neptunecigar.com/avimg/39601.jpg",
     flavors: ["Cream","Cedar","Nuts","Hay","Mild Pepper","Vanilla"],
     size: "Robusto",
     length: 5,
@@ -14036,6 +14032,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 12,
     rating: 92,
+    image: "http://images.neptunecigar.com/avimg/38084.jpg",
     flavors: ["Red Pepper","Cedar","Leather","Earth","Cocoa","Sweet Spice"],
     size: "Robusto",
     length: 5,
@@ -14209,6 +14206,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 10,
     rating: 90,
+    image: "http://images.neptunecigar.com/avimg/41823.jpg",
     flavors: ["Cedar","Pepper","Coffee","Cream","Earth","Nuts"],
     size: "Robusto",
     length: 5.5,
@@ -14258,6 +14256,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 10,
     rating: 92,
+    image: "http://images.neptunecigar.com/avimg/39999.jpg",
     flavors: ["Cedar","Pepper","Coffee","Cream","Earth","Nuts"],
     size: "Robusto",
     length: 5,
@@ -14357,6 +14356,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 9,
     rating: 91,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw795a9abb/images/Images%20for%20JR%20Master%20List/JR%20Master%20List%203/HVCSAP_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cedar","Cream","Pepper","Coffee","Almonds","Mild Sweetness"],
     size: "Robusto",
     length: 4.75,
@@ -14366,7 +14366,6 @@ const CIGARS = [
     pairings: ["Cuban Coffee","Aged Rum","Cognac"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/hvc-series-a-perlas-cigars-natural-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/hvc-serie-a","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/hvc-serie-a/perlas/HVCSAP.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/hvc-serie-a.html","price":null}],
   },
   {
     id: "cornelius-anthony-venganza-robusto",
@@ -14510,7 +14509,6 @@ const CIGARS = [
     pairings: ["Champagne","White Tea","Light Rum","Almond Biscotti"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/crux-du-connoisseur-no-4-5pk-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/perdomo-connoisseur-collection-award-wining/2042536/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/crux-bull-and-bear","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/h.-upmann-connoisseur/cabinet-01-20/UP205.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/crux-du-connoisseur.html","price":null}],
   },
   {
     id: "crux-bull-and-bear-robusto",
@@ -14582,7 +14580,6 @@ const CIGARS = [
     pairings: ["Coffee","Bourbon","Amber Ale","Dark Chocolate"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/crux-guild-robusto-5pk-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/alec-bradley-white-gold-robusto-cigars/2004461/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/black-label-trading-company-cigars/robusto-box-pressed-l.e./BLSDR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/crux-bull-and-bear","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/crux-guild.html","price":null}],
   },
   {
     id: "ezra-zion-tantrum-robusto",
@@ -14677,7 +14674,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Chocolate Truffles","Cream Ale"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/tatuaje-series-p-honduras-robusto-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/hc-series-habano-colorado-robusto/2066972/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/davidoff-millennium-blend-series/robusto/DAMR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/tatuaje-series-p-robusto-10-pk.html","price":null}],
   },
   {
     id: "romacraft-neanderthal-hn-robusto",
@@ -14726,7 +14722,6 @@ const CIGARS = [
     pairings: ["Bourbon","Aged Rum","Black Coffee","Dark Chocolate"],
     yearFounded: 2011,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cromagnon-aquitaine-emh-sabre-tooth-cigars-natural-bundle-of-24","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/roma-craft-cromagnon-aquitaine-cigars/1506475/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/roma-craft-cromagnon-aquitaine","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/roma-craft-cromagnon/emh-fomorian/CROMEF3.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/roma-craft-cromagnon-aquitaine.html","price":null}],
   },
   {
     id: "romacraft-intemperance-ba-xxi-robusto",
@@ -14824,7 +14819,6 @@ const CIGARS = [
     pairings: ["Dark Rum","Espresso","Añejo Tequila","Chocolate Cake"],
     yearFounded: 2016,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/el-rey-del-mundo-robusto-larga-cigars-oscuro-box-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/dapper-el-borracho-natural-cigars/2069268/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/blind-mans-bluff-by-caldwell-cigar-co./robusto/CABBR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/el-borracho","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/dapper-el-borracho-maduro.html","price":null}],
   },
   {
     id: "dapper-la-madrina-robusto",
@@ -14848,7 +14842,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Cream Ale","Almonds"],
     yearFounded: 2016,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/factory-smokes-sweet-robusto-cigars-natural-bundle-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/dapper-la-madrina-cigars/2057919/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/blind-mans-bluff-by-caldwell-cigar-co./robusto/CABBR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-madrina-natural","price":null}],
   },
   {
     id: "dapper-siempre-rosado-robusto",
@@ -14872,7 +14865,6 @@ const CIGARS = [
     pairings: ["Coffee","Bourbon","Honey Whiskey","Cashews"],
     yearFounded: 2016,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rocky-patel-rosado-fumas-robusto-cigars-natural-bundle-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/dapper-siempre-sun-grown-cigars/2066050/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/blind-mans-bluff-by-caldwell-cigar-co./robusto/CABBR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/siempre-sun-grown","price":null}],
   },
   {
     id: "matilde-renacer-robusto",
@@ -14911,6 +14903,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 11.5,
     rating: 91,
+    image: "http://images.neptunecigar.com/avimg/37995.jpg",
     flavors: ["Dark Earth","Espresso","Molasses","Leather","Cocoa","Pepper"],
     size: "Robusto",
     length: 5,
@@ -14984,6 +14977,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 12,
     rating: 92,
+    image: "http://images.neptunecigar.com/avimg/38721.jpg",
     flavors: ["Dark Chocolate","Espresso","Leather","Black Pepper","Earth","Cedar"],
     size: "Robusto",
     length: 5,
@@ -15041,7 +15035,6 @@ const CIGARS = [
     pairings: ["Coffee","Aged Rum","Bourbon","Almonds"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/ashton-heritage-puro-sol-robusto-pack-cigars-natural-pack-of-5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/ashton-heritage-puro-sol/robusto/ASHRO.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/alec-bradley-white-gold-robusto-cigars/2004461/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/ashton-heritage-puro-sol","price":null}],
   },
   {
     id: "serino-wayfarer-corona-gorda",
@@ -15065,7 +15058,6 @@ const CIGARS = [
     pairings: ["Bourbon","Black Coffee","Dark Chocolate","Pecans"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-imperiosa-corona-gorda-cigars-oscuro-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/illusione-original-documents-cg4-corona-gorda/2060054/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/four-kicks/corona-gorda/FKCG.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/petit-corona","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/herrera-esteli-brazilian-maduro-short-corona-gorda-10pk.html","price":null}],
   },
   {
     id: "serino-royale-maduro-xx-robusto",
@@ -15201,6 +15193,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 12,
     rating: 92,
+    image: "http://images.neptunecigar.com/avimg/39994.jpg",
     flavors: ["Dark Chocolate","Espresso","Leather","Black Pepper","Earth","Molasses"],
     size: "Robusto",
     length: 5,
@@ -15381,7 +15374,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Cola","Peanuts"],
     yearFounded: 1916,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/carlos-torano-exodus-1959-50-years-robusto-cigars-maduro-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/carlos-torano-exodus-1959/2064381/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/arturo-fuente-don-carlos/robusto/DCR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/casa-fernandez-miami-reserva-corojo","price":null}],
   },
   {
     id: "j-fuego-origen-robusto",
@@ -15405,7 +15397,6 @@ const CIGARS = [
     pairings: ["Rye Whiskey","Black Coffee","Dark Rum","Aged Cheddar"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/nicaraguan-factory-seconds-by-fuego-robusto-habano-cigars-natural-bundle-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/plasencia-alma-del-fuego/candente-robusto/PLADFR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/illusione-singulare-origen","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/j-fuego-origen-maduro-gordo-10pk.html","price":null}],
   },
   {
     id: "j-fuego-sangre-de-toro-robusto",
@@ -15429,7 +15420,6 @@ const CIGARS = [
     pairings: ["Mezcal","Black Coffee","Rye Whiskey","Spicy Jerky"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/nicaraguan-factory-seconds-by-fuego-robusto-habano-cigars-natural-bundle-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/plasencia-alma-del-fuego/candente-robusto/PLADFR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/j-fuego-sangre-de-toro-grande-box-21.html","price":null}],
   },
   {
     id: "j-fuego-gran-reserva-robusto",
@@ -15453,7 +15443,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Aged Rum","Chocolate Truffles"],
     yearFounded: 2007,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gran-habano-gran-reserva-5-2012-gran-robusto-cigars-natural-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/pdr-a-flores-gran-reserva-desflorado/2063740/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/el-septimo-doble-gran-reserva-20th-anniversary","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/joya-de-nicaragua-antano-gran-reserva/robusto-grande/JNGRG.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/gurkha-gran-reserva-louis-xiii-torpedo-tubos-set-3.html","price":null}],
   },
   {
     id: "san-cristobal-revelation-legend",
@@ -15543,6 +15532,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 8.5,
     rating: 91,
+    image: "http://images.neptunecigar.com/avimg/34170.jpg",
     flavors: ["Cedar","Leather","Pepper","Cocoa","Earth","Cream"],
     size: "Robusto",
     length: 5,
@@ -15567,6 +15557,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 9,
     rating: 91,
+    image: "http://images.neptunecigar.com/avimg/36249.jpg",
     flavors: ["Dark Chocolate","Espresso","Leather","Earth","Molasses","Black Pepper"],
     size: "Robusto",
     length: 5,
@@ -15625,7 +15616,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Espresso","Dark Rum"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/montecristo-epic-cigars/2064518/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/montecristo-epic-robusto-5-pk-cigars-natural-pack-of-5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/montecristo-epic/churchill/MXEC.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/montecristo-epic","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/montecristo-epic-craft-cured-toro-10pk.html","price":null}],
   },
   {
     id: "montecristo-espada-ricasso",
@@ -15640,6 +15630,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 14,
     rating: 93,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw87cc0835/images/Images%20for%20JR%20Master%20List/JR%20Master%20List%203/MXESR_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Earth","Coffee","Leather","Red Pepper","Cedar","Cocoa"],
     size: "Robusto",
     length: 5,
@@ -15649,7 +15640,6 @@ const CIGARS = [
     pairings: ["Bourbon","Black Coffee","Aged Rum"],
     yearFounded: 2013,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/espada-oscuro-by-montecristo-ricasso-cigars-oscuro-box-of-10","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/montecristo-espada-estoque-cigars/1499013/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/montecristo-espada","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/montecristo-espada/ricasso/MXESR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/montecristo-espada.html","price":null}],
   },
   {
     id: "montecristo-white-robusto-grande",
@@ -15739,6 +15729,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 9,
     rating: 91,
+    image: "http://images.neptunecigar.com/avimg/39737.jpg",
     flavors: ["Dark Chocolate","Espresso","Black Pepper","Charred Oak","Leather","Molasses"],
     size: "Robusto",
     length: 5.25,
@@ -15763,6 +15754,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 9,
     rating: 91,
+    image: "http://images.neptunecigar.com/avimg/294.jpg",
     flavors: ["Red Pepper","Earth","Leather","Coffee","Cedar","Cocoa"],
     size: "Robusto",
     length: 5.5,
@@ -15837,6 +15829,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 8,
     rating: 90,
+    image: "http://images.neptunecigar.com/avimg/42906.jpg",
     flavors: ["Cedar","Cream","Nuts","Leather","Mild Spice","Earth"],
     size: "Robusto",
     length: 5.25,
@@ -15886,6 +15879,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 10.5,
     rating: 92,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw8e22dc32/images/Images%20for%20JR%20Master%20List/JR%20Master%20List%202/EPPLP20_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cedar","Cream","Pepper","Cocoa","Nuts","Toast"],
     size: "Robusto",
     length: 5,
@@ -15993,7 +15987,6 @@ const CIGARS = [
     pairings: ["Cappuccino","White Wine","Sparkling Water"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-robusto-selection-cigars-varies-sampler-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/la-flor-dominicana-suave-maduro/2062769/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-flor-dominicana-1994","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/deadwood-dominicana/robusto/DWDR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/la_flor_dominicana.html","price":null}],
   },
   {
     id: "la-flor-dominicana-chapter-one-robusto",
@@ -16017,7 +16010,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso","Dark Chocolate"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/la-flor-dominicana-oro-cigars/2069544/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/la_flor_dominicana.html","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/la-flor-dominicana-double-ligero/chisel/LDDC.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-flor-dominicana-1994","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-limited-production-chapter-one-box-press-cigars-oscuro-box-of-10","price":null}],
   },
   {
     id: "la-flor-dominicana-1994-robusto",
@@ -16032,6 +16024,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 8.5,
     rating: 90,
+    image: "http://images.neptunecigar.com/avimg/36294.jpg",
     flavors: ["Cedar","Earth","Leather","Pepper","Coffee","Cream"],
     size: "Robusto",
     length: 5,
@@ -16090,7 +16083,6 @@ const CIGARS = [
     pairings: ["Cappuccino","Lemonade","Chardonnay"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/quorum-shade-robusto-cigars-natural-bundle-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/foundation-charter-oak-pegnataro/2058557/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/foundation-charter-oak-connecticut","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/foundation-charter-oak/grande/FCCOG.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/foundation_cigar_co.html","price":null}],
   },
   {
     id: "foundation-olmec-maduro-robusto",
@@ -16189,7 +16181,6 @@ const CIGARS = [
     pairings: ["Barrel-Proof Bourbon","Espresso","Dark Rum"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/espinosa-sumatra-robusto-cigars-natural-single","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/espinosa-crema/no.-4-robusto/ECRE4.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/alec-bradley-white-gold-robusto-cigars/2004461/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/espinosa-azucar","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/espinosa-crema-robusto-10pk.html","price":null}],
   },
   {
     id: "crowned-heads-las-calaveras-2024-robusto",
@@ -16353,6 +16344,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 12,
     rating: 91,
+    image: "http://images.neptunecigar.com/avimg/38126.jpg",
     flavors: ["Dark Chocolate","Coffee","Leather","Cedar","Sweet Cream","Earth"],
     size: "Robusto",
     length: 5,
@@ -16386,7 +16378,6 @@ const CIGARS = [
     pairings: ["Bourbon","Black Coffee","Cola"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gran-habano-gran-reserva-5-2012-gran-robusto-cigars-natural-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/gran-habano-vintage-corojo-2002-cigars/1411128/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/rocky-patel-the-edge-habano/gran-robusto/RPEHGR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/gran-habano-blue-in-green","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/gran-habano-corojo-5-gran-robusto-10-pk.html","price":null}],
   },
   {
     id: "la-herencia-cubana-core-robusto",
@@ -16410,7 +16401,6 @@ const CIGARS = [
     pairings: ["Black Coffee","Bourbon","Dark Beer"],
     yearFounded: 2002,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-gloria-cubana-serie-s-robusto-gordo-cigars-colorado-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/la-herencia-cubana-core-cigars/1411522/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/la-gloria-cubana-esteli/robusto/LGER.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cigars/la_gloria_cubana.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-estrella-cubana-connecticut","price":null}],
   },
   {
     id: "rocky-patel-number-6-robusto",
@@ -16534,7 +16524,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Amber Ale"],
     yearFounded: 1992,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/perdomo-20th-anniversary-sun-grown-robusto-cigars-natural-single","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/perdomo-habano-bourbon-barrel-aged-sun-grown/robusto/PEBAR.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/perdomo-slow-aged-lot-826-sun-grown-cigars/2029290/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/factory-smokes-sun-grown","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/perdomo-habano-bourbon-barrel-aged-sun-grown.html","price":null}],
   },
   {
     id: "perdomo-small-batch-series-maduro-robusto",
@@ -16599,6 +16588,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 9,
     rating: 92,
+    image: "http://images.neptunecigar.com/avimg/39544.jpg",
     flavors: ["Dark Chocolate","Cedar","Leather","Red Pepper","Earth","Coffee"],
     size: "Robusto",
     length: 5.25,
@@ -16832,7 +16822,6 @@ const CIGARS = [
     pairings: ["Champagne","Prosecco","Light White Wine"],
     yearFounded: 2009,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/illusione-epernay-le-taureau-bench-pressed-cigars-rosado-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/illusione-epernay-serie-2009/2007575/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/illusione-epernay-10th-anniversary","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/illusione-epernay-le-grande-10pk.html","price":null}],
   },
   {
     id: "illusione-epernay-le-matin",
@@ -16856,7 +16845,6 @@ const CIGARS = [
     pairings: ["Champagne","Cold Brew Coffee","Earl Grey Tea"],
     yearFounded: 2009,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/illusione-epernay-le-elegance-petit-lancero-cigars-rosado-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/illusione-epernay-serie-2009/2007575/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/illusione-epernay-10th-anniversary","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/illusione-epernay-le-grande-10pk.html","price":null}],
   },
   {
     id: "illusione-rothchildes",
@@ -17205,7 +17193,6 @@ const CIGARS = [
     pairings: ["Bourbon","Oatmeal Stout","Espresso"],
     yearFounded: 2020,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/fratello-arlequin-cigars/2064846/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/fratello-arlequin","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/fratello/toro/FRAT.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/alec-bradley-prensado-gran-toro-cigars-natural-box-of-24","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/fratello-arlequin.html","price":null}],
   },
   {
     id: "fratello-classico-robusto",
@@ -17317,6 +17304,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 9.5,
     rating: 91,
+    image: "http://images.neptunecigar.com/avimg/34170.jpg",
     flavors: ["Plum","Dark Chocolate","Brown Sugar","Coffee","White Pepper"],
     size: "Toro",
     length: 5.5,
@@ -17375,7 +17363,6 @@ const CIGARS = [
     pairings: ["Aged Rum","Craft Lager","Coffee"],
     yearFounded: 2018,
     limited: false,
-    buyLinks: [{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/rocky-patel-number-6/robusto/RPN6R.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-robusto-selection-cigars-varies-sampler-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/la-palina-nicaragua-connecticut-cigars/2035968/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-palina-125th-anniversary","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/la-palina-no-2-robusto-10pk.html","price":null}],
   },
   {
     id: "la-palina-lp02-robusto",
@@ -17399,7 +17386,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Espresso"],
     yearFounded: 2018,
     limited: false,
-    buyLinks: [{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/rocky-patel-number-6/robusto/RPN6R.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-robusto-selection-cigars-varies-sampler-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/la-palina-nicaragua-connecticut-cigars/2035968/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-palina-125th-anniversary","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/la-palina-no-2-robusto-10pk.html","price":null}],
   },
   {
     id: "leaf-by-oscar-maduro-toro",
@@ -17414,6 +17400,7 @@ const CIGARS = [
     smokingTime: 70,
     price: 11.5,
     rating: 90,
+    image: "http://images.neptunecigar.com/avimg/42768.jpg",
     flavors: ["Earth","Leather","Dark Chocolate","Cedar","Black Pepper"],
     size: "Toro",
     length: 6,
@@ -17622,7 +17609,6 @@ const CIGARS = [
     pairings: ["Cognac","Champagne","Dark Chocolate"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/diamond-crown-julius-caeser-toro-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/diamond-crown-oxford-humidor-humidors/2069324/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/diamond-crown-black-diamond","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/diamond-crown-black-diamond/emerald/DIBDE.html","price":null}],
   },
   {
     id: "quesada-tributo-julio",
@@ -17695,7 +17681,6 @@ const CIGARS = [
     pairings: ["Rioja","Dry Sherry","Café con Leche"],
     yearFounded: 2011,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/quorum-shade-short-robusto-cigars-natural-bundle-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/hvc-seleccion-no.1/habano-short-robusto/HVCS1R.html","price":null}],
   },
   {
     id: "cornelius-anthony-venganza-judge",
@@ -17719,7 +17704,6 @@ const CIGARS = [
     pairings: ["Bourbon","Craft IPA","Dark Espresso"],
     yearFounded: 2016,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/cornelius-anthony-metal-key-chain/2038957/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/my-father-the-judge","price":null}],
   },
   {
     id: "cornelius-anthony-daddy-mac-toro",
@@ -17817,7 +17801,6 @@ const CIGARS = [
     pairings: ["Aged Rum","Espresso","Dark Beer"],
     yearFounded: 2010,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gran-habano-gran-reserva-5-2010-gran-robusto-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/pdr-a-flores-gran-reserva-desflorado/2063740/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/gran-habano-gran-reserva-no-5-2012","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/joya-de-nicaragua-antano-gran-reserva/robusto-grande/JNGRG.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/gran-habano-corojo-5-gran-robusto-10-pk.html","price":null}],
   },
   {
     id: "crux-epicure-habano-toro",
@@ -17865,7 +17848,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Cold Brew Coffee"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/crux-bull-bear-robusto-extra-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/crux-bull-and-bear","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/sancho-panza-extra-fuerte/robusto/SPER.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/crux-bull-bear.html","price":null}],
   },
   {
     id: "crux-guild-toro",
@@ -17939,7 +17921,6 @@ const CIGARS = [
     pairings: ["Light Beer","Café con Leche","Dry White Wine"],
     yearFounded: 2005,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/el-gordo-59-5-vegas-gold/2014271/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/cao-gold/double-corona/CGLDC.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cao-gold-double-corona-cigars-natural-box-of-20","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/1502-black-gold","price":null}],
   },
   {
     id: "5-vegas-triple-a-box-press",
@@ -17963,7 +17944,6 @@ const CIGARS = [
     pairings: ["Rye Whiskey","Imperial Stout","Cold Brew"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/5-vegas-triple-a-cigars/1410410/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/acid-cigars/20th-anniversary-box-press/AC20TH.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cao-brazilia-box-press-cigars-maduro-box-of-20","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/camacho-triple-maduro","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/oliva-serie-o-box-press-toro-5pk.html","price":null}],
   },
   {
     id: "5-vegas-classic-torpedo",
@@ -17987,7 +17967,6 @@ const CIGARS = [
     pairings: ["Coffee","Light Lager","Amber Ale"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/quorum-classic-torpedo-cigars-natural-bundle-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/5-vegas-classic-cigars/2041858/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/alec-bradley-american-classic-blend/torpedo/ABACTO.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/aladino-classic","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/5-vegas-ultimate-torpedo-sampler-5-cigars.html","price":null}],
   },
   {
     id: "eiroa-first-20-years-550",
@@ -18011,7 +17990,6 @@ const CIGARS = [
     pairings: ["Aged Rum","Single Malt Scotch","Espresso"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/eiroa-the-first-20-years-colorado/2007324/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/eiroa-the-first-20-years","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/eiroa-the-first-20-years-colorado/6-x-46/EI20C46.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/eiroa-the-first-20-years-diadema-cigars-maduro-box-of-10","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/eiroa-the-first-20-years.html","price":null}],
   },
   {
     id: "kristoff-ligero-maduro-matador",
@@ -18085,7 +18063,6 @@ const CIGARS = [
     pairings: ["Zinfandel","Bourbon","Dark Beer"],
     yearFounded: 2009,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/nicaraguan-factory-seconds-by-fuego-toro-habano-cigars-natural-bundle-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/plasencia-alma-del-fuego/concepcion-toro/PLADFT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/j-fuego-sangre-de-toro-grande-box-21.html","price":null}],
   },
   {
     id: "j-fuego-origen-toro",
@@ -18109,7 +18086,6 @@ const CIGARS = [
     pairings: ["Cabernet Sauvignon","Aged Rum","Espresso"],
     yearFounded: 2009,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/nicaraguan-factory-seconds-by-fuego-toro-habano-cigars-natural-bundle-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/plasencia-alma-del-fuego/concepcion-toro/PLADFT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/j-fuego-origen-maduro-gordo-10pk.html","price":null}],
   },
   {
     id: "j-fuego-heat-robusto",
@@ -18133,7 +18109,6 @@ const CIGARS = [
     pairings: ["Coffee","Light Rum","Craft Lager"],
     yearFounded: 2010,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/nicaraguan-factory-seconds-by-fuego-robusto-habano-cigars-natural-bundle-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/plasencia-alma-del-fuego/candente-robusto/PLADFR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-palina-fuego-verde","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/j-fuego-origen-natural-robusto-10pk.html","price":null}],
   },
   {
     id: "matilde-quadrata-robusto",
@@ -18182,7 +18157,6 @@ const CIGARS = [
     pairings: ["Rye Whiskey","Oatmeal Stout","Double Espresso"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/matilde-oscura","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/romeo-y-julieta-crafted-by-aj-fernandez/toro/JUCAJT.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/matilde-oscura-toro-bravo-cigars-maduro","price":null}],
   },
   {
     id: "dapper-el-borracho-toro",
@@ -18427,7 +18401,6 @@ const CIGARS = [
     pairings: ["Dry White Wine","Craft Lager","Light Rum"],
     yearFounded: 2017,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/macanudo-cru-royale-robusto-cigars-natural-single","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/la-gloria-cubana-medio-tiempo/robusto/LGMTR.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/rocky-patel-decade-robusto-el-gordo-humidor-combo/2014906/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/cohiba-royale","price":null}],
   },
   {
     id: "serino-royale-maduro-xx-toro",
@@ -18476,7 +18449,6 @@ const CIGARS = [
     pairings: ["Champagne","Earl Grey Tea","Light White Wine"],
     yearFounded: 2021,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rocky-patel-factory-selects-edge-connecticut-churchill-cigars-natural-bundle-of-15","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/brick-house-double-connecticut/churchill/BHCCH.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/camacho-connecticut-churchill-10pk.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/acid-20-connecticut","price":null}],
   },
   {
     id: "nat-sherman-timeless-metropolitan-toro",
@@ -18500,7 +18472,6 @@ const CIGARS = [
     pairings: ["Champagne","Sauvignon Blanc","Café au Lait"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/timeless-supreme-cigars-nat-sherman/1503938/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/nat-sherman-metropolitan-maduro","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/ferio-tego-metropolitan-habano-toro-cigars-natural-box-of-18","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/ferio-tego-timeless-sterling/toro/FTSTT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/nat-sherman-metropolitan.html","price":null}],
   },
   {
     id: "balmoral-serie-signaturas-paso-doble-gran-toro",
@@ -18574,7 +18545,6 @@ const CIGARS = [
     pairings: ["Light Lager","Green Tea","Café con Leche"],
     yearFounded: 2019,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/nestor-miranda-special-selection-connecticut","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/brand/nestor-miranda-connecticut-collection-accessories","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/brick-house-double-connecticut/robusto/BHDC.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/camacho-connecticut-robusto-cigars/1507776/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/oliva-connecticut-reserve-robusto-10pk.html","price":null}],
   },
   {
     id: "crux-epicure-maduro-robusto",
@@ -18623,7 +18593,6 @@ const CIGARS = [
     pairings: ["Rioja","Dry Sherry","Espresso"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/curivari-seleccion-privada/fabulosos/CURSPF3.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/alfonso-gran-seleccion","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/quesada-espana-cigars/2030494/","price":null}],
   },
   {
     id: "serino-talon-toro",
@@ -18647,7 +18616,6 @@ const CIGARS = [
     pairings: ["Bourbon","Craft IPA","Dark Coffee"],
     yearFounded: 2019,
     limited: false,
-    buyLinks: [{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/romeo-y-julieta-crafted-by-aj-fernandez/toro/JUCAJT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/gurkha-talon-par-serrated-folder-knife.html","price":null}],
   },
   {
     id: "diamond-crown-black-diamond-emerald",
@@ -18671,7 +18639,6 @@ const CIGARS = [
     pairings: ["Cognac","Aged Bourbon","Dark Chocolate"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/diamond-crown-julius-caeser-toro-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/diamond-crown-oxford-humidor-humidors/2069324/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/diamond-crown-black-diamond","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/diamond-crown-black-diamond/emerald/DIBDE.html","price":null}],
   },
   {
     id: "gran-habano-habano-5-robusto",
@@ -18720,7 +18687,6 @@ const CIGARS = [
     pairings: ["Coffee","Light Beer","Dry White Wine"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/quorum-classic-robusto-cigars-natural-bundle-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/la-palina-kb-series/2061111/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-palina-classic-connecticut","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/avo-classic/robusto/AVOR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/la-palina-classic-series-8-cigar-toro-sampler-2-4-s.html","price":null}],
   },
   {
     id: "asylum-13-770",
@@ -18768,7 +18734,6 @@ const CIGARS = [
     pairings: ["Aged Bourbon","Imperial Stout","Black Coffee"],
     yearFounded: 2019,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/southern-draw-jacobs-ladder-brimstone-perfecto-cigars-maduro-box-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/southern-draw-evening-primrose/2069497/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/southern-draw-300-hands-habano","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/southern-draw-firethorn/gordo/SDFG.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/southern-draw-by-aj-fernandez-jacobs-ladder-brimstone-lonsdale-5pk.html","price":null}],
   },
   {
     id: "fratello-arlequin-connecticut-robusto",
@@ -18792,7 +18757,6 @@ const CIGARS = [
     pairings: ["Dry White Wine","Light Rum","Earl Grey Tea"],
     yearFounded: 2024,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cuban-rounds-connecticut-robusto-cigars-natural-bundle-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/fratello-arlequin-connecticut/2057465/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/fratello-arlequin","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/brick-house-double-connecticut/robusto/BHDC.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/fratello-arlequin.html","price":null}],
   },
   {
     id: "oliva-serie-v-melanio-robusto",
@@ -19012,7 +18976,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Espresso"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-privada-t52-toro-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/drew-estate-liga-privada-t52-cigars/1411551/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/liga-privada-t52","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/liga-privada-t52/toro/LPT52T.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/liga-privada-no-9-t52-toro-tubos-sampler-box-6.html","price":null}],
   },
   {
     id: "padron-1926-no6-natural",
@@ -19161,7 +19124,6 @@ const CIGARS = [
     pairings: ["Cognac","Single Malt Scotch","Espresso"],
     yearFounded: 2000,
     limited: true,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/casa-de-garcia-centenario-gold-label-toro-cigars-natural-bundle-of-25","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/don-pepin-garcia-my-father-sampler-samplers/1461237/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/my-father-garcia-and-garcia","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/casa-de-garcia-sumatra/toro/GAT.html","price":null}],
   },
   {
     id: "my-father-garcia-y-garcia-robusto-deluxe",
@@ -19185,7 +19147,6 @@ const CIGARS = [
     pairings: ["Bourbon","Single Malt Scotch","Espresso"],
     yearFounded: 2000,
     limited: true,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/casa-de-garcia-centenario-gold-label-robusto-cigars-natural-bundle-of-25","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/don-pepin-garcia-my-father-sampler-samplers/1461237/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/my-father-garcia-and-garcia","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/my-father/no.-1-robusto/MF1.html","price":null}],
   },
   {
     id: "davidoff-winston-churchill-toro",
@@ -19281,7 +19242,6 @@ const CIGARS = [
     pairings: ["Cognac","Pu-erh Tea","Single Malt Scotch"],
     yearFounded: 2000,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/davidoff-year-of-the-horse-limited-edition-2026-cigars/2066875/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/davidoff-year-of-the-horse","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/davidoff-winston-churchill-the-late-hour/robusto/DAWLHR.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/davidoff-year-of-the-horse-2026-cigars-dark-natural-box-of-10","price":null}],
   },
   {
     id: "ep-carrillo-encore-majestic",
@@ -19296,6 +19256,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 11.5,
     rating: 96,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw5fdd787a/images/Images%20for%20JR%20Master%20List/JR%20Master%20List%202/EPENM20_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cedar","Cream","Coffee","Light Pepper","Almonds"],
     size: "Robusto",
     length: 5.4,
@@ -19305,7 +19266,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Light Ale"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/ep-carrillo-encore-black/2058696/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/ep-carrillo-encore","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/encore-by-e.p.-carrillo/majestic/EPENM20.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/encore-by-ep-carrillo-majestic-cigars-natural-box-of-20","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/e-p-carrillo-encore-majestic-5pk-k5-epa5352-qap.html","price":null}],
   },
   {
     id: "ep-carrillo-la-historia-e-iii",
@@ -19354,7 +19314,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Coffee","Aged Rum"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/juarez-by-crowned-heads-mini-dozer-le-2026-cigars-maduro-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/crowned-heads-jericho-hill-cigars/2069484/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/crowned-heads-le-careme","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/le-careme-by-crowned-heads/hermoso-no.-1/LCAH.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/crowned-heads-mil-dias-des-deux-le-2025-box-12.html","price":null}],
   },
   {
     id: "crowned-heads-le-careme-cosacos",
@@ -19378,7 +19337,6 @@ const CIGARS = [
     pairings: ["Espresso","Black Coffee","Light Bourbon"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/juarez-by-crowned-heads-mini-dozer-le-2026-cigars-maduro-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/crowned-heads-jericho-hill-cigars/2069484/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/crowned-heads-le-careme","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/le-careme-by-crowned-heads/hermoso-no.-1/LCAH.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/crowned-heads-mil-dias-des-deux-le-2025-box-12.html","price":null}],
   },
   {
     id: "crowned-heads-mil-dias-sublime",
@@ -19393,6 +19351,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 11.5,
     rating: 93,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw4d529efb/images/JR%20Cigars%202/CHMDSU2_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Toasted Bread","Almonds","Cedar","Light Pepper","Cream"],
     size: "Sublime",
     length: 6,
@@ -19402,7 +19361,6 @@ const CIGARS = [
     pairings: ["Coffee","Light Rum","Pale Ale"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/mil-dias-maduro-sublime-cigars-maduro-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/crowned-heads-mil-dias/2035934/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/crowned-heads-mil-dias","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/crowned-heads-mil-dias/sublime/CHMDSU2.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/crowned-heads-mil-dias-des-deux-le-2025-box-12.html","price":null}],
   },
   {
     id: "crowned-heads-mil-dias-toro",
@@ -19417,6 +19375,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 10.75,
     rating: 93,
+    image: "http://images.neptunecigar.com/avimg/42381.jpg",
     flavors: ["Toasted Bread","Almonds","Cream","Cedar","Pepper"],
     size: "Double Robusto",
     length: 6.4,
@@ -19499,7 +19458,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Strong Coffee"],
     yearFounded: 2000,
     limited: true,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/viaje-skull-bones-wolverine-cigars-dark-natural-bundle-of-25","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/viaje-skull-and-bones-tsar-bomba-camo/2058130/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/alec-and-bradley-blind-faith","price":null}],
   },
   {
     id: "viaje-skull-and-bones-ten-ton-tess",
@@ -19523,7 +19481,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso","Dark Rum"],
     yearFounded: 2000,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/viaje-skull-and-bones-tsar-bomba-camo/2058130/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/viaje-skull-bones-wolverine-cigars-dark-natural-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/alec-and-bradley-blind-faith","price":null}],
   },
   {
     id: "dunbarton-sin-compromiso-no5",
@@ -19637,6 +19594,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 8.5,
     rating: 92,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwe270a07a/images/jrcigars/Casa%20Fernandez%20Guardian%20of%20the%20Farm/CGOFA_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cedar","Coffee","Leather","Spice","Earth"],
     size: "Corona",
     length: 6,
@@ -19646,7 +19604,6 @@ const CIGARS = [
     pairings: ["Coffee","Bourbon","Light Rum"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/guardian-of-the-farm-apollo-seleccion-de-warped-cigars-natural-box-of-25","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/guardian-of-the-farm/2010447/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/aganorsa-guardian-of-the-farm","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/guardian-of-the-farm/apollo-seleccion-de-warped/CGOFA.html","price":null}],
   },
   {
     id: "roma-craft-cromagnon-aquitaine-mode5",
@@ -19670,7 +19627,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso","Dark Beer"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cromagnon-aquitaine-mode-5-cigars-natural-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/roma-craft-cromagnon-aquitaine-cigars/1506475/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/roma-craft-cromagnon-aquitaine","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/roma-craft-cromagnon-pa-broadleaf/anthropology-bundle/CROMBAB.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/roma-craft-cromagnon-aquitaine.html","price":null}],
   },
   {
     id: "roma-craft-neanderthal-hn",
@@ -19760,6 +19716,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 8.5,
     rating: 93,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw924b8335/images/jrcigars/Blind%20Man's%20Bluff%20by%20Caldwell%20Cigar%20Co/CABBMT_single_up_1.png?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cedar","Coffee","Leather","Earth","Spice"],
     size: "Toro",
     length: 6,
@@ -19769,7 +19726,6 @@ const CIGARS = [
     pairings: ["Coffee","Bourbon","Light Beer"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/caldwell-blind-mans-bluff-toro-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/caldwell-cigar-co-blind-mans-bluff-connecticut-sweet-tip-cigars/2067053/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/caldwell-blind-mans-bluff-connecticut","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/blind-mans-bluff-by-caldwell-cigar-co./magnum/CABBM.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/caldwell-blind-man-s-bluff.html","price":null}],
   },
   {
     id: "tatuaje-cojonu-2003",
@@ -19784,6 +19740,7 @@ const CIGARS = [
     smokingTime: 70,
     price: 13,
     rating: 93,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwbce00109/images/jrcigars/1522855072118-0.jpeg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Leather","Earth","Coffee","Cedar","Pepper"],
     size: "Toro",
     length: 6.5,
@@ -19793,7 +19750,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Espresso"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/tatuaje-miami-reserva-cojonu-2003-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/tatuaje-cojonu-2015-broadleaf/2067107/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/tatuaje-miami/cojonu-2003/TAJMC3.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/tatuaje-cojonu-2015.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/rocky-patel-vintage-2003-cameroon","price":null}],
   },
   {
     id: "tatuaje-cojonu-2006",
@@ -19817,7 +19773,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Rum","Espresso"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/tatuaje-miami-reserva-cojonu-2009-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/tatuaje-cojonu-2015-broadleaf/2067107/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/tatuaje-cojonu/2021/TAJ21.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/tatuaje-cojonu-2015.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/macanudo-vintage-2006","price":null}],
   },
   {
     id: "tatuaje-cojonu-2012",
@@ -19832,6 +19787,7 @@ const CIGARS = [
     smokingTime: 70,
     price: 12.5,
     rating: 93,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw4d346fc4/images/jrcigars/Single%20Images/TAJN12H/TAJN12H_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Espresso","Earth","Leather","Spice","Dark Chocolate"],
     size: "Box Press Toro",
     length: 6.5,
@@ -19841,7 +19797,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Espresso"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/tatuaje-reserva-nicaragua-cojonu-2012-habano-cigars-natural-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/tatuaje-cojonu-2015-broadleaf/2067107/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/gran-habano-gran-reserva-no-5-2012","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/tatuaje-cojonu/2012-habano/TAJN12H.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/tatuaje-nicaragua-cojonu-2012.html","price":null}],
   },
   {
     id: "tatuaje-wolfman-redux4",
@@ -19889,7 +19844,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso","Red Wine"],
     yearFounded: 2000,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/espinosa-las-6-provincias-cmw-cigars/2054480/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/espinosa-las-6-provincias-limited","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/las-6-provincias-le-cmw-cigars-maduro","price":null}],
   },
   {
     id: "espinosa-las-6-provincias-zdt",
@@ -19913,7 +19867,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso","Dark Beer"],
     yearFounded: 2000,
     limited: true,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/espinosa-las-6-provincias-zdt/2056001/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/espinosa-las-6-provincias-limited","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/las-6-provincias-le-cmw-cigars-maduro","price":null}],
   },
   {
     id: "espinosa-knuckle-sandwich-habano-toro",
@@ -20061,7 +20014,6 @@ const CIGARS = [
     pairings: ["Aged Rum","Bourbon","Espresso"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/joya-de-nicaragua-antano-1970-gran-reserva-belicoso-cigars-dark-natural-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/joya-de-nicaragua-cuatro-cinco-secrect-cask-edicion-limitada-cigars/2066922/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/joya-de-nicaragua-cinco-decadas","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/joya-de-nicaragua-cuatro-cinco-reserva-especial/toro/JNCCT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/joya-de-nicaragua-cinco-decadas.html","price":null}],
   },
   {
     id: "perdomo-20th-anniversary-sun-grown-gordo",
@@ -20210,7 +20162,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Coffee","Stout Beer"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/foundation-charter-oak-pegnataro/2058557/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/foundation-charter-oak-connecticut","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/foundation-charter-oak/lonsdale/FCCOL.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/charter-oak-maduro-lonsdale-cigars-maduro-box-of-20","price":null}],
   },
   {
     id: "foundation-charter-oak-shade-toro",
@@ -20225,6 +20176,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 6,
     rating: 93,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwe94eb4d1/images/jrcigars/foundation%20charter%20oak/FCCOT_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cream","Cedar","Almonds","Light Pepper","Roasted Nuts"],
     size: "Toro",
     length: 6,
@@ -20274,6 +20226,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 9.5,
     rating: 92,
+    image: "http://images.neptunecigar.com/avimg/42464.jpg",
     flavors: ["Wood","Earth","Cocoa","Sweet Spice","Pepper"],
     size: "Corona Gorda",
     length: 5.6,
@@ -20298,6 +20251,7 @@ const CIGARS = [
     smokingTime: 75,
     price: 11,
     rating: 92,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwc6c483f2/images/Images%20for%20JR%20Master%20List/JR%20Master%20List%203/HVCHCGC_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Wood","Earth","Cocoa","Sweet Spice","Coffee"],
     size: "Gordo",
     length: 6,
@@ -20307,7 +20261,6 @@ const CIGARS = [
     pairings: ["Dark Beer","Bourbon","Coffee"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/hvc-hot-cake-golden-line-connecticut-gran-canon-cigars-natural-box-of-25","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/hvc-hot-cake-golden-line/2064045/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/hvc-hot-cake","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/hvc-hot-cake/gran-canon-maduro/HVCHCGC.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/hvc-hot-cake-maduro.html","price":null}],
   },
   {
     id: "la-flor-dominicana-litto-gomez-diez-toro",
@@ -20381,7 +20334,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Aged Rum","Strong Coffee"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-privada-t52-corona-doble-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/drew-estate-liga-privada-t52-cigars/1411551/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/liga-privada-t52","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/liga-privada-t52/corona-doble/LPT52CD.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/liga-privada-t52-corona-doble-5pk.html","price":null}],
   },
   {
     id: "padron-1926-no35-maduro",
@@ -20470,6 +20422,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 12,
     rating: 94,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwa3da22cc/images/Images%20for%20JR%20Master%20List/JR%20Master%20List%202/EPENC20_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cedar","Cream","Coffee","Almonds","Pepper"],
     size: "Toro",
     length: 6,
@@ -20479,7 +20432,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Light Ale"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/ep-carrillo-encore-black/2058696/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/ep-carrillo-encore","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/encore-by-e.p.-carrillo/celestial/EPENC20.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/encore-by-ep-carrillo-celestial-cigars-natural-box-of-20","price":null}],
   },
   {
     id: "warped-flor-del-valle-sky-flower",
@@ -20594,6 +20546,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 10,
     rating: 92,
+    image: "http://images.neptunecigar.com/avimg/32027.jpg",
     flavors: ["Leather","Pepper","Coffee","Earth","Cedar"],
     size: "Toro",
     length: 6,
@@ -20702,7 +20655,6 @@ const CIGARS = [
     pairings: ["Aged Rum","Single Malt Scotch","Espresso"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/joya-de-nicaragua-cuatro-cinco-secrect-cask-edicion-limitada-cigars/2066922/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/joya-de-nicaragua-cinco-decadas","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/joya-de-nicaragua-cuatro-cinco-reserva-especial/toro/JNCCT.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/joya-de-nicaragua-cinco-de-cinco-corona-extra-cigars-natural","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/joya-de-nicaragua-cinco-decadas.html","price":null}],
   },
   {
     id: "la-flor-dominicana-andalusian-bull-toro",
@@ -20951,7 +20903,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso","Dark Beer"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-privada-no-9-belicoso-5-pack-cigars-maduro-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/drew-estate-liga-privada-h99-cigars/2053360/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/liga-privada-aniversario","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/liga-privada-no.-9/belicoso/LP9BE.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/liga-privada-no-9-ks-lp9.html","price":null}],
   },
   {
     id: "dunbarton-sobremesa-toro",
@@ -21125,7 +21076,6 @@ const CIGARS = [
     pairings: ["Coffee","Bourbon","Light Rum"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/casa-de-garcia-centenario-gold-label-toro-cigars-natural-bundle-of-25","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/don-kiki-brown-label","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/601-red-label-habano/toro/ERLT.html","price":null}],
   },
   {
     id: "undercrown-shade-toro",
@@ -21173,7 +21123,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Craft Beer"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-undercrown-maduro-toro-tubo-cigars-maduro-upright-of-25","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/drew-estate-undercrown-sun-grown-cigars/2005045/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/liga-undercrown-sun-grown-dojo-dogma","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/alec-bradley-american-sun-grown/toro/ABAST.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/liga-undercrown-shade-gran-toro-box-10-kb-lpc6052-10-qa1.html","price":null}],
   },
   {
     id: "aganorsa-leaf-signature-selection-toro",
@@ -21469,7 +21418,6 @@ const CIGARS = [
     pairings: ["Cognac","Espresso","Dark Rum"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-privada-unico-serie-ratzilla-cigars-maduro-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/drew-estate-liga-privada-unico-serie-feral-flying-pig/2066418/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/liga-privada-unico-serie/ratzilla/LPURAZ.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/liga-privada-aniversario","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/liga-privada-unico-serie-ratzilla.html","price":null}],
   },
   {
     id: "liga-privada-unico-papas-fritas",
@@ -21708,6 +21656,7 @@ const CIGARS = [
     smokingTime: 70,
     price: 11,
     rating: 92,
+    image: "http://images.neptunecigar.com/avimg/36254.jpg",
     flavors: ["Cedar","Earth","Leather","Coffee","Pepper"],
     size: "Toro",
     length: 6,
@@ -21791,7 +21740,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Stout","Espresso"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/excalibur-black-hoyo-de-monterrey-cigars/2039986/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/hoyo-de-monterrey-the-illusione-of-excalibur","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/excalibur-black/toro/EXBT.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/hoyo-de-monterrey-epicure-seleccion-toro-especial-cigars-natural-box-of-20","price":null}],
   },
   {
     id: "punch-diablo-diabolus",
@@ -21806,6 +21754,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 7.79,
     rating: 89,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw1dcbf261/images/jrcigars/1530118233374-0.jpeg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Dark Chocolate","Earth","Leather","Coffee","Pepper"],
     size: "Robusto Gordo",
     length: 5.25,
@@ -21815,7 +21764,6 @@ const CIGARS = [
     pairings: ["Bourbon","Porter","Espresso"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/punch-diablo-cigars/2014841/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/punch-diablo","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/punch-diablo/diabolus/PUDDI.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/punch-diablo-diabolus-cigars-oscuro-box-of-25","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/punch-diablo-by-aj-fernandez.html","price":null}],
   },
   {
     id: "punch-champion-robusto",
@@ -22203,6 +22151,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 5.95,
     rating: 90,
+    image: "http://images.neptunecigar.com/avimg/41472.jpg",
     flavors: ["Earth","Leather","Cedar","Espresso","Dark Chocolate"],
     size: "Toro",
     length: 6,
@@ -22557,7 +22506,6 @@ const CIGARS = [
     pairings: ["Rum","Coffee","Beer"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-gloria-cubana-serie-r-black-maduro-no-54-5-pack-cigars-maduro-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/la-gloria-cubana-serie-r-cigars/1411516/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-gloria-cubana-serie-r","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/la-gloria-cubana-medio-tiempo/toro/LGMTT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/la-gloria-cubana-serie-r-maduro.html","price":null}],
   },
   {
     id: "brick-house-double-connecticut-toro",
@@ -22597,6 +22545,7 @@ const CIGARS = [
     smokingTime: 45,
     price: 6.5,
     rating: 89,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw5665b297/images/jrcigars/Brick%20House/BHCL_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cedar","Coffee","Earth","Nuts","Light Spice"],
     size: "Corona",
     length: 5.5,
@@ -22845,6 +22794,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 11,
     rating: 93,
+    image: "http://images.neptunecigar.com/avimg/40301.jpg",
     flavors: ["Leather","Earth","Cedar","Espresso","Dark Chocolate"],
     size: "Toro",
     length: 6,
@@ -22994,6 +22944,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 10,
     rating: 92,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwa3da22cc/images/Images%20for%20JR%20Master%20List/JR%20Master%20List%202/EPENC20_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cedar","Earth","Coffee","Leather","Spice"],
     size: "Toro",
     length: 6,
@@ -23003,7 +22954,6 @@ const CIGARS = [
     pairings: ["Cognac","Bourbon","Espresso"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/e-p-carrillo-endure-toro-cigars-dark-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/ep-carrillo-encore-black/2058696/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/ep-carrillo-encore","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/encore-by-e.p.-carrillo/celestial/EPENC20.html","price":null}],
   },
   {
     id: "ep-carrillo-pledge-prequel-toro",
@@ -23018,6 +22968,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 10.5,
     rating: 94,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw8e22dc32/images/Images%20for%20JR%20Master%20List/JR%20Master%20List%202/EPPLP20_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cedar","Leather","Earth","Dark Chocolate","Espresso"],
     size: "Toro",
     length: 6,
@@ -23051,7 +23002,6 @@ const CIGARS = [
     pairings: ["Cognac","Aged Rum","Black Coffee"],
     yearFounded: 2000,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "southern-draw-jacobs-ladder-toro",
@@ -23075,7 +23025,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso","Dark Beer"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/southern-draw-jacobs-ladder-brimstone-perfecto-cigars-maduro-box-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/southern-draw-evening-primrose/2069497/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/southern-draw-300-hands-habano","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/southern-draw-firethorn/gordo/SDFG.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/southern-draw-by-aj-fernandez-jacobs-ladder-brimstone-lonsdale-5pk.html","price":null}],
   },
   {
     id: "southern-draw-firethorn-toro",
@@ -23340,6 +23289,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 11,
     rating: 93,
+    image: "http://images.neptunecigar.com/avimg/39718.jpg",
     flavors: ["Dark Chocolate","Earth","Leather","Coffee","Spice"],
     size: "Toro",
     length: 6,
@@ -23364,6 +23314,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 10,
     rating: 92,
+    image: "http://images.neptunecigar.com/avimg/39029.jpg",
     flavors: ["Cream","Cedar","Vanilla","Nuts","White Pepper"],
     size: "Toro",
     length: 6,
@@ -23437,6 +23388,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 11,
     rating: 93,
+    image: "http://images.neptunecigar.com/avimg/39323.jpg",
     flavors: ["Leather","Cedar","Earth","Pepper","Dark Chocolate"],
     size: "Toro",
     length: 6,
@@ -23545,7 +23497,6 @@ const CIGARS = [
     pairings: ["Rum","Coffee","Craft Beer"],
     yearFounded: 2000,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-coronado-corona-especial-cigars-dark-natural-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/la-flor-dominicana-coronado-cigars/1513537/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-flor-dominicana-1994","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/deadwood-dominicana/toro/DWDT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/la-flor-dominicana-coronado.html","price":null}],
   },
   {
     id: "lfd-air-bender-toro",
@@ -23635,6 +23586,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 8,
     rating: 89,
+    image: "http://images.neptunecigar.com/avimg/37410.jpg",
     flavors: ["Cream","Cedar","Nuts","Light Spice","Honey"],
     size: "Toro",
     length: 6,
@@ -23855,6 +23807,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 10,
     rating: 93,
+    image: "http://images.neptunecigar.com/avimg/41233.jpg",
     flavors: ["Cream","Cedar","Coffee","Vanilla","Earth"],
     size: "Robusto",
     length: 5,
@@ -24151,6 +24104,7 @@ const CIGARS = [
     smokingTime: 75,
     price: 16,
     rating: 94,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw33114533/images/jrcigars/Single_Images_2/AGQNCM/Aging%20Room%20Quattro%20Concerto%20Maestro%2010%20ct_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cedar","Espresso","Dark Fruit","Earth","Cinnamon"],
     size: "Churchill",
     length: 7,
@@ -24160,7 +24114,6 @@ const CIGARS = [
     pairings: ["Single Malt Whisky","Black Coffee","Dried Apricot"],
     yearFounded: 2011,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/aging-room-quattro-nicaragua-maestro-5pk-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/aging-room-quattro-nicaragua-cigars/2049319/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/aging-room-quattro-nicaragua","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/aging-room-quattro-nicaragua-by-rafael-nodal/concerto-maestro/AGQNCM.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/aging-room-quattro-nicaragua-by-rafael-nodal.html","price":null}],
   },
   {
     id: "aging-room-bin-no-1-corona",
@@ -24300,6 +24253,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 9.5,
     rating: 92,
+    image: "http://images.neptunecigar.com/avimg/39911.jpg",
     flavors: ["Cream","Almond","Cedar","Toast","White Pepper"],
     size: "Robusto",
     length: 5,
@@ -24479,7 +24433,6 @@ const CIGARS = [
     pairings: ["Espresso","Bourbon Neat","Dark Chocolate Square"],
     yearFounded: 2006,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/liga-privada-no9-coronets-tin-of-10-cigars-maduro-tin-of-10","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/drew-estate-liga-privada-h99-cigars/2053360/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/liga-privada-aniversario","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/liga-privada-no.-9/belicoso/LP9BE.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/liga-privada-no-9-ks-lp9.html","price":null}],
   },
   {
     id: "drew-estate-herrera-esteli-miami-robusto",
@@ -24594,6 +24547,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 10,
     rating: 92,
+    image: "http://images.neptunecigar.com/avimg/42464.jpg",
     flavors: ["Cream","Baking Spice","Vanilla","Cedar","Nuts"],
     size: "Robusto",
     length: 5,
@@ -24768,6 +24722,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 28,
     rating: 94,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/cohibacoronaespecialessingle.webp",
     flavors: ["Floral","Cream","Cedar","Honey","Subtle Spice"],
     size: "Panetela",
     length: 6,
@@ -24842,6 +24797,7 @@ const CIGARS = [
     smokingTime: 25,
     price: 16,
     rating: 91,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/cohiba55aniversariosingle.webp",
     flavors: ["Cream","Cedar","Floral","Honey"],
     size: "Minuto",
     length: 4.09,
@@ -24950,7 +24906,6 @@ const CIGARS = [
     pairings: ["XO Cognac","Single Malt Scotch","Dark Aged Rum"],
     yearFounded: 1966,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/cohiba-55-aniversario-cigar-2021-limited-edition-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/cohiba-robustos-cigar-single-p-428.html","price":null}],
   },
   {
     id: "cohiba-club",
@@ -24974,7 +24929,6 @@ const CIGARS = [
     pairings: ["Espresso","Light Beer","Mint Tea"],
     yearFounded: 1966,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/cohiba-55-aniversario-cigar-2021-limited-edition-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/cohiba-club-cigarillos-single-p-54623.html","price":null}],
   },
   {
     id: "cohiba-robustos-supremos",
@@ -25023,7 +24977,6 @@ const CIGARS = [
     pairings: ["Aged Rum","Cognac","Espresso"],
     yearFounded: 1966,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/cohiba-coronas-especiales-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/cohiba-coronas-especiales-cigar-single-p-65.html","price":null}],
   },
   {
     id: "cohiba-anejados",
@@ -25047,7 +25000,6 @@ const CIGARS = [
     pairings: ["Tawny Port","Cognac","Aged Rum"],
     yearFounded: 1966,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/cohiba-55-aniversario-cigar-2021-limited-edition-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/cohiba-robustos-cigar-single-p-428.html","price":null}],
   },
   {
     id: "cohiba-gran-reserva",
@@ -25071,7 +25023,6 @@ const CIGARS = [
     pairings: ["Cognac","Aged Bourbon","Tawny Port"],
     yearFounded: 1966,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/cohiba-robusto-reserva-reserva-cosecha-2014-cigar-single-p-33361.html","price":null}],
   },
   {
     id: "partagas-serie-d-no1",
@@ -25095,7 +25046,6 @@ const CIGARS = [
     pairings: ["Dark Rum","Espresso","Aged Bourbon"],
     yearFounded: 1845,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-aliados-casa-del-habanos-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/partagas-serie-cigar-single-p-528.html","price":null}],
   },
   {
     id: "partagas-serie-d-no2",
@@ -25119,7 +25069,6 @@ const CIGARS = [
     pairings: ["Armagnac","Espresso","Dark Rum"],
     yearFounded: 1845,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-aliados-casa-del-habanos-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/partagas-serie-cigar-single-p-528.html","price":null}],
   },
   {
     id: "partagas-serie-d-no5",
@@ -25143,7 +25092,6 @@ const CIGARS = [
     pairings: ["Espresso","Dark Rum","Mezcal"],
     yearFounded: 1845,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-aliados-casa-del-habanos-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/partagas-serie-cigar-single-p-528.html","price":null}],
   },
   {
     id: "partagas-serie-e-no2",
@@ -25167,7 +25115,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Armagnac","Strong Espresso"],
     yearFounded: 1845,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-aliados-casa-del-habanos-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/partagas-serie-cigar-single-p-528.html","price":null}],
   },
   {
     id: "partagas-aristocratas",
@@ -25191,7 +25138,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Rum","Espresso"],
     yearFounded: 1845,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-aliados-casa-del-habanos-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/partagas-aristocrats-vintage-2019-cigar-single-p-42359.html","price":null}],
   },
   {
     id: "partagas-presidente",
@@ -25240,7 +25186,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso","Dark Beer"],
     yearFounded: 1845,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-linea-maestra-gift-box-3-cigars/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/partagas-coronas-gordas-anejados-cigar-single-p-18899.html","price":null}],
   },
   {
     id: "partagas-salomones",
@@ -25264,7 +25209,6 @@ const CIGARS = [
     pairings: ["Armagnac","Single Malt Scotch","Dark Rum"],
     yearFounded: 1845,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-aliados-casa-del-habanos-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/lcdh-partagas-salomones-cigar-single-p-15614.html","price":null}],
   },
   {
     id: "partagas-coronas-junior",
@@ -25288,7 +25232,6 @@ const CIGARS = [
     pairings: ["Espresso","Light Beer","Dark Rum"],
     yearFounded: 1845,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/h-upmann-coronas-junior-tubos-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/partagas-coronas-gordas-anejados-cigar-single-p-18899.html","price":null}],
   },
   {
     id: "partagas-charlotte",
@@ -25312,7 +25255,6 @@ const CIGARS = [
     pairings: ["Coffee","Light Rum","Herbal Tea"],
     yearFounded: 1845,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-aliados-casa-del-habanos-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/partagas-aristocrats-vintage-2019-cigar-single-p-42359.html","price":null}],
   },
   {
     id: "partagas-super-partagas",
@@ -25336,7 +25278,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Rum","Strong Coffee"],
     yearFounded: 1845,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-aliados-casa-del-habanos-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/partagas-aristocrats-vintage-2019-cigar-single-p-42359.html","price":null}],
   },
   {
     id: "partagas-churchills",
@@ -25351,6 +25292,7 @@ const CIGARS = [
     smokingTime: 85,
     price: 26,
     rating: 94,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/01/partagasaliadossingle.webp",
     flavors: ["Leather","Dark Chocolate","Earth","Cedar","Coffee","Pepper"],
     size: "Churchill",
     length: 7.09,
@@ -25384,7 +25326,6 @@ const CIGARS = [
     pairings: ["Coffee","Bourbon","Dark Rum"],
     yearFounded: 1845,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-aliados-casa-del-habanos-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/partagas-habaneros-vintage-1970s-single-cigar-p-34143.html","price":null}],
   },
   {
     id: "partagas-serie-p-no1",
@@ -25408,7 +25349,6 @@ const CIGARS = [
     pairings: ["Armagnac","Mezcal","Espresso"],
     yearFounded: 1845,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-aliados-casa-del-habanos-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/partagas-serie-cigar-single-p-528.html","price":null}],
   },
   {
     id: "partagas-linea-maestros-churchill",
@@ -25457,7 +25397,6 @@ const CIGARS = [
     pairings: ["Rum","Coffee","Craft Beer"],
     yearFounded: 1845,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-aliados-casa-del-habanos-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/partagas-aristocrats-vintage-2019-cigar-single-p-42359.html","price":null}],
   },
   {
     id: "partagas-ramon-allones-8",
@@ -25481,7 +25420,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Rum","Espresso"],
     yearFounded: 1845,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/partagas-linea-maestra-gift-box-3-cigars/","price":null}],
   },
   {
     id: "bolivar-coronas-gigantes",
@@ -25505,7 +25443,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Dark Rum","Strong Espresso"],
     yearFounded: 1902,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/bolivar-coronas-j-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/bolivar-petit-coronas-cigar-single-p-415.html","price":null}],
   },
   {
     id: "bolivar-palmas-extra",
@@ -25577,7 +25514,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Aged Rum","Espresso"],
     yearFounded: 1902,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/bolivar-royal-corona-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/bolivar-petit-coronas-cigar-single-p-415.html","price":null}],
   },
   {
     id: "bolivar-tubos-no3",
@@ -25617,6 +25553,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 17,
     rating: 91,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/bolivarcoronaj.webp",
     flavors: ["Leather","Earth","Coffee","Pepper","Cedar","Dark Chocolate"],
     size: "Corona Extra",
     length: 5.59,
@@ -25700,7 +25637,6 @@ const CIGARS = [
     pairings: ["Espresso","Sparkling Wine","Rum"],
     yearFounded: 1902,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/bolivar-royal-corona-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/bolivar-petit-coronas-cigar-single-p-415.html","price":null}],
   },
   {
     id: "bolivar-short-churchills",
@@ -25739,6 +25675,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 16,
     rating: 90,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/bolivarcoronaj.webp",
     flavors: ["Earth","Leather","Cedar","Coffee","Pepper"],
     size: "Corona",
     length: 5.51,
@@ -25772,7 +25709,6 @@ const CIGARS = [
     pairings: ["Armagnac","Dark Rum","Espresso"],
     yearFounded: 1902,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/bolivar-royal-corona-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/bolivar-royal-coronas-orchant-seleccion-2016-cigar-single-p-19290.html","price":null}],
   },
   {
     id: "bolivar-poderosos",
@@ -25796,7 +25732,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Dark Rum","Strong Espresso"],
     yearFounded: 1902,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/bolivar-royal-corona-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/bolivar-petit-coronas-cigar-single-p-415.html","price":null}],
   },
   {
     id: "bolivar-gold-medal-reserva",
@@ -25820,7 +25755,6 @@ const CIGARS = [
     pairings: ["Cognac","Tawny Port","Dark Rum"],
     yearFounded: 1902,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/bolivar-gold-medal-box-10s-p-4354.html","price":null}],
   },
   {
     id: "bolivar-inmensas-er",
@@ -25844,7 +25778,6 @@ const CIGARS = [
     pairings: ["Armagnac","Single Malt Scotch","Dark Rum"],
     yearFounded: 1902,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "h-upmann-petit-corona",
@@ -25893,7 +25826,6 @@ const CIGARS = [
     pairings: ["Fino Sherry","Light Rum","Chamomile Tea"],
     yearFounded: 1844,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/h-upmann-connoisseur-a-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/lcdh-upmann-connoisseur-cigar-single-p-28116.html","price":null}],
   },
   {
     id: "h-upmann-lonsdale",
@@ -25908,6 +25840,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 20,
     rating: 91,
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2025/02/hupmannconasingle.webp",
     flavors: ["Cedar","Cream","Nuts","Dried Fruit","Hay"],
     size: "Lonsdale",
     length: 6.5,
@@ -25966,7 +25899,6 @@ const CIGARS = [
     pairings: ["Bourbon","Cream Sherry","Milk Coffee"],
     yearFounded: 1844,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/cohiba-robusto-supremos-cigar-limited-edition-2014-single-p-15456.html","price":null}],
   },
   {
     id: "h-upmann-coronas",
@@ -26014,7 +25946,6 @@ const CIGARS = [
     pairings: ["Amontillado Sherry","Light Scotch","Cafe con Leche"],
     yearFounded: 1844,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/h-upmann-connoisseur-a-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/upmann-magnum-cigar-single-p-464.html","price":null}],
   },
   {
     id: "h-upmann-short-corona",
@@ -26112,7 +26043,6 @@ const CIGARS = [
     pairings: ["Milk Coffee","Cream Sherry","Light Bourbon"],
     yearFounded: 1844,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/h-upmann-connoisseur-a-cigar-single/","price":null}],
   },
   {
     id: "h-upmann-robusto-anejado",
@@ -26136,7 +26066,6 @@ const CIGARS = [
     pairings: ["Aged Rum","VSOP Cognac","Dark Espresso"],
     yearFounded: 1844,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "h-upmann-connoisseur-no-1-el",
@@ -26160,7 +26089,6 @@ const CIGARS = [
     pairings: ["Aged Rum","Fino Sherry","Champagne"],
     yearFounded: 1844,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/h-upmann-connoisseur-a-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/lcdh-upmann-connoisseur-cigar-single-p-28116.html","price":null}],
   },
   {
     id: "h-upmann-petit-upmanns",
@@ -26184,7 +26112,6 @@ const CIGARS = [
     pairings: ["Espresso","Mild Tea","Light White Wine"],
     yearFounded: 1844,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-petit-churchill-cigar-pack-3-tubos/","price":null}],
   },
   {
     id: "h-upmann-regios",
@@ -26208,7 +26135,6 @@ const CIGARS = [
     pairings: ["Espresso","Light Rum","Cream Sherry"],
     yearFounded: 1844,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/h-upmann-connoisseur-a-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/upmann-magnum-cigar-single-p-464.html","price":null}],
   },
   {
     id: "h-upmann-skinny-dude",
@@ -26232,7 +26158,6 @@ const CIGARS = [
     pairings: ["Dry White Wine","Fino Sherry","Light Green Tea"],
     yearFounded: 1844,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/h-upmann-connoisseur-a-cigar-single/","price":null}],
   },
   {
     id: "romeo-y-julieta-no-1",
@@ -26304,7 +26229,6 @@ const CIGARS = [
     pairings: ["Cream Sherry","Light Rum","Mild Coffee"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-churchill-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/romeo-julieta-cedros-luxe-cigar-single-p-4064.html","price":null}],
   },
   {
     id: "romeo-y-julieta-cedros-de-luxe-no-1",
@@ -26328,7 +26252,6 @@ const CIGARS = [
     pairings: ["Dry White Wine","Fino Sherry","Champagne"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-churchill-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/romeo-julieta-cedros-luxe-cigar-single-p-4064.html","price":null}],
   },
   {
     id: "romeo-y-julieta-cedros-de-luxe-no-2",
@@ -26352,7 +26275,6 @@ const CIGARS = [
     pairings: ["White Wine","Cream Sherry","Afternoon Tea"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-churchill-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/romeo-julieta-cedros-luxe-cigar-single-p-4064.html","price":null}],
   },
   {
     id: "romeo-y-julieta-cedros-de-luxe-no-3",
@@ -26376,7 +26298,6 @@ const CIGARS = [
     pairings: ["Espresso","Fino Sherry","Light Tea"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-churchill-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/romeo-julieta-cedros-luxe-cigar-single-p-4064.html","price":null}],
   },
   {
     id: "romeo-y-julieta-exhibicion-no-4",
@@ -26400,7 +26321,6 @@ const CIGARS = [
     pairings: ["Pale Ale","Dry Sherry","White Wine"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-churchill-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/romeo-julieta-cedros-luxe-cigar-single-p-4064.html","price":null}],
   },
   {
     id: "romeo-y-julieta-exhibicion-no-3",
@@ -26424,7 +26344,6 @@ const CIGARS = [
     pairings: ["Rosé Wine","Mild Coffee","Cream Sherry"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-churchill-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/romeo-julieta-cedros-luxe-cigar-single-p-4064.html","price":null}],
   },
   {
     id: "romeo-y-julieta-belvederes",
@@ -26448,7 +26367,6 @@ const CIGARS = [
     pairings: ["Earl Grey Tea","Fino Sherry","Light White Wine"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-churchill-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/romeo-julieta-belvederes-cigar-single-p-42366.html","price":null}],
   },
   {
     id: "romeo-y-julieta-club-kings",
@@ -26472,7 +26390,6 @@ const CIGARS = [
     pairings: ["Dry White Wine","Mild Coffee","Cream Sherry"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-churchill-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/romeo-julieta-cedros-luxe-cigar-single-p-4064.html","price":null}],
   },
   {
     id: "romeo-y-julieta-coronitas",
@@ -26496,7 +26413,6 @@ const CIGARS = [
     pairings: ["Espresso","Mild Tea","Light White Wine"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-churchill-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/romeo-julieta-cedros-luxe-cigar-single-p-4064.html","price":null}],
   },
   {
     id: "romeo-y-julieta-petit-julietas",
@@ -26545,7 +26461,6 @@ const CIGARS = [
     pairings: ["Aged Rum","VSOP Cognac","Single Malt Scotch"],
     yearFounded: 1875,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-churchill-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/romeo-julieta-churchills-untubed-cigar-single-p-4066.html","price":null}],
   },
   {
     id: "romeo-y-julieta-linea-de-oro-no-1",
@@ -26594,7 +26509,6 @@ const CIGARS = [
     pairings: ["Café con Leche","Mint Tea","Champagne"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-churchill-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/romeo-julieta-cedros-luxe-cigar-single-p-4064.html","price":null}],
   },
   {
     id: "romeo-y-julieta-romeos-extras",
@@ -26618,7 +26532,6 @@ const CIGARS = [
     pairings: ["White Wine","Cream Sherry","Mild Coffee"],
     yearFounded: 1875,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-churchill-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/romeo-julieta-cedros-luxe-cigar-single-p-4064.html","price":null}],
   },
   {
     id: "romeo-y-julieta-no-2",
@@ -26690,7 +26603,6 @@ const CIGARS = [
     pairings: ["Espresso","Light Tea","Café con Leche"],
     yearFounded: 1935,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/montecristo-no-2-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/montecristo-especial-cigar-single-p-502.html","price":null}],
   },
   {
     id: "montecristo-tubos-no-1",
@@ -26780,6 +26692,7 @@ const CIGARS = [
     smokingTime: 90,
     price: 65,
     rating: 97,
+    image: "https://www.havanahouse.co.uk/wp-content/uploads/2025/02/montecristolineleyenda.webp",
     flavors: ["Dark Chocolate","Earth","Leather","Coffee","Dark Fruit","Cedar","Spice"],
     size: "Figurado",
     length: 7,
@@ -26804,6 +26717,7 @@ const CIGARS = [
     smokingTime: 70,
     price: 55,
     rating: 96,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/montecristolinedumas.webp",
     flavors: ["Dark Chocolate","Coffee","Earth","Cedar","Leather","Dark Fruit"],
     size: "Toro",
     length: 6,
@@ -26837,7 +26751,6 @@ const CIGARS = [
     pairings: ["Aged Rum","Single Malt Scotch","Dark Espresso"],
     yearFounded: 2014,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/montecristo-linea-1935-dumas-cigar-single/","price":null}],
   },
   {
     id: "montecristo-puritos",
@@ -26861,7 +26774,6 @@ const CIGARS = [
     pairings: ["Espresso","Mint Tea","Café con Leche"],
     yearFounded: 1935,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/montecristo-no-2-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/montecristo-especial-cigar-single-p-502.html","price":null}],
   },
   {
     id: "montecristo-especial-no-1",
@@ -26909,7 +26821,6 @@ const CIGARS = [
     pairings: ["Espresso","Light Rum","Mild Coffee"],
     yearFounded: 1935,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/montecristo-no-2-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/montecristo-especial-cigar-single-p-502.html","price":null}],
   },
   {
     id: "montecristo-coronas-junior",
@@ -26933,7 +26844,6 @@ const CIGARS = [
     pairings: ["Mild Coffee","Light Rum","Cream Sherry"],
     yearFounded: 1935,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/montecristo-open-junior-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/montecristo-open-junior-cigars-outside-p-6742.html","price":null}],
   },
   {
     id: "montecristo-shorts",
@@ -26957,7 +26867,6 @@ const CIGARS = [
     pairings: ["Espresso","Bourbon","Dark Beer"],
     yearFounded: 1935,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/montecristo-no-2-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/montecristo-especial-cigar-single-p-502.html","price":null}],
   },
   {
     id: "montecristo-edmundo-el",
@@ -26981,7 +26890,6 @@ const CIGARS = [
     pairings: ["VSOP Cognac","Gran Reserva Rum","Dark Espresso"],
     yearFounded: 1935,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/montecristo-double-edmundo-cigar-pack-3/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/montecristo-edmundo-cigar-single-p-501.html","price":null}],
   },
   {
     id: "montecristo-open-no-3",
@@ -27005,7 +26913,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Espresso","Aged Rum"],
     yearFounded: 1935,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/montecristo-no-2-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/montecristo-open-cigar-single-p-6744.html","price":null}],
   },
   {
     id: "montecristo-open-no-4",
@@ -27029,7 +26936,6 @@ const CIGARS = [
     pairings: ["Espresso","Dark Beer","Bourbon"],
     yearFounded: 1935,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/montecristo-no-2-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/montecristo-open-cigar-single-p-6744.html","price":null}],
   },
   {
     id: "montecristo-linea-1935-angeles",
@@ -27053,7 +26959,6 @@ const CIGARS = [
     pairings: ["XO Cognac","Gran Reserva Rum","Vintage Port"],
     yearFounded: 2014,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/montecristo-linea-1935-dumas-cigar-single/","price":null}],
   },
   {
     id: "trinidad-coloniales",
@@ -27175,7 +27080,6 @@ const CIGARS = [
     pairings: ["Dry White Wine","Light Rum","Green Tea"],
     yearFounded: 1865,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/hoyo-monterrey-epicure-cigar-single-p-475.html","price":null}],
   },
   {
     id: "hoyo-de-monterrey-palmas-extra",
@@ -27199,7 +27103,6 @@ const CIGARS = [
     pairings: ["Sparkling Water","Sauvignon Blanc","Jasmine Tea"],
     yearFounded: 1865,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "hoyo-de-monterrey-no4",
@@ -27247,7 +27150,6 @@ const CIGARS = [
     pairings: ["Aged Rum","Rosé Wine","Oolong Tea"],
     yearFounded: 1865,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/hoyo-des-dieux-cigar-single-p-480.html","price":null}],
   },
   {
     id: "fonseca-kdt-cadetes",
@@ -27271,7 +27173,6 @@ const CIGARS = [
     pairings: ["Earl Grey Tea","Light Lager","Lemonade"],
     yearFounded: 1892,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/fonseca-kdt-cadetes-cigar-box-p-115.html","price":null}],
   },
   {
     id: "fonseca-delicias",
@@ -27295,7 +27196,6 @@ const CIGARS = [
     pairings: ["Champagne","Green Tea","Light White Rum"],
     yearFounded: 1892,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "fonseca-invictos",
@@ -27319,7 +27219,6 @@ const CIGARS = [
     pairings: ["Vanilla Latte","Cava","Herbal Tea"],
     yearFounded: 1892,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "san-cristobal-el-castillo",
@@ -27343,7 +27242,6 @@ const CIGARS = [
     pairings: ["Café Cubano","Dark Rum","Aged Bourbon"],
     yearFounded: 1999,
     limited: false,
-    buyLinks: [{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/san-cristobal-fuerza-cigar-single-p-4053.html","price":null},{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "san-cristobal-la-punta",
@@ -27367,7 +27265,6 @@ const CIGARS = [
     pairings: ["Añejo Rum","Red Wine","Espresso"],
     yearFounded: 1999,
     limited: false,
-    buyLinks: [{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/san-cristobal-punta-cigar-single-p-328.html","price":null},{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "san-cristobal-quinteto",
@@ -27391,7 +27288,6 @@ const CIGARS = [
     pairings: ["Dark Coffee","Light Whisky","Mineral Water"],
     yearFounded: 1999,
     limited: false,
-    buyLinks: [{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/san-cristobal-fuerza-cigar-single-p-4053.html","price":null},{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "el-rey-del-mundo-grandes-de-espana",
@@ -27415,7 +27311,6 @@ const CIGARS = [
     pairings: ["Dry Sherry","Light Rum","Chamomile Tea"],
     yearFounded: 1882,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/el-rey-del-mundo-choix-supreme-cigarsingle/","price":null}],
   },
   {
     id: "el-rey-del-mundo-coronas-de-luxe",
@@ -27439,7 +27334,6 @@ const CIGARS = [
     pairings: ["Fino Sherry","Prosecco","Green Tea"],
     yearFounded: 1882,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/el-rey-del-mundo-choix-supreme-cigarsingle/","price":null}],
   },
   {
     id: "el-rey-del-mundo-lunch-club",
@@ -27463,7 +27357,6 @@ const CIGARS = [
     pairings: ["Sparkling Water","Light Coffee","White Wine"],
     yearFounded: 1882,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/el-rey-del-mundo-choix-supreme-cigarsingle/","price":null}],
   },
   {
     id: "vegas-robaina-clasicos",
@@ -27487,7 +27380,6 @@ const CIGARS = [
     pairings: ["Añejo Rum","Strong Coffee","Single Malt Scotch"],
     yearFounded: 1997,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/vegas-robaina-clasicos-cigar-single-cigar-end-line-p-282.html","price":null}],
   },
   {
     id: "vegas-robaina-senores",
@@ -27511,7 +27403,6 @@ const CIGARS = [
     pairings: ["Dark Rum","Espresso","Aged Rye Whiskey"],
     yearFounded: 1997,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "cuaba-exclusivos",
@@ -27526,6 +27417,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 22,
     rating: 91,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/cuabaexclusivossingle.webp",
     flavors: ["Cedar","Earth","Spice","Leather"],
     size: "Corona Gorda",
     length: 5.63,
@@ -27559,7 +27451,6 @@ const CIGARS = [
     pairings: ["Coffee","Light Rum","Dry Sherry"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/cuaba-divinos-box-of-25/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/cuaba-salomones-cigar-single-p-440.html","price":null}],
   },
   {
     id: "cuaba-salomones",
@@ -27574,6 +27465,7 @@ const CIGARS = [
     smokingTime: 80,
     price: 35,
     rating: 94,
+    image: "https://cdn.havanahouse.co.uk/wp-content/uploads/2025/02/cuabasalomonessingle.webp",
     flavors: ["Cedar","Earth","Spice","Leather"],
     size: "Double Figurado",
     length: 7,
@@ -27607,7 +27499,6 @@ const CIGARS = [
     pairings: ["Iced Tea","Light Lager","Mint Lemonade"],
     yearFounded: 1997,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "vegueros-especiales-no1",
@@ -27655,7 +27546,6 @@ const CIGARS = [
     pairings: ["Espresso","Light Beer","Chamomile Tea"],
     yearFounded: 1997,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/vegueros-entretiempos-cigar-single-p-19304.html","price":null}],
   },
   {
     id: "juan-lopez-seleccion-suprema",
@@ -27679,7 +27569,6 @@ const CIGARS = [
     pairings: ["Dark Coffee","Aged Rum","Malt Whiskey"],
     yearFounded: 1876,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/juan-lopez-seleccion-suprema-cigar-regional-edition-2009-single-p-7613.html","price":null}],
   },
   {
     id: "juan-lopez-coronas-de-lomo",
@@ -27703,7 +27592,6 @@ const CIGARS = [
     pairings: ["Café Cubano","Light Rum","Sparkling Mineral Water"],
     yearFounded: 1876,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "ramon-allones-club-allones",
@@ -27727,7 +27615,6 @@ const CIGARS = [
     pairings: ["Espresso","Aged Rum","Islay Scotch"],
     yearFounded: 1837,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/romeo-y-julieta-club-kings-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/ramon-allones-club-allones-limited-edition-2015-cigar-single-p-17197.html","price":null}],
   },
   {
     id: "ramon-allones-ramonitas",
@@ -27751,7 +27638,6 @@ const CIGARS = [
     pairings: ["Espresso Shot","Light Beer","Ginger Tea"],
     yearFounded: 1837,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "ramon-allones-phoenixes",
@@ -27775,7 +27661,6 @@ const CIGARS = [
     pairings: ["Dark Rum","Aged Bourbon","Café Cubano"],
     yearFounded: 1837,
     limited: true,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "sancho-panza-coronas",
@@ -27823,7 +27708,6 @@ const CIGARS = [
     pairings: ["Rioja Wine","Coffee","Aged Rum"],
     yearFounded: 1848,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/sancho-panza-molinos-cigar-box-p-333.html","price":null}],
   },
   {
     id: "sancho-panza-bachilleres",
@@ -27847,7 +27731,6 @@ const CIGARS = [
     pairings: ["Espresso","Light Lager","Chamomile Tea"],
     yearFounded: 1848,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "quai-dorsay-no50",
@@ -27895,7 +27778,6 @@ const CIGARS = [
     pairings: ["Champagne","Earl Grey Tea","Lychee Juice"],
     yearFounded: 1973,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/quai-orsay-senadores-limited-edition-2019-cigar-box-p-43035.html","price":null}],
   },
   {
     id: "quai-dorsay-no54",
@@ -27919,7 +27801,6 @@ const CIGARS = [
     pairings: ["Calvados","Crème Brûlée","Blanc de Blancs Champagne"],
     yearFounded: 1973,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/quai-orsay-cigar-single-p-31213.html","price":null}],
   },
   {
     id: "rafael-gonzalez-coronas-extra",
@@ -27943,7 +27824,6 @@ const CIGARS = [
     pairings: ["Dry White Wine","Light Coffee","Hibiscus Tea"],
     yearFounded: 1928,
     limited: false,
-    buyLinks: [{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/rafael-gonzalez-petit-coronas-cigar-single-p-4015.html","price":null},{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "rafael-gonzalez-lonsdale",
@@ -27967,7 +27847,6 @@ const CIGARS = [
     pairings: ["Manzanilla Sherry","Light Beer","Oolong Tea"],
     yearFounded: 1928,
     limited: false,
-    buyLinks: [{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/rafael-gonzalez-perlas-cigar-single-p-12896.html","price":null},{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "rafael-gonzalez-panetela-extras",
@@ -27991,7 +27870,6 @@ const CIGARS = [
     pairings: ["Jasmine Tea","Sparkling Water","Light Rum"],
     yearFounded: 1928,
     limited: false,
-    buyLinks: [{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/rafael-gonzalez-perlas-cigar-single-p-12896.html","price":null},{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "por-larranaga-montecarlos",
@@ -28015,7 +27893,6 @@ const CIGARS = [
     pairings: ["Aged Rum","Café con Leche","Dry Sherry"],
     yearFounded: 1834,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/por-larranaga-picadores-cigar-single-p-15458.html","price":null}],
   },
   {
     id: "por-larranaga-picadores",
@@ -28039,7 +27916,6 @@ const CIGARS = [
     pairings: ["Dark Coffee","Light Bourbon","Mineral Water"],
     yearFounded: 1834,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/por-larranaga-picadores-cigar-single-p-15458.html","price":null}],
   },
   {
     id: "por-larranaga-galanes",
@@ -28063,7 +27939,6 @@ const CIGARS = [
     pairings: ["Red Wine","Aged Rum","Espresso"],
     yearFounded: 1834,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/por-larranaga-galanes-cigar-single-p-47522.html","price":null}],
   },
   {
     id: "diplomaticos-no3",
@@ -28186,7 +28061,6 @@ const CIGARS = [
     pairings: ["White Wine","Green Tea","Sparkling Lemonade"],
     yearFounded: 1884,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null}],
   },
   {
     id: "saint-luis-rey-du-connoisseur",
@@ -28210,7 +28084,6 @@ const CIGARS = [
     pairings: ["Dark Rum","Islay Scotch","Espresso"],
     yearFounded: 1940,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/h-upmann-connoisseur-no-1-cigar-single/","price":null}],
   },
   {
     id: "saint-luis-rey-regios",
@@ -28234,7 +28107,6 @@ const CIGARS = [
     pairings: ["Café Cubano","Aged Rum","Dark Chocolate"],
     yearFounded: 1940,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/saint-luis-rey-regios-cigar-box-p-31289.html","price":null}],
   },
   {
     id: "quintero-no2",
@@ -28307,7 +28179,6 @@ const CIGARS = [
     pairings: ["Black Coffee","Light Beer","Rum"],
     yearFounded: 1900,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/jose-piedra-conservas-cigar-box-p-51493.html","price":null}],
   },
   {
     id: "jose-l-piedra-cazadores",
@@ -28331,7 +28202,6 @@ const CIGARS = [
     pairings: ["Strong Coffee","Dark Rum","Agua Fresca"],
     yearFounded: 1900,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/kristoff-original-criollo-robusto-cigar-single/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/jose-piedra-cazadores-cigar-bundle-p-220.html","price":null}],
   },
   {
     id: "punch-corona",
@@ -28380,7 +28250,6 @@ const CIGARS = [
     pairings: ["Rum and Coke","Americano Coffee","Mineral Water"],
     yearFounded: 1840,
     limited: false,
-    buyLinks: [{"retailer":"Havana House","url":"https://www.havanahouse.co.uk/product/xikar-punch-10mm-cigar-punch-black/","price":null},{"retailer":"C.Gars Ltd","url":"https://www.cgarsltd.co.uk/punch-coronations-tubed-cigar-single-p-4000.html","price":null}],
   },
   {
     id: "carlos-torano-exodus-gold-robusto",
@@ -28451,7 +28320,6 @@ const CIGARS = [
     pairings: ["Café au Lait","Light Rum"],
     yearFounded: 1916,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/carlos-torano-exodus-1959-50-years-robusto-cigars-maduro-single","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/arturo-fuente-don-carlos/robusto/DCR.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/carlos-torano-noventa-cigar/2051468/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/romeo-y-julieta-reserva-real-nicaragua-robusto-10pk.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/casa-fernandez-miami-reserva-corojo","price":null}],
   },
   {
     id: "carlos-torano-exodus-gold-churchill",
@@ -28475,7 +28343,6 @@ const CIGARS = [
     pairings: ["Bourbon","Cognac"],
     yearFounded: 1916,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/carlos-torano-exodus-1959-50-years-robusto-cigars-maduro-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/carlos-torano-exodus-1959/2064381/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/cao-gold/churchill/CGLCH.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/torano-exodus-1959-50-years-salomon-sampler-5.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/1502-black-gold","price":null}],
   },
   {
     id: "carlos-torano-vault-a040",
@@ -28499,7 +28366,6 @@ const CIGARS = [
     pairings: ["Rye Whiskey","Espresso"],
     yearFounded: 1916,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/carlos-torano-exodus-1959-50-years-robusto-cigars-maduro-single","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/arturo-fuente-don-carlos/robusto/DCR.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/carlos-torano-noventa-cigar/2051468/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/torano-vault-tm-027-purple-robusto-10pk.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/arturo-fuente-don-carlos","price":null}],
   },
   {
     id: "carlos-torano-masters-reserve-robusto",
@@ -28523,7 +28389,6 @@ const CIGARS = [
     pairings: ["Café Latte","Light Rum"],
     yearFounded: 1916,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/carlos-torano-exodus-1959-50-years-robusto-cigars-maduro-single","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/arturo-fuente-don-carlos/robusto/DCR.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/carlos-torano-noventa-cigar/2051468/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/perdomo-reserve-champagne-robusto-10pk.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/aganorsa-leaf-rare-leaf-reserve","price":null}],
   },
   {
     id: "carlos-torano-exodus-fifty-years-toro",
@@ -28621,7 +28486,6 @@ const CIGARS = [
     pairings: ["Black Coffee","Dark Rum"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/oliva-cain-550-habano-cigars-natural-single","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/oliva-cain-daytona/double-toro/OCDDT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/cain-by-oliva-straight-ligero-10-cigar-sampler-2-box-5.html","price":null}],
   },
   {
     id: "cain-straight-ligero-660",
@@ -28695,7 +28559,6 @@ const CIGARS = [
     pairings: ["Latte","Irish Whiskey"],
     yearFounded: 2008,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/oliva-cain-550-habano-cigars-natural-single","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/oliva-cain-daytona/double-toro/OCDDT.html","price":null}],
   },
   {
     id: "la-aroma-de-cuba-bendicion-robusto",
@@ -28782,6 +28645,7 @@ const CIGARS = [
     smokingTime: 45,
     price: 11.5,
     rating: 91,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwbd536b6d/images/Images%20for%20JR%20Master%20List/JR%20Master%20List%203/LACMV_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Leather","Dark Chocolate","Coffee","Spice","Cedar"],
     size: "Robusto",
     length: 5,
@@ -28791,7 +28655,6 @@ const CIGARS = [
     pairings: ["Espresso","Añejo Rum"],
     yearFounded: 1999,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-aroma-de-cuba-mi-amor","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/la-aroma-de-cuba-mi-amor-reserva-cigars/2052135/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/la-aroma-de-cuba-mi-amor/valentino/LACMV.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/la-aroma-de-cuba-mi-amor-reserva.html","price":null}],
   },
   {
     id: "la-aroma-de-cuba-edicion-especial-no2",
@@ -28863,7 +28726,6 @@ const CIGARS = [
     pairings: ["Rye Whiskey","Espresso"],
     yearFounded: 1946,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-gloria-cubana-serie-r","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/la-gloria-cubana-serie-r-cigars/1411516/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/la-gloria-cubana-serie-r/no.-4/LGSR4.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/la-gloria-cubana-serie-r-maduro.html","price":null}],
   },
   {
     id: "la-gloria-cubana-charlemagne-maduro",
@@ -29027,6 +28889,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 10.5,
     rating: 90,
+    image: "http://images.neptunecigar.com/avimg/38524.jpg",
     flavors: ["Dark Chocolate","Coffee","Leather","Earth"],
     size: "Torpedo",
     length: 6,
@@ -29075,6 +28938,7 @@ const CIGARS = [
     smokingTime: 75,
     price: 11.5,
     rating: 90,
+    image: "http://images.neptunecigar.com/avimg/40566.jpg",
     flavors: ["Dark Chocolate","Coffee","Leather","Black Pepper","Earth"],
     size: "Gordo",
     length: 6,
@@ -29099,6 +28963,7 @@ const CIGARS = [
     smokingTime: 75,
     price: 11.5,
     rating: 91,
+    image: "http://images.neptunecigar.com/avimg/38524.jpg",
     flavors: ["Dark Chocolate","Coffee","Leather","Earth","Spice"],
     size: "Gordo",
     length: 6,
@@ -29156,7 +29021,6 @@ const CIGARS = [
     pairings: ["Rye Whiskey","Espresso"],
     yearFounded: 2002,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/man-o-war-ruination-el-gordo-humidor-combo/2014907/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/my-father/no.-5-toro/MF5.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/man-o-war-ruination-1-robusto-10pk.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/aging-room-bin-no-2","price":null}],
   },
   {
     id: "man-o-war-virtue-connecticut",
@@ -29205,7 +29069,6 @@ const CIGARS = [
     pairings: ["Dark Rum","Black Coffee"],
     yearFounded: 2002,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/man-o-war-toro-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/man-o-war-puro-authentico-cigars/1411641/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/henry-clay-war-hawk/toro/HCWHT.html","price":null}],
   },
   {
     id: "man-o-war-armada-toro",
@@ -29229,7 +29092,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso"],
     yearFounded: 2002,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/man-o-war-toro-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/man-o-war-armada-cigars/2067162/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/henry-clay-war-hawk/toro/HCWHT.html","price":null}],
   },
   {
     id: "man-o-war-original-robusto",
@@ -29253,7 +29115,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Rum"],
     yearFounded: 2002,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/man-o-war-robusto-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/man-o-war-armada-cigars/2067162/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/kristoff-original-criollo/robusto/KROR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/man-o-war-ruination-1-robusto-10pk.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/aging-room-quattro-original-formerly-f55","price":null}],
   },
   {
     id: "gurkha-his-majestys-reserve",
@@ -29302,7 +29163,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso"],
     yearFounded: 1989,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gurkha-crest-toro-cigars-natural-single","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/gurkha-cellar-reserve/robusto-hedonism-15-year/GURCRGR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/gurkha-black-dragon-special-edition-tubo","price":null}],
   },
   {
     id: "gurkha-koi-robusto",
@@ -29326,7 +29186,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Dark Rum"],
     yearFounded: 1989,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gurkha-crest-toro-cigars-natural-single","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/gurkha-cellar-reserve/robusto-hedonism-15-year/GURCRGR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/gurkha-black-dragon-special-edition-tubo","price":null}],
   },
   {
     id: "gurkha-seduction-robusto",
@@ -29350,7 +29209,6 @@ const CIGARS = [
     pairings: ["Prosecco","Café au Lait"],
     yearFounded: 1989,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gurkha-crest-toro-cigars-natural-single","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/gurkha-cellar-reserve/robusto-hedonism-15-year/GURCRGR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/gurkha-seduction.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/gurkha-black-dragon-special-edition-tubo","price":null}],
   },
   {
     id: "gurkha-cellar-reserve-solara",
@@ -29365,6 +29223,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 14.5,
     rating: 91,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwb395b2c6/images/Images%20for%20JR%20Master%20List/JR%20Master%20List%203/Gurkha-Cellar-Reserve-logo.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cedar","Dried Fruit","Spice","Leather","Cocoa"],
     size: "Torpedo",
     length: 6,
@@ -29374,7 +29233,6 @@ const CIGARS = [
     pairings: ["Scotch","Cognac"],
     yearFounded: 1989,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/famous-nicaraguan-selection-3000-torpedo-cigars-natural-bundle-of-20","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/gurkha-cellar-reserve-15-years","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/gurkha-cellar-reserve-edicion-especial-cigars/2060093/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/gurkha-cellar-reserve/21-yr-solara/GURC21S.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/gurkha-grand-reserve.html","price":null}],
   },
   {
     id: "gurkha-cellar-reserve-limitada",
@@ -29414,6 +29272,7 @@ const CIGARS = [
     smokingTime: 45,
     price: 12.95,
     rating: 89,
+    image: "http://images.neptunecigar.com/avimg/39978.jpg",
     flavors: ["Cedar","Leather","Cocoa","Almond"],
     size: "Robusto",
     length: 5,
@@ -29547,7 +29406,6 @@ const CIGARS = [
     pairings: ["VSOP Cognac","Port Wine","Strong Coffee"],
     yearFounded: 1912,
     limited: true,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/arturo-fuente-holiday-collection-xtra-special-cigars-varies-sampler-of-10","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/arturo-fuente-anejo","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/arturo-fuente-hemingway-cigars/1410664/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/arturo-fuente/privada-no.-1/AF1.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/arturo-fuente-anejo-reserva-48-box-25.html","price":null}],
   },
   {
     id: "arturo-fuente-excalibur-no1",
@@ -29596,7 +29454,6 @@ const CIGARS = [
     pairings: ["Coffee","Whiskey","Amber Ale"],
     yearFounded: 1912,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/arturo-fuente-holiday-collection-xtra-special-cigars-varies-sampler-of-10","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/arturo-fuente","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/arturo-fuente-hemingway-cigars/1410664/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/arturo-fuente/privada-no.-1/AF1.html","price":null}],
   },
   {
     id: "arturo-fuente-short-story",
@@ -29745,7 +29602,6 @@ const CIGARS = [
     pairings: ["Champagne","Light Rum","Coffee"],
     yearFounded: 1988,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/avo-classic-puritos-10-cigars-natural-tin-of-10","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/avo-classic-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/avo-classic-cigars/1489922/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/avo-classic/no.-2/AVO2.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/avo-classic-no-2-toro-10pk.html","price":null}],
   },
   {
     id: "avo-classic-no5",
@@ -29810,6 +29666,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 14,
     rating: 91,
+    image: "http://images.neptunecigar.com/avimg/42198.jpg",
     flavors: ["Cream","Cedar","Nuts","Floral","Vanilla"],
     size: "Belicoso",
     length: 6,
@@ -29893,7 +29750,6 @@ const CIGARS = [
     pairings: ["Champagne","Sauternes","Café Crème"],
     yearFounded: 1988,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/avo-classic-puritos-10-cigars-natural-tin-of-10","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/avo-domaine","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/avo-xo-humidor-combo-cigars/2069308/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/avo-classic/no.-2/AVO2.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/avo-domaine-20-short-perfecto-10-pk.html","price":null}],
   },
   {
     id: "avo-heritage-robusto",
@@ -30067,7 +29923,6 @@ const CIGARS = [
     pairings: ["Aged Rum","Bourbon","Espresso"],
     yearFounded: 1999,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gran-habano-fumas-gordo-cigars-natural-bundle-of-25","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/gran-habano-blue-in-green","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/gran-habano-vintage-2004-cigars/1508757/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/rocky-patel-the-edge-habano/gran-robusto/RPEHGR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/macanudo-vintage-maduro-1997.html","price":null}],
   },
   {
     id: "gran-habano-george-rico-signature-robusto",
@@ -30091,7 +29946,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Rum","Black Coffee"],
     yearFounded: 1999,
     limited: false,
-    buyLinks: [{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/rocky-patel-the-edge-habano/gran-robusto/RPEHGR.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/el-rico-habano-cigars/2060456/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/gran-habano-blue-in-green","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/gran_habano-oz_family_cigars-got_your_6.html","price":null}],
   },
   {
     id: "gran-habano-blue-in-green-maduro",
@@ -30106,6 +29960,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 11,
     rating: 90,
+    image: "http://images.neptunecigar.com/avimg/41474.jpg",
     flavors: ["Dark Chocolate","Coffee","Earth","Leather","Cedar"],
     size: "Toro",
     length: 6,
@@ -30139,7 +29994,6 @@ const CIGARS = [
     pairings: ["Coffee","Rum","Pale Ale"],
     yearFounded: 1999,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gran-habano-gran-reserva-5-2012-gran-robusto-cigars-natural-single","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/rocky-patel-the-edge-habano/gran-robusto/RPEHGR.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/hc-series-habano-colorado-robusto/2066972/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/gran-habano-blue-in-green","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/gran-habano-corojo-5-gran-robusto-10-pk.html","price":null}],
   },
   {
     id: "gran-habano-passion-maduro-robusto",
@@ -30163,7 +30017,6 @@ const CIGARS = [
     pairings: ["Bourbon","Stout Beer","Espresso"],
     yearFounded: 1999,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gran-habano-gran-reserva-5-2012-gran-robusto-cigars-natural-single","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/gran-habano-corojo-no-5-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/gran-habano-5-corojo-maduro-cigars/1497942/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/perdomo-habano-bourbon-barrel-aged-maduro/robusto/PEBAR3.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/gran-habano-corojo-5-gran-robusto-10-pk.html","price":null}],
   },
   {
     id: "nat-sherman-host-selection-university",
@@ -30211,7 +30064,6 @@ const CIGARS = [
     pairings: ["Coffee","White Wine","Light Beer"],
     yearFounded: 1930,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/metropolitan-host-hyde-maduro-cigars-maduro-single","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/nat-sherman-metropolitan-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/timeless-supreme-cigars-nat-sherman/1503938/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/nat-sherman-metropolitan.html","price":null}],
   },
   {
     id: "nat-sherman-panamerica-robusto",
@@ -30483,7 +30335,6 @@ const CIGARS = [
     pairings: ["Coffee","White Wine","Light Beer"],
     yearFounded: 1974,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/factory-smokes-sweet-robusto-cigars-natural-bundle-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/macanudo-emissary-espana/robusto/MACEER.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/quesada-40th-anniversary-toro-press-10pk.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/macanudo-emissary-espana","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/quesada-espana-cigars/2030494/","price":null}],
   },
   {
     id: "quesada-taino-robusto",
@@ -30507,7 +30358,6 @@ const CIGARS = [
     pairings: ["Rum","Coffee","Amber Ale"],
     yearFounded: 1974,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/factory-smokes-sweet-robusto-cigars-natural-bundle-of-20","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/quesada-40th-anniversary-toro-press-10pk.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/quesada-1974","price":null}],
   },
   {
     id: "quesada-iberian-robusto",
@@ -30531,7 +30381,6 @@ const CIGARS = [
     pairings: ["Spanish Red Wine","Rum","Coffee"],
     yearFounded: 1974,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/factory-smokes-sweet-robusto-cigars-natural-bundle-of-20","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/quesada-40th-anniversary-toro-press-10pk.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/quesada-1974","price":null}],
   },
   {
     id: "quesada-60th-anniversary-toro",
@@ -30580,7 +30429,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Amber Ale"],
     yearFounded: 1912,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/arturo-fuente-holiday-collection-xtra-special-cigars-varies-sampler-of-10","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/arturo-fuente","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/arturo-fuente-hemingway-cigars/1410664/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/arturo-fuente/privada-no.-1/AF1.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/arturo-fuente-hemingway.html","price":null}],
   },
   {
     id: "avo-syncro-nicaragua-robusto-extra",
@@ -30694,6 +30542,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 11.99,
     rating: 92,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwa8b7e2d4/images/Santa%20Clara%20Cigars/JANCTT_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Dark Chocolate","Leather","Earth","Coffee","Black Pepper"],
     size: "Toro",
     length: 6,
@@ -30703,7 +30552,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Rum","Espresso"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/joya-de-nicaragua-antano-1970-gran-reserva-belicoso-cigars-dark-natural-single","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/joya-de-nicaragua-antano-1970","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/joya-de-nicaragua-antano-dark-corojo-cigars/2062983/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/joya-de-nicaragua-antano-connecticut/toro/JANCTT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/joya-de-nicaragua-antano-1970.html","price":null}],
   },
   {
     id: "joya-de-nicaragua-antano-ct-robusto",
@@ -30727,7 +30575,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Coffee"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/joya-de-nicaragua-antano-1970-gran-reserva-belicoso-cigars-dark-natural-single","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/joya-de-nicaragua-antano-1970","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/joya-de-nicaragua-antano-dark-corojo-cigars/2062983/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/joya-de-nicaragua-antano-gran-reserva/robusto-grande/JNGRG.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/joya-de-nicaragua-antano-1970.html","price":null}],
   },
   {
     id: "joya-de-nicaragua-antano-ct-gordo",
@@ -30751,7 +30598,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Dark Rum","Espresso"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/joya-de-nicaragua-antano-1970-gran-reserva-belicoso-cigars-dark-natural-single","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/joya-de-nicaragua-antano-1970","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/joya-de-nicaragua-antano-dark-corojo-cigars/2062983/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/joya-de-nicaragua-1970-antano/consul/JNAC.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/joya-de-nicaragua-antano-1970.html","price":null}],
   },
   {
     id: "joya-de-nicaragua-uno-robusto",
@@ -30766,6 +30612,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 8.99,
     rating: 88,
+    image: "http://images.neptunecigar.com/avimg/41283.jpg",
     flavors: ["Cedar","Nuts","Cream","Spice","Earth"],
     size: "Robusto",
     length: 5,
@@ -30799,7 +30646,6 @@ const CIGARS = [
     pairings: ["Coffee","Light Beer","Rum"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cunning-connecticut-robusto-cigars-natural-bundle-of-10","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/joya-de-nicaragua-numero-uno","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/joya-de-nicaragua-numero-uno-cigars/2042023/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/joya-de-nicaragua-antano-gran-reserva/robusto-grande/JNGRG.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/joya-de-nicaragua-numero-uno-l-ambassadeur.html","price":null}],
   },
   {
     id: "joya-de-nicaragua-numero-tres-robusto",
@@ -30823,7 +30669,6 @@ const CIGARS = [
     pairings: ["Lager","Coffee","Aged Rum"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cunning-connecticut-robusto-cigars-natural-bundle-of-10","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/joya-de-nicaragua-numero-uno","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/joya-de-nicaragua-numero-uno-cigars/2042023/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/joya-de-nicaragua-antano-gran-reserva/robusto-grande/JNGRG.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/joya-de-nicaragua-numero-uno-l-ambassadeur.html","price":null}],
   },
   {
     id: "joya-de-nicaragua-celebracion-no2",
@@ -30847,7 +30692,6 @@ const CIGARS = [
     pairings: ["Champagne","Light Rum","Coffee"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/joya-de-nicaragua-antano-1970-gran-reserva-belicoso-cigars-dark-natural-single","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/joya-de-nicaragua-antano-1970","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/joya-de-nicaragua-joya-red-cigars/2069479/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/joya-de-nicaragua-1970-antano/consul/JNAC.html","price":null}],
   },
   {
     id: "joya-de-nicaragua-cuatro-cinco-lancero",
@@ -30862,6 +30706,7 @@ const CIGARS = [
     smokingTime: 75,
     price: 13.5,
     rating: 93,
+    image: "http://images.neptunecigar.com/avimg/37752.jpg",
     flavors: ["Cedar","Leather","Black Pepper","Coffee","Spice"],
     size: "Lancero",
     length: 7.5,
@@ -30895,7 +30740,6 @@ const CIGARS = [
     pairings: ["Añejo Rum","Cognac","Espresso"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/joya-de-nicaragua-antano-1970-gran-reserva-belicoso-cigars-dark-natural-single","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/joya-de-nicaragua-cinco-decadas","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/joya-de-nicaragua-cuatro-cinco-secrect-cask-edicion-limitada-cigars/2066922/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/joya-de-nicaragua-cuatro-cinco-reserva-especial/toro/JNCCT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/joya-de-nicaragua-cinco-decadas.html","price":null}],
   },
   {
     id: "joya-de-nicaragua-clasico-no1",
@@ -30919,7 +30763,6 @@ const CIGARS = [
     pairings: ["Coffee","Light Rum","Ginger Ale"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/joya-de-nicaragua-antano-1970-gran-reserva-belicoso-cigars-dark-natural-single","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/joya-de-nicaragua-antano-1970","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/joya-de-nicaragua-joya-red-cigars/2069479/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/joya-de-nicaragua-1970-antano/consul/JNAC.html","price":null}],
   },
   {
     id: "joya-de-nicaragua-plasencia-silver",
@@ -30943,7 +30786,6 @@ const CIGARS = [
     pairings: ["Coffee","Lager","Light Rum"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/joya-de-nicaragua-antano-1970-gran-reserva-belicoso-cigars-dark-natural-single","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/joya-de-nicaragua-antano-1970","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/joya-de-nicaragua-silver-cigars/2015220/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/joya-de-nicaragua-1970-antano/consul/JNAC.html","price":null}],
   },
   {
     id: "joya-de-nicaragua-antano-1970-corona-gorda",
@@ -30958,6 +30800,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 10.99,
     rating: 92,
+    image: "http://images.neptunecigar.com/avimg/34282.jpg",
     flavors: ["Leather","Earth","Black Pepper","Coffee","Dark Chocolate"],
     size: "Corona Gorda",
     length: 5.625,
@@ -31336,7 +31179,6 @@ const CIGARS = [
     pairings: ["Coffee","Lager","Rum"],
     yearFounded: 1962,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/a-flores-serie-privada-sp-52-capa-habano-cigars-natural-single","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/hc-series-habano-colorado-robusto/2066972/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/camacho-ecuador/robusto/CCER.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/camacho-criollo-robusto-fresh-packs-2-4-s.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/aganorsa-leaf-validacion-habano","price":null}],
   },
   {
     id: "camacho-corojo-cameroon-robusto",
@@ -31360,7 +31202,6 @@ const CIGARS = [
     pairings: ["Coffee","Light Bourbon","Lager"],
     yearFounded: 1962,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/camacho-corojo-machitos-6-cigars-natural-tin-of-6","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/camacho-corojo","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/camacho-connecticut-robusto-cigars/1507776/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/camacho-corojo/robusto/CCOR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/camacho-corojo.html","price":null}],
   },
   {
     id: "camacho-powerband-robusto",
@@ -31384,7 +31225,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Coffee"],
     yearFounded: 1962,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/camacho-triple-maduro-robusto-5-pack-cigars-maduro-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/camacho-connecticut-robusto-cigars/1507776/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/camacho-ecuador/robusto/CCER.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/camacho-powerband-sampler-box-3.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/camacho-broadleaf","price":null}],
   },
   {
     id: "camacho-triple-maduro-robusto",
@@ -31458,7 +31298,6 @@ const CIGARS = [
     pairings: ["Aged Rum","Coffee","Bourbon"],
     yearFounded: 1962,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/camacho-triple-maduro-robusto-5-pack-cigars-maduro-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/camacho-connecticut-robusto-cigars/1507776/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/camacho-ecuador/robusto/CCER.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/camacho-criollo-robusto-fresh-packs-2-4-s.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/camacho-broadleaf","price":null}],
   },
   {
     id: "camacho-liberty-2021",
@@ -31523,6 +31362,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 9.5,
     rating: 87,
+    image: "http://images.neptunecigar.com/avimg/305.jpg",
     flavors: ["Cream","Cedar","Vanilla","Hay","Nuts"],
     size: "Lonsdale",
     length: 6.5,
@@ -31556,7 +31396,6 @@ const CIGARS = [
     pairings: ["Coffee","Light Beer","Lemonade"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/macanudo-cafe-baron-de-rothschild-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/macanudo-cafe","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/macanudo-cafe-cigars/1411588/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/hoyo-de-monterrey/rothschild/HMR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/macanudo-cafe-rothschild-12-cigar-fresh-packs-2-6-s.html","price":null}],
   },
   {
     id: "macanudo-cafe-hyde-park",
@@ -31580,7 +31419,6 @@ const CIGARS = [
     pairings: ["Tea","Coffee","Champagne"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/macanudo-cafe-hyde-park-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/macanudo-cafe","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/macanudo-cafe-cigars/1411588/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/macanudo/hyde-park/MAHP.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/macanudo-cafe-hyde-park-5-pack.html","price":null}],
   },
   {
     id: "macanudo-inspirado-blue-robusto",
@@ -31604,7 +31442,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Craft Beer"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/macanudo-inspirado-black-robusto-5-pack-cigars-maduro-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/macanudo-inspirado-black","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/macanudo-inspirado-mega-sampler/2012569/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/macanudo-inspirado-green/robusto/MAIGR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/macanudo-inspirado-black-robusto-10pk.html","price":null}],
   },
   {
     id: "macanudo-inspirado-red-robusto",
@@ -31719,6 +31556,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 12.99,
     rating: 89,
+    image: "http://images.neptunecigar.com/avimg/39188.jpg",
     flavors: ["Cream","Cedar","Vanilla","Nuts","White Pepper"],
     size: "Robusto",
     length: 5,
@@ -31752,7 +31590,6 @@ const CIGARS = [
     pairings: ["Honey Rum","Coffee","Bourbon"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/macanudo-inspirado-black-robusto-5-pack-cigars-maduro-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/macanudo-inspirado-black","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/macanudo-inspirado-mega-sampler/2012569/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/macanudo-inspirado-green/robusto/MAIGR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/macanudo-inspirado-black-robusto-10pk.html","price":null}],
   },
   {
     id: "macanudo-cafe-lords",
@@ -31776,7 +31613,6 @@ const CIGARS = [
     pairings: ["Coffee","Tea","Light Beer"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/macanudo-cafe-lords-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/macanudo-cafe","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/macanudo-cafe-cigars/1411588/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/macanudo/lords/MAL.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/macanudo-cafe.html","price":null}],
   },
   {
     id: "macanudo-cafe-claybourne",
@@ -31800,7 +31636,6 @@ const CIGARS = [
     pairings: ["Coffee","Tea","Sparkling Water"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/macanudo-claybourne-cigars-natural-box-of-25","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/macanudo-cafe","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/macanudo-cafe-cigars/1411588/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/macanudo/claybourne/MACL.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/macanudo-cafe.html","price":null}],
   },
   {
     id: "joya-de-nicaragua-cinco-decadas-edmundo-toro",
@@ -31815,6 +31650,7 @@ const CIGARS = [
     smokingTime: 65,
     price: 21,
     rating: 95,
+    image: "http://images.neptunecigar.com/avimg/39837.jpg",
     flavors: ["Dark Chocolate","Espresso","Leather","Earth","Spice","Oak"],
     size: "Toro",
     length: 6,
@@ -31873,7 +31709,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Coffee"],
     yearFounded: 1962,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/camacho-triple-maduro-gordo-5-pack-cigars-maduro-pack-of-5","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/el-gordo-54-camacho-ecuador-herf-a-dor-combos/1497673/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/camacho-ecuador/gordo/CCEG.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/camacho-powerband-sampler-box-3.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/camacho-broadleaf","price":null}],
   },
   {
     id: "macanudo-cafe-prince-of-wales",
@@ -31897,7 +31732,6 @@ const CIGARS = [
     pairings: ["Cognac","Tea","Coffee"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/macanudo-cafe-prince-of-wales-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/macanudo-cafe","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/macanudo-cafe-cigars/1411588/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/macanudo/prince-of-wales/MAPW.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/macanudo-cafe-duke-of-devon-10pk.html","price":null}],
   },
   {
     id: "joya-de-nicaragua-antano-1970-robusto",
@@ -31962,6 +31796,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 13,
     rating: 91,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwb6e7383f/images/Images%20for%20JR%20Master%20List/JR%20Master%20List%202/EPPLS20_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Cedar","Leather","Spice","Coffee","Earth"],
     size: "Robusto",
     length: 5,
@@ -31995,7 +31830,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Craft Beer"],
     yearFounded: 1968,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/macanudo-inspirado-red-robusto-5-pack-cigars-dark-natural-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/macanudo-inspirado-black","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/macanudo-inspirado-mega-sampler/2012569/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/macanudo-inspirado-green/robusto/MAIGR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/macanudo-inspirado-black-robusto-10pk.html","price":null}],
   },
   {
     id: "camacho-corojo-robusto-extra",
@@ -32010,6 +31844,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 11,
     rating: 90,
+    image: "http://images.neptunecigar.com/avimg/32027.jpg",
     flavors: ["Leather","Spice","Cedar","Black Pepper","Coffee"],
     size: "Robusto Extra",
     length: 5.5,
@@ -32082,6 +31917,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 10.5,
     rating: 91,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw149b066e/images/jrcigars/Single_Images_2/BLTRSR/BLTRSR_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Dark Chocolate","Coffee","Earth","Leather","Cedar"],
     size: "Robusto",
     length: 5,
@@ -32091,7 +31927,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Espresso"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/black-works-studio-rorschach-short-robusto-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/black-works-blk-wks-studio-killer-bee","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/black-works-studio-rorschach/2058183/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/black-works-studio-rorschach/short-robusto/BLTRSR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/black-works-studio-rorschach.html","price":null}],
   },
   {
     id: "black-works-studio-rorschach-toro",
@@ -32106,6 +31941,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 11.5,
     rating: 92,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw5f5bdbf7/images/jrcigars/1516397946045-0.jpeg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Dark Chocolate","Coffee","Earth","Pepper","Cedar"],
     size: "Toro",
     length: 6,
@@ -32115,7 +31951,6 @@ const CIGARS = [
     pairings: ["Bourbon","Stout Beer","Cold Brew Coffee"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/black-works-studio-rorschach-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/black-works-blk-wks-studio-killer-bee","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/black-works-studio-rorschach/2058183/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/black-works-studio-rorschach/petit-panatela/BLTRSP.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/black-works-studio-rorschach.html","price":null}],
   },
   {
     id: "black-works-studio-sindustry-robusto",
@@ -32139,7 +31974,6 @@ const CIGARS = [
     pairings: ["Rye Whiskey","Black Coffee","Dark Rum"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/black-works-studio-sr-robusto-5-pack-cigars-barber-pole-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/black-works-blk-wks-studio-killer-bee","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/black-works-studio-boondock-cigars/2069511/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/black-works-studio-green-hornet/green-hornet-robusto/BLTKBR.html","price":null}],
   },
   {
     id: "black-works-studio-killer-bee-robusto",
@@ -32154,6 +31988,7 @@ const CIGARS = [
     smokingTime: 50,
     price: 9.5,
     rating: 90,
+    image: "http://images.neptunecigar.com/avimg/38932.jpg",
     flavors: ["Honey","Nuts","Cedar","Cream","Pepper"],
     size: "Robusto",
     length: 5,
@@ -32187,7 +32022,6 @@ const CIGARS = [
     pairings: ["Añejo Rum","Espresso","Porter"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/black-works-blk-wks-studio-killer-bee","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/black-works-studio-boondock-cigars/2069511/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/black-works-studio-green-hornet/green-hornet-robusto/BLTKBR.html","price":null}],
   },
   {
     id: "black-works-studio-sparrow-and-lion-robusto",
@@ -32211,7 +32045,6 @@ const CIGARS = [
     pairings: ["Chardonnay","Café au Lait","Light Rum"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/black-works-studio-sr-robusto-5-pack-cigars-barber-pole-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/black-works-blk-wks-studio-killer-bee","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/black-works-studio-boondock-cigars/2069511/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/black-works-studio-green-hornet/green-hornet-robusto/BLTKBR.html","price":null}],
   },
   {
     id: "black-works-studio-genesis-robusto",
@@ -32235,7 +32068,6 @@ const CIGARS = [
     pairings: ["Scotch","Espresso","Dark Ale"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/black-works-studio-sr-robusto-5-pack-cigars-barber-pole-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/black-works-blk-wks-studio-killer-bee","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/black-works-studio-boondock-cigars/2069511/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/black-works-studio-green-hornet/green-hornet-robusto/BLTKBR.html","price":null}],
   },
   {
     id: "black-works-studio-hyena-robusto",
@@ -32259,7 +32091,6 @@ const CIGARS = [
     pairings: ["Cask Strength Bourbon","Stout","Añejo Tequila"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/black-works-studio-sr-robusto-5-pack-cigars-barber-pole-pack-of-5","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/black-works-blk-wks-studio-killer-bee","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/black-works-studio-boondock-cigars/2069511/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/black-works-studio-green-hornet/green-hornet-robusto/BLTKBR.html","price":null}],
   },
   {
     id: "principle-cigars-accomplice-habano-robusto",
@@ -32283,7 +32114,6 @@ const CIGARS = [
     pairings: ["Bourbon","Black Coffee","Dark Beer"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/gran-habano-fumas-robusto-grande-cigars-natural-bundle-of-25","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/hc-series-habano-colorado-robusto/2066972/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/601-red-label-habano/robusto/ERLR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/gran-habano-corojo-5-gran-robusto-10-pk.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/aganorsa-leaf-validacion-habano","price":null}],
   },
   {
     id: "principle-cigars-accomplice-connecticut-robusto",
@@ -32307,7 +32137,6 @@ const CIGARS = [
     pairings: ["Chardonnay","Café au Lait","Light Beer"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cuban-rounds-connecticut-robusto-cigars-natural-bundle-of-20","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/camacho-connecticut-robusto-cigars/1507776/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/brick-house-double-connecticut/robusto/BHDC.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/oliva-connecticut-reserve-robusto-10pk.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/acid-20-connecticut","price":null}],
   },
   {
     id: "principle-cigars-el-caballero-robusto",
@@ -32427,7 +32256,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Espresso"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/alec-and-bradley-blind-faith","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/alec-bradley-white-gold-robusto-cigars/2004461/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/alec-bradley-post-embargo-blend-code-b15-robusto-cigars-not-available-box-of-24","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/alec-and-bradley-kintsugi/robusto/ABKR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/alec-bradley-prensado-robusto-5pk.html","price":null}],
   },
   {
     id: "alec-bradley-mchurchill",
@@ -32451,7 +32279,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Espresso","Porter"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/alec-and-bradley-blind-faith","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/alec-bradley-white-gold-robusto-cigars/2004461/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/alec-bradley-collection-cigars-varies-sampler-of-5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/alec-and-bradley-kintsugi/gordo/ABKG.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/alec-bradley-prensado.html","price":null}],
   },
   {
     id: "alec-bradley-star-navigator-robusto",
@@ -32475,7 +32302,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Craft Lager"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/alec-bradley-white-gold-robusto-cigars/2004461/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/alec-bradley-post-embargo-blend-code-b15-robusto-cigars-not-available-box-of-24","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/alec-and-bradley-kintsugi/robusto/ABKR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/alec-and-bradley-blind-faith","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/alec-bradley-prensado-robusto-5pk.html","price":null}],
   },
   {
     id: "alec-bradley-medalist-robusto",
@@ -32549,7 +32375,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso","Dark Beer"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/alec-and-bradley-blind-faith","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/alec-bradley-white-gold-robusto-cigars/2004461/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/alec-bradley-post-embargo-blend-code-b15-toro-cigars-natural-box-of-24","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/alec-and-bradley-kintsugi/toro/ABKT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/alec-bradley-prensado-lost-art-gran-toro-10pk.html","price":null}],
   },
   {
     id: "alec-bradley-taste-of-the-town-robusto",
@@ -32773,7 +32598,6 @@ const CIGARS = [
     pairings: ["Bourbon","Iced Coffee","Craft Lager"],
     yearFounded: 1896,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-toro-selection-cigars-varies-sampler-of-5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/hoyo-la-amistad-gold/toro/HMLAT.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/la-herencia-cubana-oscuro-fuerte-toro-cigars/2049368/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-palina-125th-anniversary","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/la-palina-no-1-toro-box-20-kb-ln16552.html","price":null}],
   },
   {
     id: "la-palina-blue-label-toro",
@@ -32847,7 +32671,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso","Dark Beer"],
     yearFounded: 1896,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/la-palina-el-diario-cigars/1475341/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-toro-selection-cigars-varies-sampler-of-5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/la-aroma-de-cuba/el-jefe/LACJ.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-flor-dominicana-el-carajon","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/la-palina-el-diario-toro-10-pk.html","price":null}],
   },
   {
     id: "la-palina-lp03-robusto",
@@ -32871,7 +32694,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Coffee","Craft Lager"],
     yearFounded: 1896,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-robusto-selection-cigars-varies-sampler-of-5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/la-gloria-cubana-esteli/robusto/LGER.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/la-palina-nicaragua-connecticut-cigars/2035968/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-palina-125th-anniversary","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/la-palina-no-2-robusto-10pk.html","price":null}],
   },
   {
     id: "la-palina-sunday-smoke-robusto",
@@ -32945,7 +32767,6 @@ const CIGARS = [
     pairings: ["Sake","Bourbon","Dark Tea"],
     yearFounded: 2011,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/room-101-the-big-payback-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/room-101-the-big-payback-connecticut-cigars/1503215/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/room-101-payback-maduro-robusto-cigars-maduro-bundle-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/room-101-cigars/robusto/ROJTR5.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/room-101-the-big-payback-maduro-robusto-10pk.html","price":null}],
   },
   {
     id: "room-101-new-york-robusto",
@@ -32969,7 +32790,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Craft IPA"],
     yearFounded: 2011,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/room-101-payback-maduro-robusto-cigars-maduro-bundle-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/room-101-cigars/robusto/ROJTR5.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/room-101-breakfast-in-portugal-cigars/2022660/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/room-101-daruma","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/room-101-the-big-payback-maduro-robusto-10pk.html","price":null}],
   },
   {
     id: "room-101-shinigami-robusto",
@@ -32993,7 +32813,6 @@ const CIGARS = [
     pairings: ["Cask Strength Bourbon","Espresso","Stout"],
     yearFounded: 2011,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/room-101-daruma","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/room-101-breakfast-in-portugal-cigars/2022660/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/room-101-payback-maduro-robusto-cigars-maduro-bundle-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/room-101-cigars/robusto/ROJTR5.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/room-101-the-big-payback-maduro-robusto-10pk.html","price":null}],
   },
   {
     id: "room-101-uncle-buck-robusto",
@@ -33042,7 +32861,6 @@ const CIGARS = [
     pairings: ["Chardonnay","Light Rum","Café au Lait"],
     yearFounded: 2011,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/room-101-daruma","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/room-101-breakfast-in-portugal-cigars/2022660/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/room-101-payback-maduro-toro-cigars-maduro-bundle-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/room-101-jewelry/stainless-beads-agate-10mm-bracelet/RSBA.html","price":null}],
   },
   {
     id: "cavalier-geneve-latelier-ii-toro",
@@ -33066,7 +32884,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Espresso","Craft Lager"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/cavalier-geneve-black-series-ii","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/cavalier-geneve-black-series-ii-toro-gordo/2066056/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/jake-wyatt-appendix-ii-toro-cigars-natural-box-of-22","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/cavalier-cigars/black-series-ii-toro/CAVB2T.html","price":null}],
   },
   {
     id: "cavalier-geneve-c-series-robusto",
@@ -33114,7 +32931,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Beer","Espresso"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/cavalier-geneve-black-series-ii","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/cavalier-geneve-the-green-jacket-2026-cigars/2069163/","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/cavalier-cigars/black-series-robusto/CAVBR.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/cavalier-geneve-black-series-ii-robusto-cigars-maduro","price":null}],
   },
   {
     id: "cavalier-geneve-r-series-robusto",
@@ -33210,7 +33026,6 @@ const CIGARS = [
     pairings: ["Rye Whiskey","Dark Beer","Black Coffee"],
     yearFounded: 2011,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/room-101-the-big-payback-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/room-101-the-big-payback-connecticut-cigars/1503215/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/room-101-payback-maduro-toro-cigars-maduro-bundle-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/room-101-the-big-payback/7x70/ROOP705.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/room-101-the-big-payback-maduro-robusto-10pk.html","price":null}],
   },
   {
     id: "la-palina-gramercy-robusto",
@@ -33234,7 +33049,6 @@ const CIGARS = [
     pairings: ["Bourbon","Coffee","Craft Lager"],
     yearFounded: 1896,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/la-flor-dominicana-robusto-selection-cigars-varies-sampler-of-5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/la-gloria-cubana-esteli/robusto/LGER.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/la-palina-nicaragua-connecticut-cigars/2035968/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/la-palina-125th-anniversary","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/la-palina-no-2-robusto-10pk.html","price":null}],
   },
   {
     id: "alec-bradley-prensado-robusto",
@@ -33283,7 +33097,6 @@ const CIGARS = [
     pairings: ["Bourbon","Black Coffee","Dark Beer"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/601-red-label-habano-toro-5-pack-cigars-natural-pack-of-5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/601-red-label-habano/toro/ERLT.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/espinosa-habano-no-5-toro-10pk.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/aganorsa-leaf-validacion-habano","price":null}],
   },
   {
     id: "black-works-studio-rorschach-short-robusto",
@@ -33298,6 +33111,7 @@ const CIGARS = [
     smokingTime: 35,
     price: 8.5,
     rating: 90,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw149b066e/images/jrcigars/Single_Images_2/BLTRSR/BLTRSR_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Dark Chocolate","Coffee","Leather","Earth","Cedar"],
     size: "Robusto",
     length: 4.5,
@@ -33307,7 +33121,6 @@ const CIGARS = [
     pairings: ["Espresso","Bourbon","Dark Beer"],
     yearFounded: 2014,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/black-works-blk-wks-studio-killer-bee","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/black-works-studio-rorschach/2058183/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/black-works-studio-rorschach-sumatra-short-robusto-cigars-maduro-box-of-50","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/black-works-studio-rorschach/short-robusto/BLTRSR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/black-works-studio-rorschach.html","price":null}],
   },
   {
     id: "espinosa-601-la-bomba-toro",
@@ -33380,7 +33193,6 @@ const CIGARS = [
     pairings: ["Bourbon","Dark Roast Coffee"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/the-colecciones-de-tatuaje-6-robusto-sampler-cigars-varies-sampler-of-6","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/tatuaje-serie-p/robusto/TJPR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/tatuaje-series-p-robusto-10-pk.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/tatuaje-10th-anniversary","price":null}],
   },
   {
     id: "tatuaje-arsenal-toro",
@@ -33404,7 +33216,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/tatuaje-fausto-toro-cigars-maduro-box-of-25","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/tatuaje-cabaiguan/guapos-original-toro-grande/TCAG5.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/acid-graycliff-avo-ashton-samplers-crowned_heads-tatuaje-bugatti_-el_gueguense.html","price":null}],
   },
   {
     id: "tatuaje-noches-de-paris-robusto",
@@ -33428,7 +33239,6 @@ const CIGARS = [
     pairings: ["Port Wine","Espresso","Cognac"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/the-colecciones-de-tatuaje-6-robusto-sampler-cigars-varies-sampler-of-6","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/casa-de-garcia-connecticut/robusto/GAR2.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/tatuaje-lomo-de-cerdo","price":null}],
   },
   {
     id: "tatuaje-coronado-robusto",
@@ -33452,7 +33262,6 @@ const CIGARS = [
     pairings: ["Café au Lait","Chardonnay","Honey Lager"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/the-colecciones-de-tatuaje-6-robusto-sampler-cigars-varies-sampler-of-6","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/tatuaje-serie-p/robusto/TJPR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/tatuaje-series-p-robusto-10-pk.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/lfd-coronado","price":null}],
   },
   {
     id: "tatuaje-unicos-no1",
@@ -33542,6 +33351,7 @@ const CIGARS = [
     smokingTime: 40,
     price: 11.5,
     rating: 90,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwd8e3a38e/images/Images%20for%20JR%20Master%20List/TAMCM_Singles.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Leather","Pepper","Cedar","Coffee","Earth"],
     size: "Petit Corona",
     length: 4.5,
@@ -33551,7 +33361,6 @@ const CIGARS = [
     pairings: ["Black Coffee","Craft Beer","Rye Whiskey"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/tatuaje-skinny-monster-cazadores-edition-cigars-varies-sampler-of-10","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/tatuaje-cigars/cazadores-edition/TAMCM.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/tatuaje-skinny-monsters-cazadores-edition-sampler-10.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/tatuaje-10th-anniversary","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/tatuaje-skinny-monsters-cazadores-sampler/2006058/","price":null}],
   },
   {
     id: "tatuaje-tattoo-maduro-robusto",
@@ -33725,7 +33534,6 @@ const CIGARS = [
     pairings: ["Merlot","Bourbon","Dark Coffee"],
     yearFounded: 2006,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/kristoff-8-cigar-robusto-sampler-box-samplers/1464568/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/kristoff-robusto-8-pack-assortment-cigars-varies-sampler-of-8","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/kristoff-habano/robusto/KRHR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/kristoff-robusto-sampler-8-cigars.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/kristoff-685-woodlawn","price":null}],
   },
   {
     id: "kristoff-pistoff-kristoff-toro",
@@ -33948,7 +33756,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso","Porter"],
     yearFounded: 2012,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/hvc-serie-a","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/hvc-cerro-natural-robusto-gordo-cigars-natural-box-of-20","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/oliva-serie-g/robusto/OSGR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/hvc-serie-a.html","price":null}],
   },
   {
     id: "hvc-black-friday-toro",
@@ -34096,7 +33903,6 @@ const CIGARS = [
     pairings: ["Café Latte","Sauvignon Blanc","Light Lager"],
     yearFounded: 2020,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/ferio-tego-limited-edition","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/ferio-tego-elegencia-le-2023-toro/2063798/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/ferio-tego-metropolitan-habano-toro-cigars-natural-box-of-18","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/ferio-tego-timeless-sterling/toro/FTSTT.html","price":null}],
   },
   {
     id: "ferio-tego-magnum-opus-toro",
@@ -34120,7 +33926,6 @@ const CIGARS = [
     pairings: ["Single Malt Scotch","Bourbon","Espresso"],
     yearFounded: 2020,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/ferio-tego-elegencia-le-2023-toro/2063798/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/ferio-tego-metropolitan-habano-toro-cigars-natural-box-of-18","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/ferio-tego-timeless-sterling/toro/FTSTT.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/ferio-tego-limited-edition","price":null}],
   },
   {
     id: "ferio-tego-toro-de-fuego-robusto",
@@ -34144,7 +33949,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso","Dark Beer"],
     yearFounded: 2020,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/ferio-tego-elegencia-le-2023-toro/2063798/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/ferio-tego-metropolitan-habano-robusto-cigars-natural-box-of-18","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/ferio-tego-timeless-sterling/toro/FTSTT.html","price":null}],
   },
   {
     id: "viaje-circa-robusto",
@@ -34268,7 +34072,6 @@ const CIGARS = [
     pairings: ["Café au Lait","Honey Lager","Light White Wine"],
     yearFounded: 2005,
     limited: false,
-    buyLinks: [{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/combo-cigar-knife-and-cutter-with-money-clip-cigar-cutters-two-tone","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/alec-and-bradley-kintsugi/toro/ABKT.html","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/viaje-skull-and-bones-tsar-bomba-camo/2058130/","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/alec-and-bradley-blind-faith","price":null}],
   },
   {
     id: "ace-prime-lucia-robusto",
@@ -34464,7 +34267,6 @@ const CIGARS = [
     pairings: ["Café Latte","Light Beer","Chardonnay"],
     yearFounded: 2015,
     limited: false,
-    buyLinks: [{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/esteban-carreras-chupacabra","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/601-red-label-habano-robusto-5-pk-cigars-natural-pack-of-5","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/cohiba-red-dot/robusto/CDR.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/villiger-nub-cle-esteban_carreras_2nds-gispert-mayorga_.html","price":null}],
   },
   {
     id: "tatuaje-arsenal-belicoso",
@@ -34488,7 +34290,6 @@ const CIGARS = [
     pairings: ["Bourbon","Espresso","Dark Stout"],
     yearFounded: 2003,
     limited: false,
-    buyLinks: [{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/tatuaje-negociant-monopole/2-belicoso/TANMB.html","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/acid-graycliff-avo-ashton-samplers-crowned_heads-tatuaje-bugatti_-el_gueguense.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/tatuaje-10th-anniversary","price":null}],
   },
   {
     id: "kristoff-gc-natural-robusto",
@@ -34503,6 +34304,7 @@ const CIGARS = [
     smokingTime: 55,
     price: 9.5,
     rating: 89,
+    image: "http://images.neptunecigar.com/avimg/34108.jpg",
     flavors: ["Cedar","Nuts","Leather","Honey","Spice"],
     size: "Robusto",
     length: 5,
@@ -34636,7 +34438,6 @@ const CIGARS = [
     pairings: ["Bourbon","Aged Rum","Espresso"],
     yearFounded: 2020,
     limited: false,
-    buyLinks: [{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/ferio-tego-elegencia-le-2023-toro/2063798/","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/ferio-tego-metropolitan-habano-toro-cigars-natural-box-of-18","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/ferio-tego-timeless-sterling/toro/FTSTT.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/ferio-tego-limited-edition","price":null}],
   },
   {
     id: "tatuaje-verocu-no4",
@@ -34750,6 +34551,7 @@ const CIGARS = [
     smokingTime: 45,
     price: 4.5,
     rating: 89,
+    image: "https://www.smokeinn.com/images/P/drew-estate-29.jpg",
     flavors: ["Coffee","Earth","Leather","Pepper","Cocoa"],
     size: "Robusto",
     length: 5,
@@ -34774,6 +34576,7 @@ const CIGARS = [
     smokingTime: 60,
     price: 4.5,
     rating: 89,
+    image: "https://www.smokeinn.com/images/P/drew-estate-29.jpg",
     flavors: ["Coffee","Earth","Leather","Pepper","Cocoa"],
     size: "Toro",
     length: 6,
@@ -34798,6 +34601,7 @@ const CIGARS = [
     smokingTime: 75,
     price: 4.5,
     rating: 89,
+    image: "https://www.jrcigars.com/dw/image/v2/BCZK_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw1f7af25b/images/jrcigars/Factory-Smokes-by-Drew-Estate/DEFSMCH_single_up_1.jpg?sw=40&sh=40&sm=fit&q=80",
     flavors: ["Coffee","Earth","Leather","Pepper","Cocoa"],
     size: "Churchill",
     length: 7,
@@ -34855,7 +34659,6 @@ const CIGARS = [
     pairings: ["Light Coffee","Lager","Iced Tea"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Shade-Robusto.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/factory-smoke-ct-shade-robusto-cigars-natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/factory-smokes-by-drew-estate/robusto-shade/DEFSSR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigars/factory-smokes-shade-robusto","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/drew-estate-factory-smokes-connecticut-shade/2014947/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/drew-estate-factory-smokes-connecticut-shade.html","price":null}],
   },
   {
     id: "drew-estate-factory-smokes-shade-toro",
@@ -34903,7 +34706,6 @@ const CIGARS = [
     pairings: ["Light Coffee","Lager","Iced Tea"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Shade-Churchill.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/factory-smoke-ct-shade-churchi-cigars-natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/factory-smokes-by-drew-estate/churchill-shade/DEFSSCH.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigars/factory-smokes-shade-churchill","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/drew-estate-factory-smokes-connecticut-shade/2014947/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/drew-estate-factory-smokes-connecticut-shade.html","price":null}],
   },
   {
     id: "drew-estate-factory-smokes-shade-gordito",
@@ -34918,6 +34720,7 @@ const CIGARS = [
     smokingTime: 40,
     price: 4.5,
     rating: 88,
+    image: "https://www.smokeinn.com/images/P/drew-estate-30.jpg",
     flavors: ["Cream","Nuts","Cedar","Toast","Hay"],
     size: "Gordito",
     length: 4.5,
@@ -34951,7 +34754,6 @@ const CIGARS = [
     pairings: ["Coffee","Rum","Craft Beer"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Sun-Grown-Robusto.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/factory-smokes-sungrown-robust-cigars-natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/factory-smokes-by-drew-estate/robusto-sungrown/DEFSGR.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigars/factory-smokes-sungrown-robusto","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/drew-estate-factory-smokes-sun-grown/2014946/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/drew-estate-factory-smokes-sun-grown.html","price":null}],
   },
   {
     id: "drew-estate-factory-smokes-sun-grown-toro",
@@ -34975,7 +34777,6 @@ const CIGARS = [
     pairings: ["Coffee","Rum","Craft Beer"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Sun-Grown-Toro.html","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/factory-smokes-by-drew-estate/toro-sungrown/DEFSGT.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigars/factory-smokes-sun-grown-toro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/drew-estate-factory-smokes-sun-grown/2014946/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/drew-estate-factory-smokes-sun-grown.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/factory-smokes-sungrown-toro-cigars-natural","price":null}],
   },
   {
     id: "drew-estate-factory-smokes-sun-grown-churchill",
@@ -34999,7 +34800,6 @@ const CIGARS = [
     pairings: ["Coffee","Rum","Craft Beer"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Sun-Grown-Churchill.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/factory-smokes-sungrown-church-cigars-natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/factory-smokes-by-drew-estate/churchill-sungrown/DEFSGCH.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigars/factory-smokes-sun-grown-churchill","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/drew-estate-factory-smokes-sun-grown/2014946/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/drew-estate-factory-smokes-sun-grown.html","price":null}],
   },
   {
     id: "drew-estate-factory-smokes-sun-grown-gordito",
@@ -35023,7 +34823,6 @@ const CIGARS = [
     pairings: ["Coffee","Rum","Craft Beer"],
     yearFounded: 1996,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Drew-Estate-Factory-Smokes-Sun-Grown-Gordito.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/factory-smokes-sungrown-gordit-cigars-natural","price":null},{"retailer":"JR Cigars","url":"https://www.jrcigars.com/item/factory-smokes-by-drew-estate/gordito-sungrown/DEFSGG.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigars/factory-smokes-sun-grown-gordito","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/drew-estate-factory-smokes-sun-grown/2014946/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/drew-estate-factory-smokes-sun-grown.html","price":null}],
   },
   {
     id: "drew-estate-factory-smokes-sweet-robusto",
@@ -35138,6 +34937,7 @@ const CIGARS = [
     smokingTime: 75,
     price: 11,
     rating: 90,
+    image: "https://www.smokeinn.com/images/P/espinosa-logo-14.jpg",
     flavors: ["Black Pepper","Earth","Leather","Cocoa","Coffee","Dark Chocolate"],
     size: "Gordo",
     length: 6,
@@ -35162,6 +34962,7 @@ const CIGARS = [
     smokingTime: 70,
     price: 13,
     rating: 90,
+    image: "https://www.smokeinn.com/images/P/espinosa-logo-14.jpg",
     flavors: ["Earth","Mocha","Red Pepper","Coffee","Citrus","Dark Chocolate"],
     size: "Perfecto",
     length: 6,
@@ -35195,7 +34996,6 @@ const CIGARS = [
     pairings: ["Light Coffee","Lager","Iced Tea"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Rocky-Patel-Seed-to-Smoke-Classic-Toro.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rocky-patel-seed-to-smoke-classic-toro-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/rocky-patel-seed-to-smoke-classic-cigars/2054622/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/rocky-patel-seed-to-smoke-classic.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/rocky-patel-seed-to-smoke","price":null}],
   },
   {
     id: "rocky-patel-seed-to-smoke-classic-churchill",
@@ -35219,7 +35019,6 @@ const CIGARS = [
     pairings: ["Light Coffee","Lager","Iced Tea"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Rocky-Patel-Seed-to-Smoke-Classic-Churchill.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rocky-patel-seed-to-smoke-classic-churchill-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/rocky-patel-seed-to-smoke-classic-cigars/2054622/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/rocky-patel-seed-to-smoke-classic.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/rocky-patel-seed-to-smoke","price":null}],
   },
   {
     id: "rocky-patel-seed-to-smoke-classic-sixty",
@@ -35243,7 +35042,6 @@ const CIGARS = [
     pairings: ["Light Coffee","Lager","Iced Tea"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Rocky-Patel-Seed-to-Smoke-Classic-Sixty.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rocky-patel-seed-to-smoke-classic-sixty-cigars-maduro","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/rocky-patel-seed-to-smoke-classic-cigars/2054622/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/rocky-patel-seed-to-smoke-classic.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/rocky-patel-seed-to-smoke","price":null}],
   },
   {
     id: "rocky-patel-seed-to-smoke-shade-toro",
@@ -35267,7 +35065,6 @@ const CIGARS = [
     pairings: ["Light Coffee","Lager","Iced Tea"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Rocky-Patel-Seed-to-Smoke-Shade-Toro.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rocky-patel-seed-to-smoke-shade-toro-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/rocky-patel-seed-to-smoke-shade-cigars/2054623/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/rocky-patel-seed-to-smoke-shade.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/rocky-patel-seed-to-smoke","price":null}],
   },
   {
     id: "rocky-patel-seed-to-smoke-shade-churchill",
@@ -35291,7 +35088,6 @@ const CIGARS = [
     pairings: ["Light Coffee","Lager","Iced Tea"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Rocky-Patel-Seed-to-Smoke-Shade-Churchill.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rocky-patel-seed-to-smoke-shade-churchill-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/rocky-patel-seed-to-smoke-shade-cigars/2054623/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/rocky-patel-seed-to-smoke-shade.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/rocky-patel-seed-to-smoke","price":null}],
   },
   {
     id: "rocky-patel-seed-to-smoke-shade-sixty",
@@ -35315,7 +35111,6 @@ const CIGARS = [
     pairings: ["Light Coffee","Lager","Iced Tea"],
     yearFounded: 1995,
     limited: false,
-    buyLinks: [{"retailer":"Smoke Inn","url":"https://www.smokeinn.com/Rocky-Patel-Seed-to-Smoke-Shade-Sixty.html","price":null},{"retailer":"Famous Smoke Shop","url":"https://www.famous-smoke.com/rocky-patel-seed-to-smoke-shade-sixty-cigars-natural","price":null},{"retailer":"Cigars International","url":"https://www.cigarsinternational.com/p/rocky-patel-seed-to-smoke-shade-cigars/2054623/","price":null},{"retailer":"Cigar Page","url":"https://www.cigarpage.com/rocky-patel-seed-to-smoke-shade.html","price":null},{"retailer":"Neptune Cigar","url":"https://www.neptunecigar.com/cigar/rocky-patel-seed-to-smoke","price":null}],
   },
   {
     id: "quorum-classic-robusto",
@@ -35714,6 +35509,7 @@ const CIGARS = [
     smokingTime: 45,
     price: 3.18,
     rating: 86,
+    image: "https://www.smokeinn.com/images/P/espinosa-logo-19.jpg",
     flavors: ["Cedar","Toast","Cream","White Pepper","Hay"],
     size: "Robusto",
     length: 5,
