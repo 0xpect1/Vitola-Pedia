@@ -2135,6 +2135,23 @@
       }
     });
 
+    /* Opening the lounge should put you in the room. Joining only
+       happened inside refresh(), so arriving via the nav left you present
+       to yourself and invisible to everyone else until something else
+       triggered a refresh. */
+    const origSwitch = window.switchView;
+    if (typeof origSwitch === 'function') {
+      window.switchView = function (name) {
+        const out = origSwitch.apply(this, arguments);
+        if (name === 'lounge') refresh();
+        return out;
+      };
+    }
+
+    // Presence has a TTL, so re-announce periodically rather than trusting
+    // a single join to hold for the whole visit.
+    setInterval(() => { if (me) ensureInRoom(); }, 20000);
+
     // Keep the nav badge warm even when the lounge isn't the active view.
     setInterval(updateNavBadge, 20000);
 

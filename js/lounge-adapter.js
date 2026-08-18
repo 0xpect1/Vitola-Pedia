@@ -32,8 +32,13 @@
      put a service_role key here.
   ─────────────────────────────────────────────────────────────────── */
   const LOUNGE_CONFIG = {
-    supabase: null,
-    // supabase: { url: 'https://xxxx.supabase.co', anonKey: 'eyJhbGci...' },
+    supabase: {
+      url:     'https://kygxntaptlnyxinchgxm.supabase.co',
+      // Supabase's newer publishable key — the successor to the legacy
+      // anon JWT, and public by the same logic: RLS is what protects the
+      // data, not this string.
+      anonKey: 'sb_publishable_SfhLchaNwPUj9gwxNWbkLw_IcQ_Qnc7',
+    },
 
     /* ── Reddit account linking ───────────────────────────────────
        Reddit's token endpoint (www.reddit.com/api/v1/access_token)
@@ -596,8 +601,22 @@
         // Presence is ephemeral — Supabase Realtime tracks it in memory and
         // drops it automatically on disconnect. Nothing hits the database.
         presenceChan = sb.channel('lounge-presence', {
-          config: { presence: { key: authId } },
+          // A per-connection key, not the auth id: presence is now set up
+          // before anyone signs in, and each tab is its own entry anyway.
+          config: { presence: { key: uid() } },
         });
+        /* Confirm the schema is actually there before claiming to be live.
+           Without this the adapter connects happily, reports "Live", and
+           then every read fails with PGRST205 — a room that looks open and
+           is actually broken. Better to fall back to solo and say why. */
+        const { error: schemaErr } = await sb
+          .from('lounge_posts').select('id').limit(1);
+        if (schemaErr && /schema cache|does not exist|PGRST205/i.test(
+              (schemaErr.message || '') + (schemaErr.code || ''))) {
+          throw new Error(
+            'the lounge tables are missing — run docs/lounge-schema.sql in the Supabase SQL editor');
+        }
+
         presenceChan
           .on('presence', { event: 'sync' }, () => emit('presence'))
           // Chat rides the same channel as a broadcast — nothing is
