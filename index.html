@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- ═══ PRIMARY SEO ═══════════════════════════════════════════════ -->
-  <title>Vitola Pedia — Premium Cigar Encyclopedia | 1,484 Cigars</title>
-  <meta name="description" content="The world's most complete cigar encyclopedia. Browse 1,484 premium cigars from Cuba, Nicaragua, Dominican Republic and beyond — filter by strength, origin, wrapper, flavor, and price." />
+  <title>Vitola Pedia — Premium Cigar Encyclopedia | 1,458 Cigars</title>
+  <meta name="description" content="The world's most complete cigar encyclopedia. Browse 1,458 premium cigars from Cuba, Nicaragua, Dominican Republic and beyond — filter by strength, origin, wrapper, flavor, and price." />
   <link rel="canonical" href="https://vitolapedia.com/" />
   <meta name="robots" content="index, follow" />
 
@@ -14,7 +14,7 @@
   <meta property="og:type"         content="website" />
   <meta property="og:url"          content="https://vitolapedia.com/" />
   <meta property="og:title"        content="Vitola Pedia — Premium Cigar Encyclopedia" />
-  <meta property="og:description"  content="Browse 1,484 premium cigars from the world's top brands. Every detail: strength, origin, wrapper, flavor, smoke time, and price." />
+  <meta property="og:description"  content="Browse 1,458 premium cigars from the world's top brands. Every detail: strength, origin, wrapper, flavor, smoke time, and price." />
   <meta property="og:image"        content="https://vitolapedia.com/og-image.png" />
   <meta property="og:image:width"  content="1200" />
   <meta property="og:image:height" content="630" />
@@ -23,7 +23,7 @@
   <!-- ═══ TWITTER CARD ══════════════════════════════════════════════ -->
   <meta name="twitter:card"        content="summary_large_image" />
   <meta name="twitter:title"       content="Vitola Pedia — Premium Cigar Encyclopedia" />
-  <meta name="twitter:description" content="Browse 1,484 premium cigars — filter by strength, origin, wrapper, flavor, and price." />
+  <meta name="twitter:description" content="Browse 1,458 premium cigars — filter by strength, origin, wrapper, flavor, and price." />
   <meta name="twitter:image"       content="https://vitolapedia.com/og-image.png" />
 
   <!-- ═══ THEME & BRAND ════════════════════════════════════════════ -->
@@ -34,6 +34,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/lounge.css" />
+  <link rel="stylesheet" href="css/enrich.css" />
+  <link rel="stylesheet" href="css/houses.css" />
+  <link rel="stylesheet" href="css/journal.css" />
+  <link rel="stylesheet" href="css/picker.css" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1209'/%3E%3Crect x='4' y='14' width='20' height='5' rx='2.5' fill='%23c9943a'/%3E%3Crect x='24' y='14' width='4' height='5' rx='1' fill='%23e8b86d'/%3E%3Ccircle cx='25' cy='13' r='2' fill='%23ff6b35' opacity='.9'/%3E%3C/svg%3E" />
 
   <!-- ═══ STRUCTURED DATA ═══════════════════════════════════════════ -->
@@ -44,7 +49,7 @@
     "name": "Vitola Pedia",
     "alternateName": "VitolaPedia",
     "url": "https://vitolapedia.com/",
-    "description": "The world's most complete premium cigar encyclopedia. 1,484 cigars with filters for strength, origin, wrapper, flavor, and price.",
+    "description": "The world's most complete premium cigar encyclopedia. 1,458 cigars with filters for strength, origin, wrapper, flavor, and price.",
     "inLanguage": "en",
     "potentialAction": {
       "@type": "SearchAction",
@@ -146,8 +151,10 @@
       <nav class="header-nav">
         <button class="nav-btn active" data-view="library">Cigars</button>
         <button class="nav-btn" data-view="pipe-tobacco">Pipe Tobacco</button>
+        <button class="nav-btn" data-view="houses">Houses</button>
         <button class="nav-btn" data-view="regions">Regions</button>
         <button class="nav-btn" data-view="guide">Guide</button>
+        <button class="nav-btn" data-view="lounge">Lounge<span class="lounge-nav-badge hidden" id="loungeNavBadge">0</span><span class="lounge-reply-badge hidden" id="loungeReplyBadge">0</span></button>
         <button class="nav-icon-btn" id="humidorBtn" title="My Humidor" aria-label="My Humidor">
           <svg viewBox="0 0 24 24" fill="none"><path d="M12 21C12 21 4 13.9 4 8.9C4 6.2 6.2 4 8.9 4C10.2 4 11.4 4.6 12 5.5C12.6 4.6 13.8 4 15.1 4C17.8 4 20 6.2 20 8.9C20 13.9 12 21 12 21Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
           <span class="hum-badge hidden" id="humBadge">0</span>
@@ -190,11 +197,11 @@
     <div class="hero-stats" id="heroStats">
       <div class="stat"><span class="stat-num" id="statTotal">0</span><span class="stat-label">Cigars</span></div>
       <div class="stat-div"></div>
-      <div class="stat"><span class="stat-num">10</span><span class="stat-label">Countries</span></div>
+      <div class="stat"><span class="stat-num" id="statCountries">0</span><span class="stat-label">Countries</span></div>
       <div class="stat-div"></div>
-      <div class="stat"><span class="stat-num">130+</span><span class="stat-label">Brands</span></div>
+      <div class="stat"><span class="stat-num" id="statBrands">0</span><span class="stat-label">Brands</span></div>
       <div class="stat-div"></div>
-      <div class="stat"><span class="stat-num">160+</span><span class="stat-label">Flavor Notes</span></div>
+      <div class="stat"><span class="stat-num" id="statFlavors">0</span><span class="stat-label">Flavor Notes</span></div>
     </div>
   </section>
 
@@ -688,6 +695,27 @@
     </div>
   </section>
 
+  <!-- ░░ HOUSES VIEW ░░ -->
+  <section class="houses-view hidden" id="view-houses"><!-- Injected by js/houses.js --></section>
+
+  <!-- ░░ LOUNGE VIEW ░░ -->
+  <section class="lounge-view hidden" id="view-lounge">
+    <!-- Injected by js/lounge.js -->
+  </section>
+
+  <!-- ░░ LOUNGE MODAL ░░ -->
+  <div class="modal-overlay hidden" id="loungeOverlay">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="loungeModalLabel">
+      <button class="modal-close" id="loungeClose" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="modal-body">
+        <h2 class="lg-modal-title" id="loungeModalLabel">The Lounge</h2>
+        <div id="loungeBody"><!-- Injected by JS --></div>
+      </div>
+    </div>
+  </div>
+
   <!-- ░░ CIGAR DETAIL MODAL ░░ -->
   <div class="modal-overlay hidden" id="modalOverlay">
     <div class="modal" id="cigarModal" role="dialog" aria-modal="true">
@@ -796,5 +824,14 @@
   <script src="js/pipe_tobacco_data.js"></script>
   <script src="js/app.js"></script>
   <script src="js/immersive.js"></script>
+  <script src="js/world-data.js"></script>
+  <script src="js/lounge-adapter.js"></script>
+  <script src="js/lounge.js"></script>
+  <script src="js/enrich.js"></script>
+  <script src="js/brand-logos.js"></script>
+  <script src="js/houses.js"></script>
+  <script src="js/journal.js"></script>
+  <script src="js/picker.js"></script>
+  <script src="js/palette.js"></script>
 </body>
 </html>

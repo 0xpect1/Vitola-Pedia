@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Local scratch
+_sheet.html
+*.bak
+
+# Standalone 3D landing experiment (56MB, not served by the site)
+3d-cigar-encyclopedia-landing/

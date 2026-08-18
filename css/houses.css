@@ -1,0 +1,304 @@
+/* ================================================================
+   THE HOUSES — brand index + brand pages
+   ================================================================ */
+
+.houses-view { max-width: 1240px; margin: 0 auto; padding: 48px 24px 100px; }
+
+/* ── HERO ───────────────────────────────────────────────────────── */
+.houses-hero { text-align: center; margin-bottom: 34px; }
+.houses-hero h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(38px, 6vw, 62px);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+}
+.houses-hero h1 em { color: var(--gold); font-style: italic; }
+.houses-hero > p {
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.houses-stats {
+  display: flex; justify-content: center; flex-wrap: wrap;
+  gap: 12px 30px;
+}
+.houses-stats span { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); }
+.houses-stats strong {
+  font-family: var(--font-serif);
+  font-size: 19px; font-weight: 400;
+  color: var(--gold-light);
+  letter-spacing: 0;
+  margin-right: 5px;
+}
+
+/* ── CONTROLS ───────────────────────────────────────────────────── */
+.houses-controls {
+  display: flex; gap: 14px; flex-wrap: wrap;
+  align-items: center; justify-content: space-between;
+  margin-bottom: 14px;
+}
+.houses-search {
+  display: flex; align-items: center; gap: 10px;
+  flex: 1; min-width: 240px; max-width: 420px;
+  padding: 11px 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  transition: var(--transition);
+}
+.houses-search:focus-within { border-color: var(--gold); box-shadow: 0 0 0 3px var(--gold-glow); }
+.houses-search svg { color: var(--gold); flex-shrink: 0; }
+.houses-search input {
+  flex: 1; background: none; border: none; outline: none;
+  color: var(--text-primary); font-size: 14px;
+}
+.houses-search input::placeholder { color: var(--text-muted); }
+
+.houses-sorts { display: flex; gap: 4px; background: var(--bg-card); border-radius: 999px; padding: 4px; }
+.houses-sort {
+  padding: 7px 15px; border-radius: 999px;
+  font-size: 12px; font-weight: 600; color: var(--text-muted);
+  transition: var(--transition);
+}
+.houses-sort:hover { color: var(--text-secondary); }
+.houses-sort.active { background: var(--gold-glow); color: var(--gold-light); }
+
+.houses-count {
+  font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--text-muted); margin-bottom: 16px;
+}
+.houses-empty { color: var(--text-muted); padding: 40px; text-align: center; grid-column: 1/-1; }
+
+/* ── HOUSE CARD ─────────────────────────────────────────────────── */
+.houses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+}
+.house-card {
+  display: flex; gap: 14px; align-items: flex-start;
+  text-align: left; padding: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  transition: var(--transition);
+}
+.house-card:hover {
+  border-color: var(--border-h);
+  background: var(--bg-card-h);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-card);
+}
+
+.house-crest {
+  width: 52px; height: 52px; flex-shrink: 0;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, rgba(201,168,76,0.22), rgba(201,168,76,0.06));
+  border: 1px solid var(--border-h);
+  position: relative;
+}
+.house-crest::after {
+  content: '';
+  position: absolute; inset: 4px;
+  border-radius: 50%;
+  border: 1px solid rgba(201,168,76,0.18);
+}
+.house-crest .crest-mono {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  color: var(--gold-light);
+  letter-spacing: 0.04em;
+}
+
+/* ── LOGO CREST ─────────────────────────────────────────────────
+   A logo replaces the monogram inside the same frame. The plate is a
+   warm cream disc — the cigar-band idea — so dark marks, light marks
+   and colour marks all read against the dark theme without needing a
+   different treatment per brand.
+──────────────────────────────────────────────────────────────── */
+.house-crest.has-logo, .house-hero-crest.has-logo {
+  overflow: hidden;
+}
+.has-logo .crest-mono { display: none; }
+.crest-logo {
+  width: 74%; height: 74%;
+  object-fit: contain;
+  display: block;
+}
+
+/* Dark and colour marks — the warm cream disc, like a cigar band. */
+.has-logo.plate-cream {
+  background: linear-gradient(160deg, #f6efdd, #e4d7ba);
+  border-color: rgba(201,168,76,0.5);
+}
+.has-logo.plate-cream::after { border-color: rgba(120,92,30,0.22); }
+
+/* White and light marks — drawn for dark packaging, so they get a deep
+   espresso disc instead. On cream they would simply disappear. */
+.has-logo.plate-dark {
+  background: linear-gradient(160deg, #241b12, #14100b);
+  border-color: rgba(201,168,76,0.45);
+}
+.has-logo.plate-dark::after { border-color: rgba(201,168,76,0.16); }
+
+.house-body { display: flex; flex-direction: column; gap: 4px; min-width: 0; flex: 1; }
+.house-name {
+  font-family: var(--font-serif);
+  font-size: 17px; line-height: 1.25;
+  color: var(--text-primary);
+}
+.house-card:hover .house-name { color: var(--gold-light); }
+.house-sub { font-size: 11.5px; color: var(--text-muted); }
+.house-flavors { display: flex; flex-wrap: wrap; gap: 4px; margin: 4px 0 2px; }
+.house-flav {
+  font-size: 9.5px; padding: 2px 7px; border-radius: 999px;
+  background: var(--gold-glow); color: var(--gold-light);
+  border: 1px solid var(--border);
+}
+.house-stats { display: flex; flex-wrap: wrap; gap: 10px; font-size: 10.5px; color: var(--text-muted); }
+.house-stats strong { color: var(--text-secondary); font-weight: 700; }
+
+/* ── HOUSE DETAIL ───────────────────────────────────────────────── */
+.house-back {
+  display: inline-flex; align-items: center;
+  font-size: 12.5px; font-weight: 600; color: var(--text-muted);
+  padding: 8px 14px; border-radius: 999px;
+  border: 1px solid var(--border);
+  margin-bottom: 26px;
+  transition: var(--transition);
+}
+.house-back:hover { color: var(--gold-light); border-color: var(--gold); background: var(--gold-glow); }
+
+.house-hero { display: flex; align-items: center; gap: 20px; margin-bottom: 26px; flex-wrap: wrap; }
+.house-hero-crest {
+  width: 84px; height: 84px; flex-shrink: 0;
+  display: grid; place-items: center; position: relative;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, rgba(201,168,76,0.26), rgba(201,168,76,0.05));
+  border: 1px solid var(--border-h);
+}
+.house-hero-crest::after {
+  content: ''; position: absolute; inset: 6px;
+  border-radius: 50%; border: 1px solid rgba(201,168,76,0.2);
+}
+.house-hero-crest .crest-mono {
+  font-family: var(--font-serif); font-size: 30px;
+  color: var(--gold-light); letter-spacing: 0.04em;
+}
+.house-hero-text h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(30px, 4.5vw, 46px);
+  font-weight: 400; line-height: 1.1;
+  margin-bottom: 6px;
+}
+.house-hero-sub { font-size: 13.5px; color: var(--text-secondary); }
+
+.house-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.hm {
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 14px 12px;
+  text-align: center;
+}
+.hm-v {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 23px; color: var(--gold-light);
+  line-height: 1.15; margin-bottom: 4px;
+}
+.hm-l {
+  font-size: 9.5px; letter-spacing: 0.11em;
+  text-transform: uppercase; color: var(--text-muted);
+}
+
+.house-panels {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 14px;
+  margin-bottom: 40px;
+}
+.house-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px;
+}
+.house-panel h2 {
+  font-family: var(--font-serif);
+  font-size: 20px; font-weight: 400;
+  color: var(--gold-light); margin-bottom: 5px;
+}
+.house-panel-sub { font-size: 12px; color: var(--text-muted); margin-bottom: 18px; line-height: 1.55; }
+
+.house-flav-bars, .house-strength { display: flex; flex-direction: column; gap: 9px; }
+.hfb-row, .hs-row {
+  display: grid;
+  grid-template-columns: 92px 1fr 40px;
+  align-items: center; gap: 11px;
+}
+.hfb-name, .hs-l {
+  font-size: 11.5px; color: var(--text-secondary);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.hfb-track, .hs-track {
+  height: 6px; border-radius: 999px;
+  background: rgba(201,168,76,0.08);
+  overflow: hidden;
+}
+.hfb-fill { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--gold-dark), var(--gold)); }
+.hfb-n, .hs-n {
+  font-size: 11px; color: var(--text-muted);
+  text-align: right; font-variant-numeric: tabular-nums;
+}
+.hs-fill { display: block; height: 100%; border-radius: 999px; }
+.hs-fill.s1 { background: var(--strength-1); }
+.hs-fill.s2 { background: var(--strength-2); }
+.hs-fill.s3 { background: var(--strength-3); }
+.hs-fill.s4 { background: var(--strength-4); }
+.hs-fill.s5 { background: var(--strength-5); }
+
+.house-signature { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--border); }
+.house-sig-label {
+  display: block; font-size: 9.5px; letter-spacing: 0.13em;
+  text-transform: uppercase; color: var(--text-muted); margin-bottom: 10px;
+}
+.house-sig-card {
+  display: flex; align-items: center; gap: 12px;
+  width: 100%; text-align: left; padding: 10px;
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  transition: var(--transition);
+}
+.house-sig-card:hover { border-color: var(--border-h); background: var(--bg-card-h); }
+.house-sig-card img, .house-sig-noimg {
+  width: 46px; height: 46px; flex-shrink: 0;
+  object-fit: contain; border-radius: var(--radius-sm);
+}
+.house-sig-noimg { display: grid; place-items: center; font-size: 20px; background: var(--bg-card); }
+.house-sig-card strong { display: block; font-size: 13px; color: var(--text-primary); }
+.house-sig-card em { font-style: normal; font-size: 11.5px; color: var(--text-muted); }
+
+.house-lineup-title {
+  font-family: var(--font-serif);
+  font-size: 24px; font-weight: 400;
+  color: var(--gold-light); margin-bottom: 18px;
+}
+.house-lineup { margin-bottom: 40px; }
+
+@media (max-width: 700px) {
+  .houses-view { padding: 32px 16px 80px; }
+  .houses-controls { flex-direction: column; align-items: stretch; }
+  .houses-search { max-width: none; }
+  .houses-sorts { justify-content: center; flex-wrap: wrap; }
+  .hfb-row, .hs-row { grid-template-columns: 74px 1fr 34px; gap: 8px; }
+}

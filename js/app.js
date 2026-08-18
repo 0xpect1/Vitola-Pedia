@@ -104,20 +104,37 @@ function matchesTime(cigar, timeFilter) {
   if (timeFilter === 'long') return t > 75;
 }
 
+// Lowercase and strip diacritics so "Padron" finds "Padrón", "Antano"
+// finds "Antaño", and so on.
+function normText(s) {
+  return String(s == null ? '' : s)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '');
+}
+
+// The searchable blob is built once per cigar and cached in a WeakMap —
+// re-normalising 1,458 records on every keystroke is needless work, and a
+// side table keeps the cigar objects themselves clean.
+const SEARCH_BLOBS = new WeakMap();
+
+function searchBlob(cigar) {
+  let blob = SEARCH_BLOBS.get(cigar);
+  if (blob === undefined) {
+    blob = normText([
+      cigar.name, cigar.brand, cigar.origin, cigar.region, cigar.wrapper,
+      cigar.size, cigar.description,
+      (cigar.flavors || []).join(' '),
+      (cigar.pairings || []).join(' '),
+    ].join(' '));
+    SEARCH_BLOBS.set(cigar, blob);
+  }
+  return blob;
+}
+
 function matchesSearch(cigar, query) {
   if (!query) return true;
-  const q = query.toLowerCase();
-  return (
-    cigar.name.toLowerCase().includes(q) ||
-    cigar.brand.toLowerCase().includes(q) ||
-    cigar.origin.toLowerCase().includes(q) ||
-    cigar.region.toLowerCase().includes(q) ||
-    cigar.wrapper.toLowerCase().includes(q) ||
-    cigar.size.toLowerCase().includes(q) ||
-    cigar.flavors.some(f => f.toLowerCase().includes(q)) ||
-    cigar.description.toLowerCase().includes(q) ||
-    (cigar.pairings || []).some(p => p.toLowerCase().includes(q))
-  );
+  return searchBlob(cigar).includes(normText(query));
 }
 
 function sortCigars(cigars) {
@@ -274,37 +291,112 @@ function renderListCard(cigar) {
 }
 
 // ── RENDER GRID ──────────────────────────────────────────────────
+/* ── PROGRESSIVE RENDER ───────────────────────────────────────────
+   The library used to put all 1,456 matching cards in the DOM at once —
+   64k nodes, which mobile scrolling really felt. Cards now arrive a page
+   at a time as you approach the end of the list. The result count still
+   reports the true total, so nothing about the filtering is hidden.
+────────────────────────────────────────────────────────────────── */
+const PAGE_SIZE = 60;
+let _pool = [];        // everything currently matching, in sort order
+let _shown = 0;        // how many of those are actually in the DOM
+let _tailObserver = null;
+
 function render() {
-  const filtered = sortCigars(getFiltered());
-  const count = filtered.length;
+  _pool = sortCigars(getFiltered());
+  const count = _pool.length;
 
   $count.innerHTML = `<strong>${count}</strong> cigar${count !== 1 ? 's' : ''} found`;
   $noResults.classList.toggle('hidden', count > 0);
   $grid.innerHTML = '';
+  _shown = 0;
 
-  if (count === 0) return;
+  if (count === 0) { syncTail(); return; }
 
-  const html = state.view === 'list'
-    ? filtered.map(c => renderListCard(c)).join('')
-    : filtered.map((c, i) => renderCard(c, i)).join('');
-
-  $grid.innerHTML = html;
   $grid.classList.toggle('list-view', state.view === 'list');
-
-  // Attach click handlers
-  $grid.querySelectorAll('.cigar-card').forEach(card => {
-    const open = (e) => {
-      if (e.target.closest('.card-compare-btn') || e.target.closest('.card-heart-btn')) return;
-      openModal(card.dataset.id);
-    };
-    card.addEventListener('click', open);
-    card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') open(e); });
-  });
-
-  if (window.VP && VP.onGridRender) VP.onGridRender($grid);
+  appendPage();
 }
 
-// ── MODAL ────────────────────────────────────────────────────────
+function appendPage() {
+  const slice = _pool.slice(_shown, _shown + PAGE_SIZE);
+  if (!slice.length) return;
+
+  $grid.insertAdjacentHTML('beforeend', state.view === 'list'
+    ? slice.map(c => renderListCard(c)).join('')
+    : slice.map((c, i) => renderCard(c, _shown + i)).join(''));
+
+  _shown += slice.length;
+  if (window.VP && VP.onGridRender) VP.onGridRender($grid);
+  syncTail();
+
+  // The observer only reports edge crossings, so on a tall viewport — or
+  // after a jump straight to the bottom — the sentinel can sit in view
+  // without ever firing again. Check its geometry directly and keep
+  // filling until it's genuinely below the fold.
+  requestAnimationFrame(fillViewport);
+}
+
+function fillViewport() {
+  if (_shown >= _pool.length) return;
+  const tail = document.getElementById('gridTail');
+  if (!tail) return;
+  const rect = tail.getBoundingClientRect();
+  if (rect.top < window.innerHeight + 600) appendPage();
+}
+
+/* A sentinel just past the grid; when it scrolls into view the next page
+   is added. Kept out of the DOM entirely once everything is shown. */
+function syncTail() {
+  let tail = document.getElementById('gridTail');
+  const more = _shown < _pool.length;
+
+  if (!more) {
+    if (tail) { if (_tailObserver) _tailObserver.unobserve(tail); tail.remove(); }
+    return;
+  }
+
+  if (!tail) {
+    tail = document.createElement('div');
+    tail.id = 'gridTail';
+    tail.className = 'grid-tail';
+    tail.innerHTML = `<span class="grid-tail-ember"></span>`;
+    $grid.insertAdjacentElement('afterend', tail);
+  } else {
+    // Move it back to the end so it always trails the last card.
+    $grid.insertAdjacentElement('afterend', tail);
+  }
+  tail.querySelector('.grid-tail-ember').setAttribute(
+    'aria-label', `Loading more — ${_pool.length - _shown} of ${_pool.length} still to come`);
+
+  if (!_tailObserver) {
+    _tailObserver = new IntersectionObserver(entries => {
+      if (entries.some(e => e.isIntersecting)) appendPage();
+    }, { rootMargin: '600px 0px' });
+  }
+  _tailObserver.observe(tail);
+}
+
+/* One delegated listener instead of two per card — at 1,456 cards the old
+   approach was wiring up nearly three thousand handlers on every render. */
+function bindGridDelegation() {
+  const openFrom = el => {
+    const card = el.closest('.cigar-card');
+    if (!card || !card.dataset.id) return;
+    openModal(card.dataset.id);
+  };
+  $grid.addEventListener('click', e => {
+    if (e.target.closest('.card-compare-btn') || e.target.closest('.card-heart-btn')
+        || e.target.closest('.card-size-pill')) return;
+    openFrom(e.target);
+  });
+  $grid.addEventListener('keydown', e => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    if (!e.target.classList || !e.target.classList.contains('cigar-card')) return;
+    e.preventDefault();
+    openFrom(e.target);
+  });
+}
+
 function openModal(id) {
   const cigar = CIGARS.find(c => c.id === id);
   if (!cigar) return;
@@ -426,7 +518,7 @@ function closeModal() {
   if (window.location.hash.startsWith('#/cigar/') || window.location.hash.startsWith('#/tobacco/')) {
     history.pushState({}, '', '/');
   }
-  document.title = 'Vitola Pedia — Premium Cigar Encyclopedia | 1,484 Cigars';
+  document.title = 'Vitola Pedia — Premium Cigar Encyclopedia | 1,458 Cigars';
 }
 
 // ── WHERE TO BUY ─────────────────────────────────────────────────
@@ -1210,7 +1302,7 @@ function renderRegions() {
 function switchView(viewName) {
   state.currentView = viewName;
 
-  const views = ['library', 'regions', 'guide', 'pipe-tobacco'];
+  const views = ['library', 'regions', 'guide', 'pipe-tobacco', 'lounge', 'houses'];
   views.forEach(v => {
     const el = document.getElementById(`view-${v}`);
     if (el) el.classList.toggle('hidden', v !== viewName);
@@ -1363,8 +1455,26 @@ function initFlavorSearch() {
 
 // ── INIT ─────────────────────────────────────────────────────────
 function init() {
-  // Update total stat
-  $totalStat.textContent = CIGARS.length;
+  // Hero stats are derived, never hand-typed — the hardcoded ones had
+  // drifted well out of date as the library grew.
+  $totalStat.textContent = CIGARS.length.toLocaleString();
+  const setStat = (id, val) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = val;
+  };
+  setStat('statBrands', new Set(CIGARS.map(c => c.brand)).size);
+  setStat('statCountries', new Set(CIGARS.map(c => c.origin)).size);
+  setStat('statFlavors', new Set(CIGARS.flatMap(c => c.flavors || [])).size);
+
+  bindGridDelegation();
+
+  // Belt and braces: momentum scrolling can outrun the observer.
+  let scrollTick = false;
+  window.addEventListener('scroll', () => {
+    if (scrollTick) return;
+    scrollTick = true;
+    requestAnimationFrame(() => { scrollTick = false; fillViewport(); });
+  }, { passive: true });
 
   // Populate brand dropdown
   const $brandSelect = document.getElementById('brandSelect');
@@ -1501,6 +1611,7 @@ function init() {
 
 // ── COMPARE ──────────────────────────────────────────────────────
 const compareList = [];
+const COMPARE_MAX = 4;   // four fits a radar and a table without either going unreadable
 
 function toggleCompare(id, e) {
   if (e) e.stopPropagation();
@@ -1508,7 +1619,7 @@ function toggleCompare(id, e) {
   if (idx > -1) {
     compareList.splice(idx, 1);
   } else {
-    if (compareList.length >= 2) return;
+    if (compareList.length >= COMPARE_MAX) return;
     compareList.push(id);
   }
   updateCompareTray();
@@ -1530,7 +1641,7 @@ function updateCompareTray() {
   }
   tray.classList.remove('hidden');
 
-  const empties = 2 - compareList.length;
+  const empties = COMPARE_MAX - compareList.length;
   let html = compareList.map(id => {
     const c = CIGARS.find(x => x.id === id);
     return `<div class="compare-slot">
@@ -1543,66 +1654,145 @@ function updateCompareTray() {
   }
   slots.innerHTML = html;
   goBtn.disabled = compareList.length < 2;
+  goBtn.textContent = compareList.length > 2
+    ? `Compare ${compareList.length} Side by Side` : 'Compare Side by Side';
+}
+
+// ── COMPARE — up to four, radar + spec table ─────────────────────
+const COMPARE_COLORS = ['#c9a84c', '#7fc99e', '#8fb8d8', '#e07b3a'];
+
+/* The five axes worth overlaying. Each is normalised to 0–1 against the
+   whole library so the shape means something beyond the chosen few. */
+const RADAR_AXES = [
+  { key: 'strength',    label: 'Body',      get: c => c.strength,    min: 1, max: 5 },
+  { key: 'rating',      label: 'Rating',    get: c => c.rating,      min: 82, max: 100 },
+  { key: 'price',       label: 'Price',     get: c => c.price,       min: 0, max: 60 },
+  { key: 'smokingTime', label: 'Length',    get: c => c.smokingTime, min: 20, max: 120 },
+  { key: 'ringGauge',   label: 'Ring',      get: c => c.ringGauge,   min: 30, max: 64 },
+];
+
+function buildCompareRadar(cigars) {
+  const R = 92, CX = 150, CY = 120;
+  const n = RADAR_AXES.length;
+  const pt = (i, r) => {
+    const a = (Math.PI * 2 * i) / n - Math.PI / 2;
+    return [CX + Math.cos(a) * r, CY + Math.sin(a) * r];
+  };
+
+  let rings = '';
+  [0.25, 0.5, 0.75, 1].forEach(f => {
+    const p = Array.from({ length: n }, (_, i) => pt(i, R * f).map(v => v.toFixed(1)).join(','));
+    rings += `<polygon points="${p.join(' ')}" class="cmp-radar-ring"/>`;
+  });
+
+  let spokes = '', labels = '';
+  RADAR_AXES.forEach((ax, i) => {
+    const [x, y] = pt(i, R);
+    spokes += `<line x1="${CX}" y1="${CY}" x2="${x.toFixed(1)}" y2="${y.toFixed(1)}" class="cmp-radar-spoke"/>`;
+    const [lx, ly] = pt(i, R + 17);
+    const anchor = Math.abs(lx - CX) < 6 ? 'middle' : (lx > CX ? 'start' : 'end');
+    labels += `<text x="${lx.toFixed(1)}" y="${(ly + 3).toFixed(1)}" text-anchor="${anchor}" class="cmp-radar-label">${ax.label}</text>`;
+  });
+
+  const shapes = cigars.map((c, ci) => {
+    const pts = RADAR_AXES.map((ax, i) => {
+      const raw = ax.get(c);
+      const f = Math.max(0.06, Math.min((raw - ax.min) / (ax.max - ax.min), 1));
+      return pt(i, R * f).map(v => v.toFixed(1)).join(',');
+    });
+    const col = COMPARE_COLORS[ci];
+    return `<polygon points="${pts.join(' ')}" fill="${col}" fill-opacity="0.13"
+              stroke="${col}" stroke-width="1.8" stroke-linejoin="round"/>`;
+  }).join('');
+
+  return `
+    <div class="cmp-radar-wrap">
+      <svg viewBox="0 0 300 248" class="cmp-radar" role="img" aria-label="Radar comparison across body, rating, price, length and ring gauge">
+        <g>${rings}${spokes}</g>
+        ${shapes}
+        ${labels}
+      </svg>
+      <div class="cmp-legend">
+        ${cigars.map((c, i) => `<span class="cmp-legend-item">
+          <span class="cmp-swatch" style="background:${COMPARE_COLORS[i]}"></span>
+          ${c.name}<em>${c.brand}</em>
+        </span>`).join('')}
+      </div>
+      <p class="cmp-radar-note">Each axis is scaled against the whole library, so a shape reads the same wherever you meet it.</p>
+    </div>`;
 }
 
 function openCompareModal() {
   if (compareList.length < 2) return;
-  const [a, b] = compareList.map(id => CIGARS.find(c => c.id === id));
-  if (!a || !b) return;
+  const picked = compareList.map(id => CIGARS.find(c => c.id === id)).filter(Boolean);
+  if (picked.length < 2) return;
 
-  const sc = s => STRENGTH_CONFIG[s] || STRENGTH_CONFIG[3];
+  // Which cigar wins each row — highest rating, lowest price, and so on.
+  const best = {
+    rating: Math.max(...picked.map(c => c.rating)),
+    price:  Math.min(...picked.map(c => c.price)),
+  };
 
-  function col(cigar, side) {
-    const s = sc(cigar.strength);
-    const pct = (cigar.strength / 5) * 100;
-    const flavTags = cigar.flavors.slice(0, 5).map(f => `<span class="compare-flavor-tag">${f}</span>`).join('');
-    const borderClass = side === 'left' ? 'compare-left' : 'compare-right';
-    const pairingItems = (cigar.pairings || []).map(p => `<span class="compare-pairing-chip">🥃 ${p}</span>`).join('');
-    return `
-      <div class="compare-col">
-        <div class="compare-col-header">
-          <div class="compare-col-name">${cigar.name}</div>
-          <div class="compare-col-brand">${cigar.brand}</div>
-        </div>
-        <div class="compare-cell ${borderClass}">${cigar.origin} · ${cigar.region}</div>
-        <div class="compare-cell ${borderClass} ${a.rating !== b.rating && ((side==='left'&&a.rating>b.rating)||(side==='right'&&b.rating>a.rating)) ? 'highlight' : ''}">${cigar.rating} pts</div>
-        <div class="compare-cell ${borderClass} ${a.price !== b.price && ((side==='left'&&a.price<b.price)||(side==='right'&&b.price<a.price)) ? 'highlight' : ''}">$${cigar.price.toFixed(2)}</div>
-        <div class="compare-cell ${borderClass}">
-          <div style="color:${s.color};font-weight:600">${s.label}</div>
-          <div class="compare-strength-bar"><div class="compare-strength-fill" style="width:${pct}%;background:${s.color}"></div></div>
-        </div>
-        <div class="compare-cell ${borderClass}">${formatTime(cigar.smokingTime)}</div>
-        <div class="compare-cell ${borderClass}">${cigar.wrapper}</div>
-        <div class="compare-cell ${borderClass}">${cigar.size}</div>
-        <div class="compare-cell ${borderClass}">${cigar.length}" × ${cigar.ringGauge}</div>
-        <div class="compare-cell compare-cell-hover-wrap ${borderClass}">
-          <div class="compare-flavor-tags">${flavTags}</div>
-          <div class="compare-hover-reveal">
-            <div class="compare-hover-wheel">${buildFlavorWheel(cigar.flavors)}</div>
-            <div class="compare-hover-pairings-label">Pairs With</div>
-            <div class="compare-hover-pairings">${pairingItems}</div>
-          </div>
-        </div>
-      </div>`;
-  }
+  const ROWS = [
+    ['Origin',      c => `${ORIGIN_FLAGS[c.origin] || ''} ${c.origin}`],
+    ['Region',      c => c.region],
+    ['Rating',      c => `${c.rating} pts`,        c => c.rating === best.rating],
+    ['Price',       c => formatPrice(c.price),     c => c.price === best.price],
+    ['Strength',    c => {
+      const sc = strengthConfig(c.strength);
+      return `<span style="color:${sc.color};font-weight:600">${sc.label}</span>
+        <span class="compare-strength-bar"><span class="compare-strength-fill"
+          style="width:${(c.strength / 5) * 100}%;background:${sc.color}"></span></span>`;
+    }],
+    ['Smoke Time',  c => formatTime(c.smokingTime)],
+    ['Wrapper',     c => c.wrapper],
+    ['Binder',      c => c.binder],
+    ['Filler',      c => c.filler],
+    ['Size',        c => c.size],
+    ['Dimensions',  c => `${c.length}" × ${c.ringGauge}`],
+    ['Flavors',     c => `<span class="compare-flavor-tags">${c.flavors.slice(0, 4)
+      .map(f => `<span class="compare-flavor-tag">${f}</span>`).join('')}</span>`],
+    ['Pairs With',  c => (c.pairings || []).slice(0, 3)
+      .map(pp => `<span class="compare-pairing-chip">🥃 ${pp}</span>`).join('') || '—'],
+  ];
 
-  function dividerRows() {
-    const labels = ['Origin', 'Rating', 'Price', 'Strength', 'Smoke Time', 'Wrapper', 'Size', 'Dimensions', 'Flavors'];
-    return labels.map(l => `<div class="compare-cell-label">${l}</div>`).join('');
-  }
+  // Flavours every one of them shares — the actual common ground.
+  const shared = picked[0].flavors.filter(f =>
+    picked.every(c => c.flavors.some(g => g.toLowerCase() === f.toLowerCase())));
 
   document.getElementById('compareBody').innerHTML = `
     <div class="compare-header">
       <h2>Side by Side</h2>
-      <p>Comparing two cigars across all key specs</p>
+      <p>${picked.length} cigars across every spec that matters</p>
     </div>
-    <div class="compare-grid">
-      ${col(a, 'left')}
-      <div class="compare-divider-col">
-        <div class="compare-vs">VS</div>
-        ${dividerRows()}
-      </div>
-      ${col(b, 'right')}
+
+    ${buildCompareRadar(picked)}
+
+    ${shared.length ? `<div class="cmp-shared">
+      <span class="cmp-shared-label">All ${picked.length} share</span>
+      ${shared.map(f => `<span class="compare-flavor-tag">${f}</span>`).join('')}
+    </div>` : ''}
+
+    <div class="cmp-table-wrap">
+      <table class="cmp-table" style="--cols:${picked.length}">
+        <thead>
+          <tr>
+            <th></th>
+            ${picked.map((c, i) => `<th>
+              <span class="cmp-th-dot" style="background:${COMPARE_COLORS[i]}"></span>
+              <button class="cmp-th-name" onclick="closeCompareModal();openModal('${c.id}')">${c.name}</button>
+              <span class="cmp-th-brand">${c.brand}</span>
+            </th>`).join('')}
+          </tr>
+        </thead>
+        <tbody>
+          ${ROWS.map(([label, fn, isBest]) => `
+            <tr>
+              <th scope="row">${label}</th>
+              ${picked.map(c => `<td${isBest && isBest(c) ? ' class="cmp-best"' : ''}>${fn(c)}</td>`).join('')}
+            </tr>`).join('')}
+        </tbody>
+      </table>
     </div>`;
 
   document.getElementById('compareOverlay').classList.remove('hidden');
@@ -1893,7 +2083,7 @@ window.addEventListener('popstate', (e) => {
   } else {
     $modalOverlay.classList.add('hidden');
     document.body.style.overflow = '';
-    document.title = 'Vitola Pedia — Premium Cigar Encyclopedia | 1,484 Cigars';
+    document.title = 'Vitola Pedia — Premium Cigar Encyclopedia | 1,458 Cigars';
   }
 });
 

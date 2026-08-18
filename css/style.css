@@ -2805,3 +2805,23 @@ body.js-tilt .cigar-card { transform-style: preserve-3d; will-change: transform;
 @keyframes blSmoke {
   to { stroke-dashoffset: -36; }
 }
+
+/* ── PROGRESSIVE GRID TAIL ───────────────────────────────────────── */
+.grid-tail {
+  display: flex;
+  justify-content: center;
+  padding: 34px 0 10px;
+}
+.grid-tail-ember {
+  width: 9px; height: 9px; border-radius: 50%;
+  background: radial-gradient(circle, #fff3cc, #ffb347 45%, #e07b3a);
+  box-shadow: 0 0 12px rgba(255,160,70,0.8);
+  animation: gridTailPulse 1.4s ease-in-out infinite;
+}
+@keyframes gridTailPulse {
+  0%, 100% { transform: scale(0.75); opacity: 0.5; }
+  50%      { transform: scale(1.25); opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .grid-tail-ember { animation: none; }
+}

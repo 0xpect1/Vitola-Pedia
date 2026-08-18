@@ -13,6 +13,9 @@ A premium digital cigar encyclopedia — 1,400+ cigars catalogued with full spec
 - **Detail modals** with full construction specs, flavor wheel, and pairing suggestions
 - **Region guide** covering the world's major tobacco-growing regions
 - **Beginner's guide** to cigar anatomy, strength, and how to smoke
+- **The Lounge** — a live room: light up a cigar and appear as an ember on a
+  world map, plus a threaded feed with flairs, voting, and comments. Location
+  sharing is opt-in and coarse-grained. See [Backend setup](#the-lounge).
 - Grid and list view toggle
 - Fully responsive — works on mobile and desktop
 
@@ -45,9 +48,28 @@ npx serve .
 python3 -m http.server 8080
 ```
 
+## The Lounge
+
+The Lounge ships in **solo mode** — fully functional, but you're the only person
+in the room. Your identity and posts live in `localStorage`; live presence is
+broadcast across your own browser tabs, so opening a second tab genuinely shows
+two embers on the map. No users are simulated.
+
+To open it to everyone, point `LOUNGE_CONFIG` in `js/lounge-adapter.js` at a
+free Supabase project. That's the only code change — the site stays static, with
+no build step. Schema, RLS policies, and setup steps:
+[`docs/lounge-backend.md`](docs/lounge-backend.md).
+
+**Location privacy:** sharing is off by default. Device coordinates are rounded
+to a ~55 km grid the moment they're received — the precise fix is never stored
+or transmitted — and the form previews the exact rounded position before you
+confirm. Picking a city from a list never touches the Geolocation API at all.
+
 ## Stack
 
-Pure HTML, CSS, and vanilla JavaScript. No frameworks, no dependencies, no build tools.
+Pure HTML, CSS, and vanilla JavaScript. No frameworks, no dependencies, no build
+tools. The Lounge optionally loads `supabase-js` from a CDN at runtime, and only
+when a backend is configured.
 
 ## Adding Cigars
 
