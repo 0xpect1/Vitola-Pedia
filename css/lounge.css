@@ -1282,3 +1282,99 @@
 .lg-pop-name { font-size: 13px; font-weight: 600; color: var(--text-primary); line-height: 1.3; padding-right: 16px; }
 .lg-pop-meta { font-size: 11px; color: var(--text-muted); }
 .lg-pop-count { font-size: 10.5px; color: var(--gold); }
+
+/* ══════════════════════════════════════════════════════════════════
+   AVATARS — drawn marks, emoji, or an uploaded picture
+═══════════════════════════════════════════════════════════════════ */
+.av-mark { width: 100%; height: 100%; color: var(--gold); display: block; }
+.av-photo { width: 100%; height: 100%; object-fit: cover; border-radius: inherit; display: block; }
+.av-emoji { font-size: 0.95em; line-height: 1; }
+
+/* Containers that used to hold a bare emoji now hold arbitrary content. */
+.lg-sess-avatar, .lg-msg-avatar, .lg-prof-avatar, .lg-av-preview {
+  display: grid; place-items: center; overflow: hidden;
+}
+.lg-sess-avatar { width: 26px; height: 26px; border-radius: 50%; }
+.lg-sess-avatar .av-mark { width: 22px; height: 22px; }
+.lg-prof-avatar .av-mark { width: 32px; height: 32px; }
+.lg-msg-avatar .av-mark { width: 19px; height: 19px; }
+
+.lg-inline-av, .lg-ec-av {
+  display: inline-grid; place-items: center;
+  width: 16px; height: 16px;
+  vertical-align: -3px; margin-right: 5px;
+  border-radius: 50%; overflow: hidden;
+}
+.lg-inline-av .av-mark, .lg-ec-av .av-mark { width: 15px; height: 15px; }
+.lg-inline-av .av-emoji, .lg-ec-av .av-emoji { font-size: 13px; }
+
+/* ── PICKER ─────────────────────────────────────────────────────── */
+.lg-av-current {
+  display: flex; align-items: center; gap: 14px;
+  padding: 13px; margin-bottom: 12px;
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+.lg-av-preview {
+  width: 54px; height: 54px; flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 1px solid var(--border-h);
+  font-size: 25px;
+}
+.lg-av-preview .av-mark { width: 32px; height: 32px; }
+.lg-av-caption { font-size: 12px; color: var(--text-muted); line-height: 1.5; }
+
+.lg-av-tabs {
+  display: flex; gap: 3px; padding: 3px;
+  background: var(--bg-deep);
+  border-radius: 999px;
+  width: fit-content;
+  margin-bottom: 12px;
+}
+.lg-av-tab {
+  padding: 7px 16px; border-radius: 999px;
+  font-size: 12px; font-weight: 600; color: var(--text-muted);
+  transition: var(--transition);
+}
+.lg-av-tab:hover { color: var(--text-secondary); }
+.lg-av-tab.active { background: var(--gold-glow); color: var(--gold-light); }
+
+.lg-av-grid { display: flex; flex-wrap: wrap; gap: 7px; }
+.lg-av-opt {
+  width: 44px; height: 44px;
+  display: grid; place-items: center;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg-deep);
+  font-size: 20px;
+  transition: var(--transition);
+}
+.lg-av-opt:hover { border-color: var(--border-h); transform: translateY(-1px); }
+.lg-av-opt.active {
+  border-color: var(--gold);
+  background: var(--gold-glow);
+  box-shadow: 0 0 0 2px var(--gold-glow);
+}
+.lg-av-opt .av-mark { width: 26px; height: 26px; opacity: 0.8; }
+.lg-av-opt.active .av-mark { opacity: 1; color: var(--gold-light); }
+
+.lg-av-drop {
+  display: flex; flex-direction: column; gap: 5px;
+  padding: 22px 18px; text-align: center;
+  border: 1px dashed var(--border-h);
+  border-radius: var(--radius-md);
+  background: var(--bg-deep);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.lg-av-drop:hover { border-color: var(--gold); background: var(--gold-glow); }
+.lg-av-drop strong { font-size: 13.5px; color: var(--gold-light); font-weight: 600; }
+.lg-av-drop span { font-size: 11.5px; color: var(--text-muted); line-height: 1.55; }
+.lg-av-remove {
+  margin-top: 10px; font-size: 11.5px; color: var(--text-muted);
+  padding: 6px 12px; border-radius: var(--radius-sm);
+  transition: var(--transition);
+}
+.lg-av-remove:hover { color: #d04040; background: rgba(208,64,64,0.1); }

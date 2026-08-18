@@ -31,6 +31,11 @@
 
   const STRENGTH_LABELS = ['Mild', 'Mild–Med', 'Medium', 'Med–Full', 'Full'];
 
+  /* Avatars may be an emoji, a drawn mark or an uploaded photo — every
+     render site goes through here so none of them has to care which. */
+  const av = (a, alt) => (typeof VPAvatar !== 'undefined'
+    ? VPAvatar.render(a, alt) : `<span class="av-emoji">${esc(a || '🚬')}</span>`);
+
   /* ══════════════════════════════════════════════════════════════
      1. WORLD MAP
      Equirectangular, so placing a coordinate is exact arithmetic
@@ -615,7 +620,7 @@
         <div class="lg-msg${grouped ? ' grouped' : ''}${isMe ? ' is-me' : ''}">
           ${grouped ? '<span class="lg-msg-gutter"></span>' : `
             <button class="lg-msg-avatar lg-who" data-who="${esc(m.memberId)}"
-                    aria-label="${esc(m.handle)}">${esc(m.avatar || '🚬')}</button>`}
+                    aria-label="${esc(m.handle)}">${av(m.avatar, '')}</button>`}
           <div class="lg-msg-body">
             ${grouped ? '' : `<div class="lg-msg-head">
               <button class="lg-who lg-msg-who" data-who="${esc(m.memberId)}">${esc(m.handle)}</button>
@@ -717,7 +722,7 @@
     $('loungeBody').innerHTML = `
       <div class="lg-profile">
         <header class="lg-prof-head">
-          <span class="lg-prof-avatar">${esc(ident.avatar || '🚬')}</span>
+          <span class="lg-prof-avatar">${av(ident.avatar, esc(ident.handle))}</span>
           <div>
             <h3>${esc(ident.handle)}${isMe ? ' <em>you</em>' : ''}</h3>
             <div class="lg-prof-sub">
@@ -901,7 +906,7 @@
         const isMe = me && s.memberId === me.id;
         const item = lookupItem(s.itemType, s.itemId);
         return `<span class="lg-ec-row">
-          <span class="lg-ec-head">${esc(s.avatar || '🚬')} ${esc(s.handle)}${isMe ? ' <em>(you)</em>' : ''}</span>
+          <span class="lg-ec-head"><span class="lg-ec-av">${av(s.avatar, '')}</span>${esc(s.handle)}${isMe ? ' <em>(you)</em>' : ''}</span>
           ${redditChip(s)}
           <span class="lg-ec-item">${esc(s.itemName || (item && item.name) || 'Something good')}</span>
           <span class="lg-ec-meta">lit ${elapsed(s.startedAt)}${(() => {
@@ -981,7 +986,7 @@
         <article class="lg-sess-card${isMe ? ' is-me' : ''}"
                  ${s.itemId ? `data-item="${esc(s.itemType || 'cigar')}:${esc(s.itemId)}"` : ''}>
           <div class="lg-sess-top">
-            <span class="lg-sess-avatar">${esc(s.avatar || '🚬')}</span>
+            <span class="lg-sess-avatar">${av(s.avatar, esc(s.handle))}</span>
             <div class="lg-sess-who">
               <button class="lg-sess-handle lg-who" data-who="${esc(s.memberId)}">${esc(s.handle)}${isMe ? ' <em>you</em>' : ''}</button>
               ${redditChip(s)}
@@ -1100,10 +1105,7 @@
                placeholder="e.g. AshAndOak" value="${esc(cur.handle || '')}">
 
         <label class="lg-label">Avatar</label>
-        <div class="lg-avatars" id="lgAvatars">
-          ${AVATARS.map(a => `<button class="lg-avatar${cur.avatar === a ? ' active' : ''}"
-            data-a="${a}" type="button">${a}</button>`).join('')}
-        </div>
+        <div class="lg-av-picker" id="lgAvPicker"></div>
 
         <div class="lg-reddit-block" id="lgRedditBlock"></div>
 
@@ -1277,12 +1279,87 @@
       }
     }
 
-    body.querySelector('#lgAvatars').addEventListener('click', e => {
-      const b = e.target.closest('.lg-avatar');
-      if (!b) return;
-      draft.avatar = b.dataset.a;
-      body.querySelectorAll('.lg-avatar').forEach(x => x.classList.toggle('active', x === b));
-    });
+    /* ── AVATAR PICKER ───────────────────────────────────────────
+       Marks, emoji, or your own picture. The upload is processed
+       entirely on this machine — cropped, scaled and re-encoded in a
+       canvas — and never sent anywhere.
+    ─────────────────────────────────────────────────────────────── */
+    let avTab = (typeof VPAvatar !== 'undefined' && VPAvatar.isUpload(draft.avatar)) ? 'upload'
+              : (typeof VPAvatar !== 'undefined' && VPAvatar.isMark(draft.avatar)) ? 'marks'
+              : 'emoji';
+
+    function renderAvPicker() {
+      const box = $('lgAvPicker');
+      if (!box) return;
+      const marks = (typeof VPAvatar !== 'undefined' ? VPAvatar.MARK_IDS : []);
+      const emoji = (typeof VPAvatar !== 'undefined' ? VPAvatar.EMOJI : AVATARS);
+
+      box.innerHTML = `
+        <div class="lg-av-current">
+          <span class="lg-av-preview">${av(draft.avatar, 'Your avatar')}</span>
+          <span class="lg-av-caption">${
+            (typeof VPAvatar !== 'undefined' && VPAvatar.isUpload(draft.avatar))
+              ? 'Your picture — stored on this device only'
+              : 'This is how you\'ll appear in the room'}</span>
+        </div>
+        <div class="lg-av-tabs">
+          ${[['marks','Marks'],['emoji','Emoji'],['upload','Upload']].map(([k,l]) =>
+            `<button type="button" class="lg-av-tab${avTab===k?' active':''}" data-tab="${k}">${l}</button>`).join('')}
+        </div>
+        <div class="lg-av-body">
+          ${avTab === 'marks' ? `
+            <div class="lg-av-grid">
+              ${marks.map(id => `<button type="button" class="lg-av-opt mark${draft.avatar===('mark:'+id)?' active':''}"
+                data-a="mark:${id}" aria-label="${id}">${VPAvatar.MARKS[id]}</button>`).join('')}
+            </div>` : ''}
+          ${avTab === 'emoji' ? `
+            <div class="lg-av-grid">
+              ${emoji.map(e => `<button type="button" class="lg-av-opt${draft.avatar===e?' active':''}"
+                data-a="${esc(e)}">${esc(e)}</button>`).join('')}
+            </div>` : ''}
+          ${avTab === 'upload' ? `
+            <div class="lg-av-upload">
+              <label class="lg-av-drop" for="lgAvFile">
+                <strong>Choose a picture</strong>
+                <span>Square-cropped and scaled to 160px in your browser. It is never uploaded anywhere.</span>
+              </label>
+              <input type="file" id="lgAvFile" accept="image/*" hidden>
+              ${(typeof VPAvatar !== 'undefined' && VPAvatar.isUpload(draft.avatar))
+                ? '<button type="button" class="lg-av-remove" id="lgAvRemove">Remove picture</button>' : ''}
+              <p class="lg-form-err hidden" id="lgAvErr"></p>
+            </div>` : ''}
+        </div>`;
+
+      box.querySelectorAll('.lg-av-tab').forEach(t =>
+        t.addEventListener('click', () => { avTab = t.dataset.tab; renderAvPicker(); }));
+
+      box.querySelectorAll('.lg-av-opt').forEach(o =>
+        o.addEventListener('click', () => { draft.avatar = o.dataset.a; renderAvPicker(); }));
+
+      const file = $('lgAvFile');
+      if (file) file.addEventListener('change', async () => {
+        const err = $('lgAvErr');
+        err.classList.add('hidden');
+        const drop = box.querySelector('.lg-av-drop strong');
+        if (drop) drop.textContent = 'Processing…';
+        try {
+          draft.avatar = await VPAvatar.fromFile(file.files[0]);
+          renderAvPicker();
+        } catch (e) {
+          renderAvPicker();
+          const e2 = $('lgAvErr');
+          if (e2) { e2.textContent = e.message; e2.classList.remove('hidden'); }
+        }
+      });
+
+      const rm = $('lgAvRemove');
+      if (rm) rm.addEventListener('click', () => {
+        draft.avatar = AVATARS[0];
+        avTab = 'emoji';
+        renderAvPicker();
+      });
+    }
+    renderAvPicker();
 
     body.querySelector('#lgLocModes').addEventListener('click', async e => {
       const b = e.target.closest('.lg-loc-mode');
@@ -1390,7 +1467,9 @@
   function updateIdentityBtn() {
     const b = $('lgIdentityBtn');
     if (!b) return;
-    b.textContent = me ? `${me.avatar || '🚬'} ${me.handle}` : 'Your Handle';
+    b.innerHTML = me
+      ? `<span class="lg-inline-av">${av(me.avatar, '')}</span>${esc(me.handle)}`
+      : 'Your Handle';
   }
 
   function requireMe(fn) {
@@ -1611,7 +1690,7 @@
         <div class="lg-post-main">
           <div class="lg-post-meta">
             <span class="lg-post-flair" style="--fl:${fl.color}">${fl.label}</span>
-            <button class="lg-post-by lg-who" data-who="${esc(p.memberId)}">${esc(p.avatar || '🚬')} ${esc(p.handle)}</button>
+            <button class="lg-post-by lg-who" data-who="${esc(p.memberId)}"><span class="lg-inline-av">${av(p.avatar, '')}</span>${esc(p.handle)}</button>
             ${redditChip(p)}
             <span class="lg-post-time">${ago(p.createdAt)}</span>
           </div>
@@ -1711,7 +1790,7 @@
           </div>
           <div class="lg-comment-main">
             <div class="lg-comment-meta">
-              <button class="lg-who lg-comment-by" data-who="${esc(c.memberId)}">${esc(c.avatar || '🚬')} ${esc(c.handle)}</button>
+              <button class="lg-who lg-comment-by" data-who="${esc(c.memberId)}"><span class="lg-inline-av">${av(c.avatar, '')}</span>${esc(c.handle)}</button>
               ${redditChip(c)}
               <span class="lg-post-time">${ago(c.createdAt)}</span>
             </div>
@@ -1913,6 +1992,10 @@
      11. INIT
   ══════════════════════════════════════════════════════════════ */
   async function refresh() {
+    // Re-read identity so the header button follows any change to the
+    // avatar or handle, wherever that change came from.
+    me = await BE.getMe();
+    updateIdentityBtn();
     await renderPresence();
     await renderFeed();
     await renderChat();

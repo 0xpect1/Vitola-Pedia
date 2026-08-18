@@ -475,7 +475,41 @@ broadcast for instant delivery.
 looked at is nobody else's business, so `getSeen`/`markSeen` never leave
 localStorage even when a backend is connected.
 
-## 9. What the client already handles
+## 9. Avatars
+
+An avatar is one string in three possible shapes:
+
+| Value | Meaning |
+|---|---|
+| `🥃` | an emoji |
+| `mark:ember` | a drawn emblem from `js/avatars.js` |
+| `data:image/webp;base64,…` | an uploaded picture |
+
+Uploads are processed **entirely in the browser** — decoded, centre-cropped
+square, scaled to 160px and re-encoded to WebP (JPEG where WebP is
+unavailable), stepping quality down until the result is under 60KB. A
+600×400 photo lands around 1.6KB. The original file never leaves the
+machine and nothing is posted to any server.
+
+That size cap matters in solo mode, where the avatar shares a ~5MB
+localStorage budget with posts and the smoke log.
+
+**For a live deployment, move uploads to Supabase Storage** rather than
+keeping base64 in the `avatar` column. A data URI is fine for one member
+on one device; replicated into every denormalised post, comment and
+presence payload it is wasteful. Upload to a bucket, store the public URL
+in `avatar`, and `VPAvatar.render()` will treat it as a photo without any
+change — it only checks whether the value starts with `data:image/`, so
+extend that check to `http` when you switch:
+
+```js
+const isUpload = v => /^(data:image\/|https?:\/\/)/.test(v);
+```
+
+Add a size and MIME check in a bucket policy, since a client can post
+whatever it likes to Storage.
+
+## 10. What the client already handles
 
 - **Escaping.** Every person-authored string (handles, titles, bodies, comments,
   session notes) passes through `esc()` in `js/lounge.js` before touching
