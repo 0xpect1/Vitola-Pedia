@@ -29,7 +29,7 @@ const VPAnalytics = (function () {
     /* Cloudflare Web Analytics.
        Dashboard → Analytics & Logs → Web Analytics → Add a site.
        It hands you a token; paste it here. No DNS change required. */
-    cloudflareToken: null,     // e.g. 'a1b2c3d4e5f6...'
+    cloudflareToken: '463a1d0b0ffc46959a25955c1eb71d7e',
 
     /* Optional extras — leave null unless you add them. */
     plausibleDomain: null,     // e.g. 'vitolapedia.com'
