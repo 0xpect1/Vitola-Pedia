@@ -221,6 +221,7 @@
       };
       if (existing) updateEntry(existing.id, patch);
       else addEntry(patch);
+      if (window.VPAnalytics) VPAnalytics.journalLogged(patch.rating);
       tab = 'journal';
       render();
     });

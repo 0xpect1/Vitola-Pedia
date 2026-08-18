@@ -328,6 +328,8 @@
 
     const [top, ...rest] = picks;
 
+    if (window.VPAnalytics) VPAnalytics.pickerResult(exp, top.c.name);
+
     body.innerHTML = `
       <div class="pk-results-head">
         <span class="pk-kicker">${exp === 'first' ? 'Start here' : 'Your match'}</span>
