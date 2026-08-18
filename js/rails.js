@@ -51,7 +51,7 @@
         <span class="rail-img">
           ${c.image
             ? `<img src="${esc(c.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`
-            : '<span class="rail-noimg">🚬</span>'}
+            : (typeof VPIcons!=='undefined'?`<span class="rail-noimg">${VPIcons.get('cigar')}</span>`:'<span class="rail-noimg"></span>')}
         </span>
         <span class="rail-body">
           <span class="rail-name">${esc(c.name)}</span>
@@ -98,6 +98,73 @@
 
     host.querySelectorAll('.rail-card').forEach(b =>
       b.addEventListener('click', () => openModal(b.dataset.id)));
+
+    host.querySelectorAll('.shelf-rail').forEach(makeDraggable);
+  }
+
+  /* ── DRAG TO SCROLL ─────────────────────────────────────────────
+     Touch already scrolls these natively; this adds the same gesture
+     for a mouse, and keeps the edge fades honest about how much is
+     left in either direction. A drag must not fire the card's click,
+     so anything past a few pixels of movement suppresses it.
+  ─────────────────────────────────────────────────────────────── */
+  function makeDraggable(rail) {
+    let down = false, startX = 0, startScroll = 0, moved = 0;
+
+    const fades = () => {
+      const max = rail.scrollWidth - rail.clientWidth;
+      rail.classList.toggle('at-start', rail.scrollLeft <= 2);
+      rail.classList.toggle('at-end', rail.scrollLeft >= max - 2);
+      rail.classList.toggle('no-scroll', max <= 2);
+    };
+
+    rail.addEventListener('pointerdown', e => {
+      if (e.pointerType === 'touch') return;      // let the OS do touch
+      down = true; moved = 0;
+      startX = e.clientX;
+      startScroll = rail.scrollLeft;
+      rail.classList.add('dragging');
+    });
+
+    rail.addEventListener('pointermove', e => {
+      if (!down) return;
+      const dx = e.clientX - startX;
+      moved = Math.max(moved, Math.abs(dx));
+      if (moved > 3) {
+        // Only capture once we're sure it's a drag, so plain clicks work.
+        if (!rail.hasPointerCapture(e.pointerId)) rail.setPointerCapture(e.pointerId);
+        rail.scrollLeft = startScroll - dx;
+      }
+    });
+
+    const end = e => {
+      if (!down) return;
+      down = false;
+      rail.classList.remove('dragging');
+      if (rail.hasPointerCapture && e.pointerId != null &&
+          rail.hasPointerCapture(e.pointerId)) rail.releasePointerCapture(e.pointerId);
+      // Swallow the click that follows a real drag.
+      if (moved > 3) {
+        const swallow = ev => { ev.stopPropagation(); ev.preventDefault(); };
+        rail.addEventListener('click', swallow, { capture: true, once: true });
+        setTimeout(() => rail.removeEventListener('click', swallow, true), 0);
+      }
+    };
+    rail.addEventListener('pointerup', end);
+    rail.addEventListener('pointercancel', end);
+    rail.addEventListener('pointerleave', end);
+
+    /* A trackpad's horizontal component should scroll the rail, but a
+       vertical flick over it must still scroll the page. */
+    rail.addEventListener('wheel', e => {
+      if (Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return;
+      e.preventDefault();
+      rail.scrollLeft += e.deltaX;
+    }, { passive: false });
+
+    rail.addEventListener('scroll', fades, { passive: true });
+    window.addEventListener('resize', fades);
+    fades();
   }
 
   document.addEventListener('DOMContentLoaded', () => setTimeout(render, 260));

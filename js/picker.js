@@ -28,6 +28,9 @@
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
 
+  const ic = n => (typeof VPIcons !== 'undefined' ? VPIcons.get(n) : '');
+  const bodyIcon = n => (typeof VPIcons !== 'undefined' ? VPIcons.body(n) : '');
+
   const STRENGTH_LABEL = ['Mild', 'Mild–Medium', 'Medium', 'Medium–Full', 'Full'];
   // Short forms for the stat row, where a wrapped label unbalances the grid.
   const STRENGTH_SHORT = ['Mild', 'Mild–Med', 'Medium', 'Med–Full', 'Full'];
@@ -37,62 +40,62 @@
      actually used in the library. This mapping is the whole trick.
   ─────────────────────────────────────────────────────────────── */
   const TASTES = [
-    { id: 'coffee', icon: '☕', label: 'Coffee & dark chocolate',
+    { id: 'coffee', icon: ic('coffee'), label: 'Coffee & dark chocolate',
       hint: 'Espresso, cocoa, roasted, bittersweet',
       tags: ['Coffee','Dark Chocolate','Espresso','Cocoa','Chocolate','Dark Coffee','Mocha','Mild Coffee'] },
-    { id: 'cream', icon: '🍦', label: 'Cream & vanilla',
+    { id: 'cream', icon: ic('cream'), label: 'Cream & vanilla',
       hint: 'Smooth, sweet, buttery',
       tags: ['Cream','Vanilla','Honey','Caramel','Butter','Sweet','Milk Chocolate'] },
-    { id: 'nuts', icon: '🌰', label: 'Nuts & toast',
+    { id: 'nuts', icon: ic('nuts'), label: 'Nuts & toast',
       hint: 'Almond, cashew, warm bread',
       tags: ['Nuts','Almond','Almonds','Toasted Nuts','Toast','Mild Nuts','Hazelnut','Bread','Walnut'] },
-    { id: 'pepper', icon: '🌶️', label: 'Pepper & spice',
+    { id: 'pepper', icon: ic('pepper'), label: 'Pepper & spice',
       hint: 'Black pepper, cinnamon, a bite',
       tags: ['Pepper','Black Pepper','Red Pepper','White Pepper','Spice','Sweet Spice','Cinnamon','Mild Pepper','Light Pepper','Mild Spice','Light Spice'] },
-    { id: 'wood', icon: '🌲', label: 'Wood & earth',
+    { id: 'wood', icon: ic('wood'), label: 'Wood & earth',
       hint: 'Cedar, leather, forest floor',
       tags: ['Cedar','Earth','Leather','Oak','Wood','Hay','Dark Earth','Mild Earth','Tobacco','Grass'] },
-    { id: 'fruit', icon: '🍇', label: 'Fruit & sweetness',
+    { id: 'fruit', icon: ic('fruit'), label: 'Fruit & sweetness',
       hint: 'Raisin, cherry, molasses, floral',
       tags: ['Dark Fruit','Dried Fruit','Molasses','Dark Cherry','Raisin','Citrus','Floral','Fruit'] },
   ];
 
   const DRINKS = [
-    { id: 'coffee',  icon: '☕', label: 'Coffee',            tags: ['Espresso','Coffee','Black Coffee','Café au Lait','Dark Coffee','Light Coffee','Cappuccino'] },
-    { id: 'whiskey', icon: '🥃', label: 'Whiskey or bourbon', tags: ['Bourbon','Single Malt Scotch','Rye Whiskey','Peated Scotch','Whiskey','Scotch'] },
-    { id: 'rum',     icon: '🏝️', label: 'Rum',               tags: ['Dark Rum','Aged Rum','Light Rum','Rum'] },
-    { id: 'beer',    icon: '🍺', label: 'Beer',              tags: ['Dark Beer','Light Beer','Amber Ale','Lager','Craft Beer','Stout','Porter'] },
-    { id: 'wine',    icon: '🍷', label: 'Wine or champagne',  tags: ['Champagne','White Wine','Chardonnay','Red Wine','Port','Cabernet'] },
-    { id: 'none',    icon: '💧', label: 'Just water or tea',  tags: ['Earl Grey Tea','Tea','Water','Green Tea'] },
+    { id: 'coffee',  icon: ic('coffee'), label: 'Coffee',            tags: ['Espresso','Coffee','Black Coffee','Café au Lait','Dark Coffee','Light Coffee','Cappuccino'] },
+    { id: 'whiskey', icon: ic('whiskey'), label: 'Whiskey or bourbon', tags: ['Bourbon','Single Malt Scotch','Rye Whiskey','Peated Scotch','Whiskey','Scotch'] },
+    { id: 'rum',     icon: ic('rum'), label: 'Rum',               tags: ['Dark Rum','Aged Rum','Light Rum','Rum'] },
+    { id: 'beer',    icon: ic('beer'), label: 'Beer',              tags: ['Dark Beer','Light Beer','Amber Ale','Lager','Craft Beer','Stout','Porter'] },
+    { id: 'wine',    icon: ic('wine'), label: 'Wine or champagne',  tags: ['Champagne','White Wine','Chardonnay','Red Wine','Port','Cabernet'] },
+    { id: 'none',    icon: ic('water'), label: 'Just water or tea',  tags: ['Earl Grey Tea','Tea','Water','Green Tea'] },
   ];
 
   const TIMES = [
-    { id: 'short',  icon: '⏱️', label: 'About half an hour', hint: 'A quick one', max: 40 },
-    { id: 'hour',   icon: '🕰️', label: 'An hour or so',      hint: 'The usual sit',  max: 70 },
-    { id: 'long',   icon: '🌙', label: 'A whole evening',     hint: 'No rush at all', max: 999 },
+    { id: 'short',  icon: ic('clockShort'), label: 'About half an hour', hint: 'A quick one', max: 40 },
+    { id: 'hour',   icon: ic('clockHour'), label: 'An hour or so',      hint: 'The usual sit',  max: 70 },
+    { id: 'long',   icon: ic('moon'), label: 'A whole evening',     hint: 'No rush at all', max: 999 },
   ];
 
   const BUDGETS = [
-    { id: 'low',  icon: '💵', label: 'Under $10',  hint: 'Everyday smoking',  max: 10 },
-    { id: 'mid',  icon: '💳', label: '$10 – $20',  hint: 'A proper treat',    max: 20 },
-    { id: 'high', icon: '👑', label: 'Whatever it takes', hint: 'Show me the best', max: 999 },
+    { id: 'low',  icon: ic('coin'), label: 'Under $10',  hint: 'Everyday smoking',  max: 10 },
+    { id: 'mid',  icon: ic('card'), label: '$10 – $20',  hint: 'A proper treat',    max: 20 },
+    { id: 'high', icon: ic('crown'), label: 'Whatever it takes', hint: 'Show me the best', max: 999 },
   ];
 
   const EXPERIENCE = [
-    { id: 'first', icon: '🌱', label: "This is my first cigar",
+    { id: 'first', icon: ic('seedling'), label: "This is my first cigar",
       hint: "I'll keep you away from anything that would put you off" },
-    { id: 'some',  icon: '🔥', label: "I've smoked a few",
+    { id: 'some',  icon: ic('flame'), label: "I've smoked a few",
       hint: 'Ready for more body and more going on' },
-    { id: 'pro',   icon: '🏆', label: 'I know what I like',
+    { id: 'pro',   icon: ic('trophy'), label: 'I know what I like',
       hint: "Ask me in cigar terms and skip the guardrails" },
   ];
 
   const BODIES = [
-    { id: 1, icon: '☁️', label: 'Mild',        hint: 'Cream and cedar, nothing pushy' },
-    { id: 2, icon: '🌤️', label: 'Mild–Medium', hint: 'Approachable, more to chew on' },
-    { id: 3, icon: '⛅', label: 'Medium',      hint: 'The broad middle' },
-    { id: 4, icon: '🌥️', label: 'Medium–Full', hint: 'Rich, after a meal' },
-    { id: 5, icon: '🌩️', label: 'Full',        hint: 'All the nicotine and pepper' },
+    { id: 1, icon: bodyIcon(1), label: 'Mild',        hint: 'Cream and cedar, nothing pushy' },
+    { id: 2, icon: bodyIcon(2), label: 'Mild–Medium', hint: 'Approachable, more to chew on' },
+    { id: 3, icon: bodyIcon(3), label: 'Medium',      hint: 'The broad middle' },
+    { id: 4, icon: bodyIcon(4), label: 'Medium–Full', hint: 'Rich, after a meal' },
+    { id: 5, icon: bodyIcon(5), label: 'Full',        hint: 'All the nicotine and pepper' },
   ];
 
   /* ── FLOW ───────────────────────────────────────────────────── */
@@ -313,7 +316,7 @@
     if (!picks.length) {
       body.innerHTML = `
         <div class="pk-none">
-          <div class="pk-none-icon">🔍</div>
+          <div class="pk-none-icon">${ic('search')}</div>
           <h3>Nothing clears the bar</h3>
           <p>That combination is too narrow — most often it's a short time
              window plus a tight budget. Loosen one and there'll be plenty.</p>
@@ -335,7 +338,7 @@
       <button class="pk-hero" data-open="${esc(top.c.id)}">
         ${top.c.image
           ? `<img src="${esc(top.c.image)}" alt="" onerror="this.style.display='none'">`
-          : '<span class="pk-hero-noimg">🚬</span>'}
+          : `<span class="pk-hero-noimg">${ic('cigar')}</span>`}
         <span class="pk-hero-stats">
           <span><b>${top.c.rating}</b><i>rating</i></span>
           <span><b>$${top.c.price.toFixed(2)}</b><i>per stick</i></span>
@@ -374,7 +377,7 @@
           ${rest.map(r => `
             <button class="pk-alt" data-open="${esc(r.c.id)}">
               ${r.c.image ? `<img src="${esc(r.c.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`
-                          : '<span class="pk-alt-noimg">🚬</span>'}
+                          : `<span class="pk-alt-noimg">${ic('cigar')}</span>`}
               <span class="pk-alt-body">
                 <span class="pk-alt-name">${esc(r.c.name)}</span>
                 <span class="pk-alt-meta">${esc(r.c.brand)} · ${STRENGTH_LABEL[r.c.strength - 1]} · ${r.c.smokingTime}m · $${r.c.price.toFixed(2)}</span>

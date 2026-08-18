@@ -2095,9 +2095,10 @@ function enterSite() {
   document.body.classList.remove('has-landing');
   document.body.classList.add('site-entered');
 
-  landing.addEventListener('animationend', () => {
-    landing.classList.add('landing-hidden');
-  }, { once: true });
+  // Hide on a timer matched to the animation rather than animationend —
+  // if the animation is skipped (reduced motion, backgrounded tab) the
+  // event never fires and the landing stays in the layout forever.
+  setTimeout(() => landing.classList.add('landing-hidden'), 460);
 }
 
 // Disable browser scroll restoration so landing page always shows on reload
@@ -2109,6 +2110,16 @@ document.addEventListener('DOMContentLoaded', () => {
   if (landing) {
     document.body.classList.add('has-landing');
     window.scrollTo(0, 0);  // prevent browser scroll-restore showing blank area
+
+    /* The 3D scene is 573KB of JS in an iframe. Held back until after the
+       first paint so the headline, the CTA and the scroll affordance are
+       interactive immediately instead of queueing behind it. */
+    const frame = document.getElementById('cigar3d-frame');
+    if (frame && frame.dataset.src && !frame.src) {
+      const load = () => { frame.src = frame.dataset.src; };
+      if ('requestIdleCallback' in window) requestIdleCallback(load, { timeout: 900 });
+      else setTimeout(load, 250);
+    }
     // 3D cigar is rendered via iframe (cigar3d/index.html) — no JS init needed
 
     // CTA button
@@ -2128,12 +2139,12 @@ document.addEventListener('DOMContentLoaded', () => {
       enterSite();
     };
 
-    const onWheel = e => { if (e.deltaY > 20) trigger(); };
-    const onScroll = () => { if (window.scrollY > 60) trigger(); };
+    const onWheel = e => { if (e.deltaY > 8) trigger(); };
+    const onScroll = () => { if (window.scrollY > 24) trigger(); };
     let touchStartY = 0;
     const onTouchStart = e => { touchStartY = e.touches[0].clientY; };
     const onTouchMove = e => {
-      if (touchStartY - e.touches[0].clientY > 40) trigger();
+      if (touchStartY - e.touches[0].clientY > 24) trigger();
     };
 
     function disarm() {
@@ -2143,13 +2154,15 @@ document.addEventListener('DOMContentLoaded', () => {
       window.removeEventListener('touchmove', onTouchMove);
     }
 
-    // Delayed so Mac trackpad momentum from a previous page can't fire it.
+    // Barely delayed — just enough that stale trackpad momentum from the
+    // previous page can't fire it. The old 1.2s meant any scroll in the
+    // first second did nothing, which read as the page hanging.
     setTimeout(() => {
       window.addEventListener('wheel', onWheel, { passive: true });
       window.addEventListener('scroll', onScroll, { passive: true });
       window.addEventListener('touchstart', onTouchStart, { passive: true });
       window.addEventListener('touchmove', onTouchMove, { passive: true });
-    }, 1200);
+    }, 220);
   }
 
   // Defer init so the landing page paints before processing all data

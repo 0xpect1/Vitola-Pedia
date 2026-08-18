@@ -4,7 +4,11 @@
 .pk-modal { max-width: 680px; }
 
 /* ── PROGRESS ───────────────────────────────────────────────────── */
-.pk-progress { display: flex; align-items: center; gap: 6px; margin-bottom: 22px; }
+.pk-progress {
+  display: flex; align-items: center; gap: 6px;
+  margin-bottom: 22px;
+  padding-right: 46px;   /* clear the close button */
+}
 .pk-dot {
   width: 26px; height: 3px; border-radius: 999px;
   background: rgba(201,168,76,0.14);

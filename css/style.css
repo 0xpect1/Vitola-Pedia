@@ -1429,7 +1429,7 @@ img { max-width: 100%; display: block; }
   z-index: 200;
 }
 .landing.landing-exit {
-  animation: landingExit 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation: landingExit 0.42s cubic-bezier(0.4, 0, 1, 1) forwards;
   pointer-events: none;
 }
 .landing.landing-hidden { display: none; }

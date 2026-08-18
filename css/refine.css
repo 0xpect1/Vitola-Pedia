@@ -167,12 +167,32 @@ body::after {
   display: flex;
   gap: 10px;
   overflow-x: auto;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
   scroll-snap-type: x proximity;
-  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;   /* don't trigger browser back-swipe */
+  cursor: grab;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  /* Fade the edges so it reads as continuing rather than cut off. The
+     mask tightens to one side when you reach either end. */
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 26px, #000 calc(100% - 26px), transparent 100%);
+          mask-image: linear-gradient(90deg, transparent 0, #000 26px, #000 calc(100% - 26px), transparent 100%);
 }
-.shelf-rail::-webkit-scrollbar { height: 5px; }
-.shelf-rail::-webkit-scrollbar-thumb { background: var(--gold-dark); border-radius: 4px; }
+.shelf-rail::-webkit-scrollbar { display: none; }
+.shelf-rail.dragging { cursor: grabbing; scroll-snap-type: none; }
+.shelf-rail.dragging .rail-card { transition: none; }
+.shelf-rail.at-start {
+  -webkit-mask-image: linear-gradient(90deg, #000 0, #000 calc(100% - 26px), transparent 100%);
+          mask-image: linear-gradient(90deg, #000 0, #000 calc(100% - 26px), transparent 100%);
+}
+.shelf-rail.at-end {
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 26px, #000 100%);
+          mask-image: linear-gradient(90deg, transparent 0, #000 26px, #000 100%);
+}
+.shelf-rail.no-scroll { -webkit-mask-image: none; mask-image: none; cursor: default; }
+/* Nothing inside should start a native image drag mid-swipe. */
+.shelf-rail img, .rail-card { user-select: none; -webkit-user-drag: none; }
 
 .rail-card {
   flex: 0 0 176px;
@@ -275,3 +295,15 @@ body::after {
   .header-nav .nav-btn { padding: 6px 10px; font-size: 12.5px; }
   .brand-tagline { display: none; }
 }
+
+/* ── DRAWN ICONS ────────────────────────────────────────────────
+   Line marks inherit colour and weight from their context, which
+   emoji never can. Sized in em so they scale with the type.
+──────────────────────────────────────────────────────────────── */
+.vpi { width: 1em; height: 1em; display: block; }
+.pk-opt-icon .vpi { width: 25px; height: 25px; color: var(--gold); opacity: 0.82; transition: var(--transition); }
+.pk-opt:hover .pk-opt-icon .vpi { opacity: 1; }
+.pk-opt.on .pk-opt-icon .vpi { color: var(--gold-light); opacity: 1; }
+.pk-hero-noimg .vpi, .pk-alt-noimg .vpi { width: 42%; height: 42%; color: var(--gold-dark); }
+.pk-none-icon .vpi { width: 38px; height: 38px; margin: 0 auto; color: var(--gold-dark); }
+.rail-noimg .vpi { width: 34px; height: 34px; color: var(--gold-dark); opacity: 0.65; }
