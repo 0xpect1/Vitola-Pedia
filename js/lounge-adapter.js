@@ -55,7 +55,14 @@
     /* Cloudflare Turnstile. Only needed if captcha protection is switched
        on in Supabase → Authentication → Attack Protection. The sitekey is
        public; the secret belongs in Supabase, never here. */
-    turnstileSiteKey: '0x4AAAAAAEUMMgK3VR0v5aE-',
+    /* Off for now. Supabase captcha protection is not enabled, so
+       fetching a token cost every member seconds at the moment of joining
+       and nothing verified it. Re-enable by uncommenting this AND turning
+       on Authentication → Attack Protection with the secret key. Both
+       halves or neither — the token alone protects nothing, and the
+       Supabase setting alone rejects every sign-in. */
+    turnstileSiteKey: null,
+    // turnstileSiteKey: '0x4AAAAAAEUMMgK3VR0v5aE-',
 
     reddit: null,
     // reddit: {
