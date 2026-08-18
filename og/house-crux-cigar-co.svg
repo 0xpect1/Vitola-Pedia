@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  
+    <defs>
+      <radialGradient id="ember" cx="85%" cy="15%" r="55%">
+        <stop offset="0%" stop-color="#ff6b35" stop-opacity="0.18"/>
+        <stop offset="40%" stop-color="#ff6b35" stop-opacity="0.06"/>
+        <stop offset="100%" stop-color="#ff6b35" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#241a0e"/>
+        <stop offset="60%" stop-color="#1a1209"/>
+        <stop offset="100%" stop-color="#0e0904"/>
+      </linearGradient>
+      <linearGradient id="goldBar" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#c9943a" stop-opacity="0.9"/>
+        <stop offset="100%" stop-color="#c9943a" stop-opacity="0.3"/>
+      </linearGradient>
+    </defs>
+    <rect width="1200" height="630" fill="url(#bgGrad)"/>
+    <rect width="1200" height="630" fill="url(#ember)"/>
+    <!-- smoke wisps -->
+    <path d="M980 580 Q 1040 480 990 380 T 1010 180" stroke="#c9943a" stroke-width="1.2" fill="none" opacity="0.10"/>
+    <path d="M1080 600 Q 1120 470 1060 350 T 1100 140" stroke="#c9943a" stroke-width="1" fill="none" opacity="0.07"/>
+    <path d="M 60 520 Q 120 460 80 400 T 140 280" stroke="#c9943a" stroke-width="1" fill="none" opacity="0.06"/>
+    <!-- left accent bar -->
+    <rect x="60" y="70" width="4" height="490" fill="url(#goldBar)" rx="2"/>
+  
+  <!-- eyebrow -->
+  <text x="90" y="120" font-family="Inter,Helvetica,Arial,sans-serif" font-size="18" fill="#c9943a" letter-spacing="5" font-weight="600">THE HOUSE OF</text>
+  <line x1="90" y1="138" x2="220" y2="138" stroke="#c9943a" stroke-width="2" opacity="0.6"/>
+
+  <!-- brand name -->
+  <text x="90" y="260" font-family="Playfair Display,Georgia,serif" font-size="60" fill="#f5ecd6" font-weight="700">Crux Cigar Co.</text>
+
+  <!-- subtitle -->
+  <text x="90" y="310" font-family="Inter,Helvetica,Arial,sans-serif" font-size="22" fill="#c9943a">3 cigars in the encyclopedia</text>
+
+  <line x1="90" y1="340" x2="1110" y2="340" stroke="rgba(201,148,58,0.30)" stroke-width="1.5"/>
+
+  <!-- stats -->
+  <g transform="translate(90,390)">
+    <text x="0" y="0" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#a89270" letter-spacing="2" font-weight="600">AVG RATING</text>
+    <text x="0" y="36" font-family="Playfair Display,Georgia,serif" font-size="30" fill="#c9943a" font-weight="700">92.0</text>
+    <text x="62" y="36" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#a89270">/ 100</text>
+
+    <text x="230" y="0" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#a89270" letter-spacing="2" font-weight="600">TOP RATED</text>
+    <text x="230" y="36" font-family="Playfair Display,Georgia,serif" font-size="30" fill="#f5ecd6" font-weight="700">93</text>
+
+    <text x="420" y="0" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#a89270" letter-spacing="2" font-weight="600">PRICE RANGE</text>
+    <text x="420" y="36" font-family="Playfair Display,Georgia,serif" font-size="26" fill="#f5ecd6" font-weight="700">$10.5–$13</text>
+
+    <text x="650" y="0" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#a89270" letter-spacing="2" font-weight="600">STRENGTH</text>
+    <text x="650" y="36" font-family="Inter,Helvetica,Arial,sans-serif" font-size="18" fill="#f5ecd6">Mild–Med – Medium</text>
+
+    <text x="880" y="0" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#a89270" letter-spacing="2" font-weight="600">ORIGIN</text>
+    <text x="880" y="36" font-family="Inter,Helvetica,Arial,sans-serif" font-size="18" fill="#f5ecd6">Nicaragua</text>
+  </g>
+
+  <text x="90" y="500" font-family="Inter,Helvetica,Arial,sans-serif" font-size="16" fill="#a89270">Established 2014</text>
+
+  
+    <g transform="translate(1010,578)">
+      <circle cx="0" cy="-8" r="4" fill="#ff6b35"/>
+      <text x="12" y="-3" font-family="Playfair Display,Georgia,serif" font-size="20" fill="#c9943a" font-weight="700">Vitola Pedia</text>
+    </g>
+  
+</svg>

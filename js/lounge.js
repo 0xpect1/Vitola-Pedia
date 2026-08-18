@@ -306,6 +306,37 @@
     return new Date(ms).toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
   }
 
+  /* ══════════════════════════════════════════════════════════════
+     CONTENT MODERATION — client-side stopgap filter
+     Run every piece of person-authored text through MODERATION.checkContent()
+     before rendering. If blocked, show '[content removed]' instead.
+     This is a STOPGAP — real enforcement is server-side (RLS + admin tools).
+     The owner's policy is NON-NEGOTIABLE: strictly no illegal activities,
+     no CP/CSAM, nothing in that nature — ever.
+  ══════════════════════════════════════════════════════════════ */
+  function modFilter(text) {
+    if (typeof MODERATION !== 'undefined' && MODERATION.checkContent) {
+      var r = MODERATION.checkContent(text);
+      if (r.blocked) return MODERATION.REMOVED_TEXT || '[content removed]';
+    }
+    return text;
+  }
+
+  function modEsc(text) {
+    // Filter then escape — so the filtered text is also safe for innerHTML.
+    return esc(modFilter(text));
+  }
+
+  /* Admin check — resolves asynchronously. Used to decide whether to show
+     hide/ban buttons alongside (or instead of) the report button. */
+  let _isAdmin = false;
+  async function refreshAdmin() {
+    try { _isAdmin = await BE.isAdmin(); } catch (e) { _isAdmin = false; }
+    const dashBtn = document.getElementById('lgAdminDashBtn');
+    if (dashBtn) dashBtn.classList.toggle('hidden', !_isAdmin);
+    return _isAdmin;
+  }
+
   /* A Reddit name shown next to a handle. Verified and self-declared get
      visibly different treatment — same information, very different claim. */
   function redditChip(row) {
@@ -425,6 +456,9 @@
             <span id="lgSparkLabel">Spark Up</span>
           </button>
           <button class="lg-ghost-btn" id="lgIdentityBtn">Your Handle</button>
+          <button class="lg-notify-btn" id="lgNotifyBtn" type="button"
+                  aria-pressed="false" style="display:none">🔔 Notify me when someone lights up</button>
+          <button class="lg-admin-dash-btn hidden" id="lgAdminDashBtn" title="Admin Dashboard">🛡 Admin</button>
         </div>
       </div>
 
@@ -493,6 +527,32 @@
     $('lgSparkBtn').addEventListener('click', onSparkClick);
     $('lgIdentityBtn').addEventListener('click', () => openIdentity());
     $('lgNewPostBtn').addEventListener('click', () => requireMe(openComposer));
+    $('lgAdminDashBtn').addEventListener('click', () => openAdminDashboard());
+
+    /* Notify-me toggle — only shown when the Notification API is
+       available. Permission must be requested from a user gesture,
+       so the whole flow lives behind the click. */
+    const notifyBtn = $('lgNotifyBtn');
+    if (notifyBtn && typeof window.NOTIFY === 'object' && window.NOTIFY) {
+      if (window.NOTIFY.isSupported) {
+        notifyBtn.style.display = '';
+        window.NOTIFY.syncButton(notifyBtn);
+        notifyBtn.addEventListener('click', async () => {
+          const res = await window.NOTIFY.toggle();
+          if (res && res.supported && res.denied) {
+            notifyBtn.classList.add('is-denied');
+            notifyBtn.textContent = '🔔 Notifications blocked';
+            notifyBtn.title =
+              'Notifications are blocked for this site. Re-enable them ' +
+              'in your browser site settings (the lock icon in the address bar).';
+          } else {
+            window.NOTIFY.syncButton(notifyBtn);
+          }
+        });
+      } else {
+        notifyBtn.remove();
+      }
+    }
 
     $('lgSorts').addEventListener('click', e => {
       const b = e.target.closest('.lg-sort');
@@ -518,6 +578,14 @@
         const input = $('lgChatInput');
         const body = input.value.trim();
         if (!body) return;
+        // Client-side content filter — stopgap before the message
+        // hits the wire. Server-side RLS and admin tools are the
+        // real enforcement.
+        if (typeof MODERATION !== 'undefined' && MODERATION.isBlocked(body)) {
+          alert('This message contains content that is not allowed. ' +
+                'Strictly no illegal activities, no CSAM/CP, nothing in that nature — ever.');
+          return;
+        }
         input.value = '';
         try { await BE.sendChat(body); } catch (err) { console.error(err); }
         renderChat(true);
@@ -628,10 +696,40 @@
               ${redditChip(m)}
               <span class="lg-msg-time">${new Date(m.at).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}</span>
             </div>`}
-            <p class="lg-msg-text">${esc(m.body)}</p>
+            <p class="lg-msg-text">${modEsc(m.body)}</p>
+            <span class="lg-msg-mod">
+              <button class="lg-mod-btn sm" data-report="chat:${esc(m.id)}:${esc(m.memberId)}" title="Report this message">🚩</button>
+              ${_isAdmin ? `<button class="lg-mod-btn sm danger" data-hide="chat:${esc(m.id)}" title="Hide this message (admin)">⊘</button>` : ''}
+              ${_isAdmin && !isMe ? `<button class="lg-mod-btn sm danger" data-ban="${esc(m.memberId)}" title="Ban this member (admin)">⛔</button>` : ''}
+            </span>
           </div>
         </div>`;
     }).join('');
+
+    /* Bind moderation actions on chat messages */
+    log.querySelectorAll('[data-report]').forEach(b => {
+      b.addEventListener('click', () => {
+        const [kind, id, memberId] = b.dataset.report.split(':');
+        openReportModal(kind, id, memberId);
+      });
+    });
+    log.querySelectorAll('[data-hide]').forEach(b => {
+      b.addEventListener('click', async () => {
+        const [kind, id] = b.dataset.hide.split(':');
+        if (!confirm('Hide this message?')) return;
+        try { await BE.hideContent(kind, id); } catch (e) { alert(e.message); }
+        renderChat(false);
+      });
+    });
+    log.querySelectorAll('[data-ban]').forEach(b => {
+      b.addEventListener('click', async () => {
+        const memberId = b.dataset.ban;
+        const reason = prompt('Ban this member? Enter a reason (optional):');
+        if (reason === null) return;
+        try { await BE.banMember(memberId, reason || ''); } catch (e) { alert(e.message); }
+        renderChat(false);
+      });
+    });
 
     if (stick) log.scrollTop = log.scrollHeight;
   }
@@ -1708,8 +1806,8 @@
             ${redditChip(p)}
             <span class="lg-post-time">${ago(p.createdAt)}</span>
           </div>
-          <h3 class="lg-post-title">${esc(p.title)}</h3>
-          ${p.body ? `<p class="lg-post-body">${esc(p.body)}</p>` : ''}
+          <h3 class="lg-post-title">${modEsc(p.title)}</h3>
+          ${p.body ? `<p class="lg-post-body">${modEsc(p.body)}</p>` : ''}
           ${item ? `
             <button class="lg-post-item" data-open-item="${esc(p.itemType || 'cigar')}:${esc(p.itemId)}">
               ${item.image
@@ -1725,6 +1823,9 @@
               💬 ${p.commentCount || 0} ${p.commentCount === 1 ? 'comment' : 'comments'}
             </button>
             ${mine ? `<button class="lg-post-act danger" data-del="${esc(p.id)}">Delete</button>` : ''}
+            <button class="lg-post-act lg-mod-btn" data-report="post:${esc(p.id)}:${esc(p.memberId)}" title="Report this post">🚩</button>
+            ${_isAdmin ? `<button class="lg-post-act lg-mod-btn danger" data-hide="post:${esc(p.id)}" title="Hide this post (admin)">⊘ Hide</button>` : ''}
+            ${_isAdmin && !mine ? `<button class="lg-post-act lg-mod-btn danger" data-ban="${esc(p.memberId)}" title="Ban this member (admin)">⛔ Ban</button>` : ''}
           </div>
           <div class="lg-thread hidden" data-thread="${esc(p.id)}"></div>
         </div>
@@ -1756,6 +1857,36 @@
         if (!confirm('Delete this post and its comments?')) return;
         await BE.deletePost(b.dataset.del);
         if (openPostId === b.dataset.del) openPostId = null;
+        renderFeed();
+      });
+    });
+
+    /* ── MODERATION ACTIONS ───────────────────────────────────── */
+    // Report button (flag) — opens the report modal.
+    wrap.querySelectorAll('[data-report]').forEach(b => {
+      b.addEventListener('click', () => {
+        const [kind, id, memberId] = b.dataset.report.split(':');
+        openReportModal(kind, id, memberId);
+      });
+    });
+
+    // Hide button (admin) — hides the content immediately.
+    wrap.querySelectorAll('[data-hide]').forEach(b => {
+      b.addEventListener('click', async () => {
+        const [kind, id] = b.dataset.hide.split(':');
+        if (!confirm(`Hide this ${kind}? It will be removed from view for all non-admin users.`)) return;
+        try { await BE.hideContent(kind, id); } catch (e) { alert(e.message); }
+        renderFeed();
+      });
+    });
+
+    // Ban button (admin) — bans the member.
+    wrap.querySelectorAll('[data-ban]').forEach(b => {
+      b.addEventListener('click', async () => {
+        const memberId = b.dataset.ban;
+        const reason = prompt(`Ban this member? Enter a reason (optional):`);
+        if (reason === null) return;
+        try { await BE.banMember(memberId, reason || ''); } catch (e) { alert(e.message); }
         renderFeed();
       });
     });
@@ -1808,10 +1939,13 @@
               ${redditChip(c)}
               <span class="lg-post-time">${ago(c.createdAt)}</span>
             </div>
-            <p>${esc(c.body)}</p>
+            <p>${modEsc(c.body)}</p>
             <div class="lg-comment-acts">
               ${!isReply ? `<button class="lg-post-act" data-reply="${esc(c.id)}">Reply</button>` : ''}
               ${mine ? `<button class="lg-post-act danger" data-cdel="${esc(c.id)}">Delete</button>` : ''}
+              <button class="lg-post-act lg-mod-btn" data-report="comment:${esc(c.id)}:${esc(c.memberId)}" title="Report this comment">🚩</button>
+              ${_isAdmin ? `<button class="lg-post-act lg-mod-btn danger" data-hide="comment:${esc(c.id)}" title="Hide this comment (admin)">⊘</button>` : ''}
+              ${_isAdmin && !mine ? `<button class="lg-post-act lg-mod-btn danger" data-ban="${esc(c.memberId)}" title="Ban this member (admin)">⛔</button>` : ''}
             </div>
             <div class="lg-reply-box hidden" data-replybox="${esc(c.id)}"></div>
           </div>
@@ -1832,6 +1966,11 @@
       const ta = $(`lgCommentInput-${postId}`);
       const body = ta.value.trim();
       if (!body) return;
+      if (typeof MODERATION !== 'undefined' && MODERATION.isBlocked(body)) {
+        alert('This content is not allowed. Strictly no illegal activities, ' +
+              'no CSAM/CP, nothing in that nature — ever.');
+        return;
+      }
       await BE.createComment(postId, body);
       await renderFeed();
     }));
@@ -1867,10 +2006,40 @@
         box.querySelector('button').addEventListener('click', async () => {
           const body = ta.value.trim();
           if (!body) return;
+          if (typeof MODERATION !== 'undefined' && MODERATION.isBlocked(body)) {
+            alert('This content is not allowed. Strictly no illegal activities, ' +
+                  'no CSAM/CP, nothing in that nature — ever.');
+            return;
+          }
           await BE.createComment(postId, body, b.dataset.reply);
           await renderFeed();
         });
       }));
+    });
+
+    /* ── MODERATION ACTIONS IN COMMENTS ────────────────────────── */
+    el.querySelectorAll('[data-report]').forEach(b => {
+      b.addEventListener('click', () => {
+        const [kind, id, memberId] = b.dataset.report.split(':');
+        openReportModal(kind, id, memberId);
+      });
+    });
+    el.querySelectorAll('[data-hide]').forEach(b => {
+      b.addEventListener('click', async () => {
+        const [kind, id] = b.dataset.hide.split(':');
+        if (!confirm(`Hide this ${kind}?`)) return;
+        try { await BE.hideContent(kind, id); } catch (e) { alert(e.message); }
+        await renderThread(postId, el);
+      });
+    });
+    el.querySelectorAll('[data-ban]').forEach(b => {
+      b.addEventListener('click', async () => {
+        const memberId = b.dataset.ban;
+        const reason = prompt('Ban this member? Enter a reason (optional):');
+        if (reason === null) return;
+        try { await BE.banMember(memberId, reason || ''); } catch (e) { alert(e.message); }
+        await renderThread(postId, el);
+      });
     });
   }
 
@@ -1956,9 +2125,18 @@
 
     $('lgSubmitPost').addEventListener('click', async () => {
       const title = $('lgPostTitle').value.trim();
+      const body = $('lgPostBody').value.trim();
       const err = $('lgPostErr');
       if (title.length < 3) {
         err.textContent = 'Give it a title of at least 3 characters.';
+        err.classList.remove('hidden');
+        return;
+      }
+      // Client-side content filter — stopgap.
+      if (typeof MODERATION !== 'undefined' &&
+          (MODERATION.isBlocked(title) || MODERATION.isBlocked(body))) {
+        err.textContent = 'This content is not allowed. Strictly no illegal activities, ' +
+                          'no CSAM/CP, nothing in that nature — ever.';
         err.classList.remove('hidden');
         return;
       }
@@ -1991,7 +2169,151 @@
   }
 
   /* ══════════════════════════════════════════════════════════════
-     10. MODAL PLUMBING
+     10a. REPORT MODAL + ADMIN DASHBOARD
+  ══════════════════════════════════════════════════════════════ */
+
+  /* Report modal — opened by the flag (🚩) button on any post,
+     comment, or chat message. Shows a reason textarea and a submit
+     button. Calls BE.reportContent(). */
+  function openReportModal(targetKind, targetId, memberId) {
+    requireMe(() => {
+      $('loungeModalLabel').textContent = 'Report Content';
+      $('loungeBody').innerHTML = `
+        <div class="lg-form">
+          <p class="lg-form-intro">
+            Report this ${targetKind} for violating the community policy.
+            The owner reviews all reports. Strictly no illegal activities,
+            no CSAM/CP, nothing in that nature — ever.
+          </p>
+          <input type="hidden" id="lgReportKind" value="${esc(targetKind)}">
+          <input type="hidden" id="lgReportId" value="${esc(targetId)}">
+          <input type="hidden" id="lgReportMember" value="${esc(memberId || '')}">
+          <label class="lg-label" for="lgReportReason">Reason <span class="lg-opt">required</span></label>
+          <textarea class="lg-textarea" id="lgReportReason" rows="4" maxlength="500"
+                    placeholder="Describe the violation (max 500 characters)"></textarea>
+          <div class="lg-form-actions">
+            <button class="lg-primary-btn" id="lgSubmitReport">Submit Report</button>
+          </div>
+          <p class="lg-form-err hidden" id="lgReportErr"></p>
+          ${_isAdmin ? `
+            <hr class="lg-mod-divider">
+            <p class="lg-form-intro"><strong>Admin actions:</strong></p>
+            <div class="lg-form-actions">
+              <button class="lg-post-act danger" id="lgAdminHide">⊘ Hide this ${esc(targetKind)}</button>
+              ${memberId ? `<button class="lg-post-act danger" id="lgAdminBan">⛔ Ban member</button>` : ''}
+            </div>
+          ` : ''}
+        </div>`;
+
+      $('lgSubmitReport').addEventListener('click', async () => {
+        const kind = $('lgReportKind').value;
+        const id = $('lgReportId').value;
+        const reason = $('lgReportReason').value.trim();
+        const err = $('lgReportErr');
+        if (!reason) {
+          err.textContent = 'Please describe the violation.';
+          err.classList.remove('hidden');
+          return;
+        }
+        try {
+          await BE.reportContent(kind, id, reason);
+          closeLoungeModal();
+        } catch (e) {
+          err.textContent = e.message;
+          err.classList.remove('hidden');
+        }
+      });
+
+      if (_isAdmin) {
+        const hideBtn = $('lgAdminHide');
+        if (hideBtn) hideBtn.addEventListener('click', async () => {
+          const kind = $('lgReportKind').value;
+          const id = $('lgReportId').value;
+          if (!confirm(`Hide this ${kind}?`)) return;
+          try {
+            await BE.hideContent(kind, id);
+            closeLoungeModal();
+            renderFeed();
+            renderChat(false);
+          } catch (e) { alert(e.message); }
+        });
+
+        const banBtn = $('lgAdminBan');
+        if (banBtn) banBtn.addEventListener('click', async () => {
+          const memberId = $('lgReportMember').value;
+          const reason = $('lgReportReason').value.trim();
+          if (!confirm('Ban this member?')) return;
+          try {
+            await BE.banMember(memberId, reason || 'Banned by admin');
+            closeLoungeModal();
+            renderFeed();
+            renderChat(false);
+          } catch (e) { alert(e.message); }
+        });
+      }
+
+      openLoungeModal();
+      setTimeout(() => $('lgReportReason').focus(), 60);
+    });
+  }
+
+  /* Admin dashboard — shows all reports and bans. Only visible to admins. */
+  async function openAdminDashboard() {
+    if (!_isAdmin && !(await refreshAdmin())) return;
+
+    let reports = [], bans = [];
+    try { reports = await BE.listReports(); } catch (e) {}
+    try { bans = await BE.listBans(); } catch (e) {}
+
+    $('loungeModalLabel').textContent = 'Admin Dashboard';
+    $('loungeBody').innerHTML = `
+      <div class="lg-admin-dash">
+        <h4 class="lg-admin-section">Reports (${reports.length})</h4>
+        ${reports.length ? reports.map(r => `
+          <div class="lg-admin-report">
+            <div class="lg-admin-report-meta">
+              <span class="lg-admin-badge">${esc(r.targetKind)}</span>
+              <span class="lg-admin-time">${ago(r.createdAt)}</span>
+            </div>
+            <p class="lg-admin-reason">${esc(r.reason || '(no reason given)')}</p>
+            <div class="lg-admin-actions">
+              <button class="lg-post-act danger" data-admin-hide="${esc(r.targetKind)}:${esc(r.targetId)}">⊘ Hide</button>
+            </div>
+          </div>
+        `).join('') : '<p class="lg-no-comments">No reports.</p>'}
+
+        <h4 class="lg-admin-section">Bans (${bans.length})</h4>
+        ${bans.length ? bans.map(b => `
+          <div class="lg-admin-ban">
+            <span class="lg-admin-ban-id">${esc(b.memberId)}</span>
+            ${b.reason ? `<span class="lg-admin-reason">${esc(b.reason)}</span>` : ''}
+            <button class="lg-post-act" data-admin-unban="${esc(b.memberId)}">Unban</button>
+          </div>
+        `).join('') : '<p class="lg-no-comments">No active bans.</p>'}
+      </div>`;
+
+    // Bind admin dashboard actions
+    $('loungeBody').querySelectorAll('[data-admin-hide]').forEach(b => {
+      b.addEventListener('click', async () => {
+        const [kind, id] = b.dataset.adminHide.split(':');
+        if (!confirm(`Hide this ${kind}?`)) return;
+        try { await BE.hideContent(kind, id); } catch (e) { alert(e.message); }
+        openAdminDashboard();
+      });
+    });
+    $('loungeBody').querySelectorAll('[data-admin-unban]').forEach(b => {
+      b.addEventListener('click', async () => {
+        if (!confirm('Unban this member?')) return;
+        try { await BE.unbanMember(b.dataset.adminUnban); } catch (e) { alert(e.message); }
+        openAdminDashboard();
+      });
+    });
+
+    openLoungeModal();
+  }
+
+  /* ══════════════════════════════════════════════════════════════
+     10b. MODAL PLUMBING
   ══════════════════════════════════════════════════════════════ */
   function openLoungeModal() {
     $('loungeOverlay').classList.remove('hidden');
@@ -2018,6 +2340,7 @@
     // a stale `me`, so anyone who had just set a handle stayed uncounted.
     me = await BE.getMe();
     updateIdentityBtn();
+    await refreshAdmin();
     await ensureInRoom();
     await renderPresence();
     await renderFeed();
@@ -2166,5 +2489,5 @@
     init();
   }
 
-  window.Lounge = { refresh, openIdentity, openComposer };
+  window.Lounge = { refresh, openIdentity, openComposer, openAdminDashboard, openReportModal };
 })();

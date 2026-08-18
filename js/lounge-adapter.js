@@ -364,7 +364,7 @@
 
       /* ── FEED ─────────────────────────────────────────────────── */
       async listPosts() {
-        return read(K.posts, []);
+        return read(K.posts, []).filter(p => !p.hidden);
       },
 
       async createPost(p) {
@@ -420,7 +420,7 @@
       /* ── COMMENTS ─────────────────────────────────────────────── */
       async listComments(postId) {
         return read(K.comments, [])
-          .filter(c => c.postId === postId)
+          .filter(c => c.postId === postId && !c.hidden)
           .sort((a, b) => a.createdAt - b.createdAt);
       },
 
@@ -495,7 +495,7 @@
       ───────────────────────────────────────────────────────────── */
       async listChat() {
         const cut = Date.now() - CHAT_TTL;
-        const all = read(K.chat, []).filter(m => m.at > cut);
+        const all = read(K.chat, []).filter(m => m.at > cut && !m.hidden);
         const trimmed = all.slice(-CHAT_KEEP);
         if (trimmed.length !== read(K.chat, []).length) write(K.chat, trimmed);
         return trimmed;
@@ -521,6 +521,82 @@
         const cur = read(K.seen, {});
         write(K.seen, Object.assign(cur, patch));
         emit('seen');
+      },
+
+      /* ── MODERATION ─────────────────────────────────────────────
+         Solo-mode stubs that mirror the Supabase adapter so the UI
+         works identically. Reports, hides, and bans are stored in
+         localStorage; the admin check is a hardcoded owner ID or
+         the me.is_admin flag.
+      ─────────────────────────────────────────────────────────── */
+
+      async isAdmin() {
+        const m = await this.getMe();
+        if (!m) return false;
+        return !!(m.isAdmin || m.is_admin);
+      },
+
+      async reportContent(targetKind, targetId, reason) {
+        const me = await this.getMe();
+        if (!me) throw new Error('Set up a handle before reporting.');
+        const reports = read('vp_lounge_reports', []);
+        reports.push({
+          id: uid(), reporterId: me.id,
+          targetKind, targetId, reason: reason || '',
+          createdAt: Date.now(),
+        });
+        write('vp_lounge_reports', reports);
+        return { ok: true };
+      },
+
+      async hideContent(targetKind, targetId) {
+        if (!await this.isAdmin()) throw new Error('Admin only.');
+        // Mark hidden in the appropriate storage.
+        if (targetKind === 'post') {
+          const posts = read(K.posts, []).map(p =>
+            p.id === targetId ? Object.assign(p, { hidden: true }) : p);
+          write(K.posts, posts);
+        } else if (targetKind === 'comment') {
+          const comments = read(K.comments, []).map(c =>
+            c.id === targetId ? Object.assign(c, { hidden: true }) : c);
+          write(K.comments, comments);
+        } else if (targetKind === 'chat') {
+          const chat = read(K.chat, []).map(m =>
+            m.id === targetId ? Object.assign(m, { hidden: true }) : m);
+          write(K.chat, chat);
+        }
+        announce('posts');
+        announce('chat');
+        return { ok: true };
+      },
+
+      async banMember(memberId, reason) {
+        if (!await this.isAdmin()) throw new Error('Admin only.');
+        const me = await this.getMe();
+        const bans = read('vp_lounge_bans', []);
+        if (!bans.find(b => b.memberId === memberId)) {
+          bans.push({
+            memberId, bannedBy: me.id,
+            reason: reason || '', createdAt: Date.now(),
+          });
+          write('vp_lounge_bans', bans);
+        }
+        return { ok: true };
+      },
+
+      async unbanMember(memberId) {
+        if (!await this.isAdmin()) throw new Error('Admin only.');
+        write('vp_lounge_bans', read('vp_lounge_bans', []).filter(b => b.memberId !== memberId));
+        return { ok: true };
+      },
+
+      async listReports() {
+        if (!await this.isAdmin()) return [];
+        return read('vp_lounge_reports', []);
+      },
+
+      async listBans() {
+        return read('vp_lounge_bans', []);
       },
 
       /* ── EVENTS ───────────────────────────────────────────────── */
@@ -860,7 +936,28 @@
         if (error) throw error;
       },
 
-      async listChat() { return chatLog; },
+      async listChat() {
+        // Read persisted chat from the database (so hidden messages
+        // are filtered by RLS). Falls back to the in-memory broadcast
+        // log if the table doesn't exist yet (pre-migration).
+        try {
+          const { data, error } = await sb
+            .from('lounge_chat_messages')
+            .select('*')
+            .order('created_at', { ascending: true })
+            .limit(200);
+          if (error) throw error;
+          return (data || []).map(r => ({
+            id: r.id, memberId: r.member_id,
+            handle: r.handle, avatar: r.avatar,
+            body: r.body, at: new Date(r.created_at).getTime(),
+            hidden: r.hidden,
+          }));
+        } catch (e) {
+          // Table doesn't exist yet or other error — use broadcast log.
+          return chatLog;
+        }
+      },
 
       async sendChat(body) {
         await this.ensureAuth();
@@ -870,6 +967,21 @@
           memberId: me.id, handle: me.handle, avatar: me.avatar,
           reddit: me.reddit || null, body, at: Date.now(),
         };
+        // Persist to the lounge_chat_messages table (for moderation),
+        // and broadcast for live delivery.
+        try {
+          const { data, error } = await sb.from('lounge_chat_messages').insert({
+            id: msg.id, member_id: me.id,
+            handle: me.handle, avatar: me.avatar,
+            body: body,
+          }).select().single();
+          if (!error && data) {
+            msg.id = data.id;
+          }
+        } catch (e) {
+          // Table might not exist yet (pre-migration). Non-fatal —
+          // the broadcast still delivers.
+        }
         await presenceChan.send({ type: 'broadcast', event: 'chat', payload: msg });
         // Broadcast does not echo to the sender, so add it locally.
         chatLog = chatLog.concat(msg).slice(-200);
@@ -887,6 +999,78 @@
         const cur = await this.getSeen();
         try { localStorage.setItem('vp_lounge_seen', JSON.stringify(Object.assign(cur, patch))); } catch (e) {}
         emit('seen');
+      },
+
+      /* ── MODERATION ─────────────────────────────────────────────
+         Report, hide, ban, list — all go through SECURITY DEFINER
+         functions or RLS policies defined in
+         docs/lounge-moderation-schema.sql.
+      ─────────────────────────────────────────────────────────── */
+      async isAdmin() {
+        if (!me) return false;
+        // me.isAdmin is set in memberFromRow from the is_admin column.
+        return !!me.isAdmin;
+      },
+
+      async reportContent(targetKind, targetId, reason) {
+        await this.ensureAuth();
+        const { error } = await sb.rpc('lounge_report', {
+          p_target_kind: targetKind,
+          p_target_id: targetId,
+          p_reason: reason || null,
+        });
+        if (error) throw error;
+        return { ok: true };
+      },
+
+      async hideContent(targetKind, targetId) {
+        await this.ensureAuth();
+        const { error } = await sb.rpc('lounge_hide', {
+          p_target_kind: targetKind,
+          p_target_id: targetId,
+        });
+        if (error) throw error;
+        return { ok: true };
+      },
+
+      async banMember(memberId, reason) {
+        await this.ensureAuth();
+        const { error } = await sb.rpc('lounge_ban_member', {
+          p_target_member: memberId,
+          p_reason: reason || null,
+        });
+        if (error) throw error;
+        return { ok: true };
+      },
+
+      async unbanMember(memberId) {
+        await this.ensureAuth();
+        const { error } = await sb.rpc('lounge_unban_member', {
+          p_target_member: memberId,
+        });
+        if (error) throw error;
+        return { ok: true };
+      },
+
+      async listReports() {
+        const { data, error } = await sb.from('lounge_reports')
+          .select('*').order('created_at', { ascending: false }).limit(200);
+        if (error) throw error;
+        return (data || []).map(r => ({
+          id: r.id, reporterId: r.reporter_id,
+          targetKind: r.target_kind, targetId: r.target_id,
+          reason: r.reason, createdAt: new Date(r.created_at).getTime(),
+        }));
+      },
+
+      async listBans() {
+        const { data, error } = await sb.from('lounge_bans')
+          .select('*').order('created_at', { ascending: false });
+        if (error) throw error;
+        return (data || []).map(r => ({
+          memberId: r.member_id, bannedBy: r.banned_by,
+          reason: r.reason, createdAt: new Date(r.created_at).getTime(),
+        }));
       },
 
       on(evt, cb) {
@@ -922,6 +1106,7 @@
         id: r.id, handle: r.handle, avatar: r.avatar,
         locMode: r.loc_mode, loc: r.loc,
         reddit: redditFromRow(r),
+        isAdmin: !!r.is_admin,
         joinedAt: r.created_at ? new Date(r.created_at).getTime() : Date.now(),
       };
     }
@@ -935,6 +1120,7 @@
         postId: r.post_id, parentId: r.parent_id,
         createdAt: new Date(r.created_at).getTime(),
         score: r.score, commentCount: r.comment_count,
+        hidden: !!r.hidden,
         // The UI reads votes as a {memberId: dir} map; the view hands back
         // only the caller's own vote, which is all the UI ever needs.
         voters: (r.my_vote && me) ? { [me.id]: r.my_vote } : {},

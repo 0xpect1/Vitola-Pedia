@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  
+    <defs>
+      <radialGradient id="ember" cx="85%" cy="15%" r="55%">
+        <stop offset="0%" stop-color="#ff6b35" stop-opacity="0.18"/>
+        <stop offset="40%" stop-color="#ff6b35" stop-opacity="0.06"/>
+        <stop offset="100%" stop-color="#ff6b35" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#241a0e"/>
+        <stop offset="60%" stop-color="#1a1209"/>
+        <stop offset="100%" stop-color="#0e0904"/>
+      </linearGradient>
+      <linearGradient id="goldBar" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#c9943a" stop-opacity="0.9"/>
+        <stop offset="100%" stop-color="#c9943a" stop-opacity="0.3"/>
+      </linearGradient>
+    </defs>
+    <rect width="1200" height="630" fill="url(#bgGrad)"/>
+    <rect width="1200" height="630" fill="url(#ember)"/>
+    <!-- smoke wisps -->
+    <path d="M980 580 Q 1040 480 990 380 T 1010 180" stroke="#c9943a" stroke-width="1.2" fill="none" opacity="0.10"/>
+    <path d="M1080 600 Q 1120 470 1060 350 T 1100 140" stroke="#c9943a" stroke-width="1" fill="none" opacity="0.07"/>
+    <path d="M 60 520 Q 120 460 80 400 T 140 280" stroke="#c9943a" stroke-width="1" fill="none" opacity="0.06"/>
+    <!-- left accent bar -->
+    <rect x="60" y="70" width="4" height="490" fill="url(#goldBar)" rx="2"/>
+  
+  <!-- brand eyebrow -->
+  <text x="90" y="120" font-family="Inter,Helvetica,Arial,sans-serif" font-size="20" fill="#c9943a" letter-spacing="4" font-weight="600">NAT SHERMAN</text>
+  <line x1="90" y1="138" x2="200" y2="138" stroke="#c9943a" stroke-width="2" opacity="0.6"/>
+
+  <!-- cigar name (serif, auto-fit) -->
+  <text x="90" y="250" font-family="Playfair Display,Georgia,serif" font-size="42" fill="#f5ecd6" font-weight="700">Nat Sherman Metropolitan</text>
+  <text x="90" y="296.2" font-family="Playfair Display,Georgia,serif" font-size="42" fill="#f5ecd6" font-weight="700">Maduro Robusto</text>
+
+  <!-- thin gold rule under name -->
+  <line x1="90" y1="360.4" x2="1110" y2="360.4" stroke="rgba(201,148,58,0.30)" stroke-width="1.5"/>
+
+  <!-- stats row -->
+  <g transform="translate(90,402.4)">
+    <!-- strength -->
+    <text x="0" y="0" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#a89270" letter-spacing="2" font-weight="600">STRENGTH</text>
+    <circle cx="4" cy="28" r="7" fill="#ff6b35" stroke="#ff6b35" stroke-width="1.5" opacity="1"/><circle cx="26" cy="28" r="7" fill="#ff6b35" stroke="#ff6b35" stroke-width="1.5" opacity="1"/><circle cx="48" cy="28" r="7" fill="#ff6b35" stroke="#ff6b35" stroke-width="1.5" opacity="1"/><circle cx="70" cy="28" r="7" fill="none" stroke="#a89270" stroke-width="1.5" opacity="0.45"/><circle cx="92" cy="28" r="7" fill="none" stroke="#a89270" stroke-width="1.5" opacity="0.45"/>
+    <text x="120" y="33" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#f5ecd6">Medium</text>
+
+    <!-- rating -->
+    <text x="260" y="0" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#a89270" letter-spacing="2" font-weight="600">RATING</text>
+    <path d="M264 21l4.4 9 9.8 1.4-7.1 6.9 1.7 9.8-8.8-4.6-8.8 4.6 1.7-9.8-7.1-6.9 9.8-1.4z" fill="#c9943a" stroke="#c9943a" stroke-width="1.2" opacity="1"/><path d="M284 21l4.4 9 9.8 1.4-7.1 6.9 1.7 9.8-8.8-4.6-8.8 4.6 1.7-9.8-7.1-6.9 9.8-1.4z" fill="#c9943a" stroke="#c9943a" stroke-width="1.2" opacity="1"/><path d="M304 21l4.4 9 9.8 1.4-7.1 6.9 1.7 9.8-8.8-4.6-8.8 4.6 1.7-9.8-7.1-6.9 9.8-1.4z" fill="#c9943a" stroke="#c9943a" stroke-width="1.2" opacity="1"/><path d="M324 21l4.4 9 9.8 1.4-7.1 6.9 1.7 9.8-8.8-4.6-8.8 4.6 1.7-9.8-7.1-6.9 9.8-1.4z" fill="#c9943a" stroke="#c9943a" stroke-width="1.2" opacity="1"/><path d="M344 21l4.4 9 9.8 1.4-7.1 6.9 1.7 9.8-8.8-4.6-8.8 4.6 1.7-9.8-7.1-6.9 9.8-1.4z" fill="#c9943a" stroke="#c9943a" stroke-width="1.2" opacity="1"/>
+    <text x="372" y="33" font-family="Playfair Display,Georgia,serif" font-size="20" fill="#c9943a" font-weight="700">91</text>
+    <text x="402" y="33" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12" fill="#a89270">/ 100</text>
+
+    <!-- price -->
+    <text x="470" y="0" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#a89270" letter-spacing="2" font-weight="600">PRICE</text>
+    <text x="474" y="33" font-family="Playfair Display,Georgia,serif" font-size="22" fill="#f5ecd6" font-weight="700">$12</text>
+
+    <!-- origin -->
+    <text x="600" y="0" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#a89270" letter-spacing="2" font-weight="600">ORIGIN</text>
+    <text x="604" y="33" font-family="Inter,Helvetica,Arial,sans-serif" font-size="17" fill="#f5ecd6">Dominican Republic</text>
+  </g>
+
+  <!-- size + smoke time -->
+  <text x="90" y="482.4" font-family="Inter,Helvetica,Arial,sans-serif" font-size="16" fill="#a89270" letter-spacing="1">Robusto  ·  5&quot; × 52  ·  55 min</text>
+
+  <!-- flavor pills -->
+  <text x="90" y="522.4" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#a89270" letter-spacing="2" font-weight="600">FLAVOR NOTES</text>
+  <rect x="90" y="540.4" width="143" height="30" rx="15" fill="rgba(201,148,58,0.14)" stroke="rgba(201,148,58,0.35)" stroke-width="1"/><text x="161.5" y="560.4" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#c9943a" text-anchor="middle">Dark Chocolate</text><rect x="243" y="540.4" width="75" height="30" rx="15" fill="rgba(201,148,58,0.14)" stroke="rgba(201,148,58,0.35)" stroke-width="1"/><text x="280.5" y="560.4" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#c9943a" text-anchor="middle">Coffee</text><rect x="328" y="540.4" width="83.5" height="30" rx="15" fill="rgba(201,148,58,0.14)" stroke="rgba(201,148,58,0.35)" stroke-width="1"/><text x="369.75" y="560.4" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#c9943a" text-anchor="middle">Leather</text><rect x="421.5" y="540.4" width="66.5" height="30" rx="15" fill="rgba(201,148,58,0.14)" stroke="rgba(201,148,58,0.35)" stroke-width="1"/><text x="454.75" y="560.4" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#c9943a" text-anchor="middle">Cedar</text>
+
+  
+    <g transform="translate(1010,578)">
+      <circle cx="0" cy="-8" r="4" fill="#ff6b35"/>
+      <text x="12" y="-3" font-family="Playfair Display,Georgia,serif" font-size="20" fill="#c9943a" font-weight="700">Vitola Pedia</text>
+    </g>
+  
+</svg>

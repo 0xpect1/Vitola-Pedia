@@ -1,0 +1,6511 @@
+{
+  "generated": "2026-08-18T16:50:22.620Z",
+  "cigarCount": 1458,
+  "houseCount": 134,
+  "cigars": [
+    {
+      "id": "cohiba-behike-bhe-52",
+      "file": "cigar-cohiba-behike-bhe-52.svg"
+    },
+    {
+      "id": "cohiba-siglo-vi",
+      "file": "cigar-cohiba-siglo-vi.svg"
+    },
+    {
+      "id": "montecristo-no-2",
+      "file": "cigar-montecristo-no-2.svg"
+    },
+    {
+      "id": "partagas-serie-d-no4",
+      "file": "cigar-partagas-serie-d-no4.svg"
+    },
+    {
+      "id": "romeo-y-julieta-churchills",
+      "file": "cigar-romeo-y-julieta-churchills.svg"
+    },
+    {
+      "id": "bolivar-royal-coronas",
+      "file": "cigar-bolivar-royal-coronas.svg"
+    },
+    {
+      "id": "h-upmann-no-2",
+      "file": "cigar-h-upmann-no-2.svg"
+    },
+    {
+      "id": "trinidad-fundadores",
+      "file": "cigar-trinidad-fundadores.svg"
+    },
+    {
+      "id": "padron-1964-anniversario-maduro",
+      "file": "cigar-padron-1964-anniversario-maduro.svg"
+    },
+    {
+      "id": "padron-80th-anniversario",
+      "file": "cigar-padron-80th-anniversario.svg"
+    },
+    {
+      "id": "oliva-serie-v-melanio",
+      "file": "cigar-oliva-serie-v-melanio.svg"
+    },
+    {
+      "id": "nicaraguan-avo-classic-robusto",
+      "file": "cigar-nicaraguan-avo-classic-robusto.svg"
+    },
+    {
+      "id": "my-father-le-bijou-1922",
+      "file": "cigar-my-father-le-bijou-1922.svg"
+    },
+    {
+      "id": "perdomo-reserve-champagne",
+      "file": "cigar-perdomo-reserve-champagne.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-antano-1970",
+      "file": "cigar-joya-de-nicaragua-antano-1970.svg"
+    },
+    {
+      "id": "drew-estate-liga-privada-t52",
+      "file": "cigar-drew-estate-liga-privada-t52.svg"
+    },
+    {
+      "id": "drew-estate-liga-privada-no9",
+      "file": "cigar-drew-estate-liga-privada-no9.svg"
+    },
+    {
+      "id": "rocky-patel-vintage-1990",
+      "file": "cigar-rocky-patel-vintage-1990.svg"
+    },
+    {
+      "id": "alec-bradley-prensado",
+      "file": "cigar-alec-bradley-prensado.svg"
+    },
+    {
+      "id": "arturo-fuente-opus-x",
+      "file": "cigar-arturo-fuente-opus-x.svg"
+    },
+    {
+      "id": "arturo-fuente-don-carlos",
+      "file": "cigar-arturo-fuente-don-carlos.svg"
+    },
+    {
+      "id": "macanudo-cafe-robusto",
+      "file": "cigar-macanudo-cafe-robusto.svg"
+    },
+    {
+      "id": "davidoff-grand-cru-no2",
+      "file": "cigar-davidoff-grand-cru-no2.svg"
+    },
+    {
+      "id": "davidoff-millennium-blend",
+      "file": "cigar-davidoff-millennium-blend.svg"
+    },
+    {
+      "id": "romeo-y-julieta-1875-robusto",
+      "file": "cigar-romeo-y-julieta-1875-robusto.svg"
+    },
+    {
+      "id": "avo-classic-no9",
+      "file": "cigar-avo-classic-no9.svg"
+    },
+    {
+      "id": "camacho-corojo-robusto",
+      "file": "cigar-camacho-corojo-robusto.svg"
+    },
+    {
+      "id": "punch-gran-puro-nicaragua",
+      "file": "cigar-punch-gran-puro-nicaragua.svg"
+    },
+    {
+      "id": "perdomo-champagne-connecticut",
+      "file": "cigar-perdomo-champagne-connecticut.svg"
+    },
+    {
+      "id": "oliva-connecticut-reserve",
+      "file": "cigar-oliva-connecticut-reserve.svg"
+    },
+    {
+      "id": "cao-mx2-maduro",
+      "file": "cigar-cao-mx2-maduro.svg"
+    },
+    {
+      "id": "foundation-el-gueguense",
+      "file": "cigar-foundation-el-gueguense.svg"
+    },
+    {
+      "id": "ashton-esg-10-year",
+      "file": "cigar-ashton-esg-10-year.svg"
+    },
+    {
+      "id": "plasencia-alma-del-fuego",
+      "file": "cigar-plasencia-alma-del-fuego.svg"
+    },
+    {
+      "id": "crowned-heads-jericho-hill",
+      "file": "cigar-crowned-heads-jericho-hill.svg"
+    },
+    {
+      "id": "illusione-epernay",
+      "file": "cigar-illusione-epernay.svg"
+    },
+    {
+      "id": "davidoff-winston-churchill",
+      "file": "cigar-davidoff-winston-churchill.svg"
+    },
+    {
+      "id": "tatuaje-verocu-no5",
+      "file": "cigar-tatuaje-verocu-no5.svg"
+    },
+    {
+      "id": "cao-cameroon",
+      "file": "cigar-cao-cameroon.svg"
+    },
+    {
+      "id": "arturo-fuente-anejo-no77",
+      "file": "cigar-arturo-fuente-anejo-no77.svg"
+    },
+    {
+      "id": "arturo-fuente-8-5-8",
+      "file": "cigar-arturo-fuente-8-5-8.svg"
+    },
+    {
+      "id": "padron-series-2000-maduro",
+      "file": "cigar-padron-series-2000-maduro.svg"
+    },
+    {
+      "id": "oliva-serie-o-maduro",
+      "file": "cigar-oliva-serie-o-maduro.svg"
+    },
+    {
+      "id": "my-father-no1",
+      "file": "cigar-my-father-no1.svg"
+    },
+    {
+      "id": "alec-bradley-magic-toast",
+      "file": "cigar-alec-bradley-magic-toast.svg"
+    },
+    {
+      "id": "honduran-vintage-por-larranaga",
+      "file": "cigar-honduran-vintage-por-larranaga.svg"
+    },
+    {
+      "id": "oliva-serie-g-cameroon",
+      "file": "cigar-oliva-serie-g-cameroon.svg"
+    },
+    {
+      "id": "acid-blondie",
+      "file": "cigar-acid-blondie.svg"
+    },
+    {
+      "id": "cao-flavours-eileen",
+      "file": "cigar-cao-flavours-eileen.svg"
+    },
+    {
+      "id": "padron-1964-imperial",
+      "file": "cigar-padron-1964-imperial.svg"
+    },
+    {
+      "id": "punch-punch-cuba",
+      "file": "cigar-punch-punch-cuba.svg"
+    },
+    {
+      "id": "hoyo-de-monterrey-epicure-no2",
+      "file": "cigar-hoyo-de-monterrey-epicure-no2.svg"
+    },
+    {
+      "id": "saint-luis-rey-series-g",
+      "file": "cigar-saint-luis-rey-series-g.svg"
+    },
+    {
+      "id": "padron-family-reserve-no45",
+      "file": "cigar-padron-family-reserve-no45.svg"
+    },
+    {
+      "id": "fuente-fuente-opus-x-fe",
+      "file": "cigar-fuente-fuente-opus-x-fe.svg"
+    },
+    {
+      "id": "general-cigar-cohiba-macassar",
+      "file": "cigar-general-cigar-cohiba-macassar.svg"
+    },
+    {
+      "id": "romeo-y-julieta-vintage-no5",
+      "file": "cigar-romeo-y-julieta-vintage-no5.svg"
+    },
+    {
+      "id": "cao-guatemalan-robusto",
+      "file": "cigar-cao-guatemalan-robusto.svg"
+    },
+    {
+      "id": "la-gloria-cubana-serie-r",
+      "file": "cigar-la-gloria-cubana-serie-r.svg"
+    },
+    {
+      "id": "baccarat-the-game",
+      "file": "cigar-baccarat-the-game.svg"
+    },
+    {
+      "id": "perdomo-habano-sun-grown",
+      "file": "cigar-perdomo-habano-sun-grown.svg"
+    },
+    {
+      "id": "rocky-patel-decade",
+      "file": "cigar-rocky-patel-decade.svg"
+    },
+    {
+      "id": "macanudo-inspirado-orange",
+      "file": "cigar-macanudo-inspirado-orange.svg"
+    },
+    {
+      "id": "cohiba-espléndidos",
+      "file": "cigar-cohiba-espléndidos.svg"
+    },
+    {
+      "id": "diplomaticos-no2",
+      "file": "cigar-diplomaticos-no2.svg"
+    },
+    {
+      "id": "quai-dorsay-imperiales",
+      "file": "cigar-quai-dorsay-imperiales.svg"
+    },
+    {
+      "id": "fuente-natural-colorado-claro",
+      "file": "cigar-fuente-natural-colorado-claro.svg"
+    },
+    {
+      "id": "zino-platinum-crown-serie",
+      "file": "cigar-zino-platinum-crown-serie.svg"
+    },
+    {
+      "id": "gurkha-black-dragon",
+      "file": "cigar-gurkha-black-dragon.svg"
+    },
+    {
+      "id": "nub-cafe-maduro",
+      "file": "cigar-nub-cafe-maduro.svg"
+    },
+    {
+      "id": "ep-carrillo-la-historia",
+      "file": "cigar-ep-carrillo-la-historia.svg"
+    },
+    {
+      "id": "oliva-serie-v-robusto",
+      "file": "cigar-oliva-serie-v-robusto.svg"
+    },
+    {
+      "id": "oliva-serie-v-toro",
+      "file": "cigar-oliva-serie-v-toro.svg"
+    },
+    {
+      "id": "oliva-serie-v-churchill",
+      "file": "cigar-oliva-serie-v-churchill.svg"
+    },
+    {
+      "id": "oliva-serie-v-special-t",
+      "file": "cigar-oliva-serie-v-special-t.svg"
+    },
+    {
+      "id": "oliva-serie-v-double-toro",
+      "file": "cigar-oliva-serie-v-double-toro.svg"
+    },
+    {
+      "id": "oliva-serie-v-lancero",
+      "file": "cigar-oliva-serie-v-lancero.svg"
+    },
+    {
+      "id": "oliva-serie-v-melanio-maduro",
+      "file": "cigar-oliva-serie-v-melanio-maduro.svg"
+    },
+    {
+      "id": "oliva-serie-g-natural",
+      "file": "cigar-oliva-serie-g-natural.svg"
+    },
+    {
+      "id": "oliva-serie-g-special-t",
+      "file": "cigar-oliva-serie-g-special-t.svg"
+    },
+    {
+      "id": "oliva-serie-o-natural",
+      "file": "cigar-oliva-serie-o-natural.svg"
+    },
+    {
+      "id": "oliva-flor-de-oliva",
+      "file": "cigar-oliva-flor-de-oliva.svg"
+    },
+    {
+      "id": "oliva-master-blends-3",
+      "file": "cigar-oliva-master-blends-3.svg"
+    },
+    {
+      "id": "cain-f-habano",
+      "file": "cigar-cain-f-habano.svg"
+    },
+    {
+      "id": "cain-daytona",
+      "file": "cigar-cain-daytona.svg"
+    },
+    {
+      "id": "nub-connecticut-460",
+      "file": "cigar-nub-connecticut-460.svg"
+    },
+    {
+      "id": "nub-habano-460",
+      "file": "cigar-nub-habano-460.svg"
+    },
+    {
+      "id": "nub-maduro-460",
+      "file": "cigar-nub-maduro-460.svg"
+    },
+    {
+      "id": "nub-cameroon-508",
+      "file": "cigar-nub-cameroon-508.svg"
+    },
+    {
+      "id": "nub-nuance-single-malt",
+      "file": "cigar-nub-nuance-single-malt.svg"
+    },
+    {
+      "id": "nub-nuance-double-roast",
+      "file": "cigar-nub-nuance-double-roast.svg"
+    },
+    {
+      "id": "nub-nuance-single-roast",
+      "file": "cigar-nub-nuance-single-roast.svg"
+    },
+    {
+      "id": "nub-habano-torpedo",
+      "file": "cigar-nub-habano-torpedo.svg"
+    },
+    {
+      "id": "ashton-classic-robusto",
+      "file": "cigar-ashton-classic-robusto.svg"
+    },
+    {
+      "id": "ashton-classic-churchill",
+      "file": "cigar-ashton-classic-churchill.svg"
+    },
+    {
+      "id": "ashton-cabinet-selection-no1",
+      "file": "cigar-ashton-cabinet-selection-no1.svg"
+    },
+    {
+      "id": "ashton-vsg-robusto",
+      "file": "cigar-ashton-vsg-robusto.svg"
+    },
+    {
+      "id": "ashton-vsg-torpedo",
+      "file": "cigar-ashton-vsg-torpedo.svg"
+    },
+    {
+      "id": "ashton-heritage-puro-sol",
+      "file": "cigar-ashton-heritage-puro-sol.svg"
+    },
+    {
+      "id": "ashton-symmetry",
+      "file": "cigar-ashton-symmetry.svg"
+    },
+    {
+      "id": "ashton-aged-maduro-no40",
+      "file": "cigar-ashton-aged-maduro-no40.svg"
+    },
+    {
+      "id": "ashton-small-batch",
+      "file": "cigar-ashton-small-batch.svg"
+    },
+    {
+      "id": "davidoff-grand-cru-no1",
+      "file": "cigar-davidoff-grand-cru-no1.svg"
+    },
+    {
+      "id": "davidoff-grand-cru-no3",
+      "file": "cigar-davidoff-grand-cru-no3.svg"
+    },
+    {
+      "id": "davidoff-grand-cru-no4",
+      "file": "cigar-davidoff-grand-cru-no4.svg"
+    },
+    {
+      "id": "davidoff-grand-cru-no5",
+      "file": "cigar-davidoff-grand-cru-no5.svg"
+    },
+    {
+      "id": "davidoff-winston-churchill-original",
+      "file": "cigar-davidoff-winston-churchill-original.svg"
+    },
+    {
+      "id": "davidoff-special-r",
+      "file": "cigar-davidoff-special-r.svg"
+    },
+    {
+      "id": "davidoff-special-t",
+      "file": "cigar-davidoff-special-t.svg"
+    },
+    {
+      "id": "davidoff-nicaragua",
+      "file": "cigar-davidoff-nicaragua.svg"
+    },
+    {
+      "id": "davidoff-puro-doro",
+      "file": "cigar-davidoff-puro-doro.svg"
+    },
+    {
+      "id": "davidoff-aniversario-special",
+      "file": "cigar-davidoff-aniversario-special.svg"
+    },
+    {
+      "id": "davidoff-signature-2000",
+      "file": "cigar-davidoff-signature-2000.svg"
+    },
+    {
+      "id": "davidoff-royal-release",
+      "file": "cigar-davidoff-royal-release.svg"
+    },
+    {
+      "id": "davidoff-702-series",
+      "file": "cigar-davidoff-702-series.svg"
+    },
+    {
+      "id": "herrera-esteli-miami",
+      "file": "cigar-herrera-esteli-miami.svg"
+    },
+    {
+      "id": "alec-bradley-black-market",
+      "file": "cigar-alec-bradley-black-market.svg"
+    },
+    {
+      "id": "alec-bradley-tempus",
+      "file": "cigar-alec-bradley-tempus.svg"
+    },
+    {
+      "id": "alec-bradley-double-broadleaf",
+      "file": "cigar-alec-bradley-double-broadleaf.svg"
+    },
+    {
+      "id": "rocky-patel-vintage-1999",
+      "file": "cigar-rocky-patel-vintage-1999.svg"
+    },
+    {
+      "id": "rocky-patel-vintage-2006",
+      "file": "cigar-rocky-patel-vintage-2006.svg"
+    },
+    {
+      "id": "rocky-patel-gold-label",
+      "file": "cigar-rocky-patel-gold-label.svg"
+    },
+    {
+      "id": "rocky-patel-fifteenth-anniversary",
+      "file": "cigar-rocky-patel-fifteenth-anniversary.svg"
+    },
+    {
+      "id": "cao-brazilia",
+      "file": "cigar-cao-brazilia.svg"
+    },
+    {
+      "id": "cao-flathead-v660",
+      "file": "cigar-cao-flathead-v660.svg"
+    },
+    {
+      "id": "cao-italia",
+      "file": "cigar-cao-italia.svg"
+    },
+    {
+      "id": "macanudo-maduro",
+      "file": "cigar-macanudo-maduro.svg"
+    },
+    {
+      "id": "macanudo-gold-label",
+      "file": "cigar-macanudo-gold-label.svg"
+    },
+    {
+      "id": "macanudo-inspirado-white",
+      "file": "cigar-macanudo-inspirado-white.svg"
+    },
+    {
+      "id": "macanudo-cru-royale",
+      "file": "cigar-macanudo-cru-royale.svg"
+    },
+    {
+      "id": "romeo-y-julieta-1875-natural",
+      "file": "cigar-romeo-y-julieta-1875-natural.svg"
+    },
+    {
+      "id": "romeo-y-julieta-reserva-real",
+      "file": "cigar-romeo-y-julieta-reserva-real.svg"
+    },
+    {
+      "id": "romeo-y-julieta-nicaragua",
+      "file": "cigar-romeo-y-julieta-nicaragua.svg"
+    },
+    {
+      "id": "la-gloria-cubana-serie-r-esteli",
+      "file": "cigar-la-gloria-cubana-serie-r-esteli.svg"
+    },
+    {
+      "id": "aging-room-quattro-original",
+      "file": "cigar-aging-room-quattro-original.svg"
+    },
+    {
+      "id": "aging-room-quattro-nicaragua",
+      "file": "cigar-aging-room-quattro-nicaragua.svg"
+    },
+    {
+      "id": "aging-room-rare-collection",
+      "file": "cigar-aging-room-rare-collection.svg"
+    },
+    {
+      "id": "crowned-heads-four-kicks",
+      "file": "cigar-crowned-heads-four-kicks.svg"
+    },
+    {
+      "id": "crowned-heads-four-kicks-maduro",
+      "file": "cigar-crowned-heads-four-kicks-maduro.svg"
+    },
+    {
+      "id": "crowned-heads-mil-dias",
+      "file": "cigar-crowned-heads-mil-dias.svg"
+    },
+    {
+      "id": "la-aroma-de-cuba-original",
+      "file": "cigar-la-aroma-de-cuba-original.svg"
+    },
+    {
+      "id": "la-aroma-de-cuba-mi-amor",
+      "file": "cigar-la-aroma-de-cuba-mi-amor.svg"
+    },
+    {
+      "id": "la-aroma-de-cuba-mi-amor-reserva",
+      "file": "cigar-la-aroma-de-cuba-mi-amor-reserva.svg"
+    },
+    {
+      "id": "montecristo-platinum",
+      "file": "cigar-montecristo-platinum.svg"
+    },
+    {
+      "id": "montecristo-1935-anniversary",
+      "file": "cigar-montecristo-1935-anniversary.svg"
+    },
+    {
+      "id": "h-upmann-1844-reserve",
+      "file": "cigar-h-upmann-1844-reserve.svg"
+    },
+    {
+      "id": "h-upmann-banker",
+      "file": "cigar-h-upmann-banker.svg"
+    },
+    {
+      "id": "camacho-triple-maduro",
+      "file": "cigar-camacho-triple-maduro.svg"
+    },
+    {
+      "id": "camacho-connecticut",
+      "file": "cigar-camacho-connecticut.svg"
+    },
+    {
+      "id": "illusione-od-habano",
+      "file": "cigar-illusione-od-habano.svg"
+    },
+    {
+      "id": "illusione-garagiste",
+      "file": "cigar-illusione-garagiste.svg"
+    },
+    {
+      "id": "undercrown-maduro",
+      "file": "cigar-undercrown-maduro.svg"
+    },
+    {
+      "id": "undercrown-sun-grown",
+      "file": "cigar-undercrown-sun-grown.svg"
+    },
+    {
+      "id": "undercrown-shade",
+      "file": "cigar-undercrown-shade.svg"
+    },
+    {
+      "id": "foundation-tabernacle",
+      "file": "cigar-foundation-tabernacle.svg"
+    },
+    {
+      "id": "foundation-charter-oak",
+      "file": "cigar-foundation-charter-oak.svg"
+    },
+    {
+      "id": "tatuaje-brown-label",
+      "file": "cigar-tatuaje-brown-label.svg"
+    },
+    {
+      "id": "tatuaje-havana-vi",
+      "file": "cigar-tatuaje-havana-vi.svg"
+    },
+    {
+      "id": "tatuaje-reserva",
+      "file": "cigar-tatuaje-reserva.svg"
+    },
+    {
+      "id": "ep-carrillo-encore",
+      "file": "cigar-ep-carrillo-encore.svg"
+    },
+    {
+      "id": "ep-carrillo-pledge",
+      "file": "cigar-ep-carrillo-pledge.svg"
+    },
+    {
+      "id": "ep-carrillo-new-wave-connecticut",
+      "file": "cigar-ep-carrillo-new-wave-connecticut.svg"
+    },
+    {
+      "id": "my-father-flor-de-las-antillas",
+      "file": "cigar-my-father-flor-de-las-antillas.svg"
+    },
+    {
+      "id": "my-father-the-judge",
+      "file": "cigar-my-father-the-judge.svg"
+    },
+    {
+      "id": "don-pepin-garcia-original",
+      "file": "cigar-don-pepin-garcia-original.svg"
+    },
+    {
+      "id": "herrera-esteli-robusto-grande",
+      "file": "cigar-herrera-esteli-robusto-grande.svg"
+    },
+    {
+      "id": "herrera-esteli-brazilian-maduro",
+      "file": "cigar-herrera-esteli-brazilian-maduro.svg"
+    },
+    {
+      "id": "perdomo-30th-anniversary-maduro",
+      "file": "cigar-perdomo-30th-anniversary-maduro.svg"
+    },
+    {
+      "id": "perdomo-inmenso-seventy",
+      "file": "cigar-perdomo-inmenso-seventy.svg"
+    },
+    {
+      "id": "quesada-1974",
+      "file": "cigar-quesada-1974.svg"
+    },
+    {
+      "id": "dunbarton-mi-querida-triqui-traca",
+      "file": "cigar-dunbarton-mi-querida-triqui-traca.svg"
+    },
+    {
+      "id": "dunbarton-mi-querida-seriocomica",
+      "file": "cigar-dunbarton-mi-querida-seriocomica.svg"
+    },
+    {
+      "id": "dunbarton-sobremesa-brulee",
+      "file": "cigar-dunbarton-sobremesa-brulee.svg"
+    },
+    {
+      "id": "dunbarton-sobremesa-madurito",
+      "file": "cigar-dunbarton-sobremesa-madurito.svg"
+    },
+    {
+      "id": "dunbarton-todos-las-dias",
+      "file": "cigar-dunbarton-todos-las-dias.svg"
+    },
+    {
+      "id": "dunbarton-mi-querida-sakakhan",
+      "file": "cigar-dunbarton-mi-querida-sakakhan.svg"
+    },
+    {
+      "id": "dunbarton-sobremesa-solita",
+      "file": "cigar-dunbarton-sobremesa-solita.svg"
+    },
+    {
+      "id": "dunbarton-mi-querida-core",
+      "file": "cigar-dunbarton-mi-querida-core.svg"
+    },
+    {
+      "id": "dunbarton-umbagog",
+      "file": "cigar-dunbarton-umbagog.svg"
+    },
+    {
+      "id": "dunbarton-sin-compromiso-no2",
+      "file": "cigar-dunbarton-sin-compromiso-no2.svg"
+    },
+    {
+      "id": "dunbarton-stillwell-star-aromatic-no1",
+      "file": "cigar-dunbarton-stillwell-star-aromatic-no1.svg"
+    },
+    {
+      "id": "dunbarton-stillwell-star-english-no27",
+      "file": "cigar-dunbarton-stillwell-star-english-no27.svg"
+    },
+    {
+      "id": "dunbarton-muestra-de-saka-exclusivo",
+      "file": "cigar-dunbarton-muestra-de-saka-exclusivo.svg"
+    },
+    {
+      "id": "dunbarton-red-meat-lovers-ribeye",
+      "file": "cigar-dunbarton-red-meat-lovers-ribeye.svg"
+    },
+    {
+      "id": "bandido-cigarillo-natural",
+      "file": "cigar-bandido-cigarillo-natural.svg"
+    },
+    {
+      "id": "bandido-cigarillo-sweet",
+      "file": "cigar-bandido-cigarillo-sweet.svg"
+    },
+    {
+      "id": "bandido-cigarillo-vanilla",
+      "file": "cigar-bandido-cigarillo-vanilla.svg"
+    },
+    {
+      "id": "aj-fernandez-new-world",
+      "file": "cigar-aj-fernandez-new-world.svg"
+    },
+    {
+      "id": "aj-fernandez-enclave",
+      "file": "cigar-aj-fernandez-enclave.svg"
+    },
+    {
+      "id": "aj-fernandez-san-lotano-oval",
+      "file": "cigar-aj-fernandez-san-lotano-oval.svg"
+    },
+    {
+      "id": "aj-fernandez-last-call",
+      "file": "cigar-aj-fernandez-last-call.svg"
+    },
+    {
+      "id": "aj-fernandez-puro-atlantico",
+      "file": "cigar-aj-fernandez-puro-atlantico.svg"
+    },
+    {
+      "id": "lfd-double-ligero-chisel",
+      "file": "cigar-lfd-double-ligero-chisel.svg"
+    },
+    {
+      "id": "lfd-air-bender",
+      "file": "cigar-lfd-air-bender.svg"
+    },
+    {
+      "id": "lfd-coronado",
+      "file": "cigar-lfd-coronado.svg"
+    },
+    {
+      "id": "aganorsa-supreme-leaf",
+      "file": "cigar-aganorsa-supreme-leaf.svg"
+    },
+    {
+      "id": "aganorsa-rare-leaf",
+      "file": "cigar-aganorsa-rare-leaf.svg"
+    },
+    {
+      "id": "southern-draw-kudzu",
+      "file": "cigar-southern-draw-kudzu.svg"
+    },
+    {
+      "id": "southern-draw-rose-of-sharon",
+      "file": "cigar-southern-draw-rose-of-sharon.svg"
+    },
+    {
+      "id": "southern-draw-300-hands",
+      "file": "cigar-southern-draw-300-hands.svg"
+    },
+    {
+      "id": "warped-el-oso",
+      "file": "cigar-warped-el-oso.svg"
+    },
+    {
+      "id": "warped-flor-del-valle",
+      "file": "cigar-warped-flor-del-valle.svg"
+    },
+    {
+      "id": "caldwell-long-live-the-king",
+      "file": "cigar-caldwell-long-live-the-king.svg"
+    },
+    {
+      "id": "caldwell-eastern-standard",
+      "file": "cigar-caldwell-eastern-standard.svg"
+    },
+    {
+      "id": "diamond-crown-maximus",
+      "file": "cigar-diamond-crown-maximus.svg"
+    },
+    {
+      "id": "brick-house-robusto",
+      "file": "cigar-brick-house-robusto.svg"
+    },
+    {
+      "id": "brick-house-mighty-mighty",
+      "file": "cigar-brick-house-mighty-mighty.svg"
+    },
+    {
+      "id": "villiger-1888",
+      "file": "cigar-villiger-1888.svg"
+    },
+    {
+      "id": "villiger-la-vencedora",
+      "file": "cigar-villiger-la-vencedora.svg"
+    },
+    {
+      "id": "leaf-by-oscar-nicaraguan",
+      "file": "cigar-leaf-by-oscar-nicaraguan.svg"
+    },
+    {
+      "id": "leaf-by-oscar-sumatran",
+      "file": "cigar-leaf-by-oscar-sumatran.svg"
+    },
+    {
+      "id": "romaccraft-cromagnon",
+      "file": "cigar-romaccraft-cromagnon.svg"
+    },
+    {
+      "id": "romaccraft-intemperance",
+      "file": "cigar-romaccraft-intemperance.svg"
+    },
+    {
+      "id": "espinosa-laranja-reserva",
+      "file": "cigar-espinosa-laranja-reserva.svg"
+    },
+    {
+      "id": "espinosa-601-blue-label",
+      "file": "cigar-espinosa-601-blue-label.svg"
+    },
+    {
+      "id": "cuaba-tradicionales",
+      "file": "cigar-cuaba-tradicionales.svg"
+    },
+    {
+      "id": "vegas-robaina-unicos",
+      "file": "cigar-vegas-robaina-unicos.svg"
+    },
+    {
+      "id": "rafael-gonzalez-perlas",
+      "file": "cigar-rafael-gonzalez-perlas.svg"
+    },
+    {
+      "id": "el-rey-del-mundo-choix-supreme",
+      "file": "cigar-el-rey-del-mundo-choix-supreme.svg"
+    },
+    {
+      "id": "sancho-panza-belicosos",
+      "file": "cigar-sancho-panza-belicosos.svg"
+    },
+    {
+      "id": "protocol-probable-cause",
+      "file": "cigar-protocol-probable-cause.svg"
+    },
+    {
+      "id": "swisher-sweets-original",
+      "file": "cigar-swisher-sweets-original.svg"
+    },
+    {
+      "id": "black-mild-wine",
+      "file": "cigar-black-mild-wine.svg"
+    },
+    {
+      "id": "dutch-masters-corona",
+      "file": "cigar-dutch-masters-corona.svg"
+    },
+    {
+      "id": "garcia-vega-english-corona",
+      "file": "cigar-garcia-vega-english-corona.svg"
+    },
+    {
+      "id": "gran-habano-el-gigante",
+      "file": "cigar-gran-habano-el-gigante.svg"
+    },
+    {
+      "id": "nat-sherman-timeless-prestige",
+      "file": "cigar-nat-sherman-timeless-prestige.svg"
+    },
+    {
+      "id": "padron-1964-anniversary-natural",
+      "file": "cigar-padron-1964-anniversary-natural.svg"
+    },
+    {
+      "id": "padron-1964-anniversary-maduro",
+      "file": "cigar-padron-1964-anniversary-maduro.svg"
+    },
+    {
+      "id": "padron-1926-no35-natural",
+      "file": "cigar-padron-1926-no35-natural.svg"
+    },
+    {
+      "id": "padron-family-reserve-no85",
+      "file": "cigar-padron-family-reserve-no85.svg"
+    },
+    {
+      "id": "padron-series-1000-natural",
+      "file": "cigar-padron-series-1000-natural.svg"
+    },
+    {
+      "id": "rocky-patel-edge",
+      "file": "cigar-rocky-patel-edge.svg"
+    },
+    {
+      "id": "rocky-patel-hamlet-2000",
+      "file": "cigar-rocky-patel-hamlet-2000.svg"
+    },
+    {
+      "id": "perdomo-reserve-champagne-connecticut",
+      "file": "cigar-perdomo-reserve-champagne-connecticut.svg"
+    },
+    {
+      "id": "perdomo-habano-gold",
+      "file": "cigar-perdomo-habano-gold.svg"
+    },
+    {
+      "id": "perdomo-20th-anniversary-maduro",
+      "file": "cigar-perdomo-20th-anniversary-maduro.svg"
+    },
+    {
+      "id": "perdomo-epicure",
+      "file": "cigar-perdomo-epicure.svg"
+    },
+    {
+      "id": "plasencia-alma-del-campo",
+      "file": "cigar-plasencia-alma-del-campo.svg"
+    },
+    {
+      "id": "plasencia-cosecha-149",
+      "file": "cigar-plasencia-cosecha-149.svg"
+    },
+    {
+      "id": "plasencia-alma-fuerte-generoso",
+      "file": "cigar-plasencia-alma-fuerte-generoso.svg"
+    },
+    {
+      "id": "cao-flathead-v554",
+      "file": "cigar-cao-flathead-v554.svg"
+    },
+    {
+      "id": "cao-nicaragua",
+      "file": "cigar-cao-nicaragua.svg"
+    },
+    {
+      "id": "cao-amazonia",
+      "file": "cigar-cao-amazonia.svg"
+    },
+    {
+      "id": "cao-pilon-robusto",
+      "file": "cigar-cao-pilon-robusto.svg"
+    },
+    {
+      "id": "casdagli-traditional-robusto",
+      "file": "cigar-casdagli-traditional-robusto.svg"
+    },
+    {
+      "id": "casdagli-traditional-cotton-tail",
+      "file": "cigar-casdagli-traditional-cotton-tail.svg"
+    },
+    {
+      "id": "casdagli-basilica-a",
+      "file": "cigar-casdagli-basilica-a.svg"
+    },
+    {
+      "id": "casdagli-basilica-c1",
+      "file": "cigar-casdagli-basilica-c1.svg"
+    },
+    {
+      "id": "casdagli-brothers-forrader",
+      "file": "cigar-casdagli-brothers-forrader.svg"
+    },
+    {
+      "id": "casdagli-cabinet-rosetta",
+      "file": "cigar-casdagli-cabinet-rosetta.svg"
+    },
+    {
+      "id": "casdagli-daughters-pony-express",
+      "file": "cigar-casdagli-daughters-pony-express.svg"
+    },
+    {
+      "id": "casdagli-villa-pigasus",
+      "file": "cigar-casdagli-villa-pigasus.svg"
+    },
+    {
+      "id": "casdagli-cypher-3311-needle",
+      "file": "cigar-casdagli-cypher-3311-needle.svg"
+    },
+    {
+      "id": "bltc-last-rites-robusto",
+      "file": "cigar-bltc-last-rites-robusto.svg"
+    },
+    {
+      "id": "bltc-lawless-robusto",
+      "file": "cigar-bltc-lawless-robusto.svg"
+    },
+    {
+      "id": "bltc-royalty-robusto",
+      "file": "cigar-bltc-royalty-robusto.svg"
+    },
+    {
+      "id": "bltc-salvation-robusto",
+      "file": "cigar-bltc-salvation-robusto.svg"
+    },
+    {
+      "id": "bltc-santa-muerte",
+      "file": "cigar-bltc-santa-muerte.svg"
+    },
+    {
+      "id": "bltc-deliverance-nocturne",
+      "file": "cigar-bltc-deliverance-nocturne.svg"
+    },
+    {
+      "id": "bltc-deliverance-porcelain",
+      "file": "cigar-bltc-deliverance-porcelain.svg"
+    },
+    {
+      "id": "bltc-bishops-blend-2024",
+      "file": "cigar-bltc-bishops-blend-2024.svg"
+    },
+    {
+      "id": "bltc-orthodox",
+      "file": "cigar-bltc-orthodox.svg"
+    },
+    {
+      "id": "bltc-eletto",
+      "file": "cigar-bltc-eletto.svg"
+    },
+    {
+      "id": "bltc-super-deluxe-2025",
+      "file": "cigar-bltc-super-deluxe-2025.svg"
+    },
+    {
+      "id": "bltc-morphine-10yr",
+      "file": "cigar-bltc-morphine-10yr.svg"
+    },
+    {
+      "id": "ferio-tego-timeless-prestige-robusto",
+      "file": "cigar-ferio-tego-timeless-prestige-robusto.svg"
+    },
+    {
+      "id": "ferio-tego-affinity-robusto",
+      "file": "cigar-ferio-tego-affinity-robusto.svg"
+    },
+    {
+      "id": "ferio-tego-generosidad-toro",
+      "file": "cigar-ferio-tego-generosidad-toro.svg"
+    },
+    {
+      "id": "ferio-tego-toro-de-fuego",
+      "file": "cigar-ferio-tego-toro-de-fuego.svg"
+    },
+    {
+      "id": "ferio-tego-magnum-opus-robusto",
+      "file": "cigar-ferio-tego-magnum-opus-robusto.svg"
+    },
+    {
+      "id": "room-101-big-stick-robusto",
+      "file": "cigar-room-101-big-stick-robusto.svg"
+    },
+    {
+      "id": "room-101-farce-maduro-robusto",
+      "file": "cigar-room-101-farce-maduro-robusto.svg"
+    },
+    {
+      "id": "room-101-namakubi-robusto",
+      "file": "cigar-room-101-namakubi-robusto.svg"
+    },
+    {
+      "id": "room-101-daruma-robusto",
+      "file": "cigar-room-101-daruma-robusto.svg"
+    },
+    {
+      "id": "room-101-osok-robusto",
+      "file": "cigar-room-101-osok-robusto.svg"
+    },
+    {
+      "id": "ace-prime-fiat-lux-robusto",
+      "file": "cigar-ace-prime-fiat-lux-robusto.svg"
+    },
+    {
+      "id": "ace-prime-el-oso-grande-robusto",
+      "file": "cigar-ace-prime-el-oso-grande-robusto.svg"
+    },
+    {
+      "id": "ace-prime-palmita-robusto",
+      "file": "cigar-ace-prime-palmita-robusto.svg"
+    },
+    {
+      "id": "ace-prime-lux-cameroon-robusto",
+      "file": "cigar-ace-prime-lux-cameroon-robusto.svg"
+    },
+    {
+      "id": "ace-prime-mombacho-diplomatico-robusto",
+      "file": "cigar-ace-prime-mombacho-diplomatico-robusto.svg"
+    },
+    {
+      "id": "viaje-exclusivo-robusto",
+      "file": "cigar-viaje-exclusivo-robusto.svg"
+    },
+    {
+      "id": "viaje-white-label-project-wlp-robusto",
+      "file": "cigar-viaje-white-label-project-wlp-robusto.svg"
+    },
+    {
+      "id": "viaje-honey-and-hand-grenades-robusto",
+      "file": "cigar-viaje-honey-and-hand-grenades-robusto.svg"
+    },
+    {
+      "id": "viaje-summerfest-robusto",
+      "file": "cigar-viaje-summerfest-robusto.svg"
+    },
+    {
+      "id": "herrera-esteli-norteno-robusto-grande",
+      "file": "cigar-herrera-esteli-norteno-robusto-grande.svg"
+    },
+    {
+      "id": "herrera-esteli-habano-robusto",
+      "file": "cigar-herrera-esteli-habano-robusto.svg"
+    },
+    {
+      "id": "herrera-esteli-connecticut-broadleaf-robusto",
+      "file": "cigar-herrera-esteli-connecticut-broadleaf-robusto.svg"
+    },
+    {
+      "id": "herrera-esteli-lonsdale-fino",
+      "file": "cigar-herrera-esteli-lonsdale-fino.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-cuatro-cinco-robusto",
+      "file": "cigar-joya-de-nicaragua-cuatro-cinco-robusto.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-cinco-decadas-el-fundador",
+      "file": "cigar-joya-de-nicaragua-cinco-decadas-el-fundador.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-numero-uno-robusto",
+      "file": "cigar-joya-de-nicaragua-numero-uno-robusto.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-antano-dark-corojo-robusto",
+      "file": "cigar-joya-de-nicaragua-antano-dark-corojo-robusto.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-classic-consul",
+      "file": "cigar-joya-de-nicaragua-classic-consul.svg"
+    },
+    {
+      "id": "cao-oriente-toro",
+      "file": "cigar-cao-oriente-toro.svg"
+    },
+    {
+      "id": "cao-bones-toro",
+      "file": "cigar-cao-bones-toro.svg"
+    },
+    {
+      "id": "cao-amazon-basin-robusto",
+      "file": "cigar-cao-amazon-basin-robusto.svg"
+    },
+    {
+      "id": "cao-gold-robusto",
+      "file": "cigar-cao-gold-robusto.svg"
+    },
+    {
+      "id": "alec-bradley-coyol-robusto",
+      "file": "cigar-alec-bradley-coyol-robusto.svg"
+    },
+    {
+      "id": "alec-bradley-nica-puro-robusto",
+      "file": "cigar-alec-bradley-nica-puro-robusto.svg"
+    },
+    {
+      "id": "alec-bradley-american-classic-robusto",
+      "file": "cigar-alec-bradley-american-classic-robusto.svg"
+    },
+    {
+      "id": "alec-bradley-kintsugi-robusto",
+      "file": "cigar-alec-bradley-kintsugi-robusto.svg"
+    },
+    {
+      "id": "warped-maestro-del-tiempo-6102-robusto",
+      "file": "cigar-warped-maestro-del-tiempo-6102-robusto.svg"
+    },
+    {
+      "id": "warped-la-colmena-robusto",
+      "file": "cigar-warped-la-colmena-robusto.svg"
+    },
+    {
+      "id": "warped-sky-flower-robusto",
+      "file": "cigar-warped-sky-flower-robusto.svg"
+    },
+    {
+      "id": "warped-chinchalle-robusto",
+      "file": "cigar-warped-chinchalle-robusto.svg"
+    },
+    {
+      "id": "southern-draw-jacobs-ladder-robusto",
+      "file": "cigar-southern-draw-jacobs-ladder-robusto.svg"
+    },
+    {
+      "id": "southern-draw-firethorn-robusto",
+      "file": "cigar-southern-draw-firethorn-robusto.svg"
+    },
+    {
+      "id": "southern-draw-cedrus-robusto",
+      "file": "cigar-southern-draw-cedrus-robusto.svg"
+    },
+    {
+      "id": "illusione-mk-ultra-robusto",
+      "file": "cigar-illusione-mk-ultra-robusto.svg"
+    },
+    {
+      "id": "illusione-888-robusto",
+      "file": "cigar-illusione-888-robusto.svg"
+    },
+    {
+      "id": "illusione-singulare-robusto",
+      "file": "cigar-illusione-singulare-robusto.svg"
+    },
+    {
+      "id": "kristoff-ligero-criollo-robusto",
+      "file": "cigar-kristoff-ligero-criollo-robusto.svg"
+    },
+    {
+      "id": "kristoff-gc-signature-robusto",
+      "file": "cigar-kristoff-gc-signature-robusto.svg"
+    },
+    {
+      "id": "kristoff-pistoff-kristoff-robusto",
+      "file": "cigar-kristoff-pistoff-kristoff-robusto.svg"
+    },
+    {
+      "id": "kristoff-sumatra-robusto",
+      "file": "cigar-kristoff-sumatra-robusto.svg"
+    },
+    {
+      "id": "protocol-royal-canadian-mounted-robusto",
+      "file": "cigar-protocol-royal-canadian-mounted-robusto.svg"
+    },
+    {
+      "id": "protocol-palmdale-precision-robusto",
+      "file": "cigar-protocol-palmdale-precision-robusto.svg"
+    },
+    {
+      "id": "protocol-blue-line-robusto",
+      "file": "cigar-protocol-blue-line-robusto.svg"
+    },
+    {
+      "id": "protocol-forgotten-soldier-maduro-robusto",
+      "file": "cigar-protocol-forgotten-soldier-maduro-robusto.svg"
+    },
+    {
+      "id": "caldwell-lost-and-found-connecticut-robusto",
+      "file": "cigar-caldwell-lost-and-found-connecticut-robusto.svg"
+    },
+    {
+      "id": "caldwell-all-out-kings-robusto",
+      "file": "cigar-caldwell-all-out-kings-robusto.svg"
+    },
+    {
+      "id": "caldwell-anastasia-robusto",
+      "file": "cigar-caldwell-anastasia-robusto.svg"
+    },
+    {
+      "id": "caldwell-the-king-is-dead-robusto",
+      "file": "cigar-caldwell-the-king-is-dead-robusto.svg"
+    },
+    {
+      "id": "brick-house-toro",
+      "file": "cigar-brick-house-toro.svg"
+    },
+    {
+      "id": "brick-house-double-connecticut-robusto",
+      "file": "cigar-brick-house-double-connecticut-robusto.svg"
+    },
+    {
+      "id": "brick-house-maduro-robusto",
+      "file": "cigar-brick-house-maduro-robusto.svg"
+    },
+    {
+      "id": "brick-house-mighty-mighty-toro",
+      "file": "cigar-brick-house-mighty-mighty-toro.svg"
+    },
+    {
+      "id": "nub-nuance-triple-roast-robusto",
+      "file": "cigar-nub-nuance-triple-roast-robusto.svg"
+    },
+    {
+      "id": "nub-habano-554-box-pressed",
+      "file": "cigar-nub-habano-554-box-pressed.svg"
+    },
+    {
+      "id": "nub-dub-connecticut-460",
+      "file": "cigar-nub-dub-connecticut-460.svg"
+    },
+    {
+      "id": "la-flor-dominicana-reserva-especial-no-1",
+      "file": "cigar-la-flor-dominicana-reserva-especial-no-1.svg"
+    },
+    {
+      "id": "la-flor-dominicana-ligero-cabinet-no-4",
+      "file": "cigar-la-flor-dominicana-ligero-cabinet-no-4.svg"
+    },
+    {
+      "id": "la-flor-dominicana-andalusian-bull",
+      "file": "cigar-la-flor-dominicana-andalusian-bull.svg"
+    },
+    {
+      "id": "la-flor-dominicana-oscuro-robusto",
+      "file": "cigar-la-flor-dominicana-oscuro-robusto.svg"
+    },
+    {
+      "id": "espinosa-las-6-provincias-robusto",
+      "file": "cigar-espinosa-las-6-provincias-robusto.svg"
+    },
+    {
+      "id": "espinosa-murcielago-robusto",
+      "file": "cigar-espinosa-murcielago-robusto.svg"
+    },
+    {
+      "id": "espinosa-crema-no-7-robusto",
+      "file": "cigar-espinosa-crema-no-7-robusto.svg"
+    },
+    {
+      "id": "macanudo-vintage-1997-churchill",
+      "file": "cigar-macanudo-vintage-1997-churchill.svg"
+    },
+    {
+      "id": "macanudo-inspirado-african-cameroon-robusto",
+      "file": "cigar-macanudo-inspirado-african-cameroon-robusto.svg"
+    },
+    {
+      "id": "macanudo-ascots",
+      "file": "cigar-macanudo-ascots.svg"
+    },
+    {
+      "id": "camacho-ecuador-robusto",
+      "file": "cigar-camacho-ecuador-robusto.svg"
+    },
+    {
+      "id": "camacho-american-barrel-aged-robusto",
+      "file": "cigar-camacho-american-barrel-aged-robusto.svg"
+    },
+    {
+      "id": "camacho-criollo-robusto",
+      "file": "cigar-camacho-criollo-robusto.svg"
+    },
+    {
+      "id": "romeo-y-julieta-aniversario-robusto",
+      "file": "cigar-romeo-y-julieta-aniversario-robusto.svg"
+    },
+    {
+      "id": "romeo-y-julieta-vintage-v-robusto",
+      "file": "cigar-romeo-y-julieta-vintage-v-robusto.svg"
+    },
+    {
+      "id": "romeo-y-julieta-wide-churchill",
+      "file": "cigar-romeo-y-julieta-wide-churchill.svg"
+    },
+    {
+      "id": "h-upmann-the-good-stuff-robusto",
+      "file": "cigar-h-upmann-the-good-stuff-robusto.svg"
+    },
+    {
+      "id": "h-upmann-connecticut-robusto",
+      "file": "cigar-h-upmann-connecticut-robusto.svg"
+    },
+    {
+      "id": "h-upmann-legacy-robusto",
+      "file": "cigar-h-upmann-legacy-robusto.svg"
+    },
+    {
+      "id": "aging-room-quattro-f55-concerto",
+      "file": "cigar-aging-room-quattro-f55-concerto.svg"
+    },
+    {
+      "id": "aging-room-bin-no-1-robusto",
+      "file": "cigar-aging-room-bin-no-1-robusto.svg"
+    },
+    {
+      "id": "aging-room-small-batch-m356-robusto",
+      "file": "cigar-aging-room-small-batch-m356-robusto.svg"
+    },
+    {
+      "id": "diamond-crown-julius-caeser-toro",
+      "file": "cigar-diamond-crown-julius-caeser-toro.svg"
+    },
+    {
+      "id": "diamond-crown-classic-no-5",
+      "file": "cigar-diamond-crown-classic-no-5.svg"
+    },
+    {
+      "id": "quesada-reserva-privada-robusto",
+      "file": "cigar-quesada-reserva-privada-robusto.svg"
+    },
+    {
+      "id": "quesada-oktoberfest-robusto",
+      "file": "cigar-quesada-oktoberfest-robusto.svg"
+    },
+    {
+      "id": "quesada-tributo-robusto",
+      "file": "cigar-quesada-tributo-robusto.svg"
+    },
+    {
+      "id": "h-upmann-magnum-46",
+      "file": "cigar-h-upmann-magnum-46.svg"
+    },
+    {
+      "id": "h-upmann-sir-winston",
+      "file": "cigar-h-upmann-sir-winston.svg"
+    },
+    {
+      "id": "bolivar-belicosos-finos",
+      "file": "cigar-bolivar-belicosos-finos.svg"
+    },
+    {
+      "id": "punch-black-prince",
+      "file": "cigar-punch-black-prince.svg"
+    },
+    {
+      "id": "hoyo-le-hoyo-de-san-juan",
+      "file": "cigar-hoyo-le-hoyo-de-san-juan.svg"
+    },
+    {
+      "id": "trinidad-reyes",
+      "file": "cigar-trinidad-reyes.svg"
+    },
+    {
+      "id": "ramon-allones-specially-selected",
+      "file": "cigar-ramon-allones-specially-selected.svg"
+    },
+    {
+      "id": "vegas-robaina-don-alejandro",
+      "file": "cigar-vegas-robaina-don-alejandro.svg"
+    },
+    {
+      "id": "la-flor-de-cano-gran-cano",
+      "file": "cigar-la-flor-de-cano-gran-cano.svg"
+    },
+    {
+      "id": "punch-punch-corona-extra",
+      "file": "cigar-punch-punch-corona-extra.svg"
+    },
+    {
+      "id": "padron-1964-diplomatico-natural",
+      "file": "cigar-padron-1964-diplomatico-natural.svg"
+    },
+    {
+      "id": "padron-1964-monarca-natural",
+      "file": "cigar-padron-1964-monarca-natural.svg"
+    },
+    {
+      "id": "padron-1964-imperial-natural",
+      "file": "cigar-padron-1964-imperial-natural.svg"
+    },
+    {
+      "id": "padron-family-reserve-no50-natural",
+      "file": "cigar-padron-family-reserve-no50-natural.svg"
+    },
+    {
+      "id": "padron-3000-natural",
+      "file": "cigar-padron-3000-natural.svg"
+    },
+    {
+      "id": "padron-7000-natural",
+      "file": "cigar-padron-7000-natural.svg"
+    },
+    {
+      "id": "padron-2000-natural",
+      "file": "cigar-padron-2000-natural.svg"
+    },
+    {
+      "id": "opus-x-fuente-fuente-robusto",
+      "file": "cigar-opus-x-fuente-fuente-robusto.svg"
+    },
+    {
+      "id": "opus-x-perfecxion-x",
+      "file": "cigar-opus-x-perfecxion-x.svg"
+    },
+    {
+      "id": "fuente-hemingway-best-seller",
+      "file": "cigar-fuente-hemingway-best-seller.svg"
+    },
+    {
+      "id": "fuente-hemingway-classic",
+      "file": "cigar-fuente-hemingway-classic.svg"
+    },
+    {
+      "id": "fuente-don-carlos-no3",
+      "file": "cigar-fuente-don-carlos-no3.svg"
+    },
+    {
+      "id": "fuente-don-carlos-robusto",
+      "file": "cigar-fuente-don-carlos-robusto.svg"
+    },
+    {
+      "id": "arturo-fuente-opus-22-robusto",
+      "file": "cigar-arturo-fuente-opus-22-robusto.svg"
+    },
+    {
+      "id": "fuente-858-natural-robusto",
+      "file": "cigar-fuente-858-natural-robusto.svg"
+    },
+    {
+      "id": "chateau-fuente-queen-b",
+      "file": "cigar-chateau-fuente-queen-b.svg"
+    },
+    {
+      "id": "fuente-gran-aniversario",
+      "file": "cigar-fuente-gran-aniversario.svg"
+    },
+    {
+      "id": "cohiba-black-robusto",
+      "file": "cigar-cohiba-black-robusto.svg"
+    },
+    {
+      "id": "cohiba-blue-robusto",
+      "file": "cigar-cohiba-blue-robusto.svg"
+    },
+    {
+      "id": "cohiba-macassar-toro",
+      "file": "cigar-cohiba-macassar-toro.svg"
+    },
+    {
+      "id": "montecristo-especial-no2",
+      "file": "cigar-montecristo-especial-no2.svg"
+    },
+    {
+      "id": "partagas-lusitanias",
+      "file": "cigar-partagas-lusitanias.svg"
+    },
+    {
+      "id": "h-upmann-coronas-major",
+      "file": "cigar-h-upmann-coronas-major.svg"
+    },
+    {
+      "id": "bolivar-petit-coronas",
+      "file": "cigar-bolivar-petit-coronas.svg"
+    },
+    {
+      "id": "romeo-y-julieta-petit-princess",
+      "file": "cigar-romeo-y-julieta-petit-princess.svg"
+    },
+    {
+      "id": "punch-double-coronas",
+      "file": "cigar-punch-double-coronas.svg"
+    },
+    {
+      "id": "hoyo-de-monterrey-double-coronas",
+      "file": "cigar-hoyo-de-monterrey-double-coronas.svg"
+    },
+    {
+      "id": "my-father-la-antiguedad-robusto",
+      "file": "cigar-my-father-la-antiguedad-robusto.svg"
+    },
+    {
+      "id": "my-father-la-antiguedad-toro",
+      "file": "cigar-my-father-la-antiguedad-toro.svg"
+    },
+    {
+      "id": "my-father-le-bijou-1922-torpedo",
+      "file": "cigar-my-father-le-bijou-1922-torpedo.svg"
+    },
+    {
+      "id": "my-father-le-bijou-1922-toro",
+      "file": "cigar-my-father-le-bijou-1922-toro.svg"
+    },
+    {
+      "id": "my-father-no1-robusto",
+      "file": "cigar-my-father-no1-robusto.svg"
+    },
+    {
+      "id": "my-father-no1-toro",
+      "file": "cigar-my-father-no1-toro.svg"
+    },
+    {
+      "id": "my-father-flor-de-las-antillas-robusto",
+      "file": "cigar-my-father-flor-de-las-antillas-robusto.svg"
+    },
+    {
+      "id": "my-father-flor-de-las-antillas-toro",
+      "file": "cigar-my-father-flor-de-las-antillas-toro.svg"
+    },
+    {
+      "id": "rocky-patel-vintage-1990-robusto",
+      "file": "cigar-rocky-patel-vintage-1990-robusto.svg"
+    },
+    {
+      "id": "rocky-patel-vintage-1992-robusto",
+      "file": "cigar-rocky-patel-vintage-1992-robusto.svg"
+    },
+    {
+      "id": "rocky-patel-vintage-2003-torpedo",
+      "file": "cigar-rocky-patel-vintage-2003-torpedo.svg"
+    },
+    {
+      "id": "rocky-patel-edge-habano-robusto",
+      "file": "cigar-rocky-patel-edge-habano-robusto.svg"
+    },
+    {
+      "id": "rocky-patel-edge-maduro-robusto",
+      "file": "cigar-rocky-patel-edge-maduro-robusto.svg"
+    },
+    {
+      "id": "rocky-patel-decade-toro",
+      "file": "cigar-rocky-patel-decade-toro.svg"
+    },
+    {
+      "id": "rocky-patel-fifteenth-anniversary-robusto",
+      "file": "cigar-rocky-patel-fifteenth-anniversary-robusto.svg"
+    },
+    {
+      "id": "rocky-patel-sun-grown-robusto",
+      "file": "cigar-rocky-patel-sun-grown-robusto.svg"
+    },
+    {
+      "id": "rocky-patel-hamlet-2000-robusto",
+      "file": "cigar-rocky-patel-hamlet-2000-robusto.svg"
+    },
+    {
+      "id": "rocky-patel-ams-robusto",
+      "file": "cigar-rocky-patel-ams-robusto.svg"
+    },
+    {
+      "id": "aj-fernandez-new-world-robusto",
+      "file": "cigar-aj-fernandez-new-world-robusto.svg"
+    },
+    {
+      "id": "aj-fernandez-new-world-puro-especial-robusto",
+      "file": "cigar-aj-fernandez-new-world-puro-especial-robusto.svg"
+    },
+    {
+      "id": "aj-fernandez-enclave-broadleaf-robusto",
+      "file": "cigar-aj-fernandez-enclave-broadleaf-robusto.svg"
+    },
+    {
+      "id": "aj-fernandez-last-call-robusto",
+      "file": "cigar-aj-fernandez-last-call-robusto.svg"
+    },
+    {
+      "id": "aj-fernandez-bellas-artes-robusto",
+      "file": "cigar-aj-fernandez-bellas-artes-robusto.svg"
+    },
+    {
+      "id": "aj-fernandez-san-lotano-oval-robusto",
+      "file": "cigar-aj-fernandez-san-lotano-oval-robusto.svg"
+    },
+    {
+      "id": "aj-fernandez-blend-no1-robusto",
+      "file": "cigar-aj-fernandez-blend-no1-robusto.svg"
+    },
+    {
+      "id": "aj-fernandez-aging-bull-robusto",
+      "file": "cigar-aj-fernandez-aging-bull-robusto.svg"
+    },
+    {
+      "id": "perdomo-20th-anniversary-maduro-robusto",
+      "file": "cigar-perdomo-20th-anniversary-maduro-robusto.svg"
+    },
+    {
+      "id": "perdomo-20th-anniversary-sun-grown-robusto",
+      "file": "cigar-perdomo-20th-anniversary-sun-grown-robusto.svg"
+    },
+    {
+      "id": "perdomo-reserve-10th-anniversary-champagne-robusto",
+      "file": "cigar-perdomo-reserve-10th-anniversary-champagne-robusto.svg"
+    },
+    {
+      "id": "perdomo-habano-bourbon-barrel-sun-grown-robusto",
+      "file": "cigar-perdomo-habano-bourbon-barrel-sun-grown-robusto.svg"
+    },
+    {
+      "id": "perdomo-double-aged-12-year-vintage-robusto",
+      "file": "cigar-perdomo-double-aged-12-year-vintage-robusto.svg"
+    },
+    {
+      "id": "perdomo-craft-series-barrel-aged-stout-robusto",
+      "file": "cigar-perdomo-craft-series-barrel-aged-stout-robusto.svg"
+    },
+    {
+      "id": "perdomo-esx-b-robusto",
+      "file": "cigar-perdomo-esx-b-robusto.svg"
+    },
+    {
+      "id": "perdomo-inmenso-seventy-robusto",
+      "file": "cigar-perdomo-inmenso-seventy-robusto.svg"
+    },
+    {
+      "id": "plasencia-alma-del-fuego-robustillo",
+      "file": "cigar-plasencia-alma-del-fuego-robustillo.svg"
+    },
+    {
+      "id": "plasencia-alma-del-campo-robusto",
+      "file": "cigar-plasencia-alma-del-campo-robusto.svg"
+    },
+    {
+      "id": "plasencia-cosecha-146-robusto",
+      "file": "cigar-plasencia-cosecha-146-robusto.svg"
+    },
+    {
+      "id": "plasencia-reserva-original-robusto",
+      "file": "cigar-plasencia-reserva-original-robusto.svg"
+    },
+    {
+      "id": "plasencia-alma-fuerte-sixto-i",
+      "file": "cigar-plasencia-alma-fuerte-sixto-i.svg"
+    },
+    {
+      "id": "plasencia-year-of-the-tiger",
+      "file": "cigar-plasencia-year-of-the-tiger.svg"
+    },
+    {
+      "id": "aganorsa-leaf-supreme-leaf-robusto",
+      "file": "cigar-aganorsa-leaf-supreme-leaf-robusto.svg"
+    },
+    {
+      "id": "aganorsa-leaf-jfr-maduro-robusto",
+      "file": "cigar-aganorsa-leaf-jfr-maduro-robusto.svg"
+    },
+    {
+      "id": "aganorsa-leaf-connecticut-robusto",
+      "file": "cigar-aganorsa-leaf-connecticut-robusto.svg"
+    },
+    {
+      "id": "aganorsa-leaf-swamp-thang-robusto",
+      "file": "cigar-aganorsa-leaf-swamp-thang-robusto.svg"
+    },
+    {
+      "id": "casa-fernandez-aniversario-robusto",
+      "file": "cigar-casa-fernandez-aniversario-robusto.svg"
+    },
+    {
+      "id": "aganorsa-leaf-guardian-of-the-farm-robusto",
+      "file": "cigar-aganorsa-leaf-guardian-of-the-farm-robusto.svg"
+    },
+    {
+      "id": "oliva-serie-v-torpedo",
+      "file": "cigar-oliva-serie-v-torpedo.svg"
+    },
+    {
+      "id": "oliva-serie-v-belicoso",
+      "file": "cigar-oliva-serie-v-belicoso.svg"
+    },
+    {
+      "id": "oliva-serie-g-robusto",
+      "file": "cigar-oliva-serie-g-robusto.svg"
+    },
+    {
+      "id": "nub-oliva-habano-460",
+      "file": "cigar-nub-oliva-habano-460.svg"
+    },
+    {
+      "id": "oliva-master-blends-iii-robusto",
+      "file": "cigar-oliva-master-blends-iii-robusto.svg"
+    },
+    {
+      "id": "oliva-connecticut-reserve-robusto",
+      "file": "cigar-oliva-connecticut-reserve-robusto.svg"
+    },
+    {
+      "id": "oliva-serie-o-maduro-robusto",
+      "file": "cigar-oliva-serie-o-maduro-robusto.svg"
+    },
+    {
+      "id": "davidoff-aniversario-no-3",
+      "file": "cigar-davidoff-aniversario-no-3.svg"
+    },
+    {
+      "id": "davidoff-primeros-dominican",
+      "file": "cigar-davidoff-primeros-dominican.svg"
+    },
+    {
+      "id": "davidoff-escurio-gran-toro",
+      "file": "cigar-davidoff-escurio-gran-toro.svg"
+    },
+    {
+      "id": "davidoff-nicaragua-box-pressed-toro",
+      "file": "cigar-davidoff-nicaragua-box-pressed-toro.svg"
+    },
+    {
+      "id": "davidoff-year-of-the-rabbit",
+      "file": "cigar-davidoff-year-of-the-rabbit.svg"
+    },
+    {
+      "id": "ashton-cabinet-no-6",
+      "file": "cigar-ashton-cabinet-no-6.svg"
+    },
+    {
+      "id": "ashton-aged-maduro-no-20",
+      "file": "cigar-ashton-aged-maduro-no-20.svg"
+    },
+    {
+      "id": "ashton-esg-torpedo",
+      "file": "cigar-ashton-esg-torpedo.svg"
+    },
+    {
+      "id": "ashton-heritage-puro-sol-robusto",
+      "file": "cigar-ashton-heritage-puro-sol-robusto.svg"
+    },
+    {
+      "id": "ashton-classic-corona",
+      "file": "cigar-ashton-classic-corona.svg"
+    },
+    {
+      "id": "liga-privada-no-9-robusto",
+      "file": "cigar-liga-privada-no-9-robusto.svg"
+    },
+    {
+      "id": "liga-privada-t52-robusto",
+      "file": "cigar-liga-privada-t52-robusto.svg"
+    },
+    {
+      "id": "undercrown-robusto-shade",
+      "file": "cigar-undercrown-robusto-shade.svg"
+    },
+    {
+      "id": "undercrown-maduro-robusto",
+      "file": "cigar-undercrown-maduro-robusto.svg"
+    },
+    {
+      "id": "herrera-esteli-miami-robusto",
+      "file": "cigar-herrera-esteli-miami-robusto.svg"
+    },
+    {
+      "id": "crowned-heads-four-kicks-robusto",
+      "file": "cigar-crowned-heads-four-kicks-robusto.svg"
+    },
+    {
+      "id": "crowned-heads-mil-dias-robusto",
+      "file": "cigar-crowned-heads-mil-dias-robusto.svg"
+    },
+    {
+      "id": "crowned-heads-los-cincos-diablos-robusto",
+      "file": "cigar-crowned-heads-los-cincos-diablos-robusto.svg"
+    },
+    {
+      "id": "crowned-heads-juarez-robusto",
+      "file": "cigar-crowned-heads-juarez-robusto.svg"
+    },
+    {
+      "id": "crowned-heads-le-careme-robusto",
+      "file": "cigar-crowned-heads-le-careme-robusto.svg"
+    },
+    {
+      "id": "crowned-heads-luminosa-robusto",
+      "file": "cigar-crowned-heads-luminosa-robusto.svg"
+    },
+    {
+      "id": "foundation-el-gueguense-robusto",
+      "file": "cigar-foundation-el-gueguense-robusto.svg"
+    },
+    {
+      "id": "foundation-olmec-claro-robusto",
+      "file": "cigar-foundation-olmec-claro-robusto.svg"
+    },
+    {
+      "id": "foundation-tabernacle-robusto",
+      "file": "cigar-foundation-tabernacle-robusto.svg"
+    },
+    {
+      "id": "foundation-charter-oak-habano-robusto",
+      "file": "cigar-foundation-charter-oak-habano-robusto.svg"
+    },
+    {
+      "id": "foundation-menelik-robusto",
+      "file": "cigar-foundation-menelik-robusto.svg"
+    },
+    {
+      "id": "foundation-el-gueguense-toro",
+      "file": "cigar-foundation-el-gueguense-toro.svg"
+    },
+    {
+      "id": "tatuaje-black-robusto",
+      "file": "cigar-tatuaje-black-robusto.svg"
+    },
+    {
+      "id": "tatuaje-brown-label-robusto",
+      "file": "cigar-tatuaje-brown-label-robusto.svg"
+    },
+    {
+      "id": "tatuaje-havana-vi-robusto",
+      "file": "cigar-tatuaje-havana-vi-robusto.svg"
+    },
+    {
+      "id": "tatuaje-cabaiguan-guapo",
+      "file": "cigar-tatuaje-cabaiguan-guapo.svg"
+    },
+    {
+      "id": "tatuaje-the-frank",
+      "file": "cigar-tatuaje-the-frank.svg"
+    },
+    {
+      "id": "tatuaje-monster-series",
+      "file": "cigar-tatuaje-monster-series.svg"
+    },
+    {
+      "id": "punch-gran-puro-nicaragua-robusto",
+      "file": "cigar-punch-gran-puro-nicaragua-robusto.svg"
+    },
+    {
+      "id": "cohiba-robusto",
+      "file": "cigar-cohiba-robusto.svg"
+    },
+    {
+      "id": "cohiba-lanceros",
+      "file": "cigar-cohiba-lanceros.svg"
+    },
+    {
+      "id": "cohiba-medio-siglo",
+      "file": "cigar-cohiba-medio-siglo.svg"
+    },
+    {
+      "id": "cohiba-maduro-5-genios",
+      "file": "cigar-cohiba-maduro-5-genios.svg"
+    },
+    {
+      "id": "cohiba-piramides-extra",
+      "file": "cigar-cohiba-piramides-extra.svg"
+    },
+    {
+      "id": "montecristo-no-1",
+      "file": "cigar-montecristo-no-1.svg"
+    },
+    {
+      "id": "montecristo-no-4",
+      "file": "cigar-montecristo-no-4.svg"
+    },
+    {
+      "id": "montecristo-no-5",
+      "file": "cigar-montecristo-no-5.svg"
+    },
+    {
+      "id": "montecristo-edmundo",
+      "file": "cigar-montecristo-edmundo.svg"
+    },
+    {
+      "id": "montecristo-petit-edmundo",
+      "file": "cigar-montecristo-petit-edmundo.svg"
+    },
+    {
+      "id": "montecristo-open-eagle",
+      "file": "cigar-montecristo-open-eagle.svg"
+    },
+    {
+      "id": "montecristo-double-edmundo",
+      "file": "cigar-montecristo-double-edmundo.svg"
+    },
+    {
+      "id": "partagas-serie-p-no-2",
+      "file": "cigar-partagas-serie-p-no-2.svg"
+    },
+    {
+      "id": "partagas-8-9-8",
+      "file": "cigar-partagas-8-9-8.svg"
+    },
+    {
+      "id": "partagas-shorts",
+      "file": "cigar-partagas-shorts.svg"
+    },
+    {
+      "id": "partagas-coronas-gordas-anejados",
+      "file": "cigar-partagas-coronas-gordas-anejados.svg"
+    },
+    {
+      "id": "romeo-y-julieta-short-churchills",
+      "file": "cigar-romeo-y-julieta-short-churchills.svg"
+    },
+    {
+      "id": "romeo-y-julieta-petit-royales",
+      "file": "cigar-romeo-y-julieta-petit-royales.svg"
+    },
+    {
+      "id": "romeo-y-julieta-cazadores",
+      "file": "cigar-romeo-y-julieta-cazadores.svg"
+    },
+    {
+      "id": "h-upmann-half-corona",
+      "file": "cigar-h-upmann-half-corona.svg"
+    },
+    {
+      "id": "h-upmann-royal-robusto",
+      "file": "cigar-h-upmann-royal-robusto.svg"
+    },
+    {
+      "id": "h-upmann-connoisseur-no-1",
+      "file": "cigar-h-upmann-connoisseur-no-1.svg"
+    },
+    {
+      "id": "hoyo-de-monterrey-epicure-especial",
+      "file": "cigar-hoyo-de-monterrey-epicure-especial.svg"
+    },
+    {
+      "id": "hoyo-de-monterrey-petit-robusto",
+      "file": "cigar-hoyo-de-monterrey-petit-robusto.svg"
+    },
+    {
+      "id": "juan-lopez-seleccion-no-2",
+      "file": "cigar-juan-lopez-seleccion-no-2.svg"
+    },
+    {
+      "id": "juan-lopez-seleccion-no-1",
+      "file": "cigar-juan-lopez-seleccion-no-1.svg"
+    },
+    {
+      "id": "san-cristobal-de-la-habana-el-principe",
+      "file": "cigar-san-cristobal-de-la-habana-el-principe.svg"
+    },
+    {
+      "id": "san-cristobal-de-la-habana-la-fuerza",
+      "file": "cigar-san-cristobal-de-la-habana-la-fuerza.svg"
+    },
+    {
+      "id": "fonseca-no-1",
+      "file": "cigar-fonseca-no-1.svg"
+    },
+    {
+      "id": "fonseca-cosacos",
+      "file": "cigar-fonseca-cosacos.svg"
+    },
+    {
+      "id": "jose-l-piedra-petit-cazadores",
+      "file": "cigar-jose-l-piedra-petit-cazadores.svg"
+    },
+    {
+      "id": "quintero-y-hno-favoritos",
+      "file": "cigar-quintero-y-hno-favoritos.svg"
+    },
+    {
+      "id": "cuaba-tradicionales-cuba",
+      "file": "cigar-cuaba-tradicionales-cuba.svg"
+    },
+    {
+      "id": "cuaba-divinos",
+      "file": "cigar-cuaba-divinos.svg"
+    },
+    {
+      "id": "trinidad-vigia",
+      "file": "cigar-trinidad-vigia.svg"
+    },
+    {
+      "id": "trinidad-media-luna",
+      "file": "cigar-trinidad-media-luna.svg"
+    },
+    {
+      "id": "rafael-gonzalez-petit-coronas",
+      "file": "cigar-rafael-gonzalez-petit-coronas.svg"
+    },
+    {
+      "id": "el-rey-del-mundo-demi-tasse",
+      "file": "cigar-el-rey-del-mundo-demi-tasse.svg"
+    },
+    {
+      "id": "bolivar-coronas-junior",
+      "file": "cigar-bolivar-coronas-junior.svg"
+    },
+    {
+      "id": "bolivar-libertador",
+      "file": "cigar-bolivar-libertador.svg"
+    },
+    {
+      "id": "punch-petit-coronas-del-punch",
+      "file": "cigar-punch-petit-coronas-del-punch.svg"
+    },
+    {
+      "id": "punch-royal-selection-no-11",
+      "file": "cigar-punch-royal-selection-no-11.svg"
+    },
+    {
+      "id": "sancho-panza-non-plus",
+      "file": "cigar-sancho-panza-non-plus.svg"
+    },
+    {
+      "id": "vegueros-centrofinos",
+      "file": "cigar-vegueros-centrofinos.svg"
+    },
+    {
+      "id": "vegas-robaina-famosos",
+      "file": "cigar-vegas-robaina-famosos.svg"
+    },
+    {
+      "id": "ramon-allones-small-club-coronas",
+      "file": "cigar-ramon-allones-small-club-coronas.svg"
+    },
+    {
+      "id": "partagas-mille-fleurs",
+      "file": "cigar-partagas-mille-fleurs.svg"
+    },
+    {
+      "id": "romeo-y-julieta-mille-fleurs",
+      "file": "cigar-romeo-y-julieta-mille-fleurs.svg"
+    },
+    {
+      "id": "h-upmann-regalias",
+      "file": "cigar-h-upmann-regalias.svg"
+    },
+    {
+      "id": "por-larranaga-petit-coronas",
+      "file": "cigar-por-larranaga-petit-coronas.svg"
+    },
+    {
+      "id": "diesel-whiskey-row-robusto",
+      "file": "cigar-diesel-whiskey-row-robusto.svg"
+    },
+    {
+      "id": "diesel-unlimited-dx-robusto",
+      "file": "cigar-diesel-unlimited-dx-robusto.svg"
+    },
+    {
+      "id": "diesel-grind-robusto",
+      "file": "cigar-diesel-grind-robusto.svg"
+    },
+    {
+      "id": "diesel-hair-of-the-dog-robusto",
+      "file": "cigar-diesel-hair-of-the-dog-robusto.svg"
+    },
+    {
+      "id": "diesel-rage-robusto",
+      "file": "cigar-diesel-rage-robusto.svg"
+    },
+    {
+      "id": "man-o-war-ruination-robusto",
+      "file": "cigar-man-o-war-ruination-robusto.svg"
+    },
+    {
+      "id": "man-o-war-virtue-robusto",
+      "file": "cigar-man-o-war-virtue-robusto.svg"
+    },
+    {
+      "id": "man-o-war-dark-horse-robusto",
+      "file": "cigar-man-o-war-dark-horse-robusto.svg"
+    },
+    {
+      "id": "man-o-war-armada-robusto",
+      "file": "cigar-man-o-war-armada-robusto.svg"
+    },
+    {
+      "id": "man-o-war-puro-authentico-robusto",
+      "file": "cigar-man-o-war-puro-authentico-robusto.svg"
+    },
+    {
+      "id": "gurkha-cellar-reserve-21-year-robusto",
+      "file": "cigar-gurkha-cellar-reserve-21-year-robusto.svg"
+    },
+    {
+      "id": "gurkha-ghost-robusto",
+      "file": "cigar-gurkha-ghost-robusto.svg"
+    },
+    {
+      "id": "gurkha-grand-reserve-robusto",
+      "file": "cigar-gurkha-grand-reserve-robusto.svg"
+    },
+    {
+      "id": "gurkha-assassin-robusto",
+      "file": "cigar-gurkha-assassin-robusto.svg"
+    },
+    {
+      "id": "gurkha-royal-challenge-robusto",
+      "file": "cigar-gurkha-royal-challenge-robusto.svg"
+    },
+    {
+      "id": "drew-estate-java-robusto",
+      "file": "cigar-drew-estate-java-robusto.svg"
+    },
+    {
+      "id": "drew-estate-java-maduro-robusto",
+      "file": "cigar-drew-estate-java-maduro-robusto.svg"
+    },
+    {
+      "id": "drew-estate-tabak-especial-dulce-robusto",
+      "file": "cigar-drew-estate-tabak-especial-dulce-robusto.svg"
+    },
+    {
+      "id": "drew-estate-tabak-especial-negra-robusto",
+      "file": "cigar-drew-estate-tabak-especial-negra-robusto.svg"
+    },
+    {
+      "id": "drew-estate-nica-rustica-el-brujito",
+      "file": "cigar-drew-estate-nica-rustica-el-brujito.svg"
+    },
+    {
+      "id": "drew-estate-kentucky-fire-cured-chunky",
+      "file": "cigar-drew-estate-kentucky-fire-cured-chunky.svg"
+    },
+    {
+      "id": "drew-estate-undercrown-10-robusto",
+      "file": "cigar-drew-estate-undercrown-10-robusto.svg"
+    },
+    {
+      "id": "drew-estate-natural-dark-angel-robusto",
+      "file": "cigar-drew-estate-natural-dark-angel-robusto.svg"
+    },
+    {
+      "id": "5-vegas-gold-robusto",
+      "file": "cigar-5-vegas-gold-robusto.svg"
+    },
+    {
+      "id": "5-vegas-triple-a-robusto",
+      "file": "cigar-5-vegas-triple-a-robusto.svg"
+    },
+    {
+      "id": "5-vegas-series-a-robusto",
+      "file": "cigar-5-vegas-series-a-robusto.svg"
+    },
+    {
+      "id": "5-vegas-cask-strength-robusto",
+      "file": "cigar-5-vegas-cask-strength-robusto.svg"
+    },
+    {
+      "id": "asylum-13-robusto",
+      "file": "cigar-asylum-13-robusto.svg"
+    },
+    {
+      "id": "asylum-insidious-robusto",
+      "file": "cigar-asylum-insidious-robusto.svg"
+    },
+    {
+      "id": "asylum-premium-robusto",
+      "file": "cigar-asylum-premium-robusto.svg"
+    },
+    {
+      "id": "henry-clay-war-hawk-robusto",
+      "file": "cigar-henry-clay-war-hawk-robusto.svg"
+    },
+    {
+      "id": "henry-clay-stalk-cut-robusto",
+      "file": "cigar-henry-clay-stalk-cut-robusto.svg"
+    },
+    {
+      "id": "henry-clay-tattoo-robusto",
+      "file": "cigar-henry-clay-tattoo-robusto.svg"
+    },
+    {
+      "id": "la-palina-black-label-robusto",
+      "file": "cigar-la-palina-black-label-robusto.svg"
+    },
+    {
+      "id": "la-palina-red-label-robusto",
+      "file": "cigar-la-palina-red-label-robusto.svg"
+    },
+    {
+      "id": "la-palina-classic-robusto",
+      "file": "cigar-la-palina-classic-robusto.svg"
+    },
+    {
+      "id": "eiroa-first-20-years-robusto",
+      "file": "cigar-eiroa-first-20-years-robusto.svg"
+    },
+    {
+      "id": "eiroa-cbt-maduro-robusto",
+      "file": "cigar-eiroa-cbt-maduro-robusto.svg"
+    },
+    {
+      "id": "eiroa-first-20-years-colorado-robusto",
+      "file": "cigar-eiroa-first-20-years-colorado-robusto.svg"
+    },
+    {
+      "id": "balmoral-anejo-xo-rothschild-masivo",
+      "file": "cigar-balmoral-anejo-xo-rothschild-masivo.svg"
+    },
+    {
+      "id": "balmoral-serie-signaturas-dueto-robusto",
+      "file": "cigar-balmoral-serie-signaturas-dueto-robusto.svg"
+    },
+    {
+      "id": "balmoral-royal-selection-anejo-18-robusto",
+      "file": "cigar-balmoral-royal-selection-anejo-18-robusto.svg"
+    },
+    {
+      "id": "fratello-navetta-discovery-robusto",
+      "file": "cigar-fratello-navetta-discovery-robusto.svg"
+    },
+    {
+      "id": "fratello-arlequin-robusto",
+      "file": "cigar-fratello-arlequin-robusto.svg"
+    },
+    {
+      "id": "fratello-bianco-robusto",
+      "file": "cigar-fratello-bianco-robusto.svg"
+    },
+    {
+      "id": "hvc-first-selection-robusto",
+      "file": "cigar-hvc-first-selection-robusto.svg"
+    },
+    {
+      "id": "hvc-pan-caliente-robusto",
+      "file": "cigar-hvc-pan-caliente-robusto.svg"
+    },
+    {
+      "id": "hvc-black-friday-robusto",
+      "file": "cigar-hvc-black-friday-robusto.svg"
+    },
+    {
+      "id": "hvc-cerro-maduro-robusto",
+      "file": "cigar-hvc-cerro-maduro-robusto.svg"
+    },
+    {
+      "id": "hvc-serie-a-perlas-robusto",
+      "file": "cigar-hvc-serie-a-perlas-robusto.svg"
+    },
+    {
+      "id": "cornelius-anthony-venganza-robusto",
+      "file": "cigar-cornelius-anthony-venganza-robusto.svg"
+    },
+    {
+      "id": "cornelius-anthony-meridian-robusto",
+      "file": "cigar-cornelius-anthony-meridian-robusto.svg"
+    },
+    {
+      "id": "cornelius-anthony-daddy-mac-robusto",
+      "file": "cigar-cornelius-anthony-daddy-mac-robusto.svg"
+    },
+    {
+      "id": "cornelius-anthony-senor-esugars-robusto",
+      "file": "cigar-cornelius-anthony-senor-esugars-robusto.svg"
+    },
+    {
+      "id": "crux-epicure-robusto",
+      "file": "cigar-crux-epicure-robusto.svg"
+    },
+    {
+      "id": "crux-du-connoisseur-no4",
+      "file": "cigar-crux-du-connoisseur-no4.svg"
+    },
+    {
+      "id": "crux-bull-and-bear-robusto",
+      "file": "cigar-crux-bull-and-bear-robusto.svg"
+    },
+    {
+      "id": "crux-limitada-ipcpr-2019-robusto",
+      "file": "cigar-crux-limitada-ipcpr-2019-robusto.svg"
+    },
+    {
+      "id": "crux-guild-robusto",
+      "file": "cigar-crux-guild-robusto.svg"
+    },
+    {
+      "id": "ezra-zion-tantrum-robusto",
+      "file": "cigar-ezra-zion-tantrum-robusto.svg"
+    },
+    {
+      "id": "ezra-zion-fhk-robusto",
+      "file": "cigar-ezra-zion-fhk-robusto.svg"
+    },
+    {
+      "id": "ezra-zion-all-my-exes-robusto",
+      "file": "cigar-ezra-zion-all-my-exes-robusto.svg"
+    },
+    {
+      "id": "ezra-zion-honor-series-robusto",
+      "file": "cigar-ezra-zion-honor-series-robusto.svg"
+    },
+    {
+      "id": "romacraft-neanderthal-hn-robusto",
+      "file": "cigar-romacraft-neanderthal-hn-robusto.svg"
+    },
+    {
+      "id": "romacraft-aquitaine-emh-robusto",
+      "file": "cigar-romacraft-aquitaine-emh-robusto.svg"
+    },
+    {
+      "id": "romacraft-intemperance-ba-xxi-robusto",
+      "file": "cigar-romacraft-intemperance-ba-xxi-robusto.svg"
+    },
+    {
+      "id": "romacraft-weaselsnout-robusto",
+      "file": "cigar-romacraft-weaselsnout-robusto.svg"
+    },
+    {
+      "id": "dapper-cubo-claro-robusto",
+      "file": "cigar-dapper-cubo-claro-robusto.svg"
+    },
+    {
+      "id": "dapper-el-borracho-robusto",
+      "file": "cigar-dapper-el-borracho-robusto.svg"
+    },
+    {
+      "id": "dapper-la-madrina-robusto",
+      "file": "cigar-dapper-la-madrina-robusto.svg"
+    },
+    {
+      "id": "dapper-siempre-rosado-robusto",
+      "file": "cigar-dapper-siempre-rosado-robusto.svg"
+    },
+    {
+      "id": "matilde-renacer-robusto",
+      "file": "cigar-matilde-renacer-robusto.svg"
+    },
+    {
+      "id": "matilde-oscura-robusto",
+      "file": "cigar-matilde-oscura-robusto.svg"
+    },
+    {
+      "id": "matilde-serena-robusto",
+      "file": "cigar-matilde-serena-robusto.svg"
+    },
+    {
+      "id": "dissident-soapbox-robusto",
+      "file": "cigar-dissident-soapbox-robusto.svg"
+    },
+    {
+      "id": "dissident-bloc-robusto",
+      "file": "cigar-dissident-bloc-robusto.svg"
+    },
+    {
+      "id": "dissident-rant-robusto",
+      "file": "cigar-dissident-rant-robusto.svg"
+    },
+    {
+      "id": "serino-taino-heritage-robusto",
+      "file": "cigar-serino-taino-heritage-robusto.svg"
+    },
+    {
+      "id": "serino-wayfarer-corona-gorda",
+      "file": "cigar-serino-wayfarer-corona-gorda.svg"
+    },
+    {
+      "id": "serino-royale-maduro-xx-robusto",
+      "file": "cigar-serino-royale-maduro-xx-robusto.svg"
+    },
+    {
+      "id": "amendola-signature-series-robusto",
+      "file": "cigar-amendola-signature-series-robusto.svg"
+    },
+    {
+      "id": "amendola-cannoli-robusto",
+      "file": "cigar-amendola-cannoli-robusto.svg"
+    },
+    {
+      "id": "amendola-eight-seconds-robusto",
+      "file": "cigar-amendola-eight-seconds-robusto.svg"
+    },
+    {
+      "id": "mombacho-tierra-volcan-robusto",
+      "file": "cigar-mombacho-tierra-volcan-robusto.svg"
+    },
+    {
+      "id": "mombacho-liga-maestro-robusto",
+      "file": "cigar-mombacho-liga-maestro-robusto.svg"
+    },
+    {
+      "id": "mombacho-casa-real-robusto",
+      "file": "cigar-mombacho-casa-real-robusto.svg"
+    },
+    {
+      "id": "villiger-la-flor-de-ynclan-robusto",
+      "file": "cigar-villiger-la-flor-de-ynclan-robusto.svg"
+    },
+    {
+      "id": "villiger-cuellar-connecticut-kreme-robusto",
+      "file": "cigar-villiger-cuellar-connecticut-kreme-robusto.svg"
+    },
+    {
+      "id": "villiger-sandoro-colorado-robusto",
+      "file": "cigar-villiger-sandoro-colorado-robusto.svg"
+    },
+    {
+      "id": "carlos-torano-exodus-1959-fifty-years-robusto",
+      "file": "cigar-carlos-torano-exodus-1959-fifty-years-robusto.svg"
+    },
+    {
+      "id": "carlos-torano-1916-cameroon-robusto",
+      "file": "cigar-carlos-torano-1916-cameroon-robusto.svg"
+    },
+    {
+      "id": "carlos-torano-casa-torano-robusto",
+      "file": "cigar-carlos-torano-casa-torano-robusto.svg"
+    },
+    {
+      "id": "j-fuego-origen-robusto",
+      "file": "cigar-j-fuego-origen-robusto.svg"
+    },
+    {
+      "id": "j-fuego-sangre-de-toro-robusto",
+      "file": "cigar-j-fuego-sangre-de-toro-robusto.svg"
+    },
+    {
+      "id": "j-fuego-gran-reserva-robusto",
+      "file": "cigar-j-fuego-gran-reserva-robusto.svg"
+    },
+    {
+      "id": "san-cristobal-revelation-legend",
+      "file": "cigar-san-cristobal-revelation-legend.svg"
+    },
+    {
+      "id": "san-cristobal-elegancia-imperial",
+      "file": "cigar-san-cristobal-elegancia-imperial.svg"
+    },
+    {
+      "id": "san-cristobal-quintessence-robusto",
+      "file": "cigar-san-cristobal-quintessence-robusto.svg"
+    },
+    {
+      "id": "nestor-miranda-special-selection-robusto",
+      "file": "cigar-nestor-miranda-special-selection-robusto.svg"
+    },
+    {
+      "id": "nestor-miranda-collection-maduro-robusto",
+      "file": "cigar-nestor-miranda-collection-maduro-robusto.svg"
+    },
+    {
+      "id": "montecristo-classic-robusto",
+      "file": "cigar-montecristo-classic-robusto.svg"
+    },
+    {
+      "id": "montecristo-epic-craft-cured-robusto",
+      "file": "cigar-montecristo-epic-craft-cured-robusto.svg"
+    },
+    {
+      "id": "montecristo-espada-ricasso",
+      "file": "cigar-montecristo-espada-ricasso.svg"
+    },
+    {
+      "id": "montecristo-white-robusto-grande",
+      "file": "cigar-montecristo-white-robusto-grande.svg"
+    },
+    {
+      "id": "punch-signature-robusto",
+      "file": "cigar-punch-signature-robusto.svg"
+    },
+    {
+      "id": "punch-rare-corojo-robusto",
+      "file": "cigar-punch-rare-corojo-robusto.svg"
+    },
+    {
+      "id": "punch-diablo-robusto",
+      "file": "cigar-punch-diablo-robusto.svg"
+    },
+    {
+      "id": "la-gloria-cubana-serie-n-robusto",
+      "file": "cigar-la-gloria-cubana-serie-n-robusto.svg"
+    },
+    {
+      "id": "la-gloria-cubana-esteli-robusto",
+      "file": "cigar-la-gloria-cubana-esteli-robusto.svg"
+    },
+    {
+      "id": "la-gloria-cubana-spirit-of-the-lady-robusto",
+      "file": "cigar-la-gloria-cubana-spirit-of-the-lady-robusto.svg"
+    },
+    {
+      "id": "hoyo-de-monterrey-excalibur-robusto",
+      "file": "cigar-hoyo-de-monterrey-excalibur-robusto.svg"
+    },
+    {
+      "id": "hoyo-de-monterrey-dark-sumatra-robusto",
+      "file": "cigar-hoyo-de-monterrey-dark-sumatra-robusto.svg"
+    },
+    {
+      "id": "ep-carrillo-pledge-prequel-robusto",
+      "file": "cigar-ep-carrillo-pledge-prequel-robusto.svg"
+    },
+    {
+      "id": "ep-carrillo-inch-natural-no-62",
+      "file": "cigar-ep-carrillo-inch-natural-no-62.svg"
+    },
+    {
+      "id": "ep-carrillo-seleccion-oscuro-robusto",
+      "file": "cigar-ep-carrillo-seleccion-oscuro-robusto.svg"
+    },
+    {
+      "id": "la-flor-dominicana-la-nox-robusto",
+      "file": "cigar-la-flor-dominicana-la-nox-robusto.svg"
+    },
+    {
+      "id": "la-flor-dominicana-suave-robusto",
+      "file": "cigar-la-flor-dominicana-suave-robusto.svg"
+    },
+    {
+      "id": "la-flor-dominicana-chapter-one-robusto",
+      "file": "cigar-la-flor-dominicana-chapter-one-robusto.svg"
+    },
+    {
+      "id": "la-flor-dominicana-1994-robusto",
+      "file": "cigar-la-flor-dominicana-1994-robusto.svg"
+    },
+    {
+      "id": "foundation-charter-oak-habano-toro",
+      "file": "cigar-foundation-charter-oak-habano-toro.svg"
+    },
+    {
+      "id": "foundation-charter-oak-shade-robusto",
+      "file": "cigar-foundation-charter-oak-shade-robusto.svg"
+    },
+    {
+      "id": "foundation-olmec-maduro-robusto",
+      "file": "cigar-foundation-olmec-maduro-robusto.svg"
+    },
+    {
+      "id": "espinosa-laranja-reserva-robusto",
+      "file": "cigar-espinosa-laranja-reserva-robusto.svg"
+    },
+    {
+      "id": "espinosa-knuckle-sandwich-robusto",
+      "file": "cigar-espinosa-knuckle-sandwich-robusto.svg"
+    },
+    {
+      "id": "espinosa-alpha-dawg-robusto",
+      "file": "cigar-espinosa-alpha-dawg-robusto.svg"
+    },
+    {
+      "id": "crowned-heads-las-calaveras-2024-robusto",
+      "file": "cigar-crowned-heads-las-calaveras-2024-robusto.svg"
+    },
+    {
+      "id": "crowned-heads-tennessee-waltz-robusto",
+      "file": "cigar-crowned-heads-tennessee-waltz-robusto.svg"
+    },
+    {
+      "id": "crowned-heads-court-reserve-xviii-robusto",
+      "file": "cigar-crowned-heads-court-reserve-xviii-robusto.svg"
+    },
+    {
+      "id": "avo-syncro-nicaragua-robusto",
+      "file": "cigar-avo-syncro-nicaragua-robusto.svg"
+    },
+    {
+      "id": "avo-xo-robusto",
+      "file": "cigar-avo-xo-robusto.svg"
+    },
+    {
+      "id": "nat-sherman-timeless-sterling-robusto",
+      "file": "cigar-nat-sherman-timeless-sterling-robusto.svg"
+    },
+    {
+      "id": "nat-sherman-metropolitan-maduro-robusto",
+      "file": "cigar-nat-sherman-metropolitan-maduro-robusto.svg"
+    },
+    {
+      "id": "gran-habano-vintage-2002-robusto",
+      "file": "cigar-gran-habano-vintage-2002-robusto.svg"
+    },
+    {
+      "id": "la-herencia-cubana-core-robusto",
+      "file": "cigar-la-herencia-cubana-core-robusto.svg"
+    },
+    {
+      "id": "rocky-patel-number-6-robusto",
+      "file": "cigar-rocky-patel-number-6-robusto.svg"
+    },
+    {
+      "id": "rocky-patel-royale-robusto",
+      "file": "cigar-rocky-patel-royale-robusto.svg"
+    },
+    {
+      "id": "rocky-patel-dbs-robusto",
+      "file": "cigar-rocky-patel-dbs-robusto.svg"
+    },
+    {
+      "id": "perdomo-lot-23-natural-robusto",
+      "file": "cigar-perdomo-lot-23-natural-robusto.svg"
+    },
+    {
+      "id": "perdomo-factory-tour-blend-sun-grown-robusto",
+      "file": "cigar-perdomo-factory-tour-blend-sun-grown-robusto.svg"
+    },
+    {
+      "id": "perdomo-small-batch-series-maduro-robusto",
+      "file": "cigar-perdomo-small-batch-series-maduro-robusto.svg"
+    },
+    {
+      "id": "alec-bradley-project-40-robusto",
+      "file": "cigar-alec-bradley-project-40-robusto.svg"
+    },
+    {
+      "id": "alec-bradley-blind-faith-robusto",
+      "file": "cigar-alec-bradley-blind-faith-robusto.svg"
+    },
+    {
+      "id": "alec-bradley-texas-lancero",
+      "file": "cigar-alec-bradley-texas-lancero.svg"
+    },
+    {
+      "id": "macanudo-heritage-nuevo-robusto",
+      "file": "cigar-macanudo-heritage-nuevo-robusto.svg"
+    },
+    {
+      "id": "macanudo-inspirado-brazilian-shade-robusto",
+      "file": "cigar-macanudo-inspirado-brazilian-shade-robusto.svg"
+    },
+    {
+      "id": "macanudo-m-robusto",
+      "file": "cigar-macanudo-m-robusto.svg"
+    },
+    {
+      "id": "my-father-connecticut-robusto",
+      "file": "cigar-my-father-connecticut-robusto.svg"
+    },
+    {
+      "id": "my-father-la-gran-oferta-robusto",
+      "file": "cigar-my-father-la-gran-oferta-robusto.svg"
+    },
+    {
+      "id": "plasencia-cosecha-151-robusto",
+      "file": "cigar-plasencia-cosecha-151-robusto.svg"
+    },
+    {
+      "id": "plasencia-alma-del-fuego-candente-robusto",
+      "file": "cigar-plasencia-alma-del-fuego-candente-robusto.svg"
+    },
+    {
+      "id": "illusione-epernay-le-taureau",
+      "file": "cigar-illusione-epernay-le-taureau.svg"
+    },
+    {
+      "id": "illusione-epernay-le-matin",
+      "file": "cigar-illusione-epernay-le-matin.svg"
+    },
+    {
+      "id": "illusione-rothchildes",
+      "file": "cigar-illusione-rothchildes.svg"
+    },
+    {
+      "id": "illusione-eccj-corona-gorda",
+      "file": "cigar-illusione-eccj-corona-gorda.svg"
+    },
+    {
+      "id": "illusione-singulare-origen-robusto",
+      "file": "cigar-illusione-singulare-origen-robusto.svg"
+    },
+    {
+      "id": "southern-draw-kudzu-toro",
+      "file": "cigar-southern-draw-kudzu-toro.svg"
+    },
+    {
+      "id": "southern-draw-rose-of-sharon-robusto",
+      "file": "cigar-southern-draw-rose-of-sharon-robusto.svg"
+    },
+    {
+      "id": "southern-draw-cedrus-toro",
+      "file": "cigar-southern-draw-cedrus-toro.svg"
+    },
+    {
+      "id": "asylum-13-ogre-660",
+      "file": "cigar-asylum-13-ogre-660.svg"
+    },
+    {
+      "id": "balmoral-anejo-xo-nicaragua-gran-toro",
+      "file": "cigar-balmoral-anejo-xo-nicaragua-gran-toro.svg"
+    },
+    {
+      "id": "balmoral-anejo-xo-oscuro-rothschild",
+      "file": "cigar-balmoral-anejo-xo-oscuro-rothschild.svg"
+    },
+    {
+      "id": "balmoral-serie-signaturas-dueto-gran-toro",
+      "file": "cigar-balmoral-serie-signaturas-dueto-gran-toro.svg"
+    },
+    {
+      "id": "fratello-oro-robusto",
+      "file": "cigar-fratello-oro-robusto.svg"
+    },
+    {
+      "id": "fratello-navetta-discovery",
+      "file": "cigar-fratello-navetta-discovery.svg"
+    },
+    {
+      "id": "fratello-navetta-inverso-robusto",
+      "file": "cigar-fratello-navetta-inverso-robusto.svg"
+    },
+    {
+      "id": "fratello-arlequin-prensado-toro",
+      "file": "cigar-fratello-arlequin-prensado-toro.svg"
+    },
+    {
+      "id": "fratello-classico-robusto",
+      "file": "cigar-fratello-classico-robusto.svg"
+    },
+    {
+      "id": "torano-exodus-robusto",
+      "file": "cigar-torano-exodus-robusto.svg"
+    },
+    {
+      "id": "torano-vault-a008-robusto",
+      "file": "cigar-torano-vault-a008-robusto.svg"
+    },
+    {
+      "id": "torano-casa-torano-robusto",
+      "file": "cigar-torano-casa-torano-robusto.svg"
+    },
+    {
+      "id": "nestor-miranda-special-selection-toro",
+      "file": "cigar-nestor-miranda-special-selection-toro.svg"
+    },
+    {
+      "id": "la-palina-black-label-toro",
+      "file": "cigar-la-palina-black-label-toro.svg"
+    },
+    {
+      "id": "la-palina-lp01-robusto",
+      "file": "cigar-la-palina-lp01-robusto.svg"
+    },
+    {
+      "id": "la-palina-lp02-robusto",
+      "file": "cigar-la-palina-lp02-robusto.svg"
+    },
+    {
+      "id": "leaf-by-oscar-maduro-toro",
+      "file": "cigar-leaf-by-oscar-maduro-toro.svg"
+    },
+    {
+      "id": "leaf-by-oscar-corojo-toro",
+      "file": "cigar-leaf-by-oscar-corojo-toro.svg"
+    },
+    {
+      "id": "leaf-by-oscar-connecticut-toro",
+      "file": "cigar-leaf-by-oscar-connecticut-toro.svg"
+    },
+    {
+      "id": "nat-sherman-timeless-sterling-short-robusto",
+      "file": "cigar-nat-sherman-timeless-sterling-short-robusto.svg"
+    },
+    {
+      "id": "avo-classic-no2",
+      "file": "cigar-avo-classic-no2.svg"
+    },
+    {
+      "id": "avo-syncro-nicaragua-toro",
+      "file": "cigar-avo-syncro-nicaragua-toro.svg"
+    },
+    {
+      "id": "avo-heritage-toro",
+      "file": "cigar-avo-heritage-toro.svg"
+    },
+    {
+      "id": "diamond-crown-maximus-toro",
+      "file": "cigar-diamond-crown-maximus-toro.svg"
+    },
+    {
+      "id": "diamond-crown-black-diamond-marquise",
+      "file": "cigar-diamond-crown-black-diamond-marquise.svg"
+    },
+    {
+      "id": "quesada-tributo-julio",
+      "file": "cigar-quesada-tributo-julio.svg"
+    },
+    {
+      "id": "quesada-40th-anniversary-corona",
+      "file": "cigar-quesada-40th-anniversary-corona.svg"
+    },
+    {
+      "id": "quesada-seleccion-espana-short-robusto",
+      "file": "cigar-quesada-seleccion-espana-short-robusto.svg"
+    },
+    {
+      "id": "cornelius-anthony-venganza-judge",
+      "file": "cigar-cornelius-anthony-venganza-judge.svg"
+    },
+    {
+      "id": "cornelius-anthony-daddy-mac-toro",
+      "file": "cigar-cornelius-anthony-daddy-mac-toro.svg"
+    },
+    {
+      "id": "cornelius-anthony-aerial-robusto",
+      "file": "cigar-cornelius-anthony-aerial-robusto.svg"
+    },
+    {
+      "id": "gran-habano-vintage-2002-churchill",
+      "file": "cigar-gran-habano-vintage-2002-churchill.svg"
+    },
+    {
+      "id": "gran-habano-gran-reserva-5-gran-robusto",
+      "file": "cigar-gran-habano-gran-reserva-5-gran-robusto.svg"
+    },
+    {
+      "id": "crux-epicure-habano-toro",
+      "file": "cigar-crux-epicure-habano-toro.svg"
+    },
+    {
+      "id": "crux-bull-bear-robusto-extra",
+      "file": "cigar-crux-bull-bear-robusto-extra.svg"
+    },
+    {
+      "id": "crux-guild-toro",
+      "file": "cigar-crux-guild-toro.svg"
+    },
+    {
+      "id": "crux-limitada-2023",
+      "file": "cigar-crux-limitada-2023.svg"
+    },
+    {
+      "id": "5-vegas-gold-double-nickel",
+      "file": "cigar-5-vegas-gold-double-nickel.svg"
+    },
+    {
+      "id": "5-vegas-triple-a-box-press",
+      "file": "cigar-5-vegas-triple-a-box-press.svg"
+    },
+    {
+      "id": "5-vegas-classic-torpedo",
+      "file": "cigar-5-vegas-classic-torpedo.svg"
+    },
+    {
+      "id": "eiroa-first-20-years-550",
+      "file": "cigar-eiroa-first-20-years-550.svg"
+    },
+    {
+      "id": "kristoff-ligero-maduro-matador",
+      "file": "cigar-kristoff-ligero-maduro-matador.svg"
+    },
+    {
+      "id": "kristoff-shade-grown-robusto",
+      "file": "cigar-kristoff-shade-grown-robusto.svg"
+    },
+    {
+      "id": "j-fuego-sangre-de-toro-toro",
+      "file": "cigar-j-fuego-sangre-de-toro-toro.svg"
+    },
+    {
+      "id": "j-fuego-origen-toro",
+      "file": "cigar-j-fuego-origen-toro.svg"
+    },
+    {
+      "id": "j-fuego-heat-robusto",
+      "file": "cigar-j-fuego-heat-robusto.svg"
+    },
+    {
+      "id": "matilde-quadrata-robusto",
+      "file": "cigar-matilde-quadrata-robusto.svg"
+    },
+    {
+      "id": "matilde-oscura-toro-bravo",
+      "file": "cigar-matilde-oscura-toro-bravo.svg"
+    },
+    {
+      "id": "dapper-el-borracho-toro",
+      "file": "cigar-dapper-el-borracho-toro.svg"
+    },
+    {
+      "id": "dapper-desvalido-robusto",
+      "file": "cigar-dapper-desvalido-robusto.svg"
+    },
+    {
+      "id": "dapper-cubo-sumatra-toro",
+      "file": "cigar-dapper-cubo-sumatra-toro.svg"
+    },
+    {
+      "id": "protocol-themis-toro",
+      "file": "cigar-protocol-themis-toro.svg"
+    },
+    {
+      "id": "protocol-probable-cause-lancero",
+      "file": "cigar-protocol-probable-cause-lancero.svg"
+    },
+    {
+      "id": "protocol-john-doe-20",
+      "file": "cigar-protocol-john-doe-20.svg"
+    },
+    {
+      "id": "ace-prime-luciano-dreamer",
+      "file": "cigar-ace-prime-luciano-dreamer.svg"
+    },
+    {
+      "id": "ace-prime-pichardo-san-andres-toro",
+      "file": "cigar-ace-prime-pichardo-san-andres-toro.svg"
+    },
+    {
+      "id": "ace-prime-mxs-dominique-wilkins",
+      "file": "cigar-ace-prime-mxs-dominique-wilkins.svg"
+    },
+    {
+      "id": "serino-royale-medio-robusto-gordo",
+      "file": "cigar-serino-royale-medio-robusto-gordo.svg"
+    },
+    {
+      "id": "serino-royale-maduro-xx-toro",
+      "file": "cigar-serino-royale-maduro-xx-toro.svg"
+    },
+    {
+      "id": "serino-royale-connecticut-churchill",
+      "file": "cigar-serino-royale-connecticut-churchill.svg"
+    },
+    {
+      "id": "nat-sherman-timeless-metropolitan-toro",
+      "file": "cigar-nat-sherman-timeless-metropolitan-toro.svg"
+    },
+    {
+      "id": "balmoral-serie-signaturas-paso-doble-gran-toro",
+      "file": "cigar-balmoral-serie-signaturas-paso-doble-gran-toro.svg"
+    },
+    {
+      "id": "5-vegas-alpha",
+      "file": "cigar-5-vegas-alpha.svg"
+    },
+    {
+      "id": "nestor-miranda-collection-connecticut-robusto",
+      "file": "cigar-nestor-miranda-collection-connecticut-robusto.svg"
+    },
+    {
+      "id": "crux-epicure-maduro-robusto",
+      "file": "cigar-crux-epicure-maduro-robusto.svg"
+    },
+    {
+      "id": "quesada-espana-fabulosos",
+      "file": "cigar-quesada-espana-fabulosos.svg"
+    },
+    {
+      "id": "serino-talon-toro",
+      "file": "cigar-serino-talon-toro.svg"
+    },
+    {
+      "id": "diamond-crown-black-diamond-emerald",
+      "file": "cigar-diamond-crown-black-diamond-emerald.svg"
+    },
+    {
+      "id": "gran-habano-habano-5-robusto",
+      "file": "cigar-gran-habano-habano-5-robusto.svg"
+    },
+    {
+      "id": "la-palina-classic-series-robusto",
+      "file": "cigar-la-palina-classic-series-robusto.svg"
+    },
+    {
+      "id": "asylum-13-770",
+      "file": "cigar-asylum-13-770.svg"
+    },
+    {
+      "id": "southern-draw-jacobs-ladder-brimstone-perfecto",
+      "file": "cigar-southern-draw-jacobs-ladder-brimstone-perfecto.svg"
+    },
+    {
+      "id": "fratello-arlequin-connecticut-robusto",
+      "file": "cigar-fratello-arlequin-connecticut-robusto.svg"
+    },
+    {
+      "id": "oliva-serie-v-melanio-robusto",
+      "file": "cigar-oliva-serie-v-melanio-robusto.svg"
+    },
+    {
+      "id": "oliva-serie-v-melanio-toro",
+      "file": "cigar-oliva-serie-v-melanio-toro.svg"
+    },
+    {
+      "id": "oliva-serie-v-melanio-torpedo",
+      "file": "cigar-oliva-serie-v-melanio-torpedo.svg"
+    },
+    {
+      "id": "oliva-serie-v-melanio-maduro-robusto",
+      "file": "cigar-oliva-serie-v-melanio-maduro-robusto.svg"
+    },
+    {
+      "id": "liga-privada-no9-toro",
+      "file": "cigar-liga-privada-no9-toro.svg"
+    },
+    {
+      "id": "liga-privada-no9-flying-pig",
+      "file": "cigar-liga-privada-no9-flying-pig.svg"
+    },
+    {
+      "id": "liga-privada-no9-corona-doble",
+      "file": "cigar-liga-privada-no9-corona-doble.svg"
+    },
+    {
+      "id": "liga-privada-t52-flying-pig",
+      "file": "cigar-liga-privada-t52-flying-pig.svg"
+    },
+    {
+      "id": "liga-privada-t52-toro",
+      "file": "cigar-liga-privada-t52-toro.svg"
+    },
+    {
+      "id": "padron-1926-no6-natural",
+      "file": "cigar-padron-1926-no6-natural.svg"
+    },
+    {
+      "id": "padron-1926-no9-maduro",
+      "file": "cigar-padron-1926-no9-maduro.svg"
+    },
+    {
+      "id": "padron-1926-no40-natural",
+      "file": "cigar-padron-1926-no40-natural.svg"
+    },
+    {
+      "id": "padron-1964-torpedo-natural",
+      "file": "cigar-padron-1964-torpedo-natural.svg"
+    },
+    {
+      "id": "padron-1964-torpedo-maduro",
+      "file": "cigar-padron-1964-torpedo-maduro.svg"
+    },
+    {
+      "id": "my-father-garcia-y-garcia-toro-extra",
+      "file": "cigar-my-father-garcia-y-garcia-toro-extra.svg"
+    },
+    {
+      "id": "my-father-garcia-y-garcia-robusto-deluxe",
+      "file": "cigar-my-father-garcia-y-garcia-robusto-deluxe.svg"
+    },
+    {
+      "id": "davidoff-winston-churchill-toro",
+      "file": "cigar-davidoff-winston-churchill-toro.svg"
+    },
+    {
+      "id": "davidoff-winston-churchill-late-hour-toro",
+      "file": "cigar-davidoff-winston-churchill-late-hour-toro.svg"
+    },
+    {
+      "id": "davidoff-winston-churchill-late-hour-churchill",
+      "file": "cigar-davidoff-winston-churchill-late-hour-churchill.svg"
+    },
+    {
+      "id": "davidoff-year-of-the-ox-2021",
+      "file": "cigar-davidoff-year-of-the-ox-2021.svg"
+    },
+    {
+      "id": "ep-carrillo-encore-majestic",
+      "file": "cigar-ep-carrillo-encore-majestic.svg"
+    },
+    {
+      "id": "ep-carrillo-la-historia-e-iii",
+      "file": "cigar-ep-carrillo-la-historia-e-iii.svg"
+    },
+    {
+      "id": "crowned-heads-le-careme-canonazo",
+      "file": "cigar-crowned-heads-le-careme-canonazo.svg"
+    },
+    {
+      "id": "crowned-heads-le-careme-cosacos",
+      "file": "cigar-crowned-heads-le-careme-cosacos.svg"
+    },
+    {
+      "id": "crowned-heads-mil-dias-sublime",
+      "file": "cigar-crowned-heads-mil-dias-sublime.svg"
+    },
+    {
+      "id": "crowned-heads-mil-dias-toro",
+      "file": "cigar-crowned-heads-mil-dias-toro.svg"
+    },
+    {
+      "id": "aganorsa-leaf-jfr-lunatic-torch",
+      "file": "cigar-aganorsa-leaf-jfr-lunatic-torch.svg"
+    },
+    {
+      "id": "aganorsa-leaf-jfr-lunatic-maduro-toro",
+      "file": "cigar-aganorsa-leaf-jfr-lunatic-maduro-toro.svg"
+    },
+    {
+      "id": "viaje-skull-and-bones-frank-castle",
+      "file": "cigar-viaje-skull-and-bones-frank-castle.svg"
+    },
+    {
+      "id": "viaje-skull-and-bones-ten-ton-tess",
+      "file": "cigar-viaje-skull-and-bones-ten-ton-tess.svg"
+    },
+    {
+      "id": "dunbarton-sin-compromiso-no5",
+      "file": "cigar-dunbarton-sin-compromiso-no5.svg"
+    },
+    {
+      "id": "dunbarton-sobremesa-cervantes-fino",
+      "file": "cigar-dunbarton-sobremesa-cervantes-fino.svg"
+    },
+    {
+      "id": "warped-la-colmena-no44",
+      "file": "cigar-warped-la-colmena-no44.svg"
+    },
+    {
+      "id": "warped-maestro-del-tiempo-6102-toro",
+      "file": "cigar-warped-maestro-del-tiempo-6102-toro.svg"
+    },
+    {
+      "id": "warped-guardian-of-the-farm-apollo",
+      "file": "cigar-warped-guardian-of-the-farm-apollo.svg"
+    },
+    {
+      "id": "roma-craft-cromagnon-aquitaine-mode5",
+      "file": "cigar-roma-craft-cromagnon-aquitaine-mode5.svg"
+    },
+    {
+      "id": "roma-craft-neanderthal-hn",
+      "file": "cigar-roma-craft-neanderthal-hn.svg"
+    },
+    {
+      "id": "caldwell-long-live-the-king-toro",
+      "file": "cigar-caldwell-long-live-the-king-toro.svg"
+    },
+    {
+      "id": "caldwell-eastern-standard-toro",
+      "file": "cigar-caldwell-eastern-standard-toro.svg"
+    },
+    {
+      "id": "caldwell-blind-mans-bluff-habano-toro",
+      "file": "cigar-caldwell-blind-mans-bluff-habano-toro.svg"
+    },
+    {
+      "id": "tatuaje-cojonu-2003",
+      "file": "cigar-tatuaje-cojonu-2003.svg"
+    },
+    {
+      "id": "tatuaje-cojonu-2006",
+      "file": "cigar-tatuaje-cojonu-2006.svg"
+    },
+    {
+      "id": "tatuaje-cojonu-2012",
+      "file": "cigar-tatuaje-cojonu-2012.svg"
+    },
+    {
+      "id": "tatuaje-wolfman-redux4",
+      "file": "cigar-tatuaje-wolfman-redux4.svg"
+    },
+    {
+      "id": "espinosa-las-6-provincias-cmw",
+      "file": "cigar-espinosa-las-6-provincias-cmw.svg"
+    },
+    {
+      "id": "espinosa-las-6-provincias-zdt",
+      "file": "cigar-espinosa-las-6-provincias-zdt.svg"
+    },
+    {
+      "id": "espinosa-knuckle-sandwich-habano-toro",
+      "file": "cigar-espinosa-knuckle-sandwich-habano-toro.svg"
+    },
+    {
+      "id": "espinosa-laranja-toro",
+      "file": "cigar-espinosa-laranja-toro.svg"
+    },
+    {
+      "id": "camacho-powerband-toro",
+      "file": "cigar-camacho-powerband-toro.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-cuatro-cinco-toro",
+      "file": "cigar-joya-de-nicaragua-cuatro-cinco-toro.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-cuatro-cinco-torpedo",
+      "file": "cigar-joya-de-nicaragua-cuatro-cinco-torpedo.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-cinco-decadas-diadema",
+      "file": "cigar-joya-de-nicaragua-cinco-decadas-diadema.svg"
+    },
+    {
+      "id": "perdomo-20th-anniversary-sun-grown-gordo",
+      "file": "cigar-perdomo-20th-anniversary-sun-grown-gordo.svg"
+    },
+    {
+      "id": "perdomo-20th-anniversary-connecticut-epicure",
+      "file": "cigar-perdomo-20th-anniversary-connecticut-epicure.svg"
+    },
+    {
+      "id": "perdomo-20th-anniversary-maduro-gordo",
+      "file": "cigar-perdomo-20th-anniversary-maduro-gordo.svg"
+    },
+    {
+      "id": "alec-bradley-project-40-toro",
+      "file": "cigar-alec-bradley-project-40-toro.svg"
+    },
+    {
+      "id": "alec-bradley-project-40-gordo",
+      "file": "cigar-alec-bradley-project-40-gordo.svg"
+    },
+    {
+      "id": "foundation-charter-oak-broadleaf-lonsdale",
+      "file": "cigar-foundation-charter-oak-broadleaf-lonsdale.svg"
+    },
+    {
+      "id": "foundation-charter-oak-shade-toro",
+      "file": "cigar-foundation-charter-oak-shade-toro.svg"
+    },
+    {
+      "id": "foundation-olmec-maduro-toro",
+      "file": "cigar-foundation-olmec-maduro-toro.svg"
+    },
+    {
+      "id": "hvc-hot-cake-corona-gorda",
+      "file": "cigar-hvc-hot-cake-corona-gorda.svg"
+    },
+    {
+      "id": "hvc-hot-cake-gran-canon",
+      "file": "cigar-hvc-hot-cake-gran-canon.svg"
+    },
+    {
+      "id": "la-flor-dominicana-litto-gomez-diez-toro",
+      "file": "cigar-la-flor-dominicana-litto-gomez-diez-toro.svg"
+    },
+    {
+      "id": "la-flor-dominicana-la-nox-toro",
+      "file": "cigar-la-flor-dominicana-la-nox-toro.svg"
+    },
+    {
+      "id": "liga-privada-t52-corona-doble",
+      "file": "cigar-liga-privada-t52-corona-doble.svg"
+    },
+    {
+      "id": "padron-1926-no35-maduro",
+      "file": "cigar-padron-1926-no35-maduro.svg"
+    },
+    {
+      "id": "my-father-le-bijou-box-press",
+      "file": "cigar-my-father-le-bijou-box-press.svg"
+    },
+    {
+      "id": "davidoff-year-of-the-dragon-2024",
+      "file": "cigar-davidoff-year-of-the-dragon-2024.svg"
+    },
+    {
+      "id": "ep-carrillo-encore-celestial",
+      "file": "cigar-ep-carrillo-encore-celestial.svg"
+    },
+    {
+      "id": "warped-flor-del-valle-sky-flower",
+      "file": "cigar-warped-flor-del-valle-sky-flower.svg"
+    },
+    {
+      "id": "hvc-pan-caliente-toro",
+      "file": "cigar-hvc-pan-caliente-toro.svg"
+    },
+    {
+      "id": "dunbarton-muestra-de-saka-exclusivo-toro",
+      "file": "cigar-dunbarton-muestra-de-saka-exclusivo-toro.svg"
+    },
+    {
+      "id": "espinosa-knuckle-sandwich-maduro-robusto",
+      "file": "cigar-espinosa-knuckle-sandwich-maduro-robusto.svg"
+    },
+    {
+      "id": "camacho-corojo-toro",
+      "file": "cigar-camacho-corojo-toro.svg"
+    },
+    {
+      "id": "camacho-connecticut-toro",
+      "file": "cigar-camacho-connecticut-toro.svg"
+    },
+    {
+      "id": "camacho-triple-maduro-toro",
+      "file": "cigar-camacho-triple-maduro-toro.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-antano-1970-toro",
+      "file": "cigar-joya-de-nicaragua-antano-1970-toro.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-cinco-decadas-el-general",
+      "file": "cigar-joya-de-nicaragua-cinco-decadas-el-general.svg"
+    },
+    {
+      "id": "la-flor-dominicana-andalusian-bull-toro",
+      "file": "cigar-la-flor-dominicana-andalusian-bull-toro.svg"
+    },
+    {
+      "id": "crowned-heads-four-kicks-maduro-toro",
+      "file": "cigar-crowned-heads-four-kicks-maduro-toro.svg"
+    },
+    {
+      "id": "tatuaje-havana-vi-torpedo",
+      "file": "cigar-tatuaje-havana-vi-torpedo.svg"
+    },
+    {
+      "id": "oliva-serie-v-melanio-petite-corona",
+      "file": "cigar-oliva-serie-v-melanio-petite-corona.svg"
+    },
+    {
+      "id": "perdomo-habano-bourbon-barrel-aged-maduro-robusto",
+      "file": "cigar-perdomo-habano-bourbon-barrel-aged-maduro-robusto.svg"
+    },
+    {
+      "id": "alec-bradley-black-market-toro",
+      "file": "cigar-alec-bradley-black-market-toro.svg"
+    },
+    {
+      "id": "alec-bradley-tempus-robusto",
+      "file": "cigar-alec-bradley-tempus-robusto.svg"
+    },
+    {
+      "id": "camacho-american-barrel-aged-toro",
+      "file": "cigar-camacho-american-barrel-aged-toro.svg"
+    },
+    {
+      "id": "foundation-tabernacle-toro",
+      "file": "cigar-foundation-tabernacle-toro.svg"
+    },
+    {
+      "id": "liga-privada-no9-belicoso",
+      "file": "cigar-liga-privada-no9-belicoso.svg"
+    },
+    {
+      "id": "dunbarton-sobremesa-toro",
+      "file": "cigar-dunbarton-sobremesa-toro.svg"
+    },
+    {
+      "id": "roma-craft-cromagnon-knuckledragger",
+      "file": "cigar-roma-craft-cromagnon-knuckledragger.svg"
+    },
+    {
+      "id": "padron-1964-anniversary-maduro-toro",
+      "file": "cigar-padron-1964-anniversary-maduro-toro.svg"
+    },
+    {
+      "id": "perdomo-20th-anniversary-torpedo",
+      "file": "cigar-perdomo-20th-anniversary-torpedo.svg"
+    },
+    {
+      "id": "my-father-judge-toro",
+      "file": "cigar-my-father-judge-toro.svg"
+    },
+    {
+      "id": "my-father-no1-torpedo",
+      "file": "cigar-my-father-no1-torpedo.svg"
+    },
+    {
+      "id": "tatuaje-brown-label-toro",
+      "file": "cigar-tatuaje-brown-label-toro.svg"
+    },
+    {
+      "id": "undercrown-shade-toro",
+      "file": "cigar-undercrown-shade-toro.svg"
+    },
+    {
+      "id": "undercrown-sun-grown-toro",
+      "file": "cigar-undercrown-sun-grown-toro.svg"
+    },
+    {
+      "id": "aganorsa-leaf-signature-selection-toro",
+      "file": "cigar-aganorsa-leaf-signature-selection-toro.svg"
+    },
+    {
+      "id": "la-flor-dominicana-chapter-one-toro",
+      "file": "cigar-la-flor-dominicana-chapter-one-toro.svg"
+    },
+    {
+      "id": "caldwell-king-is-dead-toro",
+      "file": "cigar-caldwell-king-is-dead-toro.svg"
+    },
+    {
+      "id": "viaje-honey-hand-grenades-toro",
+      "file": "cigar-viaje-honey-hand-grenades-toro.svg"
+    },
+    {
+      "id": "espinosa-alpha-dawg-toro",
+      "file": "cigar-espinosa-alpha-dawg-toro.svg"
+    },
+    {
+      "id": "perdomo-habano-bourbon-barrel-aged-natural-toro",
+      "file": "cigar-perdomo-habano-bourbon-barrel-aged-natural-toro.svg"
+    },
+    {
+      "id": "crowned-heads-four-kicks-toro",
+      "file": "cigar-crowned-heads-four-kicks-toro.svg"
+    },
+    {
+      "id": "undercrown-flying-pig-maduro",
+      "file": "cigar-undercrown-flying-pig-maduro.svg"
+    },
+    {
+      "id": "undercrown-flying-pig-sun-grown",
+      "file": "cigar-undercrown-flying-pig-sun-grown.svg"
+    },
+    {
+      "id": "undercrown-flying-pig-shade",
+      "file": "cigar-undercrown-flying-pig-shade.svg"
+    },
+    {
+      "id": "liga-privada-unico-dirty-rat",
+      "file": "cigar-liga-privada-unico-dirty-rat.svg"
+    },
+    {
+      "id": "liga-privada-unico-ratzilla",
+      "file": "cigar-liga-privada-unico-ratzilla.svg"
+    },
+    {
+      "id": "liga-privada-unico-papas-fritas",
+      "file": "cigar-liga-privada-unico-papas-fritas.svg"
+    },
+    {
+      "id": "liga-privada-unico-feral-flying-pig",
+      "file": "cigar-liga-privada-unico-feral-flying-pig.svg"
+    },
+    {
+      "id": "arturo-fuente-hemingway-signature",
+      "file": "cigar-arturo-fuente-hemingway-signature.svg"
+    },
+    {
+      "id": "arturo-fuente-don-carlos-eye-of-bull",
+      "file": "cigar-arturo-fuente-don-carlos-eye-of-bull.svg"
+    },
+    {
+      "id": "rocky-patel-alr-second-edition-toro",
+      "file": "cigar-rocky-patel-alr-second-edition-toro.svg"
+    },
+    {
+      "id": "rocky-patel-alr-second-edition-robusto",
+      "file": "cigar-rocky-patel-alr-second-edition-robusto.svg"
+    },
+    {
+      "id": "rocky-patel-dbs-toro",
+      "file": "cigar-rocky-patel-dbs-toro.svg"
+    },
+    {
+      "id": "rocky-patel-sun-grown-maduro-robusto",
+      "file": "cigar-rocky-patel-sun-grown-maduro-robusto.svg"
+    },
+    {
+      "id": "montecristo-epic-robusto",
+      "file": "cigar-montecristo-epic-robusto.svg"
+    },
+    {
+      "id": "montecristo-espada-toro",
+      "file": "cigar-montecristo-espada-toro.svg"
+    },
+    {
+      "id": "montecristo-crafted-aj-fernandez-toro",
+      "file": "cigar-montecristo-crafted-aj-fernandez-toro.svg"
+    },
+    {
+      "id": "romeo-y-julieta-reserva-real-toro",
+      "file": "cigar-romeo-y-julieta-reserva-real-toro.svg"
+    },
+    {
+      "id": "hoyo-excalibur-black-toro",
+      "file": "cigar-hoyo-excalibur-black-toro.svg"
+    },
+    {
+      "id": "punch-diablo-diabolus",
+      "file": "cigar-punch-diablo-diabolus.svg"
+    },
+    {
+      "id": "punch-champion-robusto",
+      "file": "cigar-punch-champion-robusto.svg"
+    },
+    {
+      "id": "gurkha-cellar-reserve-15-year-toro",
+      "file": "cigar-gurkha-cellar-reserve-15-year-toro.svg"
+    },
+    {
+      "id": "gurkha-heritage-robusto",
+      "file": "cigar-gurkha-heritage-robusto.svg"
+    },
+    {
+      "id": "man-o-war-armada-warship",
+      "file": "cigar-man-o-war-armada-warship.svg"
+    },
+    {
+      "id": "man-o-war-side-project-toro",
+      "file": "cigar-man-o-war-side-project-toro.svg"
+    },
+    {
+      "id": "cao-session-toro",
+      "file": "cigar-cao-session-toro.svg"
+    },
+    {
+      "id": "diesel-unlimited-d.x.-toro",
+      "file": "cigar-diesel-unlimited-d.x.-toro.svg"
+    },
+    {
+      "id": "diesel-whiskey-row-toro",
+      "file": "cigar-diesel-whiskey-row-toro.svg"
+    },
+    {
+      "id": "diesel-hair-of-the-dog-toro",
+      "file": "cigar-diesel-hair-of-the-dog-toro.svg"
+    },
+    {
+      "id": "villiger-la-flor-de-ynclan-toro",
+      "file": "cigar-villiger-la-flor-de-ynclan-toro.svg"
+    },
+    {
+      "id": "villiger-la-flor-de-ynclan-lancero",
+      "file": "cigar-villiger-la-flor-de-ynclan-lancero.svg"
+    },
+    {
+      "id": "la-aroma-de-cuba-noblesse-toro",
+      "file": "cigar-la-aroma-de-cuba-noblesse-toro.svg"
+    },
+    {
+      "id": "la-aroma-de-cuba-edicion-especial-no1",
+      "file": "cigar-la-aroma-de-cuba-edicion-especial-no1.svg"
+    },
+    {
+      "id": "henry-clay-war-hawk-toro",
+      "file": "cigar-henry-clay-war-hawk-toro.svg"
+    },
+    {
+      "id": "henry-clay-stalk-cut-toro",
+      "file": "cigar-henry-clay-stalk-cut-toro.svg"
+    },
+    {
+      "id": "room-101-big-payback-toro",
+      "file": "cigar-room-101-big-payback-toro.svg"
+    },
+    {
+      "id": "room-101-hit-and-run-redux-toro",
+      "file": "cigar-room-101-hit-and-run-redux-toro.svg"
+    },
+    {
+      "id": "la-barba-red-corona-gorda",
+      "file": "cigar-la-barba-red-corona-gorda.svg"
+    },
+    {
+      "id": "la-barba-ricochet-toro",
+      "file": "cigar-la-barba-ricochet-toro.svg"
+    },
+    {
+      "id": "cavalier-geneve-black-series-ii-toro",
+      "file": "cigar-cavalier-geneve-black-series-ii-toro.svg"
+    },
+    {
+      "id": "cavalier-geneve-white-series-toro",
+      "file": "cigar-cavalier-geneve-white-series-toro.svg"
+    },
+    {
+      "id": "rojas-unfinished-business-corona-gorda",
+      "file": "cigar-rojas-unfinished-business-corona-gorda.svg"
+    },
+    {
+      "id": "rojas-unfinished-business-toro",
+      "file": "cigar-rojas-unfinished-business-toro.svg"
+    },
+    {
+      "id": "blackbird-superb-robusto-gordo",
+      "file": "cigar-blackbird-superb-robusto-gordo.svg"
+    },
+    {
+      "id": "blackbird-jackdaw-robusto",
+      "file": "cigar-blackbird-jackdaw-robusto.svg"
+    },
+    {
+      "id": "blackbird-crow-robusto",
+      "file": "cigar-blackbird-crow-robusto.svg"
+    },
+    {
+      "id": "blackbird-rook-robusto",
+      "file": "cigar-blackbird-rook-robusto.svg"
+    },
+    {
+      "id": "ventura-archetype-initiation-toro",
+      "file": "cigar-ventura-archetype-initiation-toro.svg"
+    },
+    {
+      "id": "ventura-case-study-cs03-toro",
+      "file": "cigar-ventura-case-study-cs03-toro.svg"
+    },
+    {
+      "id": "la-gloria-cubana-spirit-toro",
+      "file": "cigar-la-gloria-cubana-spirit-toro.svg"
+    },
+    {
+      "id": "brick-house-double-connecticut-toro",
+      "file": "cigar-brick-house-double-connecticut-toro.svg"
+    },
+    {
+      "id": "brick-house-natural-corona",
+      "file": "cigar-brick-house-natural-corona.svg"
+    },
+    {
+      "id": "nub-cafe-connecticut-460",
+      "file": "cigar-nub-cafe-connecticut-460.svg"
+    },
+    {
+      "id": "nub-sungrown-460",
+      "file": "cigar-nub-sungrown-460.svg"
+    },
+    {
+      "id": "gurkha-royal-challenge-toro",
+      "file": "cigar-gurkha-royal-challenge-toro.svg"
+    },
+    {
+      "id": "gurkha-ghost-toro",
+      "file": "cigar-gurkha-ghost-toro.svg"
+    },
+    {
+      "id": "man-o-war-virtue-toro",
+      "file": "cigar-man-o-war-virtue-toro.svg"
+    },
+    {
+      "id": "cao-brazilia-gol",
+      "file": "cigar-cao-brazilia-gol.svg"
+    },
+    {
+      "id": "cao-flathead-v660-camshaft",
+      "file": "cigar-cao-flathead-v660-camshaft.svg"
+    },
+    {
+      "id": "foundation-menelik-toro",
+      "file": "cigar-foundation-menelik-toro.svg"
+    },
+    {
+      "id": "foundation-olmec-claro-toro",
+      "file": "cigar-foundation-olmec-claro-toro.svg"
+    },
+    {
+      "id": "aged-room-quattro-nicaragua-toro",
+      "file": "cigar-aged-room-quattro-nicaragua-toro.svg"
+    },
+    {
+      "id": "aging-room-small-batch-m356-toro",
+      "file": "cigar-aging-room-small-batch-m356-toro.svg"
+    },
+    {
+      "id": "diamond-crown-maximus-no5",
+      "file": "cigar-diamond-crown-maximus-no5.svg"
+    },
+    {
+      "id": "camacho-ecuador-toro",
+      "file": "cigar-camacho-ecuador-toro.svg"
+    },
+    {
+      "id": "tatuaje-havana-vi-toro",
+      "file": "cigar-tatuaje-havana-vi-toro.svg"
+    },
+    {
+      "id": "tatuaje-black-toro",
+      "file": "cigar-tatuaje-black-toro.svg"
+    },
+    {
+      "id": "ep-carrillo-encore-celestial-toro",
+      "file": "cigar-ep-carrillo-encore-celestial-toro.svg"
+    },
+    {
+      "id": "ep-carrillo-pledge-prequel-toro",
+      "file": "cigar-ep-carrillo-pledge-prequel-toro.svg"
+    },
+    {
+      "id": "warped-flor-del-valle-toro",
+      "file": "cigar-warped-flor-del-valle-toro.svg"
+    },
+    {
+      "id": "southern-draw-jacobs-ladder-toro",
+      "file": "cigar-southern-draw-jacobs-ladder-toro.svg"
+    },
+    {
+      "id": "southern-draw-firethorn-toro",
+      "file": "cigar-southern-draw-firethorn-toro.svg"
+    },
+    {
+      "id": "illusione-mk-ultra-toro",
+      "file": "cigar-illusione-mk-ultra-toro.svg"
+    },
+    {
+      "id": "illusione-888-toro",
+      "file": "cigar-illusione-888-toro.svg"
+    },
+    {
+      "id": "protocol-probable-cause-toro",
+      "file": "cigar-protocol-probable-cause-toro.svg"
+    },
+    {
+      "id": "kristoff-ligero-criollo-toro",
+      "file": "cigar-kristoff-ligero-criollo-toro.svg"
+    },
+    {
+      "id": "perdomo-habano-bourbon-barrel-toro",
+      "file": "cigar-perdomo-habano-bourbon-barrel-toro.svg"
+    },
+    {
+      "id": "perdomo-esx-b-toro",
+      "file": "cigar-perdomo-esx-b-toro.svg"
+    },
+    {
+      "id": "davidoff-escurio-robusto",
+      "file": "cigar-davidoff-escurio-robusto.svg"
+    },
+    {
+      "id": "davidoff-primeros-dominican-toro",
+      "file": "cigar-davidoff-primeros-dominican-toro.svg"
+    },
+    {
+      "id": "espinosa-601-orange-label-toro",
+      "file": "cigar-espinosa-601-orange-label-toro.svg"
+    },
+    {
+      "id": "espinosa-las-6-provincias-toro",
+      "file": "cigar-espinosa-las-6-provincias-toro.svg"
+    },
+    {
+      "id": "crowned-heads-le-careme-toro",
+      "file": "cigar-crowned-heads-le-careme-toro.svg"
+    },
+    {
+      "id": "crowned-heads-luminosa-toro",
+      "file": "cigar-crowned-heads-luminosa-toro.svg"
+    },
+    {
+      "id": "aganorsa-leaf-jfr-maduro-toro",
+      "file": "cigar-aganorsa-leaf-jfr-maduro-toro.svg"
+    },
+    {
+      "id": "aganorsa-leaf-guardian-of-farm-toro",
+      "file": "cigar-aganorsa-leaf-guardian-of-farm-toro.svg"
+    },
+    {
+      "id": "foundation-tabernacle-maduro-toro",
+      "file": "cigar-foundation-tabernacle-maduro-toro.svg"
+    },
+    {
+      "id": "quesada-1974-toro",
+      "file": "cigar-quesada-1974-toro.svg"
+    },
+    {
+      "id": "quesada-oktoberfest-toro",
+      "file": "cigar-quesada-oktoberfest-toro.svg"
+    },
+    {
+      "id": "lfd-coronado-toro",
+      "file": "cigar-lfd-coronado-toro.svg"
+    },
+    {
+      "id": "lfd-air-bender-toro",
+      "file": "cigar-lfd-air-bender-toro.svg"
+    },
+    {
+      "id": "plasencia-reserva-original-toro",
+      "file": "cigar-plasencia-reserva-original-toro.svg"
+    },
+    {
+      "id": "plasencia-cosecha-146-toro",
+      "file": "cigar-plasencia-cosecha-146-toro.svg"
+    },
+    {
+      "id": "romeo-y-julieta-1875-toro",
+      "file": "cigar-romeo-y-julieta-1875-toro.svg"
+    },
+    {
+      "id": "aj-fernandez-new-world-connecticut-toro",
+      "file": "cigar-aj-fernandez-new-world-connecticut-toro.svg"
+    },
+    {
+      "id": "aj-fernandez-bellas-artes-toro",
+      "file": "cigar-aj-fernandez-bellas-artes-toro.svg"
+    },
+    {
+      "id": "dunbarton-sobremesa-brulée-toro",
+      "file": "cigar-dunbarton-sobremesa-brulée-toro.svg"
+    },
+    {
+      "id": "dunbarton-sin-compromiso-toro",
+      "file": "cigar-dunbarton-sin-compromiso-toro.svg"
+    },
+    {
+      "id": "herrera-esteli-habano-toro",
+      "file": "cigar-herrera-esteli-habano-toro.svg"
+    },
+    {
+      "id": "herrera-esteli-norteno-toro",
+      "file": "cigar-herrera-esteli-norteno-toro.svg"
+    },
+    {
+      "id": "protocol-blue-line-toro",
+      "file": "cigar-protocol-blue-line-toro.svg"
+    },
+    {
+      "id": "protocol-forgotten-soldier-toro",
+      "file": "cigar-protocol-forgotten-soldier-toro.svg"
+    },
+    {
+      "id": "epernay-illusione-robusto",
+      "file": "cigar-epernay-illusione-robusto.svg"
+    },
+    {
+      "id": "acid-kuba-grande",
+      "file": "cigar-acid-kuba-grande.svg"
+    },
+    {
+      "id": "cavalier-geneve-white-series-ii-robusto",
+      "file": "cigar-cavalier-geneve-white-series-ii-robusto.svg"
+    },
+    {
+      "id": "cavalier-geneve-black-series-ii-robusto",
+      "file": "cigar-cavalier-geneve-black-series-ii-robusto.svg"
+    },
+    {
+      "id": "la-barba-red-robusto",
+      "file": "cigar-la-barba-red-robusto.svg"
+    },
+    {
+      "id": "la-barba-ricochet-robusto",
+      "file": "cigar-la-barba-ricochet-robusto.svg"
+    },
+    {
+      "id": "rojas-unfinished-business-robusto",
+      "file": "cigar-rojas-unfinished-business-robusto.svg"
+    },
+    {
+      "id": "blackbird-superb-robusto",
+      "file": "cigar-blackbird-superb-robusto.svg"
+    },
+    {
+      "id": "stillwell-star-no-1",
+      "file": "cigar-stillwell-star-no-1.svg"
+    },
+    {
+      "id": "ventura-archetype-american-hero",
+      "file": "cigar-ventura-archetype-american-hero.svg"
+    },
+    {
+      "id": "ventura-case-study-no-13",
+      "file": "cigar-ventura-case-study-no-13.svg"
+    },
+    {
+      "id": "umbagog-dunbarton",
+      "file": "cigar-umbagog-dunbarton.svg"
+    },
+    {
+      "id": "aging-room-quattro-nicaragua-maestro",
+      "file": "cigar-aging-room-quattro-nicaragua-maestro.svg"
+    },
+    {
+      "id": "aging-room-bin-no-1-corona",
+      "file": "cigar-aging-room-bin-no-1-corona.svg"
+    },
+    {
+      "id": "espinosa-601-la-bomba-warhead",
+      "file": "cigar-espinosa-601-la-bomba-warhead.svg"
+    },
+    {
+      "id": "espinosa-laranja-reserva-corona",
+      "file": "cigar-espinosa-laranja-reserva-corona.svg"
+    },
+    {
+      "id": "black-label-porcelain-god-robusto",
+      "file": "cigar-black-label-porcelain-god-robusto.svg"
+    },
+    {
+      "id": "black-label-last-rites-robusto",
+      "file": "cigar-black-label-last-rites-robusto.svg"
+    },
+    {
+      "id": "caldwell-blind-mans-bluff-connecticut",
+      "file": "cigar-caldwell-blind-mans-bluff-connecticut.svg"
+    },
+    {
+      "id": "caldwell-all-out-kings",
+      "file": "cigar-caldwell-all-out-kings.svg"
+    },
+    {
+      "id": "crux-bull-bear-toro",
+      "file": "cigar-crux-bull-bear-toro.svg"
+    },
+    {
+      "id": "crux-epicure-toro",
+      "file": "cigar-crux-epicure-toro.svg"
+    },
+    {
+      "id": "crux-guild-corona",
+      "file": "cigar-crux-guild-corona.svg"
+    },
+    {
+      "id": "viaje-honey-hand-grenades",
+      "file": "cigar-viaje-honey-hand-grenades.svg"
+    },
+    {
+      "id": "viaje-skull-bones-el-catrin",
+      "file": "cigar-viaje-skull-bones-el-catrin.svg"
+    },
+    {
+      "id": "liga-privada-no-9-coronet",
+      "file": "cigar-liga-privada-no-9-coronet.svg"
+    },
+    {
+      "id": "drew-estate-herrera-esteli-miami-robusto",
+      "file": "cigar-drew-estate-herrera-esteli-miami-robusto.svg"
+    },
+    {
+      "id": "tatuaje-havana-vi-robusto-extra",
+      "file": "cigar-tatuaje-havana-vi-robusto-extra.svg"
+    },
+    {
+      "id": "my-father-la-opulencia-robusto",
+      "file": "cigar-my-father-la-opulencia-robusto.svg"
+    },
+    {
+      "id": "perdomo-craft-bourbon-barrel-aged-toro",
+      "file": "cigar-perdomo-craft-bourbon-barrel-aged-toro.svg"
+    },
+    {
+      "id": "hvc-hot-cake-robusto",
+      "file": "cigar-hvc-hot-cake-robusto.svg"
+    },
+    {
+      "id": "mombacho-clasico-robusto",
+      "file": "cigar-mombacho-clasico-robusto.svg"
+    },
+    {
+      "id": "cohiba-siglo-i",
+      "file": "cigar-cohiba-siglo-i.svg"
+    },
+    {
+      "id": "cohiba-siglo-ii",
+      "file": "cigar-cohiba-siglo-ii.svg"
+    },
+    {
+      "id": "cohiba-siglo-iii",
+      "file": "cigar-cohiba-siglo-iii.svg"
+    },
+    {
+      "id": "cohiba-siglo-iv",
+      "file": "cigar-cohiba-siglo-iv.svg"
+    },
+    {
+      "id": "cohiba-siglo-v",
+      "file": "cigar-cohiba-siglo-v.svg"
+    },
+    {
+      "id": "cohiba-coronas-especiales",
+      "file": "cigar-cohiba-coronas-especiales.svg"
+    },
+    {
+      "id": "cohiba-behike-bhk-54",
+      "file": "cigar-cohiba-behike-bhk-54.svg"
+    },
+    {
+      "id": "cohiba-behike-bhk-56",
+      "file": "cigar-cohiba-behike-bhk-56.svg"
+    },
+    {
+      "id": "cohiba-short",
+      "file": "cigar-cohiba-short.svg"
+    },
+    {
+      "id": "cohiba-exquisitos",
+      "file": "cigar-cohiba-exquisitos.svg"
+    },
+    {
+      "id": "cohiba-secretos",
+      "file": "cigar-cohiba-secretos.svg"
+    },
+    {
+      "id": "cohiba-panetelas",
+      "file": "cigar-cohiba-panetelas.svg"
+    },
+    {
+      "id": "cohiba-sublime",
+      "file": "cigar-cohiba-sublime.svg"
+    },
+    {
+      "id": "cohiba-club",
+      "file": "cigar-cohiba-club.svg"
+    },
+    {
+      "id": "cohiba-robustos-supremos",
+      "file": "cigar-cohiba-robustos-supremos.svg"
+    },
+    {
+      "id": "cohiba-coronas-el",
+      "file": "cigar-cohiba-coronas-el.svg"
+    },
+    {
+      "id": "cohiba-anejados",
+      "file": "cigar-cohiba-anejados.svg"
+    },
+    {
+      "id": "cohiba-gran-reserva",
+      "file": "cigar-cohiba-gran-reserva.svg"
+    },
+    {
+      "id": "partagas-serie-d-no1",
+      "file": "cigar-partagas-serie-d-no1.svg"
+    },
+    {
+      "id": "partagas-serie-d-no2",
+      "file": "cigar-partagas-serie-d-no2.svg"
+    },
+    {
+      "id": "partagas-serie-d-no5",
+      "file": "cigar-partagas-serie-d-no5.svg"
+    },
+    {
+      "id": "partagas-serie-e-no2",
+      "file": "cigar-partagas-serie-e-no2.svg"
+    },
+    {
+      "id": "partagas-aristocratas",
+      "file": "cigar-partagas-aristocratas.svg"
+    },
+    {
+      "id": "partagas-presidente",
+      "file": "cigar-partagas-presidente.svg"
+    },
+    {
+      "id": "partagas-coronas-gordas",
+      "file": "cigar-partagas-coronas-gordas.svg"
+    },
+    {
+      "id": "partagas-salomones",
+      "file": "cigar-partagas-salomones.svg"
+    },
+    {
+      "id": "partagas-coronas-junior",
+      "file": "cigar-partagas-coronas-junior.svg"
+    },
+    {
+      "id": "partagas-charlotte",
+      "file": "cigar-partagas-charlotte.svg"
+    },
+    {
+      "id": "partagas-super-partagas",
+      "file": "cigar-partagas-super-partagas.svg"
+    },
+    {
+      "id": "partagas-churchills",
+      "file": "cigar-partagas-churchills.svg"
+    },
+    {
+      "id": "partagas-habaneros",
+      "file": "cigar-partagas-habaneros.svg"
+    },
+    {
+      "id": "partagas-serie-p-no1",
+      "file": "cigar-partagas-serie-p-no1.svg"
+    },
+    {
+      "id": "partagas-linea-maestros-churchill",
+      "file": "cigar-partagas-linea-maestros-churchill.svg"
+    },
+    {
+      "id": "partagas-culebras",
+      "file": "cigar-partagas-culebras.svg"
+    },
+    {
+      "id": "partagas-ramon-allones-8",
+      "file": "cigar-partagas-ramon-allones-8.svg"
+    },
+    {
+      "id": "bolivar-coronas-gigantes",
+      "file": "cigar-bolivar-coronas-gigantes.svg"
+    },
+    {
+      "id": "bolivar-palmas-extra",
+      "file": "cigar-bolivar-palmas-extra.svg"
+    },
+    {
+      "id": "bolivar-gold-medal",
+      "file": "cigar-bolivar-gold-medal.svg"
+    },
+    {
+      "id": "bolivar-inmensas",
+      "file": "cigar-bolivar-inmensas.svg"
+    },
+    {
+      "id": "bolivar-tubos-no3",
+      "file": "cigar-bolivar-tubos-no3.svg"
+    },
+    {
+      "id": "bolivar-coronas-extra",
+      "file": "cigar-bolivar-coronas-extra.svg"
+    },
+    {
+      "id": "bolivar-petit-bouquets",
+      "file": "cigar-bolivar-petit-bouquets.svg"
+    },
+    {
+      "id": "bolivar-regentes",
+      "file": "cigar-bolivar-regentes.svg"
+    },
+    {
+      "id": "bolivar-champagnes",
+      "file": "cigar-bolivar-champagnes.svg"
+    },
+    {
+      "id": "bolivar-short-churchills",
+      "file": "cigar-bolivar-short-churchills.svg"
+    },
+    {
+      "id": "bolivar-coronas",
+      "file": "cigar-bolivar-coronas.svg"
+    },
+    {
+      "id": "bolivar-royal-coronas-el",
+      "file": "cigar-bolivar-royal-coronas-el.svg"
+    },
+    {
+      "id": "bolivar-poderosos",
+      "file": "cigar-bolivar-poderosos.svg"
+    },
+    {
+      "id": "bolivar-gold-medal-reserva",
+      "file": "cigar-bolivar-gold-medal-reserva.svg"
+    },
+    {
+      "id": "bolivar-inmensas-er",
+      "file": "cigar-bolivar-inmensas-er.svg"
+    },
+    {
+      "id": "h-upmann-petit-corona",
+      "file": "cigar-h-upmann-petit-corona.svg"
+    },
+    {
+      "id": "h-upmann-connoisseur-no-2",
+      "file": "cigar-h-upmann-connoisseur-no-2.svg"
+    },
+    {
+      "id": "h-upmann-lonsdale",
+      "file": "cigar-h-upmann-lonsdale.svg"
+    },
+    {
+      "id": "h-upmann-majestic",
+      "file": "cigar-h-upmann-majestic.svg"
+    },
+    {
+      "id": "h-upmann-robusto",
+      "file": "cigar-h-upmann-robusto.svg"
+    },
+    {
+      "id": "h-upmann-coronas",
+      "file": "cigar-h-upmann-coronas.svg"
+    },
+    {
+      "id": "h-upmann-epicures",
+      "file": "cigar-h-upmann-epicures.svg"
+    },
+    {
+      "id": "h-upmann-short-corona",
+      "file": "cigar-h-upmann-short-corona.svg"
+    },
+    {
+      "id": "h-upmann-palmas-extra",
+      "file": "cigar-h-upmann-palmas-extra.svg"
+    },
+    {
+      "id": "h-upmann-magnum-54",
+      "file": "cigar-h-upmann-magnum-54.svg"
+    },
+    {
+      "id": "h-upmann-mag-50",
+      "file": "cigar-h-upmann-mag-50.svg"
+    },
+    {
+      "id": "h-upmann-robusto-anejado",
+      "file": "cigar-h-upmann-robusto-anejado.svg"
+    },
+    {
+      "id": "h-upmann-connoisseur-no-1-el",
+      "file": "cigar-h-upmann-connoisseur-no-1-el.svg"
+    },
+    {
+      "id": "h-upmann-petit-upmanns",
+      "file": "cigar-h-upmann-petit-upmanns.svg"
+    },
+    {
+      "id": "h-upmann-regios",
+      "file": "cigar-h-upmann-regios.svg"
+    },
+    {
+      "id": "h-upmann-skinny-dude",
+      "file": "cigar-h-upmann-skinny-dude.svg"
+    },
+    {
+      "id": "romeo-y-julieta-no-1",
+      "file": "cigar-romeo-y-julieta-no-1.svg"
+    },
+    {
+      "id": "romeo-y-julieta-no-3",
+      "file": "cigar-romeo-y-julieta-no-3.svg"
+    },
+    {
+      "id": "romeo-y-julieta-hermosos-no-4",
+      "file": "cigar-romeo-y-julieta-hermosos-no-4.svg"
+    },
+    {
+      "id": "romeo-y-julieta-cedros-de-luxe-no-1",
+      "file": "cigar-romeo-y-julieta-cedros-de-luxe-no-1.svg"
+    },
+    {
+      "id": "romeo-y-julieta-cedros-de-luxe-no-2",
+      "file": "cigar-romeo-y-julieta-cedros-de-luxe-no-2.svg"
+    },
+    {
+      "id": "romeo-y-julieta-cedros-de-luxe-no-3",
+      "file": "cigar-romeo-y-julieta-cedros-de-luxe-no-3.svg"
+    },
+    {
+      "id": "romeo-y-julieta-exhibicion-no-4",
+      "file": "cigar-romeo-y-julieta-exhibicion-no-4.svg"
+    },
+    {
+      "id": "romeo-y-julieta-exhibicion-no-3",
+      "file": "cigar-romeo-y-julieta-exhibicion-no-3.svg"
+    },
+    {
+      "id": "romeo-y-julieta-belvederes",
+      "file": "cigar-romeo-y-julieta-belvederes.svg"
+    },
+    {
+      "id": "romeo-y-julieta-club-kings",
+      "file": "cigar-romeo-y-julieta-club-kings.svg"
+    },
+    {
+      "id": "romeo-y-julieta-coronitas",
+      "file": "cigar-romeo-y-julieta-coronitas.svg"
+    },
+    {
+      "id": "romeo-y-julieta-petit-julietas",
+      "file": "cigar-romeo-y-julieta-petit-julietas.svg"
+    },
+    {
+      "id": "romeo-y-julieta-churchills-reserva",
+      "file": "cigar-romeo-y-julieta-churchills-reserva.svg"
+    },
+    {
+      "id": "romeo-y-julieta-linea-de-oro-no-1",
+      "file": "cigar-romeo-y-julieta-linea-de-oro-no-1.svg"
+    },
+    {
+      "id": "romeo-y-julieta-puritos",
+      "file": "cigar-romeo-y-julieta-puritos.svg"
+    },
+    {
+      "id": "romeo-y-julieta-romeos-extras",
+      "file": "cigar-romeo-y-julieta-romeos-extras.svg"
+    },
+    {
+      "id": "romeo-y-julieta-no-2",
+      "file": "cigar-romeo-y-julieta-no-2.svg"
+    },
+    {
+      "id": "montecristo-no-3",
+      "file": "cigar-montecristo-no-3.svg"
+    },
+    {
+      "id": "montecristo-joyitas",
+      "file": "cigar-montecristo-joyitas.svg"
+    },
+    {
+      "id": "montecristo-tubos-no-1",
+      "file": "cigar-montecristo-tubos-no-1.svg"
+    },
+    {
+      "id": "montecristo-tubos-no-2",
+      "file": "cigar-montecristo-tubos-no-2.svg"
+    },
+    {
+      "id": "montecristo-tubos-no-3",
+      "file": "cigar-montecristo-tubos-no-3.svg"
+    },
+    {
+      "id": "montecristo-linea-1935-leyenda",
+      "file": "cigar-montecristo-linea-1935-leyenda.svg"
+    },
+    {
+      "id": "montecristo-linea-1935-dumas",
+      "file": "cigar-montecristo-linea-1935-dumas.svg"
+    },
+    {
+      "id": "montecristo-linea-1935-malraux",
+      "file": "cigar-montecristo-linea-1935-malraux.svg"
+    },
+    {
+      "id": "montecristo-puritos",
+      "file": "cigar-montecristo-puritos.svg"
+    },
+    {
+      "id": "montecristo-especial-no-1",
+      "file": "cigar-montecristo-especial-no-1.svg"
+    },
+    {
+      "id": "montecristo-regalos",
+      "file": "cigar-montecristo-regalos.svg"
+    },
+    {
+      "id": "montecristo-coronas-junior",
+      "file": "cigar-montecristo-coronas-junior.svg"
+    },
+    {
+      "id": "montecristo-shorts",
+      "file": "cigar-montecristo-shorts.svg"
+    },
+    {
+      "id": "montecristo-edmundo-el",
+      "file": "cigar-montecristo-edmundo-el.svg"
+    },
+    {
+      "id": "montecristo-open-no-3",
+      "file": "cigar-montecristo-open-no-3.svg"
+    },
+    {
+      "id": "montecristo-open-no-4",
+      "file": "cigar-montecristo-open-no-4.svg"
+    },
+    {
+      "id": "montecristo-linea-1935-angeles",
+      "file": "cigar-montecristo-linea-1935-angeles.svg"
+    },
+    {
+      "id": "trinidad-coloniales",
+      "file": "cigar-trinidad-coloniales.svg"
+    },
+    {
+      "id": "trinidad-robustos-t",
+      "file": "cigar-trinidad-robustos-t.svg"
+    },
+    {
+      "id": "trinidad-shorts",
+      "file": "cigar-trinidad-shorts.svg"
+    },
+    {
+      "id": "trinidad-topes",
+      "file": "cigar-trinidad-topes.svg"
+    },
+    {
+      "id": "hoyo-de-monterrey-epicure-no1",
+      "file": "cigar-hoyo-de-monterrey-epicure-no1.svg"
+    },
+    {
+      "id": "hoyo-de-monterrey-palmas-extra",
+      "file": "cigar-hoyo-de-monterrey-palmas-extra.svg"
+    },
+    {
+      "id": "hoyo-de-monterrey-no4",
+      "file": "cigar-hoyo-de-monterrey-no4.svg"
+    },
+    {
+      "id": "hoyo-le-hoyo-des-dieux",
+      "file": "cigar-hoyo-le-hoyo-des-dieux.svg"
+    },
+    {
+      "id": "fonseca-kdt-cadetes",
+      "file": "cigar-fonseca-kdt-cadetes.svg"
+    },
+    {
+      "id": "fonseca-delicias",
+      "file": "cigar-fonseca-delicias.svg"
+    },
+    {
+      "id": "fonseca-invictos",
+      "file": "cigar-fonseca-invictos.svg"
+    },
+    {
+      "id": "san-cristobal-el-castillo",
+      "file": "cigar-san-cristobal-el-castillo.svg"
+    },
+    {
+      "id": "san-cristobal-la-punta",
+      "file": "cigar-san-cristobal-la-punta.svg"
+    },
+    {
+      "id": "san-cristobal-quinteto",
+      "file": "cigar-san-cristobal-quinteto.svg"
+    },
+    {
+      "id": "el-rey-del-mundo-grandes-de-espana",
+      "file": "cigar-el-rey-del-mundo-grandes-de-espana.svg"
+    },
+    {
+      "id": "el-rey-del-mundo-coronas-de-luxe",
+      "file": "cigar-el-rey-del-mundo-coronas-de-luxe.svg"
+    },
+    {
+      "id": "el-rey-del-mundo-lunch-club",
+      "file": "cigar-el-rey-del-mundo-lunch-club.svg"
+    },
+    {
+      "id": "vegas-robaina-clasicos",
+      "file": "cigar-vegas-robaina-clasicos.svg"
+    },
+    {
+      "id": "vegas-robaina-senores",
+      "file": "cigar-vegas-robaina-senores.svg"
+    },
+    {
+      "id": "cuaba-exclusivos",
+      "file": "cigar-cuaba-exclusivos.svg"
+    },
+    {
+      "id": "cuaba-generosos",
+      "file": "cigar-cuaba-generosos.svg"
+    },
+    {
+      "id": "cuaba-salomones",
+      "file": "cigar-cuaba-salomones.svg"
+    },
+    {
+      "id": "vegueros-tainos",
+      "file": "cigar-vegueros-tainos.svg"
+    },
+    {
+      "id": "vegueros-especiales-no1",
+      "file": "cigar-vegueros-especiales-no1.svg"
+    },
+    {
+      "id": "vegueros-entretiempos",
+      "file": "cigar-vegueros-entretiempos.svg"
+    },
+    {
+      "id": "juan-lopez-seleccion-suprema",
+      "file": "cigar-juan-lopez-seleccion-suprema.svg"
+    },
+    {
+      "id": "juan-lopez-coronas-de-lomo",
+      "file": "cigar-juan-lopez-coronas-de-lomo.svg"
+    },
+    {
+      "id": "ramon-allones-club-allones",
+      "file": "cigar-ramon-allones-club-allones.svg"
+    },
+    {
+      "id": "ramon-allones-ramonitas",
+      "file": "cigar-ramon-allones-ramonitas.svg"
+    },
+    {
+      "id": "ramon-allones-phoenixes",
+      "file": "cigar-ramon-allones-phoenixes.svg"
+    },
+    {
+      "id": "sancho-panza-coronas",
+      "file": "cigar-sancho-panza-coronas.svg"
+    },
+    {
+      "id": "sancho-panza-molinos",
+      "file": "cigar-sancho-panza-molinos.svg"
+    },
+    {
+      "id": "sancho-panza-bachilleres",
+      "file": "cigar-sancho-panza-bachilleres.svg"
+    },
+    {
+      "id": "quai-dorsay-no50",
+      "file": "cigar-quai-dorsay-no50.svg"
+    },
+    {
+      "id": "quai-dorsay-senadores",
+      "file": "cigar-quai-dorsay-senadores.svg"
+    },
+    {
+      "id": "quai-dorsay-no54",
+      "file": "cigar-quai-dorsay-no54.svg"
+    },
+    {
+      "id": "rafael-gonzalez-coronas-extra",
+      "file": "cigar-rafael-gonzalez-coronas-extra.svg"
+    },
+    {
+      "id": "rafael-gonzalez-lonsdale",
+      "file": "cigar-rafael-gonzalez-lonsdale.svg"
+    },
+    {
+      "id": "rafael-gonzalez-panetela-extras",
+      "file": "cigar-rafael-gonzalez-panetela-extras.svg"
+    },
+    {
+      "id": "por-larranaga-montecarlos",
+      "file": "cigar-por-larranaga-montecarlos.svg"
+    },
+    {
+      "id": "por-larranaga-picadores",
+      "file": "cigar-por-larranaga-picadores.svg"
+    },
+    {
+      "id": "por-larranaga-galanes",
+      "file": "cigar-por-larranaga-galanes.svg"
+    },
+    {
+      "id": "diplomaticos-no3",
+      "file": "cigar-diplomaticos-no3.svg"
+    },
+    {
+      "id": "diplomaticos-no4",
+      "file": "cigar-diplomaticos-no4.svg"
+    },
+    {
+      "id": "diplomaticos-no5",
+      "file": "cigar-diplomaticos-no5.svg"
+    },
+    {
+      "id": "la-flor-de-cano-short-churchill",
+      "file": "cigar-la-flor-de-cano-short-churchill.svg"
+    },
+    {
+      "id": "la-flor-de-cano-preferidos",
+      "file": "cigar-la-flor-de-cano-preferidos.svg"
+    },
+    {
+      "id": "saint-luis-rey-du-connoisseur",
+      "file": "cigar-saint-luis-rey-du-connoisseur.svg"
+    },
+    {
+      "id": "saint-luis-rey-regios",
+      "file": "cigar-saint-luis-rey-regios.svg"
+    },
+    {
+      "id": "quintero-no2",
+      "file": "cigar-quintero-no2.svg"
+    },
+    {
+      "id": "quintero-panetelas",
+      "file": "cigar-quintero-panetelas.svg"
+    },
+    {
+      "id": "jose-l-piedra-conservas",
+      "file": "cigar-jose-l-piedra-conservas.svg"
+    },
+    {
+      "id": "jose-l-piedra-cazadores",
+      "file": "cigar-jose-l-piedra-cazadores.svg"
+    },
+    {
+      "id": "punch-corona",
+      "file": "cigar-punch-corona.svg"
+    },
+    {
+      "id": "punch-superiores",
+      "file": "cigar-punch-superiores.svg"
+    },
+    {
+      "id": "carlos-torano-exodus-gold-robusto",
+      "file": "cigar-carlos-torano-exodus-gold-robusto.svg"
+    },
+    {
+      "id": "carlos-torano-cinco-decadas-magistral",
+      "file": "cigar-carlos-torano-cinco-decadas-magistral.svg"
+    },
+    {
+      "id": "carlos-torano-reserva-selecta-robusto",
+      "file": "cigar-carlos-torano-reserva-selecta-robusto.svg"
+    },
+    {
+      "id": "carlos-torano-exodus-gold-churchill",
+      "file": "cigar-carlos-torano-exodus-gold-churchill.svg"
+    },
+    {
+      "id": "carlos-torano-vault-a040",
+      "file": "cigar-carlos-torano-vault-a040.svg"
+    },
+    {
+      "id": "carlos-torano-masters-reserve-robusto",
+      "file": "cigar-carlos-torano-masters-reserve-robusto.svg"
+    },
+    {
+      "id": "carlos-torano-exodus-fifty-years-toro",
+      "file": "cigar-carlos-torano-exodus-fifty-years-toro.svg"
+    },
+    {
+      "id": "cain-f-550",
+      "file": "cigar-cain-f-550.svg"
+    },
+    {
+      "id": "cain-f-660",
+      "file": "cigar-cain-f-660.svg"
+    },
+    {
+      "id": "cain-straight-ligero-550",
+      "file": "cigar-cain-straight-ligero-550.svg"
+    },
+    {
+      "id": "cain-straight-ligero-660",
+      "file": "cigar-cain-straight-ligero-660.svg"
+    },
+    {
+      "id": "cain-fog-robusto",
+      "file": "cigar-cain-fog-robusto.svg"
+    },
+    {
+      "id": "cain-fog-550",
+      "file": "cigar-cain-fog-550.svg"
+    },
+    {
+      "id": "la-aroma-de-cuba-bendicion-robusto",
+      "file": "cigar-la-aroma-de-cuba-bendicion-robusto.svg"
+    },
+    {
+      "id": "la-aroma-de-cuba-monarch-robusto",
+      "file": "cigar-la-aroma-de-cuba-monarch-robusto.svg"
+    },
+    {
+      "id": "la-aroma-de-cuba-natura-robusto",
+      "file": "cigar-la-aroma-de-cuba-natura-robusto.svg"
+    },
+    {
+      "id": "la-aroma-de-cuba-mi-amor-valentino",
+      "file": "cigar-la-aroma-de-cuba-mi-amor-valentino.svg"
+    },
+    {
+      "id": "la-aroma-de-cuba-edicion-especial-no2",
+      "file": "cigar-la-aroma-de-cuba-edicion-especial-no2.svg"
+    },
+    {
+      "id": "la-aroma-de-cuba-primitivo-robusto",
+      "file": "cigar-la-aroma-de-cuba-primitivo-robusto.svg"
+    },
+    {
+      "id": "la-gloria-cubana-serie-r-no6",
+      "file": "cigar-la-gloria-cubana-serie-r-no6.svg"
+    },
+    {
+      "id": "la-gloria-cubana-charlemagne-maduro",
+      "file": "cigar-la-gloria-cubana-charlemagne-maduro.svg"
+    },
+    {
+      "id": "la-gloria-cubana-wavell-robusto",
+      "file": "cigar-la-gloria-cubana-wavell-robusto.svg"
+    },
+    {
+      "id": "la-gloria-cubana-serie-l-torpedo",
+      "file": "cigar-la-gloria-cubana-serie-l-torpedo.svg"
+    },
+    {
+      "id": "la-gloria-cubana-natural-robusto",
+      "file": "cigar-la-gloria-cubana-natural-robusto.svg"
+    },
+    {
+      "id": "la-gloria-cubana-glorias-extras",
+      "file": "cigar-la-gloria-cubana-glorias-extras.svg"
+    },
+    {
+      "id": "henry-clay-brevas-robusto",
+      "file": "cigar-henry-clay-brevas-robusto.svg"
+    },
+    {
+      "id": "henry-clay-stalk-cut-torpedo",
+      "file": "cigar-henry-clay-stalk-cut-torpedo.svg"
+    },
+    {
+      "id": "henry-clay-brevas-conserva-toro",
+      "file": "cigar-henry-clay-brevas-conserva-toro.svg"
+    },
+    {
+      "id": "henry-clay-war-hawk-gordo",
+      "file": "cigar-henry-clay-war-hawk-gordo.svg"
+    },
+    {
+      "id": "henry-clay-stalk-cut-gordo",
+      "file": "cigar-henry-clay-stalk-cut-gordo.svg"
+    },
+    {
+      "id": "man-o-war-damnation-robusto",
+      "file": "cigar-man-o-war-damnation-robusto.svg"
+    },
+    {
+      "id": "man-o-war-ruination-no1-toro",
+      "file": "cigar-man-o-war-ruination-no1-toro.svg"
+    },
+    {
+      "id": "man-o-war-virtue-connecticut",
+      "file": "cigar-man-o-war-virtue-connecticut.svg"
+    },
+    {
+      "id": "man-o-war-puro-authentico-toro",
+      "file": "cigar-man-o-war-puro-authentico-toro.svg"
+    },
+    {
+      "id": "man-o-war-armada-toro",
+      "file": "cigar-man-o-war-armada-toro.svg"
+    },
+    {
+      "id": "man-o-war-original-robusto",
+      "file": "cigar-man-o-war-original-robusto.svg"
+    },
+    {
+      "id": "gurkha-his-majestys-reserve",
+      "file": "cigar-gurkha-his-majestys-reserve.svg"
+    },
+    {
+      "id": "gurkha-war-lord-robusto",
+      "file": "cigar-gurkha-war-lord-robusto.svg"
+    },
+    {
+      "id": "gurkha-koi-robusto",
+      "file": "cigar-gurkha-koi-robusto.svg"
+    },
+    {
+      "id": "gurkha-seduction-robusto",
+      "file": "cigar-gurkha-seduction-robusto.svg"
+    },
+    {
+      "id": "gurkha-cellar-reserve-solara",
+      "file": "cigar-gurkha-cellar-reserve-solara.svg"
+    },
+    {
+      "id": "gurkha-cellar-reserve-limitada",
+      "file": "cigar-gurkha-cellar-reserve-limitada.svg"
+    },
+    {
+      "id": "gurkha-marquesa-robusto",
+      "file": "cigar-gurkha-marquesa-robusto.svg"
+    },
+    {
+      "id": "arturo-fuente-rosado-sungrown-robusto",
+      "file": "cigar-arturo-fuente-rosado-sungrown-robusto.svg"
+    },
+    {
+      "id": "arturo-fuente-rosado-sungrown-toro",
+      "file": "cigar-arturo-fuente-rosado-sungrown-toro.svg"
+    },
+    {
+      "id": "arturo-fuente-anejo-no46",
+      "file": "cigar-arturo-fuente-anejo-no46.svg"
+    },
+    {
+      "id": "arturo-fuente-anejo-no50",
+      "file": "cigar-arturo-fuente-anejo-no50.svg"
+    },
+    {
+      "id": "arturo-fuente-anejo-no58",
+      "file": "cigar-arturo-fuente-anejo-no58.svg"
+    },
+    {
+      "id": "arturo-fuente-excalibur-no1",
+      "file": "cigar-arturo-fuente-excalibur-no1.svg"
+    },
+    {
+      "id": "arturo-fuente-excalibur-no7",
+      "file": "cigar-arturo-fuente-excalibur-no7.svg"
+    },
+    {
+      "id": "arturo-fuente-short-story",
+      "file": "cigar-arturo-fuente-short-story.svg"
+    },
+    {
+      "id": "arturo-fuente-brevas-royale",
+      "file": "cigar-arturo-fuente-brevas-royale.svg"
+    },
+    {
+      "id": "arturo-fuente-curly-head-deluxe",
+      "file": "cigar-arturo-fuente-curly-head-deluxe.svg"
+    },
+    {
+      "id": "arturo-fuente-chateau-fuente-natural",
+      "file": "cigar-arturo-fuente-chateau-fuente-natural.svg"
+    },
+    {
+      "id": "arturo-fuente-rosado-sungrown-magnum",
+      "file": "cigar-arturo-fuente-rosado-sungrown-magnum.svg"
+    },
+    {
+      "id": "avo-classic-no1",
+      "file": "cigar-avo-classic-no1.svg"
+    },
+    {
+      "id": "avo-classic-no5",
+      "file": "cigar-avo-classic-no5.svg"
+    },
+    {
+      "id": "avo-classic-no7",
+      "file": "cigar-avo-classic-no7.svg"
+    },
+    {
+      "id": "avo-classic-belicoso",
+      "file": "cigar-avo-classic-belicoso.svg"
+    },
+    {
+      "id": "avo-syncro-south-america-ritmo",
+      "file": "cigar-avo-syncro-south-america-ritmo.svg"
+    },
+    {
+      "id": "avo-syncro-nicaragua-fogata",
+      "file": "cigar-avo-syncro-nicaragua-fogata.svg"
+    },
+    {
+      "id": "avo-domaine-no10",
+      "file": "cigar-avo-domaine-no10.svg"
+    },
+    {
+      "id": "avo-heritage-robusto",
+      "file": "cigar-avo-heritage-robusto.svg"
+    },
+    {
+      "id": "avo-xo-maestoso",
+      "file": "cigar-avo-xo-maestoso.svg"
+    },
+    {
+      "id": "avo-improvisation-series-short-fill",
+      "file": "cigar-avo-improvisation-series-short-fill.svg"
+    },
+    {
+      "id": "gran-habano-no3-habano-robusto",
+      "file": "cigar-gran-habano-no3-habano-robusto.svg"
+    },
+    {
+      "id": "gran-habano-classic-connecticut-robusto",
+      "file": "cigar-gran-habano-classic-connecticut-robusto.svg"
+    },
+    {
+      "id": "gran-habano-corojo-no5-robusto",
+      "file": "cigar-gran-habano-corojo-no5-robusto.svg"
+    },
+    {
+      "id": "gran-habano-vintage-1997-robusto",
+      "file": "cigar-gran-habano-vintage-1997-robusto.svg"
+    },
+    {
+      "id": "gran-habano-george-rico-signature-robusto",
+      "file": "cigar-gran-habano-george-rico-signature-robusto.svg"
+    },
+    {
+      "id": "gran-habano-blue-in-green-maduro",
+      "file": "cigar-gran-habano-blue-in-green-maduro.svg"
+    },
+    {
+      "id": "gran-habano-tres-reyes-robusto",
+      "file": "cigar-gran-habano-tres-reyes-robusto.svg"
+    },
+    {
+      "id": "gran-habano-passion-maduro-robusto",
+      "file": "cigar-gran-habano-passion-maduro-robusto.svg"
+    },
+    {
+      "id": "nat-sherman-host-selection-university",
+      "file": "cigar-nat-sherman-host-selection-university.svg"
+    },
+    {
+      "id": "nat-sherman-metropolitan-gotham",
+      "file": "cigar-nat-sherman-metropolitan-gotham.svg"
+    },
+    {
+      "id": "nat-sherman-panamerica-robusto",
+      "file": "cigar-nat-sherman-panamerica-robusto.svg"
+    },
+    {
+      "id": "nat-sherman-timeless-prestige-toro",
+      "file": "cigar-nat-sherman-timeless-prestige-toro.svg"
+    },
+    {
+      "id": "nat-sherman-timeless-collection-2000",
+      "file": "cigar-nat-sherman-timeless-collection-2000.svg"
+    },
+    {
+      "id": "nat-sherman-lightning-bolt",
+      "file": "cigar-nat-sherman-lightning-bolt.svg"
+    },
+    {
+      "id": "nat-sherman-metropolitan-maduro-toro",
+      "file": "cigar-nat-sherman-metropolitan-maduro-toro.svg"
+    },
+    {
+      "id": "nat-sherman-host-toro",
+      "file": "cigar-nat-sherman-host-toro.svg"
+    },
+    {
+      "id": "quesada-casa-magna-robusto",
+      "file": "cigar-quesada-casa-magna-robusto.svg"
+    },
+    {
+      "id": "quesada-casa-magna-gordo",
+      "file": "cigar-quesada-casa-magna-gordo.svg"
+    },
+    {
+      "id": "quesada-casa-magna-colorado",
+      "file": "cigar-quesada-casa-magna-colorado.svg"
+    },
+    {
+      "id": "quesada-espana-conchas",
+      "file": "cigar-quesada-espana-conchas.svg"
+    },
+    {
+      "id": "quesada-espana-robusto",
+      "file": "cigar-quesada-espana-robusto.svg"
+    },
+    {
+      "id": "quesada-taino-robusto",
+      "file": "cigar-quesada-taino-robusto.svg"
+    },
+    {
+      "id": "quesada-iberian-robusto",
+      "file": "cigar-quesada-iberian-robusto.svg"
+    },
+    {
+      "id": "quesada-60th-anniversary-toro",
+      "file": "cigar-quesada-60th-anniversary-toro.svg"
+    },
+    {
+      "id": "arturo-fuente-excalibur-epicure",
+      "file": "cigar-arturo-fuente-excalibur-epicure.svg"
+    },
+    {
+      "id": "avo-syncro-nicaragua-robusto-extra",
+      "file": "cigar-avo-syncro-nicaragua-robusto-extra.svg"
+    },
+    {
+      "id": "gran-habano-no5-habano-toro",
+      "file": "cigar-gran-habano-no5-habano-toro.svg"
+    },
+    {
+      "id": "nat-sherman-timeless-prestige-torpedo",
+      "file": "cigar-nat-sherman-timeless-prestige-torpedo.svg"
+    },
+    {
+      "id": "quesada-reserva-privada-toro",
+      "file": "cigar-quesada-reserva-privada-toro.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-antano-ct-toro",
+      "file": "cigar-joya-de-nicaragua-antano-ct-toro.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-antano-ct-robusto",
+      "file": "cigar-joya-de-nicaragua-antano-ct-robusto.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-antano-ct-gordo",
+      "file": "cigar-joya-de-nicaragua-antano-ct-gordo.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-uno-robusto",
+      "file": "cigar-joya-de-nicaragua-uno-robusto.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-numero-dos-robusto",
+      "file": "cigar-joya-de-nicaragua-numero-dos-robusto.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-numero-tres-robusto",
+      "file": "cigar-joya-de-nicaragua-numero-tres-robusto.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-celebracion-no2",
+      "file": "cigar-joya-de-nicaragua-celebracion-no2.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-cuatro-cinco-lancero",
+      "file": "cigar-joya-de-nicaragua-cuatro-cinco-lancero.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-cinco-decadas-edmundo",
+      "file": "cigar-joya-de-nicaragua-cinco-decadas-edmundo.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-clasico-no1",
+      "file": "cigar-joya-de-nicaragua-clasico-no1.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-plasencia-silver",
+      "file": "cigar-joya-de-nicaragua-plasencia-silver.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-antano-1970-corona-gorda",
+      "file": "cigar-joya-de-nicaragua-antano-1970-corona-gorda.svg"
+    },
+    {
+      "id": "ep-carrillo-short-run-2019-robusto",
+      "file": "cigar-ep-carrillo-short-run-2019-robusto.svg"
+    },
+    {
+      "id": "ep-carrillo-short-run-2020-toro",
+      "file": "cigar-ep-carrillo-short-run-2020-toro.svg"
+    },
+    {
+      "id": "ep-carrillo-time-for-fun-toro",
+      "file": "cigar-ep-carrillo-time-for-fun-toro.svg"
+    },
+    {
+      "id": "ep-carrillo-la-historia-ev",
+      "file": "cigar-ep-carrillo-la-historia-ev.svg"
+    },
+    {
+      "id": "ep-carrillo-la-historia-eh",
+      "file": "cigar-ep-carrillo-la-historia-eh.svg"
+    },
+    {
+      "id": "ep-carrillo-dusk-till-dawn-robusto",
+      "file": "cigar-ep-carrillo-dusk-till-dawn-robusto.svg"
+    },
+    {
+      "id": "ep-carrillo-seleccion-oscuro-toro",
+      "file": "cigar-ep-carrillo-seleccion-oscuro-toro.svg"
+    },
+    {
+      "id": "ep-carrillo-inch-maduro-no64",
+      "file": "cigar-ep-carrillo-inch-maduro-no64.svg"
+    },
+    {
+      "id": "ep-carrillo-new-wave-maduro-robusto",
+      "file": "cigar-ep-carrillo-new-wave-maduro-robusto.svg"
+    },
+    {
+      "id": "ep-carrillo-encantos-robusto",
+      "file": "cigar-ep-carrillo-encantos-robusto.svg"
+    },
+    {
+      "id": "camacho-liberty-2019",
+      "file": "cigar-camacho-liberty-2019.svg"
+    },
+    {
+      "id": "camacho-liberty-2020-toro",
+      "file": "cigar-camacho-liberty-2020-toro.svg"
+    },
+    {
+      "id": "camacho-diploma-robusto",
+      "file": "cigar-camacho-diploma-robusto.svg"
+    },
+    {
+      "id": "camacho-coyolar-robusto",
+      "file": "cigar-camacho-coyolar-robusto.svg"
+    },
+    {
+      "id": "camacho-sp-habano-robusto",
+      "file": "cigar-camacho-sp-habano-robusto.svg"
+    },
+    {
+      "id": "camacho-corojo-cameroon-robusto",
+      "file": "cigar-camacho-corojo-cameroon-robusto.svg"
+    },
+    {
+      "id": "camacho-powerband-robusto",
+      "file": "cigar-camacho-powerband-robusto.svg"
+    },
+    {
+      "id": "camacho-triple-maduro-robusto",
+      "file": "cigar-camacho-triple-maduro-robusto.svg"
+    },
+    {
+      "id": "camacho-american-barrel-aged-gordo",
+      "file": "cigar-camacho-american-barrel-aged-gordo.svg"
+    },
+    {
+      "id": "camacho-bravura-robusto",
+      "file": "cigar-camacho-bravura-robusto.svg"
+    },
+    {
+      "id": "camacho-liberty-2021",
+      "file": "cigar-camacho-liberty-2021.svg"
+    },
+    {
+      "id": "camacho-ecuador-churchill",
+      "file": "cigar-camacho-ecuador-churchill.svg"
+    },
+    {
+      "id": "macanudo-cafe-lonsdale",
+      "file": "cigar-macanudo-cafe-lonsdale.svg"
+    },
+    {
+      "id": "macanudo-cafe-baron-de-rothschild",
+      "file": "cigar-macanudo-cafe-baron-de-rothschild.svg"
+    },
+    {
+      "id": "macanudo-cafe-hyde-park",
+      "file": "cigar-macanudo-cafe-hyde-park.svg"
+    },
+    {
+      "id": "macanudo-inspirado-blue-robusto",
+      "file": "cigar-macanudo-inspirado-blue-robusto.svg"
+    },
+    {
+      "id": "macanudo-inspirado-red-robusto",
+      "file": "cigar-macanudo-inspirado-red-robusto.svg"
+    },
+    {
+      "id": "macanudo-inspirado-green-robusto",
+      "file": "cigar-macanudo-inspirado-green-robusto.svg"
+    },
+    {
+      "id": "macanudo-vintage-1993-churchill",
+      "file": "cigar-macanudo-vintage-1993-churchill.svg"
+    },
+    {
+      "id": "macanudo-estate-reserve-robusto",
+      "file": "cigar-macanudo-estate-reserve-robusto.svg"
+    },
+    {
+      "id": "macanudo-inspirado-tubo-robusto",
+      "file": "cigar-macanudo-inspirado-tubo-robusto.svg"
+    },
+    {
+      "id": "macanudo-inspirado-ecuador-robusto",
+      "file": "cigar-macanudo-inspirado-ecuador-robusto.svg"
+    },
+    {
+      "id": "macanudo-cafe-lords",
+      "file": "cigar-macanudo-cafe-lords.svg"
+    },
+    {
+      "id": "macanudo-cafe-claybourne",
+      "file": "cigar-macanudo-cafe-claybourne.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-cinco-decadas-edmundo-toro",
+      "file": "cigar-joya-de-nicaragua-cinco-decadas-edmundo-toro.svg"
+    },
+    {
+      "id": "ep-carrillo-inch-no66",
+      "file": "cigar-ep-carrillo-inch-no66.svg"
+    },
+    {
+      "id": "camacho-powerband-gordo",
+      "file": "cigar-camacho-powerband-gordo.svg"
+    },
+    {
+      "id": "macanudo-cafe-prince-of-wales",
+      "file": "cigar-macanudo-cafe-prince-of-wales.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-antano-1970-robusto",
+      "file": "cigar-joya-de-nicaragua-antano-1970-robusto.svg"
+    },
+    {
+      "id": "camacho-triple-maduro-churchill",
+      "file": "cigar-camacho-triple-maduro-churchill.svg"
+    },
+    {
+      "id": "ep-carrillo-pledge-sojourn-robusto",
+      "file": "cigar-ep-carrillo-pledge-sojourn-robusto.svg"
+    },
+    {
+      "id": "macanudo-inspirado-nicaraguan-robusto",
+      "file": "cigar-macanudo-inspirado-nicaraguan-robusto.svg"
+    },
+    {
+      "id": "camacho-corojo-robusto-extra",
+      "file": "cigar-camacho-corojo-robusto-extra.svg"
+    },
+    {
+      "id": "joya-de-nicaragua-antano-dark-corojo-toro",
+      "file": "cigar-joya-de-nicaragua-antano-dark-corojo-toro.svg"
+    },
+    {
+      "id": "ep-carrillo-elencos-toro",
+      "file": "cigar-ep-carrillo-elencos-toro.svg"
+    },
+    {
+      "id": "black-works-studio-rorschach-robusto",
+      "file": "cigar-black-works-studio-rorschach-robusto.svg"
+    },
+    {
+      "id": "black-works-studio-rorschach-toro",
+      "file": "cigar-black-works-studio-rorschach-toro.svg"
+    },
+    {
+      "id": "black-works-studio-sindustry-robusto",
+      "file": "cigar-black-works-studio-sindustry-robusto.svg"
+    },
+    {
+      "id": "black-works-studio-killer-bee-robusto",
+      "file": "cigar-black-works-studio-killer-bee-robusto.svg"
+    },
+    {
+      "id": "black-works-studio-tears-of-zeus-toro",
+      "file": "cigar-black-works-studio-tears-of-zeus-toro.svg"
+    },
+    {
+      "id": "black-works-studio-sparrow-and-lion-robusto",
+      "file": "cigar-black-works-studio-sparrow-and-lion-robusto.svg"
+    },
+    {
+      "id": "black-works-studio-genesis-robusto",
+      "file": "cigar-black-works-studio-genesis-robusto.svg"
+    },
+    {
+      "id": "black-works-studio-hyena-robusto",
+      "file": "cigar-black-works-studio-hyena-robusto.svg"
+    },
+    {
+      "id": "principle-cigars-accomplice-habano-robusto",
+      "file": "cigar-principle-cigars-accomplice-habano-robusto.svg"
+    },
+    {
+      "id": "principle-cigars-accomplice-connecticut-robusto",
+      "file": "cigar-principle-cigars-accomplice-connecticut-robusto.svg"
+    },
+    {
+      "id": "principle-cigars-el-caballero-robusto",
+      "file": "cigar-principle-cigars-el-caballero-robusto.svg"
+    },
+    {
+      "id": "principle-cigars-momento-dios-robusto",
+      "file": "cigar-principle-cigars-momento-dios-robusto.svg"
+    },
+    {
+      "id": "principle-cigars-isleno-robusto",
+      "file": "cigar-principle-cigars-isleno-robusto.svg"
+    },
+    {
+      "id": "principle-cigars-cardinal-robusto",
+      "file": "cigar-principle-cigars-cardinal-robusto.svg"
+    },
+    {
+      "id": "alec-bradley-sanctum-robusto",
+      "file": "cigar-alec-bradley-sanctum-robusto.svg"
+    },
+    {
+      "id": "alec-bradley-mchurchill",
+      "file": "cigar-alec-bradley-mchurchill.svg"
+    },
+    {
+      "id": "alec-bradley-star-navigator-robusto",
+      "file": "cigar-alec-bradley-star-navigator-robusto.svg"
+    },
+    {
+      "id": "alec-bradley-medalist-robusto",
+      "file": "cigar-alec-bradley-medalist-robusto.svg"
+    },
+    {
+      "id": "alec-bradley-lineage-robusto",
+      "file": "cigar-alec-bradley-lineage-robusto.svg"
+    },
+    {
+      "id": "alec-bradley-sr71-toro",
+      "file": "cigar-alec-bradley-sr71-toro.svg"
+    },
+    {
+      "id": "alec-bradley-taste-of-the-town-robusto",
+      "file": "cigar-alec-bradley-taste-of-the-town-robusto.svg"
+    },
+    {
+      "id": "alec-bradley-gatekeeper-robusto",
+      "file": "cigar-alec-bradley-gatekeeper-robusto.svg"
+    },
+    {
+      "id": "espinosa-laranja-reserva-toro",
+      "file": "cigar-espinosa-laranja-reserva-toro.svg"
+    },
+    {
+      "id": "espinosa-601-la-bomba-robusto",
+      "file": "cigar-espinosa-601-la-bomba-robusto.svg"
+    },
+    {
+      "id": "espinosa-knuckle-sandwich-toro",
+      "file": "cigar-espinosa-knuckle-sandwich-toro.svg"
+    },
+    {
+      "id": "espinosa-crema-no7-toro",
+      "file": "cigar-espinosa-crema-no7-toro.svg"
+    },
+    {
+      "id": "espinosa-murcielago-toro",
+      "file": "cigar-espinosa-murcielago-toro.svg"
+    },
+    {
+      "id": "espinosa-alpha-dawg-gordo",
+      "file": "cigar-espinosa-alpha-dawg-gordo.svg"
+    },
+    {
+      "id": "la-palina-gramercy-toro",
+      "file": "cigar-la-palina-gramercy-toro.svg"
+    },
+    {
+      "id": "la-palina-blue-label-toro",
+      "file": "cigar-la-palina-blue-label-toro.svg"
+    },
+    {
+      "id": "la-palina-goldie-lonsdale",
+      "file": "cigar-la-palina-goldie-lonsdale.svg"
+    },
+    {
+      "id": "la-palina-el-diario-toro",
+      "file": "cigar-la-palina-el-diario-toro.svg"
+    },
+    {
+      "id": "la-palina-lp03-robusto",
+      "file": "cigar-la-palina-lp03-robusto.svg"
+    },
+    {
+      "id": "la-palina-sunday-smoke-robusto",
+      "file": "cigar-la-palina-sunday-smoke-robusto.svg"
+    },
+    {
+      "id": "la-palina-goldie-robusto",
+      "file": "cigar-la-palina-goldie-robusto.svg"
+    },
+    {
+      "id": "room-101-great-wall-robusto",
+      "file": "cigar-room-101-great-wall-robusto.svg"
+    },
+    {
+      "id": "room-101-new-york-robusto",
+      "file": "cigar-room-101-new-york-robusto.svg"
+    },
+    {
+      "id": "room-101-shinigami-robusto",
+      "file": "cigar-room-101-shinigami-robusto.svg"
+    },
+    {
+      "id": "room-101-uncle-buck-robusto",
+      "file": "cigar-room-101-uncle-buck-robusto.svg"
+    },
+    {
+      "id": "room-101-sunbather-toro",
+      "file": "cigar-room-101-sunbather-toro.svg"
+    },
+    {
+      "id": "cavalier-geneve-latelier-ii-toro",
+      "file": "cigar-cavalier-geneve-latelier-ii-toro.svg"
+    },
+    {
+      "id": "cavalier-geneve-c-series-robusto",
+      "file": "cigar-cavalier-geneve-c-series-robusto.svg"
+    },
+    {
+      "id": "cavalier-geneve-b52-robusto",
+      "file": "cigar-cavalier-geneve-b52-robusto.svg"
+    },
+    {
+      "id": "cavalier-geneve-r-series-robusto",
+      "file": "cigar-cavalier-geneve-r-series-robusto.svg"
+    },
+    {
+      "id": "cavalier-geneve-white-ii-toro",
+      "file": "cigar-cavalier-geneve-white-ii-toro.svg"
+    },
+    {
+      "id": "cavalier-geneve-black-ii-churchill",
+      "file": "cigar-cavalier-geneve-black-ii-churchill.svg"
+    },
+    {
+      "id": "room-101-big-stick-toro",
+      "file": "cigar-room-101-big-stick-toro.svg"
+    },
+    {
+      "id": "la-palina-gramercy-robusto",
+      "file": "cigar-la-palina-gramercy-robusto.svg"
+    },
+    {
+      "id": "alec-bradley-prensado-robusto",
+      "file": "cigar-alec-bradley-prensado-robusto.svg"
+    },
+    {
+      "id": "principle-cigars-accomplice-habano-toro",
+      "file": "cigar-principle-cigars-accomplice-habano-toro.svg"
+    },
+    {
+      "id": "black-works-studio-rorschach-short-robusto",
+      "file": "cigar-black-works-studio-rorschach-short-robusto.svg"
+    },
+    {
+      "id": "espinosa-601-la-bomba-toro",
+      "file": "cigar-espinosa-601-la-bomba-toro.svg"
+    },
+    {
+      "id": "cavalier-geneve-black-series-robusto",
+      "file": "cigar-cavalier-geneve-black-series-robusto.svg"
+    },
+    {
+      "id": "tatuaje-arsenal-robusto",
+      "file": "cigar-tatuaje-arsenal-robusto.svg"
+    },
+    {
+      "id": "tatuaje-arsenal-toro",
+      "file": "cigar-tatuaje-arsenal-toro.svg"
+    },
+    {
+      "id": "tatuaje-noches-de-paris-robusto",
+      "file": "cigar-tatuaje-noches-de-paris-robusto.svg"
+    },
+    {
+      "id": "tatuaje-coronado-robusto",
+      "file": "cigar-tatuaje-coronado-robusto.svg"
+    },
+    {
+      "id": "tatuaje-unicos-no1",
+      "file": "cigar-tatuaje-unicos-no1.svg"
+    },
+    {
+      "id": "tatuaje-fausto-short-robusto",
+      "file": "cigar-tatuaje-fausto-short-robusto.svg"
+    },
+    {
+      "id": "tatuaje-fausto-toro",
+      "file": "cigar-tatuaje-fausto-toro.svg"
+    },
+    {
+      "id": "tatuaje-petit-cazadores",
+      "file": "cigar-tatuaje-petit-cazadores.svg"
+    },
+    {
+      "id": "tatuaje-tattoo-maduro-robusto",
+      "file": "cigar-tatuaje-tattoo-maduro-robusto.svg"
+    },
+    {
+      "id": "tatuaje-xl-robusto",
+      "file": "cigar-tatuaje-xl-robusto.svg"
+    },
+    {
+      "id": "kristoff-gc-corojo-robusto",
+      "file": "cigar-kristoff-gc-corojo-robusto.svg"
+    },
+    {
+      "id": "kristoff-ligero-habano-toro",
+      "file": "cigar-kristoff-ligero-habano-toro.svg"
+    },
+    {
+      "id": "kristoff-shade-grown-toro",
+      "file": "cigar-kristoff-shade-grown-toro.svg"
+    },
+    {
+      "id": "kristoff-original-corojo-robusto",
+      "file": "cigar-kristoff-original-corojo-robusto.svg"
+    },
+    {
+      "id": "kristoff-uva-robusto",
+      "file": "cigar-kristoff-uva-robusto.svg"
+    },
+    {
+      "id": "kristoff-pistoff-kristoff-toro",
+      "file": "cigar-kristoff-pistoff-kristoff-toro.svg"
+    },
+    {
+      "id": "ezra-zion-tantrum-toro",
+      "file": "cigar-ezra-zion-tantrum-toro.svg"
+    },
+    {
+      "id": "ezra-zion-fhk-toro",
+      "file": "cigar-ezra-zion-fhk-toro.svg"
+    },
+    {
+      "id": "ezra-zion-possession-robusto",
+      "file": "cigar-ezra-zion-possession-robusto.svg"
+    },
+    {
+      "id": "ezra-zion-section-1-robusto",
+      "file": "cigar-ezra-zion-section-1-robusto.svg"
+    },
+    {
+      "id": "ezra-zion-inception-robusto",
+      "file": "cigar-ezra-zion-inception-robusto.svg"
+    },
+    {
+      "id": "ezra-zion-collaboration-robusto",
+      "file": "cigar-ezra-zion-collaboration-robusto.svg"
+    },
+    {
+      "id": "hvc-first-selection-toro",
+      "file": "cigar-hvc-first-selection-toro.svg"
+    },
+    {
+      "id": "hvc-serie-b-robusto",
+      "file": "cigar-hvc-serie-b-robusto.svg"
+    },
+    {
+      "id": "hvc-black-friday-toro",
+      "file": "cigar-hvc-black-friday-toro.svg"
+    },
+    {
+      "id": "hvc-san-isidro-robusto",
+      "file": "cigar-hvc-san-isidro-robusto.svg"
+    },
+    {
+      "id": "hvc-500-anos-robusto",
+      "file": "cigar-hvc-500-anos-robusto.svg"
+    },
+    {
+      "id": "ferio-tego-timeless-sterling-toro",
+      "file": "cigar-ferio-tego-timeless-sterling-toro.svg"
+    },
+    {
+      "id": "ferio-tego-generosidad-robusto",
+      "file": "cigar-ferio-tego-generosidad-robusto.svg"
+    },
+    {
+      "id": "ferio-tego-affinity-toro",
+      "file": "cigar-ferio-tego-affinity-toro.svg"
+    },
+    {
+      "id": "ferio-tego-magnum-opus-toro",
+      "file": "cigar-ferio-tego-magnum-opus-toro.svg"
+    },
+    {
+      "id": "ferio-tego-toro-de-fuego-robusto",
+      "file": "cigar-ferio-tego-toro-de-fuego-robusto.svg"
+    },
+    {
+      "id": "viaje-circa-robusto",
+      "file": "cigar-viaje-circa-robusto.svg"
+    },
+    {
+      "id": "viaje-skull-and-bones-robusto",
+      "file": "cigar-viaje-skull-and-bones-robusto.svg"
+    },
+    {
+      "id": "viaje-wlp-robusto",
+      "file": "cigar-viaje-wlp-robusto.svg"
+    },
+    {
+      "id": "viaje-exclusivo-florida-robusto",
+      "file": "cigar-viaje-exclusivo-florida-robusto.svg"
+    },
+    {
+      "id": "viaje-honey-and-money-toro",
+      "file": "cigar-viaje-honey-and-money-toro.svg"
+    },
+    {
+      "id": "ace-prime-lucia-robusto",
+      "file": "cigar-ace-prime-lucia-robusto.svg"
+    },
+    {
+      "id": "ace-prime-lucia-toro",
+      "file": "cigar-ace-prime-lucia-toro.svg"
+    },
+    {
+      "id": "ace-prime-muestra-de-saka-nacatamale",
+      "file": "cigar-ace-prime-muestra-de-saka-nacatamale.svg"
+    },
+    {
+      "id": "ace-prime-muestra-de-saka-mionca",
+      "file": "cigar-ace-prime-muestra-de-saka-mionca.svg"
+    },
+    {
+      "id": "ace-prime-mona-y-lisa-corona",
+      "file": "cigar-ace-prime-mona-y-lisa-corona.svg"
+    },
+    {
+      "id": "ace-prime-mona-y-lisa-toro",
+      "file": "cigar-ace-prime-mona-y-lisa-toro.svg"
+    },
+    {
+      "id": "ace-prime-esteban-carreras-chupacabra",
+      "file": "cigar-ace-prime-esteban-carreras-chupacabra.svg"
+    },
+    {
+      "id": "ace-prime-esteban-carreras-red-robusto",
+      "file": "cigar-ace-prime-esteban-carreras-red-robusto.svg"
+    },
+    {
+      "id": "tatuaje-arsenal-belicoso",
+      "file": "cigar-tatuaje-arsenal-belicoso.svg"
+    },
+    {
+      "id": "kristoff-gc-natural-robusto",
+      "file": "cigar-kristoff-gc-natural-robusto.svg"
+    },
+    {
+      "id": "ezra-zion-encore-robusto",
+      "file": "cigar-ezra-zion-encore-robusto.svg"
+    },
+    {
+      "id": "hvc-4-you-robusto",
+      "file": "cigar-hvc-4-you-robusto.svg"
+    },
+    {
+      "id": "viaje-oro-reserva-robusto",
+      "file": "cigar-viaje-oro-reserva-robusto.svg"
+    },
+    {
+      "id": "ace-prime-fiat-lux-toro",
+      "file": "cigar-ace-prime-fiat-lux-toro.svg"
+    },
+    {
+      "id": "ferio-tego-generosidad-gran-toro",
+      "file": "cigar-ferio-tego-generosidad-gran-toro.svg"
+    },
+    {
+      "id": "tatuaje-verocu-no4",
+      "file": "cigar-tatuaje-verocu-no4.svg"
+    },
+    {
+      "id": "ezra-zion-commencement-toro",
+      "file": "cigar-ezra-zion-commencement-toro.svg"
+    },
+    {
+      "id": "hvc-cerro-natural-robusto",
+      "file": "cigar-hvc-cerro-natural-robusto.svg"
+    },
+    {
+      "id": "viaje-exclusivo-nicaragua-toro",
+      "file": "cigar-viaje-exclusivo-nicaragua-toro.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-maduro-robusto",
+      "file": "cigar-drew-estate-factory-smokes-maduro-robusto.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-maduro-toro",
+      "file": "cigar-drew-estate-factory-smokes-maduro-toro.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-maduro-churchill",
+      "file": "cigar-drew-estate-factory-smokes-maduro-churchill.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-maduro-gordito",
+      "file": "cigar-drew-estate-factory-smokes-maduro-gordito.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-shade-robusto",
+      "file": "cigar-drew-estate-factory-smokes-shade-robusto.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-shade-toro",
+      "file": "cigar-drew-estate-factory-smokes-shade-toro.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-shade-churchill",
+      "file": "cigar-drew-estate-factory-smokes-shade-churchill.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-shade-gordito",
+      "file": "cigar-drew-estate-factory-smokes-shade-gordito.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-sun-grown-robusto",
+      "file": "cigar-drew-estate-factory-smokes-sun-grown-robusto.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-sun-grown-toro",
+      "file": "cigar-drew-estate-factory-smokes-sun-grown-toro.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-sun-grown-churchill",
+      "file": "cigar-drew-estate-factory-smokes-sun-grown-churchill.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-sun-grown-gordito",
+      "file": "cigar-drew-estate-factory-smokes-sun-grown-gordito.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-sweet-robusto",
+      "file": "cigar-drew-estate-factory-smokes-sweet-robusto.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-sweet-toro",
+      "file": "cigar-drew-estate-factory-smokes-sweet-toro.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-sweet-churchill",
+      "file": "cigar-drew-estate-factory-smokes-sweet-churchill.svg"
+    },
+    {
+      "id": "drew-estate-factory-smokes-sweet-belicoso",
+      "file": "cigar-drew-estate-factory-smokes-sweet-belicoso.svg"
+    },
+    {
+      "id": "espinosa-601-la-bomba-warhead-viii",
+      "file": "cigar-espinosa-601-la-bomba-warhead-viii.svg"
+    },
+    {
+      "id": "espinosa-601-la-bomba-warhead-ix",
+      "file": "cigar-espinosa-601-la-bomba-warhead-ix.svg"
+    },
+    {
+      "id": "rocky-patel-seed-to-smoke-classic-toro",
+      "file": "cigar-rocky-patel-seed-to-smoke-classic-toro.svg"
+    },
+    {
+      "id": "rocky-patel-seed-to-smoke-classic-churchill",
+      "file": "cigar-rocky-patel-seed-to-smoke-classic-churchill.svg"
+    },
+    {
+      "id": "rocky-patel-seed-to-smoke-classic-sixty",
+      "file": "cigar-rocky-patel-seed-to-smoke-classic-sixty.svg"
+    },
+    {
+      "id": "rocky-patel-seed-to-smoke-shade-toro",
+      "file": "cigar-rocky-patel-seed-to-smoke-shade-toro.svg"
+    },
+    {
+      "id": "rocky-patel-seed-to-smoke-shade-churchill",
+      "file": "cigar-rocky-patel-seed-to-smoke-shade-churchill.svg"
+    },
+    {
+      "id": "rocky-patel-seed-to-smoke-shade-sixty",
+      "file": "cigar-rocky-patel-seed-to-smoke-shade-sixty.svg"
+    },
+    {
+      "id": "quorum-classic-robusto",
+      "file": "cigar-quorum-classic-robusto.svg"
+    },
+    {
+      "id": "quorum-classic-toro",
+      "file": "cigar-quorum-classic-toro.svg"
+    },
+    {
+      "id": "quorum-classic-churchill",
+      "file": "cigar-quorum-classic-churchill.svg"
+    },
+    {
+      "id": "quorum-classic-double-gordo",
+      "file": "cigar-quorum-classic-double-gordo.svg"
+    },
+    {
+      "id": "quorum-maduro-robusto",
+      "file": "cigar-quorum-maduro-robusto.svg"
+    },
+    {
+      "id": "quorum-maduro-toro",
+      "file": "cigar-quorum-maduro-toro.svg"
+    },
+    {
+      "id": "quorum-maduro-churchill",
+      "file": "cigar-quorum-maduro-churchill.svg"
+    },
+    {
+      "id": "quorum-maduro-double-gordo",
+      "file": "cigar-quorum-maduro-double-gordo.svg"
+    },
+    {
+      "id": "quorum-shade-robusto",
+      "file": "cigar-quorum-shade-robusto.svg"
+    },
+    {
+      "id": "quorum-shade-toro",
+      "file": "cigar-quorum-shade-toro.svg"
+    },
+    {
+      "id": "quorum-shade-churchill",
+      "file": "cigar-quorum-shade-churchill.svg"
+    },
+    {
+      "id": "quorum-shade-double-gordo",
+      "file": "cigar-quorum-shade-double-gordo.svg"
+    },
+    {
+      "id": "e-doble-by-espinosa-robusto",
+      "file": "cigar-e-doble-by-espinosa-robusto.svg"
+    },
+    {
+      "id": "e-doble-by-espinosa-toro",
+      "file": "cigar-e-doble-by-espinosa-toro.svg"
+    },
+    {
+      "id": "e-doble-by-espinosa-churchill",
+      "file": "cigar-e-doble-by-espinosa-churchill.svg"
+    },
+    {
+      "id": "e-doble-by-espinosa-660",
+      "file": "cigar-e-doble-by-espinosa-660.svg"
+    },
+    {
+      "id": "e-by-espinosa-connecticut-robusto",
+      "file": "cigar-e-by-espinosa-connecticut-robusto.svg"
+    },
+    {
+      "id": "e-by-espinosa-connecticut-toro",
+      "file": "cigar-e-by-espinosa-connecticut-toro.svg"
+    },
+    {
+      "id": "e-by-espinosa-connecticut-660",
+      "file": "cigar-e-by-espinosa-connecticut-660.svg"
+    }
+  ],
+  "houses": [
+    {
+      "slug": "cohiba",
+      "brand": "Cohiba",
+      "file": "house-cohiba.svg"
+    },
+    {
+      "slug": "montecristo",
+      "brand": "Montecristo",
+      "file": "house-montecristo.svg"
+    },
+    {
+      "slug": "partag-s",
+      "brand": "Partagás",
+      "file": "house-partag-s.svg"
+    },
+    {
+      "slug": "romeo-y-julieta",
+      "brand": "Romeo y Julieta",
+      "file": "house-romeo-y-julieta.svg"
+    },
+    {
+      "slug": "bol-var",
+      "brand": "Bolívar",
+      "file": "house-bol-var.svg"
+    },
+    {
+      "slug": "h-upmann",
+      "brand": "H. Upmann",
+      "file": "house-h-upmann.svg"
+    },
+    {
+      "slug": "trinidad",
+      "brand": "Trinidad",
+      "file": "house-trinidad.svg"
+    },
+    {
+      "slug": "padr-n",
+      "brand": "Padrón",
+      "file": "house-padr-n.svg"
+    },
+    {
+      "slug": "oliva",
+      "brand": "Oliva",
+      "file": "house-oliva.svg"
+    },
+    {
+      "slug": "arturo-fuente",
+      "brand": "Arturo Fuente",
+      "file": "house-arturo-fuente.svg"
+    },
+    {
+      "slug": "my-father-cigars",
+      "brand": "My Father Cigars",
+      "file": "house-my-father-cigars.svg"
+    },
+    {
+      "slug": "perdomo",
+      "brand": "Perdomo",
+      "file": "house-perdomo.svg"
+    },
+    {
+      "slug": "joya-de-nicaragua",
+      "brand": "Joya de Nicaragua",
+      "file": "house-joya-de-nicaragua.svg"
+    },
+    {
+      "slug": "drew-estate",
+      "brand": "Drew Estate",
+      "file": "house-drew-estate.svg"
+    },
+    {
+      "slug": "rocky-patel",
+      "brand": "Rocky Patel",
+      "file": "house-rocky-patel.svg"
+    },
+    {
+      "slug": "alec-bradley",
+      "brand": "Alec Bradley",
+      "file": "house-alec-bradley.svg"
+    },
+    {
+      "slug": "macanudo",
+      "brand": "Macanudo",
+      "file": "house-macanudo.svg"
+    },
+    {
+      "slug": "davidoff",
+      "brand": "Davidoff",
+      "file": "house-davidoff.svg"
+    },
+    {
+      "slug": "avo",
+      "brand": "AVO",
+      "file": "house-avo.svg"
+    },
+    {
+      "slug": "camacho",
+      "brand": "Camacho",
+      "file": "house-camacho.svg"
+    },
+    {
+      "slug": "punch",
+      "brand": "Punch",
+      "file": "house-punch.svg"
+    },
+    {
+      "slug": "cao",
+      "brand": "CAO",
+      "file": "house-cao.svg"
+    },
+    {
+      "slug": "foundation-cigar-co",
+      "brand": "Foundation Cigar Co.",
+      "file": "house-foundation-cigar-co.svg"
+    },
+    {
+      "slug": "ashton",
+      "brand": "Ashton",
+      "file": "house-ashton.svg"
+    },
+    {
+      "slug": "plasencia",
+      "brand": "Plasencia",
+      "file": "house-plasencia.svg"
+    },
+    {
+      "slug": "crowned-heads",
+      "brand": "Crowned Heads",
+      "file": "house-crowned-heads.svg"
+    },
+    {
+      "slug": "illusione",
+      "brand": "Illusione",
+      "file": "house-illusione.svg"
+    },
+    {
+      "slug": "tatuaje",
+      "brand": "Tatuaje",
+      "file": "house-tatuaje.svg"
+    },
+    {
+      "slug": "por-larra-aga",
+      "brand": "Por Larrañaga",
+      "file": "house-por-larra-aga.svg"
+    },
+    {
+      "slug": "acid-by-drew-estate",
+      "brand": "ACID by Drew Estate",
+      "file": "house-acid-by-drew-estate.svg"
+    },
+    {
+      "slug": "hoyo-de-monterrey",
+      "brand": "Hoyo de Monterrey",
+      "file": "house-hoyo-de-monterrey.svg"
+    },
+    {
+      "slug": "saint-luis-rey",
+      "brand": "Saint Luis Rey",
+      "file": "house-saint-luis-rey.svg"
+    },
+    {
+      "slug": "cohiba-general-cigar",
+      "brand": "Cohiba (General Cigar)",
+      "file": "house-cohiba-general-cigar.svg"
+    },
+    {
+      "slug": "la-gloria-cubana",
+      "brand": "La Gloria Cubana",
+      "file": "house-la-gloria-cubana.svg"
+    },
+    {
+      "slug": "baccarat",
+      "brand": "Baccarat",
+      "file": "house-baccarat.svg"
+    },
+    {
+      "slug": "diplomaticos",
+      "brand": "Diplomaticos",
+      "file": "house-diplomaticos.svg"
+    },
+    {
+      "slug": "quai-d-orsay",
+      "brand": "Quai d'Orsay",
+      "file": "house-quai-d-orsay.svg"
+    },
+    {
+      "slug": "zino-platinum",
+      "brand": "Zino Platinum",
+      "file": "house-zino-platinum.svg"
+    },
+    {
+      "slug": "gurkha",
+      "brand": "Gurkha",
+      "file": "house-gurkha.svg"
+    },
+    {
+      "slug": "nub",
+      "brand": "Nub",
+      "file": "house-nub.svg"
+    },
+    {
+      "slug": "e-p-carrillo",
+      "brand": "E.P. Carrillo",
+      "file": "house-e-p-carrillo.svg"
+    },
+    {
+      "slug": "cain-by-oliva",
+      "brand": "Cain by Oliva",
+      "file": "house-cain-by-oliva.svg"
+    },
+    {
+      "slug": "herrera-estel",
+      "brand": "Herrera Estelí",
+      "file": "house-herrera-estel.svg"
+    },
+    {
+      "slug": "aging-room",
+      "brand": "Aging Room",
+      "file": "house-aging-room.svg"
+    },
+    {
+      "slug": "la-aroma-de-cuba",
+      "brand": "La Aroma de Cuba",
+      "file": "house-la-aroma-de-cuba.svg"
+    },
+    {
+      "slug": "quesada",
+      "brand": "Quesada",
+      "file": "house-quesada.svg"
+    },
+    {
+      "slug": "dunbarton-tobacco-trust",
+      "brand": "Dunbarton Tobacco & Trust",
+      "file": "house-dunbarton-tobacco-trust.svg"
+    },
+    {
+      "slug": "bandido",
+      "brand": "Bandido",
+      "file": "house-bandido.svg"
+    },
+    {
+      "slug": "aj-fernandez",
+      "brand": "AJ Fernandez",
+      "file": "house-aj-fernandez.svg"
+    },
+    {
+      "slug": "la-flor-dominicana",
+      "brand": "La Flor Dominicana",
+      "file": "house-la-flor-dominicana.svg"
+    },
+    {
+      "slug": "aganorsa-leaf",
+      "brand": "Aganorsa Leaf",
+      "file": "house-aganorsa-leaf.svg"
+    },
+    {
+      "slug": "southern-draw",
+      "brand": "Southern Draw",
+      "file": "house-southern-draw.svg"
+    },
+    {
+      "slug": "warped-cigars",
+      "brand": "Warped Cigars",
+      "file": "house-warped-cigars.svg"
+    },
+    {
+      "slug": "caldwell-cigar-co",
+      "brand": "Caldwell Cigar Co.",
+      "file": "house-caldwell-cigar-co.svg"
+    },
+    {
+      "slug": "diamond-crown",
+      "brand": "Diamond Crown",
+      "file": "house-diamond-crown.svg"
+    },
+    {
+      "slug": "brick-house",
+      "brand": "Brick House",
+      "file": "house-brick-house.svg"
+    },
+    {
+      "slug": "villiger",
+      "brand": "Villiger",
+      "file": "house-villiger.svg"
+    },
+    {
+      "slug": "leaf-by-oscar",
+      "brand": "Leaf by Oscar",
+      "file": "house-leaf-by-oscar.svg"
+    },
+    {
+      "slug": "roma-craft-tobac",
+      "brand": "RoMa Craft Tobac",
+      "file": "house-roma-craft-tobac.svg"
+    },
+    {
+      "slug": "espinosa-cigars",
+      "brand": "Espinosa Cigars",
+      "file": "house-espinosa-cigars.svg"
+    },
+    {
+      "slug": "cuaba",
+      "brand": "Cuaba",
+      "file": "house-cuaba.svg"
+    },
+    {
+      "slug": "vegas-robaina",
+      "brand": "Vegas Robaina",
+      "file": "house-vegas-robaina.svg"
+    },
+    {
+      "slug": "rafael-gonz-lez",
+      "brand": "Rafael González",
+      "file": "house-rafael-gonz-lez.svg"
+    },
+    {
+      "slug": "el-rey-del-mundo",
+      "brand": "El Rey del Mundo",
+      "file": "house-el-rey-del-mundo.svg"
+    },
+    {
+      "slug": "sancho-panza",
+      "brand": "Sancho Panza",
+      "file": "house-sancho-panza.svg"
+    },
+    {
+      "slug": "protocol-cigars",
+      "brand": "Protocol Cigars",
+      "file": "house-protocol-cigars.svg"
+    },
+    {
+      "slug": "swisher-international",
+      "brand": "Swisher International",
+      "file": "house-swisher-international.svg"
+    },
+    {
+      "slug": "black-mild",
+      "brand": "Black & Mild",
+      "file": "house-black-mild.svg"
+    },
+    {
+      "slug": "dutch-masters",
+      "brand": "Dutch Masters",
+      "file": "house-dutch-masters.svg"
+    },
+    {
+      "slug": "garcia-y-vega",
+      "brand": "Garcia y Vega",
+      "file": "house-garcia-y-vega.svg"
+    },
+    {
+      "slug": "gran-habano",
+      "brand": "Gran Habano",
+      "file": "house-gran-habano.svg"
+    },
+    {
+      "slug": "nat-sherman",
+      "brand": "Nat Sherman",
+      "file": "house-nat-sherman.svg"
+    },
+    {
+      "slug": "casdagli",
+      "brand": "Casdagli",
+      "file": "house-casdagli.svg"
+    },
+    {
+      "slug": "black-label-trading-company",
+      "brand": "Black Label Trading Company",
+      "file": "house-black-label-trading-company.svg"
+    },
+    {
+      "slug": "ferio-tego",
+      "brand": "Ferio Tego",
+      "file": "house-ferio-tego.svg"
+    },
+    {
+      "slug": "room-101",
+      "brand": "Room 101",
+      "file": "house-room-101.svg"
+    },
+    {
+      "slug": "ace-prime",
+      "brand": "ACE Prime",
+      "file": "house-ace-prime.svg"
+    },
+    {
+      "slug": "viaje-cigar",
+      "brand": "Viaje Cigar",
+      "file": "house-viaje-cigar.svg"
+    },
+    {
+      "slug": "kristoff",
+      "brand": "Kristoff",
+      "file": "house-kristoff.svg"
+    },
+    {
+      "slug": "ram-n-allones",
+      "brand": "Ramón Allones",
+      "file": "house-ram-n-allones.svg"
+    },
+    {
+      "slug": "la-flor-de-ca-o",
+      "brand": "La Flor de Caño",
+      "file": "house-la-flor-de-ca-o.svg"
+    },
+    {
+      "slug": "juan-l-pez",
+      "brand": "Juan López",
+      "file": "house-juan-l-pez.svg"
+    },
+    {
+      "slug": "san-crist-bal-de-la-habana",
+      "brand": "San Cristóbal de la Habana",
+      "file": "house-san-crist-bal-de-la-habana.svg"
+    },
+    {
+      "slug": "fonseca",
+      "brand": "Fonseca",
+      "file": "house-fonseca.svg"
+    },
+    {
+      "slug": "jos-l-piedra",
+      "brand": "José L. Piedra",
+      "file": "house-jos-l-piedra.svg"
+    },
+    {
+      "slug": "quintero-y-hno",
+      "brand": "Quintero y Hno.",
+      "file": "house-quintero-y-hno.svg"
+    },
+    {
+      "slug": "vegueros",
+      "brand": "Vegueros",
+      "file": "house-vegueros.svg"
+    },
+    {
+      "slug": "diesel",
+      "brand": "Diesel",
+      "file": "house-diesel.svg"
+    },
+    {
+      "slug": "man-o-war",
+      "brand": "Man O' War",
+      "file": "house-man-o-war.svg"
+    },
+    {
+      "slug": "5-vegas",
+      "brand": "5 Vegas",
+      "file": "house-5-vegas.svg"
+    },
+    {
+      "slug": "asylum",
+      "brand": "Asylum",
+      "file": "house-asylum.svg"
+    },
+    {
+      "slug": "henry-clay",
+      "brand": "Henry Clay",
+      "file": "house-henry-clay.svg"
+    },
+    {
+      "slug": "la-palina",
+      "brand": "La Palina",
+      "file": "house-la-palina.svg"
+    },
+    {
+      "slug": "eiroa",
+      "brand": "Eiroa",
+      "file": "house-eiroa.svg"
+    },
+    {
+      "slug": "balmoral",
+      "brand": "Balmoral",
+      "file": "house-balmoral.svg"
+    },
+    {
+      "slug": "fratello",
+      "brand": "Fratello",
+      "file": "house-fratello.svg"
+    },
+    {
+      "slug": "hvc",
+      "brand": "HVC",
+      "file": "house-hvc.svg"
+    },
+    {
+      "slug": "cornelius-anthony",
+      "brand": "Cornelius & Anthony",
+      "file": "house-cornelius-anthony.svg"
+    },
+    {
+      "slug": "crux-cigars",
+      "brand": "Crux Cigars",
+      "file": "house-crux-cigars.svg"
+    },
+    {
+      "slug": "ezra-zion",
+      "brand": "Ezra Zion",
+      "file": "house-ezra-zion.svg"
+    },
+    {
+      "slug": "dapper-cigar-co",
+      "brand": "Dapper Cigar Co.",
+      "file": "house-dapper-cigar-co.svg"
+    },
+    {
+      "slug": "matilde",
+      "brand": "Matilde",
+      "file": "house-matilde.svg"
+    },
+    {
+      "slug": "dissident",
+      "brand": "Dissident",
+      "file": "house-dissident.svg"
+    },
+    {
+      "slug": "serino-cigars",
+      "brand": "Serino Cigars",
+      "file": "house-serino-cigars.svg"
+    },
+    {
+      "slug": "amendola",
+      "brand": "Amendola",
+      "file": "house-amendola.svg"
+    },
+    {
+      "slug": "mombacho",
+      "brand": "Mombacho",
+      "file": "house-mombacho.svg"
+    },
+    {
+      "slug": "carlos-tora-o",
+      "brand": "Carlos Toraño",
+      "file": "house-carlos-tora-o.svg"
+    },
+    {
+      "slug": "j-fuego",
+      "brand": "J. Fuego",
+      "file": "house-j-fuego.svg"
+    },
+    {
+      "slug": "san-cristobal",
+      "brand": "San Cristobal",
+      "file": "house-san-cristobal.svg"
+    },
+    {
+      "slug": "nestor-miranda",
+      "brand": "Nestor Miranda",
+      "file": "house-nestor-miranda.svg"
+    },
+    {
+      "slug": "la-herencia-cubana",
+      "brand": "La Herencia Cubana",
+      "file": "house-la-herencia-cubana.svg"
+    },
+    {
+      "slug": "my-father",
+      "brand": "My Father",
+      "file": "house-my-father.svg"
+    },
+    {
+      "slug": "viaje",
+      "brand": "Viaje",
+      "file": "house-viaje.svg"
+    },
+    {
+      "slug": "espinosa-premium-cigars",
+      "brand": "Espinosa Premium Cigars",
+      "file": "house-espinosa-premium-cigars.svg"
+    },
+    {
+      "slug": "foundation-cigar-company",
+      "brand": "Foundation Cigar Company",
+      "file": "house-foundation-cigar-company.svg"
+    },
+    {
+      "slug": "hvc-cigars",
+      "brand": "HVC Cigars",
+      "file": "house-hvc-cigars.svg"
+    },
+    {
+      "slug": "la-barba",
+      "brand": "La Barba",
+      "file": "house-la-barba.svg"
+    },
+    {
+      "slug": "cavalier-gen-ve",
+      "brand": "Cavalier Genève",
+      "file": "house-cavalier-gen-ve.svg"
+    },
+    {
+      "slug": "rojas-cigars",
+      "brand": "Rojas Cigars",
+      "file": "house-rojas-cigars.svg"
+    },
+    {
+      "slug": "blackbird-cigar-co",
+      "brand": "Blackbird Cigar Co.",
+      "file": "house-blackbird-cigar-co.svg"
+    },
+    {
+      "slug": "ventura-cigar-co",
+      "brand": "Ventura Cigar Co.",
+      "file": "house-ventura-cigar-co.svg"
+    },
+    {
+      "slug": "protocol",
+      "brand": "Protocol",
+      "file": "house-protocol.svg"
+    },
+    {
+      "slug": "quesada-cigars",
+      "brand": "Quesada Cigars",
+      "file": "house-quesada-cigars.svg"
+    },
+    {
+      "slug": "la-barba-cigars",
+      "brand": "La Barba Cigars",
+      "file": "house-la-barba-cigars.svg"
+    },
+    {
+      "slug": "stillwell-star",
+      "brand": "StillWell Star",
+      "file": "house-stillwell-star.svg"
+    },
+    {
+      "slug": "black-label-trading-co",
+      "brand": "Black Label Trading Co.",
+      "file": "house-black-label-trading-co.svg"
+    },
+    {
+      "slug": "crux-cigar-co",
+      "brand": "Crux Cigar Co.",
+      "file": "house-crux-cigar-co.svg"
+    },
+    {
+      "slug": "viaje-cigars",
+      "brand": "Viaje Cigars",
+      "file": "house-viaje-cigars.svg"
+    },
+    {
+      "slug": "tatuaje-cigars",
+      "brand": "Tatuaje Cigars",
+      "file": "house-tatuaje-cigars.svg"
+    },
+    {
+      "slug": "perdomo-cigars",
+      "brand": "Perdomo Cigars",
+      "file": "house-perdomo-cigars.svg"
+    },
+    {
+      "slug": "mombacho-cigars",
+      "brand": "Mombacho Cigars",
+      "file": "house-mombacho-cigars.svg"
+    },
+    {
+      "slug": "black-works-studio",
+      "brand": "Black Works Studio",
+      "file": "house-black-works-studio.svg"
+    },
+    {
+      "slug": "principle-cigars",
+      "brand": "Principle Cigars",
+      "file": "house-principle-cigars.svg"
+    },
+    {
+      "slug": "j-c-newman",
+      "brand": "J.C. Newman",
+      "file": "house-j-c-newman.svg"
+    }
+  ]
+}

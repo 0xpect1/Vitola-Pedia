@@ -1422,3 +1422,295 @@
 .lg-ember.is-idle .lg-ember-glow { background: radial-gradient(circle, rgba(200,190,165,0.28), transparent 70%); }
 .lg-ember.is-idle .lg-ember-smoke { display: none; }
 .lg-ec-item em { font-style: normal; color: var(--text-muted); }
+
+/* ══════════════════════════════════════════════════════════════════
+   NOTIFY ME WHEN SOMEONE LIGHTS UP
+   ══════════════════════════════════════════════════════════════════ */
+
+/* Toggle button — sits in the lounge hero actions row, styled to match
+   the ghost button but with a bell/ember accent. */
+.lg-notify-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 20px;
+  border-radius: 999px;
+  border: 1px solid var(--border-h);
+  color: var(--text-secondary);
+  background: transparent;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: var(--font-body);
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: var(--transition);
+  user-select: none;
+}
+.lg-notify-btn:hover {
+  color: var(--gold-light);
+  border-color: var(--gold);
+  background: var(--gold-glow);
+  transform: translateY(-1px);
+}
+.lg-notify-btn.is-on {
+  color: var(--bg-deep);
+  background: linear-gradient(135deg, var(--gold-light), var(--gold));
+  border-color: transparent;
+  box-shadow: 0 4px 18px rgba(201,168,76,0.32);
+}
+.lg-notify-btn.is-on:hover {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+}
+.lg-notify-btn.is-denied {
+  color: var(--text-muted);
+  border-color: var(--text-muted);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+.lg-notify-btn.is-denied:hover {
+  color: var(--text-muted);
+  border-color: var(--text-muted);
+  background: transparent;
+  transform: none;
+}
+@media (max-width: 640px) {
+  .lg-notify-btn { font-size: 12px; padding: 10px 16px; }
+}
+
+/* ── In-page toast (shown when the tab is focused) ────────────────── */
+.lg-notify-toast {
+  position: fixed;
+  top: 22px;
+  right: 22px;
+  z-index: 320;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  max-width: 340px;
+  padding: 14px 18px;
+  background: rgba(30,25,18,0.96);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(224,123,58,0.4);
+  border-radius: var(--radius-md);
+  box-shadow: 0 14px 44px rgba(0,0,0,0.7), 0 0 24px rgba(224,123,58,0.14);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 13px;
+  line-height: 1.45;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateX(16px) scale(0.98);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+.lg-notify-toast.is-visible {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+  pointer-events: auto;
+}
+.lg-notify-toast-icon {
+  font-size: 22px;
+  line-height: 1;
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 6px rgba(224,123,58,0.6));
+}
+.lg-notify-toast-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+.lg-notify-toast-line {
+  color: var(--text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.lg-notify-toast-line strong {
+  color: var(--gold-light);
+  font-weight: 600;
+}
+.lg-notify-toast-line span {
+  color: var(--text-muted);
+}
+.lg-notify-toast:hover {
+  border-color: rgba(224,123,58,0.6);
+  box-shadow: 0 14px 44px rgba(0,0,0,0.7), 0 0 28px rgba(224,123,58,0.22);
+}
+@media (max-width: 640px) {
+  .lg-notify-toast {
+    top: 12px; right: 12px; left: 12px;
+    max-width: none;
+  }
+}
+
+/* ═════════════════════════════════════════════════════════════════
+   MODERATION UI STYLES
+   Report buttons (🚩), hide buttons (⊘), ban buttons (⛔),
+   report modal, and admin dashboard.
+   ═════════════════════════════════════════════════════════════════ */
+
+/* ── Moderation buttons on posts and comments ─────────────────── */
+.lg-mod-btn {
+  opacity: 0.55;
+  font-size: 0.82rem;
+  padding: 2px 7px;
+  border-radius: 5px;
+  transition: opacity 0.15s, background 0.15s;
+  background: transparent;
+  border: 1px solid rgba(201,152,58,0.2);
+  color: var(--text-muted, #a89b7a);
+  cursor: pointer;
+  vertical-align: middle;
+}
+.lg-mod-btn:hover {
+  opacity: 1;
+  background: rgba(201,152,58,0.08);
+  border-color: rgba(201,152,58,0.4);
+}
+.lg-mod-btn.danger {
+  border-color: rgba(224,80,80,0.2);
+  color: rgba(224,100,100,0.8);
+}
+.lg-mod-btn.danger:hover {
+  background: rgba(224,80,80,0.1);
+  border-color: rgba(224,80,80,0.5);
+  color: rgba(224,100,100,1);
+}
+.lg-mod-btn.sm {
+  font-size: 0.72rem;
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+/* ── Chat message moderation buttons ─────────────────────────── */
+.lg-msg-mod {
+  display: inline-flex;
+  gap: 4px;
+  margin-left: 8px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  vertical-align: middle;
+}
+.lg-msg:hover .lg-msg-mod {
+  opacity: 0.7;
+}
+.lg-msg-mod .lg-mod-btn {
+  border: none;
+  background: transparent;
+  padding: 1px 4px;
+  font-size: 0.7rem;
+}
+
+/* ── Admin dashboard button in hero ─────────────────────────── */
+.lg-admin-dash-btn {
+  background: linear-gradient(135deg, rgba(201,152,58,0.15), rgba(201,152,58,0.05));
+  border: 1px solid rgba(201,152,58,0.3);
+  color: var(--gold-light, #e8b86d);
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.lg-admin-dash-btn:hover {
+  background: linear-gradient(135deg, rgba(201,152,58,0.25), rgba(201,152,58,0.1));
+  border-color: rgba(201,152,58,0.5);
+  box-shadow: 0 2px 12px rgba(201,152,58,0.15);
+}
+.lg-admin-dash-btn.hidden {
+  display: none;
+}
+
+/* ── Report modal ────────────────────────────────────────────── */
+.lg-mod-divider {
+  border: none;
+  border-top: 1px solid rgba(201,152,58,0.15);
+  margin: 20px 0 16px;
+}
+
+/* ── Admin dashboard ─────────────────────────────────────────── */
+.lg-admin-dash {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+.lg-admin-section {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gold-light, #e8b86d);
+  margin: 20px 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(201,152,58,0.15);
+}
+.lg-admin-section:first-child {
+  margin-top: 0;
+}
+.lg-admin-report {
+  background: rgba(0,0,0,0.2);
+  border: 1px solid rgba(201,152,58,0.1);
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-bottom: 8px;
+}
+.lg-admin-report-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.lg-admin-badge {
+  background: rgba(224,80,80,0.15);
+  color: rgba(224,120,120,0.9);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.lg-admin-time {
+  font-size: 0.78rem;
+  color: var(--text-muted, #a89b7a);
+}
+.lg-admin-reason {
+  font-size: 0.88rem;
+  color: var(--text-primary, #d4c5a9);
+  margin: 4px 0 8px;
+  line-height: 1.4;
+}
+.lg-admin-actions {
+  display: flex;
+  gap: 8px;
+}
+.lg-admin-ban {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(0,0,0,0.2);
+  border: 1px solid rgba(224,80,80,0.1);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+}
+.lg-admin-ban-id {
+  font-family: monospace;
+  font-size: 0.78rem;
+  color: var(--text-muted, #a89b7a);
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ── Removed content placeholder ──────────────────────────────── */
+.lg-msg-text,
+.lg-post-title,
+.lg-post-body {
+  transition: opacity 0.2s;
+}
+.lg-msg-text:empty::before,
+.lg-post-title:empty::before {
+  content: '';
+}

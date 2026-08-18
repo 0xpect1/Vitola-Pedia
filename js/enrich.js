@@ -333,6 +333,32 @@
     return location.href.split('#')[0] + '#/' + kind + '/' + id;
   }
 
+  /**
+   * Per-cigar / per-house Open Graph preview image URL.
+   *
+   * Each cigar and brand "house" has a generated 1200×630 share card in
+   * /og/ (see scripts/generate-og-images.js + scripts/og-svg-to-png.js).
+   * PNGs are preferred where present (rendered with web fonts); SVGs are
+   * the always-available fallback.  Returned URLs are absolute so they
+   * work when shared off-site.
+   */
+  const OG_BASE = (() => {
+    const u = new URL(location.href);
+    return u.origin + u.pathname.replace(/[^/]*$/, '') + 'og/';
+  })();
+
+  function ogImageFor(kind, id) {
+    // kind is 'cigar' | 'house' | 'brand' | 'home'
+    const file = kind === 'cigar'
+      ? 'cigar-' + id
+      : kind === 'home'
+        ? 'home'
+        : 'house-' + id;
+    // SVG cards ship as-is — modern social scrapers (Facebook, X,
+    // LinkedIn, Discord, Telegram, Slack) accept SVG OG images.
+    return OG_BASE + file + '.svg';
+  }
+
   function addShareButton(body, kind, id, title) {
     if (!body) return;
     const header = body.querySelector('.modal-header');
@@ -353,9 +379,21 @@
       const label = btn.querySelector('span');
 
       // Native sheet where it exists (mostly mobile), clipboard elsewhere.
+      // When the Web Share API supports files, attach the per-cigar OG card
+      // so the share preview image travels with the link on platforms that
+      // honour image attachments (most mobile browsers, some chat apps).
       if (navigator.share) {
+        const shareData = { title, url };
         try {
-          await navigator.share({ title, url });
+          if (navigator.canShare && navigator.canShare({ files: [] })) {
+            const res = await fetch(ogImageFor(kind, id), { credentials: 'omit' });
+            if (res.ok) {
+              const blob = await res.blob();
+              const file = new File([blob], `vitola-${kind}-${id}.svg`, { type: blob.type || 'image/svg+xml' });
+              if (navigator.canShare({ files: [file] })) shareData.files = [file];
+            }
+          }
+          await navigator.share(shareData);
           return;
         } catch (e) {
           if (e && e.name === 'AbortError') return;   // user dismissed; not an error
