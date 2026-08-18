@@ -1378,3 +1378,19 @@
   transition: var(--transition);
 }
 .lg-av-remove:hover { color: #d04040; background: rgba(208,64,64,0.1); }
+
+/* Turnstile only becomes visible if Cloudflare decides a challenge is
+   needed; in the common case it resolves invisibly and this is never seen. */
+.vp-turnstile {
+  position: fixed;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 500;
+}
+.vp-turnstile:not(:empty) {
+  padding: 18px;
+  background: var(--bg-modal);
+  border: 1px solid var(--border-h);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-modal);
+}

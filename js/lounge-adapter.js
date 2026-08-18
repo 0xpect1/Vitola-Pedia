@@ -47,6 +47,11 @@
        verified. That distinction is deliberate: an unverified handle
        presented as a linked account is an impersonation vector.
     ─────────────────────────────────────────────────────────────── */
+    /* Cloudflare Turnstile. Only needed if captcha protection is switched
+       on in Supabase → Authentication → Attack Protection. The sitekey is
+       public; the secret belongs in Supabase, never here. */
+    turnstileSiteKey: null,   // e.g. '0x4AAAAAAA...'
+
     reddit: null,
     // reddit: {
     //   clientId:    'YOUR_REDDIT_APP_ID',            // "installed app" type
@@ -528,18 +533,17 @@
         await loadSupabaseSdk();
         sb = window.supabase.createClient(cfg.url, cfg.anonKey);
 
-        // Anonymous auth: a durable identity with no email required.
-        let { data: { session } } = await sb.auth.getSession();
-        if (!session) {
-          const { error } = await sb.auth.signInAnonymously();
-          if (error) throw error;
-          ({ data: { session } } = await sb.auth.getSession());
+        /* Deliberately does NOT create a session. Signing in on load
+           would mint a permanent anonymous auth user for every visitor
+           who so much as glances at the site, burning the monthly-active
+           ceiling on people who never join. Identity is created the
+           moment someone actually claims a handle — see ensureAuth(). */
+        const { data: { session } } = await sb.auth.getSession();
+        if (session) {
+          const { data: profile } = await sb
+            .from('lounge_members').select('*').eq('id', session.user.id).maybeSingle();
+          me = memberFromRow(profile);
         }
-        const authId = session.user.id;
-
-        const { data: profile } = await sb
-          .from('lounge_members').select('*').eq('id', authId).maybeSingle();
-        me = memberFromRow(profile);
 
         // Presence is ephemeral — Supabase Realtime tracks it in memory and
         // drops it automatically on disconnect. Nothing hits the database.
@@ -567,7 +571,27 @@
 
       async getMe() { return me; },
 
+      /* Creates the anonymous session on first real action. If Supabase
+         has captcha protection enabled, a Turnstile token is fetched and
+         passed — without it the sign-in is rejected. */
+      async ensureAuth() {
+        let { data: { session } } = await sb.auth.getSession();
+        if (session) return session;
+
+        const opts = {};
+        if (LOUNGE_CONFIG.turnstileSiteKey) {
+          opts.captchaToken = await getTurnstileToken(LOUNGE_CONFIG.turnstileSiteKey);
+        }
+        const { error } = await sb.auth.signInAnonymously(
+          Object.keys(opts).length ? { options: opts } : undefined);
+        if (error) throw new Error(error.message || 'Could not join — please try again.');
+
+        ({ data: { session } } = await sb.auth.getSession());
+        return session;
+      },
+
       async saveMe(patch) {
+        await this.ensureAuth();
         const { data: { session } } = await sb.auth.getSession();
         const next = Object.assign({}, me || {}, patch);
         const { data, error } = await sb.from('lounge_members').upsert({
@@ -588,6 +612,7 @@
       },
 
       async startSession(sess) {
+        await this.ensureAuth();
         mySession = Object.assign({
           memberId: me.id,
           handle: me.handle,
@@ -665,6 +690,7 @@
       },
 
       async createPost(p) {
+        await this.ensureAuth();
         const { data, error } = await sb.from('lounge_posts').insert(toRow(p)).select().single();
         if (error) throw error;
         return fromRow(data);
@@ -676,6 +702,7 @@
       },
 
       async vote(postId, dir) {
+        await this.ensureAuth();
         // `lounge_vote` is a SECURITY DEFINER function — it upserts the
         // caller's vote and recomputes the score atomically. See the docs.
         const { error } = await sb.rpc('lounge_vote', {
@@ -693,6 +720,7 @@
       },
 
       async createComment(postId, body, parentId) {
+        await this.ensureAuth();
         const { data, error } = await sb.from('lounge_comments')
           .insert({ post_id: postId, parent_id: parentId || null, body })
           .select().single();
@@ -701,6 +729,7 @@
       },
 
       async voteComment(id, dir) {
+        await this.ensureAuth();
         const { error } = await sb.rpc('lounge_vote', {
           p_kind: 'comment', p_target: id, p_dir: dir,
         });
@@ -715,6 +744,7 @@
       async listChat() { return chatLog; },
 
       async sendChat(body) {
+        await this.ensureAuth();
         if (!me) throw new Error('Set up a handle before chatting.');
         const msg = {
           id: 'c' + Date.now().toString(36) + Math.random().toString(36).slice(2, 7),
@@ -820,6 +850,65 @@
     window.LoungeBackend = local;
     return local;
   })();
+
+  /* ══════════════════════════════════════════════════════════════════
+     TURNSTILE
+     Cloudflare's captcha, rendered invisibly and only at the moment
+     someone claims a handle — never on page load. Managed mode resolves
+     with no interaction for almost everyone; a challenge appears only if
+     Cloudflare thinks it needs one, and then it needs somewhere visible
+     to appear, which is why the container is attached to the document
+     rather than kept detached.
+  ══════════════════════════════════════════════════════════════════ */
+  let turnstileScript = null;
+
+  function loadTurnstile() {
+    if (window.turnstile) return Promise.resolve();
+    if (turnstileScript) return turnstileScript;
+    turnstileScript = new Promise((resolve, reject) => {
+      const s = document.createElement('script');
+      s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+      s.async = true; s.defer = true;
+      s.onload = resolve;
+      s.onerror = () => reject(new Error('Could not load the captcha. Check your connection and try again.'));
+      document.head.appendChild(s);
+    });
+    return turnstileScript;
+  }
+
+  function getTurnstileToken(siteKey) {
+    return loadTurnstile().then(() => new Promise((resolve, reject) => {
+      const host = document.createElement('div');
+      host.className = 'vp-turnstile';
+      document.body.appendChild(host);
+
+      let done = false;
+      const finish = (fn, val) => {
+        if (done) return;
+        done = true;
+        clearTimeout(timer);
+        // Leave the widget up a beat so a visible challenge doesn't vanish
+        // mid-interaction, then clean up.
+        setTimeout(() => { try { host.remove(); } catch (e) {} }, 60);
+        fn(val);
+      };
+
+      const timer = setTimeout(
+        () => finish(reject, new Error('The captcha timed out — please try again.')), 60000);
+
+      try {
+        window.turnstile.render(host, {
+          sitekey: siteKey,
+          appearance: 'interaction-only',   // invisible unless a challenge is needed
+          callback: t => finish(resolve, t),
+          'error-callback': () => finish(reject, new Error('Captcha failed — please try again.')),
+          'timeout-callback': () => finish(reject, new Error('The captcha timed out — please try again.')),
+        });
+      } catch (e) {
+        finish(reject, new Error('Captcha could not start — please try again.'));
+      }
+    }));
+  }
 
   /* ══════════════════════════════════════════════════════════════════
      REDDIT LINKING
