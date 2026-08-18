@@ -50,7 +50,7 @@
     /* Cloudflare Turnstile. Only needed if captcha protection is switched
        on in Supabase → Authentication → Attack Protection. The sitekey is
        public; the secret belongs in Supabase, never here. */
-    turnstileSiteKey: null,   // e.g. '0x4AAAAAAA...'
+    turnstileSiteKey: '0x4AAAAAAEUMMgK3VR0v5aE-',
 
     reddit: null,
     // reddit: {
@@ -578,13 +578,31 @@
         let { data: { session } } = await sb.auth.getSession();
         if (session) return session;
 
+        /* Fetch a captcha token if one is configured — but never let the
+           captcha itself become the reason somebody can't get in. If it
+           is blocked, times out or errors, we still attempt the sign-in:
+           Supabase rejects it with a clear message when captcha is
+           actually required, and lets it through when it isn't. A
+           privacy extension blocking challenges.cloudflare.com should
+           not silently lock a member out of the room. */
         const opts = {};
         if (LOUNGE_CONFIG.turnstileSiteKey) {
-          opts.captchaToken = await getTurnstileToken(LOUNGE_CONFIG.turnstileSiteKey);
+          try {
+            opts.captchaToken = await getTurnstileToken(LOUNGE_CONFIG.turnstileSiteKey);
+          } catch (e) {
+            console.warn('[lounge] captcha unavailable, trying without:', e.message);
+          }
         }
+
         const { error } = await sb.auth.signInAnonymously(
           Object.keys(opts).length ? { options: opts } : undefined);
-        if (error) throw new Error(error.message || 'Could not join — please try again.');
+
+        if (error) {
+          const msg = /captcha/i.test(error.message || '')
+            ? 'The captcha could not be completed. Refresh and try again — if it keeps failing, an ad blocker may be blocking Cloudflare.'
+            : (error.message || 'Could not join — please try again.');
+          throw new Error(msg);
+        }
 
         ({ data: { session } } = await sb.auth.getSession());
         return session;
@@ -894,11 +912,12 @@
       };
 
       const timer = setTimeout(
-        () => finish(reject, new Error('The captcha timed out — please try again.')), 60000);
+        () => finish(reject, new Error('The captcha timed out — please try again.')), 20000);
 
       try {
         window.turnstile.render(host, {
           sitekey: siteKey,
+          action: 'lounge-join',            // names the protected surface, per Cloudflare's guidance
           appearance: 'interaction-only',   // invisible unless a challenge is needed
           callback: t => finish(resolve, t),
           'error-callback': () => finish(reject, new Error('Captcha failed — please try again.')),
