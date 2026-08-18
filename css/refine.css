@@ -1,0 +1,239 @@
+/* ================================================================
+   REFINEMENT PASS — materials, type, motion
+   Additive only. Nothing here changes layout; it changes how the
+   surfaces read: metal rather than yellow, hairlines rather than
+   borders, restraint rather than animation.
+   ================================================================ */
+
+:root {
+  /* Premium easing: fast out, long settle. Used for anything entering. */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ── TYPE ───────────────────────────────────────────────────────
+   Real ligatures and kerning, and optical sizing where the font
+   supports it. Display type gets tighter tracking — loose serif
+   headlines are the fastest way to look cheap.
+──────────────────────────────────────────────────────────────── */
+body {
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+}
+h1, h2, .hero-title, .modal-title, .house-hero-text h1, .pk-q, .lg-hero h1 {
+  font-optical-sizing: auto;
+  letter-spacing: -0.021em;
+}
+.hero-title, .houses-hero h1, .lg-hero h1, .guide-hero h1, .regions-hero h1 {
+  letter-spacing: -0.028em;
+}
+
+/* ── GOLD AS METAL ──────────────────────────────────────────────
+   Flat #c9a84c reads as mustard. A shallow gradient across the
+   glyphs reads as leaf — the difference between printed and stamped.
+──────────────────────────────────────────────────────────────── */
+.hero-title em,
+.houses-hero h1 em,
+.lg-hero h1 em,
+.guide-hero h1 em,
+.regions-hero h1 em {
+  background: linear-gradient(168deg, #f0dda2 0%, #c9a84c 42%, #9a7530 74%, #d9c078 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: var(--gold);   /* fallback if background-clip is unsupported */
+}
+
+/* ── GRAIN ──────────────────────────────────────────────────────
+   A single static noise layer over the whole page. At 3% it is
+   invisible as texture but stops the large dark fields from looking
+   like flat #120f0b — the thing that separates a rich surface from
+   an empty one. Fixed so it never scrolls, and inert to pointers.
+──────────────────────────────────────────────────────────────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.032;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+/* Anything the reader interacts with sits above the grain. */
+.site-header, .modal-overlay, .cp-overlay, .landing,
+.compare-tray, .lg-session-bar { z-index: 100; }
+
+/* ── HAIRLINES ──────────────────────────────────────────────────
+   Section rules that fade out at both ends instead of stopping dead.
+──────────────────────────────────────────────────────────────── */
+.modal-section-title,
+.pk-why-label,
+.lg-prof-label,
+.house-sig-label {
+  position: relative;
+}
+.modal-section-title::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; bottom: -7px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(201,168,76,0.28) 18%, rgba(201,168,76,0.28) 82%, transparent);
+}
+
+/* ── FOCUS ──────────────────────────────────────────────────────
+   Keyboard users get a proper gold ring rather than the browser's
+   blue, and it never shows for mouse clicks.
+──────────────────────────────────────────────────────────────── */
+:focus { outline: none; }
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.cigar-card:focus-visible {
+  outline-offset: 4px;
+  box-shadow: 0 0 0 6px rgba(201,168,76,0.12);
+}
+
+/* ── SELECTION ──────────────────────────────────────────────────── */
+::selection { background: rgba(201,168,76,0.28); color: #fff6e0; }
+
+/* ── MOTION ─────────────────────────────────────────────────────
+   One easing curve across the site. Restraint is the point: the
+   expensive thing moves less, and settles rather than bounces.
+──────────────────────────────────────────────────────────────── */
+.cigar-card, .house-card, .sim-card, .lg-sess-card,
+.pk-opt, .rail-card, .lg-pop-card, .jn-entry {
+  transition-timing-function: var(--ease-out);
+}
+
+/* ── DEPTH ──────────────────────────────────────────────────────
+   A single hairline of light along the top edge, the way a polished
+   surface catches a room. Cheap in CSS, does a lot of work.
+──────────────────────────────────────────────────────────────── */
+.cigar-card, .house-card, .lg-map-panel, .lg-chat-panel,
+.house-panel, .jn-panel, .modal, .cp-panel {
+  position: relative;
+}
+.modal::before, .cp-panel::before,
+.lg-map-panel::before, .house-panel::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 12%; right: 12%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(240,230,210,0.16), transparent);
+  pointer-events: none;
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   THE TWO SHELVES
+═══════════════════════════════════════════════════════════════════ */
+.shelves {
+  max-width: 1400px;
+  margin: 0 auto 8px;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+  gap: 26px;
+}
+.shelves:empty { display: none; }
+
+.shelf-head { margin-bottom: 14px; }
+.shelf-head h2 {
+  font-family: var(--font-serif);
+  font-size: 21px;
+  font-weight: 400;
+  color: var(--gold-light);
+  letter-spacing: -0.018em;
+  margin-bottom: 5px;
+}
+.shelf-head p {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  line-height: 1.55;
+  max-width: 54ch;
+}
+
+.shelf-rail {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+}
+.shelf-rail::-webkit-scrollbar { height: 5px; }
+.shelf-rail::-webkit-scrollbar-thumb { background: var(--gold-dark); border-radius: 4px; }
+
+.rail-card {
+  flex: 0 0 176px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  text-align: left;
+  padding: 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  transition: var(--transition);
+}
+.rail-card:hover {
+  border-color: var(--border-h);
+  background: var(--bg-card-h);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-card);
+}
+.rail-img {
+  height: 74px;
+  display: grid;
+  place-items: center;
+  background: var(--bg-deep);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+.rail-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.rail-noimg { font-size: 24px; opacity: 0.5; }
+.rail-body { display: flex; flex-direction: column; gap: 3px; }
+.rail-name {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.rail-brand { font-size: 10.5px; color: var(--text-muted); }
+.rail-badge {
+  align-self: flex-start;
+  margin-top: 3px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 3px 9px;
+  border-radius: 999px;
+}
+.rail-badge.value { color: #7fc99e; background: rgba(127,201,158,0.11); border: 1px solid rgba(127,201,158,0.3); }
+.rail-badge.best  { color: var(--gold-light); background: var(--gold-glow); border: 1px solid var(--border-h); }
+
+.shelf-note {
+  grid-column: 1 / -1;
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.65;
+  text-align: center;
+  max-width: 68ch;
+  margin: 4px auto 0;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
+@media (max-width: 900px) {
+  .shelves { grid-template-columns: 1fr; gap: 30px; padding: 0 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cigar-card, .house-card, .rail-card, .sim-card { transition: none; }
+}

@@ -2115,31 +2115,41 @@ document.addEventListener('DOMContentLoaded', () => {
     const enterBtn = document.getElementById('enterSite');
     if (enterBtn) enterBtn.addEventListener('click', enterSite);
 
-    // Scroll detection — enter site on scroll
-    // Delay registration to avoid Mac trackpad momentum firing on page load
+    /* The landing invites you to "scroll down", so every way of scrolling
+       has to count — not just the mouse wheel. Touch scrolling fires no
+       wheel event at all, which left phones stranded on the landing with
+       the entered-state styling never applied. A plain scroll listener
+       catches the rest: momentum, scrollbar drags, Space, PageDown. */
     let scrollTriggered = false;
-    setTimeout(() => {
-      window.addEventListener('wheel', function onWheel(e) {
-        if (scrollTriggered) return;
-        if (e.deltaY > 20 && !document.body.classList.contains('site-entered')) {
-          scrollTriggered = true;
-          enterSite();
-          window.removeEventListener('wheel', onWheel);
-        }
-      }, { passive: true });
-    }, 1500);
+    const trigger = () => {
+      if (scrollTriggered || document.body.classList.contains('site-entered')) return;
+      scrollTriggered = true;
+      disarm();
+      enterSite();
+    };
 
-    // Touch swipe up on mobile
+    const onWheel = e => { if (e.deltaY > 20) trigger(); };
+    const onScroll = () => { if (window.scrollY > 60) trigger(); };
     let touchStartY = 0;
-    landing.addEventListener('touchstart', e => { touchStartY = e.touches[0].clientY; }, { passive: true });
-    landing.addEventListener('touchmove', e => {
-      if (scrollTriggered) return;
-      const delta = touchStartY - e.touches[0].clientY;
-      if (delta > 50 && !document.body.classList.contains('site-entered')) {
-        scrollTriggered = true;
-        enterSite();
-      }
-    }, { passive: true });
+    const onTouchStart = e => { touchStartY = e.touches[0].clientY; };
+    const onTouchMove = e => {
+      if (touchStartY - e.touches[0].clientY > 40) trigger();
+    };
+
+    function disarm() {
+      window.removeEventListener('wheel', onWheel);
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('touchstart', onTouchStart);
+      window.removeEventListener('touchmove', onTouchMove);
+    }
+
+    // Delayed so Mac trackpad momentum from a previous page can't fire it.
+    setTimeout(() => {
+      window.addEventListener('wheel', onWheel, { passive: true });
+      window.addEventListener('scroll', onScroll, { passive: true });
+      window.addEventListener('touchstart', onTouchStart, { passive: true });
+      window.addEventListener('touchmove', onTouchMove, { passive: true });
+    }, 1200);
   }
 
   // Defer init so the landing page paints before processing all data
