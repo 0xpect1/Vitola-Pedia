@@ -1394,3 +1394,31 @@
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-modal);
 }
+
+/* ── ROOM COUNT ─────────────────────────────────────────────────── */
+.lg-room-count {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 13px; color: var(--text-secondary);
+  padding: 7px 16px; margin-bottom: 18px;
+  border-radius: 999px;
+  background: rgba(127,201,158,0.07);
+  border: 1px solid rgba(127,201,158,0.22);
+}
+.lg-room-count:empty { display: none; }
+.lg-room-count strong { color: #7fc99e; font-weight: 700; }
+.lg-rc-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: #7fc99e; box-shadow: 0 0 8px #7fc99e;
+  animation: lgBlink 2s ease-in-out infinite;
+}
+.lg-rc-dot.off { background: var(--text-muted); box-shadow: none; animation: none; }
+.lg-live-count strong { color: var(--gold-light); }
+
+/* Present but not smoking — a quieter mark than a lit ember. */
+.lg-ember.is-idle .lg-ember-core {
+  background: radial-gradient(circle, #d8d0bb 0%, #8a8371 100%);
+  box-shadow: 0 0 7px rgba(200,190,165,0.55);
+}
+.lg-ember.is-idle .lg-ember-glow { background: radial-gradient(circle, rgba(200,190,165,0.28), transparent 70%); }
+.lg-ember.is-idle .lg-ember-smoke { display: none; }
+.lg-ec-item em { font-style: normal; color: var(--text-muted); }

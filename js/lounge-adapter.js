@@ -156,6 +156,21 @@
       return live;
     }
 
+    /* One heartbeat for room presence, whether or not a cigar is lit. */
+    function startBeat() {
+      clearInterval(beatTimer);
+      beatTimer = setInterval(async () => {
+        const me = read(K.me, null);
+        if (!me) return;
+        const all = liveSessions();
+        const mine = all.find(s => s.memberId === me.id);
+        if (!mine) { clearInterval(beatTimer); beatTimer = null; return; }
+        mine.lastBeat = Date.now();
+        write(K.sessions, all);
+        announce('presence');
+      }, HEARTBEAT_MS);
+    }
+
     function putSession(sess) {
       const all = liveSessions().filter(s => s.id !== sess.id);
       all.push(sess);
@@ -203,36 +218,63 @@
         return me;
       },
 
-      /* ── PRESENCE ─────────────────────────────────────────────── */
+      /* ── ROOM PRESENCE ────────────────────────────────────────
+         Being in the room and being lit are different things. A member
+         who joins to talk is present and counted; a session is just a
+         field that appears on their record when they spark up. Before
+         this, presence only existed while smoking, so anyone who came
+         to chat was invisible.
+      ─────────────────────────────────────────────────────────── */
+      async joinRoom() {
+        const me = await this.getMe();
+        if (!me) return null;
+
+        const all = liveSessions();
+        let mine = all.find(s => s.memberId === me.id);
+        if (!mine) {
+          mine = { id: uid(), memberId: me.id, joinedAt: Date.now() };
+          all.push(mine);
+        }
+        Object.assign(mine, {
+          handle: me.handle,
+          avatar: me.avatar,
+          reddit: me.reddit || null,
+          loc: (me.locMode !== 'off' && me.loc) ? me.loc : null,
+          lastBeat: Date.now(),
+        });
+        write(K.sessions, all);
+        announce('presence');
+        startBeat();
+        return mine;
+      },
+
+      async leaveRoom() {
+        clearInterval(beatTimer);
+        beatTimer = null;
+        const me = await this.getMe();
+        if (!me) return;
+        const next = liveSessions().filter(s => s.memberId !== me.id);
+        write(K.sessions, next);
+        announce('presence');
+      },
+
+      /* Everyone in the room, lit or not. */
+      async listRoom() {
+        return liveSessions().sort((a, b) => (a.joinedAt || 0) - (b.joinedAt || 0));
+      },
+
       async startSession(sess) {
         const me = await this.getMe();
         if (!me) throw new Error('Set up a handle before sparking up.');
 
-        await this.endSession(); // one lit cigar at a time
-
-        const row = Object.assign({
-          id: uid(),
-          memberId: me.id,
-          handle: me.handle,
-          avatar: me.avatar,
-          reddit: me.reddit || null,
-          startedAt: Date.now(),
-          lastBeat: Date.now(),
-        }, sess);
-
-        putSession(row);
+        await this.joinRoom();          // lighting up implies being here
+        const all = liveSessions();
+        const row = all.find(s => s.memberId === me.id);
+        Object.assign(row, sess, { startedAt: Date.now(), lastBeat: Date.now() });
+        write(K.sessions, all);
         announce('presence');
 
-        clearInterval(beatTimer);
-        beatTimer = setInterval(() => {
-          const all = read(K.sessions, []);
-          const s = all.find(x => x.id === row.id);
-          if (!s) { clearInterval(beatTimer); return; }
-          s.lastBeat = Date.now();
-          write(K.sessions, all);
-          announce('presence');
-        }, HEARTBEAT_MS);
-
+        startBeat();
         return row;
       },
 
@@ -279,9 +321,12 @@
           }
         }
 
-        const next = all.filter(s => s.memberId !== me.id);
-        if (next.length !== all.length) {
-          write(K.sessions, next);
+        if (mine) {
+          // Putting a cigar out doesn't mean leaving — clear the session,
+          // keep the person in the room.
+          ['itemType','itemId','itemName','drink','note','startedAt'].forEach(k => delete mine[k]);
+          mine.lastBeat = Date.now();
+          write(K.sessions, all);
           announce('presence');
         }
       },
@@ -298,8 +343,11 @@
         return liveSessions().find(s => s.memberId === me.id) || null;
       },
 
+      // Deliberately still "who is lit" — the map embers, the Burning Now
+      // strip and the smoke stats all mean that. Room membership is listRoom().
       async listPresence() {
-        return liveSessions().sort((a, b) => a.startedAt - b.startedAt);
+        return liveSessions().filter(s => s.itemId)
+          .sort((a, b) => a.startedAt - b.startedAt);
       },
 
       /* ── FEED ─────────────────────────────────────────────────── */
@@ -517,7 +565,7 @@
     let sb = null;
     let presenceChan = null;
     let me = null;
-    let mySession = null;
+    let myPresence = null;
 
     function emit(evt) {
       (listeners[evt] || []).forEach(fn => {
@@ -625,53 +673,80 @@
         }).select().single();
         if (error) throw error;
         me = memberFromRow(data);
-        if (mySession) await this.updateSession({});
+        if (myPresence) await this.joinRoom();
         return me;
       },
 
-      async startSession(sess) {
-        await this.ensureAuth();
-        mySession = Object.assign({
+      /* Presence is the room; a session is a field on it. An entry with
+         no itemId means "here, not currently smoking" — which is how
+         someone who came only to talk gets seen and counted. */
+      async joinRoom() {
+        if (!me || !presenceChan) return null;
+        myPresence = Object.assign(myPresence || { joinedAt: Date.now() }, {
           memberId: me.id,
           handle: me.handle,
           avatar: me.avatar,
           reddit: me.reddit || null,
-          startedAt: Date.now(),
-        }, sess);
-        await presenceChan.track(mySession);
-        return mySession;
+          loc: (me.locMode !== 'off' && me.loc) ? me.loc : null,
+        });
+        await presenceChan.track(myPresence);
+        return myPresence;
+      },
+
+      async leaveRoom() {
+        myPresence = null;
+        if (presenceChan) await presenceChan.untrack();
+      },
+
+      async listRoom() {
+        if (!presenceChan) return [];
+        return Object.values(presenceChan.presenceState()).flat()
+          .filter(Boolean)
+          .sort((a, b) => (a.joinedAt || 0) - (b.joinedAt || 0));
+      },
+
+      async startSession(sess) {
+        await this.ensureAuth();
+        await this.joinRoom();
+        myPresence = Object.assign(myPresence, sess, { startedAt: Date.now() });
+        await presenceChan.track(myPresence);
+        return myPresence;
       },
 
       async updateSession(patch) {
-        if (!mySession) return null;
-        Object.assign(mySession, patch, {
+        if (!myPresence) return null;
+        Object.assign(myPresence, patch, {
           handle: me.handle, avatar: me.avatar, reddit: me.reddit || null,
         });
-        await presenceChan.track(mySession);
-        return mySession;
+        await presenceChan.track(myPresence);
+        return myPresence;
       },
 
       async endSession() {
         // Record the finished smoke before dropping presence — see
         // lounge_smokes in docs/lounge-backend.md.
-        if (mySession) {
-          const minutes = (Date.now() - mySession.startedAt) / 60000;
+        if (myPresence && myPresence.itemId) {
+          const minutes = (Date.now() - myPresence.startedAt) / 60000;
           if (minutes >= 2) {
             await sb.from('lounge_smokes').insert({
-              item_type: mySession.itemType,
-              item_id: mySession.itemId,
-              item_name: mySession.itemName,
-              drink: mySession.drink || null,
-              started_at: new Date(mySession.startedAt).toISOString(),
+              item_type: myPresence.itemType,
+              item_id: myPresence.itemId,
+              item_name: myPresence.itemName,
+              drink: myPresence.drink || null,
+              started_at: new Date(myPresence.startedAt).toISOString(),
               minutes: Math.round(minutes),
             });
           }
+          // Stay in the room; only the session ends.
+          ['itemType','itemId','itemName','drink','note','startedAt']
+            .forEach(k => delete myPresence[k]);
+          await presenceChan.track(myPresence);
         }
-        mySession = null;
-        if (presenceChan) await presenceChan.untrack();
       },
 
-      async getMySession() { return mySession; },
+      async getMySession() {
+        return (myPresence && myPresence.itemId) ? myPresence : null;
+      },
 
       async listSmokes(memberId) {
         let q = sb.from('lounge_smokes_v').select('*')

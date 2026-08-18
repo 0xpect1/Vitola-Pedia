@@ -418,6 +418,7 @@
         <div class="lg-hero-badge" id="lgModeBadge"></div>
         <h1>The <em>Lounge</em></h1>
         <p>Who's burning right now, and what they're saying about it.</p>
+        <div class="lg-room-count" id="lgRoomCount"></div>
         <div class="lg-hero-actions">
           <button class="lg-spark-btn" id="lgSparkBtn">
             <span class="lg-spark-ember"></span>
@@ -875,12 +876,23 @@
   async function renderPresence() {
     if (!$('lgMap')) return;
     const sessions = await BE.listPresence();
+    const room = BE.listRoom ? await BE.listRoom() : sessions;
 
-    $('lgLiveCount').textContent =
-      sessions.length === 1 ? '1 lit' : `${sessions.length} lit`;
+    const inRoom = room.length;
+    const lit = sessions.length;
+    $('lgLiveCount').innerHTML = inRoom
+      ? `<strong>${inRoom}</strong> in the room${lit ? ` · ${lit} lit` : ''}`
+      : 'Nobody here yet';
+
+    const hero = $('lgRoomCount');
+    if (hero) {
+      hero.innerHTML = inRoom
+        ? `<span class="lg-rc-dot"></span><strong>${inRoom}</strong> ${inRoom === 1 ? 'person' : 'people'} in the room`
+        : `<span class="lg-rc-dot off"></span>Nobody here yet — be the first`;
+    }
 
     // Map dots — only sessions that opted into sharing a location.
-    const located = sessions.filter(s => s.loc && typeof s.loc.lat === 'number');
+    const located = room.filter(s => s.loc && typeof s.loc.lat === 'number');
 
     // Two people in the same city would otherwise stack into one
     // unreadable blob, so co-located sessions collapse into one marker
@@ -908,15 +920,17 @@
         return `<span class="lg-ec-row">
           <span class="lg-ec-head"><span class="lg-ec-av">${av(s.avatar, '')}</span>${esc(s.handle)}${isMe ? ' <em>(you)</em>' : ''}</span>
           ${redditChip(s)}
-          <span class="lg-ec-item">${esc(s.itemName || (item && item.name) || 'Something good')}</span>
-          <span class="lg-ec-meta">lit ${elapsed(s.startedAt)}${(() => {
+          <span class="lg-ec-item">${s.itemId
+            ? esc(s.itemName || (item && item.name) || 'Something good')
+            : '<em>here, not lit</em>'}</span>
+          <span class="lg-ec-meta">${!s.itemId ? 'in the room' : `lit ${elapsed(s.startedAt)}`}${(() => {
             const b = burnState(s); return b ? ` · ${b.label}` : '';
           })()}</span>
         </span>`;
       }).join('');
 
       return `
-        <button class="lg-ember${mine ? ' is-me' : ''}${n > 1 ? ' is-cluster' : ''}"
+        <button class="lg-ember${mine ? ' is-me' : ''}${n > 1 ? ' is-cluster' : ''}${c.sessions.some(x => x.itemId) ? '' : ' is-idle'}"
                 style="left:${left}%;top:${top}%"
                 data-cluster="${esc(c.key)}"
                 aria-label="${n} smoking near ${esc(c.sessions[0].loc.label || 'here')}">
@@ -1991,11 +2005,20 @@
   /* ══════════════════════════════════════════════════════════════
      11. INIT
   ══════════════════════════════════════════════════════════════ */
+  /* Being in the room is separate from being lit. Anyone with a handle
+     who opens the lounge is present and counted; the map only shows the
+     subset who chose to share a location. */
+  async function ensureInRoom() {
+    if (!me || !BE.joinRoom) return;
+    try { await BE.joinRoom(); } catch (e) { /* solo mode, or not signed in yet */ }
+  }
+
   async function refresh() {
-    // Re-read identity so the header button follows any change to the
-    // avatar or handle, wherever that change came from.
+    // Identity first — ensureInRoom() needs it, and it was running against
+    // a stale `me`, so anyone who had just set a handle stayed uncounted.
     me = await BE.getMe();
     updateIdentityBtn();
+    await ensureInRoom();
     await renderPresence();
     await renderFeed();
     await renderChat();
