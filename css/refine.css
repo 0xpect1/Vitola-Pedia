@@ -134,11 +134,19 @@ body::after {
   margin: 0 auto 8px;
   padding: 0 24px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
-  gap: 26px;
+  /* Exactly two, never auto-fit. There are two shelves and there always
+     will be; auto-fit happily made room for a third at wide viewports and
+     left the pair stranded against the left edge. */
+  /* minmax(0, 1fr), not 1fr: a bare 1fr floors at min-content, and the
+     horizontally scrolling rail inside reports its full 1478px, blowing
+     the columns out past the viewport. Zero floor lets overflow-x work. */
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 26px 34px;
+  align-items: start;
 }
 .shelves:empty { display: none; }
 
+.shelf { min-width: 0; }
 .shelf-head { margin-bottom: 14px; }
 .shelf-head h2 {
   font-family: var(--font-serif);
@@ -231,9 +239,39 @@ body::after {
   border-top: 1px solid var(--border);
 }
 
-@media (max-width: 900px) {
-  .shelves { grid-template-columns: 1fr; gap: 30px; padding: 0 16px; }
+@media (max-width: 980px) {
+  .shelves { grid-template-columns: minmax(0, 1fr); gap: 32px; padding: 0 16px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .cigar-card, .house-card, .rail-card, .sim-card { transition: none; }
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   HEADER NAV OVERFLOW
+   The nav gained Houses, the ⌘K trigger and the Journal button, which
+   pushed a non-wrapping flex row past the viewport between roughly
+   760px and 1080px — 8px of horizontal page scroll, which reads as a
+   broken layout. It now scrolls within itself instead of widening the
+   page, and every item stays reachable.
+═══════════════════════════════════════════════════════════════════ */
+.header-inner { min-width: 0; }
+.header-nav {
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-snap-type: x proximity;
+}
+.header-nav::-webkit-scrollbar { display: none; }
+.header-nav > * { flex-shrink: 0; scroll-snap-align: end; }
+
+@media (max-width: 1100px) {
+  .header-nav { gap: 2px; }
+  .header-nav .nav-btn { padding: 7px 12px; letter-spacing: 0; }
+}
+@media (max-width: 860px) {
+  .header-nav .nav-btn { padding: 6px 10px; font-size: 12.5px; }
+  .brand-tagline { display: none; }
 }
