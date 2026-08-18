@@ -214,7 +214,12 @@ create policy "chat ban guard"
 -- The views use security_invoker, so auth.uid() works inside them.
 -- ═══════════════════════════════════════════════════════════════════
 
-create or replace view public.lounge_posts_v with (security_invoker = true) as
+-- PostgreSQL cannot add columns to a view via CREATE OR REPLACE VIEW.
+-- Must DROP first, then CREATE. CASCADE handles any dependent objects.
+drop view if exists public.lounge_posts_v cascade;
+drop view if exists public.lounge_comments_v cascade;
+
+create view public.lounge_posts_v with (security_invoker = true) as
 select p.*, m.handle, m.avatar,
        m.reddit_username, m.reddit_verified_username,
        coalesce((select v.dir from public.lounge_votes v
@@ -229,7 +234,7 @@ where p.hidden = false
      where am.id = auth.uid() and am.is_admin = true
    );
 
-create or replace view public.lounge_comments_v with (security_invoker = true) as
+create view public.lounge_comments_v with (security_invoker = true) as
 select c.*, m.handle, m.avatar,
        m.reddit_username, m.reddit_verified_username,
        coalesce((select v.dir from public.lounge_votes v
