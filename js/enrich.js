@@ -418,6 +418,167 @@
   }
 
   /* ══════════════════════════════════════════════════════════════
+     5. PAIRINGS — granular, grouped by category
+     Handles BOTH legacy string pairings ("Bourbon") and the new
+     structured objects ({ category, type, examples, notes }).
+     Strings get their category inferred from keywords; objects use
+     the explicit category when present.
+  ══════════════════════════════════════════════════════════════ */
+  const PAIRING_CATEGORIES = {
+    Spirits: {
+      icon: '🥃', accent: 'spirits',
+      keywords: ['bourbon','scotch','whiskey','whisky','rye','brandy',
+        'cognac','rum','tequila','mezcal','gin','vodka','absinthe',
+        'calvados','armagnac','pisco','aquavit','sake','saké','moonshine',
+        'tennessee','chartreuse','pastis','ouzo','arrack','soju','shochu',
+        'irish cream','irish whiskey','japanese whisky'],
+    },
+    Wine: {
+      icon: '🍷', accent: 'wine',
+      keywords: ['wine','champagne','sparkling','prosecco','cava','crémant',
+        'cremant','port','sherry','madeira','marsala','vermouth','chardonnay',
+        'cabernet','merlot','pinot','riesling','sauternes','burgundy',
+        'bordeaux','chianti','sangiovese','tempranillo','ice wine','icewine',
+        'gewürztraminer','gewurztraminer','grüner','gruner','vouvray','tokaji',
+        'barolo','barbaresco','tawny','tawny port','cream sherry'],
+    },
+    Beer: {
+      icon: '🍺', accent: 'beer',
+      keywords: ['beer','ale','lager','stout','porter','pilsner','pils',
+        'witbier','weiss','weizen','hefeweizen','ipa','amber ale','pale ale',
+        'ginger ale','cream ale','saison','faro','lambic','gose','kölsch',
+        'kolsch','bitter','dunkel','vienna','rauchbier','oktoberfest','märzen',
+        'marzen','bock','doppelbock','weisse'],
+    },
+    Coffee: {
+      icon: '☕', accent: 'coffee',
+      keywords: ['coffee','espresso','café','cafe','cappuccino','latte',
+        'macchiato','mocha','americano','ristretto','cortado','au lait',
+        'crème','creme','de olla','iced coffee','cold brew','flat white',
+        'lungo','red eye','cortadito','café crème','cafe creme','café au lait',
+        'cafe au lait','café de olla','cafe de olla'],
+    },
+    Food: {
+      icon: '🍽', accent: 'food',
+      keywords: ['chocolate','cheese','dessert','food','nuts','cake','pastry',
+        'croissant','crème brûlée','creme brulee','ice cream','gelato',
+        'cookie','biscotti','caramel','toffee','fruit','dried fruit',
+        'charcuterie','steak','bbq','barbecue','tapas','sushi','curry',
+        'chili','chilli','olive','jam','honey','panettone','stollen',
+        'marzipan','nougat','turrón','turron','dark chocolate'],
+    },
+  };
+
+  const PAIRING_ORDER = ['Spirits','Wine','Beer','Coffee','Food','Other'];
+
+  function inferPairingCategory(text) {
+    const t = String(text || '').toLowerCase();
+    if (!t) return 'Other';
+    for (const [name, cfg] of Object.entries(PAIRING_CATEGORIES)) {
+      for (const kw of cfg.keywords) {
+        if (t.includes(kw)) return name;
+      }
+    }
+    // Teas, waters, and anything else land in a neutral bucket so the
+    // five colour-coded categories stay uncluttered.
+    return 'Other';
+  }
+
+  function normalizePairing(p) {
+    if (p == null) return null;
+    if (typeof p === 'string') {
+      const trimmed = p.trim();
+      if (!trimmed) return null;
+      return {
+        category: inferPairingCategory(trimmed),
+        type: trimmed,
+        examples: [],
+        notes: '',
+      };
+    }
+    if (typeof p === 'object') {
+      const type = String(p.type || p.name || '').trim();
+      if (!type) return null;
+      const category = p.category
+        ? String(p.category).trim()
+        : inferPairingCategory(type);
+      const examples = Array.isArray(p.examples)
+        ? p.examples.map(e => String(e).trim()).filter(Boolean)
+        : (p.example ? [String(p.example).trim()] : []);
+      const notes = String(p.notes || p.note || '').trim();
+      return { category, type, examples, notes };
+    }
+    return null;
+  }
+
+  function buildPairings(pairings) {
+    const raw = Array.isArray(pairings) ? pairings : [];
+    if (!raw.length) return '';
+
+    const normalized = raw.map(normalizePairing).filter(Boolean);
+    if (!normalized.length) return '';
+
+    // Group by category, preserving first-seen order within each group.
+    const groups = {};
+    for (const p of normalized) {
+      (groups[p.category] = groups[p.category] || []).push(p);
+    }
+
+    // Order categories: known palette first, then any unexpected ones.
+    const orderedCats = PAIRING_ORDER.filter(c => groups[c]);
+    for (const c of Object.keys(groups)) {
+      if (!orderedCats.includes(c)) orderedCats.push(c);
+    }
+
+    const groupHtml = orderedCats.map(cat => {
+      const items = groups[cat];
+      const cfg = PAIRING_CATEGORIES[cat] || { icon: '•', accent: 'other' };
+
+      const itemsHtml = items.map(p => {
+        const exHtml = p.examples.length
+          ? `<div class="pairing-entry-examples">${p.examples.map(e =>
+              `<span class="pairing-example">${esc(e)}</span>`).join('')}</div>`
+          : '';
+        const notesHtml = p.notes
+          ? `<div class="pairing-entry-notes">${esc(p.notes)}</div>`
+          : '';
+        return `
+          <div class="pairing-entry">
+            <div class="pairing-entry-type">${esc(p.type)}</div>
+            ${exHtml}${notesHtml}
+          </div>`;
+      }).join('');
+
+      return `
+        <div class="pairing-group pairing-group--${cfg.accent}" role="group" aria-label="${esc(cat)} pairings">
+          <div class="pairing-group-head">
+            <span class="pairing-group-icon" aria-hidden="true">${cfg.icon}</span>
+            <span class="pairing-group-name">${esc(cat)}</span>
+            <span class="pairing-group-count">${items.length}</span>
+          </div>
+          <div class="pairing-group-items">${itemsHtml}</div>
+        </div>`;
+    }).join('');
+
+    return `<div class="pairing-groups">${groupHtml}</div>`;
+  }
+
+  /* Replace the simple pairing chip list rendered by app.js with the
+     granular, grouped display. Called from both the cigar and pipe
+     tobacco modal hooks. Returns true if it replaced something. */
+  function enrichPairings(body, pairings) {
+    if (!body) return false;
+    const section = body.querySelector('.modal-pairings');
+    if (!section) return false;
+    const rich = buildPairings(pairings);
+    if (!rich) return false;
+    section.innerHTML =
+      `<div class="modal-section-title">Pairs Well With</div>${rich}`;
+    section.classList.add('vp-pairings-rich-wrap');
+    return true;
+  }
+
+  /* ══════════════════════════════════════════════════════════════
      HOOK
   ══════════════════════════════════════════════════════════════ */
   function wrap() {
@@ -435,6 +596,9 @@
       const specs = body.querySelector('.modal-specs');
       if (specs) specs.insertAdjacentHTML('afterend', buildSizeViz(cigar) + buildContext(cigar));
 
+      // Replace the simple pairing chips with the granular, grouped display.
+      enrichPairings(body, cigar.pairings);
+
       // Recommendations go last, after the buy links.
       const buy = body.querySelector('.modal-buy-section') || body.lastElementChild;
       if (buy) buy.insertAdjacentHTML('afterend', buildSimilar(cigar));
@@ -448,6 +612,7 @@
         origPT(id);
         const pt = (typeof PIPE_TOBACCOS !== 'undefined' ? PIPE_TOBACCOS : []).find(p => p.id === id);
         if (!pt) return;
+        enrichPairings(document.getElementById('modalBody'), pt.pairings);
         addShareButton(document.getElementById('modalBody'), 'tobacco', id,
           pt.name + ' — Vitola Pedia');
       };
@@ -457,5 +622,5 @@
   // Run after immersive.js has done its own wrapping so both survive.
   document.addEventListener('DOMContentLoaded', () => setTimeout(wrap, 120));
 
-  window.VPEnrich = { similarTo, percentile, buildSizeViz, buildContext };
+  window.VPEnrich = { similarTo, percentile, buildSizeViz, buildContext, buildPairings };
 })();

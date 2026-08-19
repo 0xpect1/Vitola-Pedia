@@ -480,3 +480,130 @@
   .cmp-table tbody th { width: 88px; font-size: 9px; }
   .cmp-table th, .cmp-table td { padding: 9px; }
 }
+
+/* ══════════════════════════════════════════════════════════════════
+   PAIRINGS — granular, grouped by category
+   Replaces the simple chip list rendered by app.js with a premium,
+   colour-coded layout. Each category gets a card with an accent rail;
+   within a card, each pairing shows its sub-type, example bottles,
+   and a tasting note when the data provides them.
+═══════════════════════════════════════════════════════════════════ */
+.vp-pairings-rich-wrap { margin-bottom: 28px; }
+
+.pairing-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(248px, 1fr));
+  gap: 12px;
+}
+
+.pairing-group {
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--pg-accent, var(--border-h));
+  border-radius: var(--radius-md);
+  padding: 12px 14px 11px;
+  transition: border-color 0.18s, box-shadow 0.18s;
+}
+.pairing-group:hover {
+  border-color: var(--pg-accent);
+  box-shadow: 0 0 0 1px var(--pg-glow) inset;
+}
+
+/* Category colour coding */
+.pairing-group--spirits { --pg-accent: #d4a64a; --pg-glow: rgba(212,166,74,0.12); }
+.pairing-group--wine   { --pg-accent: #b5473a; --pg-glow: rgba(181,71,58,0.14); }
+.pairing-group--beer   { --pg-accent: #e0a93a; --pg-glow: rgba(224,169,58,0.12); }
+.pairing-group--coffee { --pg-accent: #9c6b3e; --pg-glow: rgba(156,107,62,0.14); }
+.pairing-group--food   { --pg-accent: #6f9e57; --pg-glow: rgba(111,158,87,0.14); }
+.pairing-group--other  { --pg-accent: var(--border-h); --pg-glow: transparent; }
+
+.pairing-group-head {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 9px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.pairing-group-icon {
+  font-size: 15px;
+  line-height: 1;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: var(--pg-glow);
+  flex-shrink: 0;
+}
+.pairing-group-name {
+  flex: 1;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--pg-accent, var(--text-primary));
+}
+.pairing-group-count {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 1px 7px;
+  min-width: 20px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.pairing-group-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pairing-entry {
+  padding: 1px 0;
+}
+.pairing-entry + .pairing-entry {
+  padding-top: 8px;
+  border-top: 1px dashed rgba(201,168,76,0.10);
+}
+
+.pairing-entry-type {
+  font-family: var(--font-serif);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.35;
+}
+
+.pairing-entry-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+.pairing-example {
+  font-size: 10px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--pg-glow);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.pairing-entry-notes {
+  font-size: 10.5px;
+  font-style: italic;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-top: 6px;
+}
+
+@media (max-width: 600px) {
+  .pairing-groups { grid-template-columns: 1fr; }
+}
