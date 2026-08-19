@@ -1,15 +1,7 @@
 /* ══════════════════════════════════════════════════════════════════
-   VITOLA PEDIA — HYPER-REALISTIC 3D GLOBE v3
-   Google Earth-style with tile-based satellite imagery on zoom.
-
-   LOD system:
-   - Far (zoom > 2.5):  Blue Marble global texture (current)
-   - Mid (zoom 1.5-2.5): Higher-res satellite equirectangular
-   - Near (zoom < 1.5):  Esri World Imagery tiles composited dynamically
-
-   Uses Esri World Imagery (free, no API key):
-   https://services.arcgisonline.com/arcgis/rest/services/
-     World_Imagery/MapServer/tile/{z}/{y}/{x}
+   VITOLA PEDIA — 3D GLOBE v4 (Simple, Working, Sharp)
+   No custom shaders. No tile loading. Just Three.js built-in materials
+   with high-res textures, real lighting, and clear presence markers.
    ══════════════════════════════════════════════════════════════════ */
 
 (function () {
@@ -20,6 +12,7 @@
   let scene = null;
   let camera = null;
   let globe = null;
+  let nightGlobe = null;
   let clouds = null;
   let atmosphere = null;
   let starField = null;
@@ -31,7 +24,7 @@
   let isDragging = false;
   let dragStartX = 0;
   let dragStartY = 0;
-  let velRotY = 0;    // momentum velocity for rotation
+  let velRotY = 0;
   let velRotX = 0;
   let rotY = 0;
   let rotX = 0.35;
@@ -42,35 +35,15 @@
   let autoRotate = false;
   let lastInteraction = 0;
 
-  // Tile texture — canvas only covers the visible region, not the whole globe.
-  // UV offset/scale uniforms tell the shader which lat/lon range the canvas covers.
-  let tileCanvas = null;
-  let tileCtx = null;
-  let tileTexture = null;
-  const TILE_RES = 256;      // each Esri tile is 256px
-  const TILE_GRID = 8;       // 8x8 grid of tiles loaded at once = 2048px canvas
-  let currentTileZoom = -1;
-  let tilesLoading = false;
-  // UV bounds of the current tile canvas on the globe [uMin, uMax, vMin, vMax]
-  let tileUvBounds = { uMin: 0, uMax: 1, vMin: 0, vMax: 1 };
-
   const R = 1;
 
-  // Texture URLs — high-resolution sources for Google Earth richness
+  // High-res textures from three-globe (CORS-enabled, reliable)
   const TEX = {
-    // Three.js example textures — known to work with WebGL, CORS-enabled
-    earth:  'https://threejs.org/examples/textures/planets/earth_atmos_2048.jpg',
-    night:  'https://threejs.org/examples/textures/planets/earth_lights_2048.png',
-    bump:   'https://threejs.org/examples/textures/planets/earth_normal_2048.jpg',
-    clouds: 'https://threejs.org/examples/textures/planets/earth_clouds_1024.png',
-    water:  'https://unpkg.com/three-globe/example/img/earth-water.png',
-    hires:  'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg',
+    earth:  'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg',
+    night:  'https://unpkg.com/three-globe/example/img/earth-night.jpg',
+    bump:   'https://unpkg.com/three-globe/example/img/earth-topology.png',
+    clouds: 'https://unpkg.com/three-globe/example/img/clouds.png',
   };
-
-  // Esri tile URL builder
-  function esriTileUrl(z, x, y) {
-    return `https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/${z}/${y}/${x}`;
-  }
 
   const TERROIR = [
     { origin: 'Cuba',               region: 'Vuelta Abajo',           lat: 22.4,  lon: -83.7 },
@@ -85,7 +58,6 @@
     { origin: 'Ecuador',            region: 'Los Rios (wrapper leaf)', lat: -1.0, lon: -79.5 },
   ];
 
-  /* ── LAT/LON → 3D ────────────────────────────────────────────── */
   function latLonToVec3(lat, lon, radius) {
     const r = radius || R;
     const phi = (90 - lat) * Math.PI / 180;
@@ -97,469 +69,6 @@
     );
   }
 
-  /* ── CAMERA RAY → LAT/LON (for tile loading) ─────────────────── */
-  function cameraToLatLon() {
-    // Direction from globe center to camera
-    const dir = new T.Vector3();
-    camera.getWorldPosition(dir);
-    dir.normalize();
-
-    // Convert 3D vector to lat/lon
-    const lat = 90 - Math.acos(dir.y) * 180 / Math.PI;
-    let lon = Math.atan2(dir.z, -dir.x) * 180 / Math.PI - 180;
-    while (lon < -180) lon += 360;
-    while (lon > 180) lon -= 360;
-    return { lat, lon };
-  }
-
-  /* ── EARTH SHADER ────────────────────────────────────────────── */
-  function createEarthMaterial() {
-    const loader = new T.TextureLoader();
-    loader.setCrossOrigin('anonymous');
-
-    const dayTex = loader.load(TEX.earth);
-    const nightTex = loader.load(TEX.night);
-    const bumpTex = loader.load(TEX.bump);
-    const waterTex = loader.load(TEX.water);
-
-    dayTex.colorSpace = T.SRGBColorSpace;
-    nightTex.colorSpace = T.SRGBColorSpace;
-    bumpTex.colorSpace = T.SRGBColorSpace;
-
-    // High-quality texture filtering for crisp continents
-    const maxAniso = renderer.capabilities.getMaxAnisotropy();
-    [dayTex, nightTex, bumpTex, waterTex].forEach(tex => {
-      tex.anisotropy = maxAniso;
-      tex.minFilter = T.LinearMipmapLinearFilter;
-      tex.magFilter = T.LinearFilter;
-      tex.generateMipmaps = true;
-    });
-
-    // Create a 1x1 placeholder texture for the tile sampler so WebGL
-    // doesn't break when tileBlend is 0. Never leave a sampler null.
-    const placeholderCanvas = document.createElement('canvas');
-    placeholderCanvas.width = 1; placeholderCanvas.height = 1;
-    const pCtx = placeholderCanvas.getContext('2d');
-    pCtx.fillStyle = '#000000';
-    pCtx.fillRect(0, 0, 1, 1);
-    const placeholderTex = new T.CanvasTexture(placeholderCanvas);
-    placeholderTex.colorSpace = T.SRGBColorSpace;
-
-    // Tile texture — starts null, gets populated when zoomed in
-    tileTexture = new T.CanvasTexture(document.createElement('canvas'));
-    tileTexture.colorSpace = T.SRGBColorSpace;
-
-    return new T.ShaderMaterial({
-      uniforms: {
-        dayTexture:   { value: dayTex },
-        nightTexture: { value: nightTex },
-        bumpTexture:  { value: bumpTex },
-        waterTexture: { value: waterTex },
-        sunDirection: { value: new T.Vector3(1, 0, 0) },
-        // Tile texture starts as a 1x1 black pixel — NOT null.
-        // A null sampler in WebGL silently breaks the entire shader.
-        tileTexture:  { value: placeholderTex },
-        tileBlend:    { value: 0.0 },
-        // UV offset/scale so the tile canvas only covers the loaded region
-        tileUvOffset: { value: new T.Vector2(0, 0) },
-        tileUvScale:  { value: new T.Vector2(1, 1) },
-      },
-      vertexShader: `
-        varying vec2 vUv;
-        varying vec3 vWorldNormal;
-        void main() {
-          vUv = uv;
-          vWorldNormal = normalize(mat3(modelMatrix) * normal);
-          gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
-        }
-      `,
-      fragmentShader: `
-        uniform sampler2D dayTexture;
-        uniform sampler2D nightTexture;
-        uniform sampler2D bumpTexture;
-        uniform sampler2D waterTexture;
-        uniform sampler2D tileTexture;
-        uniform float tileBlend;
-        uniform vec2 tileUvOffset;
-        uniform vec2 tileUvScale;
-        uniform vec3 sunDirection;
-        varying vec2 vUv;
-        varying vec3 vWorldNormal;
-
-        void main() {
-          vec3 N = normalize(vWorldNormal);
-          float sunInt = dot(N, normalize(sunDirection));
-
-          // Sharper terminator — Google Earth has a crisp day/night line
-          float dayAmount = smoothstep(-0.03, 0.12, sunInt);
-          float nightAmount = 1.0 - dayAmount;
-
-          // ── DAY SIDE ──────────────────────────────────────────
-          vec3 dayColor = texture2D(dayTexture, vUv).rgb;
-          float bump = texture2D(bumpTexture, vUv).r;
-
-          // Saturation boost — continents pop like Google Earth
-          float dayLum = dot(dayColor, vec3(0.299, 0.587, 0.114));
-          vec3 daySat = mix(vec3(dayLum), dayColor, 1.35);
-          dayColor = mix(dayColor, daySat, 0.6);
-
-          // Terrain relief — darker in valleys, brighter on peaks
-          dayColor *= 0.7 + bump * 0.6;
-
-          // Slight contrast curve for richer land
-          dayColor = pow(dayColor, vec3(0.88));
-
-          // Ocean specular — sun glint on water (Google Earth signature look)
-          float waterMask = texture2D(waterTexture, vUv).r;
-          vec3 viewDir = normalize(cameraPosition);
-          vec3 reflectDir = reflect(-normalize(sunDirection), N);
-          float specAngle = max(0.0, dot(reflectDir, viewDir));
-          float oceanSpec = pow(specAngle, 40.0) * waterMask * 2.0;
-          float oceanGlint = pow(specAngle, 8.0) * waterMask * 0.3;
-          vec3 specColor = vec3(1.0, 0.95, 0.85) * (oceanSpec + oceanGlint);
-
-          // ── NIGHT SIDE ───────────────────────────────────────
-          vec3 nightColor = texture2D(nightTexture, vUv).rgb;
-          // Boost city lights 3.5x with sharp threshold for visible outlines
-          float cityMask = step(0.08, nightColor.r + nightColor.g + nightColor.b);
-          nightColor *= 3.5;
-          // Warm amber city glow — lights read as warm, not white
-          float cityBright = length(nightColor) / 1.732;
-          vec3 cityWarm = vec3(1.0, 0.65, 0.25) * cityBright * 0.8;
-          nightColor += cityWarm * cityMask;
-          // Subtle deep blue ambient on the dark side — never pure black
-          nightColor += vec3(0.015, 0.025, 0.05) * (1.0 - waterMask);
-
-          // ── BLEND ────────────────────────────────────────────
-          vec3 color = mix(nightColor, dayColor, dayAmount);
-          // Add specular only on day side
-          color += specColor * dayAmount;
-
-          // ── TWILIGHT BAND ────────────────────────────────────
-          float twilight = 1.0 - abs(sunInt - 0.06);
-          twilight = pow(max(0.0, twilight), 2.5);
-          vec3 twilightColor = vec3(0.85, 0.4, 0.15) * twilight * 0.7;
-          color += twilightColor;
-
-          // ── HIGH-RES TILES ───────────────────────────────────
-          if (tileBlend > 0.001) {
-            // Remap UV: the tile canvas only covers a sub-region of the globe.
-            // tileUvOffset + vUv * tileUvScale maps globe UV → tile canvas UV.
-            vec2 tileUv = tileUvOffset + vUv * tileUvScale;
-            // Only sample if within the tile canvas bounds
-            if (tileUv.x >= 0.0 && tileUv.x <= 1.0 && tileUv.y >= 0.0 && tileUv.y <= 1.0) {
-              vec3 tileColor = texture2D(tileTexture, tileUv).rgb;
-              // Saturation boost on tiles too
-              float tileLum = dot(tileColor, vec3(0.299, 0.587, 0.114));
-              vec3 tileSat = mix(vec3(tileLum), tileColor, 1.25);
-              tileColor = mix(tileColor, tileSat, 0.5);
-              vec3 tileDay = tileColor * (0.75 + bump * 0.4);
-              vec3 tileNight = tileColor * 0.02 + nightColor * 0.5;
-              vec3 tileLit = mix(tileNight, tileDay, dayAmount);
-              tileLit += specColor * waterMask * dayAmount * 0.5;
-              tileLit += twilightColor * 0.5;
-              color = mix(color, tileLit, tileBlend);
-            }
-          }
-
-          // ── ATMOSPHERIC SCATTERING (limb darkening + blue tint) ──
-          float limbFactor = 1.0 - abs(dot(N, normalize(cameraPosition)));
-          limbFactor = pow(limbFactor, 3.0);
-          vec3 atmoTint = vec3(0.15, 0.25, 0.45) * limbFactor * dayAmount * 0.3;
-          color += atmoTint;
-
-          gl_FragColor = vec4(color, 1.0);
-        }
-      `,
-    });
-  }
-
-  /* ── TILE LOADING ────────────────────────────────────────────── */
-  // Load Esri satellite tiles for the visible region at FULL resolution.
-  // The canvas is TILE_GRID * TILE_RES pixels (e.g. 8 * 256 = 2048px)
-  // and only covers the region around the camera target. UV offset/scale
-  // uniforms tell the shader which lat/lon range this canvas represents.
-  function loadTilesForView() {
-    if (tilesLoading || !globe || !globe.material) return;
-    if (zoom > 2.2) {
-      if (globe.material.uniforms.tileBlend.value > 0.01) {
-        globe.material.uniforms.tileBlend.value *= 0.88;
-      }
-      currentTileZoom = -1;
-      return;
-    }
-
-    tilesLoading = true;
-
-    // Esri zoom level based on camera zoom
-    const esriZ = Math.max(2, Math.min(8, Math.round(3 + (2.2 - zoom) * 2.5)));
-
-    if (esriZ === currentTileZoom && globe.material.uniforms.tileBlend.value > 0.5) {
-      tilesLoading = false;
-      return;
-    }
-    currentTileZoom = esriZ;
-
-    const target = cameraToLatLon();
-    const tilesPerSide = Math.pow(2, esriZ);
-
-    // Canvas size: TILE_GRID x TILE_GRID tiles at TILE_RES each
-    const canvasW = TILE_GRID * TILE_RES;
-    const canvasH = TILE_GRID * TILE_RES;
-    if (!tileCanvas) {
-      tileCanvas = document.createElement('canvas');
-      tileCanvas.width = canvasW;
-      tileCanvas.height = canvasH;
-      tileCtx = tileCanvas.getContext('2d');
-    }
-    tileCtx.clearRect(0, 0, canvasW, canvasH);
-
-    // Camera target in tile coordinates
-    const latRad = target.lat * Math.PI / 180;
-    const camTileX = ((target.lon + 180) / 360) * tilesPerSide;
-    const camTileY = ((1 - Math.log(Math.tan(latRad) + 1 / Math.cos(latRad)) / Math.PI) / 2) * tilesPerSide;
-
-    const halfGrid = Math.floor(TILE_GRID / 2);
-
-    // Compute the lat/lon bounds of the tile window
-    const startTileX = Math.floor(camTileX) - halfGrid;
-    const startTileY = Math.max(0, Math.min(tilesPerSide - 1, Math.floor(camTileY) - halfGrid));
-
-    // Lon bounds (simple linear mapping)
-    const lonStart = (startTileX / tilesPerSide) * 360 - 180;
-    const lonEnd = ((startTileX + TILE_GRID) / tilesPerSide) * 360 - 180;
-
-    // Lat bounds using Web Mercator projection
-    const nTop = Math.PI - (2 * Math.PI * startTileY) / tilesPerSide;
-    const latTop = (180 / Math.PI) * Math.atan(Math.sinh(nTop));
-    const nBot = Math.PI - (2 * Math.PI * (startTileY + TILE_GRID)) / tilesPerSide;
-    const latBot = (180 / Math.PI) * Math.atan(Math.sinh(nBot));
-
-    // Store UV bounds for the shader
-    // Globe UV: u = (lon + 180) / 360, v = (90 - lat) / 180
-    const uMin = (lonStart + 180) / 360;
-    const uMax = (lonEnd + 180) / 360;
-    const vMin = (90 - latTop) / 180;
-    const vMax = (90 - latBot) / 180;
-    tileUvBounds = { uMin, uMax, vMin, vMax };
-
-    // UV offset/scale for shader: tileUv = offset + globeUv * scale
-    // We want: tileUv = (globeUv - uMin) / (uMax - uMin) for x
-    //         tileUv = (globeUv - vMin) / (vMax - vMin) for y
-    // So: offset = -uMin / (uMax - uMin), scale = 1 / (uMax - uMin)
-    const scaleX = 1 / (uMax - uMin);
-    const scaleY = 1 / (vMax - vMin);
-    const offsetX = -uMin * scaleX;
-    const offsetY = -vMin * scaleY;
-
-    let loaded = 0;
-    const total = TILE_GRID * TILE_GRID;
-
-    for (let dx = 0; dx < TILE_GRID; dx++) {
-      for (let dy = 0; dy < TILE_GRID; dy++) {
-        const tx = (startTileX + dx + tilesPerSide) % tilesPerSide;
-        const ty = Math.max(0, Math.min(tilesPerSide - 1, startTileY + dy));
-        const url = esriTileUrl(esriZ, tx, ty);
-
-        const img = new Image();
-        img.crossOrigin = 'anonymous';
-        img.onload = () => {
-          tileCtx.drawImage(img, dx * TILE_RES, dy * TILE_RES, TILE_RES, TILE_RES);
-          loaded++;
-          if (loaded >= total) finishTileLoad(offsetX, offsetY, scaleX, scaleY);
-        };
-        img.onerror = () => { loaded++; if (loaded >= total) finishTileLoad(offsetX, offsetY, scaleX, scaleY); };
-        img.src = url;
-      }
-    }
-
-    setTimeout(() => { if (loaded < total) { loaded = total; finishTileLoad(offsetX, offsetY, scaleX, scaleY); } }, 4000);
-  }
-
-  function finishTileLoad(offsetX, offsetY, scaleX, scaleY) {
-    if (!globe || !globe.material) { tilesLoading = false; return; }
-
-    if (!tileTexture) {
-      tileTexture = new T.CanvasTexture(tileCanvas);
-      tileTexture.colorSpace = T.SRGBColorSpace;
-    } else {
-      tileTexture.image = tileCanvas;
-      tileTexture.needsUpdate = true;
-    }
-
-    tileTexture.minFilter = T.LinearMipmapLinearFilter;
-    tileTexture.magFilter = T.LinearFilter;
-    tileTexture.generateMipmaps = true;
-    const maxA = renderer ? renderer.capabilities.getMaxAnisotropy() : 8;
-    tileTexture.anisotropy = maxA;
-
-    globe.material.uniforms.tileTexture.value = tileTexture;
-    // Set UV remap so the regional canvas maps to the correct lat/lon
-    globe.material.uniforms.tileUvOffset.value.set(offsetX, offsetY);
-    globe.material.uniforms.tileUvScale.value.set(scaleX, scaleY);
-
-    const blendAmount = Math.max(0, Math.min(1, (2.2 - zoom) / 0.7));
-    globe.material.uniforms.tileBlend.value = blendAmount;
-
-    tilesLoading = false;
-  }
-
-  /* ── CLOUDS ──────────────────────────────────────────────────── */
-  function createClouds() {
-    const loader = new T.TextureLoader();
-    loader.setCrossOrigin('anonymous');
-    const cloudTex = loader.load(TEX.clouds);
-    cloudTex.colorSpace = T.SRGBColorSpace;
-
-    const geom = new T.SphereGeometry(R * 1.01, 64, 64);
-    const mat = new T.MeshPhongMaterial({
-      map: cloudTex, transparent: true, opacity: 0.3,
-      depthWrite: false, blending: T.NormalBlending,
-    });
-    return new T.Mesh(geom, mat);
-  }
-
-  /* ── ATMOSPHERE ──────────────────────────────────────────────── */
-  function createAtmosphere() {
-    const geom = new T.SphereGeometry(R * 1.2, 64, 64);
-    const mat = new T.ShaderMaterial({
-      uniforms: {
-        glowColor: { value: new T.Color(0.25, 0.4, 0.8) },
-        warmColor: { value: new T.Color(0.9, 0.4, 0.15) },
-        sunDir:    { value: new T.Vector3(1, 0, 0) },
-      },
-      vertexShader: `
-        varying vec3 vNormal;
-        varying vec3 vWorldNormal;
-        void main() {
-          vNormal = normalize(normalMatrix * normal);
-          vWorldNormal = normalize(mat3(modelMatrix) * normal);
-          gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
-        }
-      `,
-      fragmentShader: `
-        uniform vec3 glowColor;
-        uniform vec3 warmColor;
-        uniform vec3 sunDir;
-        varying vec3 vNormal;
-        varying vec3 vWorldNormal;
-        void main() {
-          // Fresnel — stronger at the edges
-          float intensity = pow(0.65 - dot(vNormal, vec3(0, 0, 1.0)), 2.0);
-
-          // Sun-facing side is brighter and bluer
-          float sunFactor = max(0.0, dot(vWorldNormal, normalize(sunDir)));
-
-          // Terminator gets warm orange (sunset colors)
-          float terminator = 1.0 - abs(dot(vWorldNormal, normalize(sunDir)) - 0.05);
-          terminator = pow(max(0.0, terminator), 2.0);
-
-          // Blend blue glow with warm sunset at the terminator
-          vec3 color = glowColor * (0.2 + sunFactor * 0.8);
-          color = mix(color, warmColor, terminator * 0.5);
-
-          gl_FragColor = vec4(color, intensity * 0.65);
-        }
-      `,
-      side: T.BackSide,
-      blending: T.AdditiveBlending,
-      transparent: true,
-      depthWrite: false,
-    });
-    return new T.Mesh(geom, mat);
-  }
-
-  /* ── STARS ──────────────────────────────────────────────────── */
-  function createStarField() {
-    const geom = new T.BufferGeometry();
-    const count = 3000;
-    const positions = new Float32Array(count * 3);
-    for (let i = 0; i < count; i++) {
-      const r = 40 + Math.random() * 60;
-      const theta = Math.random() * Math.PI * 2;
-      const phi = Math.acos(Math.random() * 2 - 1);
-      positions[i * 3] = r * Math.sin(phi) * Math.cos(theta);
-      positions[i * 3 + 1] = r * Math.cos(phi);
-      positions[i * 3 + 2] = r * Math.sin(phi) * Math.sin(theta);
-    }
-    geom.setAttribute('position', new T.BufferAttribute(positions, 3));
-    return new T.Points(geom, new T.PointsMaterial({
-      color: 0xffffff, size: 0.12, sizeAttenuation: true,
-      transparent: true, opacity: 0.7, blending: T.AdditiveBlending,
-      depthWrite: false,
-    }));
-  }
-
-  /* ── EMBER ──────────────────────────────────────────────────── */
-  function createEmber(lat, lon, isMe) {
-    const group = new T.Group();
-    const pos = latLonToVec3(lat, lon, R * 1.01);
-
-    const core = new T.Mesh(
-      new T.SphereGeometry(0.014, 16, 16),
-      new T.MeshBasicMaterial({ color: isMe ? 0xe0c070 : 0xff7030, transparent: true, opacity: 0.95, blending: T.AdditiveBlending })
-    );
-    group.add(core);
-
-    const glow = new T.Mesh(
-      new T.SphereGeometry(0.03, 16, 16),
-      new T.MeshBasicMaterial({ color: isMe ? 0xc9a84c : 0xe05a2a, transparent: true, opacity: 0.25, blending: T.AdditiveBlending, depthWrite: false })
-    );
-    group.add(glow);
-
-    const beamH = 0.06;
-    const beam = new T.Mesh(
-      new T.CylinderGeometry(0.002, 0.007, beamH, 8, 1, true),
-      new T.MeshBasicMaterial({ color: isMe ? 0xe0c070 : 0xff7030, transparent: true, opacity: 0.35, blending: T.AdditiveBlending, depthWrite: false, side: T.DoubleSide })
-    );
-    beam.position.copy(latLonToVec3(lat, lon, R + beamH / 2));
-    beam.lookAt(0, 0, 0);
-    beam.rotateX(Math.PI / 2);
-    group.add(beam);
-
-    group.position.copy(pos);
-    group.userData = { core, glow, beam, pulse: Math.random() * Math.PI * 2 };
-    return group;
-  }
-
-  /* ── TERROIR ─────────────────────────────────────────────────── */
-  function createTerroirMarker(lat, lon, count) {
-    const group = new T.Group();
-    const pos = latLonToVec3(lat, lon, R * 1.005);
-    const sz = Math.max(0.009, Math.min(0.02, 0.007 + Math.log10(count + 1) * 0.007));
-
-    const diamond = new T.Mesh(
-      new T.OctahedronGeometry(sz, 0),
-      new T.MeshBasicMaterial({ color: 0xc9a84c, transparent: true, opacity: 0.85, blending: T.AdditiveBlending, depthWrite: false })
-    );
-    group.add(diamond);
-
-    const ring = new T.Mesh(
-      new T.RingGeometry(sz * 1.6, sz * 2.2, 24),
-      new T.MeshBasicMaterial({ color: 0xc9a84c, transparent: true, opacity: 0.15, side: T.DoubleSide, blending: T.AdditiveBlending, depthWrite: false })
-    );
-    ring.lookAt(0, 0, 0);
-    group.add(ring);
-
-    group.position.copy(pos);
-    group.lookAt(0, 0, 0);
-    group.userData = { diamond, ring, pulse: Math.random() * Math.PI * 2 };
-    return group;
-  }
-
-  /* ── ARC ─────────────────────────────────────────────────────── */
-  function createArc(fromLat, fromLon, toLat, toLon) {
-    const from = latLonToVec3(fromLat, fromLon, R);
-    const to = latLonToVec3(toLat, toLon, R);
-    const mid = from.clone().add(to).multiplyScalar(0.5);
-    const dist = from.distanceTo(to);
-    mid.normalize().multiplyScalar(R * (1 + Math.min(0.35, dist * 0.35)));
-    const curve = new T.QuadraticBezierCurve3(from, mid, to);
-    const geom = new T.BufferGeometry().setFromPoints(curve.getPoints(50));
-    return new T.Line(geom, new T.LineBasicMaterial({ color: 0xc9a84c, transparent: true, opacity: 0.45, blending: T.AdditiveBlending, depthWrite: false }));
-  }
-
-  /* ── SUN DIRECTION ───────────────────────────────────────────── */
   function sunDirection() {
     const d = new Date();
     const dayMs = 86400000;
@@ -575,6 +84,17 @@
       Math.sin(declRad),
       Math.cos(declRad) * Math.sin(lonRad),
     );
+  }
+
+  function cameraToLatLon() {
+    const dir = new T.Vector3();
+    camera.getWorldPosition(dir);
+    dir.normalize();
+    const lat = 90 - Math.acos(dir.y) * 180 / Math.PI;
+    let lon = Math.atan2(dir.z, -dir.x) * 180 / Math.PI - 180;
+    while (lon < -180) lon += 360;
+    while (lon > 180) lon -= 360;
+    return { lat, lon };
   }
 
   /* ── INIT ────────────────────────────────────────────────────── */
@@ -596,66 +116,143 @@
       camera = new T.PerspectiveCamera(40, w / h, 0.1, 200);
       camera.position.set(0, 0, zoom);
 
-      // Earth with custom shader
-      const earthMat = createEarthMaterial();
+      const loader = new T.TextureLoader();
+      loader.setCrossOrigin('anonymous');
+      const maxA = renderer.capabilities.getMaxAnisotropy();
+
+      // ── EARTH (day side) ──────────────────────────────────
+      const earthTex = loader.load(TEX.earth);
+      earthTex.colorSpace = T.SRGBColorSpace;
+      earthTex.anisotropy = maxA;
+
+      const bumpTex = loader.load(TEX.bump);
+      bumpTex.anisotropy = maxA;
+
+      const earthMat = new T.MeshPhongMaterial({
+        map: earthTex,
+        bumpMap: bumpTex,
+        bumpScale: 0.04,
+        shininess: 12,
+        specular: new T.Color(0x333344),
+      });
+
       globe = new T.Mesh(new T.SphereGeometry(R, 128, 128), earthMat);
       scene.add(globe);
 
-      // Fallback texture loader
-      const fl = new T.TextureLoader();
-      fl.setCrossOrigin('anonymous');
-      fl.load(TEX.earth, (tex) => {
-        tex.colorSpace = T.SRGBColorSpace;
-        if (globe && globe.material && globe.material.uniforms &&
-            globe.material.uniforms.dayTexture &&
-            !globe.material.uniforms.dayTexture.value.image) {
-          globe.material.uniforms.dayTexture.value = tex;
-          globe.material.needsUpdate = true;
-        }
+      // ── NIGHT SIDE (city lights) ──────────────────────────
+      // A second, slightly larger sphere with the night texture
+      // and additive blending, so city lights glow over the dark side.
+      const nightTex = loader.load(TEX.night);
+      nightTex.colorSpace = T.SRGBColorSpace;
+      nightTex.anisotropy = maxA;
+
+      const nightMat = new T.MeshBasicMaterial({
+        map: nightTex,
+        transparent: true,
+        opacity: 0.0,    // controlled by sun position in animate()
+        blending: T.AdditiveBlending,
+        depthWrite: false,
       });
 
-      // Clouds
-      clouds = createClouds();
+      nightGlobe = new T.Mesh(new T.SphereGeometry(R * 1.002, 128, 128), nightMat);
+      globe.add(nightGlobe);
+
+      // ── CLOUDS ────────────────────────────────────────────
+      const cloudTex = loader.load(TEX.clouds);
+      cloudTex.colorSpace = T.SRGBColorSpace;
+      cloudTex.anisotropy = maxA;
+
+      const cloudMat = new T.MeshPhongMaterial({
+        map: cloudTex,
+        transparent: true,
+        opacity: 0.35,
+        depthWrite: false,
+      });
+      clouds = new T.Mesh(new T.SphereGeometry(R * 1.012, 64, 64), cloudMat);
       globe.add(clouds);
 
-      // Atmosphere
-      atmosphere = createAtmosphere();
+      // ── ATMOSPHERE ────────────────────────────────────────
+      const atmoMat = new T.ShaderMaterial({
+        uniforms: {
+          glowColor: { value: new T.Color(0.3, 0.5, 0.9) },
+        },
+        vertexShader: `
+          varying vec3 vNormal;
+          void main() {
+            vNormal = normalize(normalMatrix * normal);
+            gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+          }
+        `,
+        fragmentShader: `
+          uniform vec3 glowColor;
+          varying vec3 vNormal;
+          void main() {
+            float intensity = pow(0.7 - dot(vNormal, vec3(0, 0, 1.0)), 2.0);
+            gl_FragColor = vec4(glowColor, intensity * 0.5);
+          }
+        `,
+        side: T.BackSide,
+        blending: T.AdditiveBlending,
+        transparent: true,
+        depthWrite: false,
+      });
+      atmosphere = new T.Mesh(new T.SphereGeometry(R * 1.2, 64, 64), atmoMat);
       scene.add(atmosphere);
 
-      // Stars
-      starField = createStarField();
+      // ── STARS ─────────────────────────────────────────────
+      const starGeom = new T.BufferGeometry();
+      const starCount = 3000;
+      const starPos = new Float32Array(starCount * 3);
+      for (let i = 0; i < starCount; i++) {
+        const r = 40 + Math.random() * 60;
+        const theta = Math.random() * Math.PI * 2;
+        const phi = Math.acos(Math.random() * 2 - 1);
+        starPos[i * 3] = r * Math.sin(phi) * Math.cos(theta);
+        starPos[i * 3 + 1] = r * Math.cos(phi);
+        starPos[i * 3 + 2] = r * Math.sin(phi) * Math.sin(theta);
+      }
+      starGeom.setAttribute('position', new T.BufferAttribute(starPos, 3));
+      starField = new T.Points(starGeom, new T.PointsMaterial({
+        color: 0xffffff, size: 0.12, sizeAttenuation: true,
+        transparent: true, opacity: 0.7, blending: T.AdditiveBlending,
+        depthWrite: false,
+      }));
       scene.add(starField);
 
-      // Lights
-      sunLight = new T.DirectionalLight(0xffffff, 0.6);
-      sunLight.position.set(5, 3, 5);
+      // ── LIGHTS ────────────────────────────────────────────
+      sunLight = new T.DirectionalLight(0xffffff, 1.5);
       scene.add(sunLight);
-      scene.add(new T.AmbientLight(0x222233, 0.3));
+      scene.add(new T.AmbientLight(0x111122, 0.5));
 
-      // Content groups
-      emberGroup = new T.Group(); globe.add(emberGroup);
-      terroirGroup = new T.Group(); globe.add(terroirGroup);
-      arcGroup = new T.Group(); globe.add(arcGroup);
+      // ── CONTENT GROUPS ────────────────────────────────────
+      emberGroup = new T.Group();
+      globe.add(emberGroup);
+      terroirGroup = new T.Group();
+      globe.add(terroirGroup);
+      arcGroup = new T.Group();
+      globe.add(arcGroup);
 
-      // Terroir markers
+      // ── TERROIR MARKERS ──────────────────────────────────
       const counts = {};
       if (typeof CIGARS !== 'undefined') {
         CIGARS.forEach(c => { counts[c.origin] = (counts[c.origin] || 0) + 1; });
       }
       TERROIR.forEach(t => {
         const n = counts[t.origin] || 0;
-        if (n) terroirGroup.add(createTerroirMarker(t.lat, t.lon, n));
+        if (n) terroirGroup.add(createTerroirMarker(t.lat, t.lon, n, t));
       });
 
-      // Events
+      // ── EVENTS ───────────────────────────────────────────
       const el = renderer.domElement;
       el.addEventListener('mousedown', onDragStart);
-      el.addEventListener('touchstart', (e) => { onTouchStart(e); if (e.touches.length < 2) onDragStart(e); }, { passive: false });
+      el.addEventListener('touchstart', (e) => { if (e.touches.length < 2) onDragStart(e); }, { passive: true });
       window.addEventListener('mousemove', onDragMove);
-      window.addEventListener('touchmove', (e) => { onTouchMove(e); if (e.touches.length < 2) onDragMove(e); }, { passive: false });
+      window.addEventListener('touchmove', (e) => { if (e.touches.length < 2) onDragMove(e); }, { passive: true });
       window.addEventListener('mouseup', onDragEnd);
       window.addEventListener('touchend', onDragEnd);
       el.addEventListener('wheel', onWheel, { passive: false });
+      el.addEventListener('touchstart', onTouchStart, { passive: true });
+      el.addEventListener('touchmove', onTouchMove, { passive: true });
 
       const ro = new ResizeObserver(() => onResize(container));
       ro.observe(container);
@@ -668,12 +265,132 @@
     }
   }
 
+  /* ── EMBER (presence marker with label) ─────────────────────── */
+  function createEmber(lat, lon, isMe, handle, itemName) {
+    const group = new T.Group();
+    const pos = latLonToVec3(lat, lon, R * 1.01);
+
+    // Core — bright glowing dot
+    const coreColor = isMe ? 0xffd700 : 0xff6020;
+    const core = new T.Mesh(
+      new T.SphereGeometry(0.018, 16, 16),
+      new T.MeshBasicMaterial({ color: coreColor, transparent: true, opacity: 0.95, blending: T.AdditiveBlending })
+    );
+    group.add(core);
+
+    // Outer glow
+    const glow = new T.Mesh(
+      new T.SphereGeometry(0.04, 16, 16),
+      new T.MeshBasicMaterial({
+        color: coreColor, transparent: true, opacity: 0.3,
+        blending: T.AdditiveBlending, depthWrite: false,
+      })
+    );
+    group.add(glow);
+
+    // Vertical beam — visible pillar of light
+    const beamH = 0.08;
+    const beam = new T.Mesh(
+      new T.CylinderGeometry(0.004, 0.01, beamH, 8, 1, true),
+      new T.MeshBasicMaterial({
+        color: coreColor, transparent: true, opacity: 0.5,
+        blending: T.AdditiveBlending, depthWrite: false, side: T.DoubleSide,
+      })
+    );
+    beam.position.copy(latLonToVec3(lat, lon, R + beamH / 2));
+    beam.lookAt(0, 0, 0);
+    beam.rotateX(Math.PI / 2);
+    group.add(beam);
+
+    // Label sprite — shows handle and cigar name
+    const label = createLabel(handle + (itemName ? '\n' + itemName : ''));
+    label.position.copy(latLonToVec3(lat, lon, R + beamH + 0.04));
+    group.add(label);
+
+    group.position.copy(pos);
+    group.userData = { core, glow, beam, label, pulse: Math.random() * Math.PI * 2 };
+    return group;
+  }
+
+  /* ── TEXT LABEL SPRITE ──────────────────────────────────────── */
+  function createLabel(text) {
+    const canvas = document.createElement('canvas');
+    canvas.width = 256;
+    canvas.height = 64;
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = 'rgba(13, 11, 9, 0.85)';
+    ctx.fillRect(0, 0, 256, 64);
+    ctx.strokeStyle = 'rgba(201, 168, 76, 0.5)';
+    ctx.lineWidth = 2;
+    ctx.strokeRect(1, 1, 254, 62);
+    ctx.fillStyle = '#e0c070';
+    ctx.font = 'bold 16px Inter, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    const lines = text.split('\n');
+    lines.forEach((line, i) => {
+      ctx.fillStyle = i === 0 ? '#e0c070' : '#a89b7a';
+      ctx.font = i === 0 ? 'bold 16px Inter, sans-serif' : '13px Inter, sans-serif';
+      ctx.fillText(line, 128, 20 + i * 20);
+    });
+
+    const tex = new T.CanvasTexture(canvas);
+    tex.colorSpace = T.SRGBColorSpace;
+    const mat = new T.SpriteMaterial({ map: tex, transparent: true, depthWrite: false });
+    const sprite = new T.Sprite(mat);
+    sprite.scale.set(0.3, 0.075, 1);
+    return sprite;
+  }
+
+  /* ── TERROIR MARKER ─────────────────────────────────────────── */
+  function createTerroirMarker(lat, lon, count, terroir) {
+    const group = new T.Group();
+    const pos = latLonToVec3(lat, lon, R * 1.005);
+    const sz = Math.max(0.01, Math.min(0.022, 0.008 + Math.log10(count + 1) * 0.008));
+
+    const diamond = new T.Mesh(
+      new T.OctahedronGeometry(sz, 0),
+      new T.MeshBasicMaterial({ color: 0xc9a84c, transparent: true, opacity: 0.85, blending: T.AdditiveBlending, depthWrite: false })
+    );
+    group.add(diamond);
+
+    const ring = new T.Mesh(
+      new T.RingGeometry(sz * 1.6, sz * 2.2, 24),
+      new T.MeshBasicMaterial({ color: 0xc9a84c, transparent: true, opacity: 0.15, side: T.DoubleSide, blending: T.AdditiveBlending, depthWrite: false })
+    );
+    ring.lookAt(0, 0, 0);
+    group.add(ring);
+
+    // Label with terroir name and cigar count
+    const label = createLabel(terroir.origin + '\n' + terroir.region + ' · ' + count + ' cigars');
+    label.position.copy(latLonToVec3(lat, lon, R + 0.05));
+    group.add(label);
+
+    group.position.copy(pos);
+    group.lookAt(0, 0, 0);
+    group.userData = { diamond, ring, label, pulse: Math.random() * Math.PI * 2 };
+    return group;
+  }
+
+  /* ── ARC ─────────────────────────────────────────────────────── */
+  function createArc(fromLat, fromLon, toLat, toLon) {
+    const from = latLonToVec3(fromLat, fromLon, R);
+    const to = latLonToVec3(toLat, toLon, R);
+    const mid = from.clone().add(to).multiplyScalar(0.5);
+    mid.normalize().multiplyScalar(R * 1.25);
+    const curve = new T.QuadraticBezierCurve3(from, mid, to);
+    const geom = new T.BufferGeometry().setFromPoints(curve.getPoints(50));
+    return new T.Line(geom, new T.LineBasicMaterial({
+      color: 0xc9a84c, transparent: true, opacity: 0.5, blending: T.AdditiveBlending, depthWrite: false,
+    }));
+  }
+
+  /* ── CONTROLS ────────────────────────────────────────────────── */
   function onDragStart(e) {
     isDragging = true; autoRotate = false; lastInteraction = Date.now();
     const p = e.touches ? e.touches[0] : e;
     dragStartX = p.clientX; dragStartY = p.clientY;
     targetRotY = rotY; targetRotX = rotX;
-    // Kill any residual velocity
     velRotY = 0; velRotX = 0;
   }
   function onDragMove(e) {
@@ -683,26 +400,21 @@
     const dy = p.clientY - dragStartY;
     targetRotY = rotY + dx * 0.005;
     targetRotX = Math.max(-1.3, Math.min(1.3, rotX + dy * 0.005));
-    // Track velocity for momentum (exponential moving average)
     velRotY = dx * 0.005 * 0.3 + velRotY * 0.7;
     velRotX = dy * 0.005 * 0.3 + velRotX * 0.7;
     dragStartX = p.clientX; dragStartY = p.clientY;
   }
   function onDragEnd() {
     isDragging = false; lastInteraction = Date.now();
-    // Apply momentum to target so it keeps spinning and decays
     targetRotY += velRotY * 8;
     targetRotX = Math.max(-1.3, Math.min(1.3, targetRotX + velRotX * 8));
   }
   function onWheel(e) {
     e.preventDefault();
-    // Smaller steps for smooth scroll + normalize across browsers
     const delta = e.deltaY * 0.0015;
     targetZoom = Math.max(1.1, Math.min(6, targetZoom + delta));
     lastInteraction = Date.now();
-    if (targetZoom < 2.0) setTimeout(loadTilesForView, 200);
   }
-  // Touch pinch-to-zoom
   let pinchStartDist = 0;
   let pinchStartZoom = 0;
   function onTouchStart(e) {
@@ -711,7 +423,7 @@
       const dy = e.touches[0].clientY - e.touches[1].clientY;
       pinchStartDist = Math.hypot(dx, dy);
       pinchStartZoom = targetZoom;
-      isDragging = false; // stop drag while pinching
+      isDragging = false;
     }
   }
   function onTouchMove(e) {
@@ -722,7 +434,6 @@
       const scale = pinchStartDist / dist;
       targetZoom = Math.max(1.1, Math.min(6, pinchStartZoom * scale));
       lastInteraction = Date.now();
-      if (targetZoom < 2.0) setTimeout(loadTilesForView, 200);
     }
   }
   function onResize(container) {
@@ -734,8 +445,6 @@
     camera.updateProjectionMatrix();
   }
 
-  let tileCheckTimer = 0;
-
   /* ── ANIMATE ─────────────────────────────────────────────────── */
   function animate() {
     if (!renderer) return;
@@ -745,17 +454,13 @@
     if (isDragging) autoRotate = false;
     if (autoRotate) targetRotY += 0.0005;
 
-    // Decay velocity (momentum friction)
     if (!isDragging) {
       velRotY *= 0.92;
       velRotX *= 0.92;
       if (Math.abs(velRotY) > 0.0001) targetRotY += velRotY;
-      if (Math.abs(velRotX) > 0.0001) {
-        targetRotX = Math.max(-1.3, Math.min(1.3, targetRotX + velRotX));
-      }
+      if (Math.abs(velRotX) > 0.0001) targetRotX = Math.max(-1.3, Math.min(1.3, targetRotX + velRotX));
     }
 
-    // Higher lerp factor = more responsive but still smooth
     rotY += (targetRotY - rotY) * 0.12;
     rotX += (targetRotX - rotX) * 0.12;
     zoom += (targetZoom - zoom) * 0.1;
@@ -764,30 +469,34 @@
     globe.rotation.x = rotX;
     camera.position.z = zoom;
 
-    // Sun
+    // Sun position — controls day/night
     const sun = sunDirection();
-    if (globe.material.uniforms) globe.material.uniforms.sunDirection.value.copy(sun);
-    if (atmosphere.material.uniforms) atmosphere.material.uniforms.sunDir.value.copy(sun);
     sunLight.position.copy(sun).multiplyScalar(5);
 
-    // Clouds
+    // Night globe opacity: brighter on the dark side, invisible on the day side.
+    // The sun light hits the earth from one direction; the dark side faces away.
+    // We rotate the night globe to always show lights on the side AWAY from the sun.
+    // Since nightGlobe is a child of globe, it inherits globe rotation.
+    // The sun light direction is in world space, so we compute the angle
+    // between the camera-to-globe direction and the sun direction.
+    if (nightGlobe && nightGlobe.material) {
+      // Opacity based on how much of the visible hemisphere is dark.
+      // When the sun is behind the globe (from camera's view), we see
+      // the dark side → high night opacity.
+      // When the sun is in front (from camera), we see the lit side → low opacity.
+      const camDir = new T.Vector3();
+      camera.getWorldDirection(camDir);
+      const sunCamDot = camDir.dot(sun.clone().negate());
+      // sunCamDot > 0 means sun is behind globe (we see dark side)
+      // sunCamDot < 0 means sun is in front (we see lit side)
+      const nightOpacity = Math.max(0, Math.min(1, (sunCamDot + 0.3) * 1.5));
+      nightGlobe.material.opacity = nightOpacity;
+    }
+
+    // Clouds drift
     if (clouds) clouds.rotation.y += 0.0003;
 
-    // Tile loading — check every 500ms when zoomed in
-    tileCheckTimer++;
-    if (tileCheckTimer > 30 && zoom < 2.0) {
-      tileCheckTimer = 0;
-      loadTilesForView();
-    }
-
-    // Fade tile blend based on zoom
-    if (globe && globe.material && globe.material.uniforms) {
-      const targetBlend = zoom < 2.0 ? Math.min(1, (2.0 - zoom) / 0.8) : 0;
-      globe.material.uniforms.tileBlend.value +=
-        (targetBlend - globe.material.uniforms.tileBlend.value) * 0.05;
-    }
-
-    // Pulse embers
+    // Pulse embers + keep labels facing camera
     if (emberGroup) {
       emberGroup.children.forEach(e => {
         const ud = e.userData; if (!ud) return;
@@ -795,7 +504,7 @@
         const p = 0.7 + Math.sin(ud.pulse) * 0.3;
         if (ud.core) ud.core.scale.setScalar(p);
         if (ud.glow) { ud.glow.scale.setScalar(p * 1.5); ud.glow.material.opacity = 0.15 + Math.sin(ud.pulse) * 0.2; }
-        if (ud.beam) ud.beam.material.opacity = 0.2 + Math.sin(ud.pulse * 0.7) * 0.2;
+        if (ud.beam) ud.beam.material.opacity = 0.3 + Math.sin(ud.pulse * 0.7) * 0.2;
       });
     }
 
@@ -814,7 +523,7 @@
     renderer.render(scene, camera);
   }
 
-  /* ── PRESENCE ────────────────────────────────────────────────── */
+  /* ── UPDATE PRESENCE ─────────────────────────────────────────── */
   function updatePresence(sessions) {
     if (!emberGroup || !arcGroup) return;
     while (emberGroup.children.length) emberGroup.remove(emberGroup.children[0]);
@@ -822,7 +531,8 @@
     if (!sessions || !sessions.length) return;
     sessions.forEach(s => {
       if (!s.loc || typeof s.loc.lat !== 'number') return;
-      emberGroup.add(createEmber(s.loc.lat, s.loc.lon, s.isMe));
+      const ember = createEmber(s.loc.lat, s.loc.lon, s.isMe, s.handle || 'Someone', s.itemName || 'here, not lit');
+      emberGroup.add(ember);
       if (s.itemId && typeof CIGARS !== 'undefined') {
         const cigar = CIGARS.find(c => c.id === s.itemId);
         if (cigar) {
@@ -905,7 +615,13 @@
         if (leftMatch && topMatch) {
           const lon = (parseFloat(leftMatch[1]) / 100) * 360 - 180;
           const lat = 90 - (parseFloat(topMatch[1]) / 100) * 180;
-          sessions.push({ loc: { lat, lon }, isMe: dot.classList.contains('is-me'), itemId: null });
+          const isMe = dot.classList.contains('is-me');
+          const handleEl = dot.querySelector('.lg-ec-head');
+          const handle = handleEl ? handleEl.textContent.replace('(you)', '').trim() : 'Someone';
+          const itemEl = dot.querySelector('.lg-ec-item');
+          const itemName = itemEl ? itemEl.textContent.trim() : '';
+          const itemMatch = itemEl ? itemEl.dataset.item : null;
+          sessions.push({ loc: { lat, lon }, isMe, handle, itemId: itemMatch, itemName });
         }
       });
       updatePresence(sessions);
