@@ -110,6 +110,7 @@
       renderer = new T.WebGLRenderer({ antialias: true, alpha: true });
       renderer.setSize(w, h);
       renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      renderer.domElement.style.cssText = 'width:100%;height:100%;display:block;';
       container.appendChild(renderer.domElement);
 
       scene = new T.Scene();
@@ -559,7 +560,8 @@
     globeContainer.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;z-index:6;';
     mapEl.appendChild(globeContainer);
 
-    if (init(globeContainer) === true) {
+    if (init(globeContainer) !== false) {
+      // init returns false on hard failure, true (or undefined) on loading
       globeInitialized = true;
       const svg = mapEl.querySelector('.lg-map-svg');
       const dots = document.getElementById('lgMapDots');
