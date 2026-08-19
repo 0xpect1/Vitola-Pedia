@@ -124,8 +124,8 @@
           // Sun intensity from world-space normal
           float sunInt = dot(normalize(vWorldNormal), normalize(sunDirection));
 
-          // Smooth day/night blend
-          float dayAmount = smoothstep(-0.12, 0.20, sunInt);
+          // Sharp day/night blend — city lights pop on the dark side
+          float dayAmount = smoothstep(-0.05, 0.15, sunInt);
 
           vec3 dayColor = texture2D(dayTexture, vUv).rgb;
           vec3 nightColor = texture2D(nightTexture, vUv).rgb;
@@ -134,13 +134,21 @@
           float bump = texture2D(bumpTexture, vUv).r;
           dayColor *= 0.85 + bump * 0.35;
 
+          // Boost city lights on the night side — make them glow
+          nightColor *= 2.5;
+
+          // Add warm amber tint to city lights for that "lit from below" look
+          float nightBrightness = length(nightColor) / 1.732;
+          vec3 cityGlow = vec3(1.0, 0.7, 0.3) * nightBrightness * 0.5;
+          nightColor += cityGlow;
+
           // Blend day and night
-          vec3 color = mix(nightColor * 0.8, dayColor, dayAmount);
+          vec3 color = mix(nightColor, dayColor, dayAmount);
 
           // Warm terminator glow at the day/night boundary
-          float term = 1.0 - abs(sunInt - 0.04);
+          float term = 1.0 - abs(sunInt - 0.05);
           term = pow(max(0.0, term), 3.0);
-          color += vec3(0.5, 0.25, 0.08) * term * 0.4;
+          color += vec3(0.6, 0.3, 0.1) * term * 0.5;
 
           // Slight specular on water areas (day side only)
           float waterMask = texture2D(waterTexture, vUv).r;
