@@ -170,40 +170,74 @@
         varying vec3 vWorldNormal;
 
         void main() {
-          float sunInt = dot(normalize(vWorldNormal), normalize(sunDirection));
-          float dayAmount = smoothstep(-0.05, 0.15, sunInt);
+          vec3 N = normalize(vWorldNormal);
+          float sunInt = dot(N, normalize(sunDirection));
 
+          // Sharper terminator — Google Earth has a crisp day/night line
+          float dayAmount = smoothstep(-0.03, 0.12, sunInt);
+          float nightAmount = 1.0 - dayAmount;
+
+          // ── DAY SIDE ──────────────────────────────────────────
           vec3 dayColor = texture2D(dayTexture, vUv).rgb;
-          vec3 nightColor = texture2D(nightTexture, vUv).rgb;
-
           float bump = texture2D(bumpTexture, vUv).r;
-          dayColor *= 0.85 + bump * 0.35;
 
-          nightColor *= 2.5;
-          float nightBrightness = length(nightColor) / 1.732;
-          vec3 cityGlow = vec3(1.0, 0.7, 0.3) * nightBrightness * 0.5;
-          nightColor += cityGlow;
+          // Terrain relief — darker in valleys, brighter on peaks
+          dayColor *= 0.75 + bump * 0.5;
 
+          // Ocean specular — sun glint on water (Google Earth signature look)
+          float waterMask = texture2D(waterTexture, vUv).r;
+          vec3 viewDir = normalize(cameraPosition);
+          vec3 reflectDir = reflect(-normalize(sunDirection), N);
+          float specAngle = max(0.0, dot(reflectDir, viewDir));
+          float oceanSpec = pow(specAngle, 40.0) * waterMask * 2.0;
+          // Add a wider, softer glint too
+          float oceanGlint = pow(specAngle, 8.0) * waterMask * 0.3;
+          vec3 specColor = vec3(1.0, 0.95, 0.85) * (oceanSpec + oceanGlint);
+
+          // ── NIGHT SIDE ───────────────────────────────────────
+          vec3 nightColor = texture2D(nightTexture, vUv).rgb;
+          // Boost city lights 3x
+          nightColor *= 3.0;
+          // Warm amber city glow — lights read as warm, not white
+          float cityBright = length(nightColor) / 1.732;
+          vec3 cityWarm = vec3(1.0, 0.65, 0.25) * cityBright * 0.7;
+          nightColor += cityWarm;
+          // Subtle deep blue ambient on the dark side — never pure black
+          nightColor += vec3(0.01, 0.02, 0.04) * (1.0 - waterMask);
+
+          // ── BLEND ────────────────────────────────────────────
           vec3 color = mix(nightColor, dayColor, dayAmount);
+          // Add specular only on day side
+          color += specColor * dayAmount;
 
-          // Blend in high-res tiles when zoomed in.
-          // tileBlend is 0 when no tiles loaded, so this is a no-op.
-          // We DON'T check if tileTexture is null — that's not valid GLSL.
-          // Instead tileBlend smoothly fades to 0 when tiles aren't active.
+          // ── TWILIGHT BAND ────────────────────────────────────
+          // Warm golden hour glow at the terminator
+          float twilight = 1.0 - abs(sunInt - 0.06);
+          twilight = pow(max(0.0, twilight), 2.5);
+          vec3 twilightColor = vec3(0.8, 0.35, 0.12) * twilight * 0.6;
+          color += twilightColor;
+
+          // ── HIGH-RES TILES ───────────────────────────────────
           if (tileBlend > 0.001) {
             vec3 tileColor = texture2D(tileTexture, vUv).rgb;
-            vec3 tileLit = tileColor * (0.3 + dayAmount * 0.9);
-            tileLit += nightColor * (1.0 - dayAmount) * 0.3;
+            // Apply same lighting to tiles
+            vec3 tileDay = tileColor * (0.75 + bump * 0.4);
+            vec3 tileNight = tileColor * 0.02 + nightColor * 0.5;
+            vec3 tileLit = mix(tileNight, tileDay, dayAmount);
+            tileLit += specColor * waterMask * dayAmount * 0.5;
+            tileLit += twilightColor * 0.5;
             color = mix(color, tileLit, tileBlend);
           }
 
-          float term = 1.0 - abs(sunInt - 0.05);
-          term = pow(max(0.0, term), 3.0);
-          color += vec3(0.6, 0.3, 0.1) * term * 0.5;
+          // ── ATMOSPHERIC SCATTERING (limb darkening + blue tint) ──
+          // Edges of the sphere get a blue atmospheric tint
+          float limbFactor = 1.0 - abs(dot(N, normalize(cameraPosition)));
+          limbFactor = pow(limbFactor, 3.0);
+          vec3 atmoTint = vec3(0.15, 0.25, 0.45) * limbFactor * dayAmount * 0.3;
+          color += atmoTint;
 
-          float waterMask = texture2D(waterTexture, vUv).r;
-          float spec = pow(max(0.0, sunInt), 8.0) * waterMask * 0.15;
-          color += vec3(spec);
+          // Slight gamma for richness
+          color = pow(color, vec3(0.92));
 
           gl_FragColor = vec4(color, 1.0);
         }
@@ -333,10 +367,11 @@
 
   /* ── ATMOSPHERE ──────────────────────────────────────────────── */
   function createAtmosphere() {
-    const geom = new T.SphereGeometry(R * 1.18, 64, 64);
+    const geom = new T.SphereGeometry(R * 1.2, 64, 64);
     const mat = new T.ShaderMaterial({
       uniforms: {
-        glowColor: { value: new T.Color(0.3, 0.45, 0.7) },
+        glowColor: { value: new T.Color(0.25, 0.4, 0.8) },
+        warmColor: { value: new T.Color(0.9, 0.4, 0.15) },
         sunDir:    { value: new T.Vector3(1, 0, 0) },
       },
       vertexShader: `
@@ -350,14 +385,26 @@
       `,
       fragmentShader: `
         uniform vec3 glowColor;
+        uniform vec3 warmColor;
         uniform vec3 sunDir;
         varying vec3 vNormal;
         varying vec3 vWorldNormal;
         void main() {
-          float intensity = pow(0.6 - dot(vNormal, vec3(0, 0, 1.0)), 2.0);
+          // Fresnel — stronger at the edges
+          float intensity = pow(0.65 - dot(vNormal, vec3(0, 0, 1.0)), 2.0);
+
+          // Sun-facing side is brighter and bluer
           float sunFactor = max(0.0, dot(vWorldNormal, normalize(sunDir)));
-          vec3 color = glowColor * (0.3 + sunFactor * 0.7);
-          gl_FragColor = vec4(color, intensity * 0.6);
+
+          // Terminator gets warm orange (sunset colors)
+          float terminator = 1.0 - abs(dot(vWorldNormal, normalize(sunDir)) - 0.05);
+          terminator = pow(max(0.0, terminator), 2.0);
+
+          // Blend blue glow with warm sunset at the terminator
+          vec3 color = glowColor * (0.2 + sunFactor * 0.8);
+          color = mix(color, warmColor, terminator * 0.5);
+
+          gl_FragColor = vec4(color, intensity * 0.65);
         }
       `,
       side: T.BackSide,
