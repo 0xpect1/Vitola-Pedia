@@ -1,0 +1,604 @@
+{
+  "whiskey": {
+    "bourbon": {
+      "high_rye_barrel_proof": {
+        "description": "High-rye mash bill (>30% rye), barrel proof (107+ proof), bold and spicy",
+        "examples": ["Baker's", "Knob Creek Single Barrel", "Booker's", "Stagg Jr", "Elijah Craig Barrel Proof"],
+        "pairs_with": {
+          "strength": [4, 5],
+          "wrappers": ["Maduro", "Corojo", "Habano", "Broadleaf"],
+          "flavors": ["Pepper", "Leather", "Earth", "Dark Chocolate", "Espresso", "Black Coffee"],
+          "origins": ["Nicaragua", "Honduras", "Cuba", "Brazil"]
+        },
+        "pairing_notes": "The rye spice and high proof stand up to full-bodied cigars; the heat mellows against dark wrappers and bold flavors"
+      },
+      "wheated": {
+        "description": "Wheated mash bill (wheat replaces rye), softer and sweeter, lower proof (80-90)",
+        "examples": ["Maker's Mark", "Larceny", "W.L. Weller", "Old Fitzgerald", "Rebel Yell"],
+        "pairs_with": {
+          "strength": [2, 3, 4],
+          "wrappers": ["Connecticut", "Cameroon", "Sumatra", "Connecticut Shade"],
+          "flavors": ["Cream", "Cedar", "Honey", "Vanilla", "Nuts", "Baking Spice", "Caramel"],
+          "origins": ["Dominican Republic", "Nicaragua", "Honduras", "Cuba"]
+        },
+        "pairing_notes": "Soft wheat sweetness complements milder cigars; won't overpower delicate wrappers. The caramel/vanilla notes enhance creamy cigars"
+      },
+      "high_corn_sweet": {
+        "description": "High-corn mash bill (>70% corn), sweet and full-bodied, standard proof (80-90)",
+        "examples": ["Buffalo Trace", "Elijah Craig", "Evan Williams Single Barrel", "Woodford Reserve"],
+        "pairs_with": {
+          "strength": [3, 4],
+          "wrappers": ["Habano", "Connecticut", "Maduro", "Cameroon"],
+          "flavors": ["Caramel", "Vanilla", "Cedar", "Toffee", "Nuts", "Baking Spice"],
+          "origins": ["Nicaragua", "Dominican Republic", "Honduras", "Cuba"]
+        },
+        "pairing_notes": "Sweet corn notes bridge the gap between medium and full cigars; versatile pairing that works with most profiles"
+      },
+      "rye_heavy_bourbon": {
+        "description": "High-rye bourbon at standard proof (80-90), spicier than sweet",
+        "examples": ["Bulleit Bourbon", "Four Roses Single Barrel", "Woodford Reserve Double Oaked", "Wild Turkey 101"],
+        "pairs_with": {
+          "strength": [3, 4, 5],
+          "wrappers": ["Habano", "Maduro", "Corojo"],
+          "flavors": ["Pepper", "Cedar", "Leather", "Earth", "Spice"],
+          "origins": ["Nicaragua", "Honduras", "Cuba"]
+        },
+        "pairing_notes": "Rye spice mirrors the pepper in Habano/Corojo wrappers; the 101 proof versions stand up to fuller cigars"
+      }
+    },
+    "scotch": {
+      "peaty_islay": {
+        "description": "Peat-smoked barley from Islay, medicinal and smoky, bold",
+        "examples": ["Lagavulin 16", "Ardbeg Uigeadail", "Laphroaig 10 Cask Strength", "Caol Ila 12", "Bruichladdich Port Charlotte"],
+        "pairs_with": {
+          "strength": [4, 5],
+          "wrappers": ["Maduro", "Corojo", "Broadleaf", "Habano"],
+          "flavors": ["Pepper", "Leather", "Earth", "Smoke", "Espresso", "Dark Chocolate"],
+          "origins": ["Nicaragua", "Honduras", "Cuba", "Brazil"]
+        },
+        "pairing_notes": "Peat smoke mirrors the smoke/earth in full-bodied cigars; the medicinal notes complement leather and espresso flavors. Avoid with mild cigars — it will overpower them"
+      },
+      "fruity_speyside": {
+        "description": "Unpeated or lightly peated, fruity and floral, elegant",
+        "examples": ["Glenlivet 18", "Balvenie DoubleWood 17", "Glenfiddich 18", "Macallan 12 Double Cask"],
+        "pairs_with": {
+          "strength": [2, 3, 4],
+          "wrappers": ["Connecticut", "Cameroon", "Sumatra", "Habano"],
+          "flavors": ["Cream", "Honey", "Vanilla", "Cedar", "Dried Fruit", "Floral", "Nuts"],
+          "origins": ["Dominican Republic", "Nicaragua", "Honduras", "Cuba"]
+        },
+        "pairing_notes": "Orchard fruit and floral notes complement creamy/cedar cigars; the sherry influence pairs with honey and vanilla flavors"
+      },
+      "highland": {
+        "description": "Balanced, medium-bodied, slightly floral with a dry finish",
+        "examples": ["Dalmore 12", "Oban 14", "Glenmorangie 18", "Royal Brackla 12"],
+        "pairs_with": {
+          "strength": [3, 4],
+          "wrappers": ["Connecticut", "Habano", "Cameroon", "Sumatra"],
+          "flavors": ["Cedar", "Honey", "Cream", "Nuts", "Light Spice", "Floral", "Orange Zest"],
+          "origins": ["Dominican Republic", "Nicaragua", "Cuba", "Honduras"]
+        },
+        "pairing_notes": "Versatile and balanced; works with medium cigars where Islay would overpower. The dry finish cleanses the palate between puffs"
+      },
+      "sherry_finished": {
+        "description": "Aged or finished in sherry casks (Oloroso/PX), rich and dark",
+        "examples": ["Macallan 18 Sherry Oak", "GlenDronach 18", "Aberlour A'Bunadh", "Glengoyne 21"],
+        "pairs_with": {
+          "strength": [4, 5],
+          "wrappers": ["Maduro", "Broadleaf", "Habano", "Corojo"],
+          "flavors": ["Dark Chocolate", "Espresso", "Raisin", "Leather", "Earth", "Fig", "Caramel"],
+          "origins": ["Nicaragua", "Cuba", "Honduras", "Brazil"]
+        },
+        "pairing_notes": "Sherry sweetness and dried fruit richness complements dark chocolate and espresso notes in full-bodied cigars; the tannins match leather/earth"
+      },
+      "campbeltown": {
+        "description": "Briny, smoky, full-bodied with a maritime character",
+        "examples": ["Springbank 10", "Glen Scotia 15", "Hazelburn 12"],
+        "pairs_with": {
+          "strength": [4, 5],
+          "wrappers": ["Habano", "Corojo", "Maduro"],
+          "flavors": ["Pepper", "Sea Salt", "Leather", "Earth", "Smoke", "Brine"],
+          "origins": ["Nicaragua", "Cuba", "Honduras"]
+        },
+        "pairing_notes": "Briny, smoky character adds a savory dimension to full cigars; works best with Nicaraguan and Cuban cigars that have earth and leather notes"
+      },
+      "lowland": {
+        "description": "Light, grassy, delicate, triple-distilled",
+        "examples": ["Auchentoshan American Oak", "Glenkinchie 12", "Bladnoch 11"],
+        "pairs_with": {
+          "strength": [1, 2, 3],
+          "wrappers": ["Connecticut Shade", "Cameroon", "Sumatra"],
+          "flavors": ["Cream", "Grass", "Floral", "Vanilla", "Lemon", "Honey", "Cedar"],
+          "origins": ["Dominican Republic", "Honduras", "Cuba"]
+        },
+        "pairing_notes": "Delicate and light; pairs with mild cigars without overpowering. The grassy/floral notes complement Connecticut wrapper creaminess"
+      }
+    },
+    "rye_whiskey": {
+      "high_rye_straight": {
+        "description": "100% rye or high-rye mash (95%+ rye), spicy and bold",
+        "examples": ["Bulleit Rye", "Rittenhouse 100", "WhistlePig 10 Year", "High West Double Rye"],
+        "pairs_with": {
+          "strength": [4, 5],
+          "wrappers": ["Maduro", "Corojo", "Habano", "Broadleaf"],
+          "flavors": ["Pepper", "Clove", "Cinnamon", "Leather", "Earth", "Dark Spice"],
+          "origins": ["Nicaragua", "Honduras", "Cuba", "Brazil"]
+        },
+        "pairing_notes": "Intense rye spice (clove, cinnamon, black pepper) amplifies the pepper in full-bodied cigars; the boldness requires a strong cigar to balance"
+      },
+      "maryland_style": {
+        "description": "Softer, fruitier rye style, less aggressive than Pennsylvania rye",
+        "examples": ["Pikesville Rye", "Sagamore Spirit", "Hanskell's"],
+        "pairs_with": {
+          "strength": [3, 4],
+          "wrappers": ["Habano", "Cameroon", "Connecticut"],
+          "flavors": ["Caramel", "Orange Peel", "Pepper", "Cedar", "Honey", "Spice"],
+          "origins": ["Nicaragua", "Dominican Republic", "Honduras"]
+        },
+        "pairing_notes": "Softer rye character with fruit notes works with medium-full cigars; the pepper is present but balanced by sweetness"
+      },
+      "canadian": {
+        "description": "Canadian rye, often blended, lighter and smoother",
+        "examples": ["Lot 40", "Pendleton 1912", "Alberta Premium"],
+        "pairs_with": {
+          "strength": [2, 3, 4],
+          "wrappers": ["Connecticut", "Habano", "Cameroon"],
+          "flavors": ["Caramel", "Vanilla", "Light Pepper", "Cedar", "Honey"],
+          "origins": ["Dominican Republic", "Nicaragua", "Honduras"]
+        },
+        "pairing_notes": "Smoother and lighter than American rye; versatile with medium cigars. The caramel sweetness bridges to Cameroon and Connecticut wrappers"
+      }
+    },
+    "irish_whiskey": {
+      "single_pot_still": {
+        "description": "Irish single pot still, spicy and full with green apple notes",
+        "examples": ["Redbreast 12", "Green Spot", "Powers Signature Release"],
+        "pairs_with": {
+          "strength": [3, 4],
+          "wrappers": ["Connecticut", "Habano", "Cameroon"],
+          "flavors": ["Honey", "Green Apple", "Cedar", "Cream", "Baking Spice", "Nuts"],
+          "origins": ["Dominican Republic", "Nicaragua", "Honduras"]
+        },
+        "pairing_notes": "Unique pot still spice with orchard fruit; works well with medium cigars that have cedar and cream notes"
+      },
+      "blended_irish": {
+        "description": "Light, smooth, approachable blended Irish whiskey",
+        "examples": ["Jameson Black Barrel", "Tullamore D.E.W. 14 Year", "Bushmills 16"],
+        "pairs_with": {
+          "strength": [1, 2, 3],
+          "wrappers": ["Connecticut Shade", "Cameroon", "Sumatra"],
+          "flavors": ["Vanilla", "Honey", "Cream", "Light Fruit", "Cedar", "Floral"],
+          "origins": ["Dominican Republic", "Honduras", "Cuba"]
+        },
+        "pairing_notes": "Light and smooth; won't overpower mild cigars. The honey/vanilla notes complement Connecticut wrapper creaminess"
+      }
+    },
+    "japanese_whisky": {
+      "single_malt": {
+        "description": "Japanese single malt, delicate, balanced, often Mizunara oak",
+        "examples": ["Hibiki Harmony", "Yamazaki 12", "Nikka From the Barrel", "Hakushu 12"],
+        "pairs_with": {
+          "strength": [2, 3, 4],
+          "wrappers": ["Connecticut", "Habano", "Cameroon", "Sumatra"],
+          "flavors": ["Cedar", "Honey", "Floral", "Coconut", "Vanilla", "Light Smoke", "Mizunara Spice"],
+          "origins": ["Dominican Republic", "Nicaragua", "Honduras", "Cuba"]
+        },
+        "pairing_notes": "Delicate Mizunara oak adds coconut and spice; pairs elegantly with medium cigars. The balance means it won't overpower but will enhance cedar and floral notes"
+      }
+    }
+  },
+  "rum": {
+    "aged_demerara": {
+      "description": "Demerara rum from Guyana, dark, molasses-rich, often column still",
+      "examples": ["El Dorado 12", "El Dorado 15", "Diplomatico Reserva Exclusiva", "Plantation Original Dark"],
+      "pairs_with": {
+        "strength": [4, 5],
+        "wrappers": ["Maduro", "Broadleaf", "Habano"],
+        "flavors": ["Dark Chocolate", "Espresso", "Molasses", "Caramel", "Leather", "Earth", "Fig", "Prune"],
+        "origins": ["Nicaragua", "Cuba", "Honduras", "Brazil"]
+      },
+      "pairing_notes": "Dark molasses and caramel notes mirror the chocolate/espresso in full-bodied cigars; the richness requires a bold cigar to balance"
+    },
+    "high_ester_jamaican": {
+      "description": "Jamaican high-ester rum, funky, aromatic, pot-still driven",
+      "examples": ["Hampden Great House", "Smith & Cross", "Worthy Park Single Estate", "Appleton Estate 21"],
+      "pairs_with": {
+        "strength": [3, 4, 5],
+        "wrappers": ["Habano", "Maduro", "Corojo"],
+        "flavors": ["Tropical Fruit", "Banana", "Leather", "Earth", "Spice", "Oak"],
+        "origins": ["Nicaragua", "Cuba", "Honduras"]
+      },
+      "pairing_notes": "Funky ester notes (banana, overripe fruit) add complexity to medium-full cigars; the intensity works with Nicaraguan and Cuban cigars"
+    },
+    "spanish_anjeo": {
+      "description": "Spanish-style aged rum, smooth, sweet, solera-aged",
+      "examples": ["Ron Zacapa 23", "Zaya Gran Reserva", "Dictador 20", "Mompox"],
+      "pairs_with": {
+        "strength": [3, 4],
+        "wrappers": ["Connecticut", "Habano", "Maduro", "Cameroon"],
+        "flavors": ["Caramel", "Vanilla", "Honey", "Cedar", "Toffee", "Cocoa", "Dried Fruit"],
+        "origins": ["Dominican Republic", "Nicaragua", "Cuba", "Honduras"]
+        },
+      "pairing_notes": "Smooth sweetness with sherry-like qualities; versatile with medium to medium-full cigars. The caramel/toffee pairs beautifully with Cameroon and Connecticut wrappers"
+    },
+    "agricole": {
+      "description": "Agricole rhum from French Caribbean, made from fresh cane juice, grassy and vegetal",
+      "examples": ["Clément Vieux", "Rhum JM VSOP", "Dillon 12", "Neisson Reserve"],
+      "pairs_with": {
+        "strength": [2, 3, 4],
+        "wrappers": ["Connecticut", "Cameroon", "Habano"],
+        "flavors": ["Grass", "Floral", "Citrus", "Olive", "Earth", "White Pepper", "Vanilla"],
+        "origins": ["Dominican Republic", "Cuba", "Nicaragua"]
+      },
+      "pairing_notes": "Grassy, vegetal character from fresh cane juice; pairs with cigars that have herbal/floral notes. The olive/brine quality works with Cuban cigars"
+    },
+    "cuban_rum": {
+      "description": "Cuban-style white or aged rum, light and clean",
+      "examples": ["Havana Club 3", "Havana Club Añejo 7", "Ron Santiago 11", "Matusalem Gran Reserva"],
+      "pairs_with": {
+        "strength": [2, 3],
+        "wrappers": ["Connecticut Shade", "Cameroon", "Cuban Habano"],
+        "flavors": ["Vanilla", "Cedar", "Honey", "Light Citrus", "Cream", "Almond"],
+        "origins": ["Cuba", "Dominican Republic", "Honduras"]
+      },
+      "pairing_notes": "Light and clean; the traditional pairing for Cuban cigars. The subtlety won't overpower mild-to-medium Cuban cigars; the vanilla/cedar complements aged Habano wrapper"
+    }
+  },
+  "cognac": {
+    "vsop": {
+      "description": "VSOP Cognac, aged 4+ years, balanced and approachable",
+      "examples": ["Hennessy VSOP", "Pierre Ferrand Ambre", "Remy Martin VSOP", "Courvoisier VSOP"],
+      "pairs_with": {
+        "strength": [3, 4],
+        "wrappers": ["Connecticut", "Habano", "Cameroon", "Sumatra"],
+        "flavors": ["Vanilla", "Dried Apricot", "Oak", "Honey", "Cedar", "Orange Zest", "Toffee"],
+        "origins": ["Dominican Republic", "Cuba", "Nicaragua", "Honduras"]
+      },
+      "pairing_notes": "Balanced fruit and oak; works with medium cigars. The dried fruit and vanilla complement cedar and cream notes. A classic pairing for Dominican cigars"
+    },
+    "xo": {
+      "description": "XO Cognac, aged 10+ years, deep, rich, complex",
+      "examples": ["Remy Martin XO", "Hennessy XO", "Pierre Ferrand Hors d'Age", "Hine Antique XO"],
+      "pairs_with": {
+        "strength": [4, 5],
+        "wrappers": ["Maduro", "Broadleaf", "Habano", "Cuban Habano"],
+        "flavors": ["Dark Chocolate", "Leather", "Fig", "Raisin", "Espresso", "Toffee", "Prune", "Oak"],
+        "origins": ["Cuba", "Nicaragua", "Brazil", "Honduras"]
+      },
+      "pairing_notes": "Deep, rich, and complex; pairs with full-bodied cigars. The rancio and dried fruit notes match leather and dark chocolate. A luxury pairing for Cuban and premium Nicaraguan cigars"
+    },
+    "armagnac": {
+      "description": "Armagnac from Gascony, rustic, single-distilled, more robust than Cognac",
+      "examples": ["Château de Laubade 15", "Dartigalonge Vintage", "Baron de Sigognac 12"],
+      "pairs_with": {
+        "strength": [4, 5],
+        "wrappers": ["Maduro", "Habano", "Corojo", "Broadleaf"],
+        "flavors": ["Prune", "Leather", "Earth", "Dark Chocolate", "Roasted Nuts", "Caramel", "Oak"],
+        "origins": ["Nicaragua", "Cuba", "Honduras", "Brazil"]
+      },
+      "pairing_notes": "Rustic and robust; the prune and roasted nut character pairs with dark, earthy cigars. More aggressive than Cognac — needs a bold cigar"
+    },
+    "spanish_brandy": {
+      "description": "Spanish brandy, solera-aged, sweet and rich",
+      "examples": ["Lustau Solera Gran Reserva", "Cardenal Mendoza", "Gran Duque de Alba", "Torres 10"],
+      "pairs_with": {
+        "strength": [3, 4],
+        "wrappers": ["Habano", "Cameroon", "Connecticut", "Maduro"],
+        "flavors": ["Caramel", "Raisin", "Cedar", "Vanilla", "Toffee", "Walnut", "Dried Fruit"],
+        "origins": ["Dominican Republic", "Nicaragua", "Cuba", "Honduras"]
+      },
+      "pairing_notes": "Sherry-influenced sweetness; works with medium to medium-full cigars. The dried fruit and walnut notes complement Cameroon and Habano wrappers"
+    }
+  },
+  "tequila": {
+    "anejo": {
+      "description": "Añejo tequila, aged 1-3 years in oak, smooth and complex",
+      "examples": ["Don Julio 1942", "Herradura Añejo", "Casa Noble Añejo", "Siete Leguas Añejo"],
+      "pairs_with": {
+        "strength": [3, 4, 5],
+        "wrappers": ["Habano", "Maduro", "Corojo", "Broadleaf"],
+        "flavors": ["Caramel", "Vanilla", "Cocoa", "Pepper", "Agave", "Oak", "Cinnamon"],
+        "origins": ["Nicaragua", "Honduras", "Mexico", "Cuba"]
+      },
+      "pairing_notes": "Oak-aged agave with caramel and cocoa; the agave pepper complements Habano/Corojo spice. A natural pairing for Mexican-grown tobacco"
+    },
+    "reposado": {
+      "description": "Reposado tequila, aged 2-11 months, balanced between agave and oak",
+      "examples": ["Patrón Reposado", "Siete Leguas Reposado", "Herradura Reposado", "G4 Reposado"],
+      "pairs_with": {
+        "strength": [2, 3, 4],
+        "wrappers": ["Connecticut", "Habano", "Cameroon", "Sumatra"],
+        "flavors": ["Vanilla", "Agave", "Light Oak", "Pepper", "Citrus", "Honey", "Herb"],
+        "origins": ["Dominican Republic", "Nicaragua", "Honduras", "Cuba"]
+      },
+      "pairing_notes": "Balanced agave and oak; pairs with medium cigars. The citrus/pepper notes complement Connecticut and Habano wrappers without overwhelming"
+    },
+    "mezcal": {
+      "description": "Mezcal, smoke-roasted agave, smoky and earthy",
+      "examples": ["Del Maguey Vida", "Illegal Joven", "Mezcal Vago Elote", "Fidencio Clasico"],
+      "pairs_with": {
+        "strength": [4, 5],
+        "wrappers": ["Maduro", "Broadleaf", "Habano", "Corojo"],
+        "flavors": ["Smoke", "Earth", "Leather", "Pepper", "Agave", "Mineral", "Dark Chocolate"],
+        "origins": ["Nicaragua", "Honduras", "Cuba", "Brazil"]
+      },
+      "pairing_notes": "Smoke and earth mirror the smoke/earth in full-bodied cigars; the agave sweetness adds complexity. Pairs best with Maduro and Broadleaf wrappers"
+    }
+  },
+  "wine": {
+    "port": {
+      "tawny": {
+        "description": "Tawny Port, oxidative aging, nutty and caramelized",
+        "examples": ["Graham's 20 Year Tawny", "Fonseca 20 Year Tawny", "Taylor Fladgate 10 Year", "Kopke 30 Year"],
+        "pairs_with": {
+          "strength": [4, 5],
+          "wrappers": ["Maduro", "Broadleaf", "Habano"],
+          "flavors": ["Caramel", "Walnut", "Fig", "Dark Chocolate", "Dried Fruit", "Toffee", "Espresso"],
+          "origins": ["Nicaragua", "Cuba", "Honduras", "Brazil"]
+        },
+        "pairing_notes": "Nutty caramel notes match Maduro sweetness; the oxidative character complements dark chocolate and espresso. A classic after-dinner pairing"
+      },
+      "ruby": {
+        "description": "Ruby Port, fruity and full-bodied, less oxidative",
+        "examples": ["Graham's Six Grapes", "Dow's Fine Ruby", "Warre's Warrior", "Noval Fine Ruby"],
+        "pairs_with": {
+          "strength": [3, 4],
+          "wrappers": ["Habano", "Maduro", "Cameroon"],
+          "flavors": ["Blackberry", "Dark Cherry", "Chocolate", "Plum", "Cedar", "Black Pepper"],
+          "origins": ["Nicaragua", "Dominican Republic", "Cuba"]
+        },
+        "pairing_notes": "Fruity and bold; the dark fruit complements chocolate and cedar in medium-full cigars. Less sweet than tawny, more fruit-forward"
+      }
+    },
+    "sherry": {
+      "oloroso": {
+        "description": "Oloroso Sherry, dry, rich, walnut and leather",
+        "examples": ["Lustau East India Solera", "Emilio Lustau Oloroso Don Nuño", "Bodegas Hidalgo Oloroso Faraón"],
+        "pairs_with": {
+          "strength": [4, 5],
+          "wrappers": ["Maduro", "Broadleaf", "Cuban Habano"],
+          "flavors": ["Walnut", "Leather", "Dark Chocolate", "Espresso", "Dried Fruit", "Caramel", "Earth"],
+          "origins": ["Cuba", "Nicaragua", "Honduras"]
+        },
+        "pairing_notes": "Dry, nutty, and complex; the walnut/leather notes mirror the same flavors in full cigars. A sophisticated pairing for Cuban and Maduro cigars"
+      },
+      "amontillado": {
+        "description": "Amontillado Sherry, between fino and oloroso, nutty with salinity",
+        "examples": ["Lustau Amontillado Los Arcos", "Hidalgo La Gitana Amontillado", "Valdespino Tio Diego"],
+        "pairs_with": {
+          "strength": [3, 4],
+          "wrappers": ["Habano", "Cameroon", "Connecticut", "Cuban Habano"],
+          "flavors": ["Almond", "Sea Salt", "Cedar", "Dried Fruit", "Caramel", "Light Leather"],
+          "origins": ["Cuba", "Dominican Republic", "Nicaragua"]
+        },
+        "pairing_notes": "Nutty with a saline edge; the almond/salt notes complement Cuban cigars. The complexity bridges mild and full cigars"
+      },
+      "fino": {
+        "description": "Fino Sherry, dry, pale, biologically aged, delicate",
+        "examples": ["Tio Pepe Fino", "Valdespino Inocente Fino", "Lustau Fino del Puerto"],
+        "pairs_with": {
+          "strength": [1, 2],
+          "wrappers": ["Connecticut Shade", "Cameroon"],
+          "flavors": ["Almond", "Green Apple", "Bread Dough", "Citrus", "Floral", "Mineral"],
+          "origins": ["Dominican Republic", "Honduras"]
+        },
+        "pairing_notes": "Delicate and dry; pairs with mild cigars only. The flor-aging gives bread/almond notes that complement mild Connecticut cigars"
+      }
+    },
+    "madeira": {
+      "description": "Fortified wine from Madeira, heated and oxidized, complex",
+      "examples": ["Bland's 15 Year Sercial", "Rare Wine Company Savannah Verdelho", "Henriques & Henriques 10 Year Sercial"],
+      "pairs_with": {
+        "strength": [3, 4, 5],
+        "wrappers": ["Maduro", "Broadleaf", "Habano", "Cuban Habano"],
+        "flavors": ["Caramel", "Roasted Nuts", "Orange Peel", "Toffee", "Dried Fruit", "Coffee", "Cocoa"],
+        "origins": ["Cuba", "Nicaragua", "Honduras", "Brazil"]
+      },
+      "pairing_notes": "The oxidative heating process creates caramel and nutty complexity; pairs with full cigars. The acidity cleanses the palate between puffs"
+    },
+    "banyuls": {
+      "description": "Sweet fortified wine from Roussillon, Grenache-based",
+      "examples": ["Domaine de la Rectorie Banyuls Rimage", "M. Chapoutier Banyuls", "Celler Espiells Banyuls"],
+      "pairs_with": {
+        "strength": [4, 5],
+        "wrappers": ["Maduro", "Broadleaf", "Habano"],
+        "flavors": ["Dark Chocolate", "Espresso", "Black Cherry", "Fig", "Kirsch", "Leather", "Caramel"],
+        "origins": ["Nicaragua", "Cuba", "Honduras", "Brazil"]
+      },
+      "pairing_notes": "Red fruit and chocolate notes; essentially a dessert wine for cigars. The cherry/chocolate pairing is perfect for Maduro wrappers"
+    }
+  },
+  "beer": {
+    "imperial_stout": {
+      "description": "High-ABV stout (9%+), roasted and rich",
+      "examples": ["Ten FIDY", "Old Rasputin XII", "Founders Imperial Stout", "North Coast Old Rasputin"],
+      "pairs_with": {
+        "strength": [4, 5],
+        "wrappers": ["Maduro", "Broadleaf", "Habano"],
+        "flavors": ["Dark Chocolate", "Espresso", "Roasted Coffee", "Molasses", "Dark Fruit", "Licorice"],
+        "origins": ["Nicaragua", "Honduras", "Cuba", "Brazil"]
+      },
+      "pairing_notes": "Roasted malt mirrors espresso/chocolate in full cigars; the ABV warmth matches full-bodied smoke. A perfect cold-weather pairing"
+    },
+    "belgian_quadrupel": {
+      "description": "Belgian Quad, rich, dark fruit, high ABV (10%+)",
+      "examples": ["St. Bernardus Abt 12", "Rochefort 10", "Westvleteren 12", "Pannepot"],
+      "pairs_with": {
+        "strength": [4, 5],
+        "wrappers": ["Maduro", "Broadleaf", "Cuban Habano"],
+        "flavors": ["Dark Fruit", "Raisin", "Caramel", "Plum", "Clove", "Fig", "Toffee"],
+        "origins": ["Cuba", "Nicaragua", "Honduras", "Brazil"]
+      },
+      "pairing_notes": "Dark fruit and spice complexity; the Belgian yeast esters complement leather and earth in full cigars. The sweetness balances pepper"
+    },
+    "barleywine": {
+      "description": "High-ABV (8-12%), rich, malty, often aged",
+      "examples": ["Sierra Nevada Bigfoot", "Founders Old Curmudgeon", "Anchor Old Foghorn"],
+      "pairs_with": {
+        "strength": [4, 5],
+        "wrappers": ["Maduro", "Broadleaf", "Habano", "Corojo"],
+        "flavors": ["Caramel", "Toffee", "Dark Fruit", "Pine", "Grapefruit", "Leather", "Cedar"],
+        "origins": ["Nicaragua", "Honduras", "Cuba"]
+      },
+      "pairing_notes": "Rich malt backbone with hop bitterness; the caramel/toffee pairs with Maduro sweetness while the hops complement pepper"
+    },
+    "amber_ale": {
+      "description": "Medium-bodied amber ale, balanced malt and hops",
+      "examples": ["Tröegs Hopback Amber Ale", "New Belgium Fat Tire", "Zombie Dust"],
+      "pairs_with": {
+        "strength": [2, 3],
+        "wrappers": ["Connecticut", "Cameroon", "Sumatra"],
+        "flavors": ["Caramel", "Toffee", "Cedar", "Light Citrus", "Biscuit", "Nuts"],
+        "origins": ["Dominican Republic", "Honduras", "Nicaragua"]
+      },
+      "pairing_notes": "Balanced and easy-drinking; the malt sweetness complements mild-medium cigars without overpowering"
+    },
+    "czech_pilsner": {
+      "description": "Czech-style pilsner, crisp, bitter, light",
+      "examples": ["Pilsner Urquell", "Bernard Bohemian Lager", "Notch Session Pils"],
+      "pairs_with": {
+        "strength": [1, 2, 3],
+        "wrappers": ["Connecticut Shade", "Cameroon", "Sumatra"],
+        "flavors": ["Bread", "Cracker", "Floral", "Grass", "Spicy Hops", "Lemon"],
+        "origins": ["Dominican Republic", "Honduras"]
+      },
+      "pairing_notes": "Crisp and refreshing; the carbonation cleanses the palate. The bready malt and spicy hops complement mild cigars. A summer pairing"
+    },
+    "ipa": {
+      "description": "India Pale Ale, hoppy and bitter, citrusy",
+      "examples": ["Dogfish Head 60 Minute", "Bell's Two Hearted", "Lagunitas IPA"],
+      "pairs_with": {
+        "strength": [3, 4],
+        "wrappers": ["Habano", "Corojo", "Connecticut"],
+        "flavors": ["Grapefruit", "Pine", "Tropical Fruit", "Pepper", "Cedar", "Herbal"],
+        "origins": ["Nicaragua", "Honduras", "Dominican Republic"]
+      },
+      "pairing_notes": "Hop bitterness and citrus can work with pepper-forward cigars; the tropical fruit notes complement Habano. Divisive — some smokers hate the hop bitterness with cigars"
+    }
+  },
+  "coffee": {
+    "double_espresso": {
+      "description": "Double shot espresso, dark roast, no sugar",
+      "examples": ["Starbucks Espresso Roast", "Lavazza Super Crema", "Illy Classico"],
+      "pairs_with": {
+        "strength": [3, 4, 5],
+        "wrappers": ["Maduro", "Habano", "Corojo", "Broadleaf", "Cuban Habano"],
+        "flavors": ["Espresso", "Dark Chocolate", "Coffee", "Cocoa", "Earth", "Caramel", "Nuts"],
+        "origins": ["Nicaragua", "Cuba", "Honduras", "Brazil", "Dominican Republic"]
+      },
+      "pairing_notes": "The classic cigar pairing. Bitter espresso oils coat the palate and enhance chocolate/earth notes. Dark roast matches full cigars; a morning espresso pairs with a medium cigar"
+    },
+    "flat_white": {
+      "description": "Flat white, whole milk, medium roast",
+      "examples": ["Stumptown Hair Bender", "Blue Bottle Bella Donovan", "Intelligentsia Black Cat"],
+      "pairs_with": {
+        "strength": [2, 3],
+        "wrappers": ["Connecticut", "Cameroon", "Sumatra", "Connecticut Shade"],
+        "flavors": ["Cream", "Vanilla", "Caramel", "Cedar", "Honey", "Nuts", "Milk Chocolate"],
+        "origins": ["Dominican Republic", "Nicaragua", "Honduras", "Cuba"]
+      },
+      "pairing_notes": "Milk softens the coffee; pairs with mild-medium cigars. The cream/caramel notes complement Connecticut wrappers. A morning cigar pairing"
+    },
+    "cuban_coffee": {
+      "description": "Cuban-style cafecito, demerara sugar, dark and sweet",
+      "examples": ["Pilon Espresso", "Bustelo", "Café La Llave", "Café Pilon"],
+      "pairs_with": {
+        "strength": [3, 4],
+        "wrappers": ["Cuban Habano", "Habano", "Maduro"],
+        "flavors": ["Espresso", "Demerara Sugar", "Dark Chocolate", "Caramel", "Cedar", "Earth"],
+        "origins": ["Cuba", "Nicaragua", "Dominican Republic"]
+      },
+      "pairing_notes": "The demerara sugar adds sweetness that bridges to the cigar's natural tobacco sweetness; a traditional Cuban pairing. The dark roast matches Habano intensity"
+    },
+    "cold_brew": {
+      "description": "Cold brew coffee, smooth, low acidity, served cold",
+      "examples": ["Stumptown Cold Brew", "La Colombe Original Draft", "Grady's Cold Brew"],
+      "pairs_with": {
+        "strength": [2, 3, 4],
+        "wrappers": ["Connecticut", "Habano", "Sumatra", "Maduro"],
+        "flavors": ["Chocolate", "Caramel", "Nuts", "Vanilla", "Smooth Coffee", "Cocoa"],
+        "origins": ["Dominican Republic", "Nicaragua", "Honduras"]
+      },
+      "pairing_notes": "Low acidity means it won't clash with the cigar; the smooth chocolate notes work with most cigars. Served cold, it's refreshing in warm weather"
+    }
+  },
+  "food": {
+    "dark_chocolate_85": {
+      "description": "Dark chocolate, 85%+ cacao, single-origin",
+      "examples": ["Lindt Excellence 90%", "Valrhona Abinao 85%", "Michel Cluizel Los Ancones 67%", "Tcho 85%"],
+      "pairs_with": {
+        "strength": [4, 5],
+        "wrappers": ["Maduro", "Broadleaf", "Habano", "Cuban Habano"],
+        "flavors": ["Dark Chocolate", "Cocoa", "Earth", "Espresso", "Leather", "Fruit", "Nuts"],
+        "origins": ["Nicaragua", "Cuba", "Honduras", "Brazil", "Dominican Republic"]
+      },
+      "pairing_notes": "The most universal cigar pairing food. The cacao butter coats the palate and enhances the cigar's chocolate notes. Single-origin chocolate (Madagascar, Ecuador) adds terroir complexity"
+    },
+    "aged_manchego": {
+      "description": "Aged Manchego, 12+ months, sheep's milk, nutty and crystalline",
+      "examples": ["Manchego 12 Month", "Manchego Curado", "La Mancha DO Reserve"],
+      "pairs_with": {
+        "strength": [3, 4],
+        "wrappers": ["Habano", "Cameroon", "Connecticut", "Maduro"],
+        "flavors": ["Nuts", "Caramel", "Salt", "Butterscotch", "Cedar", "Earthy", "Sheep's Milk"],
+        "origins": ["Nicaragua", "Dominican Republic", "Cuba", "Honduras"]
+      },
+      "pairing_notes": "The crystalline texture and nutty/salty profile complement medium-full cigars. The salt enhances the cigar's sweetness. A classic tapas-and-cigar pairing"
+    },
+    "bbq_brisket": {
+      "description": "Smoked BBQ brisket, pepper-rubbed, post-oak smoked",
+      "examples": ["Texas-style post-oak smoked brisket", "Carolina vinegar-based pulled pork", "Kansas City burnt ends"],
+      "pairs_with": {
+        "strength": [4, 5],
+        "wrappers": ["Maduro", "Broadleaf", "Habano", "Corojo"],
+        "flavors": ["Smoke", "Pepper", "Beef Fat", "Caramelized Bark", "Earth", "Oak", "Dark Spice"],
+        "origins": ["Nicaragua", "Honduras", "Cuba", "USA (Connecticut Broadleaf)"]
+      },
+      "pairing_notes": "The smoke ring and pepper rub mirror a full-bodied cigar's smoke and pepper. The rendered fat coats the palate, softening the cigar's tannins. A backyard BBQ pairing"
+    },
+    "almond_biscotti": {
+      "description": "Italian almond biscotti, twice-baked, crunchy",
+      "examples": ["Traditional Italian cantucci", "D Lazzaroni Amaretti", "Biscotti di Prato"],
+      "pairs_with": {
+        "strength": [2, 3, 4],
+        "wrappers": ["Cameroon", "Connecticut", "Sumatra", "Habano"],
+        "flavors": ["Almond", "Anise", "Honey", "Cedar", "Vanilla", "Toasted Nuts", "Orange Peel"],
+        "origins": ["Dominican Republic", "Nicaragua", "Cuba", "Honduras"]
+      },
+      "pairing_notes": "The almond and anise complement cedar and spice in the cigar. The crunch and slight sweetness make it a perfect mid-smoke palate cleanser. Dip in coffee or amaretto"
+    },
+    "dark_chocolate_70": {
+      "description": "Dark chocolate, 70% cacao, balanced sweetness",
+      "examples": ["Lindt Excellence 70%", "Ghirardelli Intense Dark 72%", "Green & Black's 70%"],
+      "pairs_with": {
+        "strength": [3, 4],
+        "wrappers": ["Habano", "Maduro", "Cameroon", "Sumatra"],
+        "flavors": ["Chocolate", "Caramel", "Vanilla", "Dried Fruit", "Nuts", "Cocoa"],
+        "origins": ["Dominican Republic", "Nicaragua", "Cuba", "Honduras"]
+      },
+      "pairing_notes": "Balanced sweetness and cocoa; more approachable than 85%. Pairs with medium-full cigars where the chocolate notes are present but not dominant"
+    },
+    "blue_cheese": {
+      "description": "Aged blue cheese, pungent, salty, creamy",
+      "examples": ["Roquefort", "Stilton", "Gorgonzola Dolce", "Point Reyes Blue"],
+      "pairs_with": {
+        "strength": [4, 5],
+        "wrappers": ["Maduro", "Broadleaf", "Cuban Habano"],
+        "flavors": ["Earth", "Leather", "Dark Chocolate", "Pepper", "Salt", "Umami", "Mushroom"],
+        "origins": ["Cuba", "Nicaragua", "Honduras", "Brazil"]
+      },
+      "pairing_notes": "The pungent salt and umami amplify the earth and leather in full cigars. The creaminess mellows tannins. A bold pairing for bold cigars only"
+    },
+    "candied_ginger": {
+      "description": "Crystallized ginger, sweet and spicy",
+      "examples": ["Reed's Crystallized Ginger", "Newman's Own Organics", "Australian Buderim"],
+      "pairs_with": {
+        "strength": [2, 3, 4],
+        "wrappers": ["Connecticut", "Cameroon", "Habano", "Sumatra"],
+        "flavors": ["Ginger", "Honey", "Spice", "Lemon", "Caramel", "Pepper"],
+        "origins": ["Dominican Republic", "Nicaragua", "Honduras", "Cuba"]
+      },
+      "pairing_notes": "The ginger spice complements pepper in the cigar while the sweetness bridges to the tobacco's natural sweetness. A palate cleanser between puffs"
+    }
+  }
+}
