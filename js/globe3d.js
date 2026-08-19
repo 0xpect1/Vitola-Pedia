@@ -100,29 +100,25 @@
       },
       vertexShader: `
         varying vec2 vUv;
-        varying vec3 vNormal;
-        varying vec3 vWorldPos;
+        varying vec3 vWorldNormal;
         void main() {
           vUv = uv;
-          vNormal = normalize(normalMatrix * normal);
-          vec4 wp = modelMatrix * vec4(position, 1.0);
-          vWorldPos = wp.xyz;
-          gl_Position = projectionMatrix * viewMatrix * wp;
+          vWorldNormal = normalize(mat3(modelMatrix) * normal);
+          gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
         }
       `,
       fragmentShader: `
         uniform sampler2D dayTexture;
         uniform sampler2D nightTexture;
         uniform sampler2D bumpTexture;
+        uniform sampler2D waterTexture;
         uniform vec3 sunDirection;
         varying vec2 vUv;
-        varying vec3 vNormal;
-        varying vec3 vWorldPos;
+        varying vec3 vWorldNormal;
 
         void main() {
-          // Sun intensity based on world-space normal
-          vec3 worldNormal = normalize(mat3(modelMatrix) * normal);
-          float sunInt = dot(worldNormal, normalize(sunDirection));
+          // Sun intensity from world-space normal
+          float sunInt = dot(normalize(vWorldNormal), normalize(sunDirection));
 
           // Smooth day/night blend
           float dayAmount = smoothstep(-0.12, 0.20, sunInt);
@@ -134,7 +130,7 @@
           float bump = texture2D(bumpTexture, vUv).r;
           dayColor *= 0.85 + bump * 0.35;
 
-          // Blend
+          // Blend day and night
           vec3 color = mix(nightColor * 0.8, dayColor, dayAmount);
 
           // Warm terminator glow at the day/night boundary
