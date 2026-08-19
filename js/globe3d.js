@@ -123,6 +123,16 @@
     nightTex.colorSpace = T.SRGBColorSpace;
     dayTex.anisotropy = 8;
 
+    // Create a 1x1 placeholder texture for the tile sampler so WebGL
+    // doesn't break when tileBlend is 0. Never leave a sampler null.
+    const placeholderCanvas = document.createElement('canvas');
+    placeholderCanvas.width = 1; placeholderCanvas.height = 1;
+    const pCtx = placeholderCanvas.getContext('2d');
+    pCtx.fillStyle = '#000000';
+    pCtx.fillRect(0, 0, 1, 1);
+    const placeholderTex = new T.CanvasTexture(placeholderCanvas);
+    placeholderTex.colorSpace = T.SRGBColorSpace;
+
     // Tile texture — starts null, gets populated when zoomed in
     tileTexture = new T.CanvasTexture(document.createElement('canvas'));
     tileTexture.colorSpace = T.SRGBColorSpace;
@@ -133,9 +143,11 @@
         nightTexture: { value: nightTex },
         bumpTexture:  { value: bumpTex },
         waterTexture: { value: waterTex },
-        tileTexture:  { value: null },  // null = not loaded yet
-        tileBlend:    { value: 0.0 },   // 0 = no tiles, 1 = full tiles
         sunDirection: { value: new T.Vector3(1, 0, 0) },
+        // Tile texture starts as a 1x1 black pixel — NOT null.
+        // A null sampler in WebGL silently breaks the entire shader.
+        tileTexture:  { value: placeholderTex },
+        tileBlend:    { value: 0.0 },
       },
       vertexShader: `
         varying vec2 vUv;
@@ -164,11 +176,9 @@
           vec3 dayColor = texture2D(dayTexture, vUv).rgb;
           vec3 nightColor = texture2D(nightTexture, vUv).rgb;
 
-          // Bump for terrain relief
           float bump = texture2D(bumpTexture, vUv).r;
           dayColor *= 0.85 + bump * 0.35;
 
-          // Boost city lights
           nightColor *= 2.5;
           float nightBrightness = length(nightColor) / 1.732;
           vec3 cityGlow = vec3(1.0, 0.7, 0.3) * nightBrightness * 0.5;
@@ -176,22 +186,21 @@
 
           vec3 color = mix(nightColor, dayColor, dayAmount);
 
-          // Blend in high-res tiles when zoomed in
-          if (tileBlend > 0.0 && tileTexture != null) {
+          // Blend in high-res tiles when zoomed in.
+          // tileBlend is 0 when no tiles loaded, so this is a no-op.
+          // We DON'T check if tileTexture is null — that's not valid GLSL.
+          // Instead tileBlend smoothly fades to 0 when tiles aren't active.
+          if (tileBlend > 0.001) {
             vec3 tileColor = texture2D(tileTexture, vUv).rgb;
-            // Tiles are brighter — apply same day/night lighting
             vec3 tileLit = tileColor * (0.3 + dayAmount * 0.9);
-            // Add city light glow on dark side of tiles
             tileLit += nightColor * (1.0 - dayAmount) * 0.3;
             color = mix(color, tileLit, tileBlend);
           }
 
-          // Terminator glow
           float term = 1.0 - abs(sunInt - 0.05);
           term = pow(max(0.0, term), 3.0);
           color += vec3(0.6, 0.3, 0.1) * term * 0.5;
 
-          // Water specular
           float waterMask = texture2D(waterTexture, vUv).r;
           float spec = pow(max(0.0, sunInt), 8.0) * waterMask * 0.15;
           color += vec3(spec);
