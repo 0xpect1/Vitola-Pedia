@@ -31,6 +31,8 @@
   let isDragging = false;
   let dragStartX = 0;
   let dragStartY = 0;
+  let velRotY = 0;    // momentum velocity for rotation
+  let velRotX = 0;
   let rotY = 0;
   let rotX = 0.35;
   let targetRotY = 0;
@@ -596,9 +598,9 @@
       // Events
       const el = renderer.domElement;
       el.addEventListener('mousedown', onDragStart);
-      el.addEventListener('touchstart', onDragStart, { passive: true });
+      el.addEventListener('touchstart', (e) => { onTouchStart(e); if (e.touches.length < 2) onDragStart(e); }, { passive: false });
       window.addEventListener('mousemove', onDragMove);
-      window.addEventListener('touchmove', onDragMove, { passive: true });
+      window.addEventListener('touchmove', (e) => { onTouchMove(e); if (e.touches.length < 2) onDragMove(e); }, { passive: false });
       window.addEventListener('mouseup', onDragEnd);
       window.addEventListener('touchend', onDragEnd);
       el.addEventListener('wheel', onWheel, { passive: false });
@@ -619,20 +621,57 @@
     const p = e.touches ? e.touches[0] : e;
     dragStartX = p.clientX; dragStartY = p.clientY;
     targetRotY = rotY; targetRotX = rotX;
+    // Kill any residual velocity
+    velRotY = 0; velRotX = 0;
   }
   function onDragMove(e) {
     if (!isDragging) return;
     const p = e.touches ? e.touches[0] : e;
-    targetRotY = rotY + (p.clientX - dragStartX) * 0.005;
-    targetRotX = Math.max(-1.2, Math.min(1.2, rotX + (p.clientY - dragStartY) * 0.005));
+    const dx = p.clientX - dragStartX;
+    const dy = p.clientY - dragStartY;
+    targetRotY = rotY + dx * 0.005;
+    targetRotX = Math.max(-1.3, Math.min(1.3, rotX + dy * 0.005));
+    // Track velocity for momentum (exponential moving average)
+    velRotY = dx * 0.005 * 0.3 + velRotY * 0.7;
+    velRotX = dy * 0.005 * 0.3 + velRotX * 0.7;
+    dragStartX = p.clientX; dragStartY = p.clientY;
   }
-  function onDragEnd() { isDragging = false; lastInteraction = Date.now(); }
+  function onDragEnd() {
+    isDragging = false; lastInteraction = Date.now();
+    // Apply momentum to target so it keeps spinning and decays
+    targetRotY += velRotY * 8;
+    targetRotX = Math.max(-1.3, Math.min(1.3, targetRotX + velRotX * 8));
+  }
   function onWheel(e) {
     e.preventDefault();
-    targetZoom = Math.max(1.2, Math.min(6, targetZoom + (e.deltaY > 0 ? 0.2 : -0.2)));
+    // Smaller steps for smooth scroll + normalize across browsers
+    const delta = e.deltaY * 0.0015;
+    targetZoom = Math.max(1.2, Math.min(6, targetZoom + delta));
     lastInteraction = Date.now();
-    // Trigger tile loading when zooming in close
-    if (targetZoom < 2.0) setTimeout(loadTilesForView, 300);
+    if (targetZoom < 2.0) setTimeout(loadTilesForView, 200);
+  }
+  // Touch pinch-to-zoom
+  let pinchStartDist = 0;
+  let pinchStartZoom = 0;
+  function onTouchStart(e) {
+    if (e.touches && e.touches.length === 2) {
+      const dx = e.touches[0].clientX - e.touches[1].clientX;
+      const dy = e.touches[0].clientY - e.touches[1].clientY;
+      pinchStartDist = Math.hypot(dx, dy);
+      pinchStartZoom = targetZoom;
+      isDragging = false; // stop drag while pinching
+    }
+  }
+  function onTouchMove(e) {
+    if (e.touches && e.touches.length === 2 && pinchStartDist > 0) {
+      const dx = e.touches[0].clientX - e.touches[1].clientX;
+      const dy = e.touches[0].clientY - e.touches[1].clientY;
+      const dist = Math.hypot(dx, dy);
+      const scale = pinchStartDist / dist;
+      targetZoom = Math.max(1.2, Math.min(6, pinchStartZoom * scale));
+      lastInteraction = Date.now();
+      if (targetZoom < 2.0) setTimeout(loadTilesForView, 200);
+    }
   }
   function onResize(container) {
     if (!renderer || !container) return;
@@ -654,9 +693,20 @@
     if (isDragging) autoRotate = false;
     if (autoRotate) targetRotY += 0.0005;
 
-    rotY += (targetRotY - rotY) * 0.08;
-    rotX += (targetRotX - rotX) * 0.08;
-    zoom += (targetZoom - zoom) * 0.08;
+    // Decay velocity (momentum friction)
+    if (!isDragging) {
+      velRotY *= 0.92;
+      velRotX *= 0.92;
+      if (Math.abs(velRotY) > 0.0001) targetRotY += velRotY;
+      if (Math.abs(velRotX) > 0.0001) {
+        targetRotX = Math.max(-1.3, Math.min(1.3, targetRotX + velRotX));
+      }
+    }
+
+    // Higher lerp factor = more responsive but still smooth
+    rotY += (targetRotY - rotY) * 0.12;
+    rotX += (targetRotX - rotX) * 0.12;
+    zoom += (targetZoom - zoom) * 0.1;
 
     globe.rotation.y = rotY;
     globe.rotation.x = rotX;
