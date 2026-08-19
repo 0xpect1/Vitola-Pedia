@@ -1,0 +1,650 @@
+/* ================================================================
+   PREMIUM UPGRADE — Visual Polish Layer
+   A: Cursor-following gold glow on cards
+   B: Gold seal rating badge
+   C: Wrapper-colored accent stripe
+   D: Ambient smoke-wisp hero animation
+   E: Gold divider rules + small-caps section titles
+   K: Scroll-reveal staggered animations in modal
+   M: Subtle leather grain texture overlay
+   ================================================================ */
+
+/* ── M: LEATHER GRAIN TEXTURE ─────────────────────────────────── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.025;
+  background-image:
+    repeating-radial-gradient(circle at 20% 30%, transparent 0, rgba(201,168,76,0.5) 1px, transparent 2px),
+    repeating-radial-gradient(circle at 70% 60%, transparent 0, rgba(201,168,76,0.3) 1px, transparent 3px),
+    repeating-radial-gradient(circle at 40% 80%, transparent 0, rgba(255,255,255,0.2) 0.5px, transparent 2px);
+  background-size: 120px 120px, 80px 80px, 60px 60px;
+  mix-blend-mode: overlay;
+}
+.site-header, .modal, .hero, .main-content { position: relative; z-index: 1; }
+
+/* ── D: SMOKE-WISP HERO ANIMATION ──────────────────────────────── */
+.hero { position: relative; overflow: hidden; }
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  transform: translateX(-50%);
+  background:
+    radial-gradient(ellipse 40% 60% at 45% 100%, rgba(201,168,76,0.04) 0%, transparent 70%),
+    radial-gradient(ellipse 30% 50% at 55% 90%, rgba(201,168,76,0.03) 0%, transparent 70%),
+    radial-gradient(ellipse 25% 40% at 50% 80%, rgba(201,168,76,0.02) 0%, transparent 70%);
+  filter: blur(40px);
+  animation: smokeWisp 8s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes smokeWisp {
+  0%, 100% { transform: translateX(-50%) translateY(0) scale(1); opacity: 0.5; }
+  50% { transform: translateX(-48%) translateY(-30px) scale(1.08); opacity: 0.8; }
+}
+
+/* ── A: CURSOR-FOLLOWING GOLD GLOW ────────────────────────────── */
+.cigar-card {
+  --mx: 50%;
+  --my: 50%;
+}
+.cigar-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle 200px at var(--mx) var(--my), rgba(201,168,76,0.08) 0%, transparent 60%);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+.cigar-card:hover::after { opacity: 1; }
+.cigar-card > * { position: relative; z-index: 1; }
+
+/* ── C: WRAPPER ACCENT STRIPE ─────────────────────────────────── */
+.cigar-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--wrapper-stripe, transparent);
+  border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+  z-index: 3;
+  opacity: 0.7;
+  transition: opacity 0.3s, width 0.3s;
+}
+.cigar-card:hover::before { opacity: 1; width: 4px; }
+
+/* Wrapper color mapping */
+.cigar-card[data-wrapper~="maduro"]      { --wrapper-stripe: #3d2817; }
+.cigar-card[data-wrapper~="broadleaf"]   { --wrapper-stripe: #4a3020; }
+.cigar-card[data-wrapper~="connecticut"] { --wrapper-stripe: #8b7355; }
+.cigar-card[data-wrapper~="habano"]      { --wrapper-stripe: #a05530; }
+.cigar-card[data-wrapper~="corojo"]      { --wrapper-stripe: #8b3a2a; }
+.cigar-card[data-wrapper~="cameroon"]    { --wrapper-stripe: #7a5c3a; }
+.cigar-card[data-wrapper~="sumatra"]     { --wrapper-stripe: #6b4e2e; }
+.cigar-card[data-wrapper~="criollo"]     { --wrapper-stripe: #9c6b3f; }
+.cigar-card[data-wrapper~="shade"]       { --wrapper-stripe: #c4a87a; }
+
+/* ── B: GOLD SEAL RATING ──────────────────────────────────────── */
+.card-rating-wrap {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-rating-seal {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(201,168,76,0.18) 0%, rgba(201,168,76,0.04) 60%, transparent 100%);
+  border: 1.5px solid rgba(201,168,76,0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+.cigar-card:hover .card-rating-seal {
+  border-color: rgba(201,168,76,0.5);
+  background: radial-gradient(circle, rgba(201,168,76,0.25) 0%, rgba(201,168,76,0.08) 60%, transparent 100%);
+  box-shadow: 0 0 12px rgba(201,168,76,0.15);
+}
+.card-rating-seal .seal-num {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--gold);
+  line-height: 1;
+}
+.card-rating-seal .seal-label {
+  font-size: 7px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-top: 1px;
+}
+
+/* ── E: GOLD DIVIDER + SMALL-CAPS SECTION TITLES ──────────────── */
+.modal-section-title {
+  font-family: var(--font-sans) !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.18em !important;
+  text-transform: uppercase !important;
+  color: var(--gold) !important;
+  margin-bottom: 16px !important;
+  padding-bottom: 10px !important;
+  border-bottom: 1px solid var(--border-h) !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+.modal-section-title::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--gold);
+  flex-shrink: 0;
+  box-shadow: 0 0 6px rgba(201,168,76,0.4);
+}
+
+/* ── K: SCROLL-REVEAL STAGGERED ANIMATIONS ────────────────────── */
+.modal-body > * {
+  opacity: 0;
+  transform: translateY(18px);
+  animation: premiumReveal 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+.modal-body > *:nth-child(1) { animation-delay: 0.05s; }
+.modal-body > *:nth-child(2) { animation-delay: 0.12s; }
+.modal-body > *:nth-child(3) { animation-delay: 0.19s; }
+.modal-body > *:nth-child(4) { animation-delay: 0.26s; }
+.modal-body > *:nth-child(5) { animation-delay: 0.33s; }
+.modal-body > *:nth-child(6) { animation-delay: 0.40s; }
+.modal-body > *:nth-child(7) { animation-delay: 0.47s; }
+.modal-body > *:nth-child(8) { animation-delay: 0.54s; }
+.modal-body > *:nth-child(9) { animation-delay: 0.61s; }
+.modal-body > *:nth-child(10) { animation-delay: 0.68s; }
+.modal-body > *:nth-child(n+11) { animation-delay: 0.75s; }
+
+@keyframes premiumReveal {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ── F: TASTING NOTES — THIRD-BY-THIRD ────────────────────────── */
+.tasting-notes {
+  margin-top: 8px;
+}
+.tasting-third {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+.tasting-third:last-child { border-bottom: none; }
+.tasting-third-label {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.tasting-third-name {
+  font-family: var(--font-serif);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gold-light);
+}
+.tasting-third-pct {
+  font-size: 10px;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.tasting-third-progress {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--bg-panel);
+  overflow: hidden;
+  margin-top: 4px;
+}
+.tasting-third-progress-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--gold-dark), var(--gold));
+  transition: width 0.6s ease;
+}
+.tasting-third-body {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+.tasting-third-flavors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 6px;
+}
+.tasting-flavor-tag {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: rgba(201,168,76,0.08);
+  border: 1px solid rgba(201,168,76,0.15);
+  color: var(--gold-light);
+  white-space: nowrap;
+}
+.tasting-retrohale {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 6px;
+}
+.tasting-retrohale::before {
+  content: '↳ Retrohale: ';
+  font-style: normal;
+  color: var(--gold-dark);
+}
+
+/* ── G: CIGAR DNA CROSS-SECTION DIAGRAM ───────────────────────── */
+.cigar-dna {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 8px 0;
+}
+.cigar-dna-svg {
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+}
+.cigar-dna-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+.dna-layer {
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  gap: 10px;
+  align-items: center;
+}
+.dna-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+.dna-label {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.dna-layer-name {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+}
+.dna-layer-value {
+  font-size: 13px;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+/* ── H: RATING SUB-SCORE BREAKDOWN ─────────────────────────────── */
+.rating-breakdown {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 8px;
+}
+.rating-sub-box {
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.rating-sub-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+.rating-sub-score {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--gold);
+}
+.rating-sub-bar {
+  flex: 1;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--bg-panel);
+  overflow: hidden;
+  margin: 0 8px;
+  max-width: 60px;
+}
+.rating-sub-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--gold-dark), var(--gold));
+  transition: width 0.5s ease;
+}
+
+/* ── I: PAIRING MATCH SCORE ────────────────────────────────────── */
+.pairing-entry {
+  position: relative;
+}
+.pairing-match-score {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+.pairing-match-star {
+  font-size: 9px;
+  color: var(--gold);
+  opacity: 0.9;
+}
+.pairing-match-star.dim {
+  color: var(--text-muted);
+  opacity: 0.3;
+}
+.pairing-match-label {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gold-dark);
+  margin-left: 4px;
+}
+
+/* ── J: CELLAR / WISHLIST ──────────────────────────────────────── */
+.card-heart-btn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--bg-base);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: var(--transition);
+  z-index: 3;
+  cursor: pointer;
+}
+.cigar-card:hover .card-heart-btn { opacity: 1; }
+.card-heart-btn:hover {
+  border-color: #d04040;
+  color: #d04040;
+}
+.card-heart-btn.saved {
+  opacity: 1;
+  color: #d04040;
+  border-color: rgba(208,64,64,0.4);
+  background: rgba(208,64,64,0.08);
+}
+.card-heart-btn svg { width: 13px; height: 13px; }
+
+.cellar-tray {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--bg-panel);
+  border-top: 1px solid var(--border-h);
+  z-index: 300;
+  padding: 14px 24px;
+  animation: slideUp 0.25s ease;
+}
+.cellar-tray-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.cellar-tray-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+.cellar-count {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 700;
+  color: #d04040;
+}
+.cellar-slots {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+.cellar-slot {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+  font-size: 12px;
+}
+.cellar-slot-name {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.cellar-slot-remove {
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 12px;
+  transition: var(--transition);
+}
+.cellar-slot-remove:hover { color: #d04040; }
+.cellar-tray-actions { display: flex; gap: 8px; flex-shrink: 0; }
+.cellar-clear-btn {
+  padding: 8px 14px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  color: var(--text-muted);
+  font-size: 12px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.cellar-clear-btn:hover { border-color: var(--border-h); color: var(--text-secondary); }
+.cellar-view-btn {
+  padding: 8px 16px;
+  background: rgba(208,64,64,0.08);
+  border: 1px solid rgba(208,64,64,0.3);
+  border-radius: var(--radius-lg);
+  color: #d04040;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.cellar-view-btn:hover { background: rgba(208,64,64,0.15); }
+.cellar-empty {
+  font-size: 13px;
+  color: var(--text-muted);
+  padding: 4px 0;
+}
+
+/* Cellar grid view */
+.cellar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+.cellar-grid .cigar-card { cursor: default; }
+
+/* ── L: COMPARE MATRIX VISUAL UPGRADE ──────────────────────────── */
+.cmp-table {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+.cmp-table th,
+.cmp-table td {
+  padding: 12px 14px !important;
+  font-size: 13px;
+}
+.cmp-table thead th {
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-h) !important;
+}
+.cmp-table tbody tr {
+  transition: background 0.2s;
+}
+.cmp-table tbody tr:hover {
+  background: rgba(201,168,76,0.03);
+}
+.cmp-best {
+  background: rgba(201,168,76,0.08) !important;
+  position: relative;
+}
+.cmp-best::after {
+  content: '★';
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  font-size: 9px;
+  color: var(--gold);
+}
+.cmp-bar-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.cmp-bar {
+  height: 6px;
+  border-radius: 3px;
+  background: var(--bg-panel);
+  overflow: hidden;
+  flex: 1;
+  max-width: 80px;
+}
+.cmp-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+.cmp-bar-fill.rating { background: linear-gradient(90deg, var(--gold-dark), var(--gold)); }
+.cmp-bar-fill.price { background: linear-gradient(90deg, #6b8b5a, #7fc99e); }
+.cmp-bar-fill.strength { background: linear-gradient(90deg, var(--strength-1), var(--strength-5)); }
+.cmp-bar-fill.time { background: linear-gradient(90deg, #5a7a9a, #8fb8d8); }
+.cmp-bar-fill.ring { background: linear-gradient(90deg, #8b6b3a, var(--gold)); }
+.cmp-val {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  color: var(--gold);
+  font-size: 14px;
+  min-width: 36px;
+}
+
+/* ── MODAL PREMIUM POLISH ──────────────────────────────────────── */
+.modal {
+  border: 1px solid rgba(201,168,76,0.2) !important;
+  box-shadow:
+    0 24px 80px rgba(0,0,0,0.8),
+    0 0 0 1px rgba(201,168,76,0.15),
+    0 0 60px rgba(201,168,76,0.04) !important;
+}
+.modal-body { padding: 36px !important; }
+.modal-stats-row { gap: 14px !important; }
+.modal-stat-box {
+  border-radius: var(--radius-lg) !important;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.modal-stat-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+.msb-val {
+  font-size: 30px !important;
+  background: linear-gradient(135deg, var(--gold-light), var(--gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Hero image premium frame */
+.modal-hero-img-wrap {
+  border-radius: var(--radius-lg) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3) !important;
+}
+
+/* Specs grid upgrade */
+.modal-specs {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 10px !important;
+}
+.spec-item {
+  background: var(--bg-deep) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius-sm) !important;
+  padding: 10px 12px !important;
+  transition: border-color 0.3s;
+}
+.spec-item:hover { border-color: var(--border-h) !important; }
+.spec-value { font-size: 12px !important; }
+
+/* ── CARD PREMIUM POLISH ───────────────────────────────────────── */
+.cigar-card {
+  border-radius: var(--radius-lg) !important;
+  transition: transform 0.35s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.35s, border-color 0.35s !important;
+}
+.cigar-card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: var(--shadow-card), 0 0 40px rgba(201,168,76,0.06), 0 8px 24px rgba(0,0,0,0.4) !important;
+}
+
+/* Card image premium treatment */
+.card-img-wrap {
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0 !important;
+}
+.card-img {
+  transition: transform 0.6s cubic-bezier(0.25,0.46,0.45,0.94);
+}
+.cigar-card:hover .card-img {
+  transform: scale(1.03);
+}
+
+/* Strength dots premium */
+.strength-dot {
+  border-radius: 2px !important;
+  transition: all 0.3s !important;
+}
+.strength-dot.filled {
+  box-shadow: 0 0 4px var(--strength-val, var(--gold));
+}

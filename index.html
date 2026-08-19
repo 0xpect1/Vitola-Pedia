@@ -40,6 +40,7 @@
   <link rel="stylesheet" href="css/journal.css" />
   <link rel="stylesheet" href="css/picker.css" />
   <link rel="stylesheet" href="css/refine.css" />
+  <link rel="stylesheet" href="css/premium.css" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1209'/%3E%3Crect x='4' y='14' width='20' height='5' rx='2.5' fill='%23c9943a'/%3E%3Crect x='24' y='14' width='4' height='5' rx='1' fill='%23e8b86d'/%3E%3Ccircle cx='25' cy='13' r='2' fill='%23ff6b35' opacity='.9'/%3E%3C/svg%3E" />
 
   <!-- ═══ STRUCTURED DATA ═══════════════════════════════════════════ -->
@@ -843,5 +844,19 @@
   <script src="js/rails.js"></script>
   <script src="js/analytics.js"></script>
   <script src="js/palette.js"></script>
+  <script src="js/premium.js"></script>
+
+  <!-- Cellar / Wishlist tray -->
+  <div class="cellar-tray hidden" id="cellarTray">
+    <div class="cellar-tray-inner">
+      <span class="cellar-tray-label">Cellar</span>
+      <span class="cellar-count" id="cellarCount">0</span>
+      <div class="cellar-slots" id="cellarSlots"></div>
+      <div class="cellar-tray-actions">
+        <button class="cellar-clear-btn" onclick="clearCellar()">Clear</button>
+        <button class="cellar-view-btn" onclick="openCellarView()">View Saved</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

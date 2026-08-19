@@ -194,16 +194,23 @@ function renderCard(cigar, index) {
     : '';
 
   const inCompare = compareList.includes(cigar.id);
+  const inCellar = typeof isInCellar === 'function' && isInCellar(cigar.id);
+  const wrapperSlug = cigar.wrapper.toLowerCase();
   return `
-    <article class="cigar-card${cigar.image ? ' has-img' : ''}" data-id="${cigar.id}" style="animation-delay:${Math.min(index * 0.04, 0.5)}s" role="button" tabindex="0">
+    <article class="cigar-card${cigar.image ? ' has-img' : ''}" data-id="${cigar.id}" data-wrapper="${wrapperSlug}" style="animation-delay:${Math.min(index * 0.04, 0.5)}s" role="button" tabindex="0">
       ${cardImg}
       ${limitedBadge}
+      <button class="card-heart-btn${inCellar ? ' saved' : ''}" data-id="${cigar.id}" title="Save to Cellar" tabindex="-1" onclick="event.stopPropagation();toggleCellar('${cigar.id}', event)">
+        <svg viewBox="0 0 24 24" fill="${inCellar ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+      </button>
       <button class="card-compare-btn${inCompare ? ' in-compare' : ''}" data-id="${cigar.id}" title="Compare" tabindex="-1">+</button>
       <div class="card-header">
         <span class="card-origin-badge">${flag} ${cigar.origin}</span>
-        <div>
-          <div class="card-rating">${cigar.rating}</div>
-          <span class="card-rating-label">pts</span>
+        <div class="card-rating-wrap">
+          <div class="card-rating-seal">
+            <span class="seal-num">${cigar.rating}</span>
+            <span class="seal-label">pts</span>
+          </div>
         </div>
       </div>
       <div class="card-name">${cigar.name}</div>
@@ -1736,15 +1743,13 @@ function openCompareModal() {
   const ROWS = [
     ['Origin',      c => `${ORIGIN_FLAGS[c.origin] || ''} ${c.origin}`],
     ['Region',      c => c.region],
-    ['Rating',      c => `${c.rating} pts`,        c => c.rating === best.rating],
-    ['Price',       c => formatPrice(c.price),     c => c.price === best.price],
+    ['Rating',      c => `<div class="cmp-bar-cell"><div class="cmp-bar"><div class="cmp-bar-fill rating" style="width:${((c.rating - 82) / 18) * 100}%"></div></div><span class="cmp-val">${c.rating}</span></div>`,        c => c.rating === best.rating],
+    ['Price',       c => `<div class="cmp-bar-cell"><div class="cmp-bar"><div class="cmp-bar-fill price" style="width:${Math.min(100, (c.price / 60) * 100)}%"></div></div><span class="cmp-val">$${c.price.toFixed(0)}</span></div>`,     c => c.price === best.price],
     ['Strength',    c => {
       const sc = strengthConfig(c.strength);
-      return `<span style="color:${sc.color};font-weight:600">${sc.label}</span>
-        <span class="compare-strength-bar"><span class="compare-strength-fill"
-          style="width:${(c.strength / 5) * 100}%;background:${sc.color}"></span></span>`;
+      return `<div class="cmp-bar-cell"><div class="cmp-bar"><div class="cmp-bar-fill strength" style="width:${(c.strength / 5) * 100}%"></div></div><span style="color:${sc.color};font-weight:600;font-size:13px">${sc.label}</span></div>`;
     }],
-    ['Smoke Time',  c => formatTime(c.smokingTime)],
+    ['Smoke Time',  c => `<div class="cmp-bar-cell"><div class="cmp-bar"><div class="cmp-bar-fill time" style="width:${((c.smokingTime - 20) / 100) * 100}%"></div></div><span class="cmp-val">${formatTime(c.smokingTime)}</span></div>`],
     ['Wrapper',     c => c.wrapper],
     ['Binder',      c => c.binder],
     ['Filler',      c => c.filler],
