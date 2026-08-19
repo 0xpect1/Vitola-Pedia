@@ -39,7 +39,7 @@
   let targetRotX = 0.35;
   let zoom = 2.8;
   let targetZoom = 2.8;
-  let autoRotate = true;
+  let autoRotate = false;  // off by default — only on after 8s of no interaction
   let lastInteraction = 0;
 
   const R = 1; // globe radius
@@ -485,8 +485,9 @@
     if (!renderer) return;
     requestAnimationFrame(animate);
 
-    if (!isDragging && Date.now() - lastInteraction > 3500) autoRotate = true;
-    if (autoRotate) targetRotY += 0.0012;
+    if (!isDragging && Date.now() - lastInteraction > 8000) autoRotate = true;
+    if (isDragging) autoRotate = false;
+    if (autoRotate) targetRotY += 0.0005;
 
     rotY += (targetRotY - rotY) * 0.08;
     rotX += (targetRotX - rotX) * 0.08;
