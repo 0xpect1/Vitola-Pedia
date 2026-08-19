@@ -788,19 +788,27 @@
     }
   }
 
-  // Watch for lounge view becoming visible
-  const observer = new MutationObserver(() => {
+  // Poll for lounge view becoming visible (MutationObserver caused
+  // infinite loops because lounge rendering triggers DOM mutations)
+  let initRetries = 0;
+  function checkAndInit() {
+    if (globeInitialized) return;
+    if (initRetries > 30) return; // give up after ~15s
+    initRetries++;
     const mapEl = document.getElementById('lgMap');
-    if (mapEl && mapEl.offsetParent !== null && !globeInitialized) {
+    if (mapEl && mapEl.offsetParent !== null) {
       tryInitGlobe();
     }
-  });
-  observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['style', 'class'] });
+    if (!globeInitialized) {
+      setTimeout(checkAndInit, 500);
+    }
+  }
 
   // Also try on lounge nav click
   document.addEventListener('click', (e) => {
     if (e.target && e.target.dataset && e.target.dataset.view === 'lounge') {
-      setTimeout(tryInitGlobe, 800);
+      initRetries = 0;
+      setTimeout(checkAndInit, 800);
     }
   });
 
