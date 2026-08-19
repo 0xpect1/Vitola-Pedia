@@ -261,15 +261,15 @@
   }
 
   /* ── TILE LOADING ────────────────────────────────────────────── */
-  // Load Esri satellite tiles and composite them into a single
-  // equirectangular texture. We load a grid of tiles around the
-  // camera's target lat/lon at the appropriate zoom level.
+  // Load Esri satellite tiles and composite them into a full
+  // equirectangular canvas at the correct lat/lon positions.
+  // The canvas is 2048x1024 (same UV space as the globe) so tiles
+  // land exactly where they should on the sphere.
   function loadTilesForView() {
     if (tilesLoading || !globe || !globe.material) return;
-    if (zoom > 2.0) {
-      // Too far out — don't bother with tiles
+    if (zoom > 2.2) {
       if (globe.material.uniforms.tileBlend.value > 0.01) {
-        globe.material.uniforms.tileBlend.value *= 0.9;
+        globe.material.uniforms.tileBlend.value *= 0.88;
       }
       currentTileZoom = -1;
       return;
@@ -277,9 +277,8 @@
 
     tilesLoading = true;
 
-    // Determine Esri zoom level based on camera zoom
-    // Camera zoom 2.0 → Esri z=3, 1.5 → z=4, 1.0 → z=5, etc.
-    const esriZ = Math.max(2, Math.min(7, Math.round(3 + (2.0 - zoom) * 2)));
+    // Esri zoom level based on camera zoom
+    const esriZ = Math.max(2, Math.min(8, Math.round(3 + (2.2 - zoom) * 2.5)));
 
     if (esriZ === currentTileZoom && globe.material.uniforms.tileBlend.value > 0.5) {
       tilesLoading = false;
@@ -287,47 +286,85 @@
     }
     currentTileZoom = esriZ;
 
-    // Get camera target lat/lon
     const target = cameraToLatLon();
 
-    // Esri tile grid at zoom level z: 2^z tiles wide, 2^z tiles tall
+    // Esri tile grid: 2^z tiles per side
     const tilesPerSide = Math.pow(2, esriZ);
 
-    // Convert lat/lon to tile coordinates
-    const latRad = target.lat * Math.PI / 180;
-    const tileX = ((target.lon + 180) / 360) * tilesPerSide;
-    const tileY = ((1 - Math.log(Math.tan(latRad) + 1/Math.cos(latRad)) / Math.PI) / 2) * tilesPerSide;
-
-    // Load a GRID_SIZE x GRID_SIZE grid of tiles centered on camera target
-    const GRID = 4;
-    const halfGrid = Math.floor(GRID / 2);
-
-    // Create canvas if needed
-    const canvasSize = TILE_SIZE * GRID;
+    // The equirectangular canvas — full world width
+    const ECTW = 2048, ECTH = 1024;
     if (!tileCanvas) {
       tileCanvas = document.createElement('canvas');
-      tileCanvas.width = canvasSize;
-      tileCanvas.height = canvasSize;
+      tileCanvas.width = ECTW;
+      tileCanvas.height = ECTH;
       tileCtx = tileCanvas.getContext('2d');
     }
 
-    // Fill with dark background
-    tileCtx.fillStyle = '#0a0a0a';
-    tileCtx.fillRect(0, 0, canvasSize, canvasSize);
+    // Fill with transparent (we only want tiles where they load)
+    tileCtx.clearRect(0, 0, ECTW, ECTH);
+
+    // Each Esri tile covers 360/tilesPerSide degrees of longitude
+    // and 180/tilesPerSide degrees of latitude
+    const degPerTileX = 360 / tilesPerSide;
+    const degPerTileY = 180 / tilesPerSide;
+
+    // Determine which tiles to load — a window centered on the camera target
+    // At low zoom (z=3, 8 tiles), load ALL tiles. At high zoom, load a grid.
+    const windowSize = Math.min(tilesPerSide, esriZ <= 3 ? tilesPerSide : 6);
+    const halfWin = Math.floor(windowSize / 2);
+
+    // Camera target in tile coordinates
+    const latRad = target.lat * Math.PI / 180;
+    const camTileX = ((target.lon + 180) / 360) * tilesPerSide;
+    const camTileY = ((1 - Math.log(Math.tan(latRad) + 1 / Math.cos(latRad)) / Math.PI) / 2) * tilesPerSide;
+
+    // Clamp tile Y range
+    const startY = Math.max(0, Math.min(tilesPerSide - 1, Math.floor(camTileY) - halfWin));
+    const endY = Math.max(0, Math.min(tilesPerSide - 1, startY + windowSize - 1));
 
     let loaded = 0;
-    const total = GRID * GRID;
+    let total = 0;
 
-    for (let dx = 0; dx < GRID; dx++) {
-      for (let dy = 0; dy < GRID; dy++) {
-        const tx = (Math.floor(tileX) - halfGrid + dx + tilesPerSide) % tilesPerSide;
-        const ty = Math.max(0, Math.min(tilesPerSide - 1, Math.floor(tileY) - halfGrid + dy));
+    // Count total first
+    for (let ty = startY; ty <= endY; ty++) {
+      for (let dx = 0; dx < windowSize; dx++) {
+        total++;
+      }
+    }
+
+    for (let ty = startY; ty <= endY; ty++) {
+      for (let dx = 0; dx < windowSize; dx++) {
+        const tx = (Math.floor(camTileX) - halfWin + dx + tilesPerSide) % tilesPerSide;
+
+        // Calculate where this tile goes on the equirectangular canvas
+        // Esri tiles use Web Mercator (EPSG:3857), but we're placing them
+        // on an equirectangular grid. For low zoom levels (z <= 6) the
+        // distortion is minimal and acceptable for a visual overlay.
+        const tileLonStart = (tx / tilesPerSide) * 360 - 180;
+        const tileLonEnd = ((tx + 1) / tilesPerSide) * 360 - 180;
+
+        // For Y, Web Mercator projects latitude non-linearly.
+        // Tile row ty covers latitudes from top to bottom:
+        const n = Math.PI - (2 * Math.PI * ty) / tilesPerSide;
+        const tileLatTop = (180 / Math.PI) * Math.atan(Math.sinh(n));
+        const n2 = Math.PI - (2 * Math.PI * (ty + 1)) / tilesPerSide;
+        const tileLatBottom = (180 / Math.PI) * Math.atan(Math.sinh(n2));
+
+        // Convert to canvas pixel positions (equirectangular)
+        const pxStart = ((tileLonStart + 180) / 360) * ECTW;
+        const pxEnd = ((tileLonEnd + 180) / 360) * ECTW;
+        const pyStart = ((90 - tileLatTop) / 180) * ECTH;
+        const pyEnd = ((90 - tileLatBottom) / 180) * ECTH;
+
+        const pxW = pxEnd - pxStart;
+        const pyH = pyEnd - pyStart;
+
         const url = esriTileUrl(esriZ, tx, ty);
-
         const img = new Image();
         img.crossOrigin = 'anonymous';
         img.onload = () => {
-          tileCtx.drawImage(img, dx * TILE_SIZE, dy * TILE_SIZE, TILE_SIZE, TILE_SIZE);
+          // Draw the tile at the correct equirectangular position
+          tileCtx.drawImage(img, pxStart, pyStart, pxW, pyH);
           loaded++;
           if (loaded >= total) finishTileLoad();
         };
@@ -336,14 +373,13 @@
       }
     }
 
-    // Timeout fallback — if tiles take too long, just proceed
-    setTimeout(() => { if (loaded < total) { loaded = total; finishTileLoad(); } }, 3000);
+    // Timeout fallback
+    setTimeout(() => { if (loaded < total) { loaded = total; finishTileLoad(); } }, 4000);
   }
 
   function finishTileLoad() {
     if (!globe || !globe.material) { tilesLoading = false; return; }
 
-    // Update the tile texture
     if (!tileTexture) {
       tileTexture = new T.CanvasTexture(tileCanvas);
       tileTexture.colorSpace = T.SRGBColorSpace;
@@ -352,14 +388,16 @@
       tileTexture.needsUpdate = true;
     }
 
-    // Remap tile texture UVs so the loaded grid is centered on the
-    // camera target. For simplicity, we just set the tile texture as
-    // a full equirectangular and let it overlay — the tile grid happens
-    // to cover the visible area because we centered on the camera.
+    // High quality filtering on tile texture
+    tileTexture.minFilter = T.LinearMipmapLinearFilter;
+    tileTexture.magFilter = T.LinearFilter;
+    tileTexture.generateMipmaps = true;
+    const maxA = renderer ? renderer.capabilities.getMaxAnisotropy() : 8;
+    tileTexture.anisotropy = maxA;
+
     globe.material.uniforms.tileTexture.value = tileTexture;
 
-    // Blend in the tiles based on zoom level
-    const blendAmount = Math.max(0, Math.min(1, (2.0 - zoom) / 0.8));
+    const blendAmount = Math.max(0, Math.min(1, (2.2 - zoom) / 0.7));
     globe.material.uniforms.tileBlend.value = blendAmount;
 
     tilesLoading = false;
@@ -659,7 +697,7 @@
     e.preventDefault();
     // Smaller steps for smooth scroll + normalize across browsers
     const delta = e.deltaY * 0.0015;
-    targetZoom = Math.max(1.2, Math.min(6, targetZoom + delta));
+    targetZoom = Math.max(1.1, Math.min(6, targetZoom + delta));
     lastInteraction = Date.now();
     if (targetZoom < 2.0) setTimeout(loadTilesForView, 200);
   }
@@ -681,7 +719,7 @@
       const dy = e.touches[0].clientY - e.touches[1].clientY;
       const dist = Math.hypot(dx, dy);
       const scale = pinchStartDist / dist;
-      targetZoom = Math.max(1.2, Math.min(6, pinchStartZoom * scale));
+      targetZoom = Math.max(1.1, Math.min(6, pinchStartZoom * scale));
       lastInteraction = Date.now();
       if (targetZoom < 2.0) setTimeout(loadTilesForView, 200);
     }
