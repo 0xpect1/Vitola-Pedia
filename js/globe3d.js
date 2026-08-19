@@ -42,14 +42,17 @@
   let autoRotate = false;
   let lastInteraction = 0;
 
-  // Tile texture cache
-  let tileTexture = null;
+  // Tile texture — canvas only covers the visible region, not the whole globe.
+  // UV offset/scale uniforms tell the shader which lat/lon range the canvas covers.
   let tileCanvas = null;
   let tileCtx = null;
-  const TILE_SIZE = 256;
-  const TILE_GRID = 8; // 8x8 = 64 tiles per face at zoom level 3
+  let tileTexture = null;
+  const TILE_RES = 256;      // each Esri tile is 256px
+  const TILE_GRID = 8;       // 8x8 grid of tiles loaded at once = 2048px canvas
   let currentTileZoom = -1;
   let tilesLoading = false;
+  // UV bounds of the current tile canvas on the globe [uMin, uMax, vMin, vMax]
+  let tileUvBounds = { uMin: 0, uMax: 1, vMin: 0, vMax: 1 };
 
   const R = 1;
 
@@ -157,6 +160,9 @@
         // A null sampler in WebGL silently breaks the entire shader.
         tileTexture:  { value: placeholderTex },
         tileBlend:    { value: 0.0 },
+        // UV offset/scale so the tile canvas only covers the loaded region
+        tileUvOffset: { value: new T.Vector2(0, 0) },
+        tileUvScale:  { value: new T.Vector2(1, 1) },
       },
       vertexShader: `
         varying vec2 vUv;
@@ -174,6 +180,8 @@
         uniform sampler2D waterTexture;
         uniform sampler2D tileTexture;
         uniform float tileBlend;
+        uniform vec2 tileUvOffset;
+        uniform vec2 tileUvScale;
         uniform vec3 sunDirection;
         varying vec2 vUv;
         varying vec3 vWorldNormal;
@@ -235,17 +243,23 @@
 
           // ── HIGH-RES TILES ───────────────────────────────────
           if (tileBlend > 0.001) {
-            vec3 tileColor = texture2D(tileTexture, vUv).rgb;
-            // Saturation boost on tiles too
-            float tileLum = dot(tileColor, vec3(0.299, 0.587, 0.114));
-            vec3 tileSat = mix(vec3(tileLum), tileColor, 1.25);
-            tileColor = mix(tileColor, tileSat, 0.5);
-            vec3 tileDay = tileColor * (0.75 + bump * 0.4);
-            vec3 tileNight = tileColor * 0.02 + nightColor * 0.5;
-            vec3 tileLit = mix(tileNight, tileDay, dayAmount);
-            tileLit += specColor * waterMask * dayAmount * 0.5;
-            tileLit += twilightColor * 0.5;
-            color = mix(color, tileLit, tileBlend);
+            // Remap UV: the tile canvas only covers a sub-region of the globe.
+            // tileUvOffset + vUv * tileUvScale maps globe UV → tile canvas UV.
+            vec2 tileUv = tileUvOffset + vUv * tileUvScale;
+            // Only sample if within the tile canvas bounds
+            if (tileUv.x >= 0.0 && tileUv.x <= 1.0 && tileUv.y >= 0.0 && tileUv.y <= 1.0) {
+              vec3 tileColor = texture2D(tileTexture, tileUv).rgb;
+              // Saturation boost on tiles too
+              float tileLum = dot(tileColor, vec3(0.299, 0.587, 0.114));
+              vec3 tileSat = mix(vec3(tileLum), tileColor, 1.25);
+              tileColor = mix(tileColor, tileSat, 0.5);
+              vec3 tileDay = tileColor * (0.75 + bump * 0.4);
+              vec3 tileNight = tileColor * 0.02 + nightColor * 0.5;
+              vec3 tileLit = mix(tileNight, tileDay, dayAmount);
+              tileLit += specColor * waterMask * dayAmount * 0.5;
+              tileLit += twilightColor * 0.5;
+              color = mix(color, tileLit, tileBlend);
+            }
           }
 
           // ── ATMOSPHERIC SCATTERING (limb darkening + blue tint) ──
@@ -261,10 +275,10 @@
   }
 
   /* ── TILE LOADING ────────────────────────────────────────────── */
-  // Load Esri satellite tiles and composite them into a full
-  // equirectangular canvas at the correct lat/lon positions.
-  // The canvas is 2048x1024 (same UV space as the globe) so tiles
-  // land exactly where they should on the sphere.
+  // Load Esri satellite tiles for the visible region at FULL resolution.
+  // The canvas is TILE_GRID * TILE_RES pixels (e.g. 8 * 256 = 2048px)
+  // and only covers the region around the camera target. UV offset/scale
+  // uniforms tell the shader which lat/lon range this canvas represents.
   function loadTilesForView() {
     if (tilesLoading || !globe || !globe.material) return;
     if (zoom > 2.2) {
@@ -287,97 +301,82 @@
     currentTileZoom = esriZ;
 
     const target = cameraToLatLon();
-
-    // Esri tile grid: 2^z tiles per side
     const tilesPerSide = Math.pow(2, esriZ);
 
-    // The equirectangular canvas — full world width
-    const ECTW = 2048, ECTH = 1024;
+    // Canvas size: TILE_GRID x TILE_GRID tiles at TILE_RES each
+    const canvasW = TILE_GRID * TILE_RES;
+    const canvasH = TILE_GRID * TILE_RES;
     if (!tileCanvas) {
       tileCanvas = document.createElement('canvas');
-      tileCanvas.width = ECTW;
-      tileCanvas.height = ECTH;
+      tileCanvas.width = canvasW;
+      tileCanvas.height = canvasH;
       tileCtx = tileCanvas.getContext('2d');
     }
-
-    // Fill with transparent (we only want tiles where they load)
-    tileCtx.clearRect(0, 0, ECTW, ECTH);
-
-    // Each Esri tile covers 360/tilesPerSide degrees of longitude
-    // and 180/tilesPerSide degrees of latitude
-    const degPerTileX = 360 / tilesPerSide;
-    const degPerTileY = 180 / tilesPerSide;
-
-    // Determine which tiles to load — a window centered on the camera target
-    // At low zoom (z=3, 8 tiles), load ALL tiles. At high zoom, load a grid.
-    const windowSize = Math.min(tilesPerSide, esriZ <= 3 ? tilesPerSide : 6);
-    const halfWin = Math.floor(windowSize / 2);
+    tileCtx.clearRect(0, 0, canvasW, canvasH);
 
     // Camera target in tile coordinates
     const latRad = target.lat * Math.PI / 180;
     const camTileX = ((target.lon + 180) / 360) * tilesPerSide;
     const camTileY = ((1 - Math.log(Math.tan(latRad) + 1 / Math.cos(latRad)) / Math.PI) / 2) * tilesPerSide;
 
-    // Clamp tile Y range
-    const startY = Math.max(0, Math.min(tilesPerSide - 1, Math.floor(camTileY) - halfWin));
-    const endY = Math.max(0, Math.min(tilesPerSide - 1, startY + windowSize - 1));
+    const halfGrid = Math.floor(TILE_GRID / 2);
+
+    // Compute the lat/lon bounds of the tile window
+    const startTileX = Math.floor(camTileX) - halfGrid;
+    const startTileY = Math.max(0, Math.min(tilesPerSide - 1, Math.floor(camTileY) - halfGrid));
+
+    // Lon bounds (simple linear mapping)
+    const lonStart = (startTileX / tilesPerSide) * 360 - 180;
+    const lonEnd = ((startTileX + TILE_GRID) / tilesPerSide) * 360 - 180;
+
+    // Lat bounds using Web Mercator projection
+    const nTop = Math.PI - (2 * Math.PI * startTileY) / tilesPerSide;
+    const latTop = (180 / Math.PI) * Math.atan(Math.sinh(nTop));
+    const nBot = Math.PI - (2 * Math.PI * (startTileY + TILE_GRID)) / tilesPerSide;
+    const latBot = (180 / Math.PI) * Math.atan(Math.sinh(nBot));
+
+    // Store UV bounds for the shader
+    // Globe UV: u = (lon + 180) / 360, v = (90 - lat) / 180
+    const uMin = (lonStart + 180) / 360;
+    const uMax = (lonEnd + 180) / 360;
+    const vMin = (90 - latTop) / 180;
+    const vMax = (90 - latBot) / 180;
+    tileUvBounds = { uMin, uMax, vMin, vMax };
+
+    // UV offset/scale for shader: tileUv = offset + globeUv * scale
+    // We want: tileUv = (globeUv - uMin) / (uMax - uMin) for x
+    //         tileUv = (globeUv - vMin) / (vMax - vMin) for y
+    // So: offset = -uMin / (uMax - uMin), scale = 1 / (uMax - uMin)
+    const scaleX = 1 / (uMax - uMin);
+    const scaleY = 1 / (vMax - vMin);
+    const offsetX = -uMin * scaleX;
+    const offsetY = -vMin * scaleY;
 
     let loaded = 0;
-    let total = 0;
+    const total = TILE_GRID * TILE_GRID;
 
-    // Count total first
-    for (let ty = startY; ty <= endY; ty++) {
-      for (let dx = 0; dx < windowSize; dx++) {
-        total++;
-      }
-    }
-
-    for (let ty = startY; ty <= endY; ty++) {
-      for (let dx = 0; dx < windowSize; dx++) {
-        const tx = (Math.floor(camTileX) - halfWin + dx + tilesPerSide) % tilesPerSide;
-
-        // Calculate where this tile goes on the equirectangular canvas
-        // Esri tiles use Web Mercator (EPSG:3857), but we're placing them
-        // on an equirectangular grid. For low zoom levels (z <= 6) the
-        // distortion is minimal and acceptable for a visual overlay.
-        const tileLonStart = (tx / tilesPerSide) * 360 - 180;
-        const tileLonEnd = ((tx + 1) / tilesPerSide) * 360 - 180;
-
-        // For Y, Web Mercator projects latitude non-linearly.
-        // Tile row ty covers latitudes from top to bottom:
-        const n = Math.PI - (2 * Math.PI * ty) / tilesPerSide;
-        const tileLatTop = (180 / Math.PI) * Math.atan(Math.sinh(n));
-        const n2 = Math.PI - (2 * Math.PI * (ty + 1)) / tilesPerSide;
-        const tileLatBottom = (180 / Math.PI) * Math.atan(Math.sinh(n2));
-
-        // Convert to canvas pixel positions (equirectangular)
-        const pxStart = ((tileLonStart + 180) / 360) * ECTW;
-        const pxEnd = ((tileLonEnd + 180) / 360) * ECTW;
-        const pyStart = ((90 - tileLatTop) / 180) * ECTH;
-        const pyEnd = ((90 - tileLatBottom) / 180) * ECTH;
-
-        const pxW = pxEnd - pxStart;
-        const pyH = pyEnd - pyStart;
-
+    for (let dx = 0; dx < TILE_GRID; dx++) {
+      for (let dy = 0; dy < TILE_GRID; dy++) {
+        const tx = (startTileX + dx + tilesPerSide) % tilesPerSide;
+        const ty = Math.max(0, Math.min(tilesPerSide - 1, startTileY + dy));
         const url = esriTileUrl(esriZ, tx, ty);
+
         const img = new Image();
         img.crossOrigin = 'anonymous';
         img.onload = () => {
-          // Draw the tile at the correct equirectangular position
-          tileCtx.drawImage(img, pxStart, pyStart, pxW, pyH);
+          tileCtx.drawImage(img, dx * TILE_RES, dy * TILE_RES, TILE_RES, TILE_RES);
           loaded++;
-          if (loaded >= total) finishTileLoad();
+          if (loaded >= total) finishTileLoad(offsetX, offsetY, scaleX, scaleY);
         };
-        img.onerror = () => { loaded++; if (loaded >= total) finishTileLoad(); };
+        img.onerror = () => { loaded++; if (loaded >= total) finishTileLoad(offsetX, offsetY, scaleX, scaleY); };
         img.src = url;
       }
     }
 
-    // Timeout fallback
-    setTimeout(() => { if (loaded < total) { loaded = total; finishTileLoad(); } }, 4000);
+    setTimeout(() => { if (loaded < total) { loaded = total; finishTileLoad(offsetX, offsetY, scaleX, scaleY); } }, 4000);
   }
 
-  function finishTileLoad() {
+  function finishTileLoad(offsetX, offsetY, scaleX, scaleY) {
     if (!globe || !globe.material) { tilesLoading = false; return; }
 
     if (!tileTexture) {
@@ -388,7 +387,6 @@
       tileTexture.needsUpdate = true;
     }
 
-    // High quality filtering on tile texture
     tileTexture.minFilter = T.LinearMipmapLinearFilter;
     tileTexture.magFilter = T.LinearFilter;
     tileTexture.generateMipmaps = true;
@@ -396,6 +394,9 @@
     tileTexture.anisotropy = maxA;
 
     globe.material.uniforms.tileTexture.value = tileTexture;
+    // Set UV remap so the regional canvas maps to the correct lat/lon
+    globe.material.uniforms.tileUvOffset.value.set(offsetX, offsetY);
+    globe.material.uniforms.tileUvScale.value.set(scaleX, scaleY);
 
     const blendAmount = Math.max(0, Math.min(1, (2.2 - zoom) / 0.7));
     globe.material.uniforms.tileBlend.value = blendAmount;
