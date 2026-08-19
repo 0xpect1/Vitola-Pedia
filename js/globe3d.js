@@ -460,6 +460,9 @@
     if (isDragging) autoRotate = false;
     if (autoRotate) targetRotY += 0.0005;
 
+    // Globe doesn't exist yet (textures still loading) — skip until ready
+    if (!globe) { renderer.render(scene, camera); return; }
+
     if (!isDragging) {
       velRotY *= 0.92;
       velRotX *= 0.92;
