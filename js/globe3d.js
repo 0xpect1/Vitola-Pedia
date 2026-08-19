@@ -756,8 +756,22 @@
     const mapEl = document.getElementById('lgMap');
     if (!mapEl || globeInitialized) return;
 
+    // Wait for Three.js to be available before attempting init
+    if (typeof THREE === 'undefined' && typeof window.THREE === 'undefined') {
+      // Three.js not loaded yet — try again in 500ms
+      setTimeout(tryInitGlobe, 500);
+      return;
+    }
+
+    // THREE is available — use it
+    if (typeof THREE === 'undefined' && typeof window.THREE !== 'undefined') {
+      THREE = window.THREE;
+    }
+    if (!THREE) THREE = window.THREE;
+
     // Create a container for the 3D globe inside the map
     globeContainer = document.createElement('div');
+    globeContainer.className = 'lg-map-globe-wrap';
     globeContainer.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;z-index:6;';
     mapEl.appendChild(globeContainer);
 
@@ -769,20 +783,6 @@
       const dots = document.getElementById('lgMapDots');
       if (svg) svg.style.opacity = '0';
       if (dots) dots.style.display = 'none';
-    } else if (result === 'loading') {
-      // Will retry when Three.js loads
-      setTimeout(() => {
-        const r = init(globeContainer);
-        if (r === true) {
-          globeInitialized = true;
-          const svg = mapEl.querySelector('.lg-map-svg');
-          const dots = document.getElementById('lgMapDots');
-          if (svg) svg.style.opacity = '0';
-          if (dots) dots.style.display = 'none';
-        } else {
-          globeContainer.remove();
-        }
-      }, 500);
     } else {
       globeContainer.remove();
     }
