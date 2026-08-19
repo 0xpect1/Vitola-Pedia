@@ -37,7 +37,7 @@
 
   const R = 1;
 
-  // High-res textures from three-globe (CORS-enabled, reliable)
+  // High-res textures — clouds replaced with working URL
   const TEX = {
     earth:  'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg',
     night:  'https://unpkg.com/three-globe/example/img/earth-night.jpg',
@@ -116,90 +116,12 @@
       camera = new T.PerspectiveCamera(40, w / h, 0.1, 200);
       camera.position.set(0, 0, zoom);
 
-      const loader = new T.TextureLoader();
-      loader.setCrossOrigin('anonymous');
-      const maxA = renderer.capabilities.getMaxAnisotropy();
+      // Set up lights immediately
+      sunLight = new T.DirectionalLight(0xffffff, 1.5);
+      scene.add(sunLight);
+      scene.add(new T.AmbientLight(0x111122, 0.5));
 
-      // ── EARTH (day side) ──────────────────────────────────
-      const earthTex = loader.load(TEX.earth);
-      earthTex.colorSpace = T.SRGBColorSpace;
-      earthTex.anisotropy = maxA;
-
-      const bumpTex = loader.load(TEX.bump);
-      bumpTex.anisotropy = maxA;
-
-      const earthMat = new T.MeshPhongMaterial({
-        map: earthTex,
-        bumpMap: bumpTex,
-        bumpScale: 0.04,
-        shininess: 12,
-        specular: new T.Color(0x333344),
-      });
-
-      globe = new T.Mesh(new T.SphereGeometry(R, 128, 128), earthMat);
-      scene.add(globe);
-
-      // ── NIGHT SIDE (city lights) ──────────────────────────
-      // A second, slightly larger sphere with the night texture
-      // and additive blending, so city lights glow over the dark side.
-      const nightTex = loader.load(TEX.night);
-      nightTex.colorSpace = T.SRGBColorSpace;
-      nightTex.anisotropy = maxA;
-
-      const nightMat = new T.MeshBasicMaterial({
-        map: nightTex,
-        transparent: true,
-        opacity: 0.0,    // controlled by sun position in animate()
-        blending: T.AdditiveBlending,
-        depthWrite: false,
-      });
-
-      nightGlobe = new T.Mesh(new T.SphereGeometry(R * 1.002, 128, 128), nightMat);
-      globe.add(nightGlobe);
-
-      // ── CLOUDS ────────────────────────────────────────────
-      const cloudTex = loader.load(TEX.clouds);
-      cloudTex.colorSpace = T.SRGBColorSpace;
-      cloudTex.anisotropy = maxA;
-
-      const cloudMat = new T.MeshPhongMaterial({
-        map: cloudTex,
-        transparent: true,
-        opacity: 0.35,
-        depthWrite: false,
-      });
-      clouds = new T.Mesh(new T.SphereGeometry(R * 1.012, 64, 64), cloudMat);
-      globe.add(clouds);
-
-      // ── ATMOSPHERE ────────────────────────────────────────
-      const atmoMat = new T.ShaderMaterial({
-        uniforms: {
-          glowColor: { value: new T.Color(0.3, 0.5, 0.9) },
-        },
-        vertexShader: `
-          varying vec3 vNormal;
-          void main() {
-            vNormal = normalize(normalMatrix * normal);
-            gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
-          }
-        `,
-        fragmentShader: `
-          uniform vec3 glowColor;
-          varying vec3 vNormal;
-          void main() {
-            float intensity = pow(0.7 - dot(vNormal, vec3(0, 0, 1.0)), 2.0);
-            gl_FragColor = vec4(glowColor, intensity * 0.5);
-          }
-        `,
-        side: T.BackSide,
-        blending: T.AdditiveBlending,
-        transparent: true,
-        depthWrite: false,
-      });
-      atmosphere = new T.Mesh(new T.SphereGeometry(R * 1.2, 64, 64), atmoMat);
-      scene.add(atmosphere);
-
-      // ── STARS ─────────────────────────────────────────────
+      // Stars
       const starGeom = new T.BufferGeometry();
       const starCount = 3000;
       const starPos = new Float32Array(starCount * 3);
@@ -219,45 +141,128 @@
       }));
       scene.add(starField);
 
-      // ── LIGHTS ────────────────────────────────────────────
-      sunLight = new T.DirectionalLight(0xffffff, 1.5);
-      scene.add(sunLight);
-      scene.add(new T.AmbientLight(0x111122, 0.5));
-
-      // ── CONTENT GROUPS ────────────────────────────────────
-      emberGroup = new T.Group();
-      globe.add(emberGroup);
-      terroirGroup = new T.Group();
-      globe.add(terroirGroup);
-      arcGroup = new T.Group();
-      globe.add(arcGroup);
-
-      // ── TERROIR MARKERS ──────────────────────────────────
-      const counts = {};
-      if (typeof CIGARS !== 'undefined') {
-        CIGARS.forEach(c => { counts[c.origin] = (counts[c.origin] || 0) + 1; });
-      }
-      TERROIR.forEach(t => {
-        const n = counts[t.origin] || 0;
-        if (n) terroirGroup.add(createTerroirMarker(t.lat, t.lon, n, t));
+      // Atmosphere
+      const atmoMat = new T.ShaderMaterial({
+        uniforms: { glowColor: { value: new T.Color(0.3, 0.5, 0.9) } },
+        vertexShader: `
+          varying vec3 vNormal;
+          void main() {
+            vNormal = normalize(normalMatrix * normal);
+            gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+          }
+        `,
+        fragmentShader: `
+          uniform vec3 glowColor;
+          varying vec3 vNormal;
+          void main() {
+            float intensity = pow(0.7 - dot(vNormal, vec3(0, 0, 1.0)), 2.0);
+            gl_FragColor = vec4(glowColor, intensity * 0.5);
+          }
+        `,
+        side: T.BackSide, blending: T.AdditiveBlending,
+        transparent: true, depthWrite: false,
       });
+      atmosphere = new T.Mesh(new T.SphereGeometry(R * 1.2, 64, 64), atmoMat);
+      scene.add(atmosphere);
 
-      // ── EVENTS ───────────────────────────────────────────
-      const el = renderer.domElement;
-      el.addEventListener('mousedown', onDragStart);
-      el.addEventListener('touchstart', (e) => { if (e.touches.length < 2) onDragStart(e); }, { passive: true });
-      window.addEventListener('mousemove', onDragMove);
-      window.addEventListener('touchmove', (e) => { if (e.touches.length < 2) onDragMove(e); }, { passive: true });
-      window.addEventListener('mouseup', onDragEnd);
-      window.addEventListener('touchend', onDragEnd);
-      el.addEventListener('wheel', onWheel, { passive: false });
-      el.addEventListener('touchstart', onTouchStart, { passive: true });
-      el.addEventListener('touchmove', onTouchMove, { passive: true });
-
-      const ro = new ResizeObserver(() => onResize(container));
-      ro.observe(container);
-
+      // Start render loop immediately (renders stars + atmosphere while textures load)
       animate();
+
+      // ── LOAD TEXTURES THEN BUILD GLOBE ────────────────────
+      const loader = new T.TextureLoader();
+      loader.setCrossOrigin('anonymous');
+      const maxA = renderer.capabilities.getMaxAnisotropy();
+
+      // Load all textures, then build the globe
+      let loadedCount = 0;
+      const totalTextures = 4;
+      const tex = {};
+
+      function onAllLoaded() {
+        for (const t of Object.values(tex)) {
+          t.anisotropy = maxA;
+          t.minFilter = T.LinearMipmapLinearFilter;
+          t.magFilter = T.LinearFilter;
+          t.generateMipmaps = true;
+        }
+
+        // EARTH
+        tex.earth.colorSpace = T.SRGBColorSpace;
+        const earthMat = new T.MeshPhongMaterial({
+          map: tex.earth,
+          bumpMap: tex.bump,
+          bumpScale: 0.04,
+          shininess: 12,
+          specular: new T.Color(0x333344),
+        });
+        globe = new T.Mesh(new T.SphereGeometry(R, 128, 128), earthMat);
+        scene.add(globe);
+
+        // NIGHT GLOBE
+        tex.night.colorSpace = T.SRGBColorSpace;
+        nightGlobe = new T.Mesh(
+          new T.SphereGeometry(R * 1.002, 128, 128),
+          new T.MeshBasicMaterial({
+            map: tex.night,
+            transparent: true,
+            opacity: 0,
+            blending: T.AdditiveBlending,
+            depthWrite: false,
+          })
+        );
+        globe.add(nightGlobe);
+
+        // CLOUDS (may have failed — skip if so)
+        if (tex.clouds && tex.clouds.image) {
+          tex.clouds.colorSpace = T.SRGBColorSpace;
+          clouds = new T.Mesh(
+            new T.SphereGeometry(R * 1.012, 64, 64),
+            new T.MeshPhongMaterial({
+              map: tex.clouds,
+              transparent: true,
+              opacity: 0.35,
+              depthWrite: false,
+            })
+          );
+          globe.add(clouds);
+        }
+
+        // CONTENT GROUPS
+        emberGroup = new T.Group(); globe.add(emberGroup);
+        terroirGroup = new T.Group(); globe.add(terroirGroup);
+        arcGroup = new T.Group(); globe.add(arcGroup);
+
+        // TERROIR
+        const counts = {};
+        if (typeof CIGARS !== 'undefined') {
+          CIGARS.forEach(c => { counts[c.origin] = (counts[c.origin] || 0) + 1; });
+        }
+        TERROIR.forEach(t => {
+          const n = counts[t.origin] || 0;
+          if (n) terroirGroup.add(createTerroirMarker(t.lat, t.lon, n, t));
+        });
+
+        // EVENTS
+        const el = renderer.domElement;
+        el.addEventListener('mousedown', onDragStart);
+        el.addEventListener('touchstart', (e) => { if (e.touches.length < 2) onDragStart(e); }, { passive: true });
+        window.addEventListener('mousemove', onDragMove);
+        window.addEventListener('touchmove', (e) => { if (e.touches.length < 2) onDragMove(e); }, { passive: true });
+        window.addEventListener('mouseup', onDragEnd);
+        window.addEventListener('touchend', onDragEnd);
+        el.addEventListener('wheel', onWheel, { passive: false });
+        el.addEventListener('touchstart', onTouchStart, { passive: true });
+        el.addEventListener('touchmove', onTouchMove, { passive: true });
+
+        const ro = new ResizeObserver(() => onResize(container));
+        ro.observe(container);
+      }
+
+      loader.load(TEX.earth, (t) => { tex.earth = t; loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); }, undefined, () => { loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); });
+      loader.load(TEX.night, (t) => { tex.night = t; loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); }, undefined, () => { loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); });
+      loader.load(TEX.bump,  (t) => { tex.bump = t;  loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); }, undefined, () => { loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); });
+      loader.load(TEX.clouds, (t) => { tex.clouds = t; loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); }, undefined, () => { loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); });
+
       return true;
     } catch (e) {
       console.error('Globe init failed:', e);
@@ -473,24 +478,12 @@
     const sun = sunDirection();
     sunLight.position.copy(sun).multiplyScalar(5);
 
-    // Night globe opacity: brighter on the dark side, invisible on the day side.
-    // The sun light hits the earth from one direction; the dark side faces away.
-    // We rotate the night globe to always show lights on the side AWAY from the sun.
-    // Since nightGlobe is a child of globe, it inherits globe rotation.
-    // The sun light direction is in world space, so we compute the angle
-    // between the camera-to-globe direction and the sun direction.
+    // Night globe: always show city lights at moderate opacity.
+    // They're more visible on the dark side (where the day texture is dark)
+    // and less visible on the lit side (where the day texture is bright).
+    // This is a simple approximation that looks correct without per-pixel shader math.
     if (nightGlobe && nightGlobe.material) {
-      // Opacity based on how much of the visible hemisphere is dark.
-      // When the sun is behind the globe (from camera's view), we see
-      // the dark side → high night opacity.
-      // When the sun is in front (from camera), we see the lit side → low opacity.
-      const camDir = new T.Vector3();
-      camera.getWorldDirection(camDir);
-      const sunCamDot = camDir.dot(sun.clone().negate());
-      // sunCamDot > 0 means sun is behind globe (we see dark side)
-      // sunCamDot < 0 means sun is in front (we see lit side)
-      const nightOpacity = Math.max(0, Math.min(1, (sunCamDot + 0.3) * 1.5));
-      nightGlobe.material.opacity = nightOpacity;
+      nightGlobe.material.opacity = 0.8;
     }
 
     // Clouds drift
