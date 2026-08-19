@@ -53,16 +53,14 @@
 
   const R = 1;
 
-  // Texture URLs
+  // Texture URLs — high-resolution sources for Google Earth richness
   const TEX = {
-    earth:  'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg',
-    night:  'https://unpkg.com/three-globe/example/img/earth-night.jpg',
-    bump:   'https://unpkg.com/three-globe/example/img/earth-topology.png',
-    clouds: 'https://unpkg.com/three-globe/example/img/clouds.png',
+    // Three.js example textures — known to work with WebGL, CORS-enabled
+    earth:  'https://threejs.org/examples/textures/planets/earth_atmos_2048.jpg',
+    night:  'https://threejs.org/examples/textures/planets/earth_lights_2048.png',
+    bump:   'https://threejs.org/examples/textures/planets/earth_normal_2048.jpg',
+    clouds: 'https://threejs.org/examples/textures/planets/earth_clouds_1024.png',
     water:  'https://unpkg.com/three-globe/example/img/earth-water.png',
-    // Higher-res satellite (Esri World Imagery as single equirectangular —
-    // we can't get a single equirect from Esri, so we use a higher-res
-    // Blue Marble alternative for mid-zoom)
     hires:  'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg',
   };
 
@@ -123,7 +121,16 @@
 
     dayTex.colorSpace = T.SRGBColorSpace;
     nightTex.colorSpace = T.SRGBColorSpace;
-    dayTex.anisotropy = 8;
+    bumpTex.colorSpace = T.SRGBColorSpace;
+
+    // High-quality texture filtering for crisp continents
+    const maxAniso = renderer.capabilities.getMaxAnisotropy();
+    [dayTex, nightTex, bumpTex, waterTex].forEach(tex => {
+      tex.anisotropy = maxAniso;
+      tex.minFilter = T.LinearMipmapLinearFilter;
+      tex.magFilter = T.LinearFilter;
+      tex.generateMipmaps = true;
+    });
 
     // Create a 1x1 placeholder texture for the tile sampler so WebGL
     // doesn't break when tileBlend is 0. Never leave a sampler null.
@@ -183,8 +190,16 @@
           vec3 dayColor = texture2D(dayTexture, vUv).rgb;
           float bump = texture2D(bumpTexture, vUv).r;
 
+          // Saturation boost — continents pop like Google Earth
+          float dayLum = dot(dayColor, vec3(0.299, 0.587, 0.114));
+          vec3 daySat = mix(vec3(dayLum), dayColor, 1.35);
+          dayColor = mix(dayColor, daySat, 0.6);
+
           // Terrain relief — darker in valleys, brighter on peaks
-          dayColor *= 0.75 + bump * 0.5;
+          dayColor *= 0.7 + bump * 0.6;
+
+          // Slight contrast curve for richer land
+          dayColor = pow(dayColor, vec3(0.88));
 
           // Ocean specular — sun glint on water (Google Earth signature look)
           float waterMask = texture2D(waterTexture, vUv).r;
@@ -192,20 +207,20 @@
           vec3 reflectDir = reflect(-normalize(sunDirection), N);
           float specAngle = max(0.0, dot(reflectDir, viewDir));
           float oceanSpec = pow(specAngle, 40.0) * waterMask * 2.0;
-          // Add a wider, softer glint too
           float oceanGlint = pow(specAngle, 8.0) * waterMask * 0.3;
           vec3 specColor = vec3(1.0, 0.95, 0.85) * (oceanSpec + oceanGlint);
 
           // ── NIGHT SIDE ───────────────────────────────────────
           vec3 nightColor = texture2D(nightTexture, vUv).rgb;
-          // Boost city lights 3x
-          nightColor *= 3.0;
+          // Boost city lights 3.5x with sharp threshold for visible outlines
+          float cityMask = step(0.08, nightColor.r + nightColor.g + nightColor.b);
+          nightColor *= 3.5;
           // Warm amber city glow — lights read as warm, not white
           float cityBright = length(nightColor) / 1.732;
-          vec3 cityWarm = vec3(1.0, 0.65, 0.25) * cityBright * 0.7;
-          nightColor += cityWarm;
+          vec3 cityWarm = vec3(1.0, 0.65, 0.25) * cityBright * 0.8;
+          nightColor += cityWarm * cityMask;
           // Subtle deep blue ambient on the dark side — never pure black
-          nightColor += vec3(0.01, 0.02, 0.04) * (1.0 - waterMask);
+          nightColor += vec3(0.015, 0.025, 0.05) * (1.0 - waterMask);
 
           // ── BLEND ────────────────────────────────────────────
           vec3 color = mix(nightColor, dayColor, dayAmount);
@@ -213,16 +228,18 @@
           color += specColor * dayAmount;
 
           // ── TWILIGHT BAND ────────────────────────────────────
-          // Warm golden hour glow at the terminator
           float twilight = 1.0 - abs(sunInt - 0.06);
           twilight = pow(max(0.0, twilight), 2.5);
-          vec3 twilightColor = vec3(0.8, 0.35, 0.12) * twilight * 0.6;
+          vec3 twilightColor = vec3(0.85, 0.4, 0.15) * twilight * 0.7;
           color += twilightColor;
 
           // ── HIGH-RES TILES ───────────────────────────────────
           if (tileBlend > 0.001) {
             vec3 tileColor = texture2D(tileTexture, vUv).rgb;
-            // Apply same lighting to tiles
+            // Saturation boost on tiles too
+            float tileLum = dot(tileColor, vec3(0.299, 0.587, 0.114));
+            vec3 tileSat = mix(vec3(tileLum), tileColor, 1.25);
+            tileColor = mix(tileColor, tileSat, 0.5);
             vec3 tileDay = tileColor * (0.75 + bump * 0.4);
             vec3 tileNight = tileColor * 0.02 + nightColor * 0.5;
             vec3 tileLit = mix(tileNight, tileDay, dayAmount);
@@ -232,14 +249,10 @@
           }
 
           // ── ATMOSPHERIC SCATTERING (limb darkening + blue tint) ──
-          // Edges of the sphere get a blue atmospheric tint
           float limbFactor = 1.0 - abs(dot(N, normalize(cameraPosition)));
           limbFactor = pow(limbFactor, 3.0);
           vec3 atmoTint = vec3(0.15, 0.25, 0.45) * limbFactor * dayAmount * 0.3;
           color += atmoTint;
-
-          // Slight gamma for richness
-          color = pow(color, vec3(0.92));
 
           gl_FragColor = vec4(color, 1.0);
         }
@@ -546,7 +559,7 @@
 
       // Earth with custom shader
       const earthMat = createEarthMaterial();
-      globe = new T.Mesh(new T.SphereGeometry(R, 96, 96), earthMat);
+      globe = new T.Mesh(new T.SphereGeometry(R, 128, 128), earthMat);
       scene.add(globe);
 
       // Fallback texture loader
