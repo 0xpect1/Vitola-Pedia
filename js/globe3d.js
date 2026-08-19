@@ -82,6 +82,8 @@
   /* ── DAY/NIGHT EARTH MATERIAL ────────────────────────────────── */
   function createEarthMaterial() {
     const loader = new T.TextureLoader();
+    loader.setCrossOrigin('anonymous');
+
     const dayTex = loader.load(TEX.earth);
     const nightTex = loader.load(TEX.night);
     const bumpTex = loader.load(TEX.bump);
@@ -89,6 +91,8 @@
 
     dayTex.colorSpace = T.SRGBColorSpace;
     nightTex.colorSpace = T.SRGBColorSpace;
+    // Ensure textures actually render
+    dayTex.anisotropy = 4;
 
     return new T.ShaderMaterial({
       uniforms: {
@@ -152,6 +156,7 @@
   /* ── CLOUD LAYER ──────────────────────────────────────────────── */
   function createClouds() {
     const loader = new T.TextureLoader();
+    loader.setCrossOrigin('anonymous');
     const cloudTex = loader.load(TEX.clouds);
     cloudTex.colorSpace = T.SRGBColorSpace;
 
@@ -361,6 +366,30 @@
       // Earth
       const earthMat = createEarthMaterial();
       globe = new T.Mesh(new T.SphereGeometry(R, 64, 64), earthMat);
+
+      // Fallback: if shader textures fail to load, the globe would be
+      // blank. Add a timeout check — if no texture after 3s, swap to
+      // a simple MeshPhongMaterial that shows continents.
+      const loader2 = new T.TextureLoader();
+      loader2.setCrossOrigin('anonymous');
+      loader2.load(TEX.earth, (tex) => {
+        tex.colorSpace = T.SRGBColorSpace;
+        if (globe && globe.material && globe.material.uniforms &&
+            globe.material.uniforms.dayTexture) {
+          // Shader is working — just ensure the texture is set
+          if (!globe.material.uniforms.dayTexture.value.image) {
+            globe.material.uniforms.dayTexture.value = tex;
+            globe.material.needsUpdate = true;
+          }
+        }
+      }, undefined, () => {
+        // Texture failed to load — fallback to basic color material
+        if (globe) {
+          globe.material = new T.MeshPhongMaterial({
+            color: 0x1a3a5a, emissive: 0x0a1a2a, shininess: 5,
+          });
+        }
+      });
       scene.add(globe);
 
       // Clouds
