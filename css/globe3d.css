@@ -1,0 +1,96 @@
+/* ================================================================
+   3D GLOBE — styling for the Three.js earth sphere
+   ================================================================ */
+
+.lg-map-globe-wrap {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  cursor: grab;
+}
+.lg-map-globe-wrap:active {
+  cursor: grabbing;
+}
+.lg-map-globe-wrap canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Globe loading state */
+.lg-map-globe-loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 7;
+  pointer-events: none;
+}
+.lg-map-globe-loading::after {
+  content: '';
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid rgba(201, 168, 76, 0.2);
+  border-top-color: var(--gold);
+  animation: globeSpin 0.8s linear infinite;
+}
+@keyframes globeSpin {
+  to { transform: rotate(360deg); }
+}
+
+/* When globe is active, fade the SVG */
+.lg-map.has-globe .lg-map-svg {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+/* Globe hint label */
+.lg-map-globe-hint {
+  position: absolute;
+  bottom: 8px;
+  left: 12px;
+  font-size: 10px;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  z-index: 8;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Expanded mode for 3D globe */
+.lg-map-panel.lg-map-expanded .lg-map-globe-wrap {
+  cursor: grab;
+}
+
+/* Toggle between 2D/3D */
+.lg-map-view-toggle {
+  display: inline-flex;
+  gap: 2px;
+  padding: 3px;
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+}
+.lg-map-view-btn {
+  padding: 5px 12px;
+  border-radius: var(--radius-md);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: var(--transition);
+  border: none;
+  background: none;
+}
+.lg-map-view-btn.active {
+  background: var(--gold-glow);
+  color: var(--gold);
+}
+.lg-map-view-btn:hover:not(.active) {
+  color: var(--text-secondary);
+}
