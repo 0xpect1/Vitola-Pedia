@@ -855,4 +855,11 @@
     }
   }, 2000);
 
+  // Start the init polling when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => setTimeout(checkAndInit, 1000));
+  } else {
+    setTimeout(checkAndInit, 1000);
+  }
+
 })();
