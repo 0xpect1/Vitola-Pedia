@@ -148,8 +148,17 @@
           <stop offset="100%" stop-color="#e07b3a" stop-opacity="0.15"/>
         </linearGradient>
         <radialGradient id="lgOcean" cx="50%" cy="45%" r="70%">
-          <stop offset="0%"   stop-color="#1b1610"/>
-          <stop offset="100%" stop-color="#0d0b09"/>
+          <stop offset="0%"   stop-color="#1a1c20"/>
+          <stop offset="50%"  stop-color="#121418"/>
+          <stop offset="100%" stop-color="#08090c"/>
+        </radialGradient>
+        <radialGradient id="lgAtmGlow" cx="50%" cy="50%" r="55%">
+          <stop offset="0%"   stop-color="rgba(201,168,76,0.03)"/>
+          <stop offset="100%" stop-color="rgba(201,168,76,0)"/>
+        </radialGradient>
+        <radialGradient id="lgLandGlow" cx="50%" cy="40%" r="60%">
+          <stop offset="0%"   stop-color="rgba(201,168,76,0.05)"/>
+          <stop offset="100%" stop-color="rgba(201,168,76,0)"/>
         </radialGradient>
         <linearGradient id="lgNight" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%"   stop-color="#04060d" stop-opacity="0.62"/>
@@ -158,9 +167,11 @@
       </defs>
 
       <rect x="0" y="0" width="360" height="180" fill="url(#lgOcean)"/>
+      <rect x="0" y="0" width="360" height="180" fill="url(#lgAtmGlow)"/>
       <g class="lg-map-grid">${grid}</g>
       <g class="lg-map-tropics">${tropics}</g>
       <g class="lg-map-land">${countries}</g>
+      <g class="lg-map-terroir-glow"><rect x="0" y="0" width="360" height="180" fill="url(#lgLandGlow)" style="mix-blend-mode:screen"/></g>
       <g class="lg-map-night"><path id="lgNightPath" d="${nightPolygon()}" fill="url(#lgNight)"/></g>
       <g class="lg-map-terroir" id="lgTerroirLayer"></g>
       <g class="lg-map-arcs" id="lgArcLayer"></g>
@@ -288,6 +299,19 @@
     return String(s == null ? '' : s)
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+
+  /* Deduplicate a session list by memberId — the same person must never
+     appear twice in the room count or the strip, even if the adapter let a
+     duplicate through (e.g. joinRoom + startSession both creating entries). */
+  function dedupeByMember(arr) {
+    const seen = new Set();
+    return (arr || []).filter(s => {
+      if (!s || !s.memberId) return false;
+      if (seen.has(s.memberId)) return false;
+      seen.add(s.memberId);
+      return true;
+    });
   }
 
   function elapsed(ms) {
@@ -973,11 +997,11 @@
   ══════════════════════════════════════════════════════════════ */
   async function renderPresence() {
     if (!$('lgMap')) return;
-    const sessions = await BE.listPresence();
-    const room = BE.listRoom ? await BE.listRoom() : sessions;
+    const sessions = dedupeByMember(await BE.listPresence());
+    const room = dedupeByMember(BE.listRoom ? await BE.listRoom() : sessions);
 
-    const inRoom = room.length;
-    const lit = sessions.length;
+    const inRoom = dedupeByMember(room).length;
+    const lit = dedupeByMember(sessions).length;
     $('lgLiveCount').innerHTML = inRoom
       ? `<strong>${inRoom}</strong> in the room${lit ? ` · ${lit} lit` : ''}`
       : 'Nobody here yet';

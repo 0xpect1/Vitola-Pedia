@@ -1,0 +1,343 @@
+/* ================================================================
+   PREMIUM MAP — Expandable hyper-realistic world map
+   Replaces the flat lounge map with a depth-shaded,
+   zoomable, pannable experience when expanded.
+   ================================================================ */
+
+/* ── MAP CONTAINER UPGRADES ───────────────────────────────────── */
+.lg-map-panel {
+  position: relative;
+}
+
+/* Expand toggle button */
+.lg-map-expand-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.lg-map-expand-btn:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  background: var(--gold-glow);
+}
+.lg-map-expand-btn svg {
+  width: 14px; height: 14px;
+  transition: transform 0.3s;
+}
+.lg-map-expand-btn.expanded svg {
+  transform: rotate(180deg);
+}
+
+/* ── MAP VISUAL UPGRADES ───────────────────────────────────────── */
+
+/* Ocean with depth gradient — darker at edges, subtle teal tint */
+.lg-map {
+  background:
+    radial-gradient(ellipse 80% 100% at 50% 40%, rgba(15,20,28,0.6), transparent 80%),
+    radial-gradient(ellipse 60% 80% at 50% 50%, rgba(10,15,22,0.8), transparent 90%),
+    linear-gradient(180deg, #0a0e14 0%, #0d0b09 50%, #0a0806 100%);
+}
+
+/* Land with terrain shading — subtle elevation effect */
+.lg-map-land path {
+  fill: rgba(201,168,76,0.09);
+  stroke: rgba(201,168,76,0.22);
+  stroke-width: 0.18;
+  filter: drop-shadow(0 0.3px 0 rgba(201,168,76,0.06));
+}
+
+/* Highlight tobacco-growing countries */
+.lg-map-land path[data-tobacco="true"] {
+  fill: rgba(201,168,76,0.16);
+  stroke: rgba(201,168,76,0.3);
+}
+
+/* Graticule lines — subtle latitude/longitude grid */
+.lg-map-grid line {
+  stroke: rgba(201,168,76,0.04);
+  stroke-width: 0.15;
+}
+.lg-map-grid line:nth-child(7n+1) {
+  stroke: rgba(201,168,76,0.07);
+}
+
+/* Tropics — dashed gold */
+.lg-map-tropics line {
+  stroke: rgba(201,168,76,0.12);
+  stroke-width: 0.2;
+  stroke-dasharray: 1.5 3;
+}
+
+/* ── EXPANDED (FULLSCREEN) MODE ────────────────────────────────── */
+.lg-map-panel.lg-map-expanded {
+  position: fixed;
+  inset: 0;
+  z-index: 600;
+  background: rgba(8,6,4,0.96);
+  backdrop-filter: blur(20px);
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  animation: premiumMapExpand 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+@keyframes premiumMapExpand {
+  from { opacity: 0; transform: scale(1.05); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.lg-map-panel.lg-map-expanded .lg-map-head {
+  padding: 24px 32px 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+.lg-map-panel.lg-map-expanded .lg-map-head h2 {
+  font-size: 28px;
+}
+
+.lg-map-panel.lg-map-expanded .lg-map {
+  flex: 1;
+  aspect-ratio: unset;
+  max-width: 1400px;
+  width: calc(100% - 64px);
+  margin: 0 auto;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-h);
+  cursor: grab;
+}
+.lg-map-panel.lg-map-expanded .lg-map:active {
+  cursor: grabbing;
+}
+
+.lg-map-panel.lg-map-expanded .lg-map-legend {
+  padding: 16px 32px 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.lg-map-panel.lg-map-expanded .lg-map-note {
+  padding: 0 32px 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.lg-map-panel.lg-map-expanded .lg-strip {
+  padding: 16px 32px 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.lg-map-panel.lg-map-expanded .lg-map-stats {
+  padding: 0 32px 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Close button in expanded mode */
+.lg-map-close-btn {
+  position: fixed;
+  top: 20px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  cursor: pointer;
+  z-index: 700;
+  transition: var(--transition);
+}
+.lg-map-close-btn:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  background: var(--gold-glow);
+}
+.lg-map-close-btn svg {
+  width: 18px; height: 18px;
+}
+
+/* ── ZOOM CONTROLS ─────────────────────────────────────────────── */
+.lg-map-zoom-ctrl {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  z-index: 10;
+}
+.lg-map-zoom-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-sm);
+  background: rgba(13,11,9,0.85);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition);
+  backdrop-filter: blur(8px);
+}
+.lg-map-zoom-btn:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  background: var(--gold-glow);
+}
+.lg-map-zoom-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* ── ATMOSPHERE GLOW ──────────────────────────────────────────── */
+/* Subtle atmospheric rim glow on the map edges */
+.lg-map::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-md);
+  box-shadow:
+    inset 0 0 60px rgba(201,168,76,0.04),
+    inset 0 0 120px rgba(10,15,22,0.3);
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* ── ENHANCED EMBERS ───────────────────────────────────────────── */
+.lg-ember-glow {
+  background: radial-gradient(circle, rgba(224,123,58,0.6) 0%, rgba(224,123,58,0.15) 40%, transparent 70%);
+  animation: lgPulsePremium 2.8s ease-in-out infinite;
+}
+@keyframes lgPulsePremium {
+  0%, 100% { transform: scale(0.8); opacity: 0.5; }
+  50% { transform: scale(1.4); opacity: 1; }
+}
+.lg-ember-core {
+  background: radial-gradient(circle, #fff7cc 0%, #ffb347 35%, #e07b3a 70%, #c95820 100%);
+  box-shadow:
+    0 0 10px rgba(255,160,70,0.9),
+    0 0 20px rgba(255,120,50,0.4),
+    0 0 40px rgba(224,80,30,0.15);
+}
+
+/* ── ENHANCED TERROIR MARKERS ──────────────────────────────────── */
+.lg-terroir-mark {
+  fill: var(--gold);
+  opacity: 0.7;
+  filter: drop-shadow(0 0 2px rgba(201,168,76,0.4));
+  transition: var(--transition);
+}
+.lg-terroir:hover .lg-terroir-mark {
+  fill: var(--gold-light);
+  opacity: 1;
+  filter: drop-shadow(0 0 4px rgba(224,192,112,0.7));
+}
+.lg-terroir-halo {
+  fill: none;
+  stroke: rgba(201,168,76,0.2);
+  stroke-width: 0.15;
+  animation: terroirHalo 4s ease-in-out infinite;
+}
+@keyframes terroirHalo {
+  0%, 100% { stroke-opacity: 0.15; r: var(--r); }
+  50% { stroke-opacity: 0.3; }
+}
+
+/* ── ENHANCED ARCS ─────────────────────────────────────────────── */
+.lg-arc {
+  stroke-width: 0.8px;
+  filter: drop-shadow(0 0 2px rgba(201,168,76,0.5));
+}
+.lg-arc.lit {
+  stroke-width: 1.4px;
+  filter: drop-shadow(0 0 5px rgba(224,192,112,0.7));
+}
+
+/* ── NIGHT SIDE ENHANCEMENT ─────────────────────────────────────── */
+.lg-map-night path {
+  fill: url(#lgNight);
+  opacity: 0.85;
+}
+
+/* ── LEGEND UPGRADES ────────────────────────────────────────────── */
+.lg-map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 14px;
+  padding: 12px 16px;
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+.lg-lg-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+.lg-lg-ember {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffb347, #e07b3a);
+  box-shadow: 0 0 4px rgba(255,160,70,0.6);
+}
+.lg-lg-terroir {
+  width: 8px; height: 8px;
+  background: var(--gold);
+  opacity: 0.8;
+  transform: rotate(45deg);
+}
+.lg-lg-arc {
+  width: 16px; height: 2px;
+  background: var(--gold);
+  opacity: 0.6;
+  border-radius: 2px;
+}
+.lg-lg-night {
+  width: 12px; height: 8px;
+  background: linear-gradient(90deg, rgba(4,6,13,0.6), rgba(4,6,13,0.4));
+  border-radius: 2px;
+}
+
+/* ── ZOOM TRANSITION ────────────────────────────────────────────── */
+.lg-map-svg {
+  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transform-origin: center center;
+}
+.lg-map-panel.lg-map-expanded .lg-map-svg {
+  transition: none;
+}

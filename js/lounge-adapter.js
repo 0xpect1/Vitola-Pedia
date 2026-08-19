@@ -184,7 +184,7 @@
     }
 
     function putSession(sess) {
-      const all = liveSessions().filter(s => s.id !== sess.id);
+      const all = liveSessions().filter(s => s.id !== sess.id && s.memberId !== sess.memberId);
       all.push(sess);
       write(K.sessions, all);
     }
