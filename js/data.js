@@ -78398,7 +78398,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin)"
     ],
     "yearFounded": 2023,
     "limited": true,
@@ -78439,7 +78441,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
     ],
     "yearFounded": 2024,
     "limited": true,
@@ -78480,7 +78484,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin)"
     ],
     "yearFounded": 2020,
     "limited": false,
@@ -78521,7 +78527,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -78567,7 +78575,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Añejo Tequila (Don Julio 1942, Herradura Añejo)"
     ],
     "yearFounded": 2024,
     "limited": true,
@@ -78608,7 +78618,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "VSOP Cognac (Pierre Ferrand, Hine)"
+      "VSOP Cognac (Pierre Ferrand, Hine)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin)"
     ],
     "yearFounded": 2023,
     "limited": true,
@@ -78649,7 +78661,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
     ],
     "yearFounded": 2024,
     "limited": false,
@@ -78690,7 +78704,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "VSOP Cognac (Pierre Ferrand, Hine)"
+      "VSOP Cognac (Pierre Ferrand, Hine)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
     ],
     "yearFounded": 2023,
     "limited": true,
@@ -78731,7 +78747,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
     ],
     "yearFounded": 2024,
     "limited": true,
@@ -78772,7 +78790,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "VSOP Cognac (Pierre Ferrand, Hine)",
-      "Vintage Champagne (Krug, Dom Pérignon)"
+      "Vintage Champagne (Krug, Dom Pérignon)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
     ],
     "yearFounded": 2024,
     "limited": true,
@@ -78813,7 +78833,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Nicaraguan Rum (Flor de Caña 18, Mombacho 12)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
     ],
     "yearFounded": 2024,
     "limited": true,
@@ -78854,7 +78876,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
     ],
     "yearFounded": 2024,
     "limited": false,
@@ -78895,7 +78919,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Highland Single Malt (Glenmorangie 18, Oban 14)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
     ],
     "yearFounded": 2017,
     "limited": false,
@@ -78936,7 +78962,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin)"
     ],
     "yearFounded": 2024,
     "limited": false,
@@ -78977,7 +79005,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin)"
     ],
     "yearFounded": 2024,
     "limited": false,
@@ -79018,7 +79048,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Triple-Distilled Irish Whiskey (Redbreast 12, Green Spot)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
     ],
     "yearFounded": 2023,
     "limited": false,
@@ -79059,7 +79091,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Dark Chocolate Stout (Guinness Foreign Extra, Founders Breakfast Stout)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
     ],
     "yearFounded": 2022,
     "limited": false,
@@ -79100,7 +79134,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin)"
     ],
     "yearFounded": 2023,
     "limited": false,
@@ -79141,7 +79177,9 @@ const CIGARS = [
     "pairings": [
       "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Triple-Distilled Irish Whiskey (Redbreast 12, Green Spot)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)"
     ],
     "yearFounded": 2024,
     "limited": false,
@@ -79182,7 +79220,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Artisanal Mezcal (Del Maguey Vida, Illegal Joven)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
     ],
     "yearFounded": 2024,
     "limited": false,
@@ -79223,7 +79263,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin)"
     ],
     "yearFounded": 2024,
     "limited": true,

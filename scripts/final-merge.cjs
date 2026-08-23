@@ -131,6 +131,8 @@ const seenNames = new Set();
 for (const c of existing) {
   if (c.id) seenIds.add(slugify(c.id));
   if (c.name) seenNames.add(slugify(c.name));
+  // ensure 5 pairings on existing cigars too
+  ensure5Pairings(c);
 }
 
 const validNew = [];
