@@ -1,0 +1,35 @@
+{
+  "name": "Vitola Pedia — Cigar Encyclopedia",
+  "short_name": "Vitola Pedia",
+  "description": "The world's most comprehensive cigar encyclopedia. 4,000+ cigars, expert pairings, tasting notes, and a live cigar lounge.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1a1209",
+  "theme_color": "#c9943a",
+  "categories": ["lifestyle", "food", "social"],
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/img/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Browse 4,000+ cigars with expert pairings"
+    }
+  ]
+}
