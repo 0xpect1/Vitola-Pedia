@@ -646,7 +646,7 @@
   {
     "id": "my-father-le-bijou-1922",
     "name": "My Father Le Bijou 1922",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "San Andrés Mexican Maduro",
@@ -1833,7 +1833,7 @@
   {
     "id": "foundation-el-gueguense",
     "name": "Foundation El Güegüense",
-    "brand": "Foundation Cigar Co.",
+    "brand": "Foundation",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Honduran Corojo Maduro",
@@ -2584,7 +2584,7 @@
   {
     "id": "my-father-no1",
     "name": "My Father No. 1",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -2821,7 +2821,7 @@
   {
     "id": "acid-blondie",
     "name": "ACID Blondie",
-    "brand": "ACID by Drew Estate",
+    "brand": "Drew Estate",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Indonesian",
@@ -3801,7 +3801,7 @@
   {
     "id": "diplomaticos-no2",
     "name": "Diplomaticos No. 2",
-    "brand": "Diplomaticos",
+    "brand": "Diplomáticos",
     "origin": "Cuba",
     "region": "Vuelta Abajo",
     "wrapper": "Cuban Habano",
@@ -4968,7 +4968,7 @@
   {
     "id": "cain-f-habano",
     "name": "Cain F Habano",
-    "brand": "Cain by Oliva",
+    "brand": "Cain",
     "origin": "Nicaragua",
     "region": "Estelí & Jalapa",
     "wrapper": "Nicaraguan Habano",
@@ -5032,7 +5032,7 @@
   {
     "id": "cain-daytona",
     "name": "Cain Daytona",
-    "brand": "Cain by Oliva",
+    "brand": "Cain",
     "origin": "Nicaragua",
     "region": "Estelí & Jalapa",
     "wrapper": "Nicaraguan Habano",
@@ -9264,7 +9264,7 @@
   {
     "id": "foundation-tabernacle",
     "name": "Foundation The Tabernacle",
-    "brand": "Foundation Cigar Co.",
+    "brand": "Foundation",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -9328,7 +9328,7 @@
   {
     "id": "foundation-charter-oak",
     "name": "Foundation Charter Oak Broadleaf",
-    "brand": "Foundation Cigar Co.",
+    "brand": "Foundation",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -9766,7 +9766,7 @@
   {
     "id": "my-father-flor-de-las-antillas",
     "name": "My Father Flor de las Antillas",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -9830,7 +9830,7 @@
   {
     "id": "my-father-the-judge",
     "name": "My Father The Judge",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Sumatra Oscuro",
@@ -9894,7 +9894,7 @@
   {
     "id": "don-pepin-garcia-original",
     "name": "Don Pepin Garcia Original Blue Label",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Corojo Oscuro",
@@ -10268,7 +10268,7 @@
   {
     "id": "dunbarton-mi-querida-triqui-traca",
     "name": "Mi Querida Triqui Traca",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Estelí & Jalapa",
     "wrapper": "Connecticut Broadleaf No. 1 Dark",
@@ -10332,7 +10332,7 @@
   {
     "id": "dunbarton-mi-querida-seriocomica",
     "name": "Dunbarton Mi Querida Seriocomica",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Nicaraguan Habano",
@@ -10396,7 +10396,7 @@
   {
     "id": "dunbarton-sobremesa-brulee",
     "name": "Sobremesa Brûlée",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Condega, Pueblo Nuevo, Estelí",
     "wrapper": "Ecuadorian Connecticut Shade G2BW",
@@ -10460,7 +10460,7 @@
   {
     "id": "dunbarton-sobremesa-madurito",
     "name": "Dunbarton Sobremesa Madurito",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Jalapa & Condega",
     "wrapper": "Pennsylvania Broadleaf Maduro",
@@ -10514,7 +10514,7 @@
   {
     "id": "dunbarton-todos-las-dias",
     "name": "Dunbarton Todos Las Dias",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -10578,7 +10578,7 @@
   {
     "id": "dunbarton-mi-querida-sakakhan",
     "name": "Mi Querida Black SakaKhan",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Estelí & Jalapa",
     "wrapper": "Connecticut Broadleaf (dark)",
@@ -10642,7 +10642,7 @@
   {
     "id": "dunbarton-sobremesa-solita",
     "name": "Sobremesa Solita",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Condega, Pueblo Nuevo, Estelí",
     "wrapper": "Ecuadorian Habano Grade 1 Dark Rosado",
@@ -10706,7 +10706,7 @@
   {
     "id": "dunbarton-mi-querida-core",
     "name": "Mi Querida",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Connecticut Broadleaf (dark)",
@@ -10770,7 +10770,7 @@
   {
     "id": "dunbarton-umbagog",
     "name": "Umbagog",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Connecticut Broadleaf (medium/No. 1 dark)",
@@ -10834,7 +10834,7 @@
   {
     "id": "dunbarton-sin-compromiso-no2",
     "name": "Sin Compromiso Selección No. 2",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Mexican San Andrés Negro Cultivo Tonto",
@@ -10898,7 +10898,7 @@
   {
     "id": "dunbarton-stillwell-star-aromatic-no1",
     "name": "StillWell Star Aromatic No. 1",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano Oscuro (Grade A high-priming)",
@@ -10962,7 +10962,7 @@
   {
     "id": "dunbarton-stillwell-star-english-no27",
     "name": "StillWell Star English No. 27",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano Oscuro (Grade A high-priming)",
@@ -11026,7 +11026,7 @@
   {
     "id": "dunbarton-muestra-de-saka-exclusivo",
     "name": "Muestra de Saka Exclusivo",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Condega, Estelí, Jalapa, Ometepe",
     "wrapper": "Ecuadorian Habano",
@@ -11090,7 +11090,7 @@
   {
     "id": "dunbarton-red-meat-lovers-ribeye",
     "name": "Red Meat Lovers Club Ribeye",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Connecticut Broadleaf (USA)",
@@ -11790,7 +11790,7 @@
   {
     "id": "aganorsa-supreme-leaf",
     "name": "Supreme Leaf",
-    "brand": "Aganorsa Leaf",
+    "brand": "Aganorsa",
     "origin": "Nicaragua",
     "region": "Estelí / Jalapa",
     "wrapper": "Nicaraguan Corojo 99",
@@ -11849,7 +11849,7 @@
   {
     "id": "aganorsa-rare-leaf",
     "name": "Rare Leaf Reserve",
-    "brand": "Aganorsa Leaf",
+    "brand": "Aganorsa",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Nicaraguan Corojo 99 (aged 5 years)",
@@ -12105,7 +12105,7 @@
   {
     "id": "warped-el-oso",
     "name": "El Oso",
-    "brand": "Warped Cigars",
+    "brand": "Warped",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Mexican San Andrés Maduro",
@@ -12169,7 +12169,7 @@
   {
     "id": "warped-flor-del-valle",
     "name": "Flor del Valle",
-    "brand": "Warped Cigars",
+    "brand": "Warped",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Connecticut",
@@ -12784,7 +12784,7 @@
   {
     "id": "romaccraft-cromagnon",
     "name": "CroMagnon",
-    "brand": "RoMa Craft Tobac",
+    "brand": "RoMa Craft",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Mexican San Andrés Maduro",
@@ -12848,7 +12848,7 @@
   {
     "id": "romaccraft-intemperance",
     "name": "Intemperance EC XVIII",
-    "brand": "RoMa Craft Tobac",
+    "brand": "RoMa Craft",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Connecticut",
@@ -12912,7 +12912,7 @@
   {
     "id": "espinosa-laranja-reserva",
     "name": "Laranja Reserva Escuro",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Brazilian Mata Fina Maduro",
@@ -12976,7 +12976,7 @@
   {
     "id": "espinosa-601-blue-label",
     "name": "601 Blue Label",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano Natural",
@@ -13285,7 +13285,7 @@
   {
     "id": "protocol-probable-cause",
     "name": "Probable Cause",
-    "brand": "Protocol Cigars",
+    "brand": "Protocol",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano Colorado",
@@ -15207,7 +15207,7 @@
   {
     "id": "bltc-last-rites-robusto",
     "name": "Last Rites Robusto Real",
-    "brand": "Black Label Trading Company",
+    "brand": "Black Label Trading Co.",
     "origin": "Nicaragua",
     "region": "Estelí (Fábrica Oveja Negra)",
     "wrapper": "Ecuadorian Maduro",
@@ -15271,7 +15271,7 @@
   {
     "id": "bltc-lawless-robusto",
     "name": "Lawless Robusto Real",
-    "brand": "Black Label Trading Company",
+    "brand": "Black Label Trading Co.",
     "origin": "Nicaragua",
     "region": "Estelí (Fábrica Oveja Negra)",
     "wrapper": "Ecuadorian Habano Rosado",
@@ -15335,7 +15335,7 @@
   {
     "id": "bltc-royalty-robusto",
     "name": "Royalty Robusto",
-    "brand": "Black Label Trading Company",
+    "brand": "Black Label Trading Co.",
     "origin": "Nicaragua",
     "region": "Estelí (Fábrica Oveja Negra)",
     "wrapper": "Ecuadorian Corojo",
@@ -15399,7 +15399,7 @@
   {
     "id": "bltc-salvation-robusto",
     "name": "Salvation Robusto Real",
-    "brand": "Black Label Trading Company",
+    "brand": "Black Label Trading Co.",
     "origin": "Nicaragua",
     "region": "Estelí (Fábrica Oveja Negra)",
     "wrapper": "Ecuadorian Sun Grown",
@@ -15463,7 +15463,7 @@
   {
     "id": "bltc-santa-muerte",
     "name": "Santa Muerte Corona Gorda",
-    "brand": "Black Label Trading Company",
+    "brand": "Black Label Trading Co.",
     "origin": "Nicaragua",
     "region": "Estelí (Fábrica Oveja Negra)",
     "wrapper": "Ecuadorian Habano",
@@ -15527,7 +15527,7 @@
   {
     "id": "bltc-deliverance-nocturne",
     "name": "Deliverance Nocturne Perfecto",
-    "brand": "Black Label Trading Company",
+    "brand": "Black Label Trading Co.",
     "origin": "Nicaragua",
     "region": "Estelí (Fábrica Oveja Negra)",
     "wrapper": "Pennsylvania Broadleaf",
@@ -15586,7 +15586,7 @@
   {
     "id": "bltc-deliverance-porcelain",
     "name": "Deliverance Porcelain Corona Gorda",
-    "brand": "Black Label Trading Company",
+    "brand": "Black Label Trading Co.",
     "origin": "Nicaragua",
     "region": "Estelí (Fábrica Oveja Negra)",
     "wrapper": "Connecticut",
@@ -15650,7 +15650,7 @@
   {
     "id": "bltc-bishops-blend-2024",
     "name": "Bishop's Blend 2024",
-    "brand": "Black Label Trading Company",
+    "brand": "Black Label Trading Co.",
     "origin": "Nicaragua",
     "region": "Estelí (Fábrica Oveja Negra)",
     "wrapper": "Ecuadorian Habano Maduro",
@@ -15709,7 +15709,7 @@
   {
     "id": "bltc-orthodox",
     "name": "Orthodox Corona Gorda",
-    "brand": "Black Label Trading Company",
+    "brand": "Black Label Trading Co.",
     "origin": "Nicaragua",
     "region": "Estelí (Fábrica Oveja Negra)",
     "wrapper": "Mexican San Andrés",
@@ -15773,7 +15773,7 @@
   {
     "id": "bltc-eletto",
     "name": "Eletto Toro",
-    "brand": "Black Label Trading Company",
+    "brand": "Black Label Trading Co.",
     "origin": "Nicaragua",
     "region": "Estelí (Fábrica Oveja Negra)",
     "wrapper": "Connecticut Broadleaf (USA)",
@@ -15831,7 +15831,7 @@
   {
     "id": "bltc-super-deluxe-2025",
     "name": "Super Deluxe Box Press 2025",
-    "brand": "Black Label Trading Company",
+    "brand": "Black Label Trading Co.",
     "origin": "Nicaragua",
     "region": "Estelí (Fábrica Oveja Negra)",
     "wrapper": "Mexican San Andrés",
@@ -15889,7 +15889,7 @@
   {
     "id": "bltc-morphine-10yr",
     "name": "Morphine 10 Year Anniversary",
-    "brand": "Black Label Trading Company",
+    "brand": "Black Label Trading Co.",
     "origin": "Nicaragua",
     "region": "Estelí (Fábrica Oveja Negra)",
     "wrapper": "Ecuadorian Maduro + Mexican San Andrés (barber pole)",
@@ -16718,7 +16718,7 @@
   {
     "id": "viaje-exclusivo-robusto",
     "name": "Viaje Exclusivo Robusto",
-    "brand": "Viaje Cigar",
+    "brand": "Viaje",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -16782,7 +16782,7 @@
   {
     "id": "viaje-white-label-project-wlp-robusto",
     "name": "Viaje White Label Project WLP Robusto",
-    "brand": "Viaje Cigar",
+    "brand": "Viaje",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -16835,7 +16835,7 @@
   {
     "id": "viaje-honey-and-hand-grenades-robusto",
     "name": "Viaje Honey and Hand Grenades Robusto",
-    "brand": "Viaje Cigar",
+    "brand": "Viaje",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Connecticut",
@@ -16878,7 +16878,7 @@
   {
     "id": "viaje-summerfest-robusto",
     "name": "Viaje Summerfest Robusto",
-    "brand": "Viaje Cigar",
+    "brand": "Viaje",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -17914,7 +17914,7 @@
   {
     "id": "warped-maestro-del-tiempo-6102-robusto",
     "name": "Warped Maestro del Tiempo 6102 Robusto",
-    "brand": "Warped Cigars",
+    "brand": "Warped",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -17973,7 +17973,7 @@
   {
     "id": "warped-la-colmena-robusto",
     "name": "Warped La Colmena Robusto",
-    "brand": "Warped Cigars",
+    "brand": "Warped",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Connecticut",
@@ -18037,7 +18037,7 @@
   {
     "id": "warped-sky-flower-robusto",
     "name": "Warped Sky Flower Robusto",
-    "brand": "Warped Cigars",
+    "brand": "Warped",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -18073,7 +18073,7 @@
   {
     "id": "warped-chinchalle-robusto",
     "name": "Warped Chinchalle Robusto",
-    "brand": "Warped Cigars",
+    "brand": "Warped",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -18753,7 +18753,7 @@
   {
     "id": "protocol-royal-canadian-mounted-robusto",
     "name": "Protocol Royal Canadian Mounted Robusto",
-    "brand": "Protocol Cigars",
+    "brand": "Protocol",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -18795,7 +18795,7 @@
   {
     "id": "protocol-palmdale-precision-robusto",
     "name": "Protocol Palmdale Precision Robusto",
-    "brand": "Protocol Cigars",
+    "brand": "Protocol",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -18852,7 +18852,7 @@
   {
     "id": "protocol-blue-line-robusto",
     "name": "Protocol Blue Line Robusto",
-    "brand": "Protocol Cigars",
+    "brand": "Protocol",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Connecticut",
@@ -18905,7 +18905,7 @@
   {
     "id": "protocol-forgotten-soldier-maduro-robusto",
     "name": "Protocol Forgotten Soldier Maduro Robusto",
-    "brand": "Protocol Cigars",
+    "brand": "Protocol",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "San Andrés Maduro",
@@ -19836,7 +19836,7 @@
   {
     "id": "espinosa-las-6-provincias-robusto",
     "name": "Espinosa Las 6 Provincias Robusto",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -19899,7 +19899,7 @@
   {
     "id": "espinosa-murcielago-robusto",
     "name": "Espinosa Murcielago Robusto",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "San Andrés Maduro",
@@ -19957,7 +19957,7 @@
   {
     "id": "espinosa-crema-no-7-robusto",
     "name": "Espinosa Crema No. 7 Robusto",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Connecticut",
@@ -22978,7 +22978,7 @@
   {
     "id": "my-father-la-antiguedad-robusto",
     "name": "La Antiguedad Robusto",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -23042,7 +23042,7 @@
   {
     "id": "my-father-la-antiguedad-toro",
     "name": "La Antiguedad Toro",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -23101,7 +23101,7 @@
   {
     "id": "my-father-le-bijou-1922-torpedo",
     "name": "My Father Le Bijou 1922 Torpedo",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "San Andrés Mexican Maduro",
@@ -23165,7 +23165,7 @@
   {
     "id": "my-father-le-bijou-1922-toro",
     "name": "My Father Le Bijou 1922 Toro",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "San Andrés Mexican Maduro",
@@ -23229,7 +23229,7 @@
   {
     "id": "my-father-no1-robusto",
     "name": "My Father No. 1 Robusto",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -23293,7 +23293,7 @@
   {
     "id": "my-father-no1-toro",
     "name": "My Father No. 1 Toro",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -23351,7 +23351,7 @@
   {
     "id": "my-father-flor-de-las-antillas-robusto",
     "name": "Flor de Las Antillas Robusto",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Sun Grown",
@@ -23415,7 +23415,7 @@
   {
     "id": "my-father-flor-de-las-antillas-toro",
     "name": "Flor de Las Antillas Toro",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Sun Grown",
@@ -25325,7 +25325,7 @@
   {
     "id": "aganorsa-leaf-supreme-leaf-robusto",
     "name": "Aganorsa Leaf Supreme Leaf Robusto",
-    "brand": "Aganorsa Leaf",
+    "brand": "Aganorsa",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Nicaraguan Habano (Jalapa)",
@@ -25389,7 +25389,7 @@
   {
     "id": "aganorsa-leaf-jfr-maduro-robusto",
     "name": "Aganorsa Leaf JFR Maduro Robusto",
-    "brand": "Aganorsa Leaf",
+    "brand": "Aganorsa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Maduro",
@@ -25453,7 +25453,7 @@
   {
     "id": "aganorsa-leaf-connecticut-robusto",
     "name": "Aganorsa Leaf Connecticut Robusto",
-    "brand": "Aganorsa Leaf",
+    "brand": "Aganorsa",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Connecticut",
@@ -25517,7 +25517,7 @@
   {
     "id": "aganorsa-leaf-swamp-thang-robusto",
     "name": "Aganorsa Leaf Swamp Thang Robusto",
-    "brand": "Aganorsa Leaf",
+    "brand": "Aganorsa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Corojo",
@@ -25553,7 +25553,7 @@
   {
     "id": "casa-fernandez-aniversario-robusto",
     "name": "Casa Fernandez Aniversario Robusto",
-    "brand": "Aganorsa Leaf",
+    "brand": "Aganorsa",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Nicaraguan Habano (Jalapa)",
@@ -25612,7 +25612,7 @@
   {
     "id": "aganorsa-leaf-guardian-of-the-farm-robusto",
     "name": "Aganorsa Leaf Guardian of the Farm Robusto",
-    "brand": "Aganorsa Leaf",
+    "brand": "Aganorsa",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Nicaraguan Habano (Jalapa)",
@@ -27370,7 +27370,7 @@
   {
     "id": "foundation-el-gueguense-robusto",
     "name": "El Güegüense Robusto",
-    "brand": "Foundation Cigar Co.",
+    "brand": "Foundation",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Connecticut",
@@ -27434,7 +27434,7 @@
   {
     "id": "foundation-olmec-claro-robusto",
     "name": "Olmec Claro Robusto",
-    "brand": "Foundation Cigar Co.",
+    "brand": "Foundation",
     "origin": "Honduras",
     "region": "Jamastran Valley",
     "wrapper": "Ecuadorian Connecticut",
@@ -27498,7 +27498,7 @@
   {
     "id": "foundation-tabernacle-robusto",
     "name": "Tabernacle Robusto",
-    "brand": "Foundation Cigar Co.",
+    "brand": "Foundation",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Connecticut Broadleaf (maduro)",
@@ -27562,7 +27562,7 @@
   {
     "id": "foundation-charter-oak-habano-robusto",
     "name": "Charter Oak Habano Robusto",
-    "brand": "Foundation Cigar Co.",
+    "brand": "Foundation",
     "origin": "Honduras",
     "region": "Jamastran Valley",
     "wrapper": "Ecuadorian Habano",
@@ -27626,7 +27626,7 @@
   {
     "id": "foundation-menelik-robusto",
     "name": "Menelik Robusto",
-    "brand": "Foundation Cigar Co.",
+    "brand": "Foundation",
     "origin": "Honduras",
     "region": "Jamastran Valley",
     "wrapper": "Ethiopian Shade (Wrappers of Gondor leaf)",
@@ -27690,7 +27690,7 @@
   {
     "id": "foundation-el-gueguense-toro",
     "name": "El Güegüense Toro",
-    "brand": "Foundation Cigar Co.",
+    "brand": "Foundation",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Connecticut",
@@ -29314,7 +29314,7 @@
   {
     "id": "san-cristobal-de-la-habana-el-principe",
     "name": "San Cristóbal de la Habana El Príncipe",
-    "brand": "San Cristóbal de la Habana",
+    "brand": "San Cristobal de la Habana",
     "origin": "Cuba",
     "region": "Vuelta Abajo",
     "wrapper": "Cuban Habano",
@@ -29362,7 +29362,7 @@
   {
     "id": "san-cristobal-de-la-habana-la-fuerza",
     "name": "San Cristóbal de la Habana La Fuerza",
-    "brand": "San Cristóbal de la Habana",
+    "brand": "San Cristobal de la Habana",
     "origin": "Cuba",
     "region": "Vuelta Abajo",
     "wrapper": "Cuban Habano",
@@ -33967,7 +33967,7 @@
   {
     "id": "romacraft-neanderthal-hn-robusto",
     "name": "RoMa Craft Neanderthal HN Robusto",
-    "brand": "RoMa Craft Tobac",
+    "brand": "RoMa Craft",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano Oscuro",
@@ -34031,7 +34031,7 @@
   {
     "id": "romacraft-aquitaine-emh-robusto",
     "name": "RoMa Craft Aquitaine EMH Robusto",
-    "brand": "RoMa Craft Tobac",
+    "brand": "RoMa Craft",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano Ligero",
@@ -34067,7 +34067,7 @@
   {
     "id": "romacraft-intemperance-ba-xxi-robusto",
     "name": "RoMa Craft Intemperance BA XXI Robusto",
-    "brand": "RoMa Craft Tobac",
+    "brand": "RoMa Craft",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano Rosado",
@@ -34131,7 +34131,7 @@
   {
     "id": "romacraft-weaselsnout-robusto",
     "name": "RoMa Craft Weaselsnout Robusto",
-    "brand": "RoMa Craft Tobac",
+    "brand": "RoMa Craft",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -36989,7 +36989,7 @@
   {
     "id": "foundation-charter-oak-habano-toro",
     "name": "Foundation Charter Oak Habano Toro",
-    "brand": "Foundation Cigar Co.",
+    "brand": "Foundation",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Honduran Habano",
@@ -37053,7 +37053,7 @@
   {
     "id": "foundation-charter-oak-shade-robusto",
     "name": "Foundation Charter Oak Shade Robusto",
-    "brand": "Foundation Cigar Co.",
+    "brand": "Foundation",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Connecticut Shade",
@@ -37088,7 +37088,7 @@
   {
     "id": "foundation-olmec-maduro-robusto",
     "name": "Foundation Olmec Maduro Robusto",
-    "brand": "Foundation Cigar Co.",
+    "brand": "Foundation",
     "origin": "Mexico",
     "region": "San Andrés Valley",
     "wrapper": "Mexican San Andrés Maduro",
@@ -37152,7 +37152,7 @@
   {
     "id": "espinosa-laranja-reserva-robusto",
     "name": "Espinosa Laranja Reserva Robusto",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Brazilian Habano",
@@ -37216,7 +37216,7 @@
   {
     "id": "espinosa-knuckle-sandwich-robusto",
     "name": "Espinosa Knuckle Sandwich Robusto",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -37280,7 +37280,7 @@
   {
     "id": "espinosa-alpha-dawg-robusto",
     "name": "Espinosa Alpha Dawg Robusto",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano Oscuro",
@@ -41832,7 +41832,7 @@
   {
     "id": "protocol-themis-toro",
     "name": "Protocol Themis Toro",
-    "brand": "Protocol Cigars",
+    "brand": "Protocol",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Connecticut",
@@ -41885,7 +41885,7 @@
   {
     "id": "protocol-probable-cause-lancero",
     "name": "Protocol Probable Cause Lancero",
-    "brand": "Protocol Cigars",
+    "brand": "Protocol",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Mexican San Andrés",
@@ -41938,7 +41938,7 @@
   {
     "id": "protocol-john-doe-20",
     "name": "Protocol John Doe 2.0",
-    "brand": "Protocol Cigars",
+    "brand": "Protocol",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan",
@@ -43687,7 +43687,7 @@
   {
     "id": "my-father-garcia-y-garcia-toro-extra",
     "name": "My Father García & García Toro Extra",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano Rosado",
@@ -43722,7 +43722,7 @@
   {
     "id": "my-father-garcia-y-garcia-robusto-deluxe",
     "name": "My Father García & García Robusto Deluxe",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano Rosado",
@@ -44236,7 +44236,7 @@
   {
     "id": "aganorsa-leaf-jfr-lunatic-torch",
     "name": "Aganorsa Leaf JFR Lunatic Torch",
-    "brand": "Aganorsa Leaf",
+    "brand": "Aganorsa",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Nicaraguan Corojo 99",
@@ -44294,7 +44294,7 @@
   {
     "id": "aganorsa-leaf-jfr-lunatic-maduro-toro",
     "name": "Aganorsa Leaf JFR Lunatic Maduro Toro",
-    "brand": "Aganorsa Leaf",
+    "brand": "Aganorsa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Mexican San Andrés",
@@ -44421,7 +44421,7 @@
   {
     "id": "dunbarton-sin-compromiso-no5",
     "name": "Dunbarton Sin Compromiso Selección No. 5",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Mexican San Andrés Negro Cultivo Tonto",
@@ -44479,7 +44479,7 @@
   {
     "id": "dunbarton-sobremesa-cervantes-fino",
     "name": "Dunbarton Sobremesa Cervantes Fino",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Habano",
@@ -44526,7 +44526,7 @@
   {
     "id": "warped-la-colmena-no44",
     "name": "Warped La Colmena No. 44",
-    "brand": "Warped Cigars",
+    "brand": "Warped",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian",
@@ -44589,7 +44589,7 @@
   {
     "id": "warped-maestro-del-tiempo-6102-toro",
     "name": "Warped Maestro del Tiempo 6102 Toro",
-    "brand": "Warped Cigars",
+    "brand": "Warped",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Nicaraguan Habano",
@@ -44647,7 +44647,7 @@
   {
     "id": "warped-guardian-of-the-farm-apollo",
     "name": "Warped Guardian of the Farm Apollo",
-    "brand": "Warped Cigars",
+    "brand": "Warped",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Nicaraguan Corojo 99",
@@ -44683,7 +44683,7 @@
   {
     "id": "roma-craft-cromagnon-aquitaine-mode5",
     "name": "RoMa Craft CroMagnon Aquitaine Mode 5",
-    "brand": "RoMa Craft Tobac",
+    "brand": "RoMa Craft",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano Ligero",
@@ -44718,7 +44718,7 @@
   {
     "id": "roma-craft-neanderthal-hn",
     "name": "RoMa Craft Neanderthal HN",
-    "brand": "RoMa Craft Tobac",
+    "brand": "RoMa Craft",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano Ligero",
@@ -45092,7 +45092,7 @@
   {
     "id": "espinosa-las-6-provincias-cmw",
     "name": "Espinosa Las 6 Provincias CMW",
-    "brand": "Espinosa Premium Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -45127,7 +45127,7 @@
   {
     "id": "espinosa-las-6-provincias-zdt",
     "name": "Espinosa Las 6 Provincias ZDT",
-    "brand": "Espinosa Premium Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Corojo",
@@ -45162,7 +45162,7 @@
   {
     "id": "espinosa-knuckle-sandwich-habano-toro",
     "name": "Espinosa Knuckle Sandwich Habano Toro",
-    "brand": "Espinosa Premium Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -45225,7 +45225,7 @@
   {
     "id": "espinosa-laranja-toro",
     "name": "Espinosa Laranja Reserva Toro",
-    "brand": "Espinosa Premium Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Brazilian Mata Fina",
@@ -45821,7 +45821,7 @@
   {
     "id": "foundation-charter-oak-broadleaf-lonsdale",
     "name": "Foundation Charter Oak Broadleaf Lonsdale",
-    "brand": "Foundation Cigar Company",
+    "brand": "Foundation",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -45856,7 +45856,7 @@
   {
     "id": "foundation-charter-oak-shade-toro",
     "name": "Foundation Charter Oak Connecticut Shade Toro",
-    "brand": "Foundation Cigar Company",
+    "brand": "Foundation",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Connecticut Shade",
@@ -45919,7 +45919,7 @@
   {
     "id": "foundation-olmec-maduro-toro",
     "name": "Foundation Olmec Maduro Toro",
-    "brand": "Foundation Cigar Company",
+    "brand": "Foundation",
     "origin": "Mexico",
     "region": "San Andrés",
     "wrapper": "Mexican San Andrés Maduro",
@@ -45982,7 +45982,7 @@
   {
     "id": "hvc-hot-cake-corona-gorda",
     "name": "HVC Hot Cake Corona Gorda",
-    "brand": "HVC Cigars",
+    "brand": "HVC",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Mexican San Andrés",
@@ -46045,7 +46045,7 @@
   {
     "id": "hvc-hot-cake-gran-canon",
     "name": "HVC Hot Cake Gran Cañon",
-    "brand": "HVC Cigars",
+    "brand": "HVC",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Mexican San Andrés",
@@ -46305,7 +46305,7 @@
   {
     "id": "my-father-le-bijou-box-press",
     "name": "My Father Le Bijou 1922 Box Pressed",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano Oscuro (Pelo de Oro)",
@@ -46461,7 +46461,7 @@
   {
     "id": "warped-flor-del-valle-sky-flower",
     "name": "Warped Flor del Valle Sky Flower",
-    "brand": "Warped Cigars",
+    "brand": "Warped",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Nicaraguan Corojo 99",
@@ -46514,7 +46514,7 @@
   {
     "id": "hvc-pan-caliente-toro",
     "name": "HVC Pan Caliente Toro",
-    "brand": "HVC Cigars",
+    "brand": "HVC",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Habano",
@@ -46577,7 +46577,7 @@
   {
     "id": "dunbarton-muestra-de-saka-exclusivo-toro",
     "name": "Dunbarton Muestra de Saka Exclusivo Toro",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Habano Claro",
@@ -46640,7 +46640,7 @@
   {
     "id": "espinosa-knuckle-sandwich-maduro-robusto",
     "name": "Espinosa Knuckle Sandwich Maduro Robusto",
-    "brand": "Espinosa Premium Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Sumatra",
@@ -47494,7 +47494,7 @@
   {
     "id": "foundation-tabernacle-toro",
     "name": "Foundation Tabernacle Toro",
-    "brand": "Foundation Cigar Company",
+    "brand": "Foundation",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Connecticut Broadleaf",
@@ -47587,7 +47587,7 @@
   {
     "id": "dunbarton-sobremesa-toro",
     "name": "Dunbarton Sobremesa Toro",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Habano",
@@ -47640,7 +47640,7 @@
   {
     "id": "roma-craft-cromagnon-knuckledragger",
     "name": "RoMa Craft CroMagnon Knuckledragger",
-    "brand": "RoMa Craft Tobac",
+    "brand": "RoMa Craft",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano Ligero",
@@ -47829,7 +47829,7 @@
   {
     "id": "my-father-judge-toro",
     "name": "My Father The Judge Toro",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Guatemalan Habano",
@@ -47892,7 +47892,7 @@
   {
     "id": "my-father-no1-torpedo",
     "name": "My Father No. 1 Torpedo",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -48087,7 +48087,7 @@
   {
     "id": "aganorsa-leaf-signature-selection-toro",
     "name": "Aganorsa Leaf Signature Selection Toro",
-    "brand": "Aganorsa Leaf",
+    "brand": "Aganorsa",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Nicaraguan Corojo 99",
@@ -48314,7 +48314,7 @@
   {
     "id": "espinosa-alpha-dawg-toro",
     "name": "Espinosa Alpha Dawg Toro",
-    "brand": "Espinosa Premium Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -50862,7 +50862,7 @@
   {
     "id": "rojas-unfinished-business-corona-gorda",
     "name": "Rojas Unfinished Business Corona Gorda",
-    "brand": "Rojas Cigars",
+    "brand": "Rojas Cigar",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Sumatra",
@@ -50925,7 +50925,7 @@
   {
     "id": "rojas-unfinished-business-toro",
     "name": "Rojas Unfinished Business Toro",
-    "brand": "Rojas Cigars",
+    "brand": "Rojas Cigar",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Sumatra",
@@ -50978,7 +50978,7 @@
   {
     "id": "blackbird-superb-robusto-gordo",
     "name": "Blackbird Superb Robusto Gordo",
-    "brand": "Blackbird Cigar Co.",
+    "brand": "Blackbird",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -51036,7 +51036,7 @@
   {
     "id": "blackbird-jackdaw-robusto",
     "name": "Blackbird Jackdaw Robusto",
-    "brand": "Blackbird Cigar Co.",
+    "brand": "Blackbird",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Connecticut",
@@ -51089,7 +51089,7 @@
   {
     "id": "blackbird-crow-robusto",
     "name": "Blackbird Crow Robusto",
-    "brand": "Blackbird Cigar Co.",
+    "brand": "Blackbird",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Mexican",
@@ -51142,7 +51142,7 @@
   {
     "id": "blackbird-rook-robusto",
     "name": "Blackbird Rook Robusto",
-    "brand": "Blackbird Cigar Co.",
+    "brand": "Blackbird",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Sumatra",
@@ -51859,7 +51859,7 @@
   {
     "id": "foundation-menelik-toro",
     "name": "Foundation Menelik Toro",
-    "brand": "Foundation Cigar Co.",
+    "brand": "Foundation",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ethiopian Tambocco",
@@ -51922,7 +51922,7 @@
   {
     "id": "foundation-olmec-claro-toro",
     "name": "Foundation Olmec Claro Toro",
-    "brand": "Foundation Cigar Co.",
+    "brand": "Foundation",
     "origin": "Mexico",
     "region": "San Andrés",
     "wrapper": "Mexican San Andrés Claro",
@@ -52447,7 +52447,7 @@
   {
     "id": "warped-flor-del-valle-toro",
     "name": "Warped Flor del Valle Toro",
-    "brand": "Warped Cigars",
+    "brand": "Warped",
     "origin": "Cuba",
     "region": "Vuelta Abajo",
     "wrapper": "Cuban Habano",
@@ -53049,7 +53049,7 @@
   {
     "id": "espinosa-601-orange-label-toro",
     "name": "Espinosa 601 Orange Label Toro",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -53097,7 +53097,7 @@
   {
     "id": "espinosa-las-6-provincias-toro",
     "name": "Espinosa Las 6 Provincias Toro",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Mexican San Andrés Maduro",
@@ -53281,7 +53281,7 @@
   {
     "id": "aganorsa-leaf-jfr-maduro-toro",
     "name": "Aganorsa Leaf JFR Maduro Toro",
-    "brand": "Aganorsa Leaf",
+    "brand": "Aganorsa",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -53338,7 +53338,7 @@
   {
     "id": "aganorsa-leaf-guardian-of-farm-toro",
     "name": "Aganorsa Leaf Guardian of the Farm Toro",
-    "brand": "Aganorsa Leaf",
+    "brand": "Aganorsa",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Nicaraguan AGANORSA Corojo",
@@ -53396,7 +53396,7 @@
   {
     "id": "foundation-tabernacle-maduro-toro",
     "name": "Foundation Tabernacle Maduro Toro",
-    "brand": "Foundation Cigar Co.",
+    "brand": "Foundation",
     "origin": "Honduras",
     "region": "Jamastran",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -53459,7 +53459,7 @@
   {
     "id": "quesada-1974-toro",
     "name": "Quesada 1974 Toro",
-    "brand": "Quesada Cigars",
+    "brand": "Quesada",
     "origin": "Dominican Republic",
     "region": "Cibao Valley",
     "wrapper": "Mexican San Andrés",
@@ -53517,7 +53517,7 @@
   {
     "id": "quesada-oktoberfest-toro",
     "name": "Quesada Oktoberfest Toro",
-    "brand": "Quesada Cigars",
+    "brand": "Quesada",
     "origin": "Dominican Republic",
     "region": "Cibao Valley",
     "wrapper": "Ecuadorian Connecticut",
@@ -53998,7 +53998,7 @@
   {
     "id": "dunbarton-sobremesa-brulée-toro",
     "name": "Dunbarton Tobacco & Trust Sobremesa Brûlée Toro",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Honduran Rosado",
@@ -54055,7 +54055,7 @@
   {
     "id": "dunbarton-sin-compromiso-toro",
     "name": "Dunbarton Tobacco & Trust Sin Compromiso Toro",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -54400,7 +54400,7 @@
   {
     "id": "acid-kuba-grande",
     "name": "ACID Kuba Grande",
-    "brand": "ACID by Drew Estate",
+    "brand": "Drew Estate",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Indonesian",
@@ -54576,7 +54576,7 @@
   {
     "id": "la-barba-red-robusto",
     "name": "La Barba Red Robusto",
-    "brand": "La Barba Cigars",
+    "brand": "La Barba",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano Colorado",
@@ -54634,7 +54634,7 @@
   {
     "id": "la-barba-ricochet-robusto",
     "name": "La Barba Ricochet Robusto",
-    "brand": "La Barba Cigars",
+    "brand": "La Barba",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "San Andres Maduro",
@@ -54692,7 +54692,7 @@
   {
     "id": "rojas-unfinished-business-robusto",
     "name": "Rojas Unfinished Business Robusto",
-    "brand": "Rojas Cigars",
+    "brand": "Rojas Cigar",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -54745,7 +54745,7 @@
   {
     "id": "blackbird-superb-robusto",
     "name": "Blackbird Cigar Superb Robusto",
-    "brand": "Blackbird Cigar Co.",
+    "brand": "Blackbird",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Connecticut Shade",
@@ -54957,7 +54957,7 @@
   {
     "id": "umbagog-dunbarton",
     "name": "Umbagog by Dunbarton Tobacco & Trust",
-    "brand": "Dunbarton Tobacco & Trust",
+    "brand": "Dunbarton",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Pennsylvania Broadleaf Maduro",
@@ -55108,7 +55108,7 @@
   {
     "id": "espinosa-601-la-bomba-warhead",
     "name": "Espinosa 601 La Bomba Warhead",
-    "brand": "Espinosa Premium Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano Rosado",
@@ -55166,7 +55166,7 @@
   {
     "id": "espinosa-laranja-reserva-corona",
     "name": "Espinosa Laranja Reserva Corona",
-    "brand": "Espinosa Premium Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Connecticut",
@@ -55471,7 +55471,7 @@
   {
     "id": "crux-bull-bear-toro",
     "name": "Crux Bull & Bear Toro",
-    "brand": "Crux Cigar Co.",
+    "brand": "Crux Cigars",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Habano",
@@ -55528,7 +55528,7 @@
   {
     "id": "crux-epicure-toro",
     "name": "Crux Epicure Toro",
-    "brand": "Crux Cigar Co.",
+    "brand": "Crux Cigars",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Connecticut",
@@ -55585,7 +55585,7 @@
   {
     "id": "crux-guild-corona",
     "name": "Crux Guild Corona",
-    "brand": "Crux Cigar Co.",
+    "brand": "Crux Cigars",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -55643,7 +55643,7 @@
   {
     "id": "viaje-honey-hand-grenades",
     "name": "Viaje Honey & Hand Grenades Sweet & Spicy",
-    "brand": "Viaje Cigars",
+    "brand": "Viaje",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -55685,7 +55685,7 @@
   {
     "id": "viaje-skull-bones-el-catrin",
     "name": "Viaje Skull & Bones El Catrin",
-    "brand": "Viaje Cigars",
+    "brand": "Viaje",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "San Andres Maduro",
@@ -55830,7 +55830,7 @@
   {
     "id": "tatuaje-havana-vi-robusto-extra",
     "name": "Tatuaje Havana VI Robusto Extra",
-    "brand": "Tatuaje Cigars",
+    "brand": "Tatuaje",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -55893,7 +55893,7 @@
   {
     "id": "my-father-la-opulencia-robusto",
     "name": "My Father Cigars La Opulencia Robusto",
-    "brand": "My Father Cigars",
+    "brand": "My Father",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Nicaraguan Habano Oscuro",
@@ -55956,7 +55956,7 @@
   {
     "id": "perdomo-craft-bourbon-barrel-aged-toro",
     "name": "Perdomo Craft Series Bourbon Barrel-Aged Toro",
-    "brand": "Perdomo Cigars",
+    "brand": "Perdomo",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Bourbon Barrel-Aged Connecticut Shade",
@@ -56019,7 +56019,7 @@
   {
     "id": "hvc-hot-cake-robusto",
     "name": "HVC Hot Cake Robusto",
-    "brand": "HVC Cigars",
+    "brand": "HVC",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Connecticut",
@@ -56082,7 +56082,7 @@
   {
     "id": "mombacho-clasico-robusto",
     "name": "Mombacho Clasico Robusto",
-    "brand": "Mombacho Cigars",
+    "brand": "Mombacho",
     "origin": "Nicaragua",
     "region": "Granada",
     "wrapper": "Ecuadorian Habano",
@@ -60623,7 +60623,7 @@
   {
     "id": "san-cristobal-el-castillo",
     "name": "San Cristóbal El Castillo",
-    "brand": "San Cristóbal de la Habana",
+    "brand": "San Cristobal de la Habana",
     "origin": "Cuba",
     "region": "Vuelta Abajo",
     "wrapper": "Cuban Habano",
@@ -60657,7 +60657,7 @@
   {
     "id": "san-cristobal-la-punta",
     "name": "San Cristóbal La Punta",
-    "brand": "San Cristóbal de la Habana",
+    "brand": "San Cristobal de la Habana",
     "origin": "Cuba",
     "region": "Vuelta Abajo",
     "wrapper": "Cuban Habano",
@@ -60691,7 +60691,7 @@
   {
     "id": "san-cristobal-quinteto",
     "name": "San Cristóbal Quinteto",
-    "brand": "San Cristóbal de la Habana",
+    "brand": "San Cristobal de la Habana",
     "origin": "Cuba",
     "region": "Vuelta Abajo",
     "wrapper": "Cuban Habano",
@@ -61739,7 +61739,7 @@
   {
     "id": "diplomaticos-no3",
     "name": "Diplomaticos No. 3",
-    "brand": "Diplomaticos",
+    "brand": "Diplomáticos",
     "origin": "Cuba",
     "region": "Vuelta Abajo",
     "wrapper": "Cuban Habano",
@@ -61786,7 +61786,7 @@
   {
     "id": "diplomaticos-no4",
     "name": "Diplomaticos No. 4",
-    "brand": "Diplomaticos",
+    "brand": "Diplomáticos",
     "origin": "Cuba",
     "region": "Vuelta Abajo",
     "wrapper": "Cuban Habano",
@@ -61833,7 +61833,7 @@
   {
     "id": "diplomaticos-no5",
     "name": "Diplomaticos No. 5",
-    "brand": "Diplomaticos",
+    "brand": "Diplomáticos",
     "origin": "Cuba",
     "region": "Vuelta Abajo",
     "wrapper": "Cuban Habano",
@@ -62540,7 +62540,7 @@
   {
     "id": "cain-f-550",
     "name": "Cain F 550 Toro",
-    "brand": "Cain by Oliva",
+    "brand": "Cain",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuador Habano",
@@ -62587,7 +62587,7 @@
   {
     "id": "cain-f-660",
     "name": "Cain F 660 Gordo",
-    "brand": "Cain by Oliva",
+    "brand": "Cain",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuador Habano",
@@ -62640,7 +62640,7 @@
   {
     "id": "cain-straight-ligero-550",
     "name": "Cain Straight Ligero 550 Toro",
-    "brand": "Cain by Oliva",
+    "brand": "Cain",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaragua Habano",
@@ -62674,7 +62674,7 @@
   {
     "id": "cain-straight-ligero-660",
     "name": "Cain Straight Ligero 660 Gordo",
-    "brand": "Cain by Oliva",
+    "brand": "Cain",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaragua Habano",
@@ -62732,7 +62732,7 @@
   {
     "id": "cain-fog-robusto",
     "name": "Cain Fog Robusto",
-    "brand": "Cain by Oliva",
+    "brand": "Cain",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuador Connecticut",
@@ -62784,7 +62784,7 @@
   {
     "id": "cain-fog-550",
     "name": "Cain Fog 550 Toro",
-    "brand": "Cain by Oliva",
+    "brand": "Cain",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuador Connecticut",
@@ -70886,9 +70886,9 @@
     ]
   },
   {
-    "id": "espinosa-laranja-reserva-toro",
-    "name": "Espinosa Laranja Reserva Toro",
-    "brand": "Espinosa Cigars",
+    "id": "espinosa-laranja-reserva-toro-brazilian",
+    "name": "Espinosa Laranja Reserva Toro Brazilian",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Brazilian Arapiraca",
@@ -70951,7 +70951,7 @@
   {
     "id": "espinosa-601-la-bomba-robusto",
     "name": "Espinosa 601 La Bomba Robusto",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "San Andres Mexican Maduro",
@@ -71009,7 +71009,7 @@
   {
     "id": "espinosa-knuckle-sandwich-toro",
     "name": "Espinosa Knuckle Sandwich Toro",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Corojo",
@@ -71072,7 +71072,7 @@
   {
     "id": "espinosa-crema-no7-toro",
     "name": "Espinosa Crema No. 7 Toro",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Connecticut Shade",
@@ -71135,7 +71135,7 @@
   {
     "id": "espinosa-murcielago-toro",
     "name": "Espinosa Murcielago Toro",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "San Andres Mexican Maduro",
@@ -71188,7 +71188,7 @@
   {
     "id": "espinosa-alpha-dawg-gordo",
     "name": "Espinosa Alpha Dawg Gordo",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -72324,7 +72324,7 @@
   {
     "id": "espinosa-601-la-bomba-toro",
     "name": "Espinosa 601 La Bomba Toro",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "San Andres Mexican Maduro",
@@ -74044,7 +74044,7 @@
   {
     "id": "viaje-circa-robusto",
     "name": "Viaje Circa Robusto",
-    "brand": "Viaje Cigar",
+    "brand": "Viaje",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -74107,7 +74107,7 @@
   {
     "id": "viaje-skull-and-bones-robusto",
     "name": "Viaje Skull and Bones Robusto",
-    "brand": "Viaje Cigar",
+    "brand": "Viaje",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -74165,7 +74165,7 @@
   {
     "id": "viaje-wlp-robusto",
     "name": "Viaje WLP Robusto",
-    "brand": "Viaje Cigar",
+    "brand": "Viaje",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -74213,7 +74213,7 @@
   {
     "id": "viaje-exclusivo-florida-robusto",
     "name": "Viaje Exclusivo Florida Robusto",
-    "brand": "Viaje Cigar",
+    "brand": "Viaje",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -74266,7 +74266,7 @@
   {
     "id": "viaje-honey-and-money-toro",
     "name": "Viaje Honey and Money Toro",
-    "brand": "Viaje Cigar",
+    "brand": "Viaje",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Connecticut",
@@ -74908,7 +74908,7 @@
   {
     "id": "viaje-oro-reserva-robusto",
     "name": "Viaje Oro Reserva Robusto",
-    "brand": "Viaje Cigar",
+    "brand": "Viaje",
     "origin": "Nicaragua",
     "region": "Jalapa",
     "wrapper": "Ecuadorian Habano Colorado",
@@ -75222,7 +75222,7 @@
   {
     "id": "viaje-exclusivo-nicaragua-toro",
     "name": "Viaje Exclusivo Nicaragua Toro",
-    "brand": "Viaje Cigar",
+    "brand": "Viaje",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Habano",
@@ -76163,7 +76163,7 @@
   {
     "id": "espinosa-601-la-bomba-warhead-viii",
     "name": "601 La Bomba Warhead VIII",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Ocotal",
     "wrapper": "Nicaraguan Broadleaf",
@@ -76212,7 +76212,7 @@
   {
     "id": "espinosa-601-la-bomba-warhead-ix",
     "name": "601 La Bomba Warhead IX",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Ocotal",
     "wrapper": "Nicaraguan Broadleaf",
@@ -77291,7 +77291,7 @@
   {
     "id": "e-doble-by-espinosa-robusto",
     "name": "E Doble by Espinosa Robusto",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -77333,7 +77333,7 @@
   {
     "id": "e-doble-by-espinosa-toro",
     "name": "E Doble by Espinosa Toro",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -77375,7 +77375,7 @@
   {
     "id": "e-doble-by-espinosa-churchill",
     "name": "E Doble by Espinosa Churchill",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -77417,7 +77417,7 @@
   {
     "id": "e-doble-by-espinosa-660",
     "name": "E Doble by Espinosa 660",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaraguan Habano",
@@ -77459,7 +77459,7 @@
   {
     "id": "e-by-espinosa-connecticut-robusto",
     "name": "E by Espinosa Connecticut Robusto",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Connecticut Shade",
@@ -77507,7 +77507,7 @@
   {
     "id": "e-by-espinosa-connecticut-toro",
     "name": "E by Espinosa Connecticut Toro",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Connecticut Shade",
@@ -77554,7 +77554,7 @@
   {
     "id": "e-by-espinosa-connecticut-660",
     "name": "E by Espinosa Connecticut 660",
-    "brand": "Espinosa Cigars",
+    "brand": "Espinosa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Ecuadorian Connecticut Shade",
@@ -78635,7 +78635,7 @@
   {
     "id": "maestranza-ciutadella-catalonia",
     "name": "Maestranza Ciutadella Catalonia",
-    "brand": "RoMa Craft Tobac",
+    "brand": "RoMa Craft",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Mexico San Andrés",
@@ -80368,7 +80368,7 @@
   {
     "id": "aganorsa-leaf-arsenio",
     "name": "Aganorsa Leaf Arsenio",
-    "brand": "Aganorsa Leaf",
+    "brand": "Aganorsa",
     "origin": "Nicaragua",
     "region": "Estelí",
     "wrapper": "Nicaragua",
@@ -157684,113 +157684,6 @@
     "limited": false
   },
   {
-    "id": "southern-draw-robusto",
-    "name": "Southern Draw Robusto",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Corojo",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 4,
-    "smokingTime": 50,
-    "price": 10,
-    "rating": 92,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Robusto",
-    "length": 5,
-    "ringGauge": 50,
-    "popularity": 5,
-    "description": "The Southern Draw Robusto is a medium-to-full Nicaragua cigar from Southern Draw. Featuring a Corojo wrapper with Nicaraguan binder and Nicaraguan filler, this Robusto format (5\" × 50) delivers notes of Cedar, Coffee, Earth, Pepper over a 50-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-robusto-maduro",
-    "name": "Southern Draw Robusto Maduro",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Broadleaf Maduro",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 5,
-    "smokingTime": 55,
-    "price": 10,
-    "rating": 93,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather",
-      "Dark Chocolate"
-    ],
-    "size": "Robusto",
-    "length": 5,
-    "ringGauge": 50,
-    "popularity": 5,
-    "description": "The Southern Draw Robusto Maduro is a full-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Broadleaf Maduro wrapper with Nicaraguan binder and Nicaraguan filler, this Robusto format (5\" × 50) delivers notes of Cedar, Coffee, Earth, Pepper over a 55-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-robusto-connecticut",
-    "name": "Southern Draw Robusto Connecticut",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Shade",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 3,
-    "smokingTime": 50,
-    "price": 10,
-    "rating": 92,
-    "flavors": [
-      "Cream",
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Robusto",
-    "length": 5,
-    "ringGauge": 50,
-    "popularity": 5,
-    "description": "The Southern Draw Robusto Connecticut is a medium-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Shade wrapper with Nicaraguan binder and Nicaraguan filler, this Robusto format (5\" × 50) delivers notes of Cream, Cedar, Coffee, Earth over a 50-minute smoke.",
-    "pairings": [
-      "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Añejo Tequila (Don Julio 1942, Herradura Añejo)",
-      "Tawny Port (Graham's 20 Year)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
     "id": "southern-draw-robusto-habano",
     "name": "Southern Draw Robusto Habano",
     "brand": "Southern Draw",
@@ -157821,113 +157714,6 @@
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
       "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-toro",
-    "name": "Southern Draw Toro",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Corojo",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 4,
-    "smokingTime": 60,
-    "price": 12,
-    "rating": 92,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Toro",
-    "length": 6,
-    "ringGauge": 52,
-    "popularity": 5,
-    "description": "The Southern Draw Toro is a medium-to-full Nicaragua cigar from Southern Draw. Featuring a Corojo wrapper with Nicaraguan binder and Nicaraguan filler, this Toro format (6\" × 52) delivers notes of Cedar, Coffee, Earth, Pepper over a 60-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-toro-maduro",
-    "name": "Southern Draw Toro Maduro",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Broadleaf Maduro",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 5,
-    "smokingTime": 66,
-    "price": 12,
-    "rating": 91,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather",
-      "Dark Chocolate"
-    ],
-    "size": "Toro",
-    "length": 6,
-    "ringGauge": 52,
-    "popularity": 5,
-    "description": "The Southern Draw Toro Maduro is a full-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Broadleaf Maduro wrapper with Nicaraguan binder and Nicaraguan filler, this Toro format (6\" × 52) delivers notes of Cedar, Coffee, Earth, Pepper over a 66-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-toro-connecticut",
-    "name": "Southern Draw Toro Connecticut",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Shade",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 3,
-    "smokingTime": 60,
-    "price": 12,
-    "rating": 92,
-    "flavors": [
-      "Cream",
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Toro",
-    "length": 6,
-    "ringGauge": 52,
-    "popularity": 5,
-    "description": "The Southern Draw Toro Connecticut is a medium-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Shade wrapper with Nicaraguan binder and Nicaraguan filler, this Toro format (6\" × 52) delivers notes of Cream, Cedar, Coffee, Earth over a 60-minute smoke.",
-    "pairings": [
-      "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Añejo Tequila (Don Julio 1942, Herradura Añejo)",
-      "Tawny Port (Graham's 20 Year)"
     ],
     "yearFounded": 2015,
     "limited": false
@@ -157968,113 +157754,6 @@
     "limited": false
   },
   {
-    "id": "southern-draw-churchill",
-    "name": "Southern Draw Churchill",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Corojo",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 4,
-    "smokingTime": 75,
-    "price": 14,
-    "rating": 91,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Churchill",
-    "length": 7,
-    "ringGauge": 50,
-    "popularity": 5,
-    "description": "The Southern Draw Churchill is a medium-to-full Nicaragua cigar from Southern Draw. Featuring a Corojo wrapper with Nicaraguan binder and Nicaraguan filler, this Churchill format (7\" × 50) delivers notes of Cedar, Coffee, Earth, Pepper over a 75-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-churchill-maduro",
-    "name": "Southern Draw Churchill Maduro",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Broadleaf Maduro",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 5,
-    "smokingTime": 83,
-    "price": 14,
-    "rating": 91,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather",
-      "Dark Chocolate"
-    ],
-    "size": "Churchill",
-    "length": 7,
-    "ringGauge": 50,
-    "popularity": 5,
-    "description": "The Southern Draw Churchill Maduro is a full-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Broadleaf Maduro wrapper with Nicaraguan binder and Nicaraguan filler, this Churchill format (7\" × 50) delivers notes of Cedar, Coffee, Earth, Pepper over a 83-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-churchill-connecticut",
-    "name": "Southern Draw Churchill Connecticut",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Shade",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 3,
-    "smokingTime": 75,
-    "price": 14,
-    "rating": 93,
-    "flavors": [
-      "Cream",
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Churchill",
-    "length": 7,
-    "ringGauge": 50,
-    "popularity": 5,
-    "description": "The Southern Draw Churchill Connecticut is a medium-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Shade wrapper with Nicaraguan binder and Nicaraguan filler, this Churchill format (7\" × 50) delivers notes of Cream, Cedar, Coffee, Earth over a 75-minute smoke.",
-    "pairings": [
-      "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Añejo Tequila (Don Julio 1942, Herradura Añejo)",
-      "Tawny Port (Graham's 20 Year)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
     "id": "southern-draw-churchill-habano",
     "name": "Southern Draw Churchill Habano",
     "brand": "Southern Draw",
@@ -158105,113 +157784,6 @@
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
       "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-corona",
-    "name": "Southern Draw Corona",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Corojo",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 4,
-    "smokingTime": 45,
-    "price": 11,
-    "rating": 92,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Corona",
-    "length": 5.5,
-    "ringGauge": 44,
-    "popularity": 5,
-    "description": "The Southern Draw Corona is a medium-to-full Nicaragua cigar from Southern Draw. Featuring a Corojo wrapper with Nicaraguan binder and Nicaraguan filler, this Corona format (5.5\" × 44) delivers notes of Cedar, Coffee, Earth, Pepper over a 45-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-corona-maduro",
-    "name": "Southern Draw Corona Maduro",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Broadleaf Maduro",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 5,
-    "smokingTime": 50,
-    "price": 11,
-    "rating": 91,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather",
-      "Dark Chocolate"
-    ],
-    "size": "Corona",
-    "length": 5.5,
-    "ringGauge": 44,
-    "popularity": 5,
-    "description": "The Southern Draw Corona Maduro is a full-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Broadleaf Maduro wrapper with Nicaraguan binder and Nicaraguan filler, this Corona format (5.5\" × 44) delivers notes of Cedar, Coffee, Earth, Pepper over a 50-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-corona-connecticut",
-    "name": "Southern Draw Corona Connecticut",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Shade",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 3,
-    "smokingTime": 45,
-    "price": 11,
-    "rating": 93,
-    "flavors": [
-      "Cream",
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Corona",
-    "length": 5.5,
-    "ringGauge": 44,
-    "popularity": 5,
-    "description": "The Southern Draw Corona Connecticut is a medium-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Shade wrapper with Nicaraguan binder and Nicaraguan filler, this Corona format (5.5\" × 44) delivers notes of Cream, Cedar, Coffee, Earth over a 45-minute smoke.",
-    "pairings": [
-      "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Añejo Tequila (Don Julio 1942, Herradura Añejo)",
-      "Tawny Port (Graham's 20 Year)"
     ],
     "yearFounded": 2015,
     "limited": false
@@ -158252,113 +157824,6 @@
     "limited": false
   },
   {
-    "id": "southern-draw-corona-gorda",
-    "name": "Southern Draw Corona Gorda",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Corojo",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 4,
-    "smokingTime": 55,
-    "price": 11.2,
-    "rating": 91,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Corona Gorda",
-    "length": 5.6,
-    "ringGauge": 46,
-    "popularity": 5,
-    "description": "The Southern Draw Corona Gorda is a medium-to-full Nicaragua cigar from Southern Draw. Featuring a Corojo wrapper with Nicaraguan binder and Nicaraguan filler, this Corona Gorda format (5.6\" × 46) delivers notes of Cedar, Coffee, Earth, Pepper over a 55-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-corona-gorda-maduro",
-    "name": "Southern Draw Corona Gorda Maduro",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Broadleaf Maduro",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 5,
-    "smokingTime": 61,
-    "price": 11.2,
-    "rating": 91,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather",
-      "Dark Chocolate"
-    ],
-    "size": "Corona Gorda",
-    "length": 5.6,
-    "ringGauge": 46,
-    "popularity": 5,
-    "description": "The Southern Draw Corona Gorda Maduro is a full-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Broadleaf Maduro wrapper with Nicaraguan binder and Nicaraguan filler, this Corona Gorda format (5.6\" × 46) delivers notes of Cedar, Coffee, Earth, Pepper over a 61-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-corona-gorda-connecticut",
-    "name": "Southern Draw Corona Gorda Connecticut",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Shade",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 3,
-    "smokingTime": 55,
-    "price": 11.2,
-    "rating": 91,
-    "flavors": [
-      "Cream",
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Corona Gorda",
-    "length": 5.6,
-    "ringGauge": 46,
-    "popularity": 5,
-    "description": "The Southern Draw Corona Gorda Connecticut is a medium-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Shade wrapper with Nicaraguan binder and Nicaraguan filler, this Corona Gorda format (5.6\" × 46) delivers notes of Cream, Cedar, Coffee, Earth over a 55-minute smoke.",
-    "pairings": [
-      "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Añejo Tequila (Don Julio 1942, Herradura Añejo)",
-      "Tawny Port (Graham's 20 Year)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
     "id": "southern-draw-corona-gorda-habano",
     "name": "Southern Draw Corona Gorda Habano",
     "brand": "Southern Draw",
@@ -158389,113 +157854,6 @@
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
       "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-torpedo",
-    "name": "Southern Draw Torpedo",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Corojo",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 4,
-    "smokingTime": 60,
-    "price": 12.2,
-    "rating": 93,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Torpedo",
-    "length": 6.1,
-    "ringGauge": 52,
-    "popularity": 5,
-    "description": "The Southern Draw Torpedo is a medium-to-full Nicaragua cigar from Southern Draw. Featuring a Corojo wrapper with Nicaraguan binder and Nicaraguan filler, this Torpedo format (6.1\" × 52) delivers notes of Cedar, Coffee, Earth, Pepper over a 60-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-torpedo-maduro",
-    "name": "Southern Draw Torpedo Maduro",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Broadleaf Maduro",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 5,
-    "smokingTime": 66,
-    "price": 12.2,
-    "rating": 92,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather",
-      "Dark Chocolate"
-    ],
-    "size": "Torpedo",
-    "length": 6.1,
-    "ringGauge": 52,
-    "popularity": 5,
-    "description": "The Southern Draw Torpedo Maduro is a full-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Broadleaf Maduro wrapper with Nicaraguan binder and Nicaraguan filler, this Torpedo format (6.1\" × 52) delivers notes of Cedar, Coffee, Earth, Pepper over a 66-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-torpedo-connecticut",
-    "name": "Southern Draw Torpedo Connecticut",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Shade",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 3,
-    "smokingTime": 60,
-    "price": 12.2,
-    "rating": 91,
-    "flavors": [
-      "Cream",
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Torpedo",
-    "length": 6.1,
-    "ringGauge": 52,
-    "popularity": 5,
-    "description": "The Southern Draw Torpedo Connecticut is a medium-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Shade wrapper with Nicaraguan binder and Nicaraguan filler, this Torpedo format (6.1\" × 52) delivers notes of Cream, Cedar, Coffee, Earth over a 60-minute smoke.",
-    "pairings": [
-      "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Añejo Tequila (Don Julio 1942, Herradura Añejo)",
-      "Tawny Port (Graham's 20 Year)"
     ],
     "yearFounded": 2015,
     "limited": false
@@ -158536,113 +157894,6 @@
     "limited": false
   },
   {
-    "id": "southern-draw-gordo",
-    "name": "Southern Draw Gordo",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Corojo",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 4,
-    "smokingTime": 70,
-    "price": 12,
-    "rating": 93,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Gordo",
-    "length": 6,
-    "ringGauge": 60,
-    "popularity": 5,
-    "description": "The Southern Draw Gordo is a medium-to-full Nicaragua cigar from Southern Draw. Featuring a Corojo wrapper with Nicaraguan binder and Nicaraguan filler, this Gordo format (6\" × 60) delivers notes of Cedar, Coffee, Earth, Pepper over a 70-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-gordo-maduro",
-    "name": "Southern Draw Gordo Maduro",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Broadleaf Maduro",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 5,
-    "smokingTime": 77,
-    "price": 12,
-    "rating": 93,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather",
-      "Dark Chocolate"
-    ],
-    "size": "Gordo",
-    "length": 6,
-    "ringGauge": 60,
-    "popularity": 5,
-    "description": "The Southern Draw Gordo Maduro is a full-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Broadleaf Maduro wrapper with Nicaraguan binder and Nicaraguan filler, this Gordo format (6\" × 60) delivers notes of Cedar, Coffee, Earth, Pepper over a 77-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-gordo-connecticut",
-    "name": "Southern Draw Gordo Connecticut",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Shade",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 3,
-    "smokingTime": 70,
-    "price": 12,
-    "rating": 93,
-    "flavors": [
-      "Cream",
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Gordo",
-    "length": 6,
-    "ringGauge": 60,
-    "popularity": 5,
-    "description": "The Southern Draw Gordo Connecticut is a medium-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Shade wrapper with Nicaraguan binder and Nicaraguan filler, this Gordo format (6\" × 60) delivers notes of Cream, Cedar, Coffee, Earth over a 70-minute smoke.",
-    "pairings": [
-      "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Añejo Tequila (Don Julio 1942, Herradura Añejo)",
-      "Tawny Port (Graham's 20 Year)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
     "id": "southern-draw-gordo-habano",
     "name": "Southern Draw Gordo Habano",
     "brand": "Southern Draw",
@@ -158673,113 +157924,6 @@
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
       "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-petit-corona",
-    "name": "Southern Draw Petit Corona",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Corojo",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 4,
-    "smokingTime": 35,
-    "price": 9.6,
-    "rating": 91,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Petit Corona",
-    "length": 4.8,
-    "ringGauge": 42,
-    "popularity": 5,
-    "description": "The Southern Draw Petit Corona is a medium-to-full Nicaragua cigar from Southern Draw. Featuring a Corojo wrapper with Nicaraguan binder and Nicaraguan filler, this Petit Corona format (4.8\" × 42) delivers notes of Cedar, Coffee, Earth, Pepper over a 35-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-petit-corona-maduro",
-    "name": "Southern Draw Petit Corona Maduro",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Broadleaf Maduro",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 5,
-    "smokingTime": 39,
-    "price": 9.6,
-    "rating": 93,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather",
-      "Dark Chocolate"
-    ],
-    "size": "Petit Corona",
-    "length": 4.8,
-    "ringGauge": 42,
-    "popularity": 5,
-    "description": "The Southern Draw Petit Corona Maduro is a full-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Broadleaf Maduro wrapper with Nicaraguan binder and Nicaraguan filler, this Petit Corona format (4.8\" × 42) delivers notes of Cedar, Coffee, Earth, Pepper over a 39-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-petit-corona-connecticut",
-    "name": "Southern Draw Petit Corona Connecticut",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Shade",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 3,
-    "smokingTime": 35,
-    "price": 9.6,
-    "rating": 91,
-    "flavors": [
-      "Cream",
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Petit Corona",
-    "length": 4.8,
-    "ringGauge": 42,
-    "popularity": 5,
-    "description": "The Southern Draw Petit Corona Connecticut is a medium-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Shade wrapper with Nicaraguan binder and Nicaraguan filler, this Petit Corona format (4.8\" × 42) delivers notes of Cream, Cedar, Coffee, Earth over a 35-minute smoke.",
-    "pairings": [
-      "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Añejo Tequila (Don Julio 1942, Herradura Añejo)",
-      "Tawny Port (Graham's 20 Year)"
     ],
     "yearFounded": 2015,
     "limited": false
@@ -158820,113 +157964,6 @@
     "limited": false
   },
   {
-    "id": "southern-draw-belicoso",
-    "name": "Southern Draw Belicoso",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Corojo",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 4,
-    "smokingTime": 50,
-    "price": 10.2,
-    "rating": 93,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Belicoso",
-    "length": 5.1,
-    "ringGauge": 52,
-    "popularity": 5,
-    "description": "The Southern Draw Belicoso is a medium-to-full Nicaragua cigar from Southern Draw. Featuring a Corojo wrapper with Nicaraguan binder and Nicaraguan filler, this Belicoso format (5.1\" × 52) delivers notes of Cedar, Coffee, Earth, Pepper over a 50-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-belicoso-maduro",
-    "name": "Southern Draw Belicoso Maduro",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Broadleaf Maduro",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 5,
-    "smokingTime": 55,
-    "price": 10.2,
-    "rating": 91,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather",
-      "Dark Chocolate"
-    ],
-    "size": "Belicoso",
-    "length": 5.1,
-    "ringGauge": 52,
-    "popularity": 5,
-    "description": "The Southern Draw Belicoso Maduro is a full-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Broadleaf Maduro wrapper with Nicaraguan binder and Nicaraguan filler, this Belicoso format (5.1\" × 52) delivers notes of Cedar, Coffee, Earth, Pepper over a 55-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-belicoso-connecticut",
-    "name": "Southern Draw Belicoso Connecticut",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Shade",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 3,
-    "smokingTime": 50,
-    "price": 10.2,
-    "rating": 91,
-    "flavors": [
-      "Cream",
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Belicoso",
-    "length": 5.1,
-    "ringGauge": 52,
-    "popularity": 5,
-    "description": "The Southern Draw Belicoso Connecticut is a medium-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Shade wrapper with Nicaraguan binder and Nicaraguan filler, this Belicoso format (5.1\" × 52) delivers notes of Cream, Cedar, Coffee, Earth over a 50-minute smoke.",
-    "pairings": [
-      "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Añejo Tequila (Don Julio 1942, Herradura Añejo)",
-      "Tawny Port (Graham's 20 Year)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
     "id": "southern-draw-belicoso-habano",
     "name": "Southern Draw Belicoso Habano",
     "brand": "Southern Draw",
@@ -158962,77 +157999,6 @@
     "limited": false
   },
   {
-    "id": "southern-draw-lancero",
-    "name": "Southern Draw Lancero",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Corojo",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 4,
-    "smokingTime": 70,
-    "price": 15,
-    "rating": 91,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Lancero",
-    "length": 7.5,
-    "ringGauge": 38,
-    "popularity": 5,
-    "description": "The Southern Draw Lancero is a medium-to-full Nicaragua cigar from Southern Draw. Featuring a Corojo wrapper with Nicaraguan binder and Nicaraguan filler, this Lancero format (7.5\" × 38) delivers notes of Cedar, Coffee, Earth, Pepper over a 70-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-lancero-connecticut",
-    "name": "Southern Draw Lancero Connecticut",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Shade",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 3,
-    "smokingTime": 70,
-    "price": 15,
-    "rating": 93,
-    "flavors": [
-      "Cream",
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Lancero",
-    "length": 7.5,
-    "ringGauge": 38,
-    "popularity": 5,
-    "description": "The Southern Draw Lancero Connecticut is a medium-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Shade wrapper with Nicaraguan binder and Nicaraguan filler, this Lancero format (7.5\" × 38) delivers notes of Cream, Cedar, Coffee, Earth over a 70-minute smoke.",
-    "pairings": [
-      "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Añejo Tequila (Don Julio 1942, Herradura Añejo)",
-      "Tawny Port (Graham's 20 Year)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
     "id": "southern-draw-lancero-habano",
     "name": "Southern Draw Lancero Habano",
     "brand": "Southern Draw",
@@ -159057,77 +158023,6 @@
     "ringGauge": 38,
     "popularity": 5,
     "description": "The Southern Draw Lancero Habano is a medium-to-full Nicaragua cigar from Southern Draw. Featuring a Habano wrapper with Nicaraguan binder and Nicaraguan filler, this Lancero format (7.5\" × 38) delivers notes of Cedar, Coffee, Earth, Pepper over a 70-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-perfecto",
-    "name": "Southern Draw Perfecto",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Corojo",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 4,
-    "smokingTime": 55,
-    "price": 11,
-    "rating": 91,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Perfecto",
-    "length": 5.5,
-    "ringGauge": 52,
-    "popularity": 5,
-    "description": "The Southern Draw Perfecto is a medium-to-full Nicaragua cigar from Southern Draw. Featuring a Corojo wrapper with Nicaraguan binder and Nicaraguan filler, this Perfecto format (5.5\" × 52) delivers notes of Cedar, Coffee, Earth, Pepper over a 55-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-perfecto-maduro",
-    "name": "Southern Draw Perfecto Maduro",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Broadleaf Maduro",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 5,
-    "smokingTime": 61,
-    "price": 11,
-    "rating": 92,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather",
-      "Dark Chocolate"
-    ],
-    "size": "Perfecto",
-    "length": 5.5,
-    "ringGauge": 52,
-    "popularity": 5,
-    "description": "The Southern Draw Perfecto Maduro is a full-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Broadleaf Maduro wrapper with Nicaraguan binder and Nicaraguan filler, this Perfecto format (5.5\" × 52) delivers notes of Cedar, Coffee, Earth, Pepper over a 61-minute smoke.",
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
@@ -159169,113 +158064,6 @@
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
       "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-double-corona",
-    "name": "Southern Draw Double Corona",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Corojo",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 4,
-    "smokingTime": 90,
-    "price": 15.2,
-    "rating": 92,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Double Corona",
-    "length": 7.6,
-    "ringGauge": 49,
-    "popularity": 5,
-    "description": "The Southern Draw Double Corona is a medium-to-full Nicaragua cigar from Southern Draw. Featuring a Corojo wrapper with Nicaraguan binder and Nicaraguan filler, this Double Corona format (7.6\" × 49) delivers notes of Cedar, Coffee, Earth, Pepper over a 90-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-double-corona-maduro",
-    "name": "Southern Draw Double Corona Maduro",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Broadleaf Maduro",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 5,
-    "smokingTime": 99,
-    "price": 15.2,
-    "rating": 93,
-    "flavors": [
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather",
-      "Dark Chocolate"
-    ],
-    "size": "Double Corona",
-    "length": 7.6,
-    "ringGauge": 49,
-    "popularity": 5,
-    "description": "The Southern Draw Double Corona Maduro is a full-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Broadleaf Maduro wrapper with Nicaraguan binder and Nicaraguan filler, this Double Corona format (7.6\" × 49) delivers notes of Cedar, Coffee, Earth, Pepper over a 99-minute smoke.",
-    "pairings": [
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin)",
-      "Double Espresso (dark roast, no sugar)"
-    ],
-    "yearFounded": 2015,
-    "limited": false
-  },
-  {
-    "id": "southern-draw-double-corona-connecticut",
-    "name": "Southern Draw Double Corona Connecticut",
-    "brand": "Southern Draw",
-    "origin": "Nicaragua",
-    "region": "Estelí",
-    "wrapper": "Connecticut Shade",
-    "binder": "Nicaraguan",
-    "filler": "Nicaraguan",
-    "strength": 3,
-    "smokingTime": 90,
-    "price": 15.2,
-    "rating": 91,
-    "flavors": [
-      "Cream",
-      "Cedar",
-      "Coffee",
-      "Earth",
-      "Pepper",
-      "Leather"
-    ],
-    "size": "Double Corona",
-    "length": 7.6,
-    "ringGauge": 49,
-    "popularity": 5,
-    "description": "The Southern Draw Double Corona Connecticut is a medium-bodied Nicaragua cigar from Southern Draw. Featuring a Connecticut Shade wrapper with Nicaraguan binder and Nicaraguan filler, this Double Corona format (7.6\" × 49) delivers notes of Cream, Cedar, Coffee, Earth over a 90-minute smoke.",
-    "pairings": [
-      "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Añejo Tequila (Don Julio 1942, Herradura Añejo)",
-      "Tawny Port (Graham's 20 Year)"
     ],
     "yearFounded": 2015,
     "limited": false
@@ -163002,7 +161790,7 @@
   {
     "id": "cave-de-pailles-robusto",
     "name": "Cave de Pailles Robusto",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Shade",
@@ -163037,7 +161825,7 @@
   {
     "id": "cave-de-pailles-robusto-maduro",
     "name": "Cave de Pailles Robusto Maduro",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -163073,7 +161861,7 @@
   {
     "id": "cave-de-pailles-toro",
     "name": "Cave de Pailles Toro",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Shade",
@@ -163108,7 +161896,7 @@
   {
     "id": "cave-de-pailles-toro-maduro",
     "name": "Cave de Pailles Toro Maduro",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -163144,7 +161932,7 @@
   {
     "id": "cave-de-pailles-churchill",
     "name": "Cave de Pailles Churchill",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Shade",
@@ -163179,7 +161967,7 @@
   {
     "id": "cave-de-pailles-churchill-maduro",
     "name": "Cave de Pailles Churchill Maduro",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -163215,7 +162003,7 @@
   {
     "id": "cave-de-pailles-corona",
     "name": "Cave de Pailles Corona",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Shade",
@@ -163250,7 +162038,7 @@
   {
     "id": "cave-de-pailles-corona-maduro",
     "name": "Cave de Pailles Corona Maduro",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -163286,7 +162074,7 @@
   {
     "id": "cave-de-pailles-corona-gorda",
     "name": "Cave de Pailles Corona Gorda",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Shade",
@@ -163321,7 +162109,7 @@
   {
     "id": "cave-de-pailles-corona-gorda-maduro",
     "name": "Cave de Pailles Corona Gorda Maduro",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -163357,7 +162145,7 @@
   {
     "id": "cave-de-pailles-torpedo",
     "name": "Cave de Pailles Torpedo",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Shade",
@@ -163392,7 +162180,7 @@
   {
     "id": "cave-de-pailles-torpedo-maduro",
     "name": "Cave de Pailles Torpedo Maduro",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -163428,7 +162216,7 @@
   {
     "id": "cave-de-pailles-gordo",
     "name": "Cave de Pailles Gordo",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Shade",
@@ -163463,7 +162251,7 @@
   {
     "id": "cave-de-pailles-gordo-maduro",
     "name": "Cave de Pailles Gordo Maduro",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -163499,7 +162287,7 @@
   {
     "id": "cave-de-pailles-petit-corona",
     "name": "Cave de Pailles Petit Corona",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Shade",
@@ -163534,7 +162322,7 @@
   {
     "id": "cave-de-pailles-petit-corona-maduro",
     "name": "Cave de Pailles Petit Corona Maduro",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -163570,7 +162358,7 @@
   {
     "id": "cave-de-pailles-belicoso",
     "name": "Cave de Pailles Belicoso",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Shade",
@@ -163605,7 +162393,7 @@
   {
     "id": "cave-de-pailles-belicoso-maduro",
     "name": "Cave de Pailles Belicoso Maduro",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -163641,7 +162429,7 @@
   {
     "id": "cave-de-pailles-lancero",
     "name": "Cave de Pailles Lancero",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Shade",
@@ -163676,7 +162464,7 @@
   {
     "id": "cave-de-pailles-perfecto",
     "name": "Cave de Pailles Perfecto",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Shade",
@@ -163711,7 +162499,7 @@
   {
     "id": "cave-de-pailles-perfecto-maduro",
     "name": "Cave de Pailles Perfecto Maduro",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Broadleaf Maduro",
@@ -163747,7 +162535,7 @@
   {
     "id": "cave-de-pailles-double-corona",
     "name": "Cave de Pailles Double Corona",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Shade",
@@ -163782,7 +162570,7 @@
   {
     "id": "cave-de-pailles-double-corona-maduro",
     "name": "Cave de Pailles Double Corona Maduro",
-    "brand": "Cave de Pailles",
+    "brand": "Casa de Pailles",
     "origin": "Dominican Republic",
     "region": "Santiago",
     "wrapper": "Connecticut Broadleaf Maduro",
