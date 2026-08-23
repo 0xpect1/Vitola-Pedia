@@ -92,7 +92,7 @@
       </div>
 
       <p class="shelf-note">
-        Both shelves are drawn from the same 1,458 cigars and scored the same way.
+        Both shelves are drawn from the same 6,059 cigars and scored the same way.
         Spending more buys you rarity and refinement; it does not buy you a better evening.
       </p>`;
 

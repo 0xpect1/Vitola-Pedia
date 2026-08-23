@@ -1,6 +1,6 @@
 /* ══════════════════════════════════════════════════════════════════
    VITOLA PEDIA — COMMAND PALETTE  (⌘K / Ctrl-K)
-   One box over 1,458 cigars, 30 blends, 138 brands, every flavour note,
+   One box over 6,059 cigars, 30 blends, 257 brands, every flavour note,
    origin, wrapper and view. Search was previously only reachable by
    scrolling to the hero.
    ══════════════════════════════════════════════════════════════════ */
