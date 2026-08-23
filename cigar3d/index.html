@@ -5,596 +5,603 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vitola Pedia — 3D Cigar</title>
 <style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  html, body { width: 100%; height: 100%; background: transparent; overflow: hidden; }
-  canvas { display: block; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:100%;height:100%;background:transparent;overflow:hidden}
+  canvas{display:block}
 </style>
 </head>
 <body>
 <script type="module">
-// Dynamic import — works reliably on GitHub Pages
 const THREE = await import('https://unpkg.com/three@0.160.0/build/three.module.js');
 
 // ═══ SCENE ═══════════════════════════════════════════════════════
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(28, window.innerWidth / window.innerHeight, 0.1, 100);
-camera.position.set(0, 0.5, 7);
+const camera = new THREE.PerspectiveCamera(24, innerWidth/innerHeight, 0.01, 100);
+camera.position.set(0, 0.3, 8.5);
 camera.lookAt(0, 0, 0);
 
-const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
-renderer.setSize(window.innerWidth, window.innerHeight);
-renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+const renderer = new THREE.WebGLRenderer({ alpha:true, antialias:true });
+renderer.setSize(innerWidth, innerHeight);
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
-renderer.toneMappingExposure = 1.15;
+renderer.toneMappingExposure = 1.1;
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 document.body.appendChild(renderer.domElement);
 
-// ═══ ENVIRONMENT MAP (for realistic reflections on wrapper + band) ═══
+// ═══ ENVIRONMENT (for PBR reflections) ═══════════════════════════
 function createEnvMap() {
-  const size = 256;
   const c = document.createElement('canvas');
-  c.width = size * 2; c.height = size;
+  c.width = 512; c.height = 256;
   const ctx = c.getContext('2d');
-  // Warm studio environment — gradient sky, dark ground
-  const grad = ctx.createLinearGradient(0, 0, 0, size);
-  grad.addColorStop(0, '#2a1a08');
-  grad.addColorStop(0.3, '#5c3a18');
-  grad.addColorStop(0.5, '#8a5c28');
-  grad.addColorStop(0.55, '#4a2a10');
-  grad.addColorStop(0.7, '#1a0a02');
-  grad.addColorStop(1, '#0a0500');
-  ctx.fillStyle = grad;
-  ctx.fillRect(0, 0, size * 2, size);
-  // Bright light reflections
-  for (let i = 0; i < 8; i++) {
-    const x = Math.random() * size * 2;
-    const y = Math.random() * size * 0.6;
-    const r = 20 + Math.random() * 40;
-    const g = ctx.createRadialGradient(x, y, 0, x, y, r);
-    g.addColorStop(0, 'rgba(255,220,150,0.4)');
-    g.addColorStop(1, 'rgba(255,220,150,0)');
-    ctx.fillStyle = g;
-    ctx.fillRect(x - r, y - r, r * 2, r * 2);
+  const g = ctx.createLinearGradient(0,0,0,256);
+  g.addColorStop(0,'#0a0500'); g.addColorStop(0.2,'#1a0a02');
+  g.addColorStop(0.4,'#3a1a08'); g.addColorStop(0.48,'#8a5c28');
+  g.addColorStop(0.52,'#4a2a10'); g.addColorStop(0.7,'#1a0a02');
+  g.addColorStop(1,'#000000');
+  ctx.fillStyle = g; ctx.fillRect(0,0,512,256);
+  for (let i=0;i<12;i++){
+    const x=Math.random()*512, y=Math.random()*128, r=15+Math.random()*50;
+    const rg=ctx.createRadialGradient(x,y,0,x,y,r);
+    rg.addColorStop(0,'rgba(255,220,150,0.5)'); rg.addColorStop(1,'rgba(255,220,150,0)');
+    ctx.fillStyle=rg; ctx.fillRect(x-r,y-r,r*2,r*2);
   }
-  const tex = new THREE.CanvasTexture(c);
-  tex.mapping = THREE.EquirectangularReflectionMapping;
-  tex.colorSpace = THREE.SRGBColorSpace;
-  return tex;
+  const t = new THREE.CanvasTexture(c);
+  t.mapping = THREE.EquirectangularReflectionMapping;
+  t.colorSpace = THREE.SRGBColorSpace;
+  return t;
 }
-
 const envMap = createEnvMap();
 scene.environment = envMap;
 
-// ═══ LIGHTING ════════════════════════════════════════════════════
-const keyLight = new THREE.DirectionalLight(0xfff0d0, 3.5);
+// ═══ LIGHTING — 6 point lights for studio quality ═══════════════
+const keyLight = new THREE.DirectionalLight(0xfff0d0, 4);
 keyLight.position.set(4, 5, 3);
 scene.add(keyLight);
 
-const fillLight = new THREE.DirectionalLight(0x88aacc, 1.2);
+const fillLight = new THREE.DirectionalLight(0x88aacc, 1.5);
 fillLight.position.set(-4, -1, 2);
 scene.add(fillLight);
 
-const rimLight = new THREE.DirectionalLight(0xff9944, 2.0);
+const rimLight = new THREE.DirectionalLight(0xff9944, 2.5);
 rimLight.position.set(-2, 3, -5);
 scene.add(rimLight);
 
-const ambient = new THREE.AmbientLight(0x1a0a02, 0.3);
-scene.add(ambient);
+const topLight = new THREE.PointLight(0xfff0d0, 1.5, 10);
+topLight.position.set(0, 4, 2);
+scene.add(topLight);
 
-const emberLight = new THREE.PointLight(0xff6b35, 4, 5, 1.2);
-emberLight.position.set(-2.5, 0, 0);
+const emberLight = new THREE.PointLight(0xff6b35, 5, 6, 1.0);
+emberLight.position.set(-3, 0, 0);
 scene.add(emberLight);
 
-// ═══ WRAPPER TEXTURE — hyper-detailed ═══════════════════════════
+scene.add(new THREE.AmbientLight(0x1a0a02, 0.2));
+
+// ═══ WRAPPER COLOR TEXTURE — ultra-detailed ═════════════════════
 function createWrapperTexture() {
   const c = document.createElement('canvas');
   c.width = 4096; c.height = 1024;
   const ctx = c.getContext('2d');
 
-  // Base — deep maduro wrapper
-  const grad = ctx.createLinearGradient(0, 0, 0, 1024);
-  grad.addColorStop(0, '#1a0a02');
-  grad.addColorStop(0.08, '#2a1505');
-  grad.addColorStop(0.2, '#3a1f0f');
-  grad.addColorStop(0.35, '#4a2a14');
-  grad.addColorStop(0.5, '#5c3520');
-  grad.addColorStop(0.65, '#4a2a14');
-  grad.addColorStop(0.8, '#3a1f0f');
-  grad.addColorStop(0.92, '#2a1505');
-  grad.addColorStop(1, '#1a0a02');
-  ctx.fillStyle = grad;
-  ctx.fillRect(0, 0, 4096, 1024);
+  // Deep maduro base
+  const grad = ctx.createLinearGradient(0,0,0,1024);
+  grad.addColorStop(0,'#120800'); grad.addColorStop(0.05,'#1a0a02');
+  grad.addColorStop(0.15,'#2a1505'); grad.addColorStop(0.3,'#3a1f0f');
+  grad.addColorStop(0.4,'#4a2a14'); grad.addColorStop(0.5,'#5c3520');
+  grad.addColorStop(0.6,'#4a2a14'); grad.addColorStop(0.7,'#3a1f0f');
+  grad.addColorStop(0.85,'#2a1505'); grad.addColorStop(0.95,'#1a0a02');
+  grad.addColorStop(1,'#120800');
+  ctx.fillStyle = grad; ctx.fillRect(0,0,4096,1024);
 
-  // Wrapper veins — long, flowing, organic streaks
-  for (let i = 0; i < 250; i++) {
+  // Wrapper spiral seam — the line where the leaf overlaps
+  ctx.strokeStyle = 'rgba(0,0,0,0.25)';
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  for (let x = 0; x <= 4096; x += 2) {
+    const y = 512 + Math.sin(x * 0.008) * 8 + Math.sin(x * 0.03) * 3;
+    if (x === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+  }
+  ctx.stroke();
+  // Subtle highlight next to the seam
+  ctx.strokeStyle = 'rgba(200,140,70,0.08)';
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  for (let x = 0; x <= 4096; x += 2) {
+    const y = 514 + Math.sin(x * 0.008) * 8 + Math.sin(x * 0.03) * 3;
+    if (x === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+  }
+  ctx.stroke();
+
+  // Major wrapper veins — thick, flowing
+  for (let i = 0; i < 80; i++) {
     const x = Math.random() * 4096;
-    const w = 0.3 + Math.random() * 3;
-    const opacity = 0.015 + Math.random() * 0.1;
-    const isDark = Math.random() > 0.35;
-    ctx.strokeStyle = isDark
-      ? `rgba(0,0,0,${opacity})`
-      : `rgba(200,140,70,${opacity * 0.6})`;
+    const w = 1 + Math.random() * 4;
+    const op = 0.03 + Math.random() * 0.12;
+    ctx.strokeStyle = Math.random() > 0.3
+      ? `rgba(0,0,0,${op})`
+      : `rgba(190,130,65,${op*0.5})`;
     ctx.lineWidth = w;
     ctx.beginPath();
     let y = 0, cx = x;
     while (y < 1024) {
-      const ny = y + 6 + Math.random() * 12;
-      const ox = cx + (Math.random() - 0.5) * 15;
+      const ny = y + 5 + Math.random() * 10;
+      const ox = cx + (Math.random()-0.5)*18;
       ctx.moveTo(cx, y);
-      ctx.quadraticCurveTo(ox, (y + ny) / 2, cx + (Math.random() - 0.5) * 8, ny);
-      cx += (Math.random() - 0.5) * 8;
-      y = ny;
+      ctx.quadraticCurveTo(ox, (y+ny)/2, cx+(Math.random()-0.5)*10, ny);
+      cx += (Math.random()-0.5)*10; y = ny;
     }
     ctx.stroke();
   }
 
-  // Fine tooth/grain — thousands of tiny specks
-  for (let i = 0; i < 20000; i++) {
-    const x = Math.random() * 4096;
-    const y = Math.random() * 1024;
-    const r = Math.random() * 1.5;
-    const dark = Math.random() > 0.3;
-    ctx.fillStyle = dark
-      ? `rgba(0,0,0,${0.01 + Math.random() * 0.07})`
-      : `rgba(220,170,100,${0.005 + Math.random() * 0.04})`;
+  // Fine veins
+  for (let i = 0; i < 300; i++) {
+    const x = Math.random()*4096;
+    ctx.strokeStyle = `rgba(0,0,0,${0.01+Math.random()*0.05})`;
+    ctx.lineWidth = 0.3 + Math.random();
     ctx.beginPath();
-    ctx.arc(x, y, r, 0, Math.PI * 2);
-    ctx.fill();
+    let y=0, cx=x;
+    while(y<1024){
+      const ny=y+3+Math.random()*6;
+      ctx.moveTo(cx,y); ctx.lineTo(cx+(Math.random()-0.5)*6, ny);
+      cx+=(Math.random()-0.5)*6; y=ny;
+    }
+    ctx.stroke();
   }
 
-  // Oil spots — shiny patches
-  for (let i = 0; i < 400; i++) {
-    const x = Math.random() * 4096;
-    const y = Math.random() * 1024;
-    const r = 3 + Math.random() * 10;
-    const g = ctx.createRadialGradient(x, y, 0, x, y, r);
-    g.addColorStop(0, 'rgba(255,200,120,0.08)');
-    g.addColorStop(0.5, 'rgba(255,180,90,0.03)');
-    g.addColorStop(1, 'rgba(255,200,120,0)');
-    ctx.fillStyle = g;
-    ctx.beginPath();
-    ctx.arc(x, y, r, 0, Math.PI * 2);
-    ctx.fill();
+  // Tooth grain — 30000 micro specks
+  for (let i = 0; i < 30000; i++) {
+    const x=Math.random()*4096, y=Math.random()*1024;
+    const r=Math.random()*1.2;
+    ctx.fillStyle = Math.random()>0.3
+      ? `rgba(0,0,0,${0.008+Math.random()*0.06})`
+      : `rgba(220,170,100,${0.004+Math.random()*0.03})`;
+    ctx.beginPath(); ctx.arc(x,y,r,0,Math.PI*2); ctx.fill();
   }
 
-  // Highlight sheen — top of cylinder catches light
-  const sheen = ctx.createLinearGradient(0, 150, 0, 350);
-  sheen.addColorStop(0, 'rgba(255,210,150,0)');
-  sheen.addColorStop(0.5, 'rgba(255,210,150,0.05)');
-  sheen.addColorStop(1, 'rgba(255,210,150,0)');
-  ctx.fillStyle = sheen;
-  ctx.fillRect(0, 150, 4096, 200);
+  // Oil sheen spots — glossy patches that catch light
+  for (let i = 0; i < 500; i++) {
+    const x=Math.random()*4096, y=Math.random()*1024;
+    const r=4+Math.random()*15;
+    const og=ctx.createRadialGradient(x,y,0,x,y,r);
+    og.addColorStop(0,'rgba(255,200,120,0.1)');
+    og.addColorStop(0.4,'rgba(255,180,90,0.04)');
+    og.addColorStop(1,'rgba(255,200,120,0)');
+    ctx.fillStyle=og;
+    ctx.beginPath(); ctx.arc(x,y,r,0,Math.PI*2); ctx.fill();
+  }
 
-  // Shadow gradient on bottom
-  const shadow = ctx.createLinearGradient(0, 700, 0, 900);
-  shadow.addColorStop(0, 'rgba(0,0,0,0)');
-  shadow.addColorStop(1, 'rgba(0,0,0,0.15)');
-  ctx.fillStyle = shadow;
-  ctx.fillRect(0, 700, 4096, 200);
+  // Top highlight
+  const sh = ctx.createLinearGradient(0,120,0,380);
+  sh.addColorStop(0,'rgba(255,210,150,0)');
+  sh.addColorStop(0.5,'rgba(255,210,150,0.04)');
+  sh.addColorStop(1,'rgba(255,210,150,0)');
+  ctx.fillStyle=sh; ctx.fillRect(0,120,4096,260);
 
-  const tex = new THREE.CanvasTexture(c);
-  tex.wrapS = THREE.RepeatWrapping;
-  tex.wrapT = THREE.ClampToEdgeWrapping;
-  tex.colorSpace = THREE.SRGBColorSpace;
-  tex.anisotropy = 16;
-  return tex;
+  // Bottom shadow
+  const bs = ctx.createLinearGradient(0,640,0,900);
+  bs.addColorStop(0,'rgba(0,0,0,0)'); bs.addColorStop(1,'rgba(0,0,0,0.2)');
+  ctx.fillStyle=bs; ctx.fillRect(0,640,4096,260);
+
+  const t = new THREE.CanvasTexture(c);
+  t.wrapS = THREE.RepeatWrapping; t.colorSpace = THREE.SRGBColorSpace;
+  t.anisotropy = 16; return t;
 }
 
-// ═══ BUMP/ROUGHNESS MAP — wrapper texture for PBR ════════════════
-function createBumpTexture() {
+// ═══ NORMAL MAP — wrapper surface detail ═════════════════════════
+function createNormalMap() {
   const c = document.createElement('canvas');
   c.width = 4096; c.height = 1024;
   const ctx = c.getContext('2d');
-  ctx.fillStyle = '#808080';
-  ctx.fillRect(0, 0, 4096, 1024);
+  // Base normal — pointing up
+  ctx.fillStyle = '#8080ff'; ctx.fillRect(0,0,4096,1024);
 
-  // Vein bumps
-  for (let i = 0; i < 250; i++) {
-    const x = Math.random() * 4096;
-    const w = 1 + Math.random() * 4;
-    const v = 100 + Math.random() * 80;
-    ctx.strokeStyle = `rgba(${v},${v},${v},0.15)`;
+  // Vein normals — offset direction
+  for (let i = 0; i < 80; i++) {
+    const x = Math.random()*4096;
+    const w = 2 + Math.random()*6;
+    const dx = (Math.random()-0.5)*60;
+    const dy = (Math.random()-0.5)*60;
+    ctx.strokeStyle = `rgb(${128+dx},${128+dy},255)`;
     ctx.lineWidth = w;
     ctx.beginPath();
-    let y = 0, cx = x;
-    while (y < 1024) {
-      const ny = y + 6 + Math.random() * 12;
-      const ox = cx + (Math.random() - 0.5) * 15;
-      ctx.moveTo(cx, y);
-      ctx.quadraticCurveTo(ox, (y + ny) / 2, cx + (Math.random() - 0.5) * 8, ny);
-      cx += (Math.random() - 0.5) * 8;
-      y = ny;
+    let y=0, cx=x;
+    while(y<1024){
+      const ny=y+5+Math.random()*10;
+      const ox=cx+(Math.random()-0.5)*18;
+      ctx.moveTo(cx,y); ctx.quadraticCurveTo(ox,(y+ny)/2,cx+(Math.random()-0.5)*10,ny);
+      cx+=(Math.random()-0.5)*10; y=ny;
     }
     ctx.stroke();
   }
-  // Tooth bumps
-  for (let i = 0; i < 15000; i++) {
-    const x = Math.random() * 4096;
-    const y = Math.random() * 1024;
-    const r = Math.random() * 2;
-    const v = 60 + Math.random() * 140;
-    ctx.fillStyle = `rgba(${v},${v},${v},0.1)`;
-    ctx.beginPath();
-    ctx.arc(x, y, r, 0, Math.PI * 2);
-    ctx.fill();
+  // Tooth normals
+  for (let i = 0; i < 20000; i++) {
+    const x=Math.random()*4096, y=Math.random()*1024;
+    const dx=(Math.random()-0.5)*40, dy=(Math.random()-0.5)*40;
+    ctx.fillStyle = `rgb(${128+dx},${128+dy},255)`;
+    ctx.beginPath(); ctx.arc(x,y,1+Math.random()*2,0,Math.PI*2); ctx.fill();
   }
-  const tex = new THREE.CanvasTexture(c);
-  tex.wrapS = THREE.RepeatWrapping;
-  tex.anisotropy = 16;
-  return tex;
+  // Seam normal
+  ctx.strokeStyle = 'rgb(100,100,255)'; ctx.lineWidth = 3;
+  ctx.beginPath();
+  for (let x=0; x<=4096; x+=2) {
+    const y=512+Math.sin(x*0.008)*8+Math.sin(x*0.03)*3;
+    if(x===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+  }
+  ctx.stroke();
+
+  const t = new THREE.CanvasTexture(c);
+  t.wrapS = THREE.RepeatWrapping; t.anisotropy = 16;
+  return t;
 }
 
-// ═══ BAND TEXTURE — premium gold ═════════════════════════════════
+// ═══ ROUGHNESS MAP — varying surface gloss ══════════════════════
+function createRoughnessMap() {
+  const c = document.createElement('canvas');
+  c.width = 4096; c.height = 1024;
+  const ctx = c.getContext('2d');
+  ctx.fillStyle = '#888'; ctx.fillRect(0,0,4096,1024);
+
+  // Oil spots — smoother (glossier)
+  for (let i = 0; i < 400; i++) {
+    const x=Math.random()*4096, y=Math.random()*1024;
+    const r=5+Math.random()*20;
+    const g=ctx.createRadialGradient(x,y,0,x,y,r);
+    g.addColorStop(0,'#555'); g.addColorStop(1,'rgba(136,136,136,0)');
+    ctx.fillStyle=g; ctx.beginPath(); ctx.arc(x,y,r,0,Math.PI*2); ctx.fill();
+  }
+  // Rougher patches
+  for (let i = 0; i < 600; i++) {
+    const x=Math.random()*4096, y=Math.random()*1024;
+    const r=3+Math.random()*12;
+    const g=ctx.createRadialGradient(x,y,0,x,y,r);
+    g.addColorStop(0,'#aa'); g.addColorStop(1,'rgba(170,170,170,0)');
+    ctx.fillStyle=g; ctx.beginPath(); ctx.arc(x,y,r,0,Math.PI*2); ctx.fill();
+  }
+  // Vein roughness
+  for (let i = 0; i < 80; i++) {
+    const x = Math.random()*4096;
+    ctx.strokeStyle = 'rgba(170,170,170,0.3)'; ctx.lineWidth = 2;
+    ctx.beginPath();
+    let y=0, cx=x;
+    while(y<1024){ const ny=y+5+Math.random()*10; ctx.moveTo(cx,y); ctx.lineTo(cx+(Math.random()-0.5)*8,ny); cx+=(Math.random()-0.5)*8; y=ny; }
+    ctx.stroke();
+  }
+
+  const t = new THREE.CanvasTexture(c);
+  t.wrapS = THREE.RepeatWrapping; t.anisotropy = 16;
+  return t;
+}
+
+// ═══ BAND TEXTURE ════════════════════════════════════════════════
 function createBandTexture() {
   const c = document.createElement('canvas');
   c.width = 2048; c.height = 512;
   const ctx = c.getContext('2d');
 
-  // Deep gold gradient
-  const grad = ctx.createLinearGradient(0, 0, 0, 512);
-  grad.addColorStop(0, '#806008');
-  grad.addColorStop(0.06, '#a07808');
-  grad.addColorStop(0.15, '#c9943a');
-  grad.addColorStop(0.3, '#e8c560');
-  grad.addColorStop(0.42, '#f5dc7a');
-  grad.addColorStop(0.5, '#fce588');
-  grad.addColorStop(0.58, '#f5dc7a');
-  grad.addColorStop(0.7, '#e8c560');
-  grad.addColorStop(0.85, '#c9943a');
-  grad.addColorStop(0.94, '#a07808');
-  grad.addColorStop(1, '#806008');
-  ctx.fillStyle = grad;
-  ctx.fillRect(0, 0, 2048, 512);
+  const g = ctx.createLinearGradient(0,0,0,512);
+  g.addColorStop(0,'#604006'); g.addColorStop(0.05,'#a07808');
+  g.addColorStop(0.15,'#c9943a'); g.addColorStop(0.3,'#e8c560');
+  g.addColorStop(0.42,'#f5dc7a'); g.addColorStop(0.5,'#fce588');
+  g.addColorStop(0.58,'#f5dc7a'); g.addColorStop(0.7,'#e8c560');
+  g.addColorStop(0.85,'#c9943a'); g.addColorStop(0.95,'#a07808');
+  g.addColorStop(1,'#604006');
+  ctx.fillStyle=g; ctx.fillRect(0,0,2048,512);
 
-  // Brushed gold texture
-  for (let i = 0; i < 5000; i++) {
-    const x = Math.random() * 2048;
-    const y = Math.random() * 512;
-    const w = 1 + Math.random() * 4;
-    const h = 1 + Math.random() * 2;
-    ctx.fillStyle = Math.random() > 0.5
-      ? `rgba(255,235,150,${0.02 + Math.random() * 0.06})`
-      : `rgba(100,60,5,${0.02 + Math.random() * 0.06})`;
-    ctx.fillRect(x, y, w, h);
+  // Brushed gold
+  for (let i=0;i<8000;i++){
+    const x=Math.random()*2048, y=Math.random()*512;
+    ctx.fillStyle = Math.random()>0.5
+      ? `rgba(255,235,150,${0.02+Math.random()*0.08})`
+      : `rgba(80,50,3,${0.02+Math.random()*0.08})`;
+    ctx.fillRect(x,y,1+Math.random()*5,1+Math.random()*2);
   }
 
-  // Decorative triple border
-  ctx.strokeStyle = 'rgba(40,20,0,0.6)';
-  ctx.lineWidth = 4;
-  ctx.strokeRect(16, 16, 2016, 480);
-  ctx.lineWidth = 2;
-  ctx.strokeRect(28, 28, 1992, 456);
-  ctx.strokeStyle = 'rgba(40,20,0,0.3)';
-  ctx.lineWidth = 1;
-  ctx.strokeRect(40, 40, 1968, 432);
+  // Triple border
+  ctx.strokeStyle='rgba(30,15,0,0.7)'; ctx.lineWidth=5;
+  ctx.strokeRect(16,16,2016,480);
+  ctx.lineWidth=2; ctx.strokeRect(30,30,1988,452);
+  ctx.strokeStyle='rgba(30,15,0,0.35)'; ctx.lineWidth=1;
+  ctx.strokeRect(42,42,1964,428);
 
-  // VP monogram
-  ctx.fillStyle = '#1a0e02';
-  ctx.font = 'bold 200px Georgia, serif';
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'middle';
-  ctx.shadowColor = 'rgba(255,240,180,0.4)';
-  ctx.shadowBlur = 12;
-  ctx.shadowOffsetY = 3;
-  ctx.fillText('VP', 1024, 268);
-  ctx.shadowBlur = 0;
-  ctx.shadowOffsetY = 0;
+  // VP
+  ctx.fillStyle='#1a0e02'; ctx.font='bold 210px Georgia,serif';
+  ctx.textAlign='center'; ctx.textBaseline='middle';
+  ctx.shadowColor='rgba(255,240,180,0.5)'; ctx.shadowBlur=15;
+  ctx.shadowOffsetY=3; ctx.fillText('VP',1024,268);
+  ctx.shadowBlur=0; ctx.shadowOffsetY=0;
 
   // Flourishes
-  ctx.font = '80px Georgia, serif';
-  ctx.fillText('◆', 720, 268);
-  ctx.fillText('◆', 1328, 268);
+  ctx.font='90px Georgia,serif'; ctx.fillText('◆',700,268); ctx.fillText('◆',1348,268);
+  ctx.fillStyle='rgba(30,15,0,0.25)'; ctx.fillRect(0,0,2048,12); ctx.fillRect(0,500,2048,12);
 
-  // Top/bottom accent bars
-  ctx.fillStyle = 'rgba(40,20,0,0.2)';
-  ctx.fillRect(0, 0, 2048, 10);
-  ctx.fillRect(0, 502, 2048, 10);
-
-  const tex = new THREE.CanvasTexture(c);
-  tex.colorSpace = THREE.SRGBColorSpace;
-  tex.anisotropy = 16;
-  return tex;
+  const t = new THREE.CanvasTexture(c);
+  t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 16;
+  return t;
 }
 
-// ═══ CIGAR GEOMETRY — high-poly ═════════════════════════════════
-const cigarLength = 3.6;
-const cigarRadius = 0.32;
-const radialSegs = 128;
-const heightSegs = 300;
+// Band normal map for embossed effect
+function createBandNormal() {
+  const c = document.createElement('canvas');
+  c.width = 2048; c.height = 512;
+  const ctx = c.getContext('2d');
+  ctx.fillStyle = '#8080ff'; ctx.fillRect(0,0,2048,512);
+  // Border emboss
+  ctx.strokeStyle = 'rgb(60,60,255)'; ctx.lineWidth = 6;
+  ctx.strokeRect(16,16,2016,480); ctx.strokeRect(30,30,1988,452);
+  // VP emboss
+  ctx.fillStyle = 'rgb(180,180,255)'; ctx.font='bold 210px Georgia,serif';
+  ctx.textAlign='center'; ctx.textBaseline='middle';
+  ctx.fillText('VP',1024,268);
+  return new THREE.CanvasTexture(c);
+}
 
-const cigarGeo = new THREE.CylinderGeometry(
-  cigarRadius, cigarRadius, cigarLength, radialSegs, heightSegs, false
-);
+// ═══ CIGAR GEOMETRY ══════════════════════════════════════════════
+const L = 3.8, R = 0.34;
+const cigarGeo = new THREE.CylinderGeometry(R, R, L, 192, 400, false);
 
-// Round the cap end + taper the foot
 const pos = cigarGeo.attributes.position;
 for (let i = 0; i < pos.count; i++) {
-  const y = pos.getY(i);
-  const x = pos.getX(i);
-  const z = pos.getZ(i);
+  const y = pos.getY(i), x = pos.getX(i), z = pos.getZ(i);
 
-  // Cap (mouth) end — smooth dome
-  if (y > cigarLength * 0.47) {
-    const t = (y - cigarLength * 0.47) / (cigarLength * 0.03);
-    const r = Math.sqrt(x * x + z * z);
-    const angle = Math.atan2(z, x);
-    const newR = r * (1 - t * 0.6);
-    pos.setX(i, Math.cos(angle) * newR);
-    pos.setZ(i, Math.sin(angle) * newR);
-    pos.setY(i, y + t * 0.12);
+  // Cap (mouth) — rounded dome with slight flatten
+  if (y > L * 0.46) {
+    const t = (y - L*0.46) / (L*0.04);
+    const r = Math.sqrt(x*x + z*z);
+    const a = Math.atan2(z, x);
+    const nr = r * (1 - t * 0.55);
+    pos.setX(i, Math.cos(a)*nr); pos.setZ(i, Math.sin(a)*nr);
+    pos.setY(i, y + t * 0.14);
   }
 
-  // Lit end — slight taper + irregular burn
-  if (y < -cigarLength * 0.43) {
-    const t = (-cigarLength * 0.43 - y) / (cigarLength * 0.07);
-    const r = Math.sqrt(x * x + z * z);
-    const angle = Math.atan2(z, x);
-    const noise = 1 + Math.sin(angle * 7) * 0.03 + Math.cos(angle * 13) * 0.02;
-    const newR = r * (1 - t * 0.15) * noise;
-    pos.setX(i, Math.cos(angle) * newR);
-    pos.setZ(i, Math.sin(angle) * newR);
+  // Lit end — irregular burn + taper
+  if (y < -L * 0.42) {
+    const t = (-L*0.42 - y) / (L*0.08);
+    const r = Math.sqrt(x*x + z*z);
+    const a = Math.atan2(z, x);
+    const noise = 1 + Math.sin(a*9)*0.04 + Math.cos(a*17)*0.025 + Math.sin(a*31)*0.015;
+    const nr = r * (1 - t*0.18) * noise;
+    pos.setX(i, Math.cos(a)*nr); pos.setZ(i, Math.sin(a)*nr);
   }
 }
 cigarGeo.computeVertexNormals();
-cigarGeo.rotateZ(Math.PI / 2);
+cigarGeo.rotateZ(Math.PI/2);
 
-// ═══ CIGAR MATERIAL — PBR ═══════════════════════════════════════
-const wrapperTex = createWrapperTexture();
-const bumpTex = createBumpTexture();
-
-const cigarMat = new THREE.MeshStandardMaterial({
-  map: wrapperTex,
-  bumpMap: bumpTex,
-  bumpScale: 0.015,
-  roughness: 0.68,
-  metalness: 0.12,
+// ═══ CIGAR MATERIAL — full PBR with physical material ════════════
+const cigarMat = new THREE.MeshPhysicalMaterial({
+  map: createWrapperTexture(),
+  normalMap: createNormalMap(),
+  normalScale: new THREE.Vector2(0.8, 0.8),
+  roughnessMap: createRoughnessMap(),
+  roughness: 1.0,
+  metalness: 0.15,
   envMap: envMap,
-  envMapIntensity: 0.8,
+  envMapIntensity: 0.6,
+  clearcoat: 0.3,
+  clearcoatRoughness: 0.8,
 });
 
 const cigar = new THREE.Mesh(cigarGeo, cigarMat);
 scene.add(cigar);
 
-// ═══ BAND ═══════════════════════════════════════════════════════
-const bandGeo = new THREE.CylinderGeometry(
-  cigarRadius * 1.14, cigarRadius * 1.14, 0.5, 128, 1, true
-);
-bandGeo.rotateZ(Math.PI / 2);
+// ═══ FILLER TOBACCO at the lit foot — visible leaves ═════════════
+const fillerGroup = new THREE.Group();
+for (let i = 0; i < 12; i++) {
+  const a = (i / 12) * Math.PI * 2;
+  const r = R * 0.3 + Math.random() * R * 0.5;
+  const len = 0.08 + Math.random() * 0.15;
+  const fgeo = new THREE.CylinderGeometry(r*0.15, r*0.1, len, 8);
+  fgeo.rotateZ(Math.PI/2);
+  const fmat = new THREE.MeshStandardMaterial({
+    color: new THREE.Color().setHSL(0.05+Math.random()*0.05, 0.5+Math.random()*0.3, 0.1+Math.random()*0.12),
+    roughness: 0.9, metalness: 0.05, envMap: envMap, envMapIntensity: 0.3,
+  });
+  const fmesh = new THREE.Mesh(fgeo, fmat);
+  fmesh.position.set(-L/2 - len/2 - 0.02 + Math.random()*0.04, Math.cos(a)*r*0.7, Math.sin(a)*r*0.7);
+  fmesh.rotation.x = a + (Math.random()-0.5)*0.3;
+  fmesh.rotation.y = (Math.random()-0.5)*0.4;
+  fillerGroup.add(fmesh);
+}
+scene.add(fillerGroup);
 
-const bandMat = new THREE.MeshStandardMaterial({
+// ═══ BAND ═══════════════════════════════════════════════════════
+const bandGeo = new THREE.CylinderGeometry(R*1.16, R*1.16, 0.55, 192, 1, true);
+bandGeo.rotateZ(Math.PI/2);
+const bandMat = new THREE.MeshPhysicalMaterial({
   map: createBandTexture(),
-  roughness: 0.18,
-  metalness: 0.92,
-  envMap: envMap,
-  envMapIntensity: 1.5,
+  normalMap: createBandNormal(),
+  normalScale: new THREE.Vector2(0.5, 0.5),
+  roughness: 0.15, metalness: 0.95,
+  envMap: envMap, envMapIntensity: 1.8,
+  clearcoat: 0.5, clearcoatRoughness: 0.1,
   side: THREE.DoubleSide,
 });
-
 const band = new THREE.Mesh(bandGeo, bandMat);
-band.position.x = 0.5;
+band.position.x = 0.55;
 scene.add(band);
 
-// ═══ LIT FOOT ═══════════════════════════════════════════════════
-// Ember disc — glowing burn
-const footGeo = new THREE.CircleGeometry(cigarRadius * 0.9, 64);
-footGeo.rotateY(Math.PI / 2);
+// ═══ LIT FOOT — ember + ash ═════════════════════════════════════
+// Burn face
+const footGeo = new THREE.CircleGeometry(R*0.92, 96);
+footGeo.rotateY(Math.PI/2);
 const footMat = new THREE.MeshStandardMaterial({
-  color: 0xff4400,
-  emissive: 0xff6b35,
-  emissiveIntensity: 4,
-  roughness: 0.3,
-  side: THREE.DoubleSide,
+  color: 0xff4400, emissive: 0xff6b35, emissiveIntensity: 5,
+  roughness: 0.25, side: THREE.DoubleSide, envMap: envMap, envMapIntensity: 0.3,
 });
 const foot = new THREE.Mesh(footGeo, footMat);
-foot.position.x = -cigarLength / 2 - 0.005;
+foot.position.x = -L/2 - 0.005;
 scene.add(foot);
 
-// Inner bright ember
-const emberGeo = new THREE.CircleGeometry(cigarRadius * 0.55, 48);
-emberGeo.rotateY(Math.PI / 2);
+// Bright ember core
+const emberGeo = new THREE.CircleGeometry(R*0.6, 64);
+emberGeo.rotateY(Math.PI/2);
 const emberMat = new THREE.MeshBasicMaterial({
-  color: 0xffcc00,
-  transparent: true,
-  opacity: 0.85,
-  blending: THREE.AdditiveBlending,
-  side: THREE.DoubleSide,
+  color: 0xffdd00, transparent: true, opacity: 0.9,
+  blending: THREE.AdditiveBlending, side: THREE.DoubleSide,
 });
 const ember = new THREE.Mesh(emberGeo, emberMat);
-ember.position.x = -cigarLength / 2 + 0.01;
+ember.position.x = -L/2 + 0.01;
 scene.add(ember);
 
-// Ash ring — charred edge
-const ashGeo = new THREE.TorusGeometry(cigarRadius * 0.93, 0.05, 24, 64);
-ashGeo.rotateY(Math.PI / 2);
+// Charred ash ring + ash column
+const ashGeo = new THREE.TorusGeometry(R*0.94, 0.06, 32, 96);
+ashGeo.rotateY(Math.PI/2);
 const ashMat = new THREE.MeshStandardMaterial({
-  color: 0xb5b3a0,
-  roughness: 0.95,
-  metalness: 0.0,
-  envMap: envMap,
-  envMapIntensity: 0.2,
+  color: 0xc0bda8, roughness: 0.98, metalness: 0.02,
+  envMap: envMap, envMapIntensity: 0.15,
 });
 const ash = new THREE.Mesh(ashGeo, ashMat);
-ash.position.x = -cigarLength / 2 - 0.02;
+ash.position.x = -L/2 - 0.02;
 scene.add(ash);
 
-// ═══ SMOKE PARTICLES ═════════════════════════════════════════════
-const smokeCount = 150;
-const smokeGeo = new THREE.BufferGeometry();
-const smokePositions = new Float32Array(smokeCount * 3);
-const smokeData = [];
+// Ash column — grey buildup
+const ashColGeo = new THREE.CylinderGeometry(R*0.85, R*0.5, 0.15, 32, 3);
+ashColGeo.rotateZ(Math.PI/2);
+const ashCol = new THREE.Mesh(ashColGeo, new THREE.MeshStandardMaterial({
+  color: 0xb5b3a0, roughness: 1.0, metalness: 0.0, envMap: envMap, envMapIntensity: 0.1,
+}));
+ashCol.position.x = -L/2 - 0.08;
+scene.add(ashCol);
 
-for (let i = 0; i < smokeCount; i++) {
-  const d = {
-    x: -cigarLength / 2 - 0.1 - Math.random() * 1,
-    y: (Math.random() - 0.5) * 0.12,
-    z: (Math.random() - 0.5) * 0.12,
-    vx: -0.002 - Math.random() * 0.006,
-    vy: 0.005 + Math.random() * 0.01,
-    vz: (Math.random() - 0.5) * 0.003,
-    life: Math.random() * 4,
-    maxLife: 2 + Math.random() * 2.5,
-    baseSize: 0.06 + Math.random() * 0.1,
-  };
-  smokeData.push(d);
-  smokePositions[i * 3] = d.x;
-  smokePositions[i * 3 + 1] = d.y;
-  smokePositions[i * 3 + 2] = d.z;
-}
-smokeGeo.setAttribute('position', new THREE.BufferAttribute(smokePositions, 3));
-
+// ═══ SMOKE — sprite-based for realism ═════════════════════════════
 function createSmokeTexture() {
   const c = document.createElement('canvas');
   c.width = 128; c.height = 128;
   const ctx = c.getContext('2d');
-  const grad = ctx.createRadialGradient(64, 64, 0, 64, 64, 64);
-  grad.addColorStop(0, 'rgba(220,220,220,0.45)');
-  grad.addColorStop(0.25, 'rgba(200,200,200,0.2)');
-  grad.addColorStop(0.6, 'rgba(180,180,180,0.06)');
-  grad.addColorStop(1, 'rgba(160,160,160,0)');
-  ctx.fillStyle = grad;
-  ctx.fillRect(0, 0, 128, 128);
-  for (let i = 0; i < 300; i++) {
-    const x = Math.random() * 128;
-    const y = Math.random() * 128;
-    const r = Math.random() * 10;
-    const d = Math.sqrt((x - 64) ** 2 + (y - 64) ** 2);
-    if (d < 58) {
-      const v = 170 + Math.random() * 50;
-      ctx.fillStyle = `rgba(${v},${v},${v},${0.015 + Math.random() * 0.05})`;
-      ctx.beginPath();
-      ctx.arc(x, y, r, 0, Math.PI * 2);
-      ctx.fill();
+  const g = ctx.createRadialGradient(64,64,0,64,64,64);
+  g.addColorStop(0,'rgba(230,230,230,0.5)');
+  g.addColorStop(0.2,'rgba(210,210,210,0.3)');
+  g.addColorStop(0.5,'rgba(190,190,190,0.1)');
+  g.addColorStop(1,'rgba(170,170,170,0)');
+  ctx.fillStyle=g; ctx.fillRect(0,0,128,128);
+  for (let i=0;i<500;i++){
+    const x=Math.random()*128, y=Math.random()*128;
+    const r=1+Math.random()*12, d=Math.sqrt((x-64)**2+(y-64)**2);
+    if(d<58){
+      const v=170+Math.random()*60;
+      ctx.fillStyle=`rgba(${v},${v},${v},${0.01+Math.random()*0.06})`;
+      ctx.beginPath(); ctx.arc(x,y,r,0,Math.PI*2); ctx.fill();
     }
   }
   return new THREE.CanvasTexture(c);
 }
+const smokeTex = createSmokeTexture();
+
+const smokeCount = 200;
+const smokeGeo = new THREE.BufferGeometry();
+const smokePos = new Float32Array(smokeCount*3);
+const smokeData = [];
+for (let i=0; i<smokeCount; i++) {
+  smokeData.push({
+    x:-L/2-0.1-Math.random()*1.2,
+    y:(Math.random()-0.5)*0.1, z:(Math.random()-0.5)*0.1,
+    vx:-0.002-Math.random()*0.005, vy:0.004+Math.random()*0.009,
+    vz:(Math.random()-0.5)*0.003, life:Math.random()*5,
+    maxLife:2.5+Math.random()*2.5, size:0.08+Math.random()*0.12,
+  });
+  smokePos[i*3]=smokeData[i].x; smokePos[i*3+1]=smokeData[i].y; smokePos[i*3+2]=smokeData[i].z;
+}
+smokeGeo.setAttribute('position', new THREE.BufferAttribute(smokePos, 3));
 
 const smokeMat = new THREE.PointsMaterial({
-  map: createSmokeTexture(),
-  size: 0.4,
-  transparent: true,
-  opacity: 0.35,
-  depthWrite: false,
-  blending: THREE.NormalBlending,
-  sizeAttenuation: true,
+  map: smokeTex, size: 0.45, transparent: true, opacity: 0.3,
+  depthWrite: false, blending: THREE.NormalBlending, sizeAttenuation: true,
 });
-
 const smoke = new THREE.Points(smokeGeo, smokeMat);
 scene.add(smoke);
 
-// ═══ GLOW SPRITE ═════════════════════════════════════════════════
-function createGlowTexture() {
-  const c = document.createElement('canvas');
-  c.width = 256; c.height = 256;
-  const ctx = c.getContext('2d');
-  const grad = ctx.createRadialGradient(128, 128, 0, 128, 128, 128);
-  grad.addColorStop(0, 'rgba(255,100,40,0.35)');
-  grad.addColorStop(0.15, 'rgba(255,70,20,0.2)');
-  grad.addColorStop(0.4, 'rgba(255,50,0,0.08)');
-  grad.addColorStop(1, 'rgba(255,40,0,0)');
-  ctx.fillStyle = grad;
-  ctx.fillRect(0, 0, 256, 256);
+// ═══ GLOW ═══════════════════════════════════════════════════════
+function createGlowTex() {
+  const c=document.createElement('canvas'); c.width=256; c.height=256;
+  const ctx=c.getContext('2d');
+  const g=ctx.createRadialGradient(128,128,0,128,128,128);
+  g.addColorStop(0,'rgba(255,100,40,0.3)');
+  g.addColorStop(0.15,'rgba(255,70,20,0.18)');
+  g.addColorStop(0.4,'rgba(255,50,0,0.06)');
+  g.addColorStop(1,'rgba(255,40,0,0)');
+  ctx.fillStyle=g; ctx.fillRect(0,0,256,256);
   return new THREE.CanvasTexture(c);
 }
-
-const glowMat = new THREE.SpriteMaterial({
-  map: createGlowTexture(),
-  transparent: true,
-  blending: THREE.AdditiveBlending,
-  depthWrite: false,
-});
-const glow = new THREE.Sprite(glowMat);
-glow.scale.set(2.5, 2.5, 1);
-glow.position.set(-cigarLength / 2 - 0.2, 0, 0);
+const glow = new THREE.Sprite(new THREE.SpriteMaterial({
+  map: createGlowTex(), transparent: true,
+  blending: THREE.AdditiveBlending, depthWrite: false,
+}));
+glow.scale.set(3,3,1); glow.position.set(-L/2-0.25,0,0);
 scene.add(glow);
 
-// ═══ GROUP & INTERACTION ════════════════════════════════════════
+// ═══ CONTACT SHADOW — fake AO blob under cigar ══════════════════
+function createShadowTex() {
+  const c=document.createElement('canvas'); c.width=256; c.height=256;
+  const ctx=c.getContext('2d');
+  const g=ctx.createRadialGradient(128,128,0,128,128,128);
+  g.addColorStop(0,'rgba(0,0,0,0.4)');
+  g.addColorStop(0.5,'rgba(0,0,0,0.15)');
+  g.addColorStop(1,'rgba(0,0,0,0)');
+  ctx.fillStyle=g; ctx.fillRect(0,0,256,256);
+  return new THREE.CanvasTexture(c);
+}
+const shadow = new THREE.Mesh(
+  new THREE.PlaneGeometry(4, 2),
+  new THREE.MeshBasicMaterial({ map: createShadowTex(), transparent: true, depthWrite: false })
+);
+shadow.rotation.x = -Math.PI/2;
+shadow.position.y = -R - 0.3;
+scene.add(shadow);
+
+// ═══ GROUP ══════════════════════════════════════════════════════
 const group = new THREE.Group();
-group.add(cigar); group.add(band); group.add(foot);
-group.add(ember); group.add(ash); group.add(glow);
-scene.remove(cigar, band, foot, ember, ash, glow);
+group.add(cigar); group.add(fillerGroup); group.add(band);
+group.add(foot); group.add(ember); group.add(ash); group.add(ashCol);
+group.add(glow); group.add(shadow);
+scene.remove(cigar, fillerGroup, band, foot, ember, ash, ashCol, glow, shadow);
 scene.add(group);
 
-let targetRotY = 0, targetRotX = 0.12;
-let rotY = 0, rotX = 0;
-let isDragging = false, lastX = 0, lastY = 0;
-
-renderer.domElement.style.cursor = 'grab';
-renderer.domElement.addEventListener('pointerdown', (e) => {
-  isDragging = true; lastX = e.clientX; lastY = e.clientY;
-  renderer.domElement.style.cursor = 'grabbing';
+// ═══ INTERACTION ════════════════════════════════════════════════
+let tRotY=0, tRotX=0.1, rotY=0, rotX=0;
+let drag=false, lx=0, ly=0;
+renderer.domElement.style.cursor='grab';
+renderer.domElement.addEventListener('pointerdown',e=>{drag=true;lx=e.clientX;ly=e.clientY;renderer.domElement.style.cursor='grabbing'});
+addEventListener('pointerup',()=>{drag=false;renderer.domElement.style.cursor='grab'});
+addEventListener('pointermove',e=>{
+  if(!drag){tRotY=(e.clientX/innerWidth-0.5)*0.4;tRotX=0.1+(e.clientY/innerHeight-0.5)*0.2;return;}
+  tRotY+=(e.clientX-lx)*0.008; tRotX+=(e.clientY-ly)*0.008;
+  tRotX=Math.max(-0.9,Math.min(0.9,tRotX)); lx=e.clientX; ly=e.clientY;
 });
-window.addEventListener('pointerup', () => {
-  isDragging = false; renderer.domElement.style.cursor = 'grab';
-});
-window.addEventListener('pointermove', (e) => {
-  if (!isDragging) {
-    targetRotY = (e.clientX / window.innerWidth - 0.5) * 0.4;
-    targetRotX = 0.12 + (e.clientY / window.innerHeight - 0.5) * 0.25;
-    return;
-  }
-  targetRotY += (e.clientX - lastX) * 0.008;
-  targetRotX += (e.clientY - lastY) * 0.008;
-  targetRotX = Math.max(-0.9, Math.min(0.9, targetRotX));
-  lastX = e.clientX; lastY = e.clientY;
-});
-
-window.addEventListener('resize', () => {
-  camera.aspect = window.innerWidth / window.innerHeight;
-  camera.updateProjectionMatrix();
-  renderer.setSize(window.innerWidth, window.innerHeight);
-});
+addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});
 
 // ═══ ANIMATE ═══════════════════════════════════════════════════
-let time = 0;
-function animate() {
+let t=0;
+function animate(){
   requestAnimationFrame(animate);
-  time += 0.016;
+  t+=0.016;
+  if(!drag) tRotY+=0.002;
+  rotY+=(tRotY-rotY)*0.06; rotX+=(tRotX-rotX)*0.06;
+  group.rotation.y=rotY; group.rotation.x=rotX;
+  group.position.y=Math.sin(t*0.6)*0.035;
 
-  if (!isDragging) targetRotY += 0.0025;
-  rotY += (targetRotY - rotY) * 0.06;
-  rotX += (targetRotX - rotX) * 0.06;
-  group.rotation.y = rotY;
-  group.rotation.x = rotX;
-  group.position.y = Math.sin(time * 0.6) * 0.04;
+  const p=Math.sin(t*2.2);
+  footMat.emissiveIntensity=4+p*1.5;
+  emberMat.opacity=0.75+p*0.2;
+  emberLight.intensity=4.5+p*2;
+  glow.material.opacity=0.7+p*0.2;
 
-  const pulse = Math.sin(time * 2.5);
-  footMat.emissiveIntensity = 3.5 + pulse * 1.2;
-  emberMat.opacity = 0.7 + pulse * 0.25;
-  emberLight.intensity = 3.5 + pulse * 1.5;
-  glowMat.opacity = 0.75 + pulse * 0.2;
-
-  // Smoke
-  const positions = smokeGeo.attributes.position.array;
-  const cosY = Math.cos(rotY), sinY = Math.sin(rotY);
-  const cosX = Math.cos(rotX), sinX = Math.sin(rotX);
-  for (let i = 0; i < smokeCount; i++) {
-    const d = smokeData[i];
-    d.life += 0.016;
-    if (d.life > d.maxLife) {
-      d.life = 0;
-      d.x = -cigarLength / 2 - 0.03 + (Math.random() - 0.5) * 0.06;
-      d.y = (Math.random() - 0.5) * 0.06;
-      d.z = (Math.random() - 0.5) * 0.06;
-      d.vx = -0.002 - Math.random() * 0.006;
-      d.vy = 0.005 + Math.random() * 0.01;
-      d.vz = (Math.random() - 0.5) * 0.003;
+  const positions=smokeGeo.attributes.position.array;
+  const cy=Math.cos(rotY), sy=Math.sin(rotY);
+  const cx=Math.cos(rotX), sx=Math.sin(rotX);
+  for(let i=0;i<smokeCount;i++){
+    const d=smokeData[i]; d.life+=0.016;
+    if(d.life>d.maxLife){
+      d.life=0; d.x=-L/2-0.02+(Math.random()-0.5)*0.04;
+      d.y=(Math.random()-0.5)*0.04; d.z=(Math.random()-0.5)*0.04;
+      d.vx=-0.002-Math.random()*0.005; d.vy=0.004+Math.random()*0.009; d.vz=(Math.random()-0.5)*0.003;
     }
-    d.x += d.vx; d.y += d.vy; d.z += d.vz;
-    d.vy *= 0.99; d.vx *= 0.98; d.vz *= 0.99;
-    d.vx += (Math.random() - 0.5) * 0.0006;
-    d.vz += (Math.random() - 0.5) * 0.0006;
-    const rx = d.x * cosY + d.z * sinY;
-    const rz = -d.x * sinY + d.z * cosY;
-    const ry = d.y * cosX - rz * sinX;
-    const finalZ = d.y * sinX + rz * cosX;
-    positions[i * 3] = rx;
-    positions[i * 3 + 1] = ry + Math.sin(time * 0.4 + i * 0.3) * 0.004;
-    positions[i * 3 + 2] = finalZ;
+    d.x+=d.vx; d.y+=d.vy; d.z+=d.vz;
+    d.vy*=0.99; d.vx*=0.98; d.vz*=0.99;
+    d.vx+=(Math.random()-0.5)*0.0005; d.vz+=(Math.random()-0.5)*0.0005;
+    const rx=d.x*cy+d.z*sy, rz=-d.x*sy+d.z*cy;
+    const ry=d.y*cx-rz*sx, fz=d.y*sx+rz*cx;
+    positions[i*3]=rx; positions[i*3+1]=ry+Math.sin(t*0.3+i*0.2)*0.003; positions[i*3+2]=fz;
   }
-  smokeGeo.attributes.position.needsUpdate = true;
-
-  renderer.render(scene, camera);
+  smokeGeo.attributes.position.needsUpdate=true;
+  renderer.render(scene,camera);
 }
 animate();
 </script>
