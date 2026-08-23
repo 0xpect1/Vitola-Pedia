@@ -1,0 +1,228 @@
+{
+  "timestamp": "2026-08-23T01:52:11.552Z",
+  "existing_count": 1496,
+  "batch_files_loaded": [
+    "batch_intl_known.json",
+    "batch_review_cigars.json"
+  ],
+  "batch_entry_counts": {
+    "batch_intl_known.json": 4,
+    "batch_review_cigars.json": 68
+  },
+  "total_batch_entries": 72,
+  "valid_new": 30,
+  "rejected": 42,
+  "rejected_samples": [
+    {
+      "source": "batch_intl_known.json",
+      "id": "cohiba-siglo-i",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_intl_known.json",
+      "id": "cohiba-siglo-ii",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_intl_known.json",
+      "id": "cohiba-siglo-iii",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_intl_known.json",
+      "id": "cohiba-siglo-iv",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "padron-serie-1926-no-6",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "partagas-linea-maestra-maestro",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "rocky-patel-conviction-toro",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "cohiba-maduro-5-magicos",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "brick-house-churchill",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "la-aroma-de-cuba-pasion-box-pressed-torpedo",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "aksum-claro-robusto",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "viva-la-vida-jester",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "casa-magna-colorado-xv-anniversary-6x54",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "perdomo-30th-anniversary-sun-grown-epicure",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "plasencia-cosecha-151-la-musica",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "601-la-bomba-warhead-x",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "herrera-esteli-norteno-lonsdale",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "cohiba-riviera-robusto",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "oneoff-black-and-tan-robusto",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "warped-corto-x52",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "ferio-tego-summa-corona-gorda",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "craft-maquette-la-maestranza",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "quesada-50th-anniversary-toro-prensado",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "sin-compromiso-seleccion-no-4",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "plasencia-alma-fuerte-colorado-claro-robustus-ii",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "avo-expressions-limited-edition-2024",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "fuente-y-padron-legends",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "maestranza-ciutadella-catalonia",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "leroy-neiman-2023-collectors-edition",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "las-calaveras-edicion-limitada-2024-lc52",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "davidoff-grand-cru-diademas-finas-limited-edition",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "aj-fernandez-20th-anniversary-toro",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "adventura-blue-eyed-jacks-revenge-robusto",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "davidoff-winston-churchill-late-hour-petit-panetela",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "dias-de-gloria-brazil-toro",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "warfighter-night-shift",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "powstanie-connecticut-corona-gorda-justice",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "knuckle-sandwich-56",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "padron-black-pb-97-maduro",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "buenaventura-favoritos-56-natural",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "la-llorona",
+      "reason": "duplicate id"
+    },
+    {
+      "source": "batch_review_cigars.json",
+      "id": "viaje-skull-and-bones-tsar-bomba-camo-blue",
+      "reason": "duplicate id"
+    }
+  ],
+  "final_count": 1526
+}

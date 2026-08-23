@@ -28,7 +28,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2010,
     "limited": true,
@@ -74,7 +76,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2002,
     "limited": false,
@@ -122,7 +126,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1935,
     "limited": false,
@@ -168,7 +174,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1845,
     "limited": false,
@@ -215,7 +223,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)"
+      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1875,
     "limited": false,
@@ -261,7 +271,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1902,
     "limited": false,
@@ -308,7 +320,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Light Roast Coffee (blonde roast, black)",
-      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)"
+      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1844,
     "limited": false,
@@ -354,7 +368,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Jasmine Pearls Tea (silver-tipped, lightly sweetened)"
+      "Jasmine Pearls Tea (silver-tipped, lightly sweetened)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1969,
     "limited": false,
@@ -401,7 +417,9 @@ const CIGARS = [
     "pairings": [
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1964,
     "limited": false,
@@ -463,7 +481,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2006,
     "limited": true,
@@ -525,7 +545,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1886,
     "limited": false,
@@ -586,7 +608,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1980,
     "limited": false,
@@ -648,7 +672,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -710,7 +736,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Coffee with Milk (medium roast, steamed whole milk)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1992,
     "limited": false,
@@ -771,7 +799,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -833,7 +863,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -890,7 +922,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -947,7 +981,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -1014,7 +1050,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -1076,7 +1114,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1995,
     "limited": true,
@@ -1138,7 +1178,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1982,
     "limited": false,
@@ -1199,7 +1241,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Ginger Ale (Bundaberg naturally brewed, no HFCS)"
+      "Ginger Ale (Bundaberg naturally brewed, no HFCS)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1868,
     "limited": false,
@@ -1261,7 +1305,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "Americano (double shot espresso, hot water)"
+      "Americano (double shot espresso, hot water)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -1318,7 +1364,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2001,
     "limited": false,
@@ -1374,7 +1422,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Soda Water (SodaStream plain, lime wedge)"
+      "Soda Water (SodaStream plain, lime wedge)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1875,
     "limited": false,
@@ -1430,7 +1480,9 @@ const CIGARS = [
     "pairings": [
       "Japanese Blended Whisky (Hibiki Harmony, Nikka From the Barrel)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)"
+      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1988,
     "limited": false,
@@ -1493,7 +1545,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1962,
     "limited": false,
@@ -1553,7 +1607,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -1614,7 +1670,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Iced Coffee (cold brew over ice, light cream)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Highland Single Malt (Dalmore 12, Oban 14)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -1674,7 +1732,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Sparkling Mineral Water (San Pellegrino, room temperature)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2005,
     "limited": false,
@@ -1735,7 +1795,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barrel-Aged Stout (Goose Island Bourbon County, Founders Breakfast Stout)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -1797,7 +1859,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Cuban Coffee (cafecito, demerara sugar)"
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -1854,7 +1918,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2002,
     "limited": true,
@@ -1917,7 +1983,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2019,
     "limited": false,
@@ -1977,7 +2045,9 @@ const CIGARS = [
     "pairings": [
       "Tennessee Sour Mash Whiskey (Jack Daniel's Single Barrel, George Dickel Barrel Select)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -2039,7 +2109,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
-      "Crème Brûlée (vanilla bean custard, caramelized sugar crust)"
+      "Crème Brûlée (vanilla bean custard, caramelized sugar crust)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2009,
     "limited": false,
@@ -2101,7 +2173,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 2017,
     "limited": false,
@@ -2156,7 +2230,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -2217,7 +2293,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Old Fashioned (bourbon, Angostura bitters, orange peel)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2002,
     "limited": false,
@@ -2279,7 +2357,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1996,
     "limited": true,
@@ -2340,7 +2420,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1956,
     "limited": false,
@@ -2401,7 +2483,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1964,
     "limited": false,
@@ -2462,7 +2546,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1886,
     "limited": false,
@@ -2524,7 +2610,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -2586,7 +2674,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "French Butter Croissant (all-butter, flaky, warm)"
+      "French Butter Croissant (all-butter, flaky, warm)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -2647,7 +2737,9 @@ const CIGARS = [
     "pairings": [
       "Sencha Green Tea (first flush, 170°F, no sugar)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1834,
     "limited": false,
@@ -2692,7 +2784,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Dark Fruit Cocktail (muddled berries, aged rum, lime)"
+      "Dark Fruit Cocktail (muddled berries, aged rum, lime)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -2752,7 +2846,9 @@ const CIGARS = [
     "pairings": [
       "Rum Old Fashioned (aged rum, demerara sugar, orange bitters)",
       "Herbal Infusion (chamomile-mint blend, no caffeine)",
-      "Dark Fruit Cocktail (muddled berries, aged rum, lime)"
+      "Dark Fruit Cocktail (muddled berries, aged rum, lime)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -2812,7 +2908,9 @@ const CIGARS = [
     "pairings": [
       "Vanilla Latte (whole milk, vanilla bean, espresso)",
       "Late Harvest Riesling (Inniskillin Icewine, Château Ste. Michelle Eroica)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -2874,7 +2972,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1994,
     "limited": false,
@@ -2935,7 +3035,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -2981,7 +3083,9 @@ const CIGARS = [
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1865,
     "limited": false,
@@ -3027,7 +3131,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1926,
     "limited": false,
@@ -3069,7 +3175,9 @@ const CIGARS = [
     "pairings": [
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2005,
     "limited": true,
@@ -3126,7 +3234,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2000,
     "limited": true,
@@ -3186,7 +3296,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Light Wheated Bourbon (Maker's Mark, Larceny)",
-      "Czech Pilsner (Pilsner Urquell, Bitburger)"
+      "Czech Pilsner (Pilsner Urquell, Bitburger)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1978,
     "limited": false,
@@ -3247,7 +3359,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1975,
     "limited": false,
@@ -3309,7 +3423,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Light Wheated Bourbon (Maker's Mark, Larceny)"
+      "Light Wheated Bourbon (Maker's Mark, Larceny)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2009,
     "limited": false,
@@ -3365,7 +3481,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -3426,7 +3544,9 @@ const CIGARS = [
     "pairings": [
       "Southern Sweet Tea (black tea, demerara sugar, lemon)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Rum Old Fashioned (aged rum, demerara sugar, orange bitters)"
+      "Rum Old Fashioned (aged rum, demerara sugar, orange bitters)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1980,
     "limited": false,
@@ -3474,7 +3594,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2005,
     "limited": false,
@@ -3535,7 +3657,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2005,
     "limited": false,
@@ -3591,7 +3715,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -3653,7 +3779,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1982,
     "limited": false,
@@ -3699,7 +3827,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -3746,7 +3876,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "White Burgundy (Puligny-Montrachet, Chablis Premier Cru)",
-      "Americano (double shot espresso, hot water)"
+      "Americano (double shot espresso, hot water)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1973,
     "limited": false,
@@ -3786,7 +3918,9 @@ const CIGARS = [
     "pairings": [
       "Morning Coffee (light-medium roast, black)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1912,
     "limited": false,
@@ -3846,7 +3980,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1994,
     "limited": false,
@@ -3907,7 +4043,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 1989,
     "limited": false,
@@ -3967,7 +4105,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)"
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -4028,7 +4168,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -4090,7 +4232,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -4152,7 +4296,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -4214,7 +4360,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -4276,7 +4424,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -4338,7 +4488,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -4395,7 +4547,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2010,
     "limited": false,
@@ -4457,7 +4611,9 @@ const CIGARS = [
     "pairings": [
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -4520,7 +4676,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -4581,7 +4739,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Light Wheated Bourbon (Maker's Mark, Larceny)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -4643,7 +4803,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1886,
     "limited": false,
@@ -4704,7 +4866,9 @@ const CIGARS = [
     "pairings": [
       "Morning Coffee (light-medium roast, black)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1886,
     "limited": false,
@@ -4766,7 +4930,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2011,
     "limited": true,
@@ -4828,7 +4994,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2009,
     "limited": false,
@@ -4890,7 +5058,9 @@ const CIGARS = [
     "pairings": [
       "Dark Roast Coffee (French roast, no sugar)",
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -4951,7 +5121,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -5007,7 +5179,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2008,
     "limited": false
@@ -5041,7 +5215,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -5101,7 +5277,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Dark Fruit Cocktail (muddled berries, aged rum, lime)"
+      "Dark Fruit Cocktail (muddled berries, aged rum, lime)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -5163,7 +5341,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "Cream Ale (Genesee Cream Ale, Sixpoint Sweet Action)",
-      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)"
+      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2015,
     "limited": false
@@ -5197,7 +5377,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Coffee Liqueur (Kahlúa, Mr. Black Cold Brew)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -5257,12 +5439,11 @@ const CIGARS = [
     "popularity": 5,
     "description": "The Single Roast is the gentler counterpart to the Double Roast — filler tobacco aged in lightly roasted coffee bean barrels for a softer, more delicate coffee character. The Ecuadorian Connecticut wrapper keeps the body mild and creamy, while the single-roast coffee influence adds a light breakfast-coffee sweetness rather than espresso intensity. In the classic 4×60 Nub format, it's a perfect morning smoke.",
     "pairings": [
-      "Triple-Distilled Irish Whiskey (Jameson Black Barrel, Redbreast 12)",
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
       "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)",
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
       "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -5323,7 +5504,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2010,
     "limited": false,
@@ -5385,7 +5568,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1985,
     "limited": false,
@@ -5446,8 +5631,10 @@ const CIGARS = [
     "description": "The Ashton Churchill gives the Classic blend its longest runway — a 90-minute leisurely exploration of Dominican creaminess and Ecuadorian Connecticut elegance. As it progresses through the first, second, and third thirds, notes of honey, vanilla, and mild spice emerge in sequence. The perfect after-dinner mild smoke.",
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1985,
     "limited": false,
@@ -5509,7 +5696,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 1988,
     "limited": false,
@@ -5571,7 +5760,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2001,
     "limited": false,
@@ -5633,7 +5824,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2001,
     "limited": false,
@@ -5695,7 +5888,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -5757,7 +5952,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -5819,7 +6016,9 @@ const CIGARS = [
     "pairings": [
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1998,
     "limited": false,
@@ -5881,7 +6080,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2013,
     "limited": true,
@@ -5938,7 +6139,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
-      "Americano (double shot espresso, hot water)"
+      "Americano (double shot espresso, hot water)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1990,
     "limited": false,
@@ -5994,7 +6197,9 @@ const CIGARS = [
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1990,
     "limited": false,
@@ -6050,7 +6255,9 @@ const CIGARS = [
     "pairings": [
       "Morning Coffee (light-medium roast, black)",
       "English Breakfast Tea (Assam + Ceylon, splash of milk)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1990,
     "limited": false,
@@ -6105,7 +6312,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Sparkling Mineral Water (San Pellegrino, room temperature)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1990,
     "limited": false,
@@ -6162,7 +6371,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Americano (double shot espresso, hot water)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -6224,7 +6435,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Coffee with Milk (medium roast, steamed whole milk)"
+      "Coffee with Milk (medium roast, steamed whole milk)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1998,
     "limited": false
@@ -6258,7 +6471,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)"
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1998,
     "limited": false,
@@ -6320,7 +6535,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -6377,7 +6594,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Sauternes (Château d'Yquem, Suduiraut)",
-      "Americano (double shot espresso, hot water)"
+      "Americano (double shot espresso, hot water)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2014,
     "limited": true
@@ -6411,7 +6630,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 1993,
     "limited": true
@@ -6444,7 +6665,9 @@ const CIGARS = [
     "pairings": [
       "Morning Coffee (light-medium roast, black)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "White Peony Tea (Bai Mu Dan, 180°F, no sugar)"
+      "White Peony Tea (Bai Mu Dan, 180°F, no sugar)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1990,
     "limited": false,
@@ -6507,7 +6730,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)",
-      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2010,
     "limited": true,
@@ -6564,7 +6789,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1995,
     "limited": false
@@ -6598,7 +6825,9 @@ const CIGARS = [
     "pairings": [
       "Cuban Coffee (cafecito, demerara sugar)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)"
+      "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -6659,7 +6888,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2010,
     "limited": false,
@@ -6721,7 +6952,9 @@ const CIGARS = [
     "pairings": [
       "Maryland-Style Rye (Pikesville, Sagamore Spirit)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -6783,7 +7016,9 @@ const CIGARS = [
     "pairings": [
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -6845,7 +7080,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -6912,7 +7149,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -6979,7 +7218,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -7042,7 +7283,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2010,
     "limited": false,
@@ -7103,7 +7346,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Espresso (medium-dark roast, no sugar)",
-      "Dry Irish Stout (Guinness Draught, O'Hara's Leann Folláin)"
+      "Dry Irish Stout (Guinness Draught, O'Hara's Leann Folláin)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2004,
     "limited": false,
@@ -7165,7 +7410,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -7227,7 +7474,9 @@ const CIGARS = [
     "pairings": [
       "Grappa di Barolo (Nonino Riserva, Poli Sarpa)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Balsamic (25-year Modena, syrupy, on Parmigiano)"
+      "Aged Balsamic (25-year Modena, syrupy, on Parmigiano)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2002,
     "limited": false,
@@ -7289,7 +7538,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Mexican Coke (real cane sugar, glass bottle)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -7351,7 +7602,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)"
+      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1992,
     "limited": false,
@@ -7412,7 +7665,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Coffee with Milk (medium roast, steamed whole milk)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -7474,7 +7729,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)"
+      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2018,
     "limited": false,
@@ -7536,7 +7793,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1875,
     "limited": false,
@@ -7593,7 +7852,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1992,
     "limited": false,
@@ -7660,7 +7921,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2020,
     "limited": false,
@@ -7727,7 +7990,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Gouda (5 year, crystalline)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -7789,7 +8054,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Dried Fruit (Turkish apricots, Medjool dates, Mission figs)"
+      "Dried Fruit (Turkish apricots, Medjool dates, Mission figs)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -7851,7 +8118,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -7913,7 +8182,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2016,
     "limited": true,
@@ -7975,7 +8246,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -8037,7 +8310,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -8099,7 +8374,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Dried Fruit (Turkish apricots, Medjool dates, Mission figs)"
+      "Dried Fruit (Turkish apricots, Medjool dates, Mission figs)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2018,
     "limited": false,
@@ -8161,7 +8438,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -8222,8 +8501,10 @@ const CIGARS = [
     "description": "Mi Amor ('My Love') is García's most passionate blend for the La Aroma de Cuba brand — a dark Mexican San Andrés wrapper over aged Nicaraguan filler. Full of bold dark chocolate, deep earth, and lingering sweet spice, it's an intensely romantic cigar in the best sense: demanding full attention and full commitment.",
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Morning Coffee (light-medium roast, black)"
+      "Morning Coffee (light-medium roast, black)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -8285,7 +8566,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -8347,7 +8630,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Ruby Port (Graham's Six Grapes, Dow's Fine Ruby)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -8409,7 +8694,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2010,
     "limited": false,
@@ -8471,7 +8758,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)"
+      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -8533,7 +8822,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Morning Coffee (light-medium roast, black)"
+      "Morning Coffee (light-medium roast, black)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -8595,7 +8886,9 @@ const CIGARS = [
     "pairings": [
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 2005,
     "limited": false,
@@ -8657,7 +8950,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -8719,7 +9014,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2009,
     "limited": false,
@@ -8776,7 +9073,9 @@ const CIGARS = [
     "pairings": [
       "Pinot Noir (Domaine Drouhin, La Crema Russian River Valley)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -8833,7 +9132,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -8889,7 +9190,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2013,
     "limited": false
@@ -8923,7 +9226,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -8985,7 +9290,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -9047,7 +9354,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -9109,7 +9418,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -9166,7 +9477,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2005,
     "limited": false,
@@ -9228,7 +9541,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 2009,
     "limited": false,
@@ -9290,7 +9605,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -9352,7 +9669,9 @@ const CIGARS = [
     "pairings": [
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2019,
     "limited": false,
@@ -9409,7 +9728,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -9471,7 +9792,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -9533,7 +9856,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -9595,7 +9920,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)"
+      "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -9653,7 +9980,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -9714,7 +10043,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -9776,7 +10107,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2023,
     "limited": false,
@@ -9838,7 +10171,9 @@ const CIGARS = [
     "pairings": [
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2021,
     "limited": false,
@@ -9900,7 +10235,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Coffee with Milk (medium roast, steamed whole milk)",
-      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)"
+      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1974,
     "limited": false,
@@ -9957,7 +10294,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -10019,7 +10358,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -10081,7 +10422,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Crème Brûlée (vanilla bean custard, caramelized sugar crust)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -10143,7 +10486,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2017,
     "limited": false,
@@ -10195,7 +10540,9 @@ const CIGARS = [
     "pairings": [
       "Morning Coffee (light-medium roast, black)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2017,
     "limited": false,
@@ -10258,7 +10605,8 @@ const CIGARS = [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)"
+      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2023,
     "limited": false,
@@ -10321,7 +10669,8 @@ const CIGARS = [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -10384,7 +10733,8 @@ const CIGARS = [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -10447,7 +10797,8 @@ const CIGARS = [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2017,
     "limited": false,
@@ -10510,7 +10861,8 @@ const CIGARS = [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "XO Cognac (Rémy Martin XO, Hennessy XO)"
+      "XO Cognac (Rémy Martin XO, Hennessy XO)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2018,
     "limited": false,
@@ -10573,7 +10925,8 @@ const CIGARS = [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)",
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
-      "Coffee with Milk (medium roast, steamed whole milk)"
+      "Coffee with Milk (medium roast, steamed whole milk)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2022,
     "limited": false,
@@ -10633,10 +10986,11 @@ const CIGARS = [
     "popularity": 6,
     "description": "StillWell Star English No. 27 is the most unique cigar in Dunbarton's portfolio — a 'Latakia-lover's puro' that blends Cypriot Latakia pipe tobacco (the distinctive Syrian/Cypriot leaf smoked over fragrant wood that defines English-style pipe tobacco) with Burley, Turkish leaf, and Nicaraguan long-filler. The result has an unmistakable campfire and leather smokiness that pipe tobacco aficionados recognize immediately. For cigar smokers, it's an entirely new flavor category — complex, savory, and unforgettable.",
     "pairings": [
-      "Peated Highland Single Malt (Oban 14, Talisker 10)",
       "Coastal Islay Single Malt (Caol Ila 12, Bowmore 15)",
       "Artisanal Mezcal (Del Maguey Vida, Sombra Mezcal)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2022,
     "limited": false,
@@ -10699,7 +11053,8 @@ const CIGARS = [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
       "Espresso (medium-dark roast, no sugar)",
-      "Wheated Bourbon (Maker's Mark, Larceny)"
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2017,
     "limited": true,
@@ -10762,7 +11117,8 @@ const CIGARS = [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Double Espresso (dark roast, no sugar)"
     ],
     "yearFounded": 2019,
     "limited": false,
@@ -10823,7 +11179,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Rum Old Fashioned (aged rum, demerara sugar, orange bitters)"
+      "Rum Old Fashioned (aged rum, demerara sugar, orange bitters)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -10874,7 +11232,9 @@ const CIGARS = [
     "pairings": [
       "Southern Sweet Tea (black tea, demerara sugar, lemon)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Ginger Ale (Bundaberg naturally brewed, no HFCS)"
+      "Ginger Ale (Bundaberg naturally brewed, no HFCS)",
+      "Flat White (whole milk, medium roast)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -10924,7 +11284,9 @@ const CIGARS = [
     "pairings": [
       "Vanilla Latte (whole milk, vanilla bean, espresso)",
       "Late Harvest Riesling (Inniskillin Icewine, Château Ste. Michelle Eroica)",
-      "Rum Old Fashioned (aged rum, demerara sugar, orange bitters)"
+      "Rum Old Fashioned (aged rum, demerara sugar, orange bitters)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -10977,7 +11339,8 @@ const CIGARS = [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -11040,7 +11403,8 @@ const CIGARS = [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Gouda (5 year, crystalline)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -11101,9 +11465,10 @@ const CIGARS = [
     "description": "The San Lotano Oval is one of the rare box-pressed cigars using a Jalapa-grown Nicaraguan wrapper — a combination that produces a notably creamy, slightly floral smoke. The oval pressing creates a slightly different draw and burn characteristic than a round vitola. Medium-bodied with beautiful construction and accessible complexity.",
     "pairings": [
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -11164,7 +11529,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -11227,7 +11594,8 @@ const CIGARS = [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)"
+      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2016,
     "limited": false
@@ -11262,7 +11630,8 @@ const CIGARS = [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "XO Cognac (Rémy Martin XO, Hennessy XO)"
+      "XO Cognac (Rémy Martin XO, Hennessy XO)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -11325,7 +11694,8 @@ const CIGARS = [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2005,
     "limited": false,
@@ -11388,7 +11758,8 @@ const CIGARS = [
       "Black Coffee (medium roast, no sugar, no milk)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1994,
     "limited": false,
@@ -11446,7 +11817,8 @@ const CIGARS = [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2018,
     "limited": false,
@@ -11503,8 +11875,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Chamomile Tea (Egyptian loose-leaf, no sugar)",
-      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)"
+      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2019,
     "limited": true,
@@ -11567,7 +11940,8 @@ const CIGARS = [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -11630,7 +12004,8 @@ const CIGARS = [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)"
+      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)",
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -11693,7 +12068,8 @@ const CIGARS = [
       "Highland Single Malt (Dalmore 15, Oban 14)",
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Espresso (medium-dark roast, no sugar)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2017,
     "limited": false,
@@ -11756,7 +12132,8 @@ const CIGARS = [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+      "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -11820,7 +12197,8 @@ const CIGARS = [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -11877,7 +12255,8 @@ const CIGARS = [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Espresso (medium-dark roast, no sugar)",
-      "Czech Pilsner (Pilsner Urquell, Bitburger)"
+      "Czech Pilsner (Pilsner Urquell, Bitburger)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -11940,7 +12319,8 @@ const CIGARS = [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Vintage Port (Fonseca Vintage, Graham's Crusted)"
+      "Vintage Port (Fonseca Vintage, Graham's Crusted)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -12003,7 +12383,8 @@ const CIGARS = [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -12066,7 +12447,8 @@ const CIGARS = [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Czech Pilsner (Pilsner Urquell, Bitburger)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -12129,7 +12511,8 @@ const CIGARS = [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Dry Irish Stout (Guinness Draught, O'Hara's Leann Folláin)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2010,
     "limited": false,
@@ -12192,7 +12575,8 @@ const CIGARS = [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1888,
     "limited": false,
@@ -12255,7 +12639,8 @@ const CIGARS = [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1888,
     "limited": false,
@@ -12313,7 +12698,8 @@ const CIGARS = [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -12366,7 +12752,8 @@ const CIGARS = [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
       "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -12424,7 +12811,8 @@ const CIGARS = [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)"
+      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -12487,7 +12875,8 @@ const CIGARS = [
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)"
+      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)",
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -12550,7 +12939,8 @@ const CIGARS = [
       "Grand Marnier Cordon Rouge (Cognac-laced orange liqueur)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -12613,7 +13003,8 @@ const CIGARS = [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Czech Pilsner (Pilsner Urquell, Bitburger)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -12677,7 +13068,8 @@ const CIGARS = [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Cuban Coffee (cafecito, demerara sugar)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -12725,7 +13117,8 @@ const CIGARS = [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Double Espresso (dark roast, no sugar)",
-      "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+      "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1997,
     "limited": false,
@@ -12773,7 +13166,8 @@ const CIGARS = [
       "Espresso (medium-dark roast, no sugar)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1882,
     "limited": false,
@@ -12821,7 +13215,8 @@ const CIGARS = [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 1848,
     "limited": false,
@@ -12868,7 +13263,8 @@ const CIGARS = [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 1848,
     "limited": false,
@@ -12916,7 +13312,8 @@ const CIGARS = [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Czech Pilsner (Pilsner Urquell, Bitburger)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -12962,7 +13359,8 @@ const CIGARS = [
       "Sparkling Mineral Water (San Pellegrino, lime wedge)",
       "Czech Pilsner (Pilsner Urquell, Bitburger)",
       "Southern Sweet Tea (black tea, demerara sugar, lemon)",
-      "Energy Drink (Red Bull Sugarfree)"
+      "Energy Drink (Red Bull Sugarfree)",
+      "Cold Brew (smooth, low acidity)"
     ],
     "yearFounded": 1958,
     "limited": false,
@@ -13021,10 +13419,11 @@ const CIGARS = [
     "popularity": 9,
     "description": "Black & Mild Wine is one of the most popular flavored cigarillos in America — a pipe tobacco-filled cigarillo with a wine-flavored tip that delivers a distinctly sweet, grape-wine aroma and flavor. Made by Middleton & Co. (now Altria), it occupies a unique space between traditional cigars and pipe smoking. The wine flavor is unmistakable and has made this one of the defining products of the flavored cigarillo category.",
     "pairings": [
-      "Pinot Noir (Domaine Drouhin, La Crema Russian River Valley)",
       "Concord Grape Juice (Welch's 100%, chilled)",
       "Sparkling Mineral Water (San Pellegrino, lime wedge)",
-      "Dark Fruit Cocktail (muddled berries, aged rum, lime)"
+      "Dark Fruit Cocktail (muddled berries, aged rum, lime)",
+      "Cold Brew (smooth, low acidity)",
+      "Dark Chocolate (70% cacao, balanced sweetness)"
     ],
     "yearFounded": 1982,
     "limited": false,
@@ -13081,7 +13480,8 @@ const CIGARS = [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Czech Pilsner (Pilsner Urquell, Bitburger)",
       "Sparkling Mineral Water (San Pellegrino, lime wedge)",
-      "Jasmine Pearls Tea (silver-tipped, lightly sweetened)"
+      "Jasmine Pearls Tea (silver-tipped, lightly sweetened)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1911,
     "limited": false,
@@ -13138,7 +13538,8 @@ const CIGARS = [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Czech Pilsner (Pilsner Urquell, Bitburger)",
       "Iced Black Tea (unsweetened, lemon wedge)",
-      "Sparkling Mineral Water (San Pellegrino, lime wedge)"
+      "Sparkling Mineral Water (San Pellegrino, lime wedge)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1882,
     "limited": false,
@@ -13201,7 +13602,8 @@ const CIGARS = [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -13264,7 +13666,8 @@ const CIGARS = [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "Espresso (medium-dark roast, no sugar)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1930,
     "limited": false,
@@ -13328,7 +13731,8 @@ const CIGARS = [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Espresso (medium-dark roast, no sugar)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1964,
     "limited": false,
@@ -13390,7 +13794,8 @@ const CIGARS = [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Espresso (medium-dark roast, no sugar)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1964,
     "limited": false,
@@ -13454,7 +13859,8 @@ const CIGARS = [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1964,
     "limited": false,
@@ -13518,7 +13924,8 @@ const CIGARS = [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1964,
     "limited": false,
@@ -13576,7 +13983,8 @@ const CIGARS = [
       "Morning Coffee (light-medium roast, black)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Czech Pilsner (Pilsner Urquell, Bitburger)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1964,
     "limited": false
@@ -13611,7 +14019,8 @@ const CIGARS = [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -13674,7 +14083,8 @@ const CIGARS = [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Czech Pilsner (Pilsner Urquell, Bitburger)"
+      "Czech Pilsner (Pilsner Urquell, Bitburger)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -13732,7 +14142,8 @@ const CIGARS = [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Café au Lait (equal parts dark roast and steamed milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)"
+      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)",
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 1992,
     "limited": false
@@ -13767,7 +14178,8 @@ const CIGARS = [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Czech Pilsner (Pilsner Urquell, Bitburger)"
+      "Czech Pilsner (Pilsner Urquell, Bitburger)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1992,
     "limited": false,
@@ -13825,7 +14237,8 @@ const CIGARS = [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1992,
     "limited": false,
@@ -13888,7 +14301,8 @@ const CIGARS = [
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)"
+      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)",
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 1992,
     "limited": false,
@@ -13956,7 +14370,8 @@ const CIGARS = [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Café au Lait (equal parts dark roast and steamed milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)"
+      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 1865,
     "limited": false,
@@ -14019,7 +14434,8 @@ const CIGARS = [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1865,
     "limited": false,
@@ -14082,7 +14498,8 @@ const CIGARS = [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)"
+      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1865,
     "limited": false,
@@ -14145,7 +14562,8 @@ const CIGARS = [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -14208,7 +14626,8 @@ const CIGARS = [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -14271,7 +14690,8 @@ const CIGARS = [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -14306,7 +14726,8 @@ const CIGARS = [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Czech Pilsner (Pilsner Urquell, Bitburger)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -14369,7 +14790,8 @@ const CIGARS = [
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 1997,
     "limited": false,
@@ -14430,9 +14852,10 @@ const CIGARS = [
     "description": "The Cotton Tail is the Traditional line's showpiece vitola — a tapered figurado with a wide foot that narrows toward the head. Notably, aged Pennsylvania Broadleaf Ligero is woven into the filler for added depth and sweetness. The combination of Cotui wrapper sweetness and the Broadleaf's dark character creates a layered medium-bodied experience that evolves through each third. One of Casdagli's most technically complex standard production cigars.",
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Traditional Mead (Chaucer's, honey-fermented, room temperature)"
+      "Traditional Mead (Chaucer's, honey-fermented, room temperature)",
+      "Flat White (whole milk, medium roast)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1997,
     "limited": false,
@@ -14475,7 +14898,8 @@ const CIGARS = [
       "Oolong Tea (Tieguanyin, medium-roast, no sugar)",
       "Blanc de Noirs Champagne (Bollinger Special Cuvée, Krug Grande Cuvée)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "White Burgundy (Puligny-Montrachet, Chablis Premier Cru)"
+      "White Burgundy (Puligny-Montrachet, Chablis Premier Cru)",
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 1997,
     "limited": false,
@@ -14518,7 +14942,8 @@ const CIGARS = [
       "Jasmine Pearls Tea (silver-tipped, lightly sweetened)",
       "Dark Fruit Cocktail (muddled berries, aged rum, lime)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Double Espresso (dark roast, no sugar)"
     ],
     "yearFounded": 1997,
     "limited": false,
@@ -14561,7 +14986,8 @@ const CIGARS = [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2023,
     "limited": false,
@@ -14624,7 +15050,8 @@ const CIGARS = [
       "Espresso (medium-dark roast, no sugar)",
       "Cappuccino (whole milk, espresso, light foam)",
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
-      "Cortado (equal parts espresso and steamed milk)"
+      "Cortado (equal parts espresso and steamed milk)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1997,
     "limited": false,
@@ -14677,7 +15104,8 @@ const CIGARS = [
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)"
+      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)",
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 1997,
     "limited": false,
@@ -14720,7 +15148,8 @@ const CIGARS = [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Aged Gouda (5 year, crystalline)"
     ],
     "yearFounded": 1997,
     "limited": false,
@@ -14762,7 +15191,8 @@ const CIGARS = [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Double Espresso (dark roast, no sugar)"
     ],
     "yearFounded": 1997,
     "limited": true,
@@ -14804,7 +15234,8 @@ const CIGARS = [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -14867,7 +15298,8 @@ const CIGARS = [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -14930,7 +15362,8 @@ const CIGARS = [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
-      "Czech Pilsner (Pilsner Urquell, Bitburger)"
+      "Czech Pilsner (Pilsner Urquell, Bitburger)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -14993,7 +15426,8 @@ const CIGARS = [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -15056,7 +15490,8 @@ const CIGARS = [
       "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
       "Añejo Tequila (Don Julio 1942, Herradura Añejo)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2013,
     "limited": true,
@@ -15119,7 +15554,8 @@ const CIGARS = [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Double Espresso (dark roast, no sugar)",
-      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)"
+      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2013,
     "limited": true,
@@ -15177,7 +15613,8 @@ const CIGARS = [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Cold Brew (smooth, low acidity)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -15240,7 +15677,8 @@ const CIGARS = [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2013,
     "limited": true,
@@ -15298,7 +15736,8 @@ const CIGARS = [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Mexican Coke (real cane sugar, glass bottle)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2013,
     "limited": true,
@@ -15361,7 +15800,8 @@ const CIGARS = [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
       "Black Currant Tea (loose-leaf, no sugar)",
-      "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)"
+      "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
+      "Cold Brew (smooth, low acidity)"
     ],
     "yearFounded": 2013,
     "limited": true,
@@ -15418,7 +15858,8 @@ const CIGARS = [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Double Espresso (dark roast, no sugar)"
     ],
     "yearFounded": 2013,
     "limited": true,
@@ -15475,7 +15916,8 @@ const CIGARS = [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2013,
     "limited": true,
@@ -15536,7 +15978,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Coffee with Milk (medium roast, steamed whole milk)"
+      "Coffee with Milk (medium roast, steamed whole milk)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2021,
     "limited": false,
@@ -15597,7 +16041,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)"
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2021,
     "limited": false,
@@ -15658,7 +16104,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Espresso (medium-dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2021,
     "limited": false
@@ -15692,7 +16140,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Vintage Port (Fonseca Vintage, Graham's Crusted)"
+      "Vintage Port (Fonseca Vintage, Graham's Crusted)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2021,
     "limited": false
@@ -15726,7 +16176,9 @@ const CIGARS = [
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
       "Espresso (medium-dark roast, no sugar)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2021,
     "limited": false,
@@ -15787,7 +16239,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2011,
     "limited": false
@@ -15820,7 +16274,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -15882,7 +16338,9 @@ const CIGARS = [
     "pairings": [
       "Sencha Green Tea (first flush, 170°F, no sugar)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Czech Pilsner (Pilsner Urquell, Bernard unpasteurized)"
+      "Czech Pilsner (Pilsner Urquell, Bernard unpasteurized)",
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -15944,7 +16402,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -16005,7 +16465,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2011,
     "limited": false
@@ -16039,7 +16501,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2017,
     "limited": false,
@@ -16095,7 +16559,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)"
+      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2017,
     "limited": false,
@@ -16141,7 +16607,9 @@ const CIGARS = [
     "pairings": [
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
       "Cappuccino (whole milk, espresso, light foam)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2017,
     "limited": false,
@@ -16192,7 +16660,9 @@ const CIGARS = [
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2017,
     "limited": false
@@ -16226,7 +16696,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Americano (double shot espresso, hot water)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2017,
     "limited": false,
@@ -16272,7 +16744,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -16334,7 +16808,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Double IPA (Pliny the Elder, Dogfish Head 90 Minute)"
+      "Double IPA (Pliny the Elder, Dogfish Head 90 Minute)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -16385,7 +16861,9 @@ const CIGARS = [
     "pairings": [
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
       "Chamomile Tea (Egyptian loose-leaf, no sugar)",
-      "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)"
+      "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -16426,7 +16904,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2007,
     "limited": true
@@ -16460,7 +16940,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -16523,7 +17005,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Cold Brew (smooth, low acidity)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2015,
     "limited": false
@@ -16557,7 +17041,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -16619,7 +17105,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Sencha Green Tea (first flush, 170°F, no sugar)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -16681,7 +17169,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -16744,7 +17234,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "XO Cognac (Rémy Martin XO, Hennessy XO)"
+      "XO Cognac (Rémy Martin XO, Hennessy XO)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -16778,7 +17270,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -16840,7 +17334,9 @@ const CIGARS = [
     "pairings": [
       "Overproof Jamaican Rum (Smith & Cross, Wray & Nephew Overproof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -16901,7 +17397,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -16963,7 +17461,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -16997,7 +17497,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1968,
     "limited": true,
@@ -17060,7 +17562,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Espresso (medium-dark roast, no sugar)",
-      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1968,
     "limited": true,
@@ -17121,7 +17625,9 @@ const CIGARS = [
     "pairings": [
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
       "Cappuccino (whole milk, espresso, light foam)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -17178,7 +17684,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -17240,7 +17748,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -17302,7 +17812,9 @@ const CIGARS = [
     "pairings": [
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
       "Coffee with Milk (medium roast, steamed whole milk)",
-      "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)"
+      "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -17364,7 +17876,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -17426,7 +17940,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -17483,7 +17999,9 @@ const CIGARS = [
     "pairings": [
       "Chamomile Tea (Egyptian loose-leaf, no sugar)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)"
+      "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -17545,7 +18063,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false
@@ -17579,7 +18099,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -17641,7 +18163,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -17703,7 +18227,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Americano (double shot espresso, hot water)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -17765,7 +18291,9 @@ const CIGARS = [
     "pairings": [
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
       "Cappuccino (whole milk, espresso, light foam)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -17827,7 +18355,9 @@ const CIGARS = [
     "pairings": [
       "Overproof Jamaican Rum (Smith & Cross, Wray & Nephew Overproof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)"
+      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -17884,7 +18414,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -17936,7 +18468,9 @@ const CIGARS = [
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -17991,7 +18525,10 @@ const CIGARS = [
     "description": "The Kristoff Ligero Criollo Robusto is a powerhouse Nicaraguan puro built around high-priming ligero leaves that deliver an intense, full-bodied smoke. Nicaraguan Corojo wrapper imparts bold pepper and spice notes layered over rich earth and dark coffee. A go-to for seasoned smokers seeking a serious strength experience at an accessible price.",
     "pairings": [
       "Dark Roast Coffee (French roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -18051,7 +18588,10 @@ const CIGARS = [
     "description": "The Kristoff GC Signature Robusto showcases an Ecuadorian Habano wrapper over a robust Nicaraguan blend, yielding a medium-full smoke with cedar, leather, and earthy pepper notes. The construction is consistently excellent, with an even burn and firm draw. This cigar represents strong value for a medium-full Nicaraguan puro with genuine complexity.",
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -18111,7 +18651,10 @@ const CIGARS = [
     "description": "The Pistoff Kristoff Robusto lives up to its provocative name as one of the brand's most full-bodied offerings. Loaded with high-priming Nicaraguan ligero under a bold Habano wrapper, it delivers intense waves of dark earth, pepper, and charcoal from the first draw. Best suited for experienced full-strength smokers who demand maximum impact.",
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -18171,7 +18714,10 @@ const CIGARS = [
     "description": "The Kristoff Sumatra Robusto pairs a silky Indonesian Sumatran wrapper with a hearty Nicaraguan core for a medium-strength smoke that punches above its price. The Sumatran leaf imparts characteristic hay, cream, and cedar nuances that complement the earthy Nicaraguan filler. An approachable yet distinctive choice for smokers who appreciate the Sumatran wrapper experience.",
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "Sencha Green Tea (first flush, 170°F, no sugar)"
+      "Sencha Green Tea (first flush, 170°F, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -18231,7 +18777,10 @@ const CIGARS = [
     "description": "The Protocol Royal Canadian Mounted Robusto is part of Protocol's law enforcement tribute series, blended at Cubanacan in Nicaragua. The Ecuadorian Habano wrapper drapes a Nicaraguan core that delivers cedar, leather, and coffee with a persistent pepper finish. Construction and value are hallmarks of the Protocol brand, making this an outstanding everyday medium-full smoke.",
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -18270,7 +18819,10 @@ const CIGARS = [
     "description": "The Protocol Palmdale Precision Robusto features a Nicaraguan Habano wrapper over a full Nicaraguan blend, making it a true Nicaraguan puro experience in the Protocol lineup. Bold earth, leather, and pepper define the profile, with dark coffee notes emerging through the mid-smoke. At its price point, it competes convincingly with cigars costing twice as much.",
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -18324,7 +18876,10 @@ const CIGARS = [
     "description": "The Protocol Blue Line Robusto is the mild-side entry in Protocol's law enforcement tribute collection, wrapped in a smooth Ecuadorian Connecticut leaf. Cream, vanilla, and cedar notes make it a supremely approachable cigar that still shows the quality craftsmanship Protocol is known for in a format accessible to newer cigar smokers.",
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -18374,7 +18929,10 @@ const CIGARS = [
     "description": "The Protocol Forgotten Soldier Maduro Robusto pays tribute to veterans with a Mexican San Andrés Maduro wrapper known for its sweet chocolate and coffee character. Underneath, the Nicaraguan blend adds earth and leather body that balances the natural sweetness of the maduro leaf perfectly. One of the brand's most popular blends, delivering complexity and value in equal measure.",
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -18419,7 +18977,10 @@ const CIGARS = [
     "description": "The Caldwell Lost and Found Connecticut Robusto is born from aged tobacco lots that Robert Caldwell sources and blends into limited releases. The silky Ecuadorian Connecticut wrapper yields cream, almond, and toasted cedar notes over a smooth Nicaraguan core. The aged tobaccos lend a refined, settled quality that distinguishes it from other Connecticut offerings at the price.",
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
-      "Vanilla Latte (whole milk, vanilla bean, espresso)"
+      "Vanilla Latte (whole milk, vanilla bean, espresso)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -18479,7 +19040,10 @@ const CIGARS = [
     "description": "The Caldwell All Out Kings Robusto is Robert Caldwell's bold, full-frontal Nicaraguan blend designed for smokers who want no compromises. The Nicaraguan Habano wrapper anchors a filler packed with powerful ligero leaf, creating waves of leather, dark coffee, and cracked black pepper. It has earned critical acclaim for its bold character and above-average construction.",
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -18511,7 +19075,10 @@ const CIGARS = [
     "description": "The Caldwell Anastasia Robusto sits in the sweet spot of the Caldwell portfolio, offering medium-full complexity without the sheer power of the All Out Kings. An Ecuadorian Habano wrapper covers a Nicaraguan blend that delivers cedar, earth, and roasted coffee with a mild spice finish. Its balanced profile and impeccable construction make it a reliable daily smoker.",
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -18571,7 +19138,10 @@ const CIGARS = [
     "description": "Caldwell The King Is Dead Robusto wraps a powerful Nicaraguan core in a rich Mexican San Andrés Maduro leaf for an indulgent medium-full experience. Dark chocolate, espresso, and sweet earth tones flow seamlessly from start to finish with excellent combustion. The maduro wrapper's natural sweetness tempers the Nicaraguan strength, creating a harmonious and memorable smoke.",
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -18631,7 +19201,10 @@ const CIGARS = [
     "description": "The Brick House Toro is a flagship vitola in J.C. Newman's value-oriented Brick House line, featuring an Ecuadorian Connecticut wrapper over a Honduran and Nicaraguan blend. Cedar, cream, and toasted earth define a smooth, medium-bodied profile that appeals to a broad range of palates. Built in the renowned Jamastran Valley, it delivers reliable quality at a budget-friendly price.",
     "pairings": [
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Café Latte (whole milk, double shot, medium roast)"
+      "Café Latte (whole milk, double shot, medium roast)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -18691,7 +19264,10 @@ const CIGARS = [
     "description": "The Brick House Double Connecticut Robusto doubles down on Connecticut leaf by using it for both the wrapper and binder, resulting in an ultra-smooth, creamy mild smoke. Vanilla, almond, and fresh cedar notes make it one of the most approachable cigars in the Brick House family. An ideal entry-level smoke or afternoon cigar for experienced aficionados who want a lighter option.",
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
-      "Vanilla Latte (whole milk, vanilla bean, espresso)"
+      "Vanilla Latte (whole milk, vanilla bean, espresso)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -18751,7 +19327,10 @@ const CIGARS = [
     "description": "The Brick House Maduro Robusto wraps the core Brick House Honduran blend in a Mexican San Andrés Maduro leaf for a richer, sweeter, and darker smoking experience. Cocoa, coffee, and natural sweetness from the maduro wrapper complement the earthy Honduran and Nicaraguan filler tobaccos. At its price, it is one of the better-value maduro robustos on the market.",
     "pairings": [
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Sherry-Finished Scotch (Macallan 18 Sherry Oak, GlenDronach 18)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -18811,7 +19390,10 @@ const CIGARS = [
     "description": "The Brick House Mighty Mighty Toro is the bold, Habano-wrapped counterpart in the Brick House lineup, stepping up the strength and complexity noticeably. A Honduran Habano wrapper over the classic Jamastran Valley blend delivers leather, earth, and cracked pepper with a coffee undercurrent. It is a medium-full workhorse that continues to grow in popularity among value-seeking aficionados.",
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -18871,7 +19453,10 @@ const CIGARS = [
     "description": "The Nub Nuance Triple Roast Robusto is inspired by slow-roasted coffee craftsmanship, featuring a blend tuned to highlight roasted coffee, dark chocolate, and cedar notes. The short, fat Nub format concentrates the blend's flavors right from the first third. An Ecuadorian Habano wrapper adds the complexity needed to balance the roasted-centric profile.",
     "pairings": [
       "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
-      "Dry Irish Stout (Guinness Draught, O'Hara's Leann Folláin)"
+      "Dry Irish Stout (Guinness Draught, O'Hara's Leann Folláin)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Añejo Tequila (Don Julio 1942, Herradura Añejo)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -18931,7 +19516,10 @@ const CIGARS = [
     "description": "The Nub Habano 554 Box Pressed is one of the most recognizable vitolas in the Nub line, combining the brand's signature short-and-fat format with a square-pressed silhouette. The Ecuadorian Habano wrapper over Nicaraguan tobacco delivers a classic medium-full profile of cedar, leather, and spice. The box press adds a subtle sweetness to the draw that makes each puff particularly satisfying.",
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -18990,7 +19578,10 @@ const CIGARS = [
     "description": "The Nub Dub Connecticut 460 applies the Nub philosophy — skip the first two thirds and start in the sweet spot — to a mild, creamy Connecticut profile. The Ecuadorian Connecticut wrapper produces cream, vanilla, and light hay flavors over a smooth Nicaraguan core. A great choice for mornings, casual social situations, or anyone who prefers a mild-medium smoke.",
     "pairings": [
       "Mimosa (Champagne, fresh-squeezed orange juice)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -19044,7 +19635,10 @@ const CIGARS = [
     "description": "The La Flor Dominicana Reserva Especial No. 1 is a long, elegant parejos vitola showcasing LFD's prized Dominican Habano wrapper leaf aged for extra complexity. Leather, dark earth, and roasted coffee develop from the first third, complemented by a persistent cedar and pepper finish. It represents the pinnacle of LFD's Dominican puro philosophy at an accessible price.",
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -19104,7 +19698,10 @@ const CIGARS = [
     "description": "The La Flor Dominicana Ligero Cabinet No. 4 is one of the most acclaimed full-strength Dominican cigars ever made, packed exclusively with high-priming ligero leaf and clothed in a Dominican Habano wrapper. Dark earth, leather, tarry tobacco, and cracked black pepper define an intense, uncompromising profile that unfolds over nearly an hour. It has consistently earned 90+ scores and remains a benchmark for Dominican ligero production.",
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -19165,7 +19762,10 @@ const CIGARS = [
     "description": "The La Flor Dominicana Andalusian Bull is a short, massively ring-gauged figurado named after the fighting bulls of southern Spain, a fitting metaphor for its powerful character. LFD's master blenders pack ligero-heavy Dominican filler under a prized Dominican Habano wrapper to create a concentrated, intense experience in a compact format. It earned Cigar Aficionado's Cigar of the Year in 2015 and remains one of the most collectible LFD releases.",
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 1996,
     "limited": true
@@ -19197,7 +19797,10 @@ const CIGARS = [
     "description": "The La Flor Dominicana Oscuro Robusto pairs LFD's Dominican core with a richly fermented Mexican San Andrés Maduro wrapper for a dark, sweet, and satisfying medium-full smoke. Dark chocolate, coffee, and leather intermingle throughout with a sweet spice note on the retrohale. It showcases LFD's versatility, demonstrating that the Dominican factory excels with maduro leaves as much as its native Habano.",
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -19258,7 +19861,10 @@ const CIGARS = [
     "description": "Espinosa Las 6 Provincias Robusto is Erik Espinosa's tribute to the six tobacco-growing provinces of Cuba, reimagined through Nicaraguan tobacco. A Nicaraguan Habano wrapper envelops a complex multi-region Nicaraguan filler blend that delivers leather, dark earth, bold pepper, and roasted coffee. The cigar has earned wide critical praise and is considered one of Espinosa's flagship blends.",
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -19317,7 +19923,10 @@ const CIGARS = [
     "description": "The Espinosa Murcielago Robusto is a dark, full-bodied beast draped in a jet-black Mexican San Andrés Maduro wrapper. The full-strength Nicaraguan core paired with the sweet, dense maduro leaf creates a powerful yet balanced ride of dark chocolate, dark earth, and leather. It quickly earned a cult following for delivering premium maduro complexity at an accessible price.",
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -19372,7 +19981,10 @@ const CIGARS = [
     "description": "The Espinosa Crema No. 7 Robusto is Erik Espinosa's mild-side offering, wrapping a smooth Ecuadorian Connecticut around a Nicaraguan blend tuned for creaminess and accessibility. Vanilla, fresh cream, and cedar notes make it a supremely approachable cigar that still shows the quality craftsmanship the Espinosa brand is known for. It is an ideal recommendation for newer smokers or as a breakfast cigar.",
     "pairings": [
       "Cappuccino (whole milk, espresso, light foam)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -19432,7 +20044,10 @@ const CIGARS = [
     "description": "The Macanudo Vintage 1997 Churchill uses aged tobacco from the 1997 harvest, imparting an uncommon smoothness and depth to Macanudo's classic Connecticut Shade profile. Cream, cedar, vanilla, and subtle honey develop across a leisurely 90-minute smoke in the graceful Churchill format. It stands as one of the finest examples of aged Dominican Connecticut craftsmanship available at its price.",
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "Vanilla Latte (whole milk, vanilla bean, espresso)"
+      "Vanilla Latte (whole milk, vanilla bean, espresso)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -19492,7 +20107,10 @@ const CIGARS = [
     "description": "The Macanudo Inspirado African Cameroon Robusto features a genuine Cameroonian leaf prized for its distinctive earthy, floral, and spicy character. The Dominican and Nicaraguan filler blend provides a solid medium-bodied backbone that lets the Cameroon wrapper shine. A must-smoke for aficionados seeking the classic African Cameroon experience in a polished, modern production.",
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)"
+      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -19552,7 +20170,10 @@ const CIGARS = [
     "description": "The Macanudo Ascots are petite, elegantly thin cigars designed for a quick 20-minute mild smoke, making them ideal for short breaks or as a post-meal alternative to cigarettes. The Connecticut Shade wrapper delivers the classic Macanudo cream, vanilla, and light hay character in miniature form. Their tube packaging makes them convenient to carry, and they remain a staple for mild-preference smokers worldwide.",
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Sencha Green Tea (first flush, 170°F, no sugar)"
+      "Sencha Green Tea (first flush, 170°F, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -19612,7 +20233,10 @@ const CIGARS = [
     "description": "The Camacho Ecuador Robusto is one of the more approachable blends from the typically bold Camacho portfolio, using an Ecuadorian wrapper to soften and refine the Honduran core blend. Cedar, cream, and mild spice dominate with a pleasant floral note from the wrapper leaf. It bridges the gap between Camacho's aggressive full-strength lines and the needs of medium-bodied smokers.",
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1962,
     "limited": false,
@@ -19672,7 +20296,10 @@ const CIGARS = [
     "description": "The Camacho American Barrel Aged Robusto incorporates tobaccos aged in American whiskey barrels, lending remarkable caramel, vanilla, and sweet spice notes to Camacho's Honduran blend. The Honduran Habano wrapper ties together the whiskey-barrel influence with classic leather and cedar tones. One of the most innovative releases in the Camacho lineup, it consistently earns praise for its unique flavor journey.",
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1962,
     "limited": false,
@@ -19733,7 +20360,10 @@ const CIGARS = [
     "description": "The Camacho Criollo Robusto showcases a Honduran-grown Criollo wrapper leaf that delivers the rustic, bold character the Camacho brand was built upon. Earth, leather, and cracked black pepper define the medium-full profile, backed by coffee and wood tones from the Honduran and Nicaraguan filler. It carries on the legacy of the original Camacho Criollo recipe that made the brand famous.",
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 1962,
     "limited": false,
@@ -19793,7 +20423,10 @@ const CIGARS = [
     "description": "The Romeo y Julieta Aniversario Robusto marks a step up in complexity from the classic RyJ line, using an Ecuadorian Habano wrapper to add depth and spice to the Dominican core blend. Cedar, leather, and coffee notes are well integrated with earthy undertones, delivering a genuinely satisfying medium-full experience. Its consistent quality and brand heritage make it a perennial bestseller.",
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1875,
     "limited": false
@@ -19825,7 +20458,10 @@ const CIGARS = [
     "description": "The Romeo y Julieta Vintage V Robusto is part of the Vintage series, offering a mild-to-medium Dominican blend beneath an Ecuadorian Connecticut wrapper aged for silky smoothness. Cream, cedar, and vanilla form the backbone of a refined, approachable smoking experience with a pleasant almond finish. The Vintage series represents RyJ's premium Connecticut offering, elevating the classic line with extra-aged tobacco.",
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
-      "Vanilla Latte (whole milk, vanilla bean, espresso)"
+      "Vanilla Latte (whole milk, vanilla bean, espresso)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1875,
     "limited": false,
@@ -19885,7 +20521,10 @@ const CIGARS = [
     "description": "The Romeo y Julieta Wide Churchill takes the classic RyJ blend and presents it in a generously ring-gauged Churchill format that allows the Ecuadorian Connecticut wrapper's cream and cedar notes to develop fully over a long, leisurely smoke. Its wide ring gauge provides an exceptionally cool draw that showcases the mild-to-medium Dominican blend at its smoothest. A timeless choice for aficionados who appreciate an unhurried, refined smoking session.",
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1875,
     "limited": false
@@ -19917,7 +20556,10 @@ const CIGARS = [
     "description": "H. Upmann The Good Stuff Robusto delivers a well-crafted medium-full Dominican blend under a rich Ecuadorian Habano wrapper. Cedar, leather, and coffee notes unfold in classic Upmann style, with a mild spice accent that keeps the palate engaged from start to finish. It has earned praise as one of the best Upmann releases in recent years.",
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1844,
     "limited": false
@@ -19949,7 +20591,10 @@ const CIGARS = [
     "description": "The H. Upmann Connecticut Robusto offers the signature Upmann refinement in a smooth, accessible mild-to-medium format. An Ecuadorian Connecticut wrapper drapes a Dominican blend that produces cream, vanilla, and cedar with just a touch of mild spice. Its impeccable construction and approachable strength make it a top recommendation for new cigar smokers.",
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
-      "Vanilla Latte (whole milk, vanilla bean, espresso)"
+      "Vanilla Latte (whole milk, vanilla bean, espresso)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1844,
     "limited": false,
@@ -20009,7 +20654,10 @@ const CIGARS = [
     "description": "The H. Upmann Legacy Robusto honors the brand's 180-year heritage with a refined blend of Dominican leaf under an Ecuadorian Habano wrapper, striking a balance between classic Upmann creaminess and added Habano complexity. Cedar, earth, coffee, and a nutty almond finish make it a layered and rewarding medium-bodied smoke. It is a dependable representation of the Upmann legacy at a fair price.",
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1844,
     "limited": false
@@ -20041,7 +20689,10 @@ const CIGARS = [
     "description": "The Aging Room Quattro F55 Concerto is one of Rafael Nodal's most acclaimed releases, offering a generous toro grande vitola filled with meticulously aged Dominican tobaccos beneath an Ecuadorian Habano wrapper. Cedar, earth, coffee, and subtle floral notes develop beautifully over a long, complex smoke that transitions through multiple flavor phases. It earned widespread critical acclaim and is considered a top expression of the Dominican aging-focused philosophy.",
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -20101,7 +20752,10 @@ const CIGARS = [
     "description": "The Aging Room Bin No. 1 Robusto applies Rafael Nodal's signature aged-tobacco philosophy to a Connecticut wrapper format, resulting in one of the most refined mild-to-medium smokes available. Cream, honey, cedar, and almond notes are layered with a subtle floral elegance that elevates the experience well beyond typical Connecticut offerings. The extra investment in aging and construction quality is evident in every puff.",
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -20161,7 +20815,10 @@ const CIGARS = [
     "description": "The Aging Room Small Batch M356 Robusto is produced in intentionally small lots to ensure each cigar benefits from individual attention during rolling and aging. The Ecuadorian Habano wrapper over Dominican filler delivers cedar, earth, coffee, and a pleasant nuttiness on the finish. Its small-batch production philosophy guarantees a level of consistency and quality rare at its price.",
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2012,
     "limited": false
@@ -20193,7 +20850,10 @@ const CIGARS = [
     "description": "The Diamond Crown Julius Caeser Toro is the flagship vitola of J.C. Newman's ultra-premium Diamond Crown line, featuring some of the finest aged Dominican and Connecticut Shade tobaccos available. Impeccably constructed with a silky Connecticut Shade wrapper, it delivers cream, cedar, vanilla, and almond in a refined mild-to-medium profile. It is one of the most consistently lauded Connecticut Shade cigars from a Dominican factory.",
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "Vanilla Latte (whole milk, vanilla bean, espresso)"
+      "Vanilla Latte (whole milk, vanilla bean, espresso)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -20253,7 +20913,10 @@ const CIGARS = [
     "description": "The Diamond Crown Classic No. 5 showcases aged Dominican filler beneath a silky Connecticut Shade wrapper in an elegant robusto-length format. Cream, honey, cedar, and vanilla progress gracefully from lighting to the final third, never once becoming harsh or bitter. Its consistent 90+ scores across major publications cement its status as one of the finest value plays in the ultra-premium Connecticut category.",
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
-      "Vanilla Latte (whole milk, vanilla bean, espresso)"
+      "Vanilla Latte (whole milk, vanilla bean, espresso)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -20313,7 +20976,10 @@ const CIGARS = [
     "description": "The Quesada Reserva Privada Robusto draws on the family's decades of Dominican tobacco expertise, using aged Dominican Habano wrapper leaf and a carefully selected Dominican puro blend. Cedar, earth, leather, and coffee notes build steadily across a smooth, medium-full smoke that showcases the terroir of the Cibao Valley. The Quesada family's meticulous quality standards are evident in every draw.",
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1974,
     "limited": false,
@@ -20368,7 +21034,10 @@ const CIGARS = [
     "description": "The Quesada Oktoberfest Robusto is an annual limited release designed to pair with the rich lagers and bocks of the fall Oktoberfest season. An Ecuadorian Habano wrapper over Dominican filler produces a medium-bodied smoke with cedar, leather, and toasted bread notes that genuinely complement malty beer. Each yearly release is eagerly anticipated by the cigar community and typically sells out quickly.",
     "pairings": [
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Flat White (whole milk, medium roast)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Highland Single Malt (Dalmore 12, Oban 14)"
     ],
     "yearFounded": 1974,
     "limited": true,
@@ -20423,7 +21092,10 @@ const CIGARS = [
     "description": "The Quesada Tributo Robusto is a tribute to the Quesada family's legacy of Dominican tobacco cultivation and cigar making spanning more than four decades. An Ecuadorian Habano wrapper over Dominican leaf delivers a refined medium-bodied profile of cedar, earth, coffee, and a gentle honey sweetness on the finish. It stands as a testament to the Quesada family's commitment to Dominican puro craftsmanship at an accessible everyday price.",
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1974,
     "limited": false
@@ -20457,7 +21129,9 @@ const CIGARS = [
     "pairings": [
       "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "White Burgundy (Puligny-Montrachet, Chablis Premier Cru)"
+      "White Burgundy (Puligny-Montrachet, Chablis Premier Cru)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2002,
     "limited": false,
@@ -20504,7 +21178,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1844,
     "limited": false
@@ -20538,7 +21214,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1902,
     "limited": false,
@@ -20585,7 +21263,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "English Breakfast Tea (Assam + Ceylon, splash of milk)"
+      "English Breakfast Tea (Assam + Ceylon, splash of milk)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1840,
     "limited": false
@@ -20620,7 +21300,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "White Burgundy (Puligny-Montrachet, Chablis Premier Cru)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 1865,
     "limited": false,
@@ -20665,7 +21347,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Sencha Green Tea (first flush, 170°F, no sugar)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1998,
     "limited": false,
@@ -20712,7 +21396,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1837,
     "limited": false,
@@ -20759,7 +21445,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1997,
     "limited": false
@@ -20794,7 +21482,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)"
+      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1884,
     "limited": false,
@@ -20841,7 +21531,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -20887,7 +21579,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1994,
     "limited": false,
@@ -20950,7 +21644,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1994,
     "limited": false
@@ -20984,7 +21680,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1994,
     "limited": false,
@@ -21046,7 +21744,9 @@ const CIGARS = [
     "pairings": [
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2005,
     "limited": true,
@@ -21104,7 +21804,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1964,
     "limited": false,
@@ -21165,7 +21867,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Iced Coffee (cold brew over ice, light cream)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1964,
     "limited": false,
@@ -21227,7 +21931,9 @@ const CIGARS = [
     "pairings": [
       "Morning Coffee (light-medium roast, black)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1964,
     "limited": false,
@@ -21289,7 +21995,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1995,
     "limited": true
@@ -21323,7 +22031,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1995,
     "limited": true
@@ -21357,7 +22067,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1985,
     "limited": false,
@@ -21419,7 +22131,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1980,
     "limited": false,
@@ -21481,7 +22195,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1982,
     "limited": false,
@@ -21543,7 +22259,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1982,
     "limited": false,
@@ -21605,7 +22323,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2017,
     "limited": true
@@ -21639,7 +22359,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)"
+      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1956,
     "limited": false,
@@ -21701,7 +22423,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1994,
     "limited": false,
@@ -21763,7 +22487,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": true
@@ -21797,7 +22523,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2009,
     "limited": false,
@@ -21859,7 +22587,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Light Wheated Bourbon (Maker's Mark, Larceny)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1978,
     "limited": false,
@@ -21921,7 +22651,9 @@ const CIGARS = [
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false
@@ -21956,7 +22688,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)"
+      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1935,
     "limited": false,
@@ -22002,7 +22736,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1845,
     "limited": false
@@ -22036,7 +22772,9 @@ const CIGARS = [
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)"
+      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1844,
     "limited": false,
@@ -22084,7 +22822,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1902,
     "limited": false,
@@ -22130,7 +22870,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)"
+      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 1875,
     "limited": false
@@ -22164,7 +22906,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -22211,7 +22955,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1865,
     "limited": false,
@@ -22258,7 +23004,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -22320,7 +23068,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -22377,7 +23127,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Belgian Quadrupel (St. Bernardus Abt 12, Rochefort 10)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -22439,7 +23191,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -22501,7 +23255,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -22563,7 +23319,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -22619,7 +23377,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -22681,7 +23441,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -22743,7 +23505,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -22805,7 +23569,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -22867,7 +23633,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Highland Single Malt (Dalmore 15, Oban 14)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -22929,7 +23697,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -22991,7 +23761,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -23053,7 +23825,9 @@ const CIGARS = [
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -23116,7 +23890,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false
@@ -23150,7 +23926,9 @@ const CIGARS = [
     "pairings": [
       "Czech Pilsner (Pilsner Urquell, Bitburger)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -23212,7 +23990,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1995,
     "limited": false
@@ -23246,7 +24026,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -23308,7 +24090,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2001,
     "limited": false,
@@ -23370,7 +24154,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2001,
     "limited": false,
@@ -23427,7 +24213,9 @@ const CIGARS = [
     "pairings": [
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 2001,
     "limited": false,
@@ -23489,7 +24277,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2001,
     "limited": false,
@@ -23551,7 +24341,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2001,
     "limited": false,
@@ -23613,7 +24405,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)"
+      "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2001,
     "limited": false
@@ -23647,7 +24441,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2001,
     "limited": false
@@ -23681,7 +24477,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2001,
     "limited": false,
@@ -23742,7 +24540,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 1992,
     "limited": false,
@@ -23804,7 +24604,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1992,
     "limited": false,
@@ -23866,7 +24668,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1992,
     "limited": false,
@@ -23934,7 +24738,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Honey Wheat Ale (Leinenkugel's Honey Weiss, Goose Island 312)"
+      "Honey Wheat Ale (Leinenkugel's Honey Weiss, Goose Island 312)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1992,
     "limited": false,
@@ -23995,7 +24801,9 @@ const CIGARS = [
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1992,
     "limited": false,
@@ -24057,7 +24865,9 @@ const CIGARS = [
     "pairings": [
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
       "Robust Porter (Deschutes Black Butte, Founders Porter)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Sherry-Finished Scotch (Macallan 18 Sherry Oak, GlenDronach 18)"
     ],
     "yearFounded": 1992,
     "limited": false
@@ -24091,7 +24901,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1992,
     "limited": false
@@ -24125,7 +24937,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1992,
     "limited": false,
@@ -24187,7 +25001,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1865,
     "limited": false
@@ -24221,7 +25037,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Sencha Green Tea (first flush, 170°F, no sugar)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1865,
     "limited": false,
@@ -24283,7 +25101,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1865,
     "limited": false,
@@ -24345,7 +25165,9 @@ const CIGARS = [
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Czech Pilsner (Pilsner Urquell, Bitburger)"
+      "Czech Pilsner (Pilsner Urquell, Bitburger)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1865,
     "limited": false,
@@ -24407,7 +25229,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1865,
     "limited": false,
@@ -24469,7 +25293,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1865,
     "limited": true,
@@ -24525,7 +25351,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)"
+      "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1990,
     "limited": false,
@@ -24587,7 +25415,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 1990,
     "limited": false,
@@ -24649,7 +25479,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1990,
     "limited": false,
@@ -24711,7 +25543,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1990,
     "limited": false
@@ -24745,7 +25579,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1990,
     "limited": false,
@@ -24802,7 +25638,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1990,
     "limited": false,
@@ -24863,7 +25701,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1886,
     "limited": false,
@@ -24924,7 +25764,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 1886,
     "limited": false,
@@ -24987,7 +25829,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "Caramel Latte (whole milk, caramel syrup, espresso)",
-      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)"
+      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1886,
     "limited": false,
@@ -25047,7 +25891,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Americano (double shot espresso, hot water)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1886,
     "limited": false
@@ -25081,7 +25927,9 @@ const CIGARS = [
     "pairings": [
       "Single Pot Still Irish Whiskey (Redbreast 12, Green Spot)",
       "Flat White (whole milk, medium roast)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1886,
     "limited": false,
@@ -25143,7 +25991,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1886,
     "limited": false,
@@ -25205,7 +26055,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Espresso (medium-dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1886,
     "limited": false,
@@ -25268,7 +26120,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1946,
     "limited": false,
@@ -25323,7 +26177,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Chamomile Tea (Egyptian loose-leaf, no sugar)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1946,
     "limited": false,
@@ -25380,7 +26236,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1946,
     "limited": false,
@@ -25437,7 +26295,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Double IPA (Pliny the Elder, Dogfish Head 90 Minute)"
+      "Double IPA (Pliny the Elder, Dogfish Head 90 Minute)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1946,
     "limited": false,
@@ -25499,7 +26359,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Jasmine Pearls Tea (silver-tipped, lightly sweetened)"
+      "Jasmine Pearls Tea (silver-tipped, lightly sweetened)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1946,
     "limited": true,
@@ -25555,7 +26417,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Light Roast Coffee (blonde roast, black)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1985,
     "limited": false,
@@ -25617,7 +26481,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Espresso (medium-dark roast, no sugar)",
-      "Coffee Liqueur (Kahlúa, Mr. Black Cold Brew)"
+      "Coffee Liqueur (Kahlúa, Mr. Black Cold Brew)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1985,
     "limited": false,
@@ -25679,7 +26545,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "Espresso (medium-dark roast, no sugar)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1985,
     "limited": false,
@@ -25741,7 +26609,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Americano (double shot espresso, hot water)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1985,
     "limited": false,
@@ -25803,7 +26673,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1985,
     "limited": false,
@@ -25865,7 +26737,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -25927,7 +26801,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -25989,7 +26865,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Vanilla Latte (whole milk, vanilla bean, espresso)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -26051,7 +26929,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -26112,7 +26992,9 @@ const CIGARS = [
     "pairings": [
       "Cuban Coffee (cafecito, demerara sugar)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)"
+      "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1996,
     "limited": false
@@ -26146,7 +27028,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -26208,7 +27092,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -26270,7 +27156,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -26316,7 +27204,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -26379,7 +27269,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Herbal Infusion (chamomile-mint blend, no caffeine)"
+      "Herbal Infusion (chamomile-mint blend, no caffeine)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -26440,7 +27332,9 @@ const CIGARS = [
     "pairings": [
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
       "Flat White (whole milk, medium roast)",
-      "Dark Chocolate (85% cacao, single-origin Madagascar)"
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -26502,7 +27396,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -26564,7 +27460,9 @@ const CIGARS = [
     "pairings": [
       "Single Pot Still Irish Whiskey (Redbreast 12, Green Spot)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "German Hefeweizen (Weihenstephaner Hefeweißbier, Paulaner Hefe)"
+      "German Hefeweizen (Weihenstephaner Hefeweißbier, Paulaner Hefe)",
+      "Cold Brew (smooth, low acidity)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -26626,7 +27524,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -26688,7 +27588,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -26750,7 +27652,9 @@ const CIGARS = [
     "pairings": [
       "Morning Coffee (light-medium roast, black)",
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "Traditional Mead (Chaucer's, honey-fermented, room temperature)"
+      "Traditional Mead (Chaucer's, honey-fermented, room temperature)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -26812,7 +27716,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -26869,7 +27775,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -26926,7 +27834,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Double IPA (Pliny the Elder, Dogfish Head 90 Minute)"
+      "Double IPA (Pliny the Elder, Dogfish Head 90 Minute)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -26978,7 +27888,9 @@ const CIGARS = [
     "pairings": [
       "Cuban Coffee (cafecito, demerara sugar)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)"
+      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -27040,7 +27952,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -27102,7 +28016,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -27145,7 +28061,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2003,
     "limited": true
@@ -27177,7 +28095,10 @@ const CIGARS = [
     "description": "The Punch Gran Puro Nicaragua Robusto is a Nicaraguan puro from the Jalapa Valley, representing Punch's New World interpretation of their traditional Honduran character. The Nicaraguan Habano wrapper over an all-Nicaraguan blend delivers earthy, peppery, and leathery notes with a satisfying coffee finish. It offers exceptional value for a medium-full Nicaraguan puro from a well-known legacy brand.",
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -27238,7 +28159,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Café Latte (whole milk, double shot, medium roast)"
+      "Café Latte (whole milk, double shot, medium roast)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -27285,7 +28208,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Jasmine Pearls Tea (silver-tipped, lightly sweetened)"
+      "Jasmine Pearls Tea (silver-tipped, lightly sweetened)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1966,
     "limited": false
@@ -27318,7 +28243,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -27365,7 +28292,9 @@ const CIGARS = [
     "pairings": [
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -27412,7 +28341,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Almond Biscotti (twice-baked, dipped in espresso)"
+      "Almond Biscotti (twice-baked, dipped in espresso)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -27460,7 +28391,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1935,
     "limited": false,
@@ -27505,7 +28438,9 @@ const CIGARS = [
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1935,
     "limited": false,
@@ -27549,7 +28484,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1935,
     "limited": false,
@@ -27596,7 +28533,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Espresso (medium-dark roast, no sugar)",
-      "Aged Gouda (5-year Beemster, crystal-flecked paste)"
+      "Aged Gouda (5-year Beemster, crystal-flecked paste)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2004,
     "limited": false,
@@ -27642,7 +28581,9 @@ const CIGARS = [
     "pairings": [
       "Cortado (equal parts espresso and steamed milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Hazelnut Praline (Piedmontese Nocciola, caramelized)"
+      "Hazelnut Praline (Piedmontese Nocciola, caramelized)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2006,
     "limited": false,
@@ -27688,7 +28629,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Mojito (Havana Club 3, mint, lime, soda water)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2009,
     "limited": false,
@@ -27735,7 +28678,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -27781,7 +28726,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Cheddar (2-year Tillamook, sharp, raw milk)"
+      "Aged Cheddar (2-year Tillamook, sharp, raw milk)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2005,
     "limited": false
@@ -27815,7 +28762,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1845,
     "limited": false,
@@ -27860,7 +28809,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Cuban Coffee (cafecito, demerara sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1845,
     "limited": false
@@ -27894,7 +28845,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Pedro Ximénez Sherry (Lustau PX San Emilio, Toro Albalá Don PX)",
-      "Candied Walnuts (cinnamon-glazed, toasted)"
+      "Candied Walnuts (cinnamon-glazed, toasted)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1845,
     "limited": true,
@@ -27940,7 +28893,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Vanilla Latte (whole milk, vanilla bean, espresso)",
-      "Aged Cheddar (2-year Tillamook, sharp, raw milk)"
+      "Aged Cheddar (2-year Tillamook, sharp, raw milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2006,
     "limited": false,
@@ -27986,7 +28941,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Iced Black Tea (unsweetened, lemon wedge)",
-      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)"
+      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -28033,7 +28990,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1875,
     "limited": false
@@ -28066,7 +29025,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Sparkling Mineral Water (San Pellegrino, room temperature)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -28113,7 +29074,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Vanilla Latte (whole milk, vanilla bean, espresso)",
-      "Almond Pastry (buttery, flaky, light glaze)"
+      "Almond Pastry (buttery, flaky, light glaze)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2011,
     "limited": false
@@ -28147,7 +29110,9 @@ const CIGARS = [
     "pairings": [
       "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
       "Chamomile Tea (Egyptian loose-leaf, no sugar)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2012,
     "limited": false
@@ -28182,7 +29147,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2004,
     "limited": false,
@@ -28228,7 +29195,9 @@ const CIGARS = [
     "pairings": [
       "Iced Coffee (cold brew over ice, light cream)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Brut Sparkling Wine (NV Cava, Crémant d'Alsace)"
+      "Brut Sparkling Wine (NV Cava, Crémant d'Alsace)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2005,
     "limited": false,
@@ -28275,7 +29244,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1876,
     "limited": false,
@@ -28321,7 +29292,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Espresso (medium-dark roast, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1876,
     "limited": false,
@@ -28367,7 +29340,9 @@ const CIGARS = [
     "pairings": [
       "Sparkling Mineral Water (San Pellegrino, room temperature)",
       "Light Roast Coffee (blonde roast, black)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -28414,7 +29389,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -28460,7 +29437,9 @@ const CIGARS = [
     "pairings": [
       "Chamomile Tea (Egyptian loose-leaf, no sugar)",
       "Sparkling Mineral Water (San Pellegrino, room temperature)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1907,
     "limited": false,
@@ -28505,7 +29484,9 @@ const CIGARS = [
     "pairings": [
       "Sencha Green Tea (first flush, 170°F, no sugar)",
       "Sparkling Mineral Water (San Pellegrino, room temperature)",
-      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)"
+      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1907,
     "limited": false,
@@ -28551,7 +29532,9 @@ const CIGARS = [
     "pairings": [
       "Cuban Coffee (cafecito, demerara sugar)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Rum Old Fashioned (aged rum, demerara sugar, orange bitters)"
+      "Rum Old Fashioned (aged rum, demerara sugar, orange bitters)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1880,
     "limited": false,
@@ -28597,7 +29580,9 @@ const CIGARS = [
     "pairings": [
       "Cuban Coffee (cafecito, demerara sugar)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1924,
     "limited": false,
@@ -28644,7 +29629,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Espresso (medium-dark roast, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -28690,7 +29677,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Sparkling Mineral Water (San Pellegrino, room temperature)",
-      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)"
+      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -28736,7 +29725,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Crème Brûlée (vanilla bean custard, caramelized sugar crust)"
+      "Crème Brûlée (vanilla bean custard, caramelized sugar crust)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2002,
     "limited": false,
@@ -28783,7 +29774,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "VS Cognac (Hennessy VS, Pierre Ferrand 1840)",
-      "Honey Cake (buckwheat honey, spiced, dense)"
+      "Honey Cake (buckwheat honey, spiced, dense)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -28830,7 +29823,9 @@ const CIGARS = [
     "pairings": [
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1928,
     "limited": false,
@@ -28876,7 +29871,9 @@ const CIGARS = [
     "pairings": [
       "Cuban Coffee (cafecito, demerara sugar)",
       "Sparkling Mineral Water (San Pellegrino, room temperature)",
-      "Almond Pastry (buttery, flaky, light glaze)"
+      "Almond Pastry (buttery, flaky, light glaze)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1882,
     "limited": false,
@@ -28921,7 +29918,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1902,
     "limited": false
@@ -28955,7 +29954,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2013,
     "limited": false
@@ -28990,7 +29991,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -29036,7 +30039,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1840,
     "limited": false
@@ -29070,7 +30075,9 @@ const CIGARS = [
     "pairings": [
       "Sencha Green Tea (first flush, 170°F, no sugar)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 1848,
     "limited": false,
@@ -29116,7 +30123,9 @@ const CIGARS = [
     "pairings": [
       "Fresh-Squeezed Lemonade (Meyer lemons, light sugar)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -29163,7 +30172,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Espresso (medium-dark roast, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1997,
     "limited": false,
@@ -29209,7 +30220,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1837,
     "limited": false,
@@ -29255,7 +30268,9 @@ const CIGARS = [
     "pairings": [
       "Cuban Coffee (cafecito, demerara sugar)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1845,
     "limited": false,
@@ -29301,7 +30316,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Iced Black Tea (unsweetened, lemon wedge)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1875,
     "limited": false,
@@ -29347,7 +30364,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Sparkling Mineral Water (San Pellegrino, room temperature)",
-      "White Peony Tea (Bai Mu Dan, 180°F, no sugar)"
+      "White Peony Tea (Bai Mu Dan, 180°F, no sugar)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1844,
     "limited": false
@@ -29381,7 +30400,9 @@ const CIGARS = [
     "pairings": [
       "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1834,
     "limited": false,
@@ -29427,7 +30448,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -29489,7 +30512,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)"
+      "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -29549,7 +30574,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -29610,7 +30637,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -29666,7 +30695,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -29727,7 +30758,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -29782,7 +30815,9 @@ const CIGARS = [
     "pairings": [
       "Sparkling Mineral Water (San Pellegrino, lime wedge)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Coffee with Milk (medium roast, steamed whole milk)"
+      "Coffee with Milk (medium roast, steamed whole milk)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -29838,7 +30873,9 @@ const CIGARS = [
     "pairings": [
       "Dark Roast Coffee (French roast, no sugar)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -29894,7 +30931,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Gouda (5 year, crystalline)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -29950,7 +30989,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -30006,7 +31047,9 @@ const CIGARS = [
     "pairings": [
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 1989,
     "limited": true,
@@ -30063,7 +31106,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Mimosa (Champagne, fresh-squeezed orange juice)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Highland Single Malt (Dalmore 12, Oban 14)"
     ],
     "yearFounded": 1989,
     "limited": false,
@@ -30120,7 +31165,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1989,
     "limited": false,
@@ -30182,7 +31229,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1989,
     "limited": false
@@ -30216,7 +31265,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1989,
     "limited": false,
@@ -30277,7 +31328,9 @@ const CIGARS = [
     "pairings": [
       "Vanilla Latte (whole milk, vanilla bean, espresso)",
       "Triple-Distilled Irish Whiskey (Jameson Black Barrel, Redbreast 12)",
-      "Vanilla Bean Ice Cream (Madagascar vanilla, custard base)"
+      "Vanilla Bean Ice Cream (Madagascar vanilla, custard base)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -30337,7 +31390,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Mexican Coke (real cane sugar, glass bottle)",
-      "Coffee Liqueur (Kahlúa, Mr. Black Cold Brew)"
+      "Coffee Liqueur (Kahlúa, Mr. Black Cold Brew)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -30397,7 +31452,9 @@ const CIGARS = [
     "pairings": [
       "Cappuccino (whole milk, espresso, light foam)",
       "Vanilla Latte (whole milk, vanilla bean, espresso)",
-      "Irish Cream Liqueur (Baileys Irish Cream, Saint Brendan's)"
+      "Irish Cream Liqueur (Baileys Irish Cream, Saint Brendan's)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -30453,7 +31510,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -30510,7 +31569,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -30571,7 +31632,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Robust Porter (Deschutes Black Butte, Founders Porter)",
-      "BBQ Brisket (pepper-rubbed, post-oak smoked, no sauce)"
+      "BBQ Brisket (pepper-rubbed, post-oak smoked, no sauce)",
+      "Double Espresso (dark roast, no sugar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -30633,7 +31696,9 @@ const CIGARS = [
     "pairings": [
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Belgian Quadrupel (St. Bernardus Abt 12, Rochefort 10)"
     ],
     "yearFounded": 1996,
     "limited": true,
@@ -30694,7 +31759,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -30754,7 +31821,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -30815,7 +31884,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2003,
     "limited": false
@@ -30849,7 +31920,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2003,
     "limited": false
@@ -30883,7 +31956,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2003,
     "limited": false
@@ -30917,7 +31992,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2012,
     "limited": false
@@ -30950,7 +32027,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -31012,7 +32091,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -31064,7 +32145,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -31126,7 +32209,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
-      "Traditional Mead (Chaucer's, honey-fermented, room temperature)"
+      "Traditional Mead (Chaucer's, honey-fermented, room temperature)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -31188,7 +32273,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -31250,7 +32337,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1896,
     "limited": false,
@@ -31312,7 +32401,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Pinot Noir (Domaine Drouhin, La Crema Russian River Valley)"
+      "Pinot Noir (Domaine Drouhin, La Crema Russian River Valley)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1896,
     "limited": false,
@@ -31375,7 +32466,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Coffee with Milk (medium roast, steamed whole milk)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Highland Single Malt (Dalmore 12, Oban 14)"
     ],
     "yearFounded": 1896,
     "limited": false,
@@ -31437,7 +32530,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -31498,7 +32593,9 @@ const CIGARS = [
     "pairings": [
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
       "Double Espresso (dark roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -31560,7 +32657,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -31622,7 +32721,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Espresso (medium-dark roast, no sugar)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1904,
     "limited": false,
@@ -31669,7 +32770,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Wheated Bourbon (Maker's Mark, Larceny)"
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1904,
     "limited": false,
@@ -31731,7 +32834,9 @@ const CIGARS = [
     "pairings": [
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
       "Espresso (medium-dark roast, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1904,
     "limited": false,
@@ -31772,7 +32877,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -31835,7 +32942,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Pinot Noir (Domaine Drouhin, La Crema Russian River Valley)"
+      "Pinot Noir (Domaine Drouhin, La Crema Russian River Valley)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -31896,7 +33005,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Highland Single Malt (Dalmore 12, Oban 14)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -31959,7 +33070,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -32020,7 +33133,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Honey-Infused Wheated Bourbon (Maker's Mark 46, Jim Beam Honey)",
-      "German Hefeweizen (Weihenstephaner Hefeweißbier, Paulaner Hefe)"
+      "German Hefeweizen (Weihenstephaner Hefeweißbier, Paulaner Hefe)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -32082,7 +33197,9 @@ const CIGARS = [
     "pairings": [
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
       "Double Espresso (dark roast, no sugar)",
-      "Vintage Port (Fonseca Vintage, Graham's Crusted)"
+      "Vintage Port (Fonseca Vintage, Graham's Crusted)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Belgian Quadrupel (St. Bernardus Abt 12, Rochefort 10)"
     ],
     "yearFounded": 2014,
     "limited": true,
@@ -32139,7 +33256,9 @@ const CIGARS = [
     "pairings": [
       "Dark Roast Coffee (French roast, no sugar)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -32202,7 +33321,9 @@ const CIGARS = [
     "pairings": [
       "Cuban Coffee (cafecito, demerara sugar)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "BBQ Brisket (pepper-rubbed, post-oak smoked)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -32236,7 +33357,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -32285,10 +33408,11 @@ const CIGARS = [
     "popularity": 4,
     "description": "The Meridian is Cornelius & Anthony's mild-medium offering, dressed in a silky Ecuadorian Connecticut shade wrapper that delivers a clean, creamy profile. Vanilla and toasted bread notes make it an ideal morning smoke, with just enough cedar and pepper in the final third to keep experienced palates interested. Approachable without being boring.",
     "pairings": [
-      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
       "Sparkling Mineral Water (San Pellegrino, lime wedge)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Raw Buckwheat Honey (dark, mineral, unpasteurized)"
+      "Raw Buckwheat Honey (dark, mineral, unpasteurized)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -32340,7 +33464,8 @@ const CIGARS = [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Mexican Coke (real cane sugar, glass bottle)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -32387,7 +33512,8 @@ const CIGARS = [
       "Double Espresso (dark roast, no sugar)",
       "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -32434,7 +33560,8 @@ const CIGARS = [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Cream Ale (Genesee Cream Ale, Sixpoint Sweet Action)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -32496,7 +33623,8 @@ const CIGARS = [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "White Peony Tea (Bai Mu Dan, 180°F, no sugar)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Almond Biscotti (twice-baked, dipped in espresso)"
+      "Almond Biscotti (twice-baked, dipped in espresso)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -32531,7 +33659,8 @@ const CIGARS = [
       "Double Espresso (dark roast, no sugar)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Robust Porter (Deschutes Black Butte, Founders Porter)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -32593,7 +33722,8 @@ const CIGARS = [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Pecan Pie (Georgia pecans, brown sugar, bourbon glaze)"
+      "Pecan Pie (Georgia pecans, brown sugar, bourbon glaze)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2014,
     "limited": true,
@@ -32650,7 +33780,8 @@ const CIGARS = [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -32685,7 +33816,8 @@ const CIGARS = [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -32737,7 +33869,8 @@ const CIGARS = [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Cappuccino (whole milk, espresso, light foam)",
       "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -32788,8 +33921,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Pecan Pie (Georgia pecans, brown sugar, bourbon glaze)"
+      "Pecan Pie (Georgia pecans, brown sugar, bourbon glaze)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2013,
     "limited": false
@@ -32824,7 +33958,8 @@ const CIGARS = [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Mexican Coke (real cane sugar, glass bottle)",
-      "Cream Ale (Genesee Cream Ale, Sixpoint Sweet Action)"
+      "Cream Ale (Genesee Cream Ale, Sixpoint Sweet Action)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2013,
     "limited": false
@@ -32859,7 +33994,8 @@ const CIGARS = [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
       "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -32922,7 +34058,8 @@ const CIGARS = [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2011,
     "limited": false
@@ -32957,7 +34094,8 @@ const CIGARS = [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
-      "Hazelnut Liqueur (Frangelico, Nocello)"
+      "Hazelnut Liqueur (Frangelico, Nocello)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -33020,7 +34158,8 @@ const CIGARS = [
       "Double Espresso (dark roast, no sugar)",
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)"
+      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -33083,7 +34222,8 @@ const CIGARS = [
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Scottish Shortbread (Walkers, all-butter, crumbly)"
+      "Scottish Shortbread (Walkers, all-butter, crumbly)",
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -33134,8 +34274,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2016,
     "limited": false
@@ -33170,7 +34311,8 @@ const CIGARS = [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Cream Ale (Genesee Cream Ale, Sixpoint Sweet Action)",
-      "Roasted Marcona Almonds (Spanish, olive-oil fried, sea salt)"
+      "Roasted Marcona Almonds (Spanish, olive-oil fried, sea salt)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2016,
     "limited": false
@@ -33205,7 +34347,8 @@ const CIGARS = [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)",
-      "Roasted Cashews (lightly salted, whole)"
+      "Roasted Cashews (lightly salted, whole)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2016,
     "limited": false
@@ -33240,7 +34383,8 @@ const CIGARS = [
       "Double Espresso (dark roast, no sugar)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -33288,7 +34432,8 @@ const CIGARS = [
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
       "Double Espresso (dark roast, no sugar)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Pecan Pie (Georgia pecans, brown sugar, bourbon glaze)"
+      "Pecan Pie (Georgia pecans, brown sugar, bourbon glaze)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -33332,10 +34477,11 @@ const CIGARS = [
     "popularity": 3,
     "description": "Serena is Matilde's gentle side — an Ecuadorian Connecticut shade wrapper over an all-Dominican core that delivers the classic creamy, cedary profile the Dominican Republic built its reputation on. Hay and vanilla notes float through a smooth, floral smoke that never challenges or confronts. José Seijas designed this as a showcase for what Dominican tobacco does best: effortless elegance.",
     "pairings": [
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Sencha Green Tea (first flush, 170°F, no sugar)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Vanilla Bean Ice Cream (Madagascar vanilla, custard base)"
+      "Vanilla Bean Ice Cream (Madagascar vanilla, custard base)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -33383,7 +34529,8 @@ const CIGARS = [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
-      "Roasted Cashews (lightly salted, whole)"
+      "Roasted Cashews (lightly salted, whole)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -33441,7 +34588,8 @@ const CIGARS = [
       "Double Espresso (dark roast, no sugar)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -33493,7 +34641,8 @@ const CIGARS = [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -33545,7 +34694,8 @@ const CIGARS = [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Roasted Marcona Almonds (Spanish, olive-oil fried, sea salt)"
+      "Roasted Marcona Almonds (Spanish, olive-oil fried, sea salt)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2013,
     "limited": false
@@ -33580,7 +34730,8 @@ const CIGARS = [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Mexican Coke (real cane sugar, glass bottle)",
-      "Toasted Pecans (Georgia-grown, butter-roasted, sea salt)"
+      "Toasted Pecans (Georgia-grown, butter-roasted, sea salt)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2013,
     "limited": false
@@ -33615,7 +34766,8 @@ const CIGARS = [
       "Double Espresso (dark roast, no sugar)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Tiramisu (mascarpone, espresso-soaked savoiardi, cocoa dust)"
+      "Tiramisu (mascarpone, espresso-soaked savoiardi, cocoa dust)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -33667,7 +34819,8 @@ const CIGARS = [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Amaretto (Disaronno Originale, Lazzaroni Amaretto)",
-      "Almond Biscotti (twice-baked, dipped in espresso)"
+      "Almond Biscotti (twice-baked, dipped in espresso)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -33730,7 +34883,8 @@ const CIGARS = [
       "Cappuccino (whole milk, espresso, light foam)",
       "Sparkling Mineral Water (San Pellegrino, lime wedge)",
       "Limoncello (homemade Amalfi, Villa Massa)",
-      "Vanilla Bean Ice Cream (Madagascar vanilla, custard base)"
+      "Vanilla Bean Ice Cream (Madagascar vanilla, custard base)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -33777,7 +34931,8 @@ const CIGARS = [
       "Double Espresso (dark roast, no sugar)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -33829,7 +34984,8 @@ const CIGARS = [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Aged Parmigiano-Reggiano (24 month, crumbly, crystalline)"
+      "Aged Parmigiano-Reggiano (24 month, crumbly, crystalline)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2006,
     "limited": false,
@@ -33877,7 +35033,8 @@ const CIGARS = [
       "Double Espresso (dark roast, no sugar)",
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2006,
     "limited": false,
@@ -33934,7 +35091,8 @@ const CIGARS = [
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
       "Iced Black Tea (unsweetened, lemon wedge)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Scottish Shortbread (Walkers, all-butter, crumbly)"
+      "Scottish Shortbread (Walkers, all-butter, crumbly)",
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 2006,
     "limited": false,
@@ -33991,7 +35149,8 @@ const CIGARS = [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1888,
     "limited": false,
@@ -34051,10 +35210,11 @@ const CIGARS = [
     "popularity": 5,
     "description": "The Cuellar Connecticut Kreme is a collaboration with master blender Heinrich Villiger and Honduran tobacconist José Cuellar, resulting in a silky Connecticut shade cigar built for everyday enjoyment. Cream and vanilla lead with toasty cedar and a gentle hay sweetness that makes this an ideal morning or anytime smoke. At its price point, it offers remarkable smoothness and impeccable construction.",
     "pairings": [
-      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
       "Sparkling Mineral Water (San Pellegrino, lime wedge)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Vanilla Bean Ice Cream (Madagascar vanilla, custard base)"
+      "Vanilla Bean Ice Cream (Madagascar vanilla, custard base)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 1888,
     "limited": false,
@@ -34117,7 +35277,8 @@ const CIGARS = [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
-      "Almond Pastry (buttery, flaky, light glaze)"
+      "Almond Pastry (buttery, flaky, light glaze)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1888,
     "limited": false,
@@ -34180,7 +35341,8 @@ const CIGARS = [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Roasted Mixed Nuts (almonds, cashews, pecans, sea salt)"
+      "Roasted Mixed Nuts (almonds, cashews, pecans, sea salt)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1916,
     "limited": false,
@@ -34232,7 +35394,8 @@ const CIGARS = [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
       "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)",
-      "Scottish Shortbread (Walkers, all-butter, crumbly)"
+      "Scottish Shortbread (Walkers, all-butter, crumbly)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1916,
     "limited": false,
@@ -34289,7 +35452,8 @@ const CIGARS = [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Mexican Coke (real cane sugar, glass bottle)",
-      "Dry-Roasted Peanuts (unsalted)"
+      "Dry-Roasted Peanuts (unsalted)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1916,
     "limited": false
@@ -34324,7 +35488,8 @@ const CIGARS = [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Aged Cheddar (2-year Tillamook, sharp, raw milk)"
+      "Aged Cheddar (2-year Tillamook, sharp, raw milk)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2007,
     "limited": false
@@ -34359,7 +35524,8 @@ const CIGARS = [
       "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
-      "Spicy Beef Jerky (chipotle-marinated, cracked pepper)"
+      "Spicy Beef Jerky (chipotle-marinated, cracked pepper)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2007,
     "limited": false
@@ -34394,7 +35560,8 @@ const CIGARS = [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2007,
     "limited": false
@@ -34429,7 +35596,8 @@ const CIGARS = [
       "Double Espresso (dark roast, no sugar)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Aged Gouda (5-year Beemster, crystal-flecked paste)"
+      "Aged Gouda (5-year Beemster, crystal-flecked paste)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2002,
     "limited": false,
@@ -34492,7 +35660,8 @@ const CIGARS = [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
       "Mexican Coke (real cane sugar, glass bottle)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Flat White (whole milk, medium roast)"
     ],
     "yearFounded": 2002,
     "limited": false,
@@ -34555,7 +35724,8 @@ const CIGARS = [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
-      "Toasted Pecans (Georgia-grown, butter-roasted, sea salt)"
+      "Toasted Pecans (Georgia-grown, butter-roasted, sea salt)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2002,
     "limited": false,
@@ -34619,7 +35789,8 @@ const CIGARS = [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Roasted Marcona Almonds (Spanish, olive-oil fried, sea salt)"
+      "Roasted Marcona Almonds (Spanish, olive-oil fried, sea salt)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1989,
     "limited": false,
@@ -34682,7 +35853,8 @@ const CIGARS = [
       "Double Espresso (dark roast, no sugar)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1989,
     "limited": false,
@@ -34742,7 +35914,9 @@ const CIGARS = [
     "pairings": [
       "Cappuccino (whole milk, espresso, light foam)",
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
-      "Café Latte (whole milk, double shot, medium roast)"
+      "Café Latte (whole milk, double shot, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -34804,7 +35978,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2013,
     "limited": false
@@ -34839,7 +36015,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2013,
     "limited": false
@@ -34872,7 +36050,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Sencha Green Tea (first flush, 170°F, no sugar)",
-      "Sparkling Mineral Water (San Pellegrino, lime wedge)"
+      "Sparkling Mineral Water (San Pellegrino, lime wedge)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -34933,7 +36113,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Mexican Coke (real cane sugar, glass bottle)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -34995,7 +36177,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -35058,7 +36242,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -35120,7 +36306,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -35181,7 +36369,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Cabernet Sauvignon (Caymus Napa Valley, Silver Oak Alexander Valley)"
+      "Cabernet Sauvignon (Caymus Napa Valley, Silver Oak Alexander Valley)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -35243,7 +36433,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Sencha Green Tea (first flush, 170°F, no sugar)",
-      "Vanilla Latte (whole milk, vanilla bean, espresso)"
+      "Vanilla Latte (whole milk, vanilla bean, espresso)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -35306,7 +36498,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Single Pot Still Irish Whiskey (Redbreast 12, Green Spot)",
-      "Cream Ale (Genesee Cream Ale, Sixpoint Sweet Action)"
+      "Cream Ale (Genesee Cream Ale, Sixpoint Sweet Action)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1865,
     "limited": false,
@@ -35367,7 +36561,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1865,
     "limited": false,
@@ -35430,7 +36626,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)"
+      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2009,
     "limited": false,
@@ -35491,7 +36689,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2009,
     "limited": false,
@@ -35553,7 +36753,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Vintage Port (Fonseca Vintage, Graham's Crusted)"
+      "Vintage Port (Fonseca Vintage, Graham's Crusted)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2009,
     "limited": false,
@@ -35614,7 +36816,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -35675,7 +36879,9 @@ const CIGARS = [
     "pairings": [
       "Cappuccino (whole milk, espresso, light foam)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false
@@ -35709,7 +36915,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1996,
     "limited": false
@@ -35744,7 +36952,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -35805,7 +37015,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -35866,7 +37078,9 @@ const CIGARS = [
     "pairings": [
       "Cappuccino (whole milk, espresso, light foam)",
       "Fresh-Squeezed Lemonade (Meyer lemons, light sugar)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false
@@ -35900,7 +37114,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -35962,7 +37178,9 @@ const CIGARS = [
     "pairings": [
       "Grand Marnier Cordon Rouge (Cognac-laced orange liqueur)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "West Coast IPA (Lagunitas IPA, Sierra Nevada Torpedo)"
+      "West Coast IPA (Lagunitas IPA, Sierra Nevada Torpedo)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -36024,7 +37242,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -36086,7 +37306,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2012,
     "limited": false
@@ -36120,7 +37342,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2011,
     "limited": true,
@@ -36182,7 +37406,9 @@ const CIGARS = [
     "pairings": [
       "Tennessee Sour Mash Whiskey (Jack Daniel's Single Barrel, George Dickel Barrel Select)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -36244,7 +37470,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Sencha Green Tea (first flush, 170°F, no sugar)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -36305,7 +37533,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1988,
     "limited": false,
@@ -36367,7 +37597,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Pierre Ferrand XO, Hennessy XO)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)"
+      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1988,
     "limited": false,
@@ -36428,7 +37660,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1930,
     "limited": false,
@@ -36491,7 +37725,9 @@ const CIGARS = [
     "pairings": [
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
       "Espresso (medium-dark roast, no sugar)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1930,
     "limited": false,
@@ -36552,7 +37788,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1995,
     "limited": false
@@ -36586,7 +37824,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2002,
     "limited": false
@@ -36620,7 +37860,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Sparkling Mineral Water (San Pellegrino, lime wedge)"
+      "Sparkling Mineral Water (San Pellegrino, lime wedge)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -36682,7 +37924,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Cream Ale (Genesee Cream Ale, Sixpoint Sweet Action)"
+      "Cream Ale (Genesee Cream Ale, Sixpoint Sweet Action)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -36744,7 +37988,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1995,
     "limited": false,
@@ -36806,7 +38052,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Fresh-Squeezed Lemonade (Meyer lemons, light sugar)"
+      "Fresh-Squeezed Lemonade (Meyer lemons, light sugar)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1992,
     "limited": false,
@@ -36868,7 +38116,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1992,
     "limited": false
@@ -36902,7 +38152,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Vintage Port (Fonseca Vintage, Graham's Crusted)"
+      "Vintage Port (Fonseca Vintage, Graham's Crusted)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 1992,
     "limited": false,
@@ -36964,7 +38216,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -37027,7 +38281,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -37088,7 +38344,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "BBQ Brisket (pepper-rubbed, post-oak smoked, no sauce)"
+      "BBQ Brisket (pepper-rubbed, post-oak smoked, no sauce)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -37150,7 +38408,9 @@ const CIGARS = [
     "pairings": [
       "Cappuccino (whole milk, espresso, light foam)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -37207,7 +38467,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Hazelnut Liqueur (Frangelico, Nocello)"
+      "Hazelnut Liqueur (Frangelico, Nocello)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -37269,7 +38531,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -37331,7 +38595,9 @@ const CIGARS = [
     "pairings": [
       "Cappuccino (whole milk, espresso, light foam)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "German Hefeweizen (Weihenstephaner Hefeweißbier, Paulaner Hefe)"
+      "German Hefeweizen (Weihenstephaner Hefeweißbier, Paulaner Hefe)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -37393,7 +38659,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -37455,7 +38723,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1865,
     "limited": false,
@@ -37517,7 +38787,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1865,
     "limited": false,
@@ -37578,7 +38850,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2009,
     "limited": false
@@ -37611,7 +38885,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
-      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)"
+      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2009,
     "limited": false
@@ -37644,7 +38920,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -37700,7 +38978,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "White Burgundy (Puligny-Montrachet, Chablis Premier Cru)",
-      "Sencha Green Tea (first flush, 170°F, no sugar)"
+      "Sencha Green Tea (first flush, 170°F, no sugar)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "BBQ Brisket (pepper-rubbed, post-oak smoked)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -37761,7 +39041,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "BBQ Brisket (pepper-rubbed, post-oak smoked)"
     ],
     "yearFounded": 2023,
     "limited": false,
@@ -37817,7 +39099,9 @@ const CIGARS = [
     "pairings": [
       "West Coast IPA (Lagunitas IPA, Sierra Nevada Torpedo)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -37878,7 +39162,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Sencha Green Tea (first flush, 170°F, no sugar)"
+      "Sencha Green Tea (first flush, 170°F, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -37939,7 +39225,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Gouda (5 year, crystalline)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2017,
     "limited": false,
@@ -38000,7 +39288,9 @@ const CIGARS = [
     "pairings": [
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)"
+      "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -38061,7 +39351,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Espresso (medium-dark roast, no sugar)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)"
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2018,
     "limited": false,
@@ -38117,7 +39409,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Double Espresso (dark roast, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2019,
     "limited": false,
@@ -38163,7 +39457,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2018,
     "limited": false,
@@ -38214,7 +39510,9 @@ const CIGARS = [
     "pairings": [
       "Rum Old Fashioned (aged rum, demerara sugar, orange bitters)",
       "Masala Chai (Assam tea, cardamom, clove, whole milk)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -38270,7 +39568,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2017,
     "limited": false,
@@ -38321,7 +39621,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2018,
     "limited": false,
@@ -38377,7 +39679,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2020,
     "limited": false
@@ -38410,7 +39714,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -38466,7 +39772,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -38521,7 +39829,9 @@ const CIGARS = [
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -38571,7 +39881,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "English Breakfast Tea (Assam + Ceylon, splash of milk)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -38627,7 +39939,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Sparkling Mineral Water (San Pellegrino, lime wedge)"
+      "Sparkling Mineral Water (San Pellegrino, lime wedge)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2006,
     "limited": false,
@@ -38687,7 +40001,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -38748,7 +40064,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2018,
     "limited": false
@@ -38781,7 +40099,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2018,
     "limited": false
@@ -38815,7 +40135,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -38875,7 +40197,9 @@ const CIGARS = [
     "pairings": [
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
-      "Iced Coffee (cold brew over ice, light cream)"
+      "Iced Coffee (cold brew over ice, light cream)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -38936,7 +40260,9 @@ const CIGARS = [
     "pairings": [
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
       "Sencha Green Tea (first flush, 170°F, no sugar)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -38997,7 +40323,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -39053,7 +40381,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Coffee with Milk (medium roast, steamed whole milk)"
+      "Coffee with Milk (medium roast, steamed whole milk)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1988,
     "limited": false,
@@ -39114,7 +40444,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Ruby Port (Graham's Six Grapes, Dow's Fine Ruby)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -39175,7 +40507,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
-      "Hazelnut Coffee (medium roast, hazelnut syrup, cream)"
+      "Hazelnut Coffee (medium roast, hazelnut syrup, cream)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2017,
     "limited": false,
@@ -39236,7 +40570,9 @@ const CIGARS = [
     "pairings": [
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
       "Double Espresso (dark roast, no sugar)",
-      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2002,
     "limited": false,
@@ -39297,7 +40633,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2008,
     "limited": false
@@ -39330,7 +40668,9 @@ const CIGARS = [
     "pairings": [
       "Cabernet Sauvignon (Caymus Napa Valley, Silver Oak Alexander Valley)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Double Espresso (dark roast, no sugar)",
+      "BBQ Brisket (pepper-rubbed, post-oak smoked)"
     ],
     "yearFounded": 2010,
     "limited": false,
@@ -39375,7 +40715,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Espresso (medium-dark roast, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -39436,7 +40778,9 @@ const CIGARS = [
     "pairings": [
       "Rioja Reserva (Marqués de Riscal, CVNE Imperial Reserva)",
       "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2011,
     "limited": false
@@ -39469,7 +40813,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "West Coast IPA (Lagunitas IPA, Sierra Nevada Torpedo)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2016,
     "limited": false
@@ -39502,7 +40848,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Sparkling Mineral Water (San Pellegrino, lime wedge)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -39543,7 +40891,9 @@ const CIGARS = [
     "pairings": [
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
       "Sencha Green Tea (first flush, 170°F, no sugar)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -39588,7 +40938,9 @@ const CIGARS = [
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
       "Espresso (medium-dark roast, no sugar)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2002,
     "limited": false,
@@ -39644,7 +40996,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Espresso (medium-dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2010,
     "limited": false
@@ -39677,7 +41031,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2023,
     "limited": false,
@@ -39732,7 +41088,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)"
+      "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false
@@ -39765,7 +41123,9 @@ const CIGARS = [
     "pairings": [
       "West Coast IPA (Lagunitas IPA, Sierra Nevada Torpedo)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -39816,7 +41176,9 @@ const CIGARS = [
     "pairings": [
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2015,
     "limited": true,
@@ -39877,7 +41239,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2005,
     "limited": false
@@ -39910,7 +41274,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)"
+      "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2008,
     "limited": false
@@ -39943,7 +41309,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2003,
     "limited": false
@@ -39976,7 +41344,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Highland Single Malt (Dalmore 15, Oban 14)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false
@@ -40009,7 +41379,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)"
+      "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2010,
     "limited": false,
@@ -40070,7 +41442,9 @@ const CIGARS = [
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)"
+      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2019,
     "limited": false,
@@ -40131,7 +41505,9 @@ const CIGARS = [
     "pairings": [
       "Old Vine Zinfandel (Ravenswood Old Vine, Ridge Three Valleys)",
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2009,
     "limited": false
@@ -40164,7 +41540,9 @@ const CIGARS = [
     "pairings": [
       "Cabernet Sauvignon (Caymus Napa Valley, Silver Oak Alexander Valley)",
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2009,
     "limited": false
@@ -40197,7 +41575,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2010,
     "limited": false
@@ -40230,7 +41610,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -40276,7 +41658,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2015,
     "limited": false
@@ -40309,7 +41693,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Artisanal Mezcal (Del Maguey Vida, Sombra Mezcal)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -40370,7 +41756,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Robust Porter (Deschutes Black Butte, Founders Porter)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Belgian Quadrupel (St. Bernardus Abt 12, Rochefort 10)"
     ],
     "yearFounded": 2018,
     "limited": false,
@@ -40416,7 +41804,9 @@ const CIGARS = [
     "pairings": [
       "Vanilla Latte (whole milk, vanilla bean, espresso)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Dry Riesling (Dr. Loosen Blue Slate, Trimbach Riesling)"
+      "Dry Riesling (Dr. Loosen Blue Slate, Trimbach Riesling)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2018,
     "limited": false,
@@ -40467,7 +41857,9 @@ const CIGARS = [
     "pairings": [
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Chamomile Tea (Egyptian loose-leaf, no sugar)"
+      "Chamomile Tea (Egyptian loose-leaf, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2017,
     "limited": false,
@@ -40518,7 +41910,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "Espresso (medium-dark roast, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -40569,7 +41963,9 @@ const CIGARS = [
     "pairings": [
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2020,
     "limited": true
@@ -40602,7 +41998,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2021,
     "limited": false,
@@ -40658,7 +42056,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Artisanal Mezcal (Del Maguey Vida, Sombra Mezcal)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Cold Brew (smooth, low acidity)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2020,
     "limited": false,
@@ -40713,7 +42113,9 @@ const CIGARS = [
     "pairings": [
       "Maryland-Style Rye (Pikesville, Sagamore Spirit)",
       "Espresso (medium-dark roast, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2021,
     "limited": false,
@@ -40753,7 +42155,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2017,
     "limited": false
@@ -40786,7 +42190,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2017,
     "limited": false,
@@ -40842,7 +42248,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2021,
     "limited": false
@@ -40875,7 +42283,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Sauvignon Blanc (Cloudy Bay, Kim Crawford Marlborough)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -40908,7 +42318,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
-      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2020,
     "limited": false,
@@ -40959,7 +42371,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -41020,7 +42434,9 @@ const CIGARS = [
     "pairings": [
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
       "Sencha Green Tea (first flush, 170°F, no sugar)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2019,
     "limited": false
@@ -41053,7 +42469,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2018,
     "limited": false,
@@ -41114,7 +42532,9 @@ const CIGARS = [
     "pairings": [
       "Rioja Reserva (Marqués de Riscal, CVNE Imperial Reserva)",
       "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2015,
     "limited": false
@@ -41147,7 +42567,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "West Coast IPA (Lagunitas IPA, Sierra Nevada Torpedo)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2019,
     "limited": false
@@ -41180,7 +42602,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Aged High-Corn Bourbon 10yr+ (Elijah Craig 12, Buffalo Trace Antique Collection)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2008,
     "limited": false
@@ -41213,7 +42637,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2005,
     "limited": false,
@@ -41274,7 +42700,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false
@@ -41307,7 +42735,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)"
+      "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -41362,7 +42792,9 @@ const CIGARS = [
     "pairings": [
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2019,
     "limited": false
@@ -41395,7 +42827,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)"
+      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2024,
     "limited": false
@@ -41428,7 +42862,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -41489,7 +42925,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -41550,7 +42988,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "XO Cognac (Rémy Martin XO, Hennessy XO)"
+      "XO Cognac (Rémy Martin XO, Hennessy XO)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -41611,7 +43051,9 @@ const CIGARS = [
     "pairings": [
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Belgian Quadrupel (St. Bernardus Abt 12, Rochefort 10)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -41672,7 +43114,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -41732,7 +43176,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": true,
@@ -41792,7 +43238,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
-      "XO Cognac (Rémy Martin XO, Hennessy XO)"
+      "XO Cognac (Rémy Martin XO, Hennessy XO)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -41852,7 +43300,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": true,
@@ -41912,7 +43362,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -41945,7 +43397,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)"
+      "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -42006,7 +43460,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Vintage Port (Fonseca Vintage, Graham's Crusted)"
+      "Vintage Port (Fonseca Vintage, Graham's Crusted)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Belgian Quadrupel (St. Bernardus Abt 12, Rochefort 10)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -42067,7 +43523,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -42128,7 +43586,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -42189,7 +43649,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Vintage Port (Fonseca Vintage, Graham's Crusted)"
+      "Vintage Port (Fonseca Vintage, Graham's Crusted)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Belgian Quadrupel (St. Bernardus Abt 12, Rochefort 10)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -42250,7 +43712,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": true
@@ -42283,7 +43747,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": true
@@ -42316,7 +43782,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -42376,7 +43844,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -42431,7 +43901,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -42486,7 +43958,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Pu-erh Tea (aged raw sheng, 205°F, no sugar)",
-      "Highland Single Malt (Dalmore 15, Oban 14)"
+      "Highland Single Malt (Dalmore 15, Oban 14)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2000,
     "limited": true
@@ -42520,7 +43994,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -42553,7 +44029,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -42614,7 +44092,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -42647,7 +44127,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Wheated Bourbon (Maker's Mark, Larceny)"
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -42681,7 +44163,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -42715,7 +44199,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -42775,7 +44261,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -42831,7 +44319,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -42886,7 +44376,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": true
@@ -42919,7 +44411,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": true
@@ -42952,7 +44446,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -43008,7 +44504,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -43053,7 +44551,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -43114,7 +44614,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -43171,7 +44673,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -43204,7 +44708,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -43237,7 +44743,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -43298,7 +44806,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Pinot Noir (Domaine Drouhin, La Crema Russian River Valley)"
+      "Pinot Noir (Domaine Drouhin, La Crema Russian River Valley)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -43359,7 +44869,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Light Wheated Bourbon (Maker's Mark, Larceny)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -43421,7 +44933,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -43455,7 +44969,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -43488,7 +45004,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -43522,7 +45040,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -43555,7 +45075,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Cold Brew (smooth, low acidity)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2000,
     "limited": true,
@@ -43595,7 +45117,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Cabernet Sauvignon (Caymus Napa Valley, Silver Oak Alexander Valley)"
+      "Cabernet Sauvignon (Caymus Napa Valley, Silver Oak Alexander Valley)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": true
@@ -43628,7 +45152,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": true
@@ -43661,7 +45187,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -43722,7 +45250,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -43783,7 +45313,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -43838,7 +45370,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -43899,7 +45433,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -43960,7 +45496,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -43993,7 +45531,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -44054,7 +45594,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Coffee with Milk (medium roast, steamed whole milk)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -44115,7 +45657,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -44176,7 +45720,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -44237,7 +45783,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Light Wheated Bourbon (Maker's Mark, Larceny)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -44298,7 +45846,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -44332,7 +45882,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)"
+      "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -44392,7 +45944,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)"
+      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -44454,7 +46008,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -44515,7 +46071,9 @@ const CIGARS = [
     "pairings": [
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -44548,7 +46106,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Aged Gouda (5 year, crystalline)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": true,
@@ -44609,7 +46169,9 @@ const CIGARS = [
     "pairings": [
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "BBQ Brisket (pepper-rubbed, post-oak smoked)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -44670,7 +46232,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -44703,7 +46267,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Vintage Port (Fonseca Vintage, Graham's Crusted)"
+      "Vintage Port (Fonseca Vintage, Graham's Crusted)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Belgian Quadrupel (St. Bernardus Abt 12, Rochefort 10)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -44764,7 +46330,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -44825,7 +46393,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 2000,
     "limited": true,
@@ -44881,7 +46451,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -44914,7 +46486,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -44965,7 +46539,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -45026,7 +46602,9 @@ const CIGARS = [
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": true,
@@ -45087,7 +46665,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -45149,7 +46729,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -45209,7 +46791,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -45270,7 +46854,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Vintage Port (Fonseca Vintage, Graham's Crusted)"
+      "Vintage Port (Fonseca Vintage, Graham's Crusted)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Belgian Quadrupel (St. Bernardus Abt 12, Rochefort 10)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -45331,7 +46917,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -45392,7 +46980,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -45425,7 +47015,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -45486,7 +47078,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -45547,7 +47141,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -45608,7 +47204,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Double Espresso (dark roast, no sugar)"
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -45669,7 +47267,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -45730,7 +47330,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -45791,7 +47393,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -45852,7 +47456,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -45913,7 +47519,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -45969,7 +47577,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -46002,7 +47612,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Late Harvest Riesling (Inniskillin Icewine, Château Ste. Michelle Eroica)"
+      "Late Harvest Riesling (Inniskillin Icewine, Château Ste. Michelle Eroica)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -46053,7 +47665,9 @@ const CIGARS = [
     "pairings": [
       "Dark Roast Coffee (French roast, no sugar)",
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -46114,7 +47728,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Vintage Port (Fonseca Vintage, Graham's Crusted)"
+      "Vintage Port (Fonseca Vintage, Graham's Crusted)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Belgian Quadrupel (St. Bernardus Abt 12, Rochefort 10)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -46175,7 +47791,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -46236,7 +47854,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -46297,7 +47917,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -46358,7 +47980,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -46391,7 +48015,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)"
+      "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -46451,7 +48077,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -46484,7 +48112,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -46545,7 +48175,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -46601,7 +48233,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -46662,7 +48296,9 @@ const CIGARS = [
     "pairings": [
       "Honey-Infused Wheated Bourbon (Maker's Mark 46, Jim Beam Honey)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -46703,7 +48339,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Light Wheated Bourbon (Maker's Mark, Larceny)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -46758,8 +48396,10 @@ const CIGARS = [
     "description": "The Natural (sun-grown) version of Perdomo's Bourbon Barrel-Aged line offers a lighter, more cedar and vanilla-forward experience compared to the maduro sibling. The bourbon barrel aging of core tobaccos imparts genuine oak and vanilla sweetness that makes this an ideal pairing cigar.",
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -46820,7 +48460,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -46881,7 +48523,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2000,
     "limited": true,
@@ -46942,7 +48586,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": true,
@@ -47002,7 +48648,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Coffee with Milk (medium roast, steamed whole milk)"
+      "Coffee with Milk (medium roast, steamed whole milk)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2000,
     "limited": true,
@@ -47062,7 +48710,9 @@ const CIGARS = [
     "pairings": [
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
       "Double Espresso (dark roast, no sugar)",
-      "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+      "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -47122,7 +48772,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -47155,7 +48807,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -47210,7 +48864,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": true,
@@ -47271,7 +48927,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -47332,7 +48990,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Espresso (medium-dark roast, no sugar)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -47388,7 +49048,9 @@ const CIGARS = [
     "pairings": [
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
       "Highland Single Malt (Dalmore 15, Oban 14)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Gouda (5 year, crystalline)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": true,
@@ -47449,7 +49111,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": true,
@@ -47510,7 +49174,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Robust Porter (Deschutes Black Butte, Founders Porter)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -47571,7 +49237,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -47632,7 +49300,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Aged Gouda (5 year, crystalline)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -47694,7 +49364,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -47754,7 +49426,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -47815,7 +49489,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Café Latte (whole milk, double shot, medium roast)"
+      "Café Latte (whole milk, double shot, medium roast)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -47881,7 +49557,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -47915,7 +49593,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Robust Porter (Deschutes Black Butte, Founders Porter)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -47948,7 +49628,9 @@ const CIGARS = [
     "pairings": [
       "Czech Pilsner (Pilsner Urquell, Bitburger)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48004,7 +49686,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48065,7 +49749,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48126,7 +49812,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48176,7 +49864,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48226,7 +49916,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
       "Iced Coffee (cold brew over ice, light cream)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48287,7 +49979,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48343,7 +50037,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48404,7 +50100,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": true,
@@ -48460,7 +50158,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48521,7 +50221,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48582,7 +50284,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48643,7 +50347,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48704,7 +50410,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48765,7 +50473,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48827,7 +50537,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48887,7 +50599,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48938,7 +50652,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -48994,7 +50710,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49050,7 +50768,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49105,7 +50825,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Café Latte (whole milk, double shot, medium roast)"
+      "Café Latte (whole milk, double shot, medium roast)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49165,7 +50887,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49226,7 +50950,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49277,7 +51003,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49333,7 +51061,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49384,7 +51114,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49435,7 +51167,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Café Latte (whole milk, double shot, medium roast)"
+      "Café Latte (whole milk, double shot, medium roast)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49486,7 +51220,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49527,7 +51263,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -49560,7 +51298,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Czech Pilsner (Pilsner Urquell, Bitburger)"
+      "Czech Pilsner (Pilsner Urquell, Bitburger)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -49593,7 +51333,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Café Latte (whole milk, double shot, medium roast)"
+      "Café Latte (whole milk, double shot, medium roast)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49655,7 +51397,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Czech Pilsner (Pilsner Urquell, Bitburger)"
+      "Czech Pilsner (Pilsner Urquell, Bitburger)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49710,7 +51454,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Vanilla Latte (whole milk, vanilla bean, espresso)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49766,7 +51512,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49827,7 +51575,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Café Latte (whole milk, double shot, medium roast)"
+      "Café Latte (whole milk, double shot, medium roast)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49888,7 +51638,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -49954,7 +51706,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Café Latte (whole milk, double shot, medium roast)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50004,7 +51758,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50065,7 +51821,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50126,7 +51884,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50187,7 +51947,9 @@ const CIGARS = [
     "pairings": [
       "Añejo Tequila (Don Julio 1942, Herradura Añejo)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50249,7 +52011,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50309,7 +52073,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Café Latte (whole milk, double shot, medium roast)"
+      "Café Latte (whole milk, double shot, medium roast)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50360,7 +52126,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)"
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50421,7 +52189,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50482,7 +52252,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50543,7 +52315,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50600,7 +52374,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -50634,7 +52410,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50694,7 +52472,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": true
@@ -50727,7 +52507,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -50760,7 +52542,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50821,7 +52605,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50882,7 +52668,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50933,7 +52721,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -50984,7 +52774,9 @@ const CIGARS = [
     "pairings": [
       "Heavily Peated Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -51045,7 +52837,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -51106,7 +52900,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -51157,7 +52953,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -51218,7 +53016,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -51274,7 +53074,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -51321,7 +53123,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -51377,7 +53181,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Vanilla Latte (whole milk, vanilla bean, espresso)"
+      "Vanilla Latte (whole milk, vanilla bean, espresso)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -51437,7 +53243,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -51498,7 +53306,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -51554,7 +53364,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -51609,7 +53421,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -51670,7 +53484,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -51726,7 +53542,9 @@ const CIGARS = [
     "pairings": [
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
       "German Hefeweizen (Weihenstephaner Hefeweißbier, Paulaner Hefe)",
-      "Café Latte (whole milk, double shot, medium roast)"
+      "Café Latte (whole milk, double shot, medium roast)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2000,
     "limited": true,
@@ -51787,7 +53605,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false
@@ -51820,7 +53640,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -51881,7 +53703,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -51942,7 +53766,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -52004,7 +53830,9 @@ const CIGARS = [
     "pairings": [
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Café Latte (whole milk, double shot, medium roast)"
+      "Café Latte (whole milk, double shot, medium roast)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -52064,7 +53892,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Café Latte (whole milk, double shot, medium roast)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -52130,7 +53960,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -52191,7 +54023,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Late Harvest Riesling (Inniskillin Icewine, Château Ste. Michelle Eroica)"
+      "Late Harvest Riesling (Inniskillin Icewine, Château Ste. Michelle Eroica)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -52246,7 +54080,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Espresso (medium-dark roast, no sugar)",
-      "Highland Single Malt (Dalmore 15, Oban 14)"
+      "Highland Single Malt (Dalmore 15, Oban 14)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -52301,7 +54137,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -52357,7 +54195,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -52418,7 +54258,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Café Latte (whole milk, double shot, medium roast)"
+      "Café Latte (whole milk, double shot, medium roast)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -52468,7 +54310,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -52524,7 +54368,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)"
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -52579,7 +54425,9 @@ const CIGARS = [
     "pairings": [
       "Spiced Rum (Sailor Jerry, Kraken Black Spiced)",
       "Herbal Infusion (chamomile-mint blend, no caffeine)",
-      "Coffee with Milk (medium roast, steamed whole milk)"
+      "Coffee with Milk (medium roast, steamed whole milk)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2000,
     "limited": false,
@@ -52639,7 +54487,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
-      "Aged Gouda (5-year Beemster, crystal-flecked paste)"
+      "Aged Gouda (5-year Beemster, crystal-flecked paste)",
+      "Flat White (whole milk, medium roast)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -52694,7 +54544,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -52749,7 +54601,9 @@ const CIGARS = [
     "pairings": [
       "Morning Coffee (light-medium roast, black)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -52805,7 +54659,9 @@ const CIGARS = [
     "pairings": [
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2013,
     "limited": false,
@@ -52861,7 +54717,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
-      "Aged Gouda (5-year Beemster, crystal-flecked paste)"
+      "Aged Gouda (5-year Beemster, crystal-flecked paste)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2016,
     "limited": false,
@@ -52912,7 +54770,9 @@ const CIGARS = [
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
       "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
-      "Aged Cheddar (2-year Tillamook, sharp, raw milk)"
+      "Aged Cheddar (2-year Tillamook, sharp, raw milk)",
+      "Flat White (whole milk, medium roast)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2010,
     "limited": false,
@@ -52968,7 +54828,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Pinot Noir (Domaine Drouhin, La Crema Russian River Valley)",
-      "Almond Biscotti (twice-baked, dipped in espresso)"
+      "Almond Biscotti (twice-baked, dipped in espresso)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2018,
     "limited": false,
@@ -53029,7 +54891,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Honey Wheat Ale (Leinenkugel's Honey Weiss, Goose Island 312)",
-      "Whipped Cream Cheese (plain, on a plain bagel)"
+      "Whipped Cream Cheese (plain, on a plain bagel)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Highland Single Malt (Dalmore 12, Oban 14)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -53070,7 +54934,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -53116,7 +54982,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -53172,7 +55040,9 @@ const CIGARS = [
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Dried Fruit (Turkish apricots, Medjool dates, Mission figs)"
+      "Dried Fruit (Turkish apricots, Medjool dates, Mission figs)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2011,
     "limited": false
@@ -53205,7 +55075,9 @@ const CIGARS = [
     "pairings": [
       "Cortado (equal parts espresso and steamed milk)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Roasted Marcona Almonds (Spanish, olive-oil fried, sea salt)"
+      "Roasted Marcona Almonds (Spanish, olive-oil fried, sea salt)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -53261,7 +55133,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -53317,7 +55191,9 @@ const CIGARS = [
     "pairings": [
       "Orange Blossom Tea (Middle Eastern neroli-infused, lightly sweetened)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -53378,7 +55254,9 @@ const CIGARS = [
     "pairings": [
       "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
       "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
-      "Aged Manchego (12 month DO, raw sheep's milk)"
+      "Aged Manchego (12 month DO, raw sheep's milk)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -53439,7 +55317,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -53501,7 +55381,9 @@ const CIGARS = [
     "pairings": [
       "Flat White (whole milk, medium roast)",
       "Honey Wheat Ale (Leinenkugel's Honey Weiss, Goose Island 312)",
-      "Triple-Crème Brie (President, bloomy rind, room temperature)"
+      "Triple-Crème Brie (President, bloomy rind, room temperature)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -53561,7 +55443,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -53612,7 +55496,9 @@ const CIGARS = [
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
       "Americano (double shot espresso, hot water)",
-      "Dark Fruit Preserve (blackberry-fig jam, rustic)"
+      "Dark Fruit Preserve (blackberry-fig jam, rustic)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -53667,7 +55553,9 @@ const CIGARS = [
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
       "Café Latte (whole milk, double shot, medium roast)",
-      "Roasted Cashews (lightly salted, whole)"
+      "Roasted Cashews (lightly salted, whole)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -53722,7 +55610,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "West Coast IPA (Lagunitas IPA, Sierra Nevada Torpedo)",
-      "Aged Cheddar (2-year Tillamook, sharp, raw milk)"
+      "Aged Cheddar (2-year Tillamook, sharp, raw milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Añejo Tequila (Don Julio 1942, Herradura Añejo)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -53778,7 +55668,9 @@ const CIGARS = [
     "pairings": [
       "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Spiced Rum (Sailor Jerry, Kraken Black Spiced)"
+      "Spiced Rum (Sailor Jerry, Kraken Black Spiced)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2010,
     "limited": true,
@@ -53818,7 +55710,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2010,
     "limited": true,
@@ -53868,7 +55762,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2006,
     "limited": false
@@ -53901,7 +55797,9 @@ const CIGARS = [
     "pairings": [
       "Cuban Coffee (cafecito, demerara sugar)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Almond Pastry (buttery, flaky, light glaze)"
+      "Almond Pastry (buttery, flaky, light glaze)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -53957,7 +55855,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Cuban Coffee (cafecito, demerara sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -54018,7 +55918,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Dark Fruit Preserve (blackberry-fig jam, rustic)"
+      "Dark Fruit Preserve (blackberry-fig jam, rustic)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2009,
     "limited": false,
@@ -54079,7 +55981,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Vanilla Bean Ice Cream (Madagascar vanilla, custard base)",
-      "Pecan Pie (Georgia pecans, brown sugar, bourbon glaze)"
+      "Pecan Pie (Georgia pecans, brown sugar, bourbon glaze)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1992,
     "limited": false,
@@ -54141,7 +56045,9 @@ const CIGARS = [
     "pairings": [
       "Vanilla Latte (whole milk, vanilla bean, espresso)",
       "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
-      "Almond Pastry (buttery, flaky, light glaze)"
+      "Almond Pastry (buttery, flaky, light glaze)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -54201,7 +56107,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Espresso (medium-dark roast, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2007,
     "limited": false,
@@ -54255,7 +56163,10 @@ const CIGARS = [
     "description": "The Siglo I is the entry point of the Cohiba Siglo line, launched in 1992 as part of Cuba's prestigious Línea 1492 series. A mild, elegant smoke with the signature Cohiba triple-fermentation refinement.",
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)"
+      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -54301,7 +56212,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)"
+      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -54347,7 +56260,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Espresso (medium-dark roast, no sugar)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -54393,7 +56308,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -54439,7 +56356,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Highland Single Malt (Dalmore 15, Oban 14)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -54486,7 +56405,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Fino Sherry (Lustau Fino del Puerto, Tio Pepe)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -54532,7 +56453,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -54579,7 +56502,9 @@ const CIGARS = [
     "pairings": [
       "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "XO Cognac (Rémy Martin XO, Hennessy XO)"
+      "XO Cognac (Rémy Martin XO, Hennessy XO)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -54625,7 +56550,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Sencha Green Tea (first flush, 170°F, no sugar)"
+      "Sencha Green Tea (first flush, 170°F, no sugar)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -54669,7 +56596,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Jasmine Pearls Tea (silver-tipped, lightly sweetened)"
+      "Jasmine Pearls Tea (silver-tipped, lightly sweetened)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -54714,7 +56643,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)"
+      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -54760,7 +56691,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Sencha Green Tea (first flush, 170°F, no sugar)",
-      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)"
+      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -54807,7 +56740,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1966,
     "limited": true
@@ -54839,7 +56774,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Fresh Mint Tea (Moroccan style, demerara sugar)"
+      "Fresh Mint Tea (Moroccan style, demerara sugar)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1966,
     "limited": false
@@ -54872,7 +56809,9 @@ const CIGARS = [
     "pairings": [
       "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)",
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1966,
     "limited": true,
@@ -54918,7 +56857,9 @@ const CIGARS = [
     "pairings": [
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1966,
     "limited": true
@@ -54952,7 +56893,9 @@ const CIGARS = [
     "pairings": [
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1966,
     "limited": true
@@ -54986,7 +56929,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Aged High-Corn Bourbon 10yr+ (Elijah Craig 12, Buffalo Trace Antique Collection)",
-      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1966,
     "limited": true
@@ -55020,7 +56965,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)"
+      "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1845,
     "limited": false
@@ -55053,7 +57000,9 @@ const CIGARS = [
     "pairings": [
       "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1845,
     "limited": false
@@ -55086,7 +57035,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)"
+      "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1845,
     "limited": false
@@ -55120,7 +57071,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1845,
     "limited": false
@@ -55153,7 +57106,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1845,
     "limited": false
@@ -55187,7 +57142,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "XO Cognac (Rémy Martin XO, Hennessy XO)"
+      "XO Cognac (Rémy Martin XO, Hennessy XO)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1845,
     "limited": false,
@@ -55233,7 +57190,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1845,
     "limited": false
@@ -55267,7 +57226,9 @@ const CIGARS = [
     "pairings": [
       "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1845,
     "limited": true
@@ -55299,7 +57260,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1845,
     "limited": false
@@ -55332,7 +57295,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Herbal Infusion (chamomile-mint blend, no caffeine)"
+      "Herbal Infusion (chamomile-mint blend, no caffeine)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1845,
     "limited": false
@@ -55365,7 +57330,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1845,
     "limited": false
@@ -55400,7 +57367,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1845,
     "limited": false,
@@ -55445,7 +57414,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1845,
     "limited": false
@@ -55479,7 +57450,9 @@ const CIGARS = [
     "pairings": [
       "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)",
       "Smoky Espadín Mezcal (Del Maguey Vida, Illegal Joven)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1845,
     "limited": false
@@ -55513,7 +57486,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1845,
     "limited": true,
@@ -55559,7 +57534,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1845,
     "limited": true
@@ -55593,7 +57570,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1845,
     "limited": false
@@ -55627,7 +57606,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1902,
     "limited": false
@@ -55660,7 +57641,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)"
+      "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1902,
     "limited": false,
@@ -55706,7 +57689,9 @@ const CIGARS = [
     "pairings": [
       "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1902,
     "limited": false,
@@ -55751,7 +57736,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1902,
     "limited": false
@@ -55784,7 +57771,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)"
+      "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1902,
     "limited": false,
@@ -55832,7 +57821,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1902,
     "limited": false,
@@ -55876,7 +57867,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1902,
     "limited": false,
@@ -55922,7 +57915,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1902,
     "limited": false,
@@ -55967,7 +57962,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Brut Sparkling Wine (NV Cava, Crémant d'Alsace)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1902,
     "limited": false
@@ -56000,7 +57997,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1902,
     "limited": false,
@@ -56041,7 +58040,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1902,
     "limited": false,
@@ -56087,7 +58088,9 @@ const CIGARS = [
     "pairings": [
       "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1902,
     "limited": true
@@ -56121,7 +58124,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1902,
     "limited": true
@@ -56155,7 +58160,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1902,
     "limited": true
@@ -56189,7 +58196,9 @@ const CIGARS = [
     "pairings": [
       "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 1902,
     "limited": true
@@ -56222,7 +58231,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1844,
     "limited": false,
@@ -56268,7 +58279,9 @@ const CIGARS = [
     "pairings": [
       "Fino Sherry (Lustau Fino del Puerto, Tio Pepe)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Chamomile Tea (Egyptian loose-leaf, no sugar)"
+      "Chamomile Tea (Egyptian loose-leaf, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1844,
     "limited": false
@@ -56302,7 +58315,9 @@ const CIGARS = [
     "pairings": [
       "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "English Breakfast Tea (Assam + Ceylon, splash of milk)"
+      "English Breakfast Tea (Assam + Ceylon, splash of milk)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1844,
     "limited": false,
@@ -56346,7 +58361,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)"
+      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1844,
     "limited": false,
@@ -56392,7 +58409,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
-      "Coffee with Milk (medium roast, steamed whole milk)"
+      "Coffee with Milk (medium roast, steamed whole milk)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1844,
     "limited": false
@@ -56425,7 +58444,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)",
-      "Sencha Green Tea (first flush, 170°F, no sugar)"
+      "Sencha Green Tea (first flush, 170°F, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1844,
     "limited": false,
@@ -56470,7 +58491,9 @@ const CIGARS = [
     "pairings": [
       "Amontillado Sherry (Lustau Amontillado Los Arcos, Hidalgo Napoleon)",
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 1844,
     "limited": false
@@ -56502,7 +58525,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "White Peony Tea (Bai Mu Dan, 180°F, no sugar)",
-      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)"
+      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1844,
     "limited": false,
@@ -56543,7 +58568,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Chamomile Tea (Egyptian loose-leaf, no sugar)",
-      "Fino Sherry (Lustau Fino del Puerto, Tio Pepe)"
+      "Fino Sherry (Lustau Fino del Puerto, Tio Pepe)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1844,
     "limited": false,
@@ -56584,7 +58611,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Americano (double shot espresso, hot water)"
+      "Americano (double shot espresso, hot water)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1844,
     "limited": false,
@@ -56630,7 +58659,9 @@ const CIGARS = [
     "pairings": [
       "Coffee with Milk (medium roast, steamed whole milk)",
       "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
-      "Wheated Bourbon (Maker's Mark, Larceny)"
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1844,
     "limited": false
@@ -56664,7 +58695,9 @@ const CIGARS = [
     "pairings": [
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1844,
     "limited": true
@@ -56698,7 +58731,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Fino Sherry (Lustau Fino del Puerto, Tio Pepe)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1844,
     "limited": true
@@ -56730,7 +58765,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "White Peony Tea (Bai Mu Dan, 180°F, no sugar)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1844,
     "limited": false
@@ -56762,7 +58799,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)"
+      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1844,
     "limited": false
@@ -56795,7 +58834,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Fino Sherry (Lustau Fino del Puerto, Tio Pepe)",
-      "Sencha Green Tea (first flush, 170°F, no sugar)"
+      "Sencha Green Tea (first flush, 170°F, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1844,
     "limited": false
@@ -56828,7 +58869,9 @@ const CIGARS = [
     "pairings": [
       "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "English Breakfast Tea (Assam + Ceylon, splash of milk)"
+      "English Breakfast Tea (Assam + Ceylon, splash of milk)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1875,
     "limited": false,
@@ -56873,7 +58916,9 @@ const CIGARS = [
     "pairings": [
       "Provençal Rosé (Whispering Angel, Domaines Ott)",
       "Fino Sherry (Lustau Fino del Puerto, Tio Pepe)",
-      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)"
+      "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 1875,
     "limited": false,
@@ -56918,7 +58963,9 @@ const CIGARS = [
     "pairings": [
       "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1875,
     "limited": false
@@ -56951,7 +58998,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Fino Sherry (Lustau Fino del Puerto, Tio Pepe)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1875,
     "limited": false
@@ -56984,7 +59033,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
-      "English Breakfast Tea (Assam + Ceylon, splash of milk)"
+      "English Breakfast Tea (Assam + Ceylon, splash of milk)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1875,
     "limited": false
@@ -57016,7 +59067,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Fino Sherry (Lustau Fino del Puerto, Tio Pepe)",
-      "White Peony Tea (Bai Mu Dan, 180°F, no sugar)"
+      "White Peony Tea (Bai Mu Dan, 180°F, no sugar)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1875,
     "limited": false
@@ -57049,7 +59102,9 @@ const CIGARS = [
     "pairings": [
       "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
       "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1875,
     "limited": false
@@ -57082,7 +59137,9 @@ const CIGARS = [
     "pairings": [
       "Provençal Rosé (Whispering Angel, Domaines Ott)",
       "Light Roast Coffee (blonde roast, black)",
-      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)"
+      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1875,
     "limited": false
@@ -57115,7 +59172,9 @@ const CIGARS = [
     "pairings": [
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
       "Fino Sherry (Lustau Fino del Puerto, Tio Pepe)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1875,
     "limited": false
@@ -57148,7 +59207,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Light Roast Coffee (blonde roast, black)",
-      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)"
+      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1875,
     "limited": false
@@ -57180,7 +59241,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "White Peony Tea (Bai Mu Dan, 180°F, no sugar)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1875,
     "limited": false
@@ -57212,7 +59275,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "White Peony Tea (Bai Mu Dan, 180°F, no sugar)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1875,
     "limited": false,
@@ -57259,7 +59324,9 @@ const CIGARS = [
     "pairings": [
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
       "VS Cognac (Hennessy VS, Pierre Ferrand 1840)",
-      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)"
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Cold Brew (smooth, low acidity)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1875,
     "limited": true
@@ -57293,7 +59360,9 @@ const CIGARS = [
     "pairings": [
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
       "XO Cognac (Pierre Ferrand XO, Hennessy XO)",
-      "Highland Single Malt (Dalmore 15, Oban 14)"
+      "Highland Single Malt (Dalmore 15, Oban 14)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1875,
     "limited": true,
@@ -57337,7 +59406,9 @@ const CIGARS = [
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
       "Fresh Mint Tea (Moroccan style, demerara sugar)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1875,
     "limited": false
@@ -57370,7 +59441,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1875,
     "limited": false
@@ -57404,7 +59477,9 @@ const CIGARS = [
     "pairings": [
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Americano (double shot espresso, hot water)"
+      "Americano (double shot espresso, hot water)",
+      "Candied Ginger (crystallized, sweet and spicy)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1875,
     "limited": false,
@@ -57449,7 +59524,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1935,
     "limited": false,
@@ -57493,7 +59570,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "White Peony Tea (Bai Mu Dan, 180°F, no sugar)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1935,
     "limited": false
@@ -57526,7 +59605,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Highland Single Malt (Dalmore 15, Oban 14)"
+      "Highland Single Malt (Dalmore 15, Oban 14)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1935,
     "limited": false,
@@ -57572,7 +59653,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1935,
     "limited": false,
@@ -57618,7 +59701,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1935,
     "limited": false,
@@ -57667,7 +59752,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2014,
     "limited": true,
@@ -57714,7 +59801,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Pierre Ferrand XO, Hennessy XO)",
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2014,
     "limited": true,
@@ -57759,7 +59848,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Highland Single Malt (Dalmore 15, Oban 14)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2014,
     "limited": true
@@ -57790,7 +59881,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Fresh Mint Tea (Moroccan style, demerara sugar)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1935,
     "limited": false
@@ -57824,7 +59917,9 @@ const CIGARS = [
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1935,
     "limited": false,
@@ -57868,7 +59963,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Light Roast Coffee (blonde roast, black)"
+      "Light Roast Coffee (blonde roast, black)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1935,
     "limited": false
@@ -57901,7 +59998,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)"
+      "Cream Sherry (Harvey's Bristol Cream, Lustau East India)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1935,
     "limited": false
@@ -57934,7 +60033,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1935,
     "limited": false
@@ -57968,7 +60069,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1935,
     "limited": true
@@ -58002,7 +60105,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Double Espresso (dark roast, no sugar)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1935,
     "limited": false
@@ -58035,7 +60140,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1935,
     "limited": false
@@ -58070,7 +60177,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Pierre Ferrand XO, Hennessy XO)",
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
-      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2014,
     "limited": true
@@ -58102,7 +60211,9 @@ const CIGARS = [
     "pairings": [
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Café Latte (whole milk, double shot, medium roast)"
+      "Café Latte (whole milk, double shot, medium roast)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1969,
     "limited": false,
@@ -58147,7 +60258,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Traditional Mead (Chaucer's, honey-fermented, room temperature)",
-      "Chamomile Tea (Egyptian loose-leaf, no sugar)"
+      "Chamomile Tea (Egyptian loose-leaf, no sugar)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1969,
     "limited": true,
@@ -58191,7 +60304,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Light Wheated Bourbon (Maker's Mark, Larceny)",
-      "Southern Sweet Tea (black tea, demerara sugar, lemon)"
+      "Southern Sweet Tea (black tea, demerara sugar, lemon)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1969,
     "limited": false,
@@ -58235,7 +60350,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Spiced Rum (Sailor Jerry, Kraken Black Spiced)"
+      "Spiced Rum (Sailor Jerry, Kraken Black Spiced)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1969,
     "limited": true,
@@ -58280,7 +60397,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Sencha Green Tea (first flush, 170°F, no sugar)"
+      "Sencha Green Tea (first flush, 170°F, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1865,
     "limited": false
@@ -58312,7 +60431,9 @@ const CIGARS = [
     "pairings": [
       "Sparkling Mineral Water (San Pellegrino, room temperature)",
       "Sauvignon Blanc (Cloudy Bay, Kim Crawford Marlborough)",
-      "Jasmine Pearls Tea (silver-tipped, lightly sweetened)"
+      "Jasmine Pearls Tea (silver-tipped, lightly sweetened)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1865,
     "limited": false
@@ -58344,7 +60465,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Fresh Mint Tea (Moroccan style, demerara sugar)"
+      "Fresh Mint Tea (Moroccan style, demerara sugar)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1865,
     "limited": false,
@@ -58388,7 +60511,9 @@ const CIGARS = [
     "pairings": [
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
       "Provençal Rosé (Whispering Angel, Domaines Ott)",
-      "Oolong Tea (Tieguanyin, medium-roast, no sugar)"
+      "Oolong Tea (Tieguanyin, medium-roast, no sugar)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1865,
     "limited": true
@@ -58420,7 +60545,9 @@ const CIGARS = [
     "pairings": [
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Fresh-Squeezed Lemonade (Meyer lemons, light sugar)"
+      "Fresh-Squeezed Lemonade (Meyer lemons, light sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1892,
     "limited": false
@@ -58452,7 +60579,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Sencha Green Tea (first flush, 170°F, no sugar)",
-      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)"
+      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1892,
     "limited": false
@@ -58484,7 +60613,9 @@ const CIGARS = [
     "pairings": [
       "Vanilla Latte (whole milk, vanilla bean, espresso)",
       "Cava Reserva (Codorníu Gran Reserva, Freixenet Cordon Negro)",
-      "Herbal Infusion (chamomile-mint blend, no caffeine)"
+      "Herbal Infusion (chamomile-mint blend, no caffeine)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1892,
     "limited": false
@@ -58516,7 +60647,9 @@ const CIGARS = [
     "pairings": [
       "Cuban Coffee (cafecito, demerara sugar)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Aged High-Corn Bourbon 10yr+ (Elijah Craig 12, Buffalo Trace Antique Collection)"
+      "Aged High-Corn Bourbon 10yr+ (Elijah Craig 12, Buffalo Trace Antique Collection)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1999,
     "limited": false
@@ -58548,7 +60681,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Pinot Noir (Domaine Drouhin, La Crema Russian River Valley)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1999,
     "limited": false
@@ -58580,7 +60715,9 @@ const CIGARS = [
     "pairings": [
       "Dark Roast Coffee (French roast, no sugar)",
       "Light Wheated Bourbon (Maker's Mark, Larceny)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1999,
     "limited": false
@@ -58612,7 +60749,9 @@ const CIGARS = [
     "pairings": [
       "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Chamomile Tea (Egyptian loose-leaf, no sugar)"
+      "Chamomile Tea (Egyptian loose-leaf, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1882,
     "limited": false
@@ -58644,7 +60783,9 @@ const CIGARS = [
     "pairings": [
       "Fino Sherry (Lustau Fino del Puerto, Tio Pepe)",
       "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)",
-      "Sencha Green Tea (first flush, 170°F, no sugar)"
+      "Sencha Green Tea (first flush, 170°F, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1882,
     "limited": false
@@ -58676,7 +60817,9 @@ const CIGARS = [
     "pairings": [
       "Sparkling Mineral Water (San Pellegrino, room temperature)",
       "Light Roast Coffee (blonde roast, black)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1882,
     "limited": false
@@ -58708,7 +60851,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Highland Single Malt (Dalmore 15, Oban 14)"
+      "Highland Single Malt (Dalmore 15, Oban 14)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1997,
     "limited": false
@@ -58740,7 +60885,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)"
+      "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1997,
     "limited": false
@@ -58773,7 +60920,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Cortado (equal parts espresso and steamed milk)",
-      "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)"
+      "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -58817,7 +60966,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)"
+      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1996,
     "limited": false
@@ -58850,7 +61001,9 @@ const CIGARS = [
     "pairings": [
       "Grand Marnier Cordon Rouge (Cognac-laced orange liqueur)",
       "Double Espresso (dark roast, no sugar)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": true,
@@ -58894,7 +61047,9 @@ const CIGARS = [
     "pairings": [
       "Iced Black Tea (unsweetened, lemon wedge)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Fresh-Squeezed Lemonade (Meyer lemons, light sugar)"
+      "Fresh-Squeezed Lemonade (Meyer lemons, light sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1997,
     "limited": false
@@ -58926,7 +61081,9 @@ const CIGARS = [
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1997,
     "limited": false,
@@ -58970,7 +61127,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Chamomile Tea (Egyptian loose-leaf, no sugar)"
+      "Chamomile Tea (Egyptian loose-leaf, no sugar)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1997,
     "limited": false
@@ -59002,7 +61161,9 @@ const CIGARS = [
     "pairings": [
       "Dark Roast Coffee (French roast, no sugar)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1876,
     "limited": false
@@ -59034,7 +61195,9 @@ const CIGARS = [
     "pairings": [
       "Cuban Coffee (cafecito, demerara sugar)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1876,
     "limited": false
@@ -59066,7 +61229,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1837,
     "limited": false
@@ -59098,7 +61263,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Ginger Tea (fresh-pressed ginger, honey)"
+      "Ginger Tea (fresh-pressed ginger, honey)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Cuban White Rum (Havana Club 3, Ron Santiago 11)"
     ],
     "yearFounded": 1837,
     "limited": false
@@ -59130,7 +61297,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Aged High-Rye Bourbon 10yr+ (Wild Turkey Rare Breed, Russell's Reserve 10)",
-      "Cuban Coffee (cafecito, demerara sugar)"
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1837,
     "limited": true
@@ -59162,7 +61331,9 @@ const CIGARS = [
     "pairings": [
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
       "White Peony Tea (Bai Mu Dan, 180°F, no sugar)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1848,
     "limited": false,
@@ -59206,7 +61377,9 @@ const CIGARS = [
     "pairings": [
       "Rioja Reserva (Marqués de Riscal, CVNE Imperial Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1848,
     "limited": false
@@ -59238,7 +61411,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Chamomile Tea (Egyptian loose-leaf, no sugar)"
+      "Chamomile Tea (Egyptian loose-leaf, no sugar)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1848,
     "limited": false
@@ -59270,7 +61445,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
-      "Lavender Tea (Provence-grown, dried buds, no sugar)"
+      "Lavender Tea (Provence-grown, dried buds, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1973,
     "limited": false,
@@ -59314,7 +61491,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Earl Grey Tea (Bergamot-infused, loose-leaf, no sugar)",
-      "Lychee Juice (Canned, unsweetened)"
+      "Lychee Juice (Canned, unsweetened)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1973,
     "limited": false
@@ -59346,7 +61525,9 @@ const CIGARS = [
     "pairings": [
       "Calvados Pays d'Auge (Pierre Huet VSOP, Christian Drouin Coeur de Lion)",
       "Crème Brûlée (vanilla bean custard, caramelized sugar crust)",
-      "Blanc de Blancs Champagne (Pierre Péters Cuvée de Réserve, Salon Le Mesnil)"
+      "Blanc de Blancs Champagne (Pierre Péters Cuvée de Réserve, Salon Le Mesnil)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1973,
     "limited": false
@@ -59378,7 +61559,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Light Roast Coffee (blonde roast, black)",
-      "Hibiscus Tea (Egyptian karkadeh, lightly sweetened)"
+      "Hibiscus Tea (Egyptian karkadeh, lightly sweetened)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1928,
     "limited": false
@@ -59410,7 +61593,9 @@ const CIGARS = [
     "pairings": [
       "Fino Sherry (Lustau Fino del Puerto, Tio Pepe)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Oolong Tea (Tieguanyin, medium-roast, no sugar)"
+      "Oolong Tea (Tieguanyin, medium-roast, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1928,
     "limited": false
@@ -59442,7 +61627,9 @@ const CIGARS = [
     "pairings": [
       "Jasmine Pearls Tea (silver-tipped, lightly sweetened)",
       "Sparkling Mineral Water (San Pellegrino, room temperature)",
-      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)"
+      "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1928,
     "limited": false
@@ -59474,7 +61661,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)"
+      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1834,
     "limited": false
@@ -59506,7 +61695,9 @@ const CIGARS = [
     "pairings": [
       "Dark Roast Coffee (French roast, no sugar)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1834,
     "limited": false
@@ -59538,7 +61729,9 @@ const CIGARS = [
     "pairings": [
       "Pinot Noir (Domaine Drouhin, La Crema Russian River Valley)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1834,
     "limited": false
@@ -59570,7 +61763,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Rum Old Fashioned (aged rum, demerara sugar, orange bitters)",
-      "Light Wheated Bourbon (Maker's Mark, Larceny)"
+      "Light Wheated Bourbon (Maker's Mark, Larceny)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -59615,7 +61810,9 @@ const CIGARS = [
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Tonic Water (Fever-Tree Mediterranean, lime wedge)"
+      "Tonic Water (Fever-Tree Mediterranean, lime wedge)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -59660,7 +61857,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Highland Single Malt (Dalmore 15, Oban 14)"
+      "Highland Single Malt (Dalmore 15, Oban 14)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1966,
     "limited": false,
@@ -59705,7 +61904,9 @@ const CIGARS = [
     "pairings": [
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Cuban Coffee (cafecito, demerara sugar)",
+      "Aged Manchego (12 month, sheep's milk)"
     ],
     "yearFounded": 1884,
     "limited": false,
@@ -59749,7 +61950,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Sencha Green Tea (first flush, 170°F, no sugar)",
-      "Fresh-Squeezed Lemonade (Meyer lemons, light sugar)"
+      "Fresh-Squeezed Lemonade (Meyer lemons, light sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1884,
     "limited": false
@@ -59781,7 +61984,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1940,
     "limited": false
@@ -59813,7 +62018,9 @@ const CIGARS = [
     "pairings": [
       "Cuban Coffee (cafecito, demerara sugar)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1940,
     "limited": false
@@ -59845,7 +62052,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Sparkling Mineral Water (San Pellegrino, room temperature)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1924,
     "limited": false,
@@ -59884,7 +62093,9 @@ const CIGARS = [
     "pairings": [
       "Iced Black Tea (unsweetened, lemon wedge)",
       "Cuban White Rum (Havana Club 3, Ron Cubay Añejo)",
-      "Sparkling Mineral Water (San Pellegrino, lime wedge)"
+      "Sparkling Mineral Water (San Pellegrino, lime wedge)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 1924,
     "limited": false,
@@ -59929,7 +62140,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1900,
     "limited": false
@@ -59961,7 +62174,9 @@ const CIGARS = [
     "pairings": [
       "Dark Roast Coffee (French roast, no sugar)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Agua Fresca de Sandía (fresh watermelon, lime, no sugar)"
+      "Agua Fresca de Sandía (fresh watermelon, lime, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1900,
     "limited": false
@@ -59993,7 +62208,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Old Vine Zinfandel (Ravenswood Old Vine, Ridge Three Valleys)"
+      "Old Vine Zinfandel (Ravenswood Old Vine, Ridge Three Valleys)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -60038,7 +62255,9 @@ const CIGARS = [
     "pairings": [
       "Rum Old Fashioned (aged rum, demerara sugar, orange bitters)",
       "Americano (double shot espresso, hot water)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1840,
     "limited": false
@@ -60069,7 +62288,10 @@ const CIGARS = [
     "description": "The Exodus 1959 Gold is Carlos Toraño's tribute to the year his grandfather Carlos Toraño Sr. began exporting Cuban tobacco, blending rich Honduran and Nicaraguan fillers under a smooth Ecuador Habano wrapper. It delivers a medium-bodied smoke with earthy cedar and coffee notes that improve through the second half.",
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1916,
     "limited": false,
@@ -60123,7 +62345,10 @@ const CIGARS = [
     "description": "Launched to celebrate five decades of the Toraño family in the tobacco business, El Magistral showcases the family's mastery of Honduran blending with a complex Ecuador Habano wrapper. The generous toro format allows the blend's dried fruit and cocoa notes to fully develop across a long, satisfying smoke.",
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1916,
     "limited": false
@@ -60154,7 +62379,10 @@ const CIGARS = [
     "description": "The Reserva Selecta is Carlos Toraño's approachable entry into mild, Connecticut-wrapped cigars, featuring aged Honduran and Dominican fillers for a smooth, creamy profile. Cream, honey, and soft cedar notes make it an excellent choice for milder-strength aficionados.",
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1916,
     "limited": false
@@ -60186,7 +62414,10 @@ const CIGARS = [
     "description": "The Exodus Gold Churchill extends the award-winning Exodus 1959 blend into a longer, more elegant format that allows the Ecuador Habano wrapper to impart deeper cedar and leather complexity over its lengthy burn. Fans of the Robusto will find the extra length adds a pleasant earthiness and a smoother finish.",
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Cold Brew (smooth, low acidity)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1916,
     "limited": false
@@ -60217,7 +62448,10 @@ const CIGARS = [
     "description": "The Vault A040 is one of the bolder entries in Toraño's Vault series, featuring a darker-shaded Ecuador Habano wrapper over a potent Honduran and Nicaraguan core that punches above its price point. Black pepper, leather, and dark chocolate deliver a full-flavored experience from start to finish.",
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 1916,
     "limited": false
@@ -60248,7 +62482,10 @@ const CIGARS = [
     "description": "The Master's Reserve is Toraño's Dominican-pura offering, showcasing silky Cibao Valley fillers draped in an Ecuador Connecticut wrapper for a gentle, accessible smoke. Cream, almond, and hay notes make it a welcoming cigar for newer enthusiasts or those seeking a lighter afternoon smoke.",
     "pairings": [
       "Café Latte (whole milk, double shot, medium roast)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1916,
     "limited": false
@@ -60280,7 +62517,10 @@ const CIGARS = [
     "description": "Released to mark the fiftieth anniversary of the Toraño family's tobacco legacy, this Toro packs an especially well-rounded Ecuador Habano wrapper over a three-country filler blend for a complex, medium-bodied experience. The extra-long aging of the fillers brings out dried fruit and coffee richness that evolve throughout the smoke.",
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Cold Brew (smooth, low acidity)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1916,
     "limited": true,
@@ -60323,7 +62563,10 @@ const CIGARS = [
     "description": "The Cain F is Oliva's all-ligero powerhouse, packing the highest-priming, strongest tobacco leaves from Nicaragua into a deceptively approachable toro format. Black pepper, dark chocolate, and raw leather announce themselves immediately and never relent, rewarding experienced full-strength aficionados.",
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -60368,7 +62611,10 @@ const CIGARS = [
     "description": "The Cain F 660 is the ultimate expression of Oliva's all-ligero madness, stretching the blend into a 60-ring gordo that unleashes waves of black pepper, dark chocolate, and aged leather over a long, punishing smoke. Despite its brute strength, there is a surprising complexity hiding beneath the power, with coffee and earth notes emerging in the final third.",
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)"
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -60417,7 +62663,10 @@ const CIGARS = [
     "description": "The Cain Straight Ligero takes the all-ligero formula and wraps it in a Nicaraguan Habano leaf instead of Ecuadorian, amplifying the rustic, peppery character of the Estelí-grown tobaccos. The result is even more untamed than the standard Cain F, with raw leather and espresso notes hitting hard from the first puff.",
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2008,
     "limited": false
@@ -60449,7 +62698,10 @@ const CIGARS = [
     "description": "Stretched to a massive 60-ring gordo, the Cain Straight Ligero 660 delivers an hour-plus of the most intense Nicaraguan ligero tobacco available in a production cigar. The Nicaraguan Habano wrapper locks in dark chocolate and espresso complexity that complements the relentless pepper and leather throughout.",
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
-      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)"
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -60503,7 +62755,10 @@ const CIGARS = [
     "description": "The Cain Fog is the paradox of the Cain line — an all-ligero Nicaraguan filler blend hidden beneath a creamy Ecuador Connecticut wrapper, creating a smoke that looks mild but hits with unexpected medium-full strength. Cream and white pepper on the draw give way to surprising coffee and cedar depth that remind you there's serious tobacco inside.",
     "pairings": [
       "Café Latte (whole milk, double shot, medium roast)",
-      "Single Pot Still Irish Whiskey (Redbreast 12, Green Spot)"
+      "Single Pot Still Irish Whiskey (Redbreast 12, Green Spot)",
+      "Cold Brew (smooth, low acidity)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2008,
     "limited": false,
@@ -60553,7 +62808,10 @@ const CIGARS = [
     "description": "The Cain Fog 550 extends the paradoxical Connecticut-wrapped ligero concept into a 5.5-inch toro, giving the blend more room to develop its contradictory personality of creamy sweetness over potent Nicaraguan strength. Almond and cedar notes emerge in the second half, making this one of the more complex entries in the Fog line.",
     "pairings": [
       "Café Latte (whole milk, double shot, medium roast)",
-      "Single Pot Still Irish Whiskey (Redbreast 12, Green Spot)"
+      "Single Pot Still Irish Whiskey (Redbreast 12, Green Spot)",
+      "Cold Brew (smooth, low acidity)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2008,
     "limited": false
@@ -60585,7 +62843,10 @@ const CIGARS = [
     "description": "The Bendición is La Aroma de Cuba's medium-bodied flagship robusto, featuring an oily Ecuador Habano wrapper over a Nicaraguan and Honduran core that has earned consistent praise from reviewers. Cedar, spice, leather, and cocoa intertwine through a satisfying 45-minute smoke that is both approachable and complex.",
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -60643,7 +62904,10 @@ const CIGARS = [
     "description": "The Monarch Robusto blends Nicaraguan and Dominican fillers under an Ecuador Habano wrapper to produce a medium-bodied cigar with regal character and consistent quality. Dried fruit and cocoa notes set it apart from the rest of the La Aroma de Cuba portfolio, lending a pleasant sweetness to its cedar and leather backbone.",
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -60701,7 +62965,10 @@ const CIGARS = [
     "description": "The Natura line brings La Aroma de Cuba's Jalapa-sourced Nicaraguan tobaccos to a milder audience through the pairing with an Ecuador Connecticut wrapper, producing a smooth and creamy robusto. Cream, cedar, almond, and hay notes make it an ideal daytime cigar for those who prefer elegance over intensity.",
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)"
+      "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -60761,7 +63028,10 @@ const CIGARS = [
     "description": "The Mi Amor Valentino is a special expression within La Aroma de Cuba's Mi Amor sub-line, using an especially oily Ecuador Habano wrapper that imparts dark chocolate and coffee intensity on top of the line's characteristic spice. It is a refined, medium-bodied robusto that consistently punches above its price point.",
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1999,
     "limited": false
@@ -60793,7 +63063,10 @@ const CIGARS = [
     "description": "The Edición Especial No. 2 is a standout in La Aroma de Cuba's limited special-edition run, pairing a carefully selected Ecuador Habano wrapper over Estelí-grown filler tobaccos for a medium-bodied toro with floral and cedar complexity. The generous 6x52 format allows every nuance of the blend to unfold gracefully over a full hour.",
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1999,
     "limited": true,
@@ -60846,7 +63119,10 @@ const CIGARS = [
     "description": "The Primitivo strips back the blending complexity to focus on a single-country Nicaraguan filler, letting the raw character of Estelí tobacco shine through under an Ecuador Habano wrapper. Earth, leather, and black pepper lead the charge in this no-frills, honest medium-bodied robusto.",
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -60905,7 +63181,10 @@ const CIGARS = [
     "description": "The Serie R No. 6 is the flagship of La Gloria Cubana's bold Serie R line, packing a potent Nicaragua-grown core under an Ecuador Habano wrapper into a wide 60-ring toro that smokes full and smooth. Black pepper, leather, and dark chocolate make it a powerhouse for fans of bold, complex cigars.",
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 1946,
     "limited": false
@@ -60936,7 +63215,10 @@ const CIGARS = [
     "description": "The Charlemagne Maduro wraps Dominican Cibao Valley tobaccos in a Connecticut Broadleaf maduro leaf that adds a natural sweetness and velvety texture to the medium-bodied experience. Dark chocolate and coffee dominate, with hints of dried fruit and cedar emerging in the second half of this excellent maduro toro.",
     "pairings": [
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)"
     ],
     "yearFounded": 1946,
     "limited": false,
@@ -60995,7 +63277,10 @@ const CIGARS = [
     "description": "Named in honor of British Field Marshal Archibald Wavell, this mild Dominican pura is La Gloria Cubana's most approachable offering, featuring an Ecuador Connecticut wrapper over all-Dominican filler. Cream, cedar, and almond notes make the Wavell a classic choice for those who prefer a refined, low-key smoke.",
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)"
+      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1946,
     "limited": false,
@@ -61054,7 +63339,10 @@ const CIGARS = [
     "description": "The Serie L Torpedo is La Gloria Cubana's Honduran-centered blend shaped into a tapered torpedo that focuses the Ecuador Habano wrapper's flavors into a more concentrated draw. Cedar, leather, and spice build steadily from the tightly pointed head through to a finish rich in coffee and warm spice.",
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Cold Brew (smooth, low acidity)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1946,
     "limited": false,
@@ -61113,7 +63401,10 @@ const CIGARS = [
     "description": "The Natural Robusto is La Gloria Cubana's mild Honduran offering, pairing a smooth Ecuador Connecticut wrapper with Honduran and Dominican fillers for an easy-going afternoon smoke. Cream and honey on the wrapper complement subtle cedar and light pepper from the filler for a well-balanced mild experience.",
     "pairings": [
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Iced Coffee (cold brew over ice, light cream)"
+      "Iced Coffee (cold brew over ice, light cream)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1946,
     "limited": false,
@@ -61172,7 +63463,10 @@ const CIGARS = [
     "description": "The Glorias Extras is a long-standing member of La Gloria Cubana's Honduran portfolio, delivering a reliably medium-bodied blend of cedar, leather, and earth flavors at an honest price point. The 6x50 toro format provides a satisfying hour-long experience that makes it a go-to for everyday smoking.",
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1946,
     "limited": false,
@@ -61231,7 +63525,10 @@ const CIGARS = [
     "description": "The Henry Clay Brevas Robusto carries one of the most storied names in cigar history into a modern mild-to-medium blend, pairing a silky Ecuador Connecticut wrapper with aged Honduran and Dominican fillers. Classic cream, cedar, and almond notes make this an elegant choice for those who appreciate tradition in their smoke.",
     "pairings": [
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Sencha Green Tea (first flush, 170°F, no sugar)"
+      "Sencha Green Tea (first flush, 170°F, no sugar)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -61290,7 +63587,10 @@ const CIGARS = [
     "description": "The Stalk Cut Torpedo is Henry Clay's boldest expression, featuring tobacco that is stalk-cut and sun-dried before fermentation — a traditional process that produces the dark Connecticut Broadleaf maduro wrapper enveloping this spicy, complex blend. Dark chocolate, coffee, and leather converge in a medium-full smoke that is far more nuanced than its brash wrapper suggests.",
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Vintage Port (Fonseca Vintage, Graham's Crusted)"
+      "Vintage Port (Fonseca Vintage, Graham's Crusted)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -61343,7 +63643,10 @@ const CIGARS = [
     "description": "The Brevas a la Conserva name dates back to the nineteenth century Spanish tradition of preserving cigars in cedar boxes, and this toro version keeps that heritage alive with an extra inch of burn time over the robusto. The additional length allows the creamy Ecuador Connecticut wrapper to deposit more honey and almond sweetness through the extended draw.",
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)"
+      "Dry Oloroso Sherry (Lustau East India, Bodega Alvear Carlos VII)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -61388,7 +63691,10 @@ const CIGARS = [
     "description": "The War Hawk Gordo takes Henry Clay's bold Connecticut Broadleaf maduro blend and stretches it into a massive 60-ring gordo that delivers over an hour of dark chocolate, coffee, and leather intensity. The wide ring gauge ensures a cool, even burn and lets the maduro wrapper's natural sweetness balance the blend's peppery Nicaraguan filler.",
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -61448,7 +63754,10 @@ const CIGARS = [
     "description": "The Stalk Cut Gordo is the biggest vitola in Henry Clay's stalk-cut-processed maduro line, allowing the ultra-darkened Connecticut Broadleaf wrapper to infuse three countries of aged filler with exceptional depth and sweetness. At 6x60, this gordo smokes long and cool, rewarding patience with evolving dark chocolate, earth, and baking spice complexity.",
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Vintage Port (Fonseca Vintage, Graham's Crusted)"
+      "Vintage Port (Fonseca Vintage, Graham's Crusted)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 1840,
     "limited": false,
@@ -61502,7 +63811,10 @@ const CIGARS = [
     "description": "The Damnation earns its ominous name through an Ecuador Habano Maduro wrapper that cranks the Man O' War house blend into full-strength territory with waves of dark chocolate, black pepper, and roasted coffee. It is one of the bolder robustos in the AJ Fernandez-influenced Man O' War portfolio and a favorite among those who crave power and complexity in equal measure.",
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2002,
     "limited": false,
@@ -61556,7 +63868,10 @@ const CIGARS = [
     "description": "The Ruination No. 1 Toro is one of the most celebrated cigars in the Man O' War lineup, earning consistent 90+ scores for its potent, all-in blend of Honduran and Nicaraguan tobaccos wrapped in Ecuador Habano. Black pepper, dark chocolate, and coffee emerge with commanding intensity and never let up through the entire 60-minute smoke.",
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2002,
     "limited": false
@@ -61587,7 +63902,10 @@ const CIGARS = [
     "description": "The Virtue Connecticut is Man O' War's mild-side offering, demonstrating that the brand can blend beyond the full-strength powerhouses it is known for by pairing an Ecuador Connecticut wrapper with a softer-pressed Honduran and Nicaraguan core. Cream, honey, and almond characterize its gentle, approachable profile.",
     "pairings": [
       "Café Latte (whole milk, double shot, medium roast)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2002,
     "limited": false,
@@ -61647,7 +63965,10 @@ const CIGARS = [
     "description": "The Puro Authentico is Man O' War's all-Honduran purist statement, using a Honduras Habano wrapper, binder, and filler to showcase the country's tobacco in its most unadulterated form. Earth, leather, and black pepper define the bold-to-full-strength experience, proving that Honduras can go toe-to-toe with any full-bodied origin.",
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2002,
     "limited": false
@@ -61678,7 +63999,10 @@ const CIGARS = [
     "description": "The Armada Toro is part of Man O' War's flagship Armada series, delivering a medium-full blend of Honduran and Nicaraguan tobaccos under an Ecuador Habano wrapper that has earned widespread accolades for its price-to-performance ratio. Leather, cedar, and black pepper hold steady from first light through to the satisfying finish.",
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2002,
     "limited": false
@@ -61709,7 +64033,10 @@ const CIGARS = [
     "description": "The original Man O' War Robusto is where the legend began, a 5x50 powerhouse that put the brand on the map with its impressive combination of strength, flavor, and value. Leather, cedar, earth, and coffee define a medium-full smoke that remains one of the most recommended robustos under $10 in the market.",
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2002,
     "limited": false
@@ -61741,7 +64068,10 @@ const CIGARS = [
     "description": "Gurkha's His Majesty's Reserve is the brand's ultra-premium halo cigar, infused with Louis XIII cognac during production to add an extraordinary layer of dark chocolate and spiced luxury to its already rich Honduran and Nicaraguan filler blend. At $45 a stick it is a true collector's smoke — a theatrical, decadent experience reserved for the most special of occasions.",
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1989,
     "limited": true,
@@ -61800,7 +64130,10 @@ const CIGARS = [
     "description": "The War Lord Robusto is one of Gurkha's most popular medium-full offerings, blending aged Honduran and Nicaraguan fillers under a well-oiled Ecuador Habano wrapper for a consistently bold and satisfying smoke. Leather, black pepper, and coffee define the experience from start to finish.",
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 1989,
     "limited": false
@@ -61831,7 +64164,10 @@ const CIGARS = [
     "description": "The Gurkha Koi is a visually distinctive robusto featuring an ornately banded wrapper and a medium-bodied blend of Honduran and Dominican tobaccos that emphasizes cedar and cocoa over raw strength. The blend is gentler than many in the Gurkha portfolio, making Koi an excellent choice for those wanting the brand's quality without its typical boldness.",
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1989,
     "limited": false
@@ -61862,7 +64198,10 @@ const CIGARS = [
     "description": "The Gurkha Seduction tempts with a smooth, cream-colored Ecuador Connecticut wrapper draped over a mild Honduran and Dominican core that delivers an elegant, low-key smoke perfect for relaxed afternoons. Cream, almond, and honey flavors make it one of Gurkha's most welcoming cigars for newer or lighter-strength enthusiasts.",
     "pairings": [
       "Prosecco DOCG (Valdobbiadene Conegliano, La Marca Treviso)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1989,
     "limited": false
@@ -61895,7 +64234,10 @@ const CIGARS = [
     "description": "The Cellar Reserve Solara is Gurkha's solera-aged torpedo, featuring tobaccos that have been blended in a rotating barrel system to produce exceptional consistency and complexity across its three-country filler. Cedar, dried fruit, and spice characterize the medium-bodied smoke, elevated by the tapered torpedo head that focuses the draw into a precise and flavorful experience.",
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
-      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1989,
     "limited": false
@@ -61926,7 +64268,10 @@ const CIGARS = [
     "description": "A limited-production robusto within Gurkha's Cellar Reserve family, the Limitada sources the finest aged tobaccos from three countries and wraps them in a carefully selected Ecuador Habano leaf for exceptional smoothness and balance. Cedar, dried fruit, and warm spice define a medium-bodied smoke that over-delivers at its price point.",
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
-      "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)"
+      "Armagnac (Château de Laubade VSOP, Darroze Bas-Armagnac)",
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1989,
     "limited": true,
@@ -61986,7 +64331,10 @@ const CIGARS = [
     "description": "The Gurkha Marquesa is a refined, medium-bodied robusto designed for those who want the house's trademark Ecuador Habano character without the full firepower of the War Lord or Ghost lines. Cedar, leather, cocoa, and almond create an accessible and pleasantly complex smoke that works well at any time of day.",
     "pairings": [
       "Highland Single Malt (Dalmore 15, Oban 14)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1989,
     "limited": false,
@@ -62046,7 +64394,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1912,
     "limited": false,
@@ -62107,7 +64457,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1912,
     "limited": false,
@@ -62163,7 +64515,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1912,
     "limited": true,
@@ -62224,7 +64578,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1912,
     "limited": true,
@@ -62285,7 +64641,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Belgian Quadrupel (St. Bernardus Abt 12, Rochefort 10)"
     ],
     "yearFounded": 1912,
     "limited": true
@@ -62318,7 +64676,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Highland Single Malt (Dalmore 15, Oban 14)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1912,
     "limited": false,
@@ -62374,7 +64734,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1912,
     "limited": false
@@ -62407,7 +64769,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1912,
     "limited": false,
@@ -62468,7 +64832,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Rum Old Fashioned (aged rum, demerara sugar, orange bitters)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1912,
     "limited": false,
@@ -62529,7 +64895,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1912,
     "limited": false,
@@ -62590,7 +64958,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1912,
     "limited": false,
@@ -62651,7 +65021,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1912,
     "limited": false,
@@ -62712,7 +65084,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1988,
     "limited": false
@@ -62745,7 +65119,9 @@ const CIGARS = [
     "pairings": [
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1988,
     "limited": false,
@@ -62806,7 +65182,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Café Latte (whole milk, double shot, medium roast)"
+      "Café Latte (whole milk, double shot, medium roast)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1988,
     "limited": false,
@@ -62868,7 +65246,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "White Burgundy (Puligny-Montrachet, Chablis Premier Cru)",
-      "Cortado (equal parts espresso and steamed milk)"
+      "Cortado (equal parts espresso and steamed milk)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1988,
     "limited": false,
@@ -62928,7 +65308,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Dry Irish Stout (Guinness Draught, O'Hara's Leann Folláin)"
+      "Dry Irish Stout (Guinness Draught, O'Hara's Leann Folláin)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1988,
     "limited": false,
@@ -62989,7 +65371,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1988,
     "limited": false,
@@ -63050,7 +65434,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Sauternes (Château d'Yquem, Suduiraut)",
-      "Americano (double shot espresso, hot water)"
+      "Americano (double shot espresso, hot water)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1988,
     "limited": false
@@ -63083,7 +65469,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1988,
     "limited": false,
@@ -63144,7 +65532,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1988,
     "limited": false,
@@ -63205,7 +65595,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1988,
     "limited": false,
@@ -63256,7 +65648,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Czech Pilsner (Pilsner Urquell, Bitburger)"
+      "Czech Pilsner (Pilsner Urquell, Bitburger)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -63317,7 +65711,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -63378,7 +65774,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -63439,7 +65837,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1999,
     "limited": false
@@ -63472,7 +65872,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1999,
     "limited": false
@@ -63506,7 +65908,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -63556,7 +65960,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1999,
     "limited": false
@@ -63589,7 +65995,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1999,
     "limited": false
@@ -63622,7 +66030,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1930,
     "limited": false,
@@ -63677,7 +66087,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1930,
     "limited": false
@@ -63710,7 +66122,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1930,
     "limited": false,
@@ -63766,7 +66180,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1930,
     "limited": false,
@@ -63822,7 +66238,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1930,
     "limited": false,
@@ -63873,7 +66291,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1930,
     "limited": false,
@@ -63924,7 +66344,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1930,
     "limited": false,
@@ -63985,7 +66407,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1930,
     "limited": false,
@@ -64046,7 +66470,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1974,
     "limited": false,
@@ -64101,7 +66527,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1974,
     "limited": false,
@@ -64152,7 +66580,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1974,
     "limited": false,
@@ -64207,7 +66637,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1974,
     "limited": false,
@@ -64258,7 +66690,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1974,
     "limited": false
@@ -64291,7 +66725,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1974,
     "limited": false
@@ -64324,7 +66760,9 @@ const CIGARS = [
     "pairings": [
       "Rioja Reserva (Marqués de Riscal, CVNE Imperial Reserva)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1974,
     "limited": false
@@ -64357,7 +66795,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Highland Single Malt (Dalmore 15, Oban 14)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1974,
     "limited": true,
@@ -64418,7 +66858,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1912,
     "limited": false
@@ -64451,7 +66893,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1988,
     "limited": false,
@@ -64512,7 +66956,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1999,
     "limited": false,
@@ -64573,7 +67019,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Tawny Port (Graham's 20 Year, Fonseca 20 Year)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1930,
     "limited": false,
@@ -64628,7 +67076,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1974,
     "limited": false,
@@ -64685,7 +67135,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -64718,7 +67170,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -64751,7 +67205,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -64785,7 +67241,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Ginger Ale (Bundaberg naturally brewed, no HFCS)"
+      "Ginger Ale (Bundaberg naturally brewed, no HFCS)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -64845,7 +67303,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -64878,7 +67338,9 @@ const CIGARS = [
     "pairings": [
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -64911,7 +67373,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -64945,7 +67409,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)"
+      "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -65006,7 +67472,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -65039,7 +67507,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Ginger Ale (Bundaberg naturally brewed, no HFCS)"
+      "Ginger Ale (Bundaberg naturally brewed, no HFCS)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -65072,7 +67542,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -65106,7 +67578,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -65161,7 +67635,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1977,
     "limited": true,
@@ -65217,7 +67693,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Gouda (5 year, crystalline)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1977,
     "limited": true,
@@ -65273,7 +67751,9 @@ const CIGARS = [
     "pairings": [
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1977,
     "limited": false,
@@ -65308,7 +67788,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1977,
     "limited": false,
@@ -65365,7 +67847,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1977,
     "limited": false,
@@ -65426,7 +67910,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1977,
     "limited": false,
@@ -65460,7 +67946,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1977,
     "limited": false,
@@ -65521,7 +68009,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1977,
     "limited": false,
@@ -65576,7 +68066,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1977,
     "limited": false,
@@ -65632,7 +68124,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1977,
     "limited": false
@@ -65665,7 +68159,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1962,
     "limited": true,
@@ -65721,7 +68217,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1962,
     "limited": true,
@@ -65782,7 +68280,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1962,
     "limited": false,
@@ -65843,7 +68343,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1962,
     "limited": false,
@@ -65904,7 +68406,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1962,
     "limited": false
@@ -65937,7 +68441,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1962,
     "limited": false
@@ -65970,7 +68476,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1962,
     "limited": false
@@ -66003,7 +68511,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1962,
     "limited": false,
@@ -66064,7 +68574,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1962,
     "limited": false,
@@ -66125,7 +68637,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)"
+      "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1962,
     "limited": false
@@ -66158,7 +68672,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 1962,
     "limited": true,
@@ -66219,7 +68735,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1962,
     "limited": false,
@@ -66281,7 +68799,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -66336,7 +68856,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Fresh-Squeezed Lemonade (Meyer lemons, light sugar)"
+      "Fresh-Squeezed Lemonade (Meyer lemons, light sugar)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -66369,7 +68891,9 @@ const CIGARS = [
     "pairings": [
       "Jasmine Pearls Tea (silver-tipped, lightly sweetened)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -66402,7 +68926,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -66435,7 +68961,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -66496,7 +69024,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -66557,7 +69087,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
-      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)"
+      "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1968,
     "limited": true,
@@ -66618,7 +69150,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -66675,7 +69209,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -66735,7 +69271,9 @@ const CIGARS = [
     "pairings": [
       "Spiced Rum (Sailor Jerry, Kraken Black Spiced)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Wheated Bourbon (Maker's Mark, Larceny)"
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -66768,7 +69306,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Jasmine Pearls Tea (silver-tipped, lightly sweetened)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -66801,7 +69341,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Jasmine Pearls Tea (silver-tipped, lightly sweetened)",
-      "Sparkling Mineral Water (San Pellegrino, room temperature)"
+      "Sparkling Mineral Water (San Pellegrino, room temperature)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -66836,7 +69378,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -66896,7 +69440,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1977,
     "limited": false,
@@ -66957,7 +69503,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1962,
     "limited": false
@@ -66990,7 +69538,9 @@ const CIGARS = [
     "pairings": [
       "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
       "Jasmine Pearls Tea (silver-tipped, lightly sweetened)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -67023,7 +69573,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -67084,7 +69636,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1962,
     "limited": false,
@@ -67146,7 +69700,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1977,
     "limited": false,
@@ -67206,7 +69762,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1968,
     "limited": false
@@ -67240,7 +69798,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1962,
     "limited": false,
@@ -67300,7 +69860,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1968,
     "limited": false,
@@ -67356,7 +69918,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1977,
     "limited": false
@@ -67390,7 +69954,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -67424,7 +69990,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)"
+      "Cold Brew Coffee (coarse grind, 16-hour steep, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -67457,7 +70025,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Aged Gouda (5 year, crystalline)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -67491,7 +70061,9 @@ const CIGARS = [
     "pairings": [
       "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)",
       "Coffee with Milk (medium roast, steamed whole milk)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Gouda (5 year, crystalline)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -67551,7 +70123,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -67584,7 +70158,9 @@ const CIGARS = [
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -67617,7 +70193,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -67650,7 +70228,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -67683,7 +70263,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -67716,7 +70298,9 @@ const CIGARS = [
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -67749,7 +70333,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -67809,7 +70395,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Double Espresso (dark roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -67854,7 +70442,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -67894,7 +70484,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Coffee with Milk (medium roast, steamed whole milk)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2014,
     "limited": false,
@@ -67934,7 +70526,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1996,
     "limited": false
@@ -67967,7 +70561,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Belgian Quadrupel (St. Bernardus Abt 12, Rochefort 10)"
     ],
     "yearFounded": 1996,
     "limited": false
@@ -68000,7 +70596,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false
@@ -68033,7 +70631,9 @@ const CIGARS = [
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Crisp Pilsner (Pilsner Urquell, Bitburger)"
+      "Crisp Pilsner (Pilsner Urquell, Bitburger)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -68094,7 +70694,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -68155,7 +70757,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1996,
     "limited": false
@@ -68188,7 +70792,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "West Coast IPA (Lagunitas IPA, Sierra Nevada Torpedo)"
+      "West Coast IPA (Lagunitas IPA, Sierra Nevada Torpedo)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -68244,7 +70850,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -68305,7 +70913,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Double Espresso (dark roast, no sugar)",
-      "Mexican Coke (real cane sugar, glass bottle)"
+      "Mexican Coke (real cane sugar, glass bottle)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -68366,7 +70976,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -68422,7 +71034,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -68483,7 +71097,9 @@ const CIGARS = [
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)"
+      "Honey-Infused American Whiskey (Jack Daniel's Tennessee Honey, Bushmills Honey)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -68544,7 +71160,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -68596,7 +71214,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -68652,7 +71272,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Iced Coffee (cold brew over ice, light cream)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1896,
     "limited": false
@@ -68685,7 +71307,9 @@ const CIGARS = [
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "German Hefeweizen (Weihenstephaner Hefeweißbier, Paulaner Hefe)"
+      "German Hefeweizen (Weihenstephaner Hefeweißbier, Paulaner Hefe)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1896,
     "limited": false,
@@ -68746,7 +71370,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1896,
     "limited": true,
@@ -68807,7 +71433,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1896,
     "limited": false
@@ -68840,7 +71468,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1896,
     "limited": false
@@ -68873,7 +71503,9 @@ const CIGARS = [
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1896,
     "limited": false,
@@ -68934,7 +71566,9 @@ const CIGARS = [
     "pairings": [
       "Brut Champagne (Veuve Clicquot Yellow Label, Pol Roger Brut)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 1896,
     "limited": true,
@@ -68995,7 +71629,9 @@ const CIGARS = [
     "pairings": [
       "Junmai Daiginjō Sake (Dassai 23, Hakkaisan Junmai Ginjō)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Black Currant Tea (loose-leaf, no sugar)"
+      "Black Currant Tea (loose-leaf, no sugar)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)"
     ],
     "yearFounded": 2011,
     "limited": false
@@ -69028,7 +71664,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "West Coast IPA (Lagunitas IPA, Sierra Nevada Torpedo)"
+      "West Coast IPA (Lagunitas IPA, Sierra Nevada Torpedo)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2011,
     "limited": false
@@ -69061,7 +71699,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2011,
     "limited": false
@@ -69094,7 +71734,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -69155,7 +71797,9 @@ const CIGARS = [
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
       "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
-      "Café au Lait (equal parts dark roast and steamed milk)"
+      "Café au Lait (equal parts dark roast and steamed milk)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2011,
     "limited": false
@@ -69188,7 +71832,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "Espresso (medium-dark roast, no sugar)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false
@@ -69221,7 +71867,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -69281,7 +71929,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2015,
     "limited": false
@@ -69314,7 +71964,9 @@ const CIGARS = [
     "pairings": [
       "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -69374,7 +72026,9 @@ const CIGARS = [
     "pairings": [
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
       "Café au Lait (equal parts dark roast and steamed milk)",
-      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)"
+      "Agricole Rhum (Clément Première Canne, Rhum JM Blanc)",
+      "Flat White (whole milk, medium roast)",
+      "Almond Biscotti (dipped in coffee or amaretto)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -69434,7 +72088,9 @@ const CIGARS = [
     "pairings": [
       "XO Cognac (Rémy Martin XO, Hennessy XO)",
       "Double Espresso (dark roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -69489,7 +72145,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2011,
     "limited": false
@@ -69522,7 +72180,9 @@ const CIGARS = [
     "pairings": [
       "Wheated Bourbon (Maker's Mark, Larceny)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1896,
     "limited": false
@@ -69555,7 +72215,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -69616,7 +72278,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -69650,7 +72314,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2014,
     "limited": false
@@ -69683,7 +72349,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -69739,7 +72407,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -69793,7 +72463,10 @@ const CIGARS = [
     "description": "The Tatuaje Arsenal Robusto is a robust Nicaraguan puro wrapped in a dark Habano leaf, delivering classic Pete Johnson complexity — peppery strength balanced with cedar and leather from start to finish.",
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2003,
     "limited": false
@@ -69825,7 +72498,10 @@ const CIGARS = [
     "description": "The Arsenal Toro allows Pete Johnson's signature Nicaraguan blend extra time to develop, building layers of dark chocolate and leather with a spicy Habano wrapper character.",
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2003,
     "limited": false
@@ -69858,7 +72534,9 @@ const CIGARS = [
     "pairings": [
       "Vintage Port (Fonseca Vintage, Graham's Crusted)",
       "Double Espresso (dark roast, no sugar)",
-      "XO Cognac (Rémy Martin XO, Hennessy XO)"
+      "XO Cognac (Rémy Martin XO, Hennessy XO)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Belgian Quadrupel (St. Bernardus Abt 12, Rochefort 10)"
     ],
     "yearFounded": 2003,
     "limited": false
@@ -69891,7 +72569,9 @@ const CIGARS = [
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
-      "Honey Wheat Ale (Leinenkugel's Honey Weiss, Goose Island 312)"
+      "Honey Wheat Ale (Leinenkugel's Honey Weiss, Goose Island 312)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2003,
     "limited": false
@@ -69924,7 +72604,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2003,
     "limited": true,
@@ -69980,7 +72662,9 @@ const CIGARS = [
     "pairings": [
       "Double Espresso (dark roast, no sugar)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Amaro (Averna, Amaro Nonino)"
+      "Amaro (Averna, Amaro Nonino)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -70041,7 +72725,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -70103,7 +72789,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
-      "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)"
+      "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2003,
     "limited": false
@@ -70136,7 +72824,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -70197,7 +72887,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double IPA (Pliny the Elder, Dogfish Head 90 Minute)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Aged Gouda (5 year, crystalline)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -70258,7 +72950,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2006,
     "limited": false,
@@ -70319,7 +73013,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Aged Gouda (5 year, crystalline)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2006,
     "limited": false,
@@ -70380,7 +73076,9 @@ const CIGARS = [
     "pairings": [
       "Café Latte (whole milk, double shot, medium roast)",
       "Pinot Grigio (Santa Margherita, Folonari)",
-      "Honey Wheat Ale (Leinenkugel's Honey Weiss, Goose Island 312)"
+      "Honey Wheat Ale (Leinenkugel's Honey Weiss, Goose Island 312)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2006,
     "limited": false,
@@ -70441,7 +73139,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
-      "Black Coffee (medium roast, no sugar, no milk)"
+      "Black Coffee (medium roast, no sugar, no milk)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2006,
     "limited": false,
@@ -70502,7 +73202,9 @@ const CIGARS = [
     "pairings": [
       "Merlot (Duckhorn Three Palms, Franciscan Estate)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Dark Roast Coffee (French roast, no sugar)"
+      "Dark Roast Coffee (French roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2006,
     "limited": false
@@ -70535,7 +73237,9 @@ const CIGARS = [
     "pairings": [
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2006,
     "limited": false,
@@ -70596,7 +73300,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Double IPA (Pliny the Elder, Dogfish Head 90 Minute)"
+      "Double IPA (Pliny the Elder, Dogfish Head 90 Minute)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -70642,7 +73348,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Straight Rye 100-Proof (Rittenhouse, Bulleit Rye)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Gouda (5 year, crystalline)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -70682,7 +73390,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -70728,7 +73438,9 @@ const CIGARS = [
     "pairings": [
       "Vanilla Latte (whole milk, vanilla bean, espresso)",
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -70774,7 +73486,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -70820,7 +73534,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2011,
     "limited": true,
@@ -70866,7 +73582,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -70927,7 +73645,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 2012,
     "limited": false
@@ -70960,7 +73680,9 @@ const CIGARS = [
     "pairings": [
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2012,
     "limited": true,
@@ -71016,7 +73738,9 @@ const CIGARS = [
     "pairings": [
       "Americano (double shot espresso, hot water)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -71067,7 +73791,9 @@ const CIGARS = [
     "pairings": [
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2012,
     "limited": true,
@@ -71118,7 +73844,9 @@ const CIGARS = [
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
       "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
-      "Honey Wheat Ale (Leinenkugel's Honey Weiss, Goose Island 312)"
+      "Honey Wheat Ale (Leinenkugel's Honey Weiss, Goose Island 312)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2020,
     "limited": false,
@@ -71179,7 +73907,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2020,
     "limited": false,
@@ -71234,7 +73964,9 @@ const CIGARS = [
     "pairings": [
       "Café Latte (whole milk, double shot, medium roast)",
       "Sauvignon Blanc (Cloudy Bay, Kim Crawford Marlborough)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Flat White (whole milk, medium roast)",
+      "Candied Ginger (crystallized, sweet and spicy)"
     ],
     "yearFounded": 2020,
     "limited": false
@@ -71267,7 +73999,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2020,
     "limited": false
@@ -71300,7 +74034,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2020,
     "limited": false
@@ -71333,7 +74069,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2005,
     "limited": false,
@@ -71394,7 +74132,9 @@ const CIGARS = [
     "pairings": [
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2005,
     "limited": true,
@@ -71450,7 +74190,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Double IPA (Pliny the Elder, Dogfish Head 90 Minute)"
+      "Double IPA (Pliny the Elder, Dogfish Head 90 Minute)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2005,
     "limited": false,
@@ -71496,7 +74238,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2005,
     "limited": true,
@@ -71547,7 +74291,9 @@ const CIGARS = [
     "pairings": [
       "Café au Lait (equal parts dark roast and steamed milk)",
       "Honey Wheat Ale (Leinenkugel's Honey Weiss, Goose Island 312)",
-      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)"
+      "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2005,
     "limited": false
@@ -71580,7 +74326,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -71631,7 +74379,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -71677,7 +74427,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2015,
     "limited": true,
@@ -71732,7 +74484,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
     ],
     "yearFounded": 2015,
     "limited": true,
@@ -71787,7 +74541,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "Sauvignon Blanc (Cloudy Bay, Kim Crawford Marlborough)"
+      "Sauvignon Blanc (Cloudy Bay, Kim Crawford Marlborough)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -71833,7 +74589,9 @@ const CIGARS = [
     "pairings": [
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Pinot Noir (Domaine Drouhin, La Crema Russian River Valley)"
+      "Pinot Noir (Domaine Drouhin, La Crema Russian River Valley)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -71879,7 +74637,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -71929,7 +74689,9 @@ const CIGARS = [
     "pairings": [
       "Café Latte (whole milk, double shot, medium roast)",
       "Crisp Pilsner (Pilsner Urquell, Bitburger)",
-      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)"
+      "Oaked Chardonnay (Kendall-Jackson Reserve, Sonoma-Cutrer Russian River)",
+      "Flat White (whole milk, medium roast)",
+      "Aged Cheddar (sharp, 2 year)"
     ],
     "yearFounded": 2015,
     "limited": false
@@ -71962,7 +74724,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)"
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
     ],
     "yearFounded": 2003,
     "limited": false
@@ -71996,7 +74760,9 @@ const CIGARS = [
     "pairings": [
       "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
       "Wheated Bourbon (Maker's Mark, Larceny)",
-      "Iced Coffee (cold brew over ice, light cream)"
+      "Iced Coffee (cold brew over ice, light cream)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2006,
     "limited": false,
@@ -72056,7 +74822,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Double Espresso (dark roast, no sugar)",
-      "Robust Porter (Deschutes Black Butte, Founders Porter)"
+      "Robust Porter (Deschutes Black Butte, Founders Porter)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Barleywine (Sierra Nevada Bigfoot, Founders Old Curmudgeon)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -72107,7 +74875,9 @@ const CIGARS = [
     "pairings": [
       "Americano (double shot espresso, hot water)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -72163,7 +74933,9 @@ const CIGARS = [
     "pairings": [
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
       "Black Coffee (medium roast, no sugar, no milk)",
-      "Sauvignon Blanc (Cloudy Bay, Kim Crawford Marlborough)"
+      "Sauvignon Blanc (Cloudy Bay, Kim Crawford Marlborough)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2005,
     "limited": false,
@@ -72219,7 +74991,9 @@ const CIGARS = [
     "pairings": [
       "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2015,
     "limited": false,
@@ -72270,7 +75044,9 @@ const CIGARS = [
     "pairings": [
       "High-Corn Sweet Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
       "Aged Agricole Rhum (Clément VSOP, Rhum JM VSOP)",
-      "Espresso (medium-dark roast, no sugar)"
+      "Espresso (medium-dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2020,
     "limited": false
@@ -72303,7 +75079,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)"
+      "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2003,
     "limited": false,
@@ -72364,7 +75142,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)"
+      "Amber Ale (Tröegs Hopback Amber, New Belgium Fat Tire)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2011,
     "limited": false,
@@ -72404,7 +75184,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Dark Roast Coffee (French roast, no sugar)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -72465,7 +75247,9 @@ const CIGARS = [
     "pairings": [
       "Cask-Strength Kentucky Bourbon (Booker's, Elijah Craig Barrel Proof)",
       "Double Espresso (dark roast, no sugar)",
-      "Double IPA (Pliny the Elder, Dogfish Head 90 Minute)"
+      "Double IPA (Pliny the Elder, Dogfish Head 90 Minute)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
     ],
     "yearFounded": 2005,
     "limited": false,
@@ -72517,7 +75301,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -72583,7 +75369,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -72649,7 +75437,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -72714,7 +75504,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -72779,7 +75571,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false
@@ -72812,7 +75606,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -72877,7 +75673,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false
@@ -72911,7 +75709,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -72976,7 +75776,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Gouda (5 year, crystalline)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false
@@ -73009,7 +75811,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Gouda (5 year, crystalline)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false
@@ -73042,7 +75846,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Gouda (5 year, crystalline)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false
@@ -73075,7 +75881,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Gouda (5 year, crystalline)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1996,
     "limited": false
@@ -73108,7 +75916,9 @@ const CIGARS = [
     "pairings": [
       "Late Harvest Riesling (Inniskillin Icewine, Château Ste. Michelle Eroica)",
       "Coffee with Milk (medium roast, steamed whole milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -73174,7 +75984,9 @@ const CIGARS = [
     "pairings": [
       "Late Harvest Riesling (Inniskillin Icewine, Château Ste. Michelle Eroica)",
       "Coffee with Milk (medium roast, steamed whole milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -73240,7 +76052,9 @@ const CIGARS = [
     "pairings": [
       "Late Harvest Riesling (Inniskillin Icewine, Château Ste. Michelle Eroica)",
       "Coffee with Milk (medium roast, steamed whole milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -73306,7 +76120,9 @@ const CIGARS = [
     "pairings": [
       "Late Harvest Riesling (Inniskillin Icewine, Château Ste. Michelle Eroica)",
       "Coffee with Milk (medium roast, steamed whole milk)",
-      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)"
+      "Spanish-Style Añejo Rum (Ron Zacapa 23, Zaya Gran Reserva)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amber Ale (New Belgium Fat Tire, Tröegs Hopback Amber Ale)"
     ],
     "yearFounded": 1996,
     "limited": false,
@@ -73374,7 +76190,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2003,
     "limited": true,
@@ -73421,7 +76239,9 @@ const CIGARS = [
     "pairings": [
       "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
       "Imperial Russian Stout (Ten FIDY, Old Rasputin XII)",
-      "Double Espresso (dark roast, no sugar)"
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 2003,
     "limited": true,
@@ -73471,7 +76291,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false
@@ -73504,7 +76326,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false
@@ -73537,7 +76361,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false
@@ -73571,7 +76397,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false
@@ -73605,7 +76433,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false
@@ -73639,7 +76469,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1995,
     "limited": false
@@ -73673,7 +76505,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1895,
     "limited": false,
@@ -73739,7 +76573,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1895,
     "limited": false,
@@ -73805,7 +76641,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1895,
     "limited": false,
@@ -73871,7 +76709,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1895,
     "limited": false,
@@ -73936,7 +76776,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1895,
     "limited": false,
@@ -74001,7 +76843,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1895,
     "limited": false,
@@ -74066,7 +76910,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1895,
     "limited": false,
@@ -74131,7 +76977,9 @@ const CIGARS = [
     "pairings": [
       "Espresso (medium-dark roast, no sugar)",
       "Schwarzbier (Köstritzer Schwarzbier, Uinta Black Lager)",
-      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)"
+      "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
     ],
     "yearFounded": 1895,
     "limited": false,
@@ -74197,7 +77045,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1895,
     "limited": false,
@@ -74263,7 +77113,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1895,
     "limited": false,
@@ -74329,7 +77181,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1895,
     "limited": false,
@@ -74395,7 +77249,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Crisp Sauvignon Blanc (Cloudy Bay, Kim Crawford)",
-      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)"
+      "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
+      "Almond Biscotti (dipped in coffee or amaretto)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 1895,
     "limited": false,
@@ -74460,7 +77316,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -74500,7 +77358,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -74540,7 +77400,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -74580,7 +77442,9 @@ const CIGARS = [
     "pairings": [
       "Black Coffee (medium roast, no sugar, no milk)",
       "High-Rye Straight Bourbon (Four Roses Single Barrel, Bulleit Bourbon)",
-      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)"
+      "American Pale Ale (Sierra Nevada Pale Ale, Dale's Pale Ale)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -74621,7 +77485,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -74666,7 +77532,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -74711,7 +77579,9 @@ const CIGARS = [
     "pairings": [
       "Light Roast Coffee (blonde roast, black)",
       "Vienna Lager (Dos Equis Amber, Brooklyn Lager)",
-      "Iced Black Tea (unsweetened, lemon wedge)"
+      "Iced Black Tea (unsweetened, lemon wedge)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
     ],
     "yearFounded": 2012,
     "limited": false,
@@ -74725,6 +77595,2946 @@ const CIGARS = [
         "retailer": "Famous Smoke Shop",
         "url": "https://www.famous-smoke.com/e-bundle-by-espinosa-gordo-connecticut-cigars-natural",
         "price": null
+      }
+    ]
+  },
+  {
+    "id": "padron-serie-1926-no-6",
+    "name": "Padrón Serie 1926 No. 6",
+    "brand": "Padrón",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Nicaragua Sun Grown",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 20,
+    "rating": 96,
+    "flavors": [
+      "Cocoa",
+      "Espresso",
+      "Cedar",
+      "Black Pepper",
+      "Nutmeg",
+      "Honey"
+    ],
+    "size": "Perfecto",
+    "length": 5.5,
+    "ringGauge": 52,
+    "popularity": 8,
+    "description": "Ranked #4 on Cigar Aficionado's Top 25 of 2024 with 96 points. The Serie 1926 line commemorates the year José O. Padrón was born. This Perfecto vitola showcases the legendary Padrón consistency with rich cocoa, espresso, and cedar notes wrapped in a beautiful sun-grown Nicaraguan leaf.",
+    "pairings": [
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Gouda (5 year, crystalline)",
+      "Tawny Port (Graham's 20 Year, Fonseca 20 Year)"
+    ],
+    "yearFounded": 2002,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/padron-serie-1926-no-6-cigars",
+        "price": 20
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/padron-serie-1926-no-6",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": "partagas-linea-maestra-maestro",
+    "name": "Partagás Línea Maestra Maestro",
+    "brand": "Partagás",
+    "origin": "Cuba",
+    "region": "Vuelta Abajo",
+    "wrapper": "Cuban Habano",
+    "binder": "Cuban Habano",
+    "filler": "Cuban Habano",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 0,
+    "rating": 95,
+    "flavors": [
+      "Cedar",
+      "Earth",
+      "Black Pepper",
+      "Coffee",
+      "Leather",
+      "Sweet Wood"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 50,
+    "popularity": 7,
+    "description": "Ranked #5 on Cigar Aficionado's Top 25 of 2024 with 95 points. The Línea Maestra is a premium Cuban line from Partagás, and the Maestro delivers the brand's signature boldness with exceptional balance. Notes of cedar, earth, and black pepper are complemented by coffee and leather.",
+    "pairings": [
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Havana House",
+        "url": "https://www.havanahouse.co.uk/product/partagas-linea-maestra-maestro/",
+        "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/partagas-linea-maestra-maestro",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "rocky-patel-conviction-toro",
+    "name": "Rocky Patel Conviction Toro",
+    "brand": "Rocky Patel",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Nicaragua Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 30,
+    "rating": 95,
+    "flavors": [
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Leather",
+      "Cedar",
+      "Dried Fruit"
+    ],
+    "size": "Toro",
+    "length": 6.5,
+    "ringGauge": 52,
+    "popularity": 7,
+    "description": "Ranked #7 on Cigar Aficionado's Top 25 of 2024 with 95 points. Conviction is a limited-production cigar that showcases Rocky Patel's commitment to quality. Made at his Tavicusa factory in Nicaragua with an all-Nicaraguan blend that delivers bold, complex flavors.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/rocky-patel-conviction-toro-cigars",
+        "price": 30
+      }
+    ]
+  },
+  {
+    "id": "cohiba-maduro-5-magicos",
+    "name": "Cohiba Maduro 5 Mágicos",
+    "brand": "Cohiba",
+    "origin": "Cuba",
+    "region": "Vuelta Abajo",
+    "wrapper": "Cuban Maduro",
+    "binder": "Cuban Habano",
+    "filler": "Cuban Habano",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 0,
+    "rating": 94,
+    "flavors": [
+      "Dark Chocolate",
+      "Espresso",
+      "Cedar",
+      "Black Pepper",
+      "Sweet Wood",
+      "Leather"
+    ],
+    "size": "Robusto",
+    "length": 4.75,
+    "ringGauge": 52,
+    "popularity": 7,
+    "description": "Ranked #8 on Cigar Aficionado's Top 25 of 2024 with 94 points. The Maduro 5 line uses wrapper leaves aged for five years, resulting in a rich, dark, and oily appearance. The Mágicos vitola delivers concentrated Cohiba flavors with a maduro twist.",
+    "pairings": [
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
+    ],
+    "yearFounded": 2007,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Havana House",
+        "url": "https://www.havanahouse.co.uk/product/cohiba-maduro-5-magicos/",
+        "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/cohiba-maduro-5-magicos",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "brick-house-churchill",
+    "name": "Brick House Churchill",
+    "brand": "J.C. Newman",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuador Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 8.5,
+    "rating": 93,
+    "flavors": [
+      "Wood",
+      "Leather",
+      "Nuts",
+      "Sweet Spices",
+      "Cappuccino",
+      "Cedar"
+    ],
+    "size": "Churchill",
+    "length": 7,
+    "ringGauge": 50,
+    "popularity": 7,
+    "description": "Ranked #10 on Cigar Aficionado's Top 25 of 2024 with 93 points. Brick House is one of J.C. Newman's oldest brands, revived in 2009 with Nicaraguan tobaccos and a Cuban-seed wrapper from Ecuador. The Churchill shows a complex profile of wood, leather, nuts, and sweet spices with a cappuccino finish. An exceptional value.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Double Espresso (dark roast, no sugar)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
+    ],
+    "yearFounded": 2009,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/brick-house-churchill-cigars",
+        "price": 8.5
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/brick-house-churchill",
+        "price": 8.5
+      }
+    ]
+  },
+  {
+    "id": "la-aroma-de-cuba-pasion-box-pressed-torpedo",
+    "name": "La Aroma de Cuba Pasión Box-Pressed Torpedo",
+    "brand": "La Aroma de Cuba",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Nicaragua Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 11,
+    "rating": 93,
+    "flavors": [
+      "Cedar",
+      "Sweet Wood",
+      "Black Pepper",
+      "Cream",
+      "Nutmeg",
+      "Coffee"
+    ],
+    "size": "Box-Pressed Torpedo",
+    "length": 6.125,
+    "ringGauge": 52,
+    "popularity": 6,
+    "description": "Ranked #11 on Cigar Aficionado's Top 25 of 2024 with 93 points. The Pasión line is crafted by the Garcia family at My Father Cigars. This box-pressed torpedo delivers cedar, sweet wood, and black pepper notes with a creamy finish.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
+    ],
+    "yearFounded": 2022,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/la-aroma-de-cuba-pasion-box-pressed-torpedo-cigars",
+        "price": 11
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/la-aroma-de-cuba-pasion-box-pressed-torpedo",
+        "price": 11
+      }
+    ]
+  },
+  {
+    "id": "aksum-claro-robusto",
+    "name": "Aksum Claro Robusto",
+    "brand": "Aksum",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuador Claro",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 12,
+    "rating": 93,
+    "flavors": [
+      "Cedar",
+      "Cream",
+      "Nuts",
+      "Sweet Wood",
+      "Black Pepper",
+      "Honey"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 50,
+    "popularity": 4,
+    "description": "Ranked #12 on Cigar Aficionado's Top 25 of 2024 with 93 points. Aksum is a relatively new brand named after the ancient Ethiopian empire. The Claro features an Ecuadorian Claro wrapper over Nicaraguan tobaccos, delivering a smooth yet complex smoking experience.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
+    ],
+    "yearFounded": 2022,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/aksum-claro-robusto-cigars",
+        "price": 12
+      }
+    ]
+  },
+  {
+    "id": "viva-la-vida-jester",
+    "name": "Viva La Vida Jester",
+    "brand": "Artesano del Tobacco",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Mexico San Andrés",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 60,
+    "price": 13,
+    "rating": 93,
+    "flavors": [
+      "Cocoa",
+      "Roasted Nuts",
+      "Pepper",
+      "Cinnamon",
+      "Lemon Zest",
+      "Dark Chocolate"
+    ],
+    "size": "Belicoso",
+    "length": 5.5,
+    "ringGauge": 56,
+    "popularity": 6,
+    "description": "Ranked #13 on Cigar Aficionado's Top 25 of 2024 with 93 points. Also #7 on Cigar Journal's Top 25. Made by A.J. Fernandez for Artesano del Tobacco, the Jester delivers a harmonious explosion of aromas: cocoa, roasted notes, nuts, pepper, cinnamon, lemon zest, and dark chocolate.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Gouda (5 year, crystalline)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/viva-la-vida-jester-cigars",
+        "price": 13
+      }
+    ]
+  },
+  {
+    "id": "casa-magna-colorado-xv-anniversary-6x54",
+    "name": "Casa Magna Colorado XV Anniversary 6 X 54",
+    "brand": "Casa Magna",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Nicaragua Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 15,
+    "rating": 93,
+    "flavors": [
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Cedar",
+      "Leather",
+      "Dried Fruit"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 54,
+    "popularity": 5,
+    "description": "Ranked #14 on Cigar Aficionado's Top 25 of 2024 with 93 points. Celebrating 15 years of the Casa Magna brand, this anniversary edition features an all-Nicaraguan blend with a rich, bold profile of dark chocolate, black pepper, and espresso.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/casa-magna-colorado-xv-anniversary-6x54-cigars",
+        "price": 15
+      }
+    ]
+  },
+  {
+    "id": "perdomo-30th-anniversary-sun-grown-epicure",
+    "name": "Perdomo 30th Anniversary Sun Grown Epicure",
+    "brand": "Perdomo",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Nicaragua Sun Grown",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 12,
+    "rating": 93,
+    "flavors": [
+      "Cedar",
+      "Black Pepper",
+      "Coffee",
+      "Cream",
+      "Toasted Nuts",
+      "Sweet Wood"
+    ],
+    "size": "Epicure",
+    "length": 6,
+    "ringGauge": 54,
+    "popularity": 6,
+    "description": "Ranked #16 on Cigar Aficionado's Top 25 of 2024 with 93 points. Celebrating 30 years of Perdomo Cigars, the Sun Grown Epicure features a Nicaraguan sun-grown wrapper aged in bourbon barrels. Delivers cedar, black pepper, and coffee notes with a creamy, nutty finish.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/perdomo-30th-anniversary-sun-grown-epicure-cigars",
+        "price": 12
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/perdomo-30th-anniversary-sun-grown-epicure",
+        "price": 12
+      }
+    ]
+  },
+  {
+    "id": "plasencia-cosecha-151-la-musica",
+    "name": "Plasencia Cosecha 151 La Musica",
+    "brand": "Plasencia",
+    "origin": "Honduras",
+    "region": "Jamastrán",
+    "wrapper": "Honduras",
+    "binder": "Honduras",
+    "filler": "Honduras",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 16,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Red Pepper",
+      "Roasted Chestnut",
+      "Leather",
+      "Orange Peel",
+      "Cocoa"
+    ],
+    "size": "Toro",
+    "length": 6.125,
+    "ringGauge": 52,
+    "popularity": 6,
+    "description": "Ranked #17 on Cigar Aficionado's Top 25 of 2024 with 92 points, and also appears on halfwheel's Top 25 (#11). The Cosecha 151 is made from tobacco harvested in 2015-2016. A spicy core of black and red pepper accented by roasted chestnut, leather, orange peel, and cocoa powder.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)",
+      "Blue Cheese (Roquefort, Stilton)",
+      "Oloroso Sherry (Lustau East India, Lustau Don Nuño)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/plasencia-cosecha-151-la-musica-cigars",
+        "price": 16
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/plasencia-cosecha-151-la-musica",
+        "price": 16
+      }
+    ]
+  },
+  {
+    "id": "601-la-bomba-warhead-x",
+    "name": "601 La Bomba Warhead X",
+    "brand": "Espinosa",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Mexico San Andrés",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 5,
+    "smokingTime": 75,
+    "price": 13,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Espresso",
+      "Dark Chocolate",
+      "Earth",
+      "Leather",
+      "Cedar"
+    ],
+    "size": "Robusto Extra",
+    "length": 5.5,
+    "ringGauge": 60,
+    "popularity": 5,
+    "description": "Ranked #18 on Cigar Aficionado's Top 25 of 2024 with 92 points, and #19 on halfwheel's Top 25. The Warhead X is a limited edition extension of the La Bomba line, featuring a massive 60-ring gauge and an intense, full-bodied blend with bold pepper and espresso notes.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/601-la-bomba-warhead-x-cigars",
+        "price": 13
+      }
+    ]
+  },
+  {
+    "id": "herrera-esteli-norteno-lonsdale",
+    "name": "Herrera Esteli Norteño Lonsdale",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Mexico San Andrés",
+    "binder": "Honduras",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 11,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Leather",
+      "Cedar",
+      "Espresso",
+      "Earth",
+      "Dark Chocolate"
+    ],
+    "size": "Lonsdale",
+    "length": 6.625,
+    "ringGauge": 44,
+    "popularity": 5,
+    "description": "Ranked #19 on Cigar Aficionado's Top 25 of 2024 with 92 points. The Norteño line from Drew Estate features a Mexican San Andrés wrapper and a unique blend that showcases a slender lonsdale format for concentrated, complex flavors.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
+    ],
+    "yearFounded": 2014,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/herrera-esteli-norteno-lonsdale-cigars",
+        "price": 11
+      }
+    ]
+  },
+  {
+    "id": "cohiba-riviera-robusto",
+    "name": "Cohiba Riviera Robusto",
+    "brand": "Cohiba",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Mexico San Andrés",
+    "binder": "Honduras",
+    "filler": "Honduras, Nicaragua",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 15,
+    "rating": 92,
+    "flavors": [
+      "Anise",
+      "Nutmeg",
+      "Roasted Brioche",
+      "Cedar",
+      "Black Pepper",
+      "Sweet Wood"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 50,
+    "popularity": 6,
+    "description": "Ranked #20 on Cigar Aficionado's Top 25 of 2024 with 92 points, and #18 on Cigar Journal's list. The Riviera is General Cigar's non-Cuban Cohiba line made in Nicaragua with a Mexican wrapper and Honduran binder. Diverse and complex with anise, nutmeg, and roasted brioche notes.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/cohiba-riviera-robusto-cigars",
+        "price": 15
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/cohiba-riviera-robusto",
+        "price": 15
+      }
+    ]
+  },
+  {
+    "id": "oneoff-black-and-tan-robusto",
+    "name": "OneOff Black & Tan Robusto",
+    "brand": "OneOff",
+    "origin": "Honduras",
+    "region": "Danlí",
+    "wrapper": "Honduras Habano",
+    "binder": "Honduras",
+    "filler": "Honduras, Nicaragua",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 12,
+    "rating": 92,
+    "flavors": [
+      "Cedar",
+      "Cream",
+      "Nuts",
+      "Sweet Wood",
+      "Black Pepper",
+      "Coffee"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 50,
+    "popularity": 4,
+    "description": "Ranked #22 on Cigar Aficionado's Top 25 of 2024 with 92 points. The Black & Tan is a dual-wrapper cigar that combines a dark maduro foot with a lighter habano body, creating a unique two-tone smoking experience. Also #20 on CA's 2025 list in the Black Toro format.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Triple-Distilled Irish Whiskey (Redbreast 12, Green Spot)",
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Manchego (12 month, sheep's milk)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/oneoff-black-and-tan-robusto-cigars",
+        "price": 12
+      }
+    ]
+  },
+  {
+    "id": "warped-corto-x52",
+    "name": "Warped Corto X52",
+    "brand": "Warped",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Nicaragua Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 60,
+    "price": 11,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Espresso",
+      "Dark Chocolate",
+      "Cedar",
+      "Earth",
+      "Leather"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 52,
+    "popularity": 5,
+    "description": "Ranked #23 on Cigar Aficionado's Top 25 of 2024 with 92 points. Corto is a collaboration between Warped's Kyle Gellis and Casa Fernandez, using all Aganorsa Leaf tobaccos. The X52 is a robusto that delivers intense pepper and espresso with a rich, full-bodied profile.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)",
+      "Dark Chocolate (85% cacao, single-origin Madagascar)",
+      "Banyuls (Domaine de la Rectorie, M. Chapoutier Banyuls)"
+    ],
+    "yearFounded": 2022,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/warped-corto-x52-cigars",
+        "price": 11
+      }
+    ]
+  },
+  {
+    "id": "ferio-tego-summa-corona-gorda",
+    "name": "Ferio Tego Summa Corona Gorda",
+    "brand": "Ferio Tego",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador Sumatra",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic, Nicaragua",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 14,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Red Pepper",
+      "Roasted Chestnut",
+      "Leather",
+      "Orange Peel",
+      "Cocoa"
+    ],
+    "size": "Corona Gorda",
+    "length": 5.625,
+    "ringGauge": 46,
+    "popularity": 4,
+    "description": "Ranked #24 on Cigar Aficionado's Top 25 of 2024 with 92 points. Ferio Tego was founded by Michael Herklots after Natasha Sharma acquired the former Nat Sherman cigar division. The Summa stands out with a spicy core of black and red pepper accented by roasted chestnut, leather, orange peel, and cocoa powder.",
+    "pairings": [
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Double Espresso (dark roast, no sugar)",
+      "Aged Cheddar (sharp, 2 year)",
+      "Amontillado Sherry (Lustau Amontillado Los Arcos, La Gitana)"
+    ],
+    "yearFounded": 2021,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/ferio-tego-summa-corona-gorda-cigars",
+        "price": 14
+      }
+    ]
+  },
+  {
+    "id": "craft-maquette-la-maestranza",
+    "name": "CRAFT Maquette La Maestranza",
+    "brand": "CRAFT",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Mexico San Andrés",
+    "binder": "Brazil",
+    "filler": "Dominican Republic, Honduras, Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 20,
+    "rating": 93,
+    "flavors": [
+      "Black Pepper",
+      "Dark Chocolate",
+      "Espresso",
+      "Leather",
+      "Cedar",
+      "Earth"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 52,
+    "popularity": 5,
+    "description": "halfwheel's 2024 Cigar of the Year. CRAFT is a boutique brand from RoMa Craft Tobac's Nica Sueño factory. The Maquette La Maestranza features a Mexican San Andrés wrapper over a Brazilian binder with Dominican, Honduran, and Nicaraguan fillers. Complex, bold, and meticulously crafted.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/craft-maquette-la-maestranza-cigars",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": "quesada-50th-anniversary-toro-prensado",
+    "name": "Quesada 50th Anniversary Toro Prensado",
+    "brand": "Quesada",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador Habano",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic, Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 18,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Cedar",
+      "Dark Chocolate",
+      "Espresso",
+      "Leather",
+      "Sweet Wood"
+    ],
+    "size": "Box-Pressed Toro",
+    "length": 6,
+    "ringGauge": 52,
+    "popularity": 5,
+    "description": "halfwheel's #2 Cigar of 2024. Celebrating 50 years of the Quesada family in the cigar industry, this box-pressed toro features an Ecuadorian Habano wrapper over Dominican and Nicaraguan fillers. Rich and complex with pepper, cedar, and dark chocolate notes.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/quesada-50th-anniversary-toro-prensado-cigars",
+        "price": 18
+      }
+    ]
+  },
+  {
+    "id": "sin-compromiso-seleccion-no-4",
+    "name": "Sin Compromiso Selección No. 4",
+    "brand": "Sin Compromiso",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Mexico San Andrés",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 22,
+    "rating": 92,
+    "flavors": [
+      "Dark Chocolate",
+      "Espresso",
+      "Black Pepper",
+      "Leather",
+      "Cedar",
+      "Sweet Wood"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 54,
+    "popularity": 5,
+    "description": "halfwheel's #3 Cigar of 2024. Made by A.J. Fernandez, Sin Compromiso is a premium line that spares no expense. The Selección No. 4 delivers bold, rich flavors with exceptional construction and balance.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2020,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/sin-compromiso-seleccion-no-4-cigars",
+        "price": 22
+      }
+    ]
+  },
+  {
+    "id": "plasencia-alma-fuerte-colorado-claro-robustus-ii",
+    "name": "Plasencia Alma Fuerte Colorado Claro Robustus II",
+    "brand": "Plasencia",
+    "origin": "Nicaragua",
+    "region": "Jalapa",
+    "wrapper": "Nicaragua Colorado Claro",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 19,
+    "rating": 92,
+    "flavors": [
+      "Cedar",
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Sweet Wood",
+      "Nutmeg"
+    ],
+    "size": "Robusto",
+    "length": 5.25,
+    "ringGauge": 55,
+    "popularity": 5,
+    "description": "halfwheel's #4 Cigar of 2024. The Alma Fuerte line showcases Plasencia's finest vintage tobaccos. The Colorado Claro variant uses a lighter shade wrapper while maintaining the rich, full-bodied character the line is known for.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2016,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/plasencia-alma-fuerte-colorado-claro-robustus-ii-cigars",
+        "price": 19
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/plasencia-alma-fuerte-colorado-claro-robustus-ii",
+        "price": 19
+      }
+    ]
+  },
+  {
+    "id": "avo-expressions-limited-edition-2024",
+    "name": "AVO Expressions Limited Edition 2024",
+    "brand": "AVO",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador Habano",
+    "binder": "Mexico San Andrés",
+    "filler": "Dominican Republic, United States",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 20,
+    "rating": 92,
+    "flavors": [
+      "Sweet Toast",
+      "Cedar",
+      "Cream",
+      "Nuts",
+      "Black Pepper",
+      "Honey"
+    ],
+    "size": "Toro",
+    "length": 6.5,
+    "ringGauge": 50,
+    "popularity": 5,
+    "description": "halfwheel's #5 Cigar of 2024. A collaboration between Davidoff and a hip-hop DJ, with fewer than 7,000 boxes made. The AVO Expressions LE 2024 features an Ecuadorian Habano wrapper over a Mexican San Andrés binder with Dominican and US fillers. Sweet, toasty, and delicious.",
+    "pairings": [
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/avo-expressions-limited-edition-2024-cigars",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": "fuente-y-padron-legends",
+    "name": "Fuente y Padrón Legends",
+    "brand": "Arturo Fuente",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Dominican Republic",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic, Nicaragua",
+    "strength": 4,
+    "smokingTime": 120,
+    "price": 75,
+    "rating": 92,
+    "flavors": [
+      "Cedar",
+      "Leather",
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Sweet Wood"
+    ],
+    "size": "Double Robusto",
+    "length": 6.5,
+    "ringGauge": 52,
+    "popularity": 7,
+    "description": "halfwheel's #6 Cigar of 2024. A historic collaboration between Carlos Fuente Jr. and José Padrón, blending tobaccos from both families' legendary farms. An ultra-premium cigar celebrating the friendship and legacy of two cigar dynasties.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "VSOP Cognac (Pierre Ferrand, Hine)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/fuente-y-padron-legends-cigars",
+        "price": 75
+      }
+    ]
+  },
+  {
+    "id": "maestranza-ciutadella-catalonia",
+    "name": "Maestranza Ciutadella Catalonia",
+    "brand": "RoMa Craft Tobac",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Mexico San Andrés",
+    "binder": "Brazil",
+    "filler": "Dominican Republic, Honduras, Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 14,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Espresso",
+      "Dark Chocolate",
+      "Leather",
+      "Cedar",
+      "Earth"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 50,
+    "popularity": 5,
+    "description": "halfwheel's #7 Cigar of 2024. The Maestranza line is RoMa Craft's tribute to the craftsmanship of cigar making. The Ciutadella Catalonia is a bold, complex smoke with RoMa Craft's signature blending style.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/roma-craft-maestranza-ciutadella-catalonia-cigars",
+        "price": 14
+      }
+    ]
+  },
+  {
+    "id": "leroy-neiman-2023-collectors-edition",
+    "name": "LeRoy Neiman 2023 Collector's Edition",
+    "brand": "LeRoy Neiman",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador Habano",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic, Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 25,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Cedar",
+      "Dark Chocolate",
+      "Espresso",
+      "Leather",
+      "Sweet Wood"
+    ],
+    "size": "Toro",
+    "length": 6.5,
+    "ringGauge": 52,
+    "popularity": 4,
+    "description": "halfwheel's #8 Cigar of 2024. The LeRoy Neiman brand pays homage to the famous American artist known for his vibrant paintings. The 2023 Collector's Edition is a limited release with a complex, full-bodied profile.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "VSOP Cognac (Pierre Ferrand, Hine)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/leroy-neiman-2023-collectors-edition-cigars",
+        "price": 25
+      }
+    ]
+  },
+  {
+    "id": "las-calaveras-edicion-limitada-2024-lc52",
+    "name": "Las Calaveras Edición Limitada 2024 LC52",
+    "brand": "Crowned Heads",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuador Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 13,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Earth",
+      "Dark Chocolate",
+      "Cedar",
+      "Espresso",
+      "Leather"
+    ],
+    "size": "Robusto",
+    "length": 5.25,
+    "ringGauge": 52,
+    "popularity": 5,
+    "description": "halfwheel's #9 Cigar of 2024. Las Calaveras is Crowned Heads' annual limited edition that honors those who have passed. The 2024 LC52 features an Ecuadorian Habano wrapper over all-Nicaraguan tobaccos. Bold and earthy with excellent construction.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/las-calaveras-edicion-limitada-2024-lc52-cigars",
+        "price": 13
+      }
+    ]
+  },
+  {
+    "id": "davidoff-grand-cru-diademas-finas-limited-edition",
+    "name": "Davidoff Grand Cru Diademas Finas Limited Edition",
+    "brand": "Davidoff",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 65,
+    "rating": 92,
+    "flavors": [
+      "Cedar",
+      "Cream",
+      "Nuts",
+      "Sweet Wood",
+      "Black Pepper",
+      "Floral"
+    ],
+    "size": "Perfecto",
+    "length": 6.75,
+    "ringGauge": 52,
+    "popularity": 5,
+    "description": "halfwheel's #10 Cigar of 2024. A stunning limited edition from Davidoff that revives the Grand Cru line in a beautiful perfecto format. Elegant and refined with the classic Davidoff smoothness.",
+    "pairings": [
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "VSOP Cognac (Pierre Ferrand, Hine)",
+      "Vintage Champagne (Krug, Dom Pérignon)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/davidoff-grand-cru-diademas-finas-limited-edition-cigars",
+        "price": 65
+      }
+    ]
+  },
+  {
+    "id": "aj-fernandez-20th-anniversary-toro",
+    "name": "AJ Fernandez 20th Anniversary Toro",
+    "brand": "AJ Fernandez",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Nicaragua Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 16,
+    "rating": 91,
+    "flavors": [
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Cedar",
+      "Leather",
+      "Sweet Wood"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 52,
+    "popularity": 6,
+    "description": "halfwheel's #13 Cigar of 2024. Celebrating 20 years of A.J. Fernandez in the cigar industry, this limited edition toro showcases the master blender's finest Nicaraguan tobaccos from his own farms.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Nicaraguan Rum (Flor de Caña 18, Mombacho 12)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/aj-fernandez-20th-anniversary-toro-cigars",
+        "price": 16
+      }
+    ]
+  },
+  {
+    "id": "adventura-blue-eyed-jacks-revenge-robusto",
+    "name": "ADVentura Blue Eyed Jack's Revenge Robusto",
+    "brand": "ADVentura",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Mexico San Andrés",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic, Nicaragua",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 12,
+    "rating": 91,
+    "flavors": [
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Cedar",
+      "Leather",
+      "Sweet Wood"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 50,
+    "popularity": 4,
+    "description": "halfwheel's #14 Cigar of 2024. ADVentura's Blue Eyed Jack's Revenge is a bold blend from the Tabacalera Mina del Rey factory in the Dominican Republic. Full-flavored with dark chocolate and pepper notes.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/adventura-blue-eyed-jacks-revenge-robusto-cigars",
+        "price": 12
+      }
+    ]
+  },
+  {
+    "id": "davidoff-winston-churchill-late-hour-petit-panetela",
+    "name": "Davidoff Winston Churchill The Late Hour Petit Panetela",
+    "brand": "Davidoff",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador Habano",
+    "binder": "Mexico San Andrés",
+    "filler": "Dominican Republic, Nicaragua",
+    "strength": 4,
+    "smokingTime": 60,
+    "price": 22,
+    "rating": 91,
+    "flavors": [
+      "Dark Chocolate",
+      "Espresso",
+      "Black Pepper",
+      "Cedar",
+      "Leather",
+      "Whisky"
+    ],
+    "size": "Petit Panetela",
+    "length": 5,
+    "ringGauge": 38,
+    "popularity": 5,
+    "description": "halfwheel's #15 Cigar of 2024. The Late Hour line uses tobacco aged in Scotch whisky casks. The slender Petit Panetela format concentrates the flavors beautifully, delivering whisky-influenced notes alongside dark chocolate and espresso.",
+    "pairings": [
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Highland Single Malt (Glenmorangie 18, Oban 14)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2017,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/davidoff-winston-churchill-late-hour-petit-panetela-cigars",
+        "price": 22
+      }
+    ]
+  },
+  {
+    "id": "dias-de-gloria-brazil-toro",
+    "name": "Días de Gloria Brazil Toro",
+    "brand": "AJ Fernandez",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Brazil",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 14,
+    "rating": 91,
+    "flavors": [
+      "Earth",
+      "Black Pepper",
+      "Leather",
+      "Dark Chocolate",
+      "Almond",
+      "Cedar"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 52,
+    "popularity": 4,
+    "description": "halfwheel's #16 Cigar of 2024. The Días de Gloria series celebrates different tobacco-growing regions. The Brazil variant features a rare Brazilian wrapper over Nicaraguan tobaccos, delivering earth, pepper, and leather with chocolate sweetness.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/dias-de-gloria-brazil-toro-cigars",
+        "price": 14
+      }
+    ]
+  },
+  {
+    "id": "warfighter-night-shift",
+    "name": "Warfighter Night Shift",
+    "brand": "Warfighter",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Mexico San Andrés",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 13,
+    "rating": 91,
+    "flavors": [
+      "Dark Chocolate",
+      "Espresso",
+      "Black Pepper",
+      "Earth",
+      "Leather",
+      "Cedar"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 52,
+    "popularity": 3,
+    "description": "halfwheel's #18 Cigar of 2024. Warfighter Cigars is a veteran-owned brand. The Night Shift features a dark Mexican San Andrés wrapper over Nicaraguan tobaccos, delivering bold, full-flavored smoke.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/warfighter-night-shift-cigars",
+        "price": 13
+      }
+    ]
+  },
+  {
+    "id": "powstanie-connecticut-corona-gorda-justice",
+    "name": "Powstanie Connecticut Corona Gorda Justice",
+    "brand": "Powstanie",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuador Connecticut",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 10,
+    "rating": 91,
+    "flavors": [
+      "Cedar",
+      "Cream",
+      "Nuts",
+      "Sweet Wood",
+      "Black Pepper",
+      "Vanilla"
+    ],
+    "size": "Corona Gorda",
+    "length": 5.625,
+    "ringGauge": 46,
+    "popularity": 3,
+    "description": "halfwheel's #20 Cigar of 2024. Powstanie's Connecticut line uses an Ecuadorian Connecticut wrapper over Nicaraguan tobaccos. The Justice vitola is a slender corona gorda that delivers balanced, creamy flavors.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Triple-Distilled Irish Whiskey (Redbreast 12, Green Spot)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/powstanie-connecticut-corona-gorda-justice-cigars",
+        "price": 10
+      }
+    ]
+  },
+  {
+    "id": "knuckle-sandwich-56",
+    "name": "Knuckle Sandwich 56",
+    "brand": "Knuckle Sandwich",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Mexico San Andrés",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 15,
+    "rating": 91,
+    "flavors": [
+      "Dark Chocolate",
+      "Espresso",
+      "Black Pepper",
+      "Leather",
+      "Cedar",
+      "Sweet Wood"
+    ],
+    "size": "Gordo",
+    "length": 6,
+    "ringGauge": 56,
+    "popularity": 5,
+    "description": "halfwheel's #21 Cigar of 2024. Knuckle Sandwich is a collaboration between comedian Guy Fieri and Drew Estate. The 56 is a bold, full-bodied gordo with rich chocolate and espresso notes.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Dark Chocolate Stout (Guinness Foreign Extra, Founders Breakfast Stout)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2022,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/knuckle-sandwich-56-cigars",
+        "price": 15
+      }
+    ]
+  },
+  {
+    "id": "padron-black-pb-97-maduro",
+    "name": "Padrón Black PB-97 Maduro",
+    "brand": "Padrón",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Nicaragua Maduro",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 18,
+    "rating": 91,
+    "flavors": [
+      "Cocoa",
+      "Espresso",
+      "Cedar",
+      "Black Pepper",
+      "Molasses",
+      "Nutmeg"
+    ],
+    "size": "Robusto",
+    "length": 5.5,
+    "ringGauge": 56,
+    "popularity": 5,
+    "description": "halfwheel's #22 Cigar of 2024. The Padrón Black line is a newer addition to the Padrón portfolio. The PB-97 Maduro features a dark Nicaraguan maduro wrapper with the brand's signature aged tobaccos.",
+    "pairings": [
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/padron-black-pb-97-maduro-cigars",
+        "price": 18
+      }
+    ]
+  },
+  {
+    "id": "buenaventura-favoritos-56-natural",
+    "name": "Buenaventura Favoritos 56 Natural",
+    "brand": "Curivari",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Nicaragua Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 6,
+    "rating": 91,
+    "flavors": [
+      "Cedar",
+      "Black Pepper",
+      "Cream",
+      "Nuts",
+      "Sweet Wood",
+      "Earth"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 56,
+    "popularity": 4,
+    "description": "halfwheel's #23 Cigar of 2024. Curivari's Buenaventura Favoritos line offers exceptional value. The 56 Natural features an all-Nicaraguan blend with balanced, classic flavors at an affordable price point.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Triple-Distilled Irish Whiskey (Redbreast 12, Green Spot)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/buenaventura-favoritos-56-natural-cigars",
+        "price": 6
+      }
+    ]
+  },
+  {
+    "id": "la-llorona",
+    "name": "La Llorona",
+    "brand": "Casa Cuevas",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Mexico San Andrés",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 11,
+    "rating": 91,
+    "flavors": [
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Cedar",
+      "Leather",
+      "Earth"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 50,
+    "popularity": 3,
+    "description": "halfwheel's #24 Cigar of 2024. Named after the legendary weeping woman of Latin American folklore, La Llorona is from Casa Cuevas. Features a Mexican San Andrés wrapper over Nicaraguan tobaccos with a bold, full-bodied profile.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Artisanal Mezcal (Del Maguey Vida, Illegal Joven)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/la-llorona-cigars",
+        "price": 11
+      }
+    ]
+  },
+  {
+    "id": "viaje-skull-and-bones-tsar-bomba-camo-blue",
+    "name": "Viaje Skull and Bones Tsar Bomba Camo Blue",
+    "brand": "Viaje",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Mexico San Andrés",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 5,
+    "smokingTime": 90,
+    "price": 16,
+    "rating": 91,
+    "flavors": [
+      "Black Pepper",
+      "Espresso",
+      "Dark Chocolate",
+      "Earth",
+      "Leather",
+      "Cedar"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 54,
+    "popularity": 4,
+    "description": "halfwheel's #25 Cigar of 2024. The Skull and Bones line from Viaje is known for its bold, aggressive character. The Tsar Bomba Camo Blue is a limited edition with intense pepper and espresso flavors in a compact, powerful format.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/viaje-skull-and-bones-tsar-bomba-camo-blue-cigars",
+        "price": 16
+      }
+    ]
+  },
+  {
+    "id": "plasencia-cosecha-151-la-tradicion-toro",
+    "name": "Plasencia Cosecha 151 La Tradición Toro",
+    "brand": "Plasencia",
+    "origin": "Honduras",
+    "region": "Jamastrán",
+    "wrapper": "Honduras",
+    "binder": "Honduras",
+    "filler": "Honduras",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 15,
+    "rating": 93,
+    "flavors": [
+      "Roasted Brioche",
+      "Dark Chocolate",
+      "Toffee",
+      "Black Pepper",
+      "Cream",
+      "Sweet Wood"
+    ],
+    "size": "Toro",
+    "length": 5.875,
+    "ringGauge": 54,
+    "popularity": 5,
+    "description": "Cigar Journal's 2024 Cigar of the Year. The Cosecha 151 is made from tobacco harvested in 2015-2016, showcasing Plasencia's vintage tobacco expertise. Sweet and creamy with roasted brioche and dark chocolate notes, finishing with black pepper and toffee.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)",
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/plasencia-cosecha-151-la-tradicion-toro-cigars",
+        "price": 15
+      }
+    ]
+  },
+  {
+    "id": "perdomo-30th-anniversary-connecticut-torpedo",
+    "name": "Perdomo 30th Anniversary Connecticut Torpedo",
+    "brand": "Perdomo",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuador Connecticut",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 2,
+    "smokingTime": 90,
+    "price": 12,
+    "rating": 93,
+    "flavors": [
+      "Butter",
+      "Fresh Bread",
+      "Vanilla",
+      "Wood",
+      "White Pepper",
+      "Herbal Spices"
+    ],
+    "size": "Torpedo",
+    "length": 7,
+    "ringGauge": 54,
+    "popularity": 6,
+    "description": "Cigar Journal's #2 Cigar of 2024. The 30th Anniversary Connecticut features an Ecuadorian Connecticut wrapper with buttery creaminess, soft fresh bread aromas, vanilla, and wood notes. White pepper and herbal spices linger on the finish.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Triple-Distilled Irish Whiskey (Redbreast 12, Green Spot)",
+      "Double Espresso (dark roast, no sugar)",
+      "Highland Single Malt (Dalmore, Oban 14)",
+      "Reposado Tequila (Patrón Reposado, Siete Leguas)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/perdomo-30th-anniversary-connecticut-torpedo-cigars",
+        "price": 12
+      }
+    ]
+  },
+  {
+    "id": "dias-de-gloria-brazil-figurado",
+    "name": "Días de Gloria by AJ Fernandez Brazil Figurado",
+    "brand": "AJ Fernandez",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Brazil",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 15,
+    "rating": 92,
+    "flavors": [
+      "Earth",
+      "Pepper",
+      "Leather",
+      "Chocolate",
+      "Almond",
+      "Nutty"
+    ],
+    "size": "Figurado",
+    "length": 6.5,
+    "ringGauge": 54,
+    "popularity": 4,
+    "description": "Cigar Journal's #3 Cigar of 2024. This elegant box-pressed figurado with a Brazilian wrapper offers a strong triad of earth, pepper, and leather aromas, harmoniously rounded off by chocolate sweetness with almond and nutty tones.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/dias-de-gloria-brazil-figurado-cigars",
+        "price": 15
+      }
+    ]
+  },
+  {
+    "id": "davidoff-maduro-toro",
+    "name": "Davidoff Maduro Toro",
+    "brand": "Davidoff",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador",
+    "binder": "Mexico",
+    "filler": "Dominican Republic",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 32,
+    "rating": 92,
+    "flavors": [
+      "Wood",
+      "Espresso",
+      "Sweetness",
+      "Earth",
+      "Dark Chocolate",
+      "Cedar"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 54,
+    "popularity": 5,
+    "description": "Cigar Journal's #4 Cigar of 2024. After an initial sharpness on the tongue, typical Maduro sweetness spreads. Strong flavors of wood and freshly roasted espresso define the base, with light earthy notes at the end.",
+    "pairings": [
+      "VSOP Cognac (Pierre Ferrand, Hine)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/davidoff-maduro-toro-cigars",
+        "price": 32
+      }
+    ]
+  },
+  {
+    "id": "rocky-patel-dark-star-robusto",
+    "name": "Rocky Patel Dark Star Robusto",
+    "brand": "Rocky Patel",
+    "origin": "Honduras",
+    "region": "Danlí",
+    "wrapper": "Honduras",
+    "binder": "Honduras",
+    "filler": "Honduras, Paraguay",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 13,
+    "rating": 92,
+    "flavors": [
+      "Pepper",
+      "Ginger",
+      "Nutmeg",
+      "Chili",
+      "Coffee",
+      "Chocolate",
+      "Dried Fruit"
+    ],
+    "size": "Robusto",
+    "length": 5.5,
+    "ringGauge": 50,
+    "popularity": 4,
+    "description": "Cigar Journal's #5 Cigar of 2024. This Robusto offers a bouquet of spices — pepper, ginger, nutmeg, and chili — plus aromas of coffee beans, chocolate, and dried fruit. Creamy and smooth until the last puff.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Nicaraguan Rum (Flor de Caña 18, Mombacho 12)",
+      "Double Espresso (dark roast, no sugar)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/rocky-patel-dark-star-robusto-cigars",
+        "price": 13
+      }
+    ]
+  },
+  {
+    "id": "rojas-street-tacos-barbacoa-robusto",
+    "name": "Rojas Street Tacos Barbacoa Robusto",
+    "brand": "Rojas Cigar",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuador",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 8,
+    "rating": 92,
+    "flavors": [
+      "Earthy Sweetness",
+      "Bergamot",
+      "Black Tea",
+      "Creamy",
+      "Nutty",
+      "Chocolate",
+      "Cinnamon",
+      "Black Pepper"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 50,
+    "popularity": 3,
+    "description": "Cigar Journal's #6 Cigar of 2024. A great cigar for little money. Beautiful earthy sweetness, hints of bergamot and black tea, creamy and nutty. Darker notes of chocolate, cinnamon, and black pepper toward the end.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/rojas-street-tacos-barbacoa-robusto-cigars",
+        "price": 8
+      }
+    ]
+  },
+  {
+    "id": "aladino-fuma-noche-super-toro",
+    "name": "Aladino Fuma Noche Super Toro",
+    "brand": "Aladino",
+    "origin": "Honduras",
+    "region": "Jamastrán",
+    "wrapper": "Honduras Corojo",
+    "binder": "Honduras",
+    "filler": "Honduras",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 12,
+    "rating": 92,
+    "flavors": [
+      "Creamy",
+      "Woody Sweet",
+      "Leather",
+      "Pepper",
+      "Earth",
+      "Cedar"
+    ],
+    "size": "Super Toro",
+    "length": 6.25,
+    "ringGauge": 54,
+    "popularity": 4,
+    "description": "Cigar Journal's #8 Cigar of 2024. An all-Honduran puro from JRE Tobacco Co. Dense, full-bodied but balanced creamy smoke with a woody-sweet base note complemented by leather, pepper, and earthy aromas. Perfectly constructed.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/aladino-fuma-noche-super-toro-cigars",
+        "price": 12
+      }
+    ]
+  },
+  {
+    "id": "kristoff-nicaragua-robusto",
+    "name": "Kristoff Nicaragua Robusto",
+    "brand": "Kristoff",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Nicaragua",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 9,
+    "rating": 91,
+    "flavors": [
+      "Wood",
+      "Earth",
+      "Peanut",
+      "Creamy",
+      "Floral Sweetness",
+      "Pepper"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 50,
+    "popularity": 3,
+    "description": "Cigar Journal's #10 Cigar of 2024. A little restrained at first, then develops with nice wood, earth, and peanut aromas. Delicate creaminess paired with floral sweetness and pepper. Fine harmony.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Double Espresso (dark roast, no sugar)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/kristoff-nicaragua-robusto-cigars",
+        "price": 9
+      }
+    ]
+  },
+  {
+    "id": "la-aurora-120th-anniversary-robusto",
+    "name": "La Aurora 120th Anniversary Robusto",
+    "brand": "La Aurora",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Dominican Republic",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 18,
+    "rating": 91,
+    "flavors": [
+      "Cedar",
+      "Cashew",
+      "Bitter Notes",
+      "Full-bodied",
+      "Harmonious",
+      "Creamy"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 50,
+    "popularity": 5,
+    "description": "Cigar Journal's #11 Cigar of 2024. Celebrating 120 years of La Aurora, the oldest cigar factory in the Dominican Republic. This Dominican puro offers gentle bitter notes, cedar wood, and cashew nuts with very voluminous, full-bodied smoke.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)",
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Añejo Tequila (Don Julio 1942, Herradura Añejo)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/la-aurora-120th-anniversary-robusto-cigars",
+        "price": 18
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-blackened-s84-shade-to-black-toro",
+    "name": "Drew Estate Blackened Cigars S84 Shade to Black Toro",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuador",
+    "binder": "USA",
+    "filler": "USA, Nicaragua",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 13.5,
+    "rating": 91,
+    "flavors": [
+      "Roasted",
+      "Pastry",
+      "Caramel",
+      "Cedar",
+      "Earth",
+      "Nuts",
+      "Pepper",
+      "Leather",
+      "Cream"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 52,
+    "popularity": 5,
+    "description": "Cigar Journal's #12 Cigar of 2024. A collaboration between Drew Estate, Blackened American Whiskey, and Metallica's James Hetfield. Starts with bitter, roasted aromas that become gentler with pastry, caramel, and cedar wood notes.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Dark Chocolate Stout (Guinness Foreign Extra, Founders Breakfast Stout)",
+      "Double Espresso (dark roast, no sugar)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/drew-estate-blackened-s84-shade-to-black-toro-cigars",
+        "price": 13.5
+      }
+    ]
+  },
+  {
+    "id": "vegafina-classic-supremo-el-2024",
+    "name": "VegaFina Classic Supremo EL 2024",
+    "brand": "VegaFina",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic",
+    "strength": 2,
+    "smokingTime": 90,
+    "price": 20,
+    "rating": 91,
+    "flavors": [
+      "Woody",
+      "Baking Spices",
+      "Hazelnut",
+      "Sweet Sponge Cake",
+      "Cedar",
+      "Cream"
+    ],
+    "size": "Gordo",
+    "length": 5.375,
+    "ringGauge": 56,
+    "popularity": 3,
+    "description": "Cigar Journal's #13 Cigar of 2024. From the cold draw, woody notes set the tone for this mild cigar. Light notes of baking spices and hazelnuts, complemented by sweet sponge cake aromas.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Oloroso Sherry (Lustau Don Nuño, Bodegas Hidalgo La Gitana)",
+      "Highland Single Malt (Dalmore, Oban 14)",
+      "Reposado Tequila (Patrón Reposado, Siete Leguas)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/vegafina-classic-supremo-el-2024-cigars",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": "artista-falu-robusto",
+    "name": "Artista Falu Robusto",
+    "brand": "Artista Cigars",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Mexico",
+    "binder": "Indonesia",
+    "filler": "Dominican Republic",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 13,
+    "rating": 91,
+    "flavors": [
+      "Earthy",
+      "Fruit",
+      "Mocha",
+      "Pepper",
+      "Wood",
+      "Chocolate",
+      "Creamy"
+    ],
+    "size": "Box-Pressed Robusto",
+    "length": 5,
+    "ringGauge": 54,
+    "popularity": 3,
+    "description": "Cigar Journal's #14 Cigar of 2024. This box-pressed Maduro develops earthy notes, fruit, and mocha with pepper. Becomes stronger with more wood and chocolate aromas and a creamy impact.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Tawny Port (Fonseca 20, Taylor Fladgate 20)",
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/artista-falu-robusto-cigars",
+        "price": 13
+      }
+    ]
+  },
+  {
+    "id": "chateau-diadem-conviction-lancero",
+    "name": "Chateau Diadem Conviction Lancero",
+    "brand": "Chateau Diadem",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador",
+    "binder": "Dominican Republic",
+    "filler": "Nicaragua, Dominican Republic",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 25,
+    "rating": 91,
+    "flavors": [
+      "Creamy",
+      "Nut Nougat",
+      "Sweet",
+      "Cool",
+      "Ethereal",
+      "Balanced"
+    ],
+    "size": "Lancero",
+    "length": 7,
+    "ringGauge": 42,
+    "popularity": 3,
+    "description": "Cigar Journal's #15 Cigar of 2024. With its little pigtail and silky wrapper, this slim, excellently crafted cigar is visually captivating. Balanced and creamy with nut nougat, fine sweetness, and a cool, ethereal aroma.",
+    "pairings": [
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "VSOP Cognac (Pierre Ferrand, Hine)",
+      "Oloroso Sherry (Lustau Don Nuño, Bodegas Hidalgo La Gitana)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/chateau-diadem-conviction-lancero-cigars",
+        "price": 25
+      }
+    ]
+  },
+  {
+    "id": "great-wall-gj-no5-lancero",
+    "name": "Great Wall GJ No.5 Lancero",
+    "brand": "Great Wall",
+    "origin": "China",
+    "region": "Sichuan",
+    "wrapper": "Nicaragua",
+    "binder": "Indonesia",
+    "filler": "Dominican Republic, China",
+    "strength": 2,
+    "smokingTime": 90,
+    "price": 15,
+    "rating": 91,
+    "flavors": [
+      "Mineral",
+      "Peppery",
+      "Peaty",
+      "Woody",
+      "Herbs",
+      "Anise"
+    ],
+    "size": "Lancero",
+    "length": 7.5,
+    "ringGauge": 38,
+    "popularity": 3,
+    "description": "Cigar Journal's #16 Cigar of 2024. From China's Great Wall Cigar Factory, this Lancero is superbly crafted with a pigtail. Starts with mineral-peppery notes and light spiciness, developing peaty and woody flavors with hints of herbs and anise.",
+    "pairings": [
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Highland Single Malt (Glenmorangie 18, Oban 14)",
+      "Double Espresso (dark roast, no sugar)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Highland Single Malt (Dalmore, Oban 14)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/great-wall-gj-no5-lancero-cigars",
+        "price": 15
+      }
+    ]
+  },
+  {
+    "id": "platinum-nova-batch-collection-toro",
+    "name": "Platinum Nova Batch Collection Toro",
+    "brand": "Platinum Nova",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Nicaragua",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 14,
+    "rating": 91,
+    "flavors": [
+      "Earth",
+      "Wood",
+      "Roasted Coffee Beans",
+      "Dried Fruit",
+      "Dark Chocolate"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 54,
+    "popularity": 2,
+    "description": "Cigar Journal's #17 Cigar of 2024. Starts gently but gains power. Aromas of earth, wood, roasted coffee beans, dried fruit, and dark chocolate are consistent throughout. Features a noble wrapper and beautiful feel.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/platinum-nova-batch-collection-toro-cigars",
+        "price": 14
+      }
+    ]
+  },
+  {
+    "id": "cohiba-riviera-lancero",
+    "name": "Cohiba Riviera Lancero",
+    "brand": "Cohiba",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Mexico",
+    "binder": "Honduras",
+    "filler": "Honduras, Nicaragua",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 16,
+    "rating": 91,
+    "flavors": [
+      "Anise",
+      "Nutmeg",
+      "Roasted Brioche",
+      "Cedar",
+      "Sweetness",
+      "Acidity"
+    ],
+    "size": "Lancero",
+    "length": 7,
+    "ringGauge": 38,
+    "popularity": 5,
+    "description": "Cigar Journal's #18 Cigar of 2024. Also on CA's Top 25. The Riviera Lancero is quite diverse with a broad aroma and taste profile. Sweetness and acidity interact with aniseed, nutmeg, and roasted brioche, finishing with dense cedar wood.",
+    "pairings": [
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Double Espresso (dark roast, no sugar)",
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Añejo Tequila (Don Julio 1942, Herradura Añejo)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/cohiba-riviera-lancero-cigars",
+        "price": 16
+      }
+    ]
+  },
+  {
+    "id": "gurkha-coleccion-especial-toro-parejo",
+    "name": "Gurkha Colección Especial Toro Parejo",
+    "brand": "Gurkha",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Nicaragua",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 18,
+    "rating": 91,
+    "flavors": [
+      "Cocoa",
+      "Almonds",
+      "Nutmeg",
+      "Chili",
+      "Aniseed",
+      "Wood",
+      "Leather",
+      "Coffee",
+      "Earth"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 54,
+    "popularity": 4,
+    "description": "Cigar Journal's #19 Cigar of 2024. This dark cigar starts with cocoa, almonds, and nutmeg, then chili and aniseed come through before finishing with wood, cocoa, leather, coffee, and earthy notes.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/gurkha-coleccion-especial-toro-parejo-cigars",
+        "price": 18
+      }
+    ]
+  },
+  {
+    "id": "nicaroma-6x54",
+    "name": "Nicaroma 6 x 54",
+    "brand": "Villiger",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Nicaragua",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 12,
+    "rating": 91,
+    "flavors": [
+      "Nutty",
+      "Woody",
+      "Spice",
+      "Earth",
+      "Cocoa",
+      "Harmonious"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 54,
+    "popularity": 3,
+    "description": "Cigar Journal's #20 Cigar of 2024. From Villiger's Nicaraguan factory, this all-Nicaraguan puro starts with mild nutty and woody aromas, then develops more spice and depth with earthy and cocoa notes. Linear but beautifully harmonious.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/nicaroma-6x54-cigars",
+        "price": 12
+      }
+    ]
+  },
+  {
+    "id": "luciano-cigars-y-panda-toro",
+    "name": "Luciano Cigars Y Panda Toro",
+    "brand": "Luciano Cigars",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Ecuador",
+    "binder": "Brazil, Ecuador",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 15,
+    "rating": 91,
+    "flavors": [
+      "Peppery Spice",
+      "Cocoa",
+      "Ristretto",
+      "Oily",
+      "Full",
+      "Acidity",
+      "Mineral"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 52,
+    "popularity": 3,
+    "description": "Cigar Journal's #21 Cigar of 2024. Starts with character — peppery spice, cocoa, and dense ristretto. Oily and full mouthfeel with fine acidity and spicy-mineral notes in the finish. Multilayered and intense.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Añejo Tequila (Don Julio 1942, Herradura Seleccion Suprema)",
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/luciano-cigars-y-panda-toro-cigars",
+        "price": 15
+      }
+    ]
+  },
+  {
+    "id": "leonel-no-511-robusto",
+    "name": "Leonel No. 511 Robusto",
+    "brand": "Leonel",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Nicaragua",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 2,
+    "smokingTime": 60,
+    "price": 10,
+    "rating": 91,
+    "flavors": [
+      "Vanilla",
+      "Fresh Bread",
+      "Dark Chocolate",
+      "Cedar",
+      "Nut",
+      "Peppery"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 52,
+    "popularity": 2,
+    "description": "Cigar Journal's #22 Cigar of 2024. A mild Robusto with creamy vanilla aromas and a sweet start. Fresh bread, dark chocolate, cedar, and nut aromas develop, becoming slightly peppery. A pleasant, accessible cigar.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Triple-Distilled Irish Whiskey (Redbreast 12, Green Spot)",
+      "Double Espresso (dark roast, no sugar)",
+      "Highland Single Malt (Dalmore, Oban 14)",
+      "Reposado Tequila (Patrón Reposado, Siete Leguas)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/leonel-no-511-robusto-cigars",
+        "price": 10
+      }
+    ]
+  },
+  {
+    "id": "buena-vista-incognito-toro",
+    "name": "Buena Vista Incognito Toro",
+    "brand": "Buena Vista",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador",
+    "binder": "Mexico",
+    "filler": "Dominican Republic",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 12,
+    "rating": 91,
+    "flavors": [
+      "Earthy",
+      "Spicy",
+      "Salty",
+      "Leather",
+      "Coffee",
+      "Cedar"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 50,
+    "popularity": 2,
+    "description": "Cigar Journal's #23 Cigar of 2024. A truly flavorful cigar with rich earthy and spicy tones and a slightly salty taste. Also delivers notes of leather and coffee.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)",
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/buena-vista-incognito-toro-cigars",
+        "price": 12
+      }
+    ]
+  },
+  {
+    "id": "conspiracy-toro-maduro",
+    "name": "Conspiracy Toro Maduro",
+    "brand": "Conspiracy",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Mexico",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 14,
+    "rating": 91,
+    "flavors": [
+      "Earth",
+      "Bitter Chocolate",
+      "Wood",
+      "Leather",
+      "Cocoa",
+      "Vanilla",
+      "Cinnamon",
+      "Cloves",
+      "Honey"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 52,
+    "popularity": 2,
+    "description": "Cigar Journal's #24 Cigar of 2024. This Maduro exhibits dark tones throughout — earth, bitter chocolate, wood, leather, and cocoa. Aromas of vanilla, cinnamon, cloves, and honey complement the first two thirds. A strong finish.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Tawny Port (Fonseca 20, Taylor Fladgate 20)",
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/conspiracy-toro-maduro-cigars",
+        "price": 14
+      }
+    ]
+  },
+  {
+    "id": "los-statos-deluxe-limited-edition",
+    "name": "Los Statos Deluxe Limited Edition",
+    "brand": "Room 101",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Mexico",
+    "binder": "Ecuador",
+    "filler": "USA, Nicaragua",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 15,
+    "rating": 91,
+    "flavors": [
+      "Floral",
+      "Lemongrass",
+      "White Pepper",
+      "Earthy",
+      "Burnt Wood",
+      "Dense"
+    ],
+    "size": "Figurado",
+    "length": 5.5,
+    "ringGauge": 50,
+    "popularity": 3,
+    "description": "Cigar Journal's #25 Cigar of 2024. This dark, oily Figurado reveals a broad spectrum of aromas. First floral notes, lemongrass, and white pepper, then earthy notes and burnt wood. Dense and balanced.",
+    "pairings": [
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Double Espresso (dark roast, no sugar)",
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/los-statos-deluxe-limited-edition-cigars",
+        "price": 15
+      }
+    ]
+  },
+  {
+    "id": "fonseca-by-my-father-edition-mx",
+    "name": "Fonseca by My Father Edition MX",
+    "brand": "Fonseca",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Mexico San Andrés",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 11,
+    "rating": 93,
+    "flavors": [
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Cedar",
+      "Sweet Wood",
+      "Molasses"
+    ],
+    "size": "Robusto",
+    "length": 5,
+    "ringGauge": 50,
+    "popularity": 5,
+    "description": "Cigar Snob's #2 Cigar of 2024. My Father Cigars acquired the Fonseca brand in 2019. The Edition MX features an ultra-flavorful Mexican San Andrés wrapper over Nicaraguan tobaccos. The only cigar in Cigar Snob's top 10 under $12.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/fonseca-by-my-father-edition-mx-cigars",
+        "price": 11
+      }
+    ]
+  },
+  {
+    "id": "el-titan-de-bronze-redemption",
+    "name": "El Titan de Bronze Redemption",
+    "brand": "El Titan de Bronze",
+    "origin": "USA",
+    "region": "Miami, FL",
+    "wrapper": "Ecuador Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 16,
+    "rating": 93,
+    "flavors": [
+      "Creamy",
+      "Cedar",
+      "Leather",
+      "Black Pepper",
+      "Nuts",
+      "Sweet Wood"
+    ],
+    "size": "Corona Extra",
+    "length": 5.625,
+    "ringGauge": 46,
+    "popularity": 4,
+    "description": "Cigar Snob's #4 Cigar of 2024. From the tiny, family-run El Titan de Bronze factory in Miami's Little Havana, partnered with General Cigar for distribution. Features an Ecuador Habano wrapper over Nicaraguan tobaccos with a creamy, medium-strength profile.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)",
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)",
+      "Añejo Tequila (Don Julio 1942, Herradura Añejo)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/el-titan-de-bronze-redemption-cigars",
+        "price": 16
+      }
+    ]
+  },
+  {
+    "id": "aganorsa-leaf-arsenio",
+    "name": "Aganorsa Leaf Arsenio",
+    "brand": "Aganorsa Leaf",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Nicaragua",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 15,
+    "rating": 93,
+    "flavors": [
+      "Cedar",
+      "Dark Chocolate",
+      "Sweet Wood",
+      "Black Pepper",
+      "Espresso",
+      "Cream"
+    ],
+    "size": "Corona",
+    "length": 6,
+    "ringGauge": 44,
+    "popularity": 4,
+    "description": "Cigar Snob's #5 Cigar of 2024. Named after the late Arsenio Ramos, Aganorsa's head of manufacturing until 2018. The Arsenio is the company's rendition of his favorite blend using all Nicaraguan tobaccos grown on Aganorsa's farms.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Aged Nicaraguan Rum (Flor de Caña 18, Mombacho 12)",
+      "Double Espresso (dark roast, no sugar)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/aganorsa-leaf-arsenio-cigars",
+        "price": 15
+      }
+    ]
+  },
+  {
+    "id": "el-pulpo-belicoso-grande",
+    "name": "El Pulpo Belicoso Grande",
+    "brand": "Artesano del Tobacco",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Mexico San Andrés",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 17,
+    "rating": 92,
+    "flavors": [
+      "Coffee",
+      "Dark Chocolate",
+      "Nuts",
+      "Citrus",
+      "Black Pepper",
+      "Leather"
+    ],
+    "size": "Belicoso Grande",
+    "length": 5.75,
+    "ringGauge": 58,
+    "popularity": 5,
+    "description": "Cigar Snob's #16 Cigar of 2024 and CA's #10 in 2023. Made by A.J. Fernandez for Artesano del Tobacco. The name means 'the octopus' in Spanish, symbolizing how the smoke envelops the palate. Bold, intense, yet harmonious.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Imperial Russian Stout (Ten FIDY, Old Rasputin)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/el-pulpo-belicoso-grande-cigars",
+        "price": 17
+      }
+    ]
+  },
+  {
+    "id": "oscar-valladares-2012-sumatra",
+    "name": "Oscar Valladares 2012 Sumatra",
+    "brand": "Oscar Valladares",
+    "origin": "Honduras",
+    "region": "Danlí",
+    "wrapper": "Ecuador",
+    "binder": "Honduras",
+    "filler": "Nicaragua, Honduras",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 9.3,
+    "rating": 91,
+    "flavors": [
+      "Cedar",
+      "Cream",
+      "Nuts",
+      "Sweet Wood",
+      "Black Pepper",
+      "Coffee"
+    ],
+    "size": "Toro",
+    "length": 6,
+    "ringGauge": 52,
+    "popularity": 4,
+    "description": "Cigar Snob's #18 Cigar of 2024. The 2012 line is the precursor to the popular Leaf by Oscar brand. The Sumatra variant features an Ecuadorian Sumatra wrapper over Honduran and Nicaraguan fillers.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Double Espresso (dark roast, no sugar)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/oscar-valladares-2012-sumatra-cigars",
+        "price": 9.3
+      }
+    ]
+  },
+  {
+    "id": "la-aurora-preferidos-gold-corojo",
+    "name": "La Aurora Preferidos Gold Corojo",
+    "brand": "La Aurora",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Dominican Republic",
+    "binder": "Dominican Republic",
+    "filler": "Brazil, Nicaragua, Peru",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 27.25,
+    "rating": 91,
+    "flavors": [
+      "Cedar",
+      "Leather",
+      "Rich",
+      "Cream",
+      "Nuts",
+      "Sweet Wood"
+    ],
+    "size": "Perfecto",
+    "length": 5,
+    "ringGauge": 54,
+    "popularity": 4,
+    "description": "Cigar Snob's #21 Cigar of 2024. This classic perfecto from the Dominican Republic's oldest cigar factory showcases a Dominican Corojo wrapper that delivers rich cedar and leather notes. A historic brand that graced Cigar Snob's inaugural cover in 2006.",
+    "pairings": [
+      "VSOP Cognac (Pierre Ferrand, Hine)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Tawny Port (Fonseca 20, Taylor Fladgate 20)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "VSOP Cognac (Hennessy VSOP, Pierre Ferrand Ambre)"
+    ],
+    "yearFounded": 2018,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/la-aurora-preferidos-gold-corojo-cigars",
+        "price": 27.25
+      }
+    ]
+  },
+  {
+    "id": "hvc-seleccion-no-1-maduro",
+    "name": "HVC Selección No. 1 Maduro",
+    "brand": "HVC",
+    "origin": "Nicaragua",
+    "region": "Estelí",
+    "wrapper": "Mexico",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 8.8,
+    "rating": 91,
+    "flavors": [
+      "Cocoa",
+      "Coffee",
+      "Caramel",
+      "Cedar",
+      "Black Pepper",
+      "Sweet Wood"
+    ],
+    "size": "Corona",
+    "length": 5.625,
+    "ringGauge": 46,
+    "popularity": 3,
+    "description": "Cigar Snob's #22 Cigar of 2024. Produced at HVC's factory in Estelí, this flavorful and well-balanced corona has become a favorite at Cigar Snob HQ. Excellent value with a Mexican maduro wrapper over Nicaraguan tobaccos.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Double Espresso (dark roast, no sugar)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/hvc-seleccion-no-1-maduro-cigars",
+        "price": 8.8
       }
     ]
   }

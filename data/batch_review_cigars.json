@@ -1,0 +1,2848 @@
+[
+  {
+    "id": "padron-serie-1926-no-6",
+    "name": "Padr\u00f3n Serie 1926 No. 6",
+    "brand": "Padr\u00f3n",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Nicaragua Sun Grown",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 20.0,
+    "rating": 96,
+    "flavors": [
+      "Cocoa",
+      "Espresso",
+      "Cedar",
+      "Black Pepper",
+      "Nutmeg",
+      "Honey"
+    ],
+    "size": "Perfecto",
+    "length": 5.5,
+    "ringGauge": 52,
+    "popularity": 8,
+    "description": "Ranked #4 on Cigar Aficionado's Top 25 of 2024 with 96 points. The Serie 1926 line commemorates the year Jos\u00e9 O. Padr\u00f3n was born. This Perfecto vitola showcases the legendary Padr\u00f3n consistency with rich cocoa, espresso, and cedar notes wrapped in a beautiful sun-grown Nicaraguan leaf.",
+    "pairings": [
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2002,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/padron-serie-1926-no-6-cigars",
+        "price": 20.0
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/padron-serie-1926-no-6",
+        "price": 20.0
+      }
+    ]
+  },
+  {
+    "id": "partagas-linea-maestra-maestro",
+    "name": "Partag\u00e1s L\u00ednea Maestra Maestro",
+    "brand": "Partag\u00e1s",
+    "origin": "Cuba",
+    "region": "Vuelta Abajo",
+    "wrapper": "Cuban Habano",
+    "binder": "Cuban Habano",
+    "filler": "Cuban Habano",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 0,
+    "rating": 95,
+    "flavors": [
+      "Cedar",
+      "Earth",
+      "Black Pepper",
+      "Coffee",
+      "Leather",
+      "Sweet Wood"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 50,
+    "popularity": 7,
+    "description": "Ranked #5 on Cigar Aficionado's Top 25 of 2024 with 95 points. The L\u00ednea Maestra is a premium Cuban line from Partag\u00e1s, and the Maestro delivers the brand's signature boldness with exceptional balance. Notes of cedar, earth, and black pepper are complemented by coffee and leather.",
+    "pairings": [
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Havana House",
+        "url": "https://www.havanahouse.co.uk/product/partagas-linea-maestra-maestro/",
+        "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/partagas-linea-maestra-maestro",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "rocky-patel-conviction-toro",
+    "name": "Rocky Patel Conviction Toro",
+    "brand": "Rocky Patel",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Nicaragua Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 30.0,
+    "rating": 95,
+    "flavors": [
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Leather",
+      "Cedar",
+      "Dried Fruit"
+    ],
+    "size": "Toro",
+    "length": 6.5,
+    "ringGauge": 52,
+    "popularity": 7,
+    "description": "Ranked #7 on Cigar Aficionado's Top 25 of 2024 with 95 points. Conviction is a limited-production cigar that showcases Rocky Patel's commitment to quality. Made at his Tavicusa factory in Nicaragua with an all-Nicaraguan blend that delivers bold, complex flavors.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/rocky-patel-conviction-toro-cigars",
+        "price": 30.0
+      }
+    ]
+  },
+  {
+    "id": "cohiba-maduro-5-magicos",
+    "name": "Cohiba Maduro 5 M\u00e1gicos",
+    "brand": "Cohiba",
+    "origin": "Cuba",
+    "region": "Vuelta Abajo",
+    "wrapper": "Cuban Maduro",
+    "binder": "Cuban Habano",
+    "filler": "Cuban Habano",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 0,
+    "rating": 94,
+    "flavors": [
+      "Dark Chocolate",
+      "Espresso",
+      "Cedar",
+      "Black Pepper",
+      "Sweet Wood",
+      "Leather"
+    ],
+    "size": "Robusto",
+    "length": 4.75,
+    "ringGauge": 52,
+    "popularity": 7,
+    "description": "Ranked #8 on Cigar Aficionado's Top 25 of 2024 with 94 points. The Maduro 5 line uses wrapper leaves aged for five years, resulting in a rich, dark, and oily appearance. The M\u00e1gicos vitola delivers concentrated Cohiba flavors with a maduro twist.",
+    "pairings": [
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2007,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Havana House",
+        "url": "https://www.havanahouse.co.uk/product/cohiba-maduro-5-magicos/",
+        "price": null
+      },
+      {
+        "retailer": "C.Gars Ltd",
+        "url": "https://www.cgarsltd.co.uk/cohiba-maduro-5-magicos",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "brick-house-churchill",
+    "name": "Brick House Churchill",
+    "brand": "J.C. Newman",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Ecuador Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 8.5,
+    "rating": 93,
+    "flavors": [
+      "Wood",
+      "Leather",
+      "Nuts",
+      "Sweet Spices",
+      "Cappuccino",
+      "Cedar"
+    ],
+    "size": "Churchill",
+    "length": 7.0,
+    "ringGauge": 50,
+    "popularity": 7,
+    "description": "Ranked #10 on Cigar Aficionado's Top 25 of 2024 with 93 points. Brick House is one of J.C. Newman's oldest brands, revived in 2009 with Nicaraguan tobaccos and a Cuban-seed wrapper from Ecuador. The Churchill shows a complex profile of wood, leather, nuts, and sweet spices with a cappuccino finish. An exceptional value.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Double Espresso (dark roast, no sugar)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)"
+    ],
+    "yearFounded": 2009,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/brick-house-churchill-cigars",
+        "price": 8.5
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/brick-house-churchill",
+        "price": 8.5
+      }
+    ]
+  },
+  {
+    "id": "la-aroma-de-cuba-pasion-box-pressed-torpedo",
+    "name": "La Aroma de Cuba Pasi\u00f3n Box-Pressed Torpedo",
+    "brand": "La Aroma de Cuba",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Nicaragua Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 11.0,
+    "rating": 93,
+    "flavors": [
+      "Cedar",
+      "Sweet Wood",
+      "Black Pepper",
+      "Cream",
+      "Nutmeg",
+      "Coffee"
+    ],
+    "size": "Box-Pressed Torpedo",
+    "length": 6.125,
+    "ringGauge": 52,
+    "popularity": 6,
+    "description": "Ranked #11 on Cigar Aficionado's Top 25 of 2024 with 93 points. The Pasi\u00f3n line is crafted by the Garcia family at My Father Cigars. This box-pressed torpedo delivers cedar, sweet wood, and black pepper notes with a creamy finish.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2022,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/la-aroma-de-cuba-pasion-box-pressed-torpedo-cigars",
+        "price": 11.0
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/la-aroma-de-cuba-pasion-box-pressed-torpedo",
+        "price": 11.0
+      }
+    ]
+  },
+  {
+    "id": "aksum-claro-robusto",
+    "name": "Aksum Claro Robusto",
+    "brand": "Aksum",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Ecuador Claro",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 12.0,
+    "rating": 93,
+    "flavors": [
+      "Cedar",
+      "Cream",
+      "Nuts",
+      "Sweet Wood",
+      "Black Pepper",
+      "Honey"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 50,
+    "popularity": 4,
+    "description": "Ranked #12 on Cigar Aficionado's Top 25 of 2024 with 93 points. Aksum is a relatively new brand named after the ancient Ethiopian empire. The Claro features an Ecuadorian Claro wrapper over Nicaraguan tobaccos, delivering a smooth yet complex smoking experience.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2022,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/aksum-claro-robusto-cigars",
+        "price": 12.0
+      }
+    ]
+  },
+  {
+    "id": "viva-la-vida-jester",
+    "name": "Viva La Vida Jester",
+    "brand": "Artesano del Tobacco",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Mexico San Andr\u00e9s",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 60,
+    "price": 13.0,
+    "rating": 93,
+    "flavors": [
+      "Cocoa",
+      "Roasted Nuts",
+      "Pepper",
+      "Cinnamon",
+      "Lemon Zest",
+      "Dark Chocolate"
+    ],
+    "size": "Belicoso",
+    "length": 5.5,
+    "ringGauge": 56,
+    "popularity": 6,
+    "description": "Ranked #13 on Cigar Aficionado's Top 25 of 2024 with 93 points. Also #7 on Cigar Journal's Top 25. Made by A.J. Fernandez for Artesano del Tobacco, the Jester delivers a harmonious explosion of aromas: cocoa, roasted notes, nuts, pepper, cinnamon, lemon zest, and dark chocolate.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/viva-la-vida-jester-cigars",
+        "price": 13.0
+      }
+    ]
+  },
+  {
+    "id": "casa-magna-colorado-xv-anniversary-6x54",
+    "name": "Casa Magna Colorado XV Anniversary 6 X 54",
+    "brand": "Casa Magna",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Nicaragua Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 15.0,
+    "rating": 93,
+    "flavors": [
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Cedar",
+      "Leather",
+      "Dried Fruit"
+    ],
+    "size": "Toro",
+    "length": 6.0,
+    "ringGauge": 54,
+    "popularity": 5,
+    "description": "Ranked #14 on Cigar Aficionado's Top 25 of 2024 with 93 points. Celebrating 15 years of the Casa Magna brand, this anniversary edition features an all-Nicaraguan blend with a rich, bold profile of dark chocolate, black pepper, and espresso.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/casa-magna-colorado-xv-anniversary-6x54-cigars",
+        "price": 15.0
+      }
+    ]
+  },
+  {
+    "id": "perdomo-30th-anniversary-sun-grown-epicure",
+    "name": "Perdomo 30th Anniversary Sun Grown Epicure",
+    "brand": "Perdomo",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Nicaragua Sun Grown",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 12.0,
+    "rating": 93,
+    "flavors": [
+      "Cedar",
+      "Black Pepper",
+      "Coffee",
+      "Cream",
+      "Toasted Nuts",
+      "Sweet Wood"
+    ],
+    "size": "Epicure",
+    "length": 6.0,
+    "ringGauge": 54,
+    "popularity": 6,
+    "description": "Ranked #16 on Cigar Aficionado's Top 25 of 2024 with 93 points. Celebrating 30 years of Perdomo Cigars, the Sun Grown Epicure features a Nicaraguan sun-grown wrapper aged in bourbon barrels. Delivers cedar, black pepper, and coffee notes with a creamy, nutty finish.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/perdomo-30th-anniversary-sun-grown-epicure-cigars",
+        "price": 12.0
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/perdomo-30th-anniversary-sun-grown-epicure",
+        "price": 12.0
+      }
+    ]
+  },
+  {
+    "id": "plasencia-cosecha-151-la-musica",
+    "name": "Plasencia Cosecha 151 La Musica",
+    "brand": "Plasencia",
+    "origin": "Honduras",
+    "region": "Jamastr\u00e1n",
+    "wrapper": "Honduras",
+    "binder": "Honduras",
+    "filler": "Honduras",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 16.0,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Red Pepper",
+      "Roasted Chestnut",
+      "Leather",
+      "Orange Peel",
+      "Cocoa"
+    ],
+    "size": "Toro",
+    "length": 6.125,
+    "ringGauge": 52,
+    "popularity": 6,
+    "description": "Ranked #17 on Cigar Aficionado's Top 25 of 2024 with 92 points, and also appears on halfwheel's Top 25 (#11). The Cosecha 151 is made from tobacco harvested in 2015-2016. A spicy core of black and red pepper accented by roasted chestnut, leather, orange peel, and cocoa powder.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/plasencia-cosecha-151-la-musica-cigars",
+        "price": 16.0
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/plasencia-cosecha-151-la-musica",
+        "price": 16.0
+      }
+    ]
+  },
+  {
+    "id": "601-la-bomba-warhead-x",
+    "name": "601 La Bomba Warhead X",
+    "brand": "Espinosa",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Mexico San Andr\u00e9s",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 5,
+    "smokingTime": 75,
+    "price": 13.0,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Espresso",
+      "Dark Chocolate",
+      "Earth",
+      "Leather",
+      "Cedar"
+    ],
+    "size": "Robusto Extra",
+    "length": 5.5,
+    "ringGauge": 60,
+    "popularity": 5,
+    "description": "Ranked #18 on Cigar Aficionado's Top 25 of 2024 with 92 points, and #19 on halfwheel's Top 25. The Warhead X is a limited edition extension of the La Bomba line, featuring a massive 60-ring gauge and an intense, full-bodied blend with bold pepper and espresso notes.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/601-la-bomba-warhead-x-cigars",
+        "price": 13.0
+      }
+    ]
+  },
+  {
+    "id": "herrera-esteli-norteno-lonsdale",
+    "name": "Herrera Esteli Norte\u00f1o Lonsdale",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Mexico San Andr\u00e9s",
+    "binder": "Honduras",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 11.0,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Leather",
+      "Cedar",
+      "Espresso",
+      "Earth",
+      "Dark Chocolate"
+    ],
+    "size": "Lonsdale",
+    "length": 6.625,
+    "ringGauge": 44,
+    "popularity": 5,
+    "description": "Ranked #19 on Cigar Aficionado's Top 25 of 2024 with 92 points. The Norte\u00f1o line from Drew Estate features a Mexican San Andr\u00e9s wrapper and a unique blend that showcases a slender lonsdale format for concentrated, complex flavors.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2014,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/herrera-esteli-norteno-lonsdale-cigars",
+        "price": 11.0
+      }
+    ]
+  },
+  {
+    "id": "cohiba-riviera-robusto",
+    "name": "Cohiba Riviera Robusto",
+    "brand": "Cohiba",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Mexico San Andr\u00e9s",
+    "binder": "Honduras",
+    "filler": "Honduras, Nicaragua",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 15.0,
+    "rating": 92,
+    "flavors": [
+      "Anise",
+      "Nutmeg",
+      "Roasted Brioche",
+      "Cedar",
+      "Black Pepper",
+      "Sweet Wood"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 50,
+    "popularity": 6,
+    "description": "Ranked #20 on Cigar Aficionado's Top 25 of 2024 with 92 points, and #18 on Cigar Journal's list. The Riviera is General Cigar's non-Cuban Cohiba line made in Nicaragua with a Mexican wrapper and Honduran binder. Diverse and complex with anise, nutmeg, and roasted brioche notes.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/cohiba-riviera-robusto-cigars",
+        "price": 15.0
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/cohiba-riviera-robusto",
+        "price": 15.0
+      }
+    ]
+  },
+  {
+    "id": "oneoff-black-and-tan-robusto",
+    "name": "OneOff Black & Tan Robusto",
+    "brand": "OneOff",
+    "origin": "Honduras",
+    "region": "Danl\u00ed",
+    "wrapper": "Honduras Habano",
+    "binder": "Honduras",
+    "filler": "Honduras, Nicaragua",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 12.0,
+    "rating": 92,
+    "flavors": [
+      "Cedar",
+      "Cream",
+      "Nuts",
+      "Sweet Wood",
+      "Black Pepper",
+      "Coffee"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 50,
+    "popularity": 4,
+    "description": "Ranked #22 on Cigar Aficionado's Top 25 of 2024 with 92 points. The Black & Tan is a dual-wrapper cigar that combines a dark maduro foot with a lighter habano body, creating a unique two-tone smoking experience. Also #20 on CA's 2025 list in the Black Toro format.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Triple-Distilled Irish Whiskey (Redbreast 12, Green Spot)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/oneoff-black-and-tan-robusto-cigars",
+        "price": 12.0
+      }
+    ]
+  },
+  {
+    "id": "warped-corto-x52",
+    "name": "Warped Corto X52",
+    "brand": "Warped",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Nicaragua Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 60,
+    "price": 11.0,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Espresso",
+      "Dark Chocolate",
+      "Cedar",
+      "Earth",
+      "Leather"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 52,
+    "popularity": 5,
+    "description": "Ranked #23 on Cigar Aficionado's Top 25 of 2024 with 92 points. Corto is a collaboration between Warped's Kyle Gellis and Casa Fernandez, using all Aganorsa Leaf tobaccos. The X52 is a robusto that delivers intense pepper and espresso with a rich, full-bodied profile.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2022,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/warped-corto-x52-cigars",
+        "price": 11.0
+      }
+    ]
+  },
+  {
+    "id": "ferio-tego-summa-corona-gorda",
+    "name": "Ferio Tego Summa Corona Gorda",
+    "brand": "Ferio Tego",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador Sumatra",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic, Nicaragua",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 14.0,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Red Pepper",
+      "Roasted Chestnut",
+      "Leather",
+      "Orange Peel",
+      "Cocoa"
+    ],
+    "size": "Corona Gorda",
+    "length": 5.625,
+    "ringGauge": 46,
+    "popularity": 4,
+    "description": "Ranked #24 on Cigar Aficionado's Top 25 of 2024 with 92 points. Ferio Tego was founded by Michael Herklots after Natasha Sharma acquired the former Nat Sherman cigar division. The Summa stands out with a spicy core of black and red pepper accented by roasted chestnut, leather, orange peel, and cocoa powder.",
+    "pairings": [
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2021,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/ferio-tego-summa-corona-gorda-cigars",
+        "price": 14.0
+      }
+    ]
+  },
+  {
+    "id": "craft-maquette-la-maestranza",
+    "name": "CRAFT Maquette La Maestranza",
+    "brand": "CRAFT",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Mexico San Andr\u00e9s",
+    "binder": "Brazil",
+    "filler": "Dominican Republic, Honduras, Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 20.0,
+    "rating": 93,
+    "flavors": [
+      "Black Pepper",
+      "Dark Chocolate",
+      "Espresso",
+      "Leather",
+      "Cedar",
+      "Earth"
+    ],
+    "size": "Toro",
+    "length": 6.0,
+    "ringGauge": 52,
+    "popularity": 5,
+    "description": "halfwheel's 2024 Cigar of the Year. CRAFT is a boutique brand from RoMa Craft Tobac's Nica Sue\u00f1o factory. The Maquette La Maestranza features a Mexican San Andr\u00e9s wrapper over a Brazilian binder with Dominican, Honduran, and Nicaraguan fillers. Complex, bold, and meticulously crafted.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/craft-maquette-la-maestranza-cigars",
+        "price": 20.0
+      }
+    ]
+  },
+  {
+    "id": "quesada-50th-anniversary-toro-prensado",
+    "name": "Quesada 50th Anniversary Toro Prensado",
+    "brand": "Quesada",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador Habano",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic, Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 18.0,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Cedar",
+      "Dark Chocolate",
+      "Espresso",
+      "Leather",
+      "Sweet Wood"
+    ],
+    "size": "Box-Pressed Toro",
+    "length": 6.0,
+    "ringGauge": 52,
+    "popularity": 5,
+    "description": "halfwheel's #2 Cigar of 2024. Celebrating 50 years of the Quesada family in the cigar industry, this box-pressed toro features an Ecuadorian Habano wrapper over Dominican and Nicaraguan fillers. Rich and complex with pepper, cedar, and dark chocolate notes.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/quesada-50th-anniversary-toro-prensado-cigars",
+        "price": 18.0
+      }
+    ]
+  },
+  {
+    "id": "sin-compromiso-seleccion-no-4",
+    "name": "Sin Compromiso Selecci\u00f3n No. 4",
+    "brand": "Sin Compromiso",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Mexico San Andr\u00e9s",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 22.0,
+    "rating": 92,
+    "flavors": [
+      "Dark Chocolate",
+      "Espresso",
+      "Black Pepper",
+      "Leather",
+      "Cedar",
+      "Sweet Wood"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 54,
+    "popularity": 5,
+    "description": "halfwheel's #3 Cigar of 2024. Made by A.J. Fernandez, Sin Compromiso is a premium line that spares no expense. The Selecci\u00f3n No. 4 delivers bold, rich flavors with exceptional construction and balance.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2020,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/sin-compromiso-seleccion-no-4-cigars",
+        "price": 22.0
+      }
+    ]
+  },
+  {
+    "id": "plasencia-alma-fuerte-colorado-claro-robustus-ii",
+    "name": "Plasencia Alma Fuerte Colorado Claro Robustus II",
+    "brand": "Plasencia",
+    "origin": "Nicaragua",
+    "region": "Jalapa",
+    "wrapper": "Nicaragua Colorado Claro",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 19.0,
+    "rating": 92,
+    "flavors": [
+      "Cedar",
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Sweet Wood",
+      "Nutmeg"
+    ],
+    "size": "Robusto",
+    "length": 5.25,
+    "ringGauge": 55,
+    "popularity": 5,
+    "description": "halfwheel's #4 Cigar of 2024. The Alma Fuerte line showcases Plasencia's finest vintage tobaccos. The Colorado Claro variant uses a lighter shade wrapper while maintaining the rich, full-bodied character the line is known for.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2016,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/plasencia-alma-fuerte-colorado-claro-robustus-ii-cigars",
+        "price": 19.0
+      },
+      {
+        "retailer": "Cigars International",
+        "url": "https://www.cigarsinternational.com/p/plasencia-alma-fuerte-colorado-claro-robustus-ii",
+        "price": 19.0
+      }
+    ]
+  },
+  {
+    "id": "avo-expressions-limited-edition-2024",
+    "name": "AVO Expressions Limited Edition 2024",
+    "brand": "AVO",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador Habano",
+    "binder": "Mexico San Andr\u00e9s",
+    "filler": "Dominican Republic, United States",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 20.0,
+    "rating": 92,
+    "flavors": [
+      "Sweet Toast",
+      "Cedar",
+      "Cream",
+      "Nuts",
+      "Black Pepper",
+      "Honey"
+    ],
+    "size": "Toro",
+    "length": 6.5,
+    "ringGauge": 50,
+    "popularity": 5,
+    "description": "halfwheel's #5 Cigar of 2024. A collaboration between Davidoff and a hip-hop DJ, with fewer than 7,000 boxes made. The AVO Expressions LE 2024 features an Ecuadorian Habano wrapper over a Mexican San Andr\u00e9s binder with Dominican and US fillers. Sweet, toasty, and delicious.",
+    "pairings": [
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/avo-expressions-limited-edition-2024-cigars",
+        "price": 20.0
+      }
+    ]
+  },
+  {
+    "id": "fuente-y-padron-legends",
+    "name": "Fuente y Padr\u00f3n Legends",
+    "brand": "Arturo Fuente",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Dominican Republic",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic, Nicaragua",
+    "strength": 4,
+    "smokingTime": 120,
+    "price": 75.0,
+    "rating": 92,
+    "flavors": [
+      "Cedar",
+      "Leather",
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Sweet Wood"
+    ],
+    "size": "Double Robusto",
+    "length": 6.5,
+    "ringGauge": 52,
+    "popularity": 7,
+    "description": "halfwheel's #6 Cigar of 2024. A historic collaboration between Carlos Fuente Jr. and Jos\u00e9 Padr\u00f3n, blending tobaccos from both families' legendary farms. An ultra-premium cigar celebrating the friendship and legacy of two cigar dynasties.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "VSOP Cognac (Pierre Ferrand, Hine)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/fuente-y-padron-legends-cigars",
+        "price": 75.0
+      }
+    ]
+  },
+  {
+    "id": "maestranza-ciutadella-catalonia",
+    "name": "Maestranza Ciutadella Catalonia",
+    "brand": "RoMa Craft Tobac",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Mexico San Andr\u00e9s",
+    "binder": "Brazil",
+    "filler": "Dominican Republic, Honduras, Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 14.0,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Espresso",
+      "Dark Chocolate",
+      "Leather",
+      "Cedar",
+      "Earth"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 50,
+    "popularity": 5,
+    "description": "halfwheel's #7 Cigar of 2024. The Maestranza line is RoMa Craft's tribute to the craftsmanship of cigar making. The Ciutadella Catalonia is a bold, complex smoke with RoMa Craft's signature blending style.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/roma-craft-maestranza-ciutadella-catalonia-cigars",
+        "price": 14.0
+      }
+    ]
+  },
+  {
+    "id": "leroy-neiman-2023-collectors-edition",
+    "name": "LeRoy Neiman 2023 Collector's Edition",
+    "brand": "LeRoy Neiman",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador Habano",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic, Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 25.0,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Cedar",
+      "Dark Chocolate",
+      "Espresso",
+      "Leather",
+      "Sweet Wood"
+    ],
+    "size": "Toro",
+    "length": 6.5,
+    "ringGauge": 52,
+    "popularity": 4,
+    "description": "halfwheel's #8 Cigar of 2024. The LeRoy Neiman brand pays homage to the famous American artist known for his vibrant paintings. The 2023 Collector's Edition is a limited release with a complex, full-bodied profile.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "VSOP Cognac (Pierre Ferrand, Hine)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/leroy-neiman-2023-collectors-edition-cigars",
+        "price": 25.0
+      }
+    ]
+  },
+  {
+    "id": "las-calaveras-edicion-limitada-2024-lc52",
+    "name": "Las Calaveras Edici\u00f3n Limitada 2024 LC52",
+    "brand": "Crowned Heads",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Ecuador Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 13.0,
+    "rating": 92,
+    "flavors": [
+      "Black Pepper",
+      "Earth",
+      "Dark Chocolate",
+      "Cedar",
+      "Espresso",
+      "Leather"
+    ],
+    "size": "Robusto",
+    "length": 5.25,
+    "ringGauge": 52,
+    "popularity": 5,
+    "description": "halfwheel's #9 Cigar of 2024. Las Calaveras is Crowned Heads' annual limited edition that honors those who have passed. The 2024 LC52 features an Ecuadorian Habano wrapper over all-Nicaraguan tobaccos. Bold and earthy with excellent construction.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/las-calaveras-edicion-limitada-2024-lc52-cigars",
+        "price": 13.0
+      }
+    ]
+  },
+  {
+    "id": "davidoff-grand-cru-diademas-finas-limited-edition",
+    "name": "Davidoff Grand Cru Diademas Finas Limited Edition",
+    "brand": "Davidoff",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 65.0,
+    "rating": 92,
+    "flavors": [
+      "Cedar",
+      "Cream",
+      "Nuts",
+      "Sweet Wood",
+      "Black Pepper",
+      "Floral"
+    ],
+    "size": "Perfecto",
+    "length": 6.75,
+    "ringGauge": 52,
+    "popularity": 5,
+    "description": "halfwheel's #10 Cigar of 2024. A stunning limited edition from Davidoff that revives the Grand Cru line in a beautiful perfecto format. Elegant and refined with the classic Davidoff smoothness.",
+    "pairings": [
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "VSOP Cognac (Pierre Ferrand, Hine)",
+      "Vintage Champagne (Krug, Dom P\u00e9rignon)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/davidoff-grand-cru-diademas-finas-limited-edition-cigars",
+        "price": 65.0
+      }
+    ]
+  },
+  {
+    "id": "aj-fernandez-20th-anniversary-toro",
+    "name": "AJ Fernandez 20th Anniversary Toro",
+    "brand": "AJ Fernandez",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Nicaragua Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 16.0,
+    "rating": 91,
+    "flavors": [
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Cedar",
+      "Leather",
+      "Sweet Wood"
+    ],
+    "size": "Toro",
+    "length": 6.0,
+    "ringGauge": 52,
+    "popularity": 6,
+    "description": "halfwheel's #13 Cigar of 2024. Celebrating 20 years of A.J. Fernandez in the cigar industry, this limited edition toro showcases the master blender's finest Nicaraguan tobaccos from his own farms.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Nicaraguan Rum (Flor de Ca\u00f1a 18, Mombacho 12)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/aj-fernandez-20th-anniversary-toro-cigars",
+        "price": 16.0
+      }
+    ]
+  },
+  {
+    "id": "adventura-blue-eyed-jacks-revenge-robusto",
+    "name": "ADVentura Blue Eyed Jack's Revenge Robusto",
+    "brand": "ADVentura",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Mexico San Andr\u00e9s",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic, Nicaragua",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 12.0,
+    "rating": 91,
+    "flavors": [
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Cedar",
+      "Leather",
+      "Sweet Wood"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 50,
+    "popularity": 4,
+    "description": "halfwheel's #14 Cigar of 2024. ADVentura's Blue Eyed Jack's Revenge is a bold blend from the Tabacalera Mina del Rey factory in the Dominican Republic. Full-flavored with dark chocolate and pepper notes.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/adventura-blue-eyed-jacks-revenge-robusto-cigars",
+        "price": 12.0
+      }
+    ]
+  },
+  {
+    "id": "davidoff-winston-churchill-late-hour-petit-panetela",
+    "name": "Davidoff Winston Churchill The Late Hour Petit Panetela",
+    "brand": "Davidoff",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador Habano",
+    "binder": "Mexico San Andr\u00e9s",
+    "filler": "Dominican Republic, Nicaragua",
+    "strength": 4,
+    "smokingTime": 60,
+    "price": 22.0,
+    "rating": 91,
+    "flavors": [
+      "Dark Chocolate",
+      "Espresso",
+      "Black Pepper",
+      "Cedar",
+      "Leather",
+      "Whisky"
+    ],
+    "size": "Petit Panetela",
+    "length": 5.0,
+    "ringGauge": 38,
+    "popularity": 5,
+    "description": "halfwheel's #15 Cigar of 2024. The Late Hour line uses tobacco aged in Scotch whisky casks. The slender Petit Panetela format concentrates the flavors beautifully, delivering whisky-influenced notes alongside dark chocolate and espresso.",
+    "pairings": [
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Highland Single Malt (Glenmorangie 18, Oban 14)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2017,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/davidoff-winston-churchill-late-hour-petit-panetela-cigars",
+        "price": 22.0
+      }
+    ]
+  },
+  {
+    "id": "dias-de-gloria-brazil-toro",
+    "name": "D\u00edas de Gloria Brazil Toro",
+    "brand": "AJ Fernandez",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Brazil",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 14.0,
+    "rating": 91,
+    "flavors": [
+      "Earth",
+      "Black Pepper",
+      "Leather",
+      "Dark Chocolate",
+      "Almond",
+      "Cedar"
+    ],
+    "size": "Toro",
+    "length": 6.0,
+    "ringGauge": 52,
+    "popularity": 4,
+    "description": "halfwheel's #16 Cigar of 2024. The D\u00edas de Gloria series celebrates different tobacco-growing regions. The Brazil variant features a rare Brazilian wrapper over Nicaraguan tobaccos, delivering earth, pepper, and leather with chocolate sweetness.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/dias-de-gloria-brazil-toro-cigars",
+        "price": 14.0
+      }
+    ]
+  },
+  {
+    "id": "warfighter-night-shift",
+    "name": "Warfighter Night Shift",
+    "brand": "Warfighter",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Mexico San Andr\u00e9s",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 13.0,
+    "rating": 91,
+    "flavors": [
+      "Dark Chocolate",
+      "Espresso",
+      "Black Pepper",
+      "Earth",
+      "Leather",
+      "Cedar"
+    ],
+    "size": "Toro",
+    "length": 6.0,
+    "ringGauge": 52,
+    "popularity": 3,
+    "description": "halfwheel's #18 Cigar of 2024. Warfighter Cigars is a veteran-owned brand. The Night Shift features a dark Mexican San Andr\u00e9s wrapper over Nicaraguan tobaccos, delivering bold, full-flavored smoke.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/warfighter-night-shift-cigars",
+        "price": 13.0
+      }
+    ]
+  },
+  {
+    "id": "powstanie-connecticut-corona-gorda-justice",
+    "name": "Powstanie Connecticut Corona Gorda Justice",
+    "brand": "Powstanie",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Ecuador Connecticut",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 10.0,
+    "rating": 91,
+    "flavors": [
+      "Cedar",
+      "Cream",
+      "Nuts",
+      "Sweet Wood",
+      "Black Pepper",
+      "Vanilla"
+    ],
+    "size": "Corona Gorda",
+    "length": 5.625,
+    "ringGauge": 46,
+    "popularity": 3,
+    "description": "halfwheel's #20 Cigar of 2024. Powstanie's Connecticut line uses an Ecuadorian Connecticut wrapper over Nicaraguan tobaccos. The Justice vitola is a slender corona gorda that delivers balanced, creamy flavors.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Triple-Distilled Irish Whiskey (Redbreast 12, Green Spot)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/powstanie-connecticut-corona-gorda-justice-cigars",
+        "price": 10.0
+      }
+    ]
+  },
+  {
+    "id": "knuckle-sandwich-56",
+    "name": "Knuckle Sandwich 56",
+    "brand": "Knuckle Sandwich",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Mexico San Andr\u00e9s",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 15.0,
+    "rating": 91,
+    "flavors": [
+      "Dark Chocolate",
+      "Espresso",
+      "Black Pepper",
+      "Leather",
+      "Cedar",
+      "Sweet Wood"
+    ],
+    "size": "Gordo",
+    "length": 6.0,
+    "ringGauge": 56,
+    "popularity": 5,
+    "description": "halfwheel's #21 Cigar of 2024. Knuckle Sandwich is a collaboration between comedian Guy Fieri and Drew Estate. The 56 is a bold, full-bodied gordo with rich chocolate and espresso notes.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Dark Chocolate Stout (Guinness Foreign Extra, Founders Breakfast Stout)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2022,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/knuckle-sandwich-56-cigars",
+        "price": 15.0
+      }
+    ]
+  },
+  {
+    "id": "padron-black-pb-97-maduro",
+    "name": "Padr\u00f3n Black PB-97 Maduro",
+    "brand": "Padr\u00f3n",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Nicaragua Maduro",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 18.0,
+    "rating": 91,
+    "flavors": [
+      "Cocoa",
+      "Espresso",
+      "Cedar",
+      "Black Pepper",
+      "Molasses",
+      "Nutmeg"
+    ],
+    "size": "Robusto",
+    "length": 5.5,
+    "ringGauge": 56,
+    "popularity": 5,
+    "description": "halfwheel's #22 Cigar of 2024. The Padr\u00f3n Black line is a newer addition to the Padr\u00f3n portfolio. The PB-97 Maduro features a dark Nicaraguan maduro wrapper with the brand's signature aged tobaccos.",
+    "pairings": [
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/padron-black-pb-97-maduro-cigars",
+        "price": 18.0
+      }
+    ]
+  },
+  {
+    "id": "buenaventura-favoritos-56-natural",
+    "name": "Buenaventura Favoritos 56 Natural",
+    "brand": "Curivari",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Nicaragua Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 6.0,
+    "rating": 91,
+    "flavors": [
+      "Cedar",
+      "Black Pepper",
+      "Cream",
+      "Nuts",
+      "Sweet Wood",
+      "Earth"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 56,
+    "popularity": 4,
+    "description": "halfwheel's #23 Cigar of 2024. Curivari's Buenaventura Favoritos line offers exceptional value. The 56 Natural features an all-Nicaraguan blend with balanced, classic flavors at an affordable price point.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Triple-Distilled Irish Whiskey (Redbreast 12, Green Spot)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/buenaventura-favoritos-56-natural-cigars",
+        "price": 6.0
+      }
+    ]
+  },
+  {
+    "id": "la-llorona",
+    "name": "La Llorona",
+    "brand": "Casa Cuevas",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Mexico San Andr\u00e9s",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 11.0,
+    "rating": 91,
+    "flavors": [
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Cedar",
+      "Leather",
+      "Earth"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 50,
+    "popularity": 3,
+    "description": "halfwheel's #24 Cigar of 2024. Named after the legendary weeping woman of Latin American folklore, La Llorona is from Casa Cuevas. Features a Mexican San Andr\u00e9s wrapper over Nicaraguan tobaccos with a bold, full-bodied profile.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Artisanal Mezcal (Del Maguey Vida, Illegal Joven)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/la-llorona-cigars",
+        "price": 11.0
+      }
+    ]
+  },
+  {
+    "id": "viaje-skull-and-bones-tsar-bomba-camo-blue",
+    "name": "Viaje Skull and Bones Tsar Bomba Camo Blue",
+    "brand": "Viaje",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Mexico San Andr\u00e9s",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 5,
+    "smokingTime": 90,
+    "price": 16.0,
+    "rating": 91,
+    "flavors": [
+      "Black Pepper",
+      "Espresso",
+      "Dark Chocolate",
+      "Earth",
+      "Leather",
+      "Cedar"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 54,
+    "popularity": 4,
+    "description": "halfwheel's #25 Cigar of 2024. The Skull and Bones line from Viaje is known for its bold, aggressive character. The Tsar Bomba Camo Blue is a limited edition with intense pepper and espresso flavors in a compact, powerful format.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/viaje-skull-and-bones-tsar-bomba-camo-blue-cigars",
+        "price": 16.0
+      }
+    ]
+  },
+  {
+    "id": "plasencia-cosecha-151-la-tradicion-toro",
+    "name": "Plasencia Cosecha 151 La Tradici\u00f3n Toro",
+    "brand": "Plasencia",
+    "origin": "Honduras",
+    "region": "Jamastr\u00e1n",
+    "wrapper": "Honduras",
+    "binder": "Honduras",
+    "filler": "Honduras",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 15.0,
+    "rating": 93,
+    "flavors": [
+      "Roasted Brioche",
+      "Dark Chocolate",
+      "Toffee",
+      "Black Pepper",
+      "Cream",
+      "Sweet Wood"
+    ],
+    "size": "Toro",
+    "length": 5.875,
+    "ringGauge": 54,
+    "popularity": 5,
+    "description": "Cigar Journal's 2024 Cigar of the Year. The Cosecha 151 is made from tobacco harvested in 2015-2016, showcasing Plasencia's vintage tobacco expertise. Sweet and creamy with roasted brioche and dark chocolate notes, finishing with black pepper and toffee.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/plasencia-cosecha-151-la-tradicion-toro-cigars",
+        "price": 15.0
+      }
+    ]
+  },
+  {
+    "id": "perdomo-30th-anniversary-connecticut-torpedo",
+    "name": "Perdomo 30th Anniversary Connecticut Torpedo",
+    "brand": "Perdomo",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Ecuador Connecticut",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 2,
+    "smokingTime": 90,
+    "price": 12.0,
+    "rating": 93,
+    "flavors": [
+      "Butter",
+      "Fresh Bread",
+      "Vanilla",
+      "Wood",
+      "White Pepper",
+      "Herbal Spices"
+    ],
+    "size": "Torpedo",
+    "length": 7.0,
+    "ringGauge": 54,
+    "popularity": 6,
+    "description": "Cigar Journal's #2 Cigar of 2024. The 30th Anniversary Connecticut features an Ecuadorian Connecticut wrapper with buttery creaminess, soft fresh bread aromas, vanilla, and wood notes. White pepper and herbal spices linger on the finish.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Triple-Distilled Irish Whiskey (Redbreast 12, Green Spot)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/perdomo-30th-anniversary-connecticut-torpedo-cigars",
+        "price": 12.0
+      }
+    ]
+  },
+  {
+    "id": "dias-de-gloria-brazil-figurado",
+    "name": "D\u00edas de Gloria by AJ Fernandez Brazil Figurado",
+    "brand": "AJ Fernandez",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Brazil",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 15.0,
+    "rating": 92,
+    "flavors": [
+      "Earth",
+      "Pepper",
+      "Leather",
+      "Chocolate",
+      "Almond",
+      "Nutty"
+    ],
+    "size": "Figurado",
+    "length": 6.5,
+    "ringGauge": 54,
+    "popularity": 4,
+    "description": "Cigar Journal's #3 Cigar of 2024. This elegant box-pressed figurado with a Brazilian wrapper offers a strong triad of earth, pepper, and leather aromas, harmoniously rounded off by chocolate sweetness with almond and nutty tones.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/dias-de-gloria-brazil-figurado-cigars",
+        "price": 15.0
+      }
+    ]
+  },
+  {
+    "id": "davidoff-maduro-toro",
+    "name": "Davidoff Maduro Toro",
+    "brand": "Davidoff",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador",
+    "binder": "Mexico",
+    "filler": "Dominican Republic",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 32.0,
+    "rating": 92,
+    "flavors": [
+      "Wood",
+      "Espresso",
+      "Sweetness",
+      "Earth",
+      "Dark Chocolate",
+      "Cedar"
+    ],
+    "size": "Toro",
+    "length": 6.0,
+    "ringGauge": 54,
+    "popularity": 5,
+    "description": "Cigar Journal's #4 Cigar of 2024. After an initial sharpness on the tongue, typical Maduro sweetness spreads. Strong flavors of wood and freshly roasted espresso define the base, with light earthy notes at the end.",
+    "pairings": [
+      "VSOP Cognac (Pierre Ferrand, Hine)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/davidoff-maduro-toro-cigars",
+        "price": 32.0
+      }
+    ]
+  },
+  {
+    "id": "rocky-patel-dark-star-robusto",
+    "name": "Rocky Patel Dark Star Robusto",
+    "brand": "Rocky Patel",
+    "origin": "Honduras",
+    "region": "Danl\u00ed",
+    "wrapper": "Honduras",
+    "binder": "Honduras",
+    "filler": "Honduras, Paraguay",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 13.0,
+    "rating": 92,
+    "flavors": [
+      "Pepper",
+      "Ginger",
+      "Nutmeg",
+      "Chili",
+      "Coffee",
+      "Chocolate",
+      "Dried Fruit"
+    ],
+    "size": "Robusto",
+    "length": 5.5,
+    "ringGauge": 50,
+    "popularity": 4,
+    "description": "Cigar Journal's #5 Cigar of 2024. This Robusto offers a bouquet of spices \u2014 pepper, ginger, nutmeg, and chili \u2014 plus aromas of coffee beans, chocolate, and dried fruit. Creamy and smooth until the last puff.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Nicaraguan Rum (Flor de Ca\u00f1a 18, Mombacho 12)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/rocky-patel-dark-star-robusto-cigars",
+        "price": 13.0
+      }
+    ]
+  },
+  {
+    "id": "rojas-street-tacos-barbacoa-robusto",
+    "name": "Rojas Street Tacos Barbacoa Robusto",
+    "brand": "Rojas Cigar",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Ecuador",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 8.0,
+    "rating": 92,
+    "flavors": [
+      "Earthy Sweetness",
+      "Bergamot",
+      "Black Tea",
+      "Creamy",
+      "Nutty",
+      "Chocolate",
+      "Cinnamon",
+      "Black Pepper"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 50,
+    "popularity": 3,
+    "description": "Cigar Journal's #6 Cigar of 2024. A great cigar for little money. Beautiful earthy sweetness, hints of bergamot and black tea, creamy and nutty. Darker notes of chocolate, cinnamon, and black pepper toward the end.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/rojas-street-tacos-barbacoa-robusto-cigars",
+        "price": 8.0
+      }
+    ]
+  },
+  {
+    "id": "aladino-fuma-noche-super-toro",
+    "name": "Aladino Fuma Noche Super Toro",
+    "brand": "Aladino",
+    "origin": "Honduras",
+    "region": "Jamastr\u00e1n",
+    "wrapper": "Honduras Corojo",
+    "binder": "Honduras",
+    "filler": "Honduras",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 12.0,
+    "rating": 92,
+    "flavors": [
+      "Creamy",
+      "Woody Sweet",
+      "Leather",
+      "Pepper",
+      "Earth",
+      "Cedar"
+    ],
+    "size": "Super Toro",
+    "length": 6.25,
+    "ringGauge": 54,
+    "popularity": 4,
+    "description": "Cigar Journal's #8 Cigar of 2024. An all-Honduran puro from JRE Tobacco Co. Dense, full-bodied but balanced creamy smoke with a woody-sweet base note complemented by leather, pepper, and earthy aromas. Perfectly constructed.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/aladino-fuma-noche-super-toro-cigars",
+        "price": 12.0
+      }
+    ]
+  },
+  {
+    "id": "kristoff-nicaragua-robusto",
+    "name": "Kristoff Nicaragua Robusto",
+    "brand": "Kristoff",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Nicaragua",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 9.0,
+    "rating": 91,
+    "flavors": [
+      "Wood",
+      "Earth",
+      "Peanut",
+      "Creamy",
+      "Floral Sweetness",
+      "Pepper"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 50,
+    "popularity": 3,
+    "description": "Cigar Journal's #10 Cigar of 2024. A little restrained at first, then develops with nice wood, earth, and peanut aromas. Delicate creaminess paired with floral sweetness and pepper. Fine harmony.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/kristoff-nicaragua-robusto-cigars",
+        "price": 9.0
+      }
+    ]
+  },
+  {
+    "id": "la-aurora-120th-anniversary-robusto",
+    "name": "La Aurora 120th Anniversary Robusto",
+    "brand": "La Aurora",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Dominican Republic",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 18.0,
+    "rating": 91,
+    "flavors": [
+      "Cedar",
+      "Cashew",
+      "Bitter Notes",
+      "Full-bodied",
+      "Harmonious",
+      "Creamy"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 50,
+    "popularity": 5,
+    "description": "Cigar Journal's #11 Cigar of 2024. Celebrating 120 years of La Aurora, the oldest cigar factory in the Dominican Republic. This Dominican puro offers gentle bitter notes, cedar wood, and cashew nuts with very voluminous, full-bodied smoke.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/la-aurora-120th-anniversary-robusto-cigars",
+        "price": 18.0
+      }
+    ]
+  },
+  {
+    "id": "drew-estate-blackened-s84-shade-to-black-toro",
+    "name": "Drew Estate Blackened Cigars S84 Shade to Black Toro",
+    "brand": "Drew Estate",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Ecuador",
+    "binder": "USA",
+    "filler": "USA, Nicaragua",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 13.5,
+    "rating": 91,
+    "flavors": [
+      "Roasted",
+      "Pastry",
+      "Caramel",
+      "Cedar",
+      "Earth",
+      "Nuts",
+      "Pepper",
+      "Leather",
+      "Cream"
+    ],
+    "size": "Toro",
+    "length": 6.0,
+    "ringGauge": 52,
+    "popularity": 5,
+    "description": "Cigar Journal's #12 Cigar of 2024. A collaboration between Drew Estate, Blackened American Whiskey, and Metallica's James Hetfield. Starts with bitter, roasted aromas that become gentler with pastry, caramel, and cedar wood notes.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Dark Chocolate Stout (Guinness Foreign Extra, Founders Breakfast Stout)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/drew-estate-blackened-s84-shade-to-black-toro-cigars",
+        "price": 13.5
+      }
+    ]
+  },
+  {
+    "id": "vegafina-classic-supremo-el-2024",
+    "name": "VegaFina Classic Supremo EL 2024",
+    "brand": "VegaFina",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic",
+    "strength": 2,
+    "smokingTime": 90,
+    "price": 20.0,
+    "rating": 91,
+    "flavors": [
+      "Woody",
+      "Baking Spices",
+      "Hazelnut",
+      "Sweet Sponge Cake",
+      "Cedar",
+      "Cream"
+    ],
+    "size": "Gordo",
+    "length": 5.375,
+    "ringGauge": 56,
+    "popularity": 3,
+    "description": "Cigar Journal's #13 Cigar of 2024. From the cold draw, woody notes set the tone for this mild cigar. Light notes of baking spices and hazelnuts, complemented by sweet sponge cake aromas.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Oloroso Sherry (Lustau Don Nu\u00f1o, Bodegas Hidalgo La Gitana)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/vegafina-classic-supremo-el-2024-cigars",
+        "price": 20.0
+      }
+    ]
+  },
+  {
+    "id": "artista-falu-robusto",
+    "name": "Artista Falu Robusto",
+    "brand": "Artista Cigars",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Mexico",
+    "binder": "Indonesia",
+    "filler": "Dominican Republic",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 13.0,
+    "rating": 91,
+    "flavors": [
+      "Earthy",
+      "Fruit",
+      "Mocha",
+      "Pepper",
+      "Wood",
+      "Chocolate",
+      "Creamy"
+    ],
+    "size": "Box-Pressed Robusto",
+    "length": 5.0,
+    "ringGauge": 54,
+    "popularity": 3,
+    "description": "Cigar Journal's #14 Cigar of 2024. This box-pressed Maduro develops earthy notes, fruit, and mocha with pepper. Becomes stronger with more wood and chocolate aromas and a creamy impact.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Tawny Port (Fonseca 20, Taylor Fladgate 20)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/artista-falu-robusto-cigars",
+        "price": 13.0
+      }
+    ]
+  },
+  {
+    "id": "chateau-diadem-conviction-lancero",
+    "name": "Chateau Diadem Conviction Lancero",
+    "brand": "Chateau Diadem",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador",
+    "binder": "Dominican Republic",
+    "filler": "Nicaragua, Dominican Republic",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 25.0,
+    "rating": 91,
+    "flavors": [
+      "Creamy",
+      "Nut Nougat",
+      "Sweet",
+      "Cool",
+      "Ethereal",
+      "Balanced"
+    ],
+    "size": "Lancero",
+    "length": 7.0,
+    "ringGauge": 42,
+    "popularity": 3,
+    "description": "Cigar Journal's #15 Cigar of 2024. With its little pigtail and silky wrapper, this slim, excellently crafted cigar is visually captivating. Balanced and creamy with nut nougat, fine sweetness, and a cool, ethereal aroma.",
+    "pairings": [
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "VSOP Cognac (Pierre Ferrand, Hine)",
+      "Oloroso Sherry (Lustau Don Nu\u00f1o, Bodegas Hidalgo La Gitana)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/chateau-diadem-conviction-lancero-cigars",
+        "price": 25.0
+      }
+    ]
+  },
+  {
+    "id": "great-wall-gj-no5-lancero",
+    "name": "Great Wall GJ No.5 Lancero",
+    "brand": "Great Wall",
+    "origin": "China",
+    "region": "Sichuan",
+    "wrapper": "Nicaragua",
+    "binder": "Indonesia",
+    "filler": "Dominican Republic, China",
+    "strength": 2,
+    "smokingTime": 90,
+    "price": 15.0,
+    "rating": 91,
+    "flavors": [
+      "Mineral",
+      "Peppery",
+      "Peaty",
+      "Woody",
+      "Herbs",
+      "Anise"
+    ],
+    "size": "Lancero",
+    "length": 7.5,
+    "ringGauge": 38,
+    "popularity": 3,
+    "description": "Cigar Journal's #16 Cigar of 2024. From China's Great Wall Cigar Factory, this Lancero is superbly crafted with a pigtail. Starts with mineral-peppery notes and light spiciness, developing peaty and woody flavors with hints of herbs and anise.",
+    "pairings": [
+      "Peaty Islay Single Malt (Lagavulin 16, Ardbeg Uigeadail)",
+      "Highland Single Malt (Glenmorangie 18, Oban 14)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/great-wall-gj-no5-lancero-cigars",
+        "price": 15.0
+      }
+    ]
+  },
+  {
+    "id": "platinum-nova-batch-collection-toro",
+    "name": "Platinum Nova Batch Collection Toro",
+    "brand": "Platinum Nova",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Nicaragua",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 14.0,
+    "rating": 91,
+    "flavors": [
+      "Earth",
+      "Wood",
+      "Roasted Coffee Beans",
+      "Dried Fruit",
+      "Dark Chocolate"
+    ],
+    "size": "Toro",
+    "length": 6.0,
+    "ringGauge": 54,
+    "popularity": 2,
+    "description": "Cigar Journal's #17 Cigar of 2024. Starts gently but gains power. Aromas of earth, wood, roasted coffee beans, dried fruit, and dark chocolate are consistent throughout. Features a noble wrapper and beautiful feel.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/platinum-nova-batch-collection-toro-cigars",
+        "price": 14.0
+      }
+    ]
+  },
+  {
+    "id": "cohiba-riviera-lancero",
+    "name": "Cohiba Riviera Lancero",
+    "brand": "Cohiba",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Mexico",
+    "binder": "Honduras",
+    "filler": "Honduras, Nicaragua",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 16.0,
+    "rating": 91,
+    "flavors": [
+      "Anise",
+      "Nutmeg",
+      "Roasted Brioche",
+      "Cedar",
+      "Sweetness",
+      "Acidity"
+    ],
+    "size": "Lancero",
+    "length": 7.0,
+    "ringGauge": 38,
+    "popularity": 5,
+    "description": "Cigar Journal's #18 Cigar of 2024. Also on CA's Top 25. The Riviera Lancero is quite diverse with a broad aroma and taste profile. Sweetness and acidity interact with aniseed, nutmeg, and roasted brioche, finishing with dense cedar wood.",
+    "pairings": [
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/cohiba-riviera-lancero-cigars",
+        "price": 16.0
+      }
+    ]
+  },
+  {
+    "id": "gurkha-coleccion-especial-toro-parejo",
+    "name": "Gurkha Colecci\u00f3n Especial Toro Parejo",
+    "brand": "Gurkha",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Nicaragua",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 18.0,
+    "rating": 91,
+    "flavors": [
+      "Cocoa",
+      "Almonds",
+      "Nutmeg",
+      "Chili",
+      "Aniseed",
+      "Wood",
+      "Leather",
+      "Coffee",
+      "Earth"
+    ],
+    "size": "Toro",
+    "length": 6.0,
+    "ringGauge": 54,
+    "popularity": 4,
+    "description": "Cigar Journal's #19 Cigar of 2024. This dark cigar starts with cocoa, almonds, and nutmeg, then chili and aniseed come through before finishing with wood, cocoa, leather, coffee, and earthy notes.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/gurkha-coleccion-especial-toro-parejo-cigars",
+        "price": 18.0
+      }
+    ]
+  },
+  {
+    "id": "nicaroma-6x54",
+    "name": "Nicaroma 6 x 54",
+    "brand": "Villiger",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Nicaragua",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 90,
+    "price": 12.0,
+    "rating": 91,
+    "flavors": [
+      "Nutty",
+      "Woody",
+      "Spice",
+      "Earth",
+      "Cocoa",
+      "Harmonious"
+    ],
+    "size": "Toro",
+    "length": 6.0,
+    "ringGauge": 54,
+    "popularity": 3,
+    "description": "Cigar Journal's #20 Cigar of 2024. From Villiger's Nicaraguan factory, this all-Nicaraguan puro starts with mild nutty and woody aromas, then develops more spice and depth with earthy and cocoa notes. Linear but beautifully harmonious.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/nicaroma-6x54-cigars",
+        "price": 12.0
+      }
+    ]
+  },
+  {
+    "id": "luciano-cigars-y-panda-toro",
+    "name": "Luciano Cigars Y Panda Toro",
+    "brand": "Luciano Cigars",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Ecuador",
+    "binder": "Brazil, Ecuador",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 15.0,
+    "rating": 91,
+    "flavors": [
+      "Peppery Spice",
+      "Cocoa",
+      "Ristretto",
+      "Oily",
+      "Full",
+      "Acidity",
+      "Mineral"
+    ],
+    "size": "Toro",
+    "length": 6.0,
+    "ringGauge": 52,
+    "popularity": 3,
+    "description": "Cigar Journal's #21 Cigar of 2024. Starts with character \u2014 peppery spice, cocoa, and dense ristretto. Oily and full mouthfeel with fine acidity and spicy-mineral notes in the finish. Multilayered and intense.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "A\u00f1ejo Tequila (Don Julio 1942, Herradura Seleccion Suprema)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/luciano-cigars-y-panda-toro-cigars",
+        "price": 15.0
+      }
+    ]
+  },
+  {
+    "id": "leonel-no-511-robusto",
+    "name": "Leonel No. 511 Robusto",
+    "brand": "Leonel",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Nicaragua",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 2,
+    "smokingTime": 60,
+    "price": 10.0,
+    "rating": 91,
+    "flavors": [
+      "Vanilla",
+      "Fresh Bread",
+      "Dark Chocolate",
+      "Cedar",
+      "Nut",
+      "Peppery"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 52,
+    "popularity": 2,
+    "description": "Cigar Journal's #22 Cigar of 2024. A mild Robusto with creamy vanilla aromas and a sweet start. Fresh bread, dark chocolate, cedar, and nut aromas develop, becoming slightly peppery. A pleasant, accessible cigar.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Triple-Distilled Irish Whiskey (Redbreast 12, Green Spot)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/leonel-no-511-robusto-cigars",
+        "price": 10.0
+      }
+    ]
+  },
+  {
+    "id": "buena-vista-incognito-toro",
+    "name": "Buena Vista Incognito Toro",
+    "brand": "Buena Vista",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Ecuador",
+    "binder": "Mexico",
+    "filler": "Dominican Republic",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 12.0,
+    "rating": 91,
+    "flavors": [
+      "Earthy",
+      "Spicy",
+      "Salty",
+      "Leather",
+      "Coffee",
+      "Cedar"
+    ],
+    "size": "Toro",
+    "length": 6.0,
+    "ringGauge": 50,
+    "popularity": 2,
+    "description": "Cigar Journal's #23 Cigar of 2024. A truly flavorful cigar with rich earthy and spicy tones and a slightly salty taste. Also delivers notes of leather and coffee.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/buena-vista-incognito-toro-cigars",
+        "price": 12.0
+      }
+    ]
+  },
+  {
+    "id": "conspiracy-toro-maduro",
+    "name": "Conspiracy Toro Maduro",
+    "brand": "Conspiracy",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Mexico",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 90,
+    "price": 14.0,
+    "rating": 91,
+    "flavors": [
+      "Earth",
+      "Bitter Chocolate",
+      "Wood",
+      "Leather",
+      "Cocoa",
+      "Vanilla",
+      "Cinnamon",
+      "Cloves",
+      "Honey"
+    ],
+    "size": "Toro",
+    "length": 6.0,
+    "ringGauge": 52,
+    "popularity": 2,
+    "description": "Cigar Journal's #24 Cigar of 2024. This Maduro exhibits dark tones throughout \u2014 earth, bitter chocolate, wood, leather, and cocoa. Aromas of vanilla, cinnamon, cloves, and honey complement the first two thirds. A strong finish.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Tawny Port (Fonseca 20, Taylor Fladgate 20)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/conspiracy-toro-maduro-cigars",
+        "price": 14.0
+      }
+    ]
+  },
+  {
+    "id": "los-statos-deluxe-limited-edition",
+    "name": "Los Statos Deluxe Limited Edition",
+    "brand": "Room 101",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Mexico",
+    "binder": "Ecuador",
+    "filler": "USA, Nicaragua",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 15.0,
+    "rating": 91,
+    "flavors": [
+      "Floral",
+      "Lemongrass",
+      "White Pepper",
+      "Earthy",
+      "Burnt Wood",
+      "Dense"
+    ],
+    "size": "Figurado",
+    "length": 5.5,
+    "ringGauge": 50,
+    "popularity": 3,
+    "description": "Cigar Journal's #25 Cigar of 2024. This dark, oily Figurado reveals a broad spectrum of aromas. First floral notes, lemongrass, and white pepper, then earthy notes and burnt wood. Dense and balanced.",
+    "pairings": [
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": true,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/los-statos-deluxe-limited-edition-cigars",
+        "price": 15.0
+      }
+    ]
+  },
+  {
+    "id": "fonseca-by-my-father-edition-mx",
+    "name": "Fonseca by My Father Edition MX",
+    "brand": "Fonseca",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Mexico San Andr\u00e9s",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 11.0,
+    "rating": 93,
+    "flavors": [
+      "Dark Chocolate",
+      "Black Pepper",
+      "Espresso",
+      "Cedar",
+      "Sweet Wood",
+      "Molasses"
+    ],
+    "size": "Robusto",
+    "length": 5.0,
+    "ringGauge": 50,
+    "popularity": 5,
+    "description": "Cigar Snob's #2 Cigar of 2024. My Father Cigars acquired the Fonseca brand in 2019. The Edition MX features an ultra-flavorful Mexican San Andr\u00e9s wrapper over Nicaraguan tobaccos. The only cigar in Cigar Snob's top 10 under $12.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/fonseca-by-my-father-edition-mx-cigars",
+        "price": 11.0
+      }
+    ]
+  },
+  {
+    "id": "el-titan-de-bronze-redemption",
+    "name": "El Titan de Bronze Redemption",
+    "brand": "El Titan de Bronze",
+    "origin": "USA",
+    "region": "Miami, FL",
+    "wrapper": "Ecuador Habano",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 16.0,
+    "rating": 93,
+    "flavors": [
+      "Creamy",
+      "Cedar",
+      "Leather",
+      "Black Pepper",
+      "Nuts",
+      "Sweet Wood"
+    ],
+    "size": "Corona Extra",
+    "length": 5.625,
+    "ringGauge": 46,
+    "popularity": 4,
+    "description": "Cigar Snob's #4 Cigar of 2024. From the tiny, family-run El Titan de Bronze factory in Miami's Little Havana, partnered with General Cigar for distribution. Features an Ecuador Habano wrapper over Nicaraguan tobaccos with a creamy, medium-strength profile.",
+    "pairings": [
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/el-titan-de-bronze-redemption-cigars",
+        "price": 16.0
+      }
+    ]
+  },
+  {
+    "id": "aganorsa-leaf-arsenio",
+    "name": "Aganorsa Leaf Arsenio",
+    "brand": "Aganorsa Leaf",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Nicaragua",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 15.0,
+    "rating": 93,
+    "flavors": [
+      "Cedar",
+      "Dark Chocolate",
+      "Sweet Wood",
+      "Black Pepper",
+      "Espresso",
+      "Cream"
+    ],
+    "size": "Corona",
+    "length": 6.0,
+    "ringGauge": 44,
+    "popularity": 4,
+    "description": "Cigar Snob's #5 Cigar of 2024. Named after the late Arsenio Ramos, Aganorsa's head of manufacturing until 2018. The Arsenio is the company's rendition of his favorite blend using all Nicaraguan tobaccos grown on Aganorsa's farms.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Aged Nicaraguan Rum (Flor de Ca\u00f1a 18, Mombacho 12)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/aganorsa-leaf-arsenio-cigars",
+        "price": 15.0
+      }
+    ]
+  },
+  {
+    "id": "el-pulpo-belicoso-grande",
+    "name": "El Pulpo Belicoso Grande",
+    "brand": "Artesano del Tobacco",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Mexico San Andr\u00e9s",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 4,
+    "smokingTime": 75,
+    "price": 17.0,
+    "rating": 92,
+    "flavors": [
+      "Coffee",
+      "Dark Chocolate",
+      "Nuts",
+      "Citrus",
+      "Black Pepper",
+      "Leather"
+    ],
+    "size": "Belicoso Grande",
+    "length": 5.75,
+    "ringGauge": 58,
+    "popularity": 5,
+    "description": "Cigar Snob's #16 Cigar of 2024 and CA's #10 in 2023. Made by A.J. Fernandez for Artesano del Tobacco. The name means 'the octopus' in Spanish, symbolizing how the smoke envelops the palate. Bold, intense, yet harmonious.",
+    "pairings": [
+      "High-Rye Barrel-Proof Bourbon (Baker's, Knob Creek Single Barrel)",
+      "Aged Demerara Rum (El Dorado 12, Diplomatico Reserva Exclusiva)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/el-pulpo-belicoso-grande-cigars",
+        "price": 17.0
+      }
+    ]
+  },
+  {
+    "id": "oscar-valladares-2012-sumatra",
+    "name": "Oscar Valladares 2012 Sumatra",
+    "brand": "Oscar Valladares",
+    "origin": "Honduras",
+    "region": "Danl\u00ed",
+    "wrapper": "Ecuador",
+    "binder": "Honduras",
+    "filler": "Nicaragua, Honduras",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 9.3,
+    "rating": 91,
+    "flavors": [
+      "Cedar",
+      "Cream",
+      "Nuts",
+      "Sweet Wood",
+      "Black Pepper",
+      "Coffee"
+    ],
+    "size": "Toro",
+    "length": 6.0,
+    "ringGauge": 52,
+    "popularity": 4,
+    "description": "Cigar Snob's #18 Cigar of 2024. The 2012 line is the precursor to the popular Leaf by Oscar brand. The Sumatra variant features an Ecuadorian Sumatra wrapper over Honduran and Nicaraguan fillers.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Wheated Bourbon (Maker's Mark, Larceny)",
+      "Double Espresso (dark roast, no sugar)"
+    ],
+    "yearFounded": 2024,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/oscar-valladares-2012-sumatra-cigars",
+        "price": 9.3
+      }
+    ]
+  },
+  {
+    "id": "la-aurora-preferidos-gold-corojo",
+    "name": "La Aurora Preferidos Gold Corojo",
+    "brand": "La Aurora",
+    "origin": "Dominican Republic",
+    "region": "Santiago",
+    "wrapper": "Dominican Republic",
+    "binder": "Dominican Republic",
+    "filler": "Brazil, Nicaragua, Peru",
+    "strength": 3,
+    "smokingTime": 75,
+    "price": 27.25,
+    "rating": 91,
+    "flavors": [
+      "Cedar",
+      "Leather",
+      "Rich",
+      "Cream",
+      "Nuts",
+      "Sweet Wood"
+    ],
+    "size": "Perfecto",
+    "length": 5.0,
+    "ringGauge": 54,
+    "popularity": 4,
+    "description": "Cigar Snob's #21 Cigar of 2024. This classic perfecto from the Dominican Republic's oldest cigar factory showcases a Dominican Corojo wrapper that delivers rich cedar and leather notes. A historic brand that graced Cigar Snob's inaugural cover in 2006.",
+    "pairings": [
+      "VSOP Cognac (Pierre Ferrand, Hine)",
+      "Fruity Speyside Single Malt (Glenlivet 18, Balvenie DoubleWood)",
+      "Tawny Port (Fonseca 20, Taylor Fladgate 20)"
+    ],
+    "yearFounded": 2018,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/la-aurora-preferidos-gold-corojo-cigars",
+        "price": 27.25
+      }
+    ]
+  },
+  {
+    "id": "hvc-seleccion-no-1-maduro",
+    "name": "HVC Selecci\u00f3n No. 1 Maduro",
+    "brand": "HVC",
+    "origin": "Nicaragua",
+    "region": "Estel\u00ed",
+    "wrapper": "Mexico",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": 3,
+    "smokingTime": 60,
+    "price": 8.8,
+    "rating": 91,
+    "flavors": [
+      "Cocoa",
+      "Coffee",
+      "Caramel",
+      "Cedar",
+      "Black Pepper",
+      "Sweet Wood"
+    ],
+    "size": "Corona",
+    "length": 5.625,
+    "ringGauge": 46,
+    "popularity": 3,
+    "description": "Cigar Snob's #22 Cigar of 2024. Produced at HVC's factory in Estel\u00ed, this flavorful and well-balanced corona has become a favorite at Cigar Snob HQ. Excellent value with a Mexican maduro wrapper over Nicaraguan tobaccos.",
+    "pairings": [
+      "Small-Batch Bourbon (Buffalo Trace, Elijah Craig Small Batch)",
+      "Double Espresso (dark roast, no sugar)",
+      "High-Rye Rye Whiskey (Bulleit Rye, WhistlePig 10)"
+    ],
+    "yearFounded": 2023,
+    "limited": false,
+    "buyLinks": [
+      {
+        "retailer": "Famous Smoke Shop",
+        "url": "https://www.famous-smoke.com/hvc-seleccion-no-1-maduro-cigars",
+        "price": 8.8
+      }
+    ]
+  }
+]
