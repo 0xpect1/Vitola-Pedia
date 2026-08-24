@@ -117,10 +117,10 @@
       camera = new T.PerspectiveCamera(40, w / h, 0.1, 200);
       camera.position.set(0, 0, zoom);
 
-      // Set up lights immediately
-      sunLight = new T.DirectionalLight(0xffffff, 1.5);
+      // Set up lights — warm sun + subtle ambient (realistic, not flat)
+      sunLight = new T.DirectionalLight(0xffffff, 2.0);
       scene.add(sunLight);
-      scene.add(new T.AmbientLight(0x111122, 0.5));
+      scene.add(new T.AmbientLight(0x222233, 0.3));
 
       // Stars
       const starGeom = new T.BufferGeometry();
@@ -142,9 +142,9 @@
       }));
       scene.add(starField);
 
-      // Atmosphere
+      // Atmosphere — subtle, thin, realistic (not a cartoon glow)
       const atmoMat = new T.ShaderMaterial({
-        uniforms: { glowColor: { value: new T.Color(0.3, 0.5, 0.9) } },
+        uniforms: { glowColor: { value: new T.Color(0.4, 0.6, 0.8) } },
         vertexShader: `
           varying vec3 vNormal;
           void main() {
@@ -156,14 +156,14 @@
           uniform vec3 glowColor;
           varying vec3 vNormal;
           void main() {
-            float intensity = pow(0.7 - dot(vNormal, vec3(0, 0, 1.0)), 2.0);
-            gl_FragColor = vec4(glowColor, intensity * 0.5);
+            float intensity = pow(0.65 - dot(vNormal, vec3(0, 0, 1.0)), 3.0);
+            gl_FragColor = vec4(glowColor, intensity * 0.25);
           }
         `,
         side: T.BackSide, blending: T.AdditiveBlending,
         transparent: true, depthWrite: false,
       });
-      atmosphere = new T.Mesh(new T.SphereGeometry(R * 1.2, 64, 64), atmoMat);
+      atmosphere = new T.Mesh(new T.SphereGeometry(R * 1.05, 64, 64), atmoMat);
       scene.add(atmosphere);
 
       // Start render loop immediately (renders stars + atmosphere while textures load)
@@ -187,14 +187,17 @@
           t.generateMipmaps = true;
         }
 
-        // EARTH
+        // EARTH — MeshStandardMaterial for photorealistic PBR lighting
+        // (Google Earth look, not cartoon Phong)
         tex.earth.colorSpace = T.SRGBColorSpace;
-        const earthMat = new T.MeshPhongMaterial({
+        const earthMat = new T.MeshStandardMaterial({
           map: tex.earth,
           bumpMap: tex.bump,
-          bumpScale: 0.04,
-          shininess: 12,
-          specular: new T.Color(0x333344),
+          bumpScale: 0.02,
+          roughness: 0.85,
+          metalness: 0.0,
+          emissive: new T.Color(0x111111),
+          emissiveIntensity: 0.05,
         });
         globe = new T.Mesh(new T.SphereGeometry(R, 128, 128), earthMat);
         scene.add(globe);
@@ -217,11 +220,13 @@
         if (tex.clouds && tex.clouds.image) {
           tex.clouds.colorSpace = T.SRGBColorSpace;
           clouds = new T.Mesh(
-            new T.SphereGeometry(R * 1.012, 64, 64),
-            new T.MeshPhongMaterial({
+            new T.SphereGeometry(R * 1.008, 64, 64),
+            new T.MeshStandardMaterial({
               map: tex.clouds,
               transparent: true,
-              opacity: 0.35,
+              opacity: 0.15,
+              roughness: 1.0,
+              metalness: 0.0,
               depthWrite: false,
             })
           );
