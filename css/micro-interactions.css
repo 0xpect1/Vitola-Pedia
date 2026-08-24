@@ -8,17 +8,16 @@
   transition: transform 0.3s ease,
               box-shadow 0.3s ease,
               border-color 0.3s ease;
-  will-change: transform;
 }
 
 .cigar-card:hover {
-  transform: translateY(-4px);
   box-shadow:
     0 10px 28px rgba(0, 0, 0, 0.45),
     0 0 0 1px rgba(201, 148, 58, 0.35),
     0 0 18px rgba(201, 148, 58, 0.18);  /* gold tint */
   border-color: rgba(201, 148, 58, 0.55);
   z-index: 2;
+  will-change: transform;
 }
 
 /* ── Buttons: subtle gold glow on hover ── */
@@ -35,7 +34,6 @@
   transition: box-shadow 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
 }
 
-.landing-cta:hover,
 .quiz-trigger-btn:hover,
 .btn-primary:hover,
 .lg-primary-btn:hover,
@@ -138,7 +136,6 @@ body {
 .cigar-detail-modal .modal-panel {
   animation: modal-scale-in 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
   transform-origin: center center;
-  will-change: transform, opacity;
 }
 
 @keyframes modal-scale-in {
@@ -189,7 +186,6 @@ body {
   z-index: 9999;
   opacity: 0;
   mix-blend-mode: screen;
-  will-change: transform, opacity;
   transition: opacity 0.6s ease;
 }
 

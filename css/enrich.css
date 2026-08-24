@@ -558,18 +558,8 @@
   font-variant-numeric: tabular-nums;
 }
 
-.pairing-group-items {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
 .pairing-entry {
   padding: 1px 0;
-}
-.pairing-entry + .pairing-entry {
-  padding-top: 8px;
-  border-top: 1px dashed rgba(201,168,76,0.10);
 }
 
 .pairing-entry-type {

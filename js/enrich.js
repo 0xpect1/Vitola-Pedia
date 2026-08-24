@@ -441,7 +441,7 @@
 
   const PAIRING_CATEGORIES = {
     Spirits: {
-      icon: '🥃', accent: 'spirits',
+      accent: 'spirits',
       keywords: ['bourbon','scotch','whiskey','whisky','rye','brandy',
         'cognac','rum','tequila','mezcal','gin','vodka','absinthe',
         'calvados','armagnac','pisco','aquavit','sake','saké','moonshine',
@@ -449,7 +449,7 @@
         'irish cream','irish whiskey','japanese whisky'],
     },
     Wine: {
-      icon: '🍷', accent: 'wine',
+      accent: 'wine',
       keywords: ['wine','champagne','sparkling','prosecco','cava','crémant',
         'cremant','port','sherry','madeira','marsala','vermouth','chardonnay',
         'cabernet','merlot','pinot','riesling','sauternes','burgundy',
@@ -458,7 +458,7 @@
         'barolo','barbaresco','tawny','tawny port','cream sherry'],
     },
     Beer: {
-      icon: '🍺', accent: 'beer',
+      accent: 'beer',
       keywords: ['beer','ale','lager','stout','porter','pilsner','pils',
         'witbier','weiss','weizen','hefeweizen','ipa','amber ale','pale ale',
         'ginger ale','cream ale','saison','faro','lambic','gose','kölsch',
@@ -466,7 +466,7 @@
         'marzen','bock','doppelbock','weisse'],
     },
     Coffee: {
-      icon: '☕', accent: 'coffee',
+      accent: 'coffee',
       keywords: ['coffee','espresso','café','cafe','cappuccino','latte',
         'macchiato','mocha','americano','ristretto','cortado','au lait',
         'crème','creme','de olla','iced coffee','cold brew','flat white',
@@ -474,7 +474,7 @@
         'cafe au lait','café de olla','cafe de olla'],
     },
     Food: {
-      icon: '🍽', accent: 'food',
+      accent: 'food',
       keywords: ['chocolate','cheese','dessert','food','nuts','cake','pastry',
         'croissant','crème brûlée','creme brulee','ice cream','gelato',
         'cookie','biscotti','caramel','toffee','fruit','dried fruit',
@@ -547,7 +547,7 @@
 
     const groupHtml = orderedCats.map(cat => {
       const items = groups[cat];
-      const cfg = PAIRING_CATEGORIES[cat] || { icon: '•', accent: 'other' };
+      const cfg = PAIRING_CATEGORIES[cat] || { accent: 'other' };
       const groupSvg = pairingSvg(cfg.accent);
 
       const itemsHtml = items.map(p => {
@@ -655,6 +655,18 @@
     window.addEventListener('touchmove', onMove, { passive: false });
     window.addEventListener('mouseup', onUp);
     window.addEventListener('touchend', onUp);
+
+    // Return a cleanup function so callers can remove the window-level
+    // listeners when the modal closes — otherwise each open leaks 4
+    // stale listeners (mousemove, mouseup, touchmove, touchend).
+    return function cleanupPhotoRotation() {
+      img.removeEventListener('mousedown', onDown);
+      img.removeEventListener('touchstart', onDown);
+      window.removeEventListener('mousemove', onMove);
+      window.removeEventListener('touchmove', onMove);
+      window.removeEventListener('mouseup', onUp);
+      window.removeEventListener('touchend', onUp);
+    };
   }
 
   /* ══════════════════════════════════════════════════════════════
@@ -696,10 +708,31 @@
 
     segs.forEach((p) => {
       p.style.strokeDashoffset = '0';
-      // Reveal the fill once the stroke has drawn in.
+      // Remove the SVG 'opacity' attribute before setting fillOpacity. The SVG
+      // 'opacity' attribute composites the entire element (including fill),
+      // so effective fill visibility = opacity_attr × fillOpacity_style.
+      // Without this removal, unmatched segments end up at 0.18×0.18≈0.03
+      // (nearly invisible) because both the attribute and style apply.
       const fill = p.getAttribute('opacity');
+      if (fill != null) p.removeAttribute('opacity');
       p.style.fillOpacity = fill != null ? fill : '0.85';
     });
+
+    // Reset the temporary stroke styles once the draw-in animation finishes,
+    // otherwise the wheel permanently has thick outlines. The last segment
+    // starts at (segs.length - 1) × 0.1s; its 0.5s stroke animation ends at
+    // that time + 0.5s. We add a small buffer.
+    const lastSegDelay = (segs.length - 1) * 0.1;
+    const resetAfter = (lastSegDelay + 0.5 + 0.1) * 1000;
+    setTimeout(() => {
+      segs.forEach((p) => {
+        p.style.stroke = '';
+        p.style.strokeWidth = '';
+        p.style.strokeOpacity = '';
+        p.style.strokeDasharray = '';
+        p.style.strokeDashoffset = '';
+      });
+    }, resetAfter);
   }
 
   /* ══════════════════════════════════════════════════════════════
@@ -709,7 +742,17 @@
     const orig = window.openModal;
     if (typeof orig !== 'function') return;
 
+    // Holds the cleanup function returned by enablePhotoRotation for the
+    // currently-open modal, so we can tear down window listeners on close.
+    let photoRotationCleanup = null;
+
     window.openModal = function (id) {
+      // Tear down any photo-rotation listeners left by the previous modal.
+      if (photoRotationCleanup) {
+        photoRotationCleanup();
+        photoRotationCleanup = null;
+      }
+
       orig(id);
       const cigar = cigars().find(c => c.id === id);
       if (!cigar) return;
@@ -724,7 +767,8 @@
       enrichPairings(body, cigar.pairings);
 
       // 360° drag-to-rotate on the hero photo (skips silently if no image).
-      enablePhotoRotation(body);
+      // Store the cleanup function so listeners are removed on modal close.
+      photoRotationCleanup = enablePhotoRotation(body);
 
       // Animate the flavor wheel segments in sequence.
       animateFlavorWheel(body);
@@ -735,6 +779,18 @@
 
       addShareButton(body, 'cigar', id, cigar.name + ' — Vitola Pedia');
     };
+
+    // Also clean up when the modal is closed via closeModal.
+    const origClose = window.closeModal;
+    if (typeof origClose === 'function') {
+      window.closeModal = function () {
+        if (photoRotationCleanup) {
+          photoRotationCleanup();
+          photoRotationCleanup = null;
+        }
+        return origClose.apply(this, arguments);
+      };
+    }
 
     const origPT = window.openPTModal;
     if (typeof origPT === 'function') {

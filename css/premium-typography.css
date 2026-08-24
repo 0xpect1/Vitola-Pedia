@@ -14,7 +14,7 @@ section h2,
 .cigars-section h2,
 .filters-title,
 .no-results h3 {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: var(--font-serif);
   letter-spacing: 0.08em;        /* display spacing */
   font-weight: 700;
   font-feature-settings: "liga" 1, "dlig" 1, "kern" 1;
@@ -38,7 +38,7 @@ section h2,
 .modal-body p,
 .modal-body .pairing-note,
 .cigar-card .cigar-desc {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: var(--font-body);
   letter-spacing: 0.02em;        /* body spacing */
   font-weight: 500;
   text-rendering: optimizeLegibility;
@@ -74,7 +74,7 @@ section h2,
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
-          color: transparent;
+          color: var(--gold);   /* solid fallback if background-clip is unsupported */
   -webkit-text-stroke: 0;          /* clear any inherited stroke */
   text-shadow: none;                /* gradient text cannot take shadow */
   animation: gold-sheen 8s ease-in-out infinite;
@@ -91,7 +91,7 @@ section h2,
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
-          color: transparent;
+          color: var(--gold-light);  /* solid fallback if background-clip is unsupported */
 }
 
 @keyframes gold-sheen {
