@@ -39,10 +39,15 @@
   <link rel="stylesheet" href="css/houses.css" />
   <link rel="stylesheet" href="css/journal.css" />
   <link rel="stylesheet" href="css/picker.css" />
+  <!-- Premium typography + micro-interactions + dark-mode polish -->
+  <link rel="stylesheet" href="css/premium-typography.css" />
+  <link rel="stylesheet" href="css/micro-interactions.css" />
+  <link rel="stylesheet" href="css/premium-polish.css" />
   <link rel="stylesheet" href="css/refine.css" />
   <link rel="stylesheet" href="css/premium.css" />
   <link rel="stylesheet" href="css/premium-map.css" />
   <link rel="stylesheet" href="css/globe3d.css" />
+  <link rel="stylesheet" href="css/preloader.css" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1209'/%3E%3Crect x='4' y='14' width='20' height='5' rx='2.5' fill='%23c9943a'/%3E%3Crect x='24' y='14' width='4' height='5' rx='1' fill='%23e8b86d'/%3E%3Ccircle cx='25' cy='13' r='2' fill='%23ff6b35' opacity='.9'/%3E%3C/svg%3E" />
 
   <!-- ═══ STRUCTURED DATA ═══════════════════════════════════════════ -->
@@ -105,8 +110,23 @@
   
   <!-- Cigar Scanner -->
   <script src="/js/scanner.js" defer></script>
+
+  <!-- Preloader (loaded early in <head> so the curtain is up before paint) -->
+  <script src="js/preloader.js"></script>
 </head>
 <body>
+  <!-- Premium preloader — ember animation, gold wordmark, progress bar -->
+  <div id="vp-preloader">
+    <div class="vp-pre-ember" aria-hidden="true">
+      <span class="vp-ember-core"></span>
+      <span class="vp-ember-flame"></span>
+      <span class="vp-ember-spark vp-ember-spark-1"></span>
+      <span class="vp-ember-spark vp-ember-spark-2"></span>
+      <span class="vp-ember-spark vp-ember-spark-3"></span>
+    </div>
+    <div class="vp-pre-title">VITOLA PEDIA</div>
+    <div class="vp-pre-progress"><div class="vp-pre-bar"></div></div>
+  </div>
 
   <!-- ░░ LANDING PAGE ░░ -->
   <section id="landing" class="landing">
@@ -864,6 +884,7 @@
   <script src="js/premium-map.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
   <script src="js/globe3d.js"></script>
+  <script src="js/sound-design.js"></script>
 
   <!-- Cellar / Wishlist tray -->
   <div class="cellar-tray hidden" id="cellarTray">
@@ -877,5 +898,49 @@
       </div>
     </div>
   </div>
+
+  <!-- ░░ CURSOR PARTICLE TRAIL (landing page only) ░░ -->
+  <script>
+  (function () {
+    'use strict';
+    var landing = document.getElementById('landing');
+    if (!landing) return;
+    var prefersReduce = window.matchMedia &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReduce) return;            /* honor user preference */
+
+    var NUM = 5;                          /* 3–5 gold dots with lag */
+    var dots = [];
+    for (var i = 0; i < NUM; i++) {
+      var d = document.createElement('div');
+      d.className = 'cursor-particle';
+      d.style.opacity = String(1 - i * 0.16);  /* trailing dots fade */
+      document.body.appendChild(d);
+      dots.push({ el: d, x: 0, y: 0 });
+    }
+
+    var mx = -100, my = -100, active = false;
+
+    landing.addEventListener('pointermove', function (e) {
+      mx = e.clientX; my = e.clientY; active = true;
+    });
+    landing.addEventListener('pointerleave', function () { active = false; });
+
+    function tick() {
+      var leadX = mx, leadY = my;
+      for (var i = 0; i < dots.length; i++) {
+        var dot = dots[i];
+        dot.x += (leadX - dot.x) * (0.35 - i * 0.05);  /* each dot lags more */
+        dot.y += (leadY - dot.y) * (0.35 - i * 0.05);
+        dot.el.style.transform =
+          'translate3d(' + (dot.x - 3) + 'px,' + (dot.y - 3) + 'px,0)';
+        dot.el.style.opacity = active ? String(1 - i * 0.16) : '0';
+        leadX = dot.x; leadY = dot.y;          /* next dot follows this one */
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  })();
+  </script>
 </body>
 </html>

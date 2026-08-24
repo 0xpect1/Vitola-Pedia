@@ -79,6 +79,20 @@ const VPAnalytics = (function () {
 
   /* ── LOADERS ────────────────────────────────────────────────── */
   function load() {
+    /* Admin cookie filter — ?admin=true sets a 365-day cookie; when the
+       cookie is present, suppress the Cloudflare beacon so admin / owner
+       traffic is never counted. Returns before any provider loads. */
+    try {
+      if (new URLSearchParams(location.search).get('admin') === 'true') {
+        document.cookie = 'vp_admin=true; max-age=' + (60 * 60 * 24 * 365) +
+                          '; path=/; SameSite=Lax';
+      }
+      if (document.cookie.indexOf('vp_admin=true') !== -1) {
+        if (CONFIG.debug) console.log('[analytics] admin mode — beacon suppressed');
+        return;
+      }
+    } catch (e) { /* never block analytics on a cookie glitch */ }
+
     if (CONFIG.cloudflareToken) {
       const s = document.createElement('script');
       s.defer = true;

@@ -1,0 +1,130 @@
+/* ═══════════════════════════════════════════════════════════════════
+   PREMIUM TYPOGRAPHY — Playfair Display (display) + Cormorant Garamond (body accents)
+   Loaded after style.css; scoped selectors override defaults without !important.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Google Font import: Playfair Display + Cormorant Garamond ── */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+
+/* ── Display headings: Playfair Display ── */
+.landing-title,
+.hero-title,
+.modal-title,
+.brand-name,
+section h2,
+.cigars-section h2,
+.filters-title,
+.no-results h3 {
+  font-family: 'Playfair Display', 'Times New Roman', Georgia, serif;
+  letter-spacing: 0.08em;        /* display spacing */
+  font-weight: 700;
+  font-feature-settings: "liga" 1, "dlig" 1, "kern" 1;
+  text-rendering: optimizeLegibility;
+}
+
+/* Italic accent inside display headings (e.g. <em>) keeps the serif voice */
+.landing-title em,
+.hero-title em {
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+/* ── Body accent voice: Cormorant Garamond ── */
+.landing-tagline,
+.hero-sub,
+.brand-tagline,
+.section-subtitle,
+.landing-eyebrow,
+.modal-body p,
+.modal-body .pairing-note,
+.cigar-card .cigar-desc {
+  font-family: 'Cormorant Garamond', 'Crimson Text', Georgia, serif;
+  letter-spacing: 0.02em;        /* body spacing */
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+}
+
+/* Large display tagline gets a touch more breathing room */
+.landing-tagline,
+.hero-sub {
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+/* Eyebrow label — small caps treatment via Cormorant for elegance */
+.landing-eyebrow {
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* ── Gold gradient text effect ── */
+/* Used on the brand wordmark and the landing title for the signature
+   champagne-to-gold sheen. background-clip:text with a transparent
+   text fill; falls back to solid gold on unsupported browsers. */
+.brand-name,
+.landing-title {
+  background: linear-gradient(135deg,
+    #c9943a 0%,
+    #f0d674 45%,
+    #f9e7a9 50%,
+    #f0d674 55%,
+    #c9943a 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+          color: transparent;
+  -webkit-text-stroke: 0;          /* clear any inherited stroke */
+  text-shadow: none;                /* gradient text cannot take shadow */
+  animation: gold-sheen 8s ease-in-out infinite;
+}
+
+/* The landing title's <em> keeps the gold sheen at a brighter keyframe offset
+   so the italic feels like it catches the light independently. */
+.landing-title em {
+  background: linear-gradient(135deg,
+    #f0d674 0%,
+    #fff3c4 50%,
+    #f0d674 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+          color: transparent;
+}
+
+@keyframes gold-sheen {
+  0%, 100% { background-position: 0% center; }
+  50%      { background-position: 100% center; }
+}
+
+/* ── Respect reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  .brand-name,
+  .landing-title,
+  .landing-title em {
+    animation: none;
+    background-position: 0% center;
+  }
+}
+
+/* ── Section subtitle refinement ── */
+.section-subtitle {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  opacity: 0.85;
+}
+
+/* ── Modal title sizing refinement (keep site scale, set face above) ── */
+.modal-title {
+  line-height: 1.1;
+}
+
+/* ── Footer brand uses the same display face for consistency ── */
+.footer-brand .brand-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
