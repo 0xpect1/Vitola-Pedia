@@ -59,6 +59,9 @@
     if (typeof maplibregl === 'undefined') return;
 
     try {
+      // Dark background so the container isn't white while tiles load
+      container.style.background = '#0a0a0a';
+
       map = new maplibregl.Map({
         container: container,
         style: SATELLITE_STYLE,
@@ -68,7 +71,7 @@
         minZoom: 0,
         maxPitch: 85,
         dragRotate: true,
-        attributionControl: true,
+        attributionControl: { compact: true },
       });
 
       map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right');
@@ -78,6 +81,11 @@
 
         // Add terroir markers after style loads
         addTerroirMarkers();
+      });
+
+      // Log errors for debugging
+      map.on('error', function(e) {
+        console.error('MapLibre error:', e);
       });
 
       initialized = true;
