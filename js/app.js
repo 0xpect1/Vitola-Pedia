@@ -1319,9 +1319,10 @@ function switchView(viewName) {
   const mainContent = document.querySelector('.main-content');
   if (mainContent) mainContent.classList.toggle('hidden', viewName !== 'library');
 
-  // shelves — only visible in the lounge
+  // shelves — shown below the lounge only
   const shelves = document.getElementById('shelves');
   if (shelves) shelves.classList.toggle('hidden', viewName !== 'lounge');
+
 
   document.querySelectorAll('.nav-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.view === viewName);

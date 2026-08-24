@@ -240,9 +240,6 @@
     </div>
   </section>
 
-  <!-- ░░ THE TWO SHELVES ░░ -->
-  <section class="shelves hidden" id="shelves"><!-- Injected by js/rails.js — shown in lounge view --></section>
-
   <!-- ░░ MAIN CONTENT ░░ -->
   <main class="main-content">
 
@@ -741,6 +738,9 @@
     <!-- Injected by js/lounge.js -->
   </section>
 
+  <!-- ░░ THE THREE SHELVES (below lounge) ░░ -->
+  <section class="shelves hidden" id="shelves"><!-- Injected by js/rails.js — shown below lounge --></section>
+
   <!-- ░░ LOUNGE MODAL ░░ -->
   <div class="modal-overlay hidden" id="loungeOverlay">
     <div class="modal" role="dialog" aria-modal="true" aria-labelledby="loungeModalLabel">
@@ -879,7 +879,8 @@
   <script src="js/palette.js"></script>
   <script src="js/premium.js"></script>
   <script src="js/premium-map.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <link href="https://unpkg.com/maplibre-gl@5.23.0/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/maplibre-gl@5.23.0/dist/maplibre-gl.js"></script>
   <script src="js/globe3d.js"></script>
   <script src="js/sound-design.js"></script>
 
