@@ -1,10 +1,10 @@
 /* ══════════════════════════════════════════════════════════════════
-   VITOLA PEDIA — THE TWO SHELVES
-   Two rails, presented as equals, sitting directly under the hero.
+   VITOLA PEDIA — THE THREE SHELVES
+   Three rails under the hero, each telling a different story:
 
-   "The Cabinet" is what money buys. "Punching Above Its Price" is what
-   knowledge buys — the cigars whose rating has no business being that
-   high for what they cost.
+   "Punching Above Its Price" — value picks, sub-$15, rated 90+
+   "The Cabinet" — the elite, 96+ rated, price no object
+   "Hidden Gems" — 92+ rated but obscure (popularity < 5), the deep cuts
 
    They share a row on purpose. A cigar encyclopedia that only celebrates
    the $50 stick is a catalogue for people who already have everything;
@@ -23,29 +23,59 @@
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
 
-  const VALUE_CEILING = 10;   // what "affordable" means here, in dollars
-
-  /* Rating alone would just re-list the expensive ones, and rating ÷ price
-     over-rewards the very cheapest. Rank the sub-$10 shelf by rating, then
-     let price break ties — the best cigar you can buy for a tenner. */
+  /* ── SHELF 1: PUNCHING ABOVE ITS PRICE ──
+     Sub-$15, rated 90+, sorted by rating then price. */
   function bestValue(n) {
     return cigars()
-      .filter(c => c.price <= VALUE_CEILING && c.rating >= 90 && !c.limited)
+      .filter(c => c.price > 0 && c.price <= 15 && c.rating >= 90 && !c.limited)
       .sort((a, b) => b.rating - a.rating || a.price - b.price)
       .slice(0, n);
   }
 
+  /* ── SHELF 2: THE CABINET ──
+     96+ rated, sorted by rating then price. */
   function bestOverall(n) {
     return cigars()
       .filter(c => c.rating >= 96)
-      .sort((a, b) => b.rating - a.rating || b.price - a.price)
+      .sort((a, b) => b.rating - a.rating || b.price - b.price)
       .slice(0, n);
   }
 
+  /* ── SHELF 3: HIDDEN GEMS ──
+     92+ rated, popularity < 5 (obscure but excellent). */
+  function hiddenGems(n) {
+    return cigars()
+      .filter(c => c.rating >= 92 && c.popularity < 5 && c.price > 0)
+      .sort((a, b) => b.rating - a.rating || a.popularity - b.popularity)
+      .slice(0, n);
+  }
+
+  /* ── CARD TEMPLATE ──
+     Same card for all shelves; the badge changes by kind. */
   function card(c, kind) {
-    const badge = kind === 'value'
-      ? `<span class="rail-badge value">${c.rating} pts · $${c.price.toFixed(2)}</span>`
-      : `<span class="rail-badge best">${c.rating} pts</span>`;
+    let badge, tagline;
+    if (kind === 'value') {
+      badge = `<span class="rail-badge value">${c.rating} pts · $${c.price.toFixed(2)}</span>`;
+      tagline = c.price < 5
+        ? `Under $5 and rated ${c.rating}.`
+        : c.price < 10
+        ? `${c.rating} points for under $10.`
+        : `${c.rating} points for $${c.price.toFixed(0)}.`;
+    } else if (kind === 'best') {
+      badge = `<span class="rail-badge best">${c.rating} pts</span>`;
+      tagline = c.limited
+        ? `Limited edition. ${c.rating} points.`
+        : c.price >= 50
+        ? `Top shelf. $${c.price.toFixed(0)} a stick.`
+        : `${c.rating} points — the elite.`;
+    } else if (kind === 'gem') {
+      badge = `<span class="rail-badge gem">${c.rating} pts · hidden</span>`;
+      tagline = `Rated ${c.rating} but barely known. Popularity ${c.popularity}/10.`;
+    } else {
+      badge = `<span class="rail-badge">${c.rating} pts</span>`;
+      tagline = '';
+    }
+
     return `
       <button class="rail-card" data-id="${esc(c.id)}">
         <span class="rail-img">
@@ -57,6 +87,7 @@
           <span class="rail-name">${esc(c.name)}</span>
           <span class="rail-brand">${esc(c.brand)} · ${esc(c.origin)}</span>
           ${badge}
+          ${tagline ? `<span class="rail-tagline">${esc(tagline)}</span>` : ''}
         </span>
       </button>`;
   }
@@ -65,18 +96,21 @@
     const host = document.getElementById('shelves');
     if (!host) return;
 
-    const value = bestValue(8);
-    const best = bestOverall(8);
+    const value = bestValue(15);
+    const best = bestOverall(15);
+    const gems = hiddenGems(15);
     if (!value.length || !best.length) return;
 
     const cheapest = value.reduce((a, b) => (b.price < a.price ? b : a));
     const dearest = best.reduce((a, b) => (b.price > a.price ? b : a));
 
+    const totalCigars = cigars().length;
+
     host.innerHTML = `
       <div class="shelf">
         <div class="shelf-head">
           <h2>Punching Above Its Price</h2>
-          <p>Everything here is ${VALUE_CEILING > 0 ? `under $${VALUE_CEILING}` : 'affordable'} and rated 90 or better.
+          <p>Everything here is under $15 and rated 90 or better.
              ${esc(cheapest.name)} scores ${cheapest.rating} at $${cheapest.price.toFixed(2)}.</p>
         </div>
         <div class="shelf-rail" data-kind="value">${value.map(c => card(c, 'value')).join('')}</div>
@@ -91,8 +125,17 @@
         <div class="shelf-rail" data-kind="best">${best.map(c => card(c, 'best')).join('')}</div>
       </div>
 
+      <div class="shelf">
+        <div class="shelf-head">
+          <h2>Hidden Gems</h2>
+          <p>Rated 92+ but barely known — the deep cuts from ${totalCigars.toLocaleString()} cigars
+             that most people will never find on their own.</p>
+        </div>
+        <div class="shelf-rail" data-kind="gem">${gems.map(c => card(c, 'gem')).join('')}</div>
+      </div>
+
       <p class="shelf-note">
-        Both shelves are drawn from the same 6,059 cigars and scored the same way.
+        All three shelves are drawn from the same ${totalCigars.toLocaleString()} cigars and scored the same way.
         Spending more buys you rarity and refinement; it does not buy you a better evening.
       </p>`;
 
@@ -119,7 +162,7 @@
     };
 
     rail.addEventListener('pointerdown', e => {
-      if (e.pointerType === 'touch') return;      // let the OS do touch
+      if (e.pointerType === 'touch') return;
       down = true; moved = 0;
       startX = e.clientX;
       startScroll = rail.scrollLeft;
@@ -131,7 +174,6 @@
       const dx = e.clientX - startX;
       moved = Math.max(moved, Math.abs(dx));
       if (moved > 3) {
-        // Only capture once we're sure it's a drag, so plain clicks work.
         if (!rail.hasPointerCapture(e.pointerId)) rail.setPointerCapture(e.pointerId);
         rail.scrollLeft = startScroll - dx;
       }
@@ -143,7 +185,6 @@
       rail.classList.remove('dragging');
       if (rail.hasPointerCapture && e.pointerId != null &&
           rail.hasPointerCapture(e.pointerId)) rail.releasePointerCapture(e.pointerId);
-      // Swallow the click that follows a real drag.
       if (moved > 3) {
         const swallow = ev => { ev.stopPropagation(); ev.preventDefault(); };
         rail.addEventListener('click', swallow, { capture: true, once: true });
@@ -154,8 +195,6 @@
     rail.addEventListener('pointercancel', end);
     rail.addEventListener('pointerleave', end);
 
-    /* A trackpad's horizontal component should scroll the rail, but a
-       vertical flick over it must still scroll the page. */
     rail.addEventListener('wheel', e => {
       if (Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return;
       e.preventDefault();
@@ -168,5 +207,5 @@
   }
 
   document.addEventListener('DOMContentLoaded', () => setTimeout(render, 260));
-  window.VPShelves = { render, bestValue, bestOverall };
+  window.VPShelves = { render, bestValue, bestOverall, hiddenGems };
 })();
