@@ -723,7 +723,7 @@
             <p class="lg-msg-text">${modEsc(m.body)}</p>
             <span class="lg-msg-mod">
               <button class="lg-mod-btn sm" data-report="chat:${esc(m.id)}:${esc(m.memberId)}" title="Report this message">🚩</button>
-              ${_isAdmin ? `<button class="lg-mod-btn sm danger" data-hide="chat:${esc(m.id)}" title="Hide this message (admin)">⊘</button>` : ''}
+              ${_isAdmin ? `<button class="lg-mod-btn sm danger" data-hide="chat:${esc(m.id)}" title="Delete this message (admin)">🗑</button>` : ''}
               ${_isAdmin && !isMe ? `<button class="lg-mod-btn sm danger" data-ban="${esc(m.memberId)}" title="Ban this member (admin)">⛔</button>` : ''}
             </span>
           </div>
@@ -740,7 +740,7 @@
     log.querySelectorAll('[data-hide]').forEach(b => {
       b.addEventListener('click', async () => {
         const [kind, id] = b.dataset.hide.split(':');
-        if (!confirm('Hide this message?')) return;
+        if (!confirm('Delete this message?')) return;
         try { await BE.hideContent(kind, id); } catch (e) { alert(e.message); }
         renderChat(false);
       });
@@ -1848,7 +1848,7 @@
             </button>
             ${mine ? `<button class="lg-post-act danger" data-del="${esc(p.id)}">Delete</button>` : ''}
             <button class="lg-post-act lg-mod-btn" data-report="post:${esc(p.id)}:${esc(p.memberId)}" title="Report this post">🚩</button>
-            ${_isAdmin ? `<button class="lg-post-act lg-mod-btn danger" data-hide="post:${esc(p.id)}" title="Hide this post (admin)">⊘ Hide</button>` : ''}
+            ${_isAdmin ? `<button class="lg-post-act lg-mod-btn danger" data-hide="post:${esc(p.id)}" title="Delete this post (admin)">🗑 Delete</button>` : ''}
             ${_isAdmin && !mine ? `<button class="lg-post-act lg-mod-btn danger" data-ban="${esc(p.memberId)}" title="Ban this member (admin)">⛔ Ban</button>` : ''}
           </div>
           <div class="lg-thread hidden" data-thread="${esc(p.id)}"></div>
@@ -1898,7 +1898,7 @@
     wrap.querySelectorAll('[data-hide]').forEach(b => {
       b.addEventListener('click', async () => {
         const [kind, id] = b.dataset.hide.split(':');
-        if (!confirm(`Hide this ${kind}? It will be removed from view for all non-admin users.`)) return;
+        if (!confirm(`Delete this ${kind}? It will be removed from view for all non-admin users.`)) return;
         try { await BE.hideContent(kind, id); } catch (e) { alert(e.message); }
         renderFeed();
       });
@@ -1968,7 +1968,7 @@
               ${!isReply ? `<button class="lg-post-act" data-reply="${esc(c.id)}">Reply</button>` : ''}
               ${mine ? `<button class="lg-post-act danger" data-cdel="${esc(c.id)}">Delete</button>` : ''}
               <button class="lg-post-act lg-mod-btn" data-report="comment:${esc(c.id)}:${esc(c.memberId)}" title="Report this comment">🚩</button>
-              ${_isAdmin ? `<button class="lg-post-act lg-mod-btn danger" data-hide="comment:${esc(c.id)}" title="Hide this comment (admin)">⊘</button>` : ''}
+              ${_isAdmin ? `<button class="lg-post-act lg-mod-btn danger" data-hide="comment:${esc(c.id)}" title="Delete this comment (admin)">🗑</button>` : ''}
               ${_isAdmin && !mine ? `<button class="lg-post-act lg-mod-btn danger" data-ban="${esc(c.memberId)}" title="Ban this member (admin)">⛔</button>` : ''}
             </div>
             <div class="lg-reply-box hidden" data-replybox="${esc(c.id)}"></div>
@@ -2051,7 +2051,7 @@
     el.querySelectorAll('[data-hide]').forEach(b => {
       b.addEventListener('click', async () => {
         const [kind, id] = b.dataset.hide.split(':');
-        if (!confirm(`Hide this ${kind}?`)) return;
+        if (!confirm(`Delete this ${kind}?`)) return;
         try { await BE.hideContent(kind, id); } catch (e) { alert(e.message); }
         await renderThread(postId, el);
       });
@@ -2223,7 +2223,7 @@
             <hr class="lg-mod-divider">
             <p class="lg-form-intro"><strong>Admin actions:</strong></p>
             <div class="lg-form-actions">
-              <button class="lg-post-act danger" id="lgAdminHide">⊘ Hide this ${esc(targetKind)}</button>
+              <button class="lg-post-act danger" id="lgAdminHide">🗑 Delete this ${esc(targetKind)}</button>
               ${memberId ? `<button class="lg-post-act danger" id="lgAdminBan">⛔ Ban member</button>` : ''}
             </div>
           ` : ''}
@@ -2253,7 +2253,7 @@
         if (hideBtn) hideBtn.addEventListener('click', async () => {
           const kind = $('lgReportKind').value;
           const id = $('lgReportId').value;
-          if (!confirm(`Hide this ${kind}?`)) return;
+          if (!confirm(`Delete this ${kind}?`)) return;
           try {
             await BE.hideContent(kind, id);
             closeLoungeModal();
@@ -2301,7 +2301,7 @@
             </div>
             <p class="lg-admin-reason">${esc(r.reason || '(no reason given)')}</p>
             <div class="lg-admin-actions">
-              <button class="lg-post-act danger" data-admin-hide="${esc(r.targetKind)}:${esc(r.targetId)}">⊘ Hide</button>
+              <button class="lg-post-act danger" data-admin-hide="${esc(r.targetKind)}:${esc(r.targetId)}">🗑 Delete</button>
             </div>
           </div>
         `).join('') : '<p class="lg-no-comments">No reports.</p>'}
@@ -2320,7 +2320,7 @@
     $('loungeBody').querySelectorAll('[data-admin-hide]').forEach(b => {
       b.addEventListener('click', async () => {
         const [kind, id] = b.dataset.adminHide.split(':');
-        if (!confirm(`Hide this ${kind}?`)) return;
+        if (!confirm(`Delete this ${kind}?`)) return;
         try { await BE.hideContent(kind, id); } catch (e) { alert(e.message); }
         openAdminDashboard();
       });
