@@ -64,7 +64,7 @@
         style: SATELLITE_STYLE,
         center: [-75, 20],  // centered on Caribbean cigar countries
         zoom: 1.5,
-        maxZoom: 18,
+        maxZoom: 19,
         minZoom: 0,
         maxPitch: 85,
         dragRotate: true,
