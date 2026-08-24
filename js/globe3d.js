@@ -82,7 +82,7 @@
         attributionControl: { compact: true },
       });
 
-      map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right');
+      map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'bottom-right');
 
       map.on('style.load', function () {
         map.setProjection({ type: 'globe' });
