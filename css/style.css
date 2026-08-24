@@ -105,10 +105,11 @@ img { max-width: 100%; display: block; }
   line-height: 1.2;
 }
 .brand-tagline {
-  font-size: 10px;
-  color: var(--text-muted);
-  letter-spacing: 0.12em;
+  font-size: 12px;
+  color: var(--text-secondary);
+  letter-spacing: 0.10em;
   text-transform: uppercase;
+  font-weight: 500;
 }
 .header-nav {
   display: flex;
@@ -237,10 +238,10 @@ img { max-width: 100%; display: block; }
   margin-bottom: 4px;
 }
 .stat-label {
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: var(--text-muted);
+  color: var(--text-secondary);
 }
 .stat-div {
   width: 1px;
@@ -1501,9 +1502,9 @@ img { max-width: 100%; display: block; }
   padding: 40px 24px;
 }
 .landing-eyebrow {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--gold);
   margin-bottom: 20px;
@@ -2505,26 +2506,25 @@ body.js-reveal .cigar-card.in-view { animation-play-state: running; }
 .modal-heart-btn:hover { border-color: #d04060; color: #d04060; }
 .modal-heart-btn.saved { border-color: #d04060; color: #d04060; background: rgba(208,64,96,0.1); }
 
-/* ── Cigar of the Day banner ─────────────────────────────────────── */
+/* ── Cigar of the Day — slim pill, doesn't steal real estate ──── */
 .cotd-banner {
-  max-width: 580px;
+  max-width: 420px;
   width: 100%;
-  margin: -16px auto 34px;
+  margin: 8px auto 20px;
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding: 14px 20px;
-  background: linear-gradient(135deg, rgba(201,168,76,0.10), rgba(201,168,76,0.03));
-  border: 1px solid rgba(201,168,76,0.35);
-  border-radius: var(--radius-lg);
+  gap: 10px;
+  padding: 8px 14px;
+  background: linear-gradient(135deg, rgba(201,168,76,0.08), rgba(201,168,76,0.02));
+  border: 1px solid rgba(201,168,76,0.25);
+  border-radius: 999px;
   cursor: pointer;
-  transition: var(--transition);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
   text-align: left;
 }
 .cotd-banner:hover {
   border-color: var(--gold);
-  box-shadow: 0 0 24px rgba(201,168,76,0.12);
-  transform: translateY(-1px);
+  box-shadow: 0 0 16px rgba(201,168,76,0.10);
 }
 .cotd-flame {
   font-size: 22px;
@@ -2551,7 +2551,7 @@ body.js-reveal .cigar-card.in-view { animation-play-state: running; }
   color: var(--text-primary);
   line-height: 1.25;
 }
-.cotd-meta { display: block; font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+.cotd-meta { display: block; font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
 .cotd-arrow { margin-left: auto; color: var(--gold); flex-shrink: 0; }
 
 /* ── Hero button row ─────────────────────────────────────────────── */
