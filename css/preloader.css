@@ -19,7 +19,7 @@
   color: #c9943a;
   font-family: 'Playfair Display', Georgia, serif;
   opacity: 1;
-  transition: opacity 800ms ease;
+  transition: opacity 300ms ease;
   will-change: opacity;
 }
 #vp-preloader.vp-pre-hidden {

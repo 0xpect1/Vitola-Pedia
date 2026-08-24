@@ -1,5 +1,5 @@
 /* ================================================================
-   3D GLOBE — styling for the Three.js earth sphere
+   3D GLOBE — styling for the MapLibre earth sphere
    ================================================================ */
 
 .lg-map-globe-wrap {
@@ -7,14 +7,40 @@
   inset: 0;
   z-index: 6;
   cursor: grab;
+  /* Starfield behind the globe */
+  background: #050508 radial-gradient(ellipse at 30% 40%, #0a0a1a 0%, #050508 50%, #020204 100%);
 }
 .lg-map-globe-wrap:active {
   cursor: grabbing;
+}
+.lg-map-globe-wrap::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  /* Tiny dots as stars */
+  background-image:
+    radial-gradient(1px 1px at 10% 20%, rgba(255,255,255,0.8) 50%, transparent 50%),
+    radial-gradient(1px 1px at 25% 70%, rgba(255,255,255,0.6) 50%, transparent 50%),
+    radial-gradient(1px 1px at 45% 15%, rgba(255,255,255,0.9) 50%, transparent 50%),
+    radial-gradient(1px 1px at 60% 80%, rgba(255,255,255,0.5) 50%, transparent 50%),
+    radial-gradient(1px 1px at 75% 35%, rgba(255,255,255,0.7) 50%, transparent 50%),
+    radial-gradient(1px 1px at 85% 60%, rgba(255,255,255,0.4) 50%, transparent 50%),
+    radial-gradient(1.5px 1.5px at 15% 50%, rgba(255,240,200,0.6) 50%, transparent 50%),
+    radial-gradient(1.5px 1.5px at 55% 25%, rgba(200,220,255,0.5) 50%, transparent 50%),
+    radial-gradient(1px 1px at 35% 90%, rgba(255,255,255,0.5) 50%, transparent 50%),
+    radial-gradient(1px 1px at 90% 10%, rgba(255,255,255,0.6) 50%, transparent 50%),
+    radial-gradient(1px 1px at 5% 85%, rgba(255,255,255,0.4) 50%, transparent 50%),
+    radial-gradient(1px 1px at 70% 55%, rgba(255,255,255,0.3) 50%, transparent 50%);
+  opacity: 0.8;
 }
 .lg-map-globe-wrap canvas {
   display: block;
   width: 100% !important;
   height: 100% !important;
+  position: relative;
+  z-index: 1;
 }
 
 /* Globe loading state */

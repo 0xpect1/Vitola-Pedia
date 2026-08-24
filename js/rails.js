@@ -278,6 +278,6 @@
     fades();
   }
 
-  document.addEventListener('DOMContentLoaded', () => setTimeout(render, 260));
+  document.addEventListener('DOMContentLoaded', () => setTimeout(render, 50));
   window.VPShelves = { render, bestValue, bestOverall, hiddenGems };
 })();

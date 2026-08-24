@@ -48,10 +48,18 @@
       },
     },
     layers: [
+      { id: 'background', type: 'background', paint: { 'background-color': '#050508' } },
       { id: 'satellite', type: 'raster', source: 'esri-satellite' },
       { id: 'labels', type: 'raster', source: 'osm-labels', paint: { 'raster-opacity': 0.8 } },
     ],
     projection: { type: 'globe' },
+    sky: {
+      'sky-color': '#0a0a1a',
+      'sky-horizon-blend': 0.5,
+      'horizon-color': '#1a1a2e',
+      'horizon-fog-blend': 0.3,
+      'fog-color': '#0a0a1a',
+    },
   };
 
   function init(container) {
