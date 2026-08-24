@@ -52,13 +52,15 @@
     }, wait);
   }
 
-  // window.onload fires after all subresources (images, stylesheets,
-  // scripts). If it already fired (e.g. cached page), finish now.
-  if (document.readyState === 'complete') {
+  // Fire on DOMContentLoaded (much earlier than load) — the preloader
+  // should disappear as soon as the DOM is interactive, not after all
+  // images/subresources finish. Fall back to load if DOMContentLoaded
+  // already fired. Final safety net at 5s.
+  if (document.readyState === 'complete' || document.readyState === 'interactive') {
     finish();
   } else {
+    document.addEventListener('DOMContentLoaded', finish);
     window.addEventListener('load', finish);
-    // Safety net: if onload never fires within 8s, reveal anyway.
-    setTimeout(finish, 8000);
+    setTimeout(finish, 5000);
   }
 })();
