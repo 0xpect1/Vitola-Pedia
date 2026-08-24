@@ -2513,5 +2513,271 @@
     init();
   }
 
+  /* ══════════════════════════════════════════════════════════════════
+     12. PREMIUM ENHANCEMENTS  (appended block)
+     • Live "who's smoking now": ember dot + smoke wisp on lit members
+     • Subtle Web-Audio chime on join (opt-in toggle)
+     • Real-time pulsing ember indicator
+     • Enhanced header: "🔥 N smokers online", live
+     • Smooth slide-in entry animation for new chat messages & posts
+
+     All DOM-driven and self-contained: it hooks into the same backend
+     via window.LoungeReady + BE.on, and uses MutationObservers so it
+     never depends on the order of the existing presence/posts/chat
+     listeners. No code above is edited.
+     ══════════════════════════════════════════════════════════════════ */
+
+  /* ── Join chime (Web Audio API — no audio file) ──────────────────
+     A short, bright two-ping "crystal glass clink" built from sine
+     oscillators with a fast exponential decay. Pleasant and quiet. */
+  var JOIN_SOUND_KEY = 'vp_lounge_join_sound';
+  var _joinSoundOn = false;
+  try { _joinSoundOn = localStorage.getItem(JOIN_SOUND_KEY) === '1'; } catch (e) {}
+  var _audioCtx = null;
+
+  function joinChime() {
+    if (!_joinSoundOn) return;
+    try {
+      var AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) return;
+      if (!_audioCtx) _audioCtx = new AC();
+      var ctx = _audioCtx;
+      if (ctx.state === 'suspended') { try { ctx.resume(); } catch (e) {} }
+      var t0 = ctx.currentTime;
+      var ping = function (freq, start, peak, dur) {
+        var o = ctx.createOscillator();
+        var g = ctx.createGain();
+        o.type = 'sine';
+        o.frequency.setValueAtTime(freq, t0 + start);
+        g.gain.setValueAtTime(0.0001, t0 + start);
+        g.gain.exponentialRampToValueAtTime(peak, t0 + start + 0.006);
+        g.gain.exponentialRampToValueAtTime(0.0001, t0 + start + dur);
+        o.connect(g); g.connect(ctx.destination);
+        o.start(t0 + start);
+        o.stop(t0 + start + dur + 0.02);
+      };
+      ping(1318.51, 0.000, 0.16, 0.55);   // E6
+      ping(1975.53, 0.035, 0.10, 0.50);   // B6
+    } catch (e) { /* audio unavailable — silent fallback */ }
+  }
+
+  /* ── Join detection: diff room membership on each presence event ── */
+  var _knownRoomIds = null;        // null = baseline not yet established
+  var _joinSoundReady = false;
+
+  function detectJoins() {
+    if (!_joinSoundReady || !BE || typeof BE.listRoom !== 'function') return;
+    BE.listRoom().then(function (room) {
+      var nowIds = new Set();
+      dedupeByMember(room).forEach(function (s) {
+        if (s && s.memberId) nowIds.add(s.memberId);
+      });
+      if (_knownRoomIds === null) { _knownRoomIds = nowIds; return; }
+      var myId = me && me.id;
+      var count = 0;
+      nowIds.forEach(function (id) {
+        if (!_knownRoomIds.has(id) && id !== myId) count++;
+      });
+      _knownRoomIds = nowIds;
+      if (count) joinChime();
+    }).catch(function () { /* ignore — solo mode */ });
+  }
+
+  /* ── Enhanced header: "🔥 N smokers online" (live) ──────────────── */
+  function ensureSmokersHeader() {
+    var hero = document.querySelector('.lg-hero');
+    if (!hero || document.getElementById('lgSmokersOnline')) return;
+    var actions = hero.querySelector('.lg-hero-actions');
+    var chip = document.createElement('div');
+    chip.id = 'lgSmokersOnline';
+    chip.className = 'lg-smokers-online';
+    chip.innerHTML =
+      '<span class="lg-so-flame" aria-hidden="true">🔥</span>' +
+      '<span class="lg-so-count">0</span> ' +
+      '<span class="lg-so-label">smokers online</span>';
+    if (actions) hero.insertBefore(chip, actions);
+    else hero.appendChild(chip);
+  }
+
+  function updateSmokersHeader() {
+    if (!BE || typeof BE.listPresence !== 'function') return;
+    BE.listPresence().then(function (lit) {
+      var n = dedupeByMember(lit).length;
+      var el = document.getElementById('lgSmokersOnline');
+      if (!el) return;
+      var count = el.querySelector('.lg-so-count');
+      var label = el.querySelector('.lg-so-label');
+      if (count) count.textContent = n;
+      if (label) label.textContent = n === 1 ? 'smoker online' : 'smokers online';
+      el.classList.toggle('is-active', n > 0);
+    }).catch(function () {});
+  }
+
+  /* ── Live ember dot + smoke wisp on lit members in the strip ──────
+     A session card is "lit" when it carries a data-item (lit sessions
+     link to a cigar/pipe; idle room members don't). The strip is fully
+     rebuilt on every presence render, so this re-applies each time
+     via a MutationObserver. */
+  function enhanceStrip() {
+    var strip = $('lgStrip');
+    if (!strip) return;
+    strip.querySelectorAll('.lg-sess-card').forEach(function (card) {
+      if (!card.getAttribute('data-item')) return;       // not lit
+      if (card.getAttribute('data-lit-enhanced')) return; // already done
+      card.setAttribute('data-lit-enhanced', '1');
+      var who = card.querySelector('.lg-sess-handle');
+      if (who && !who.querySelector('.lg-lit-ember')) {
+        var dot = document.createElement('span');
+        dot.className = 'lg-lit-ember';
+        dot.setAttribute('aria-hidden', 'true');
+        dot.title = 'lit right now';
+        who.appendChild(dot);
+      }
+      var avEl = card.querySelector('.lg-sess-avatar');
+      if (avEl && !avEl.querySelector('.lg-lit-smoke')) {
+        var wisp = document.createElement('span');
+        wisp.className = 'lg-lit-smoke';
+        wisp.setAttribute('aria-hidden', 'true');
+        avEl.appendChild(wisp);
+      }
+    });
+  }
+
+  /* ── Smooth entry animation for new chat messages & posts ─────────
+     Track seen ids so only genuinely new entries animate — not the
+     whole list on every re-render (votes, presence heartbeats). */
+  var _seenChatIds = new Set();
+  var _seenPostIds = new Set();
+  var _chatBaselined = false;
+  var _postBaselined = false;
+
+  function animateNew(container, itemSel, idAttr, seenSet, baselinedRef, animClass) {
+    if (!container) return;
+    container.querySelectorAll(itemSel).forEach(function (el) {
+      var id = el.getAttribute(idAttr);
+      if (!id) return;
+      if (!baselinedRef.v) { seenSet.add(id); return; }   // initial load
+      if (!seenSet.has(id)) {
+        seenSet.add(id);
+        el.classList.add(animClass);
+        setTimeout(function () { el.classList.remove(animClass); }, 400);
+      }
+    });
+  }
+
+  function enhanceChatEntries() {
+    var log = $('lgChatLog');
+    if (!log) return;
+    // Chat rows carry no stable id; derive it from the report button.
+    log.querySelectorAll('.lg-msg').forEach(function (row) {
+      if (row.getAttribute('data-mid')) return;
+      var rep = row.querySelector('[data-report]');
+      if (!rep) return;
+      var parts = rep.getAttribute('data-report').split(':');
+      if (parts[1]) row.setAttribute('data-mid', parts[1]);
+    });
+    var ref = { v: _chatBaselined };
+    animateNew(log, '.lg-msg', 'data-mid', _seenChatIds, ref, 'lg-enter');
+    _chatBaselined = ref.v;
+  }
+
+  function enhancePostEntries() {
+    var feed = $('lgFeed');
+    if (!feed) return;
+    var ref = { v: _postBaselined };
+    animateNew(feed, '.lg-post', 'data-post', _seenPostIds, ref, 'lg-enter');
+    _postBaselined = ref.v;
+  }
+
+  /* ── Join-sound toggle button (in hero actions) ────────────────── */
+  function setupJoinSoundToggle() {
+    var actions = document.querySelector('.lg-hero-actions');
+    if (!actions || document.getElementById('lgJoinSoundBtn')) return;
+    var btn = document.createElement('button');
+    btn.id = 'lgJoinSoundBtn';
+    btn.type = 'button';
+    btn.className = 'lg-ghost-btn lg-join-sound-btn';
+    actions.appendChild(btn);
+    var sync = function () {
+      btn.textContent = _joinSoundOn ? '🔊 Join chime on' : '🔔 Join chime off';
+      btn.setAttribute('aria-pressed', String(_joinSoundOn));
+      btn.title = _joinSoundOn
+        ? 'A subtle chime plays when someone enters the lounge. Tap to turn off.'
+        : 'Play a subtle chime when someone enters the lounge. Tap to turn on.';
+    };
+    sync();
+    btn.addEventListener('click', function () {
+      _joinSoundOn = !_joinSoundOn;
+      try { localStorage.setItem(JOIN_SOUND_KEY, _joinSoundOn ? '1' : '0'); } catch (e) {}
+      sync();
+      if (_joinSoundOn) joinChime();   // preview
+    });
+  }
+
+  /* ── Wait for a shell element to exist (shell renders after init's
+     first awaits), then wire up observers + initial passes. ─────── */
+  function waitForElement(sel, cb) {
+    var el = document.querySelector(sel);
+    if (el) return cb(el);
+    var tries = 0;
+    var iv = setInterval(function () {
+      var e = document.querySelector(sel);
+      if (e) { clearInterval(iv); cb(e); }
+      else if (++tries > 80) clearInterval(iv);   // ~8s give-up
+    }, 100);
+  }
+
+  function wireObservers() {
+    // Strip: re-apply embers whenever cards are (re)rendered.
+    var strip = $('lgStrip');
+    if (strip) {
+      new MutationObserver(function () { enhanceStrip(); })
+        .observe(strip, { childList: true });
+      enhanceStrip();
+    }
+    // Chat: animate new messages only.
+    var log = $('lgChatLog');
+    if (log) {
+      new MutationObserver(function () { enhanceChatEntries(); })
+        .observe(log, { childList: true });
+      enhanceChatEntries();
+    }
+    // Feed: animate new posts only.
+    var feed = $('lgFeed');
+    if (feed) {
+      new MutationObserver(function () { enhancePostEntries(); })
+        .observe(feed, { childList: true });
+      enhancePostEntries();
+    }
+  }
+
+  /* ── Bootstrap once the backend is available ──────────────────── */
+  (window.LoungeReady && typeof window.LoungeReady.then === 'function'
+    ? window.LoungeReady : Promise.resolve(null)
+  ).then(function (be) {
+    // Header chip + toggle are part of the shell; wait for it.
+    waitForElement('.lg-hero-actions', function () {
+      ensureSmokersHeader();
+      setupJoinSoundToggle();
+    });
+
+    // Wait for the strip so we can attach its observer, then wire the
+    // rest (chat + feed exist by then too, rendered during refresh).
+    waitForElement('#lgStrip', function () {
+      wireObservers();
+      updateSmokersHeader();
+    });
+
+    if (!be || typeof be.on !== 'function') return;   // solo fallback
+
+    _joinSoundReady = true;
+    detectJoins();                                     // establish baseline
+
+    be.on('presence', function () {
+      detectJoins();
+      updateSmokersHeader();
+    });
+  }).catch(function () { /* solo or no backend — enhancements dormant */ });
+
   window.Lounge = { refresh, openIdentity, openComposer, openAdminDashboard, openReportModal };
 })();

@@ -424,6 +424,21 @@
      Strings get their category inferred from keywords; objects use
      the explicit category when present.
   ══════════════════════════════════════════════════════════════ */
+  /* Inline SVG icons — crisp at any size, themeable via currentColor.
+     Drawn to read at 20×20 inside a pairing card. */
+  const PAIRING_SVG = {
+    spirits: `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12l-1.5 15a1 1 0 0 1-1 .9H8.5a1 1 0 0 1-1-.9L6 4z"/><path d="M7.8 10h8.4" stroke-opacity="0.7"/></svg>`,
+    wine: `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 4h8c0 4-1.5 6-2 7v6h2v3H8v-3h2v-6C9.5 10 8 8 8 4z"/><path d="M9 7c1.2 1.5 4.8 1.5 6 0" stroke-opacity="0.6"/></svg>`,
+    beer: `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4h9v14a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V4z"/><path d="M7 8h9"/><path d="M16 7h2.5a2 2 0 0 1 0 4H16"/></svg>`,
+    coffee: `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 7h12v6a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4V7z"/><path d="M17 9h2a2 2 0 0 1 0 4h-2"/><path d="M8 3c-.4 1 .4 1.5 0 2.5M11 3c-.4 1 .4 1.5 0 2.5" stroke-opacity="0.7"/></svg>`,
+    food: `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4.5" stroke-opacity="0.6"/></svg>`,
+    other: `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/></svg>`,
+  };
+
+  function pairingSvg(accent) {
+    return PAIRING_SVG[accent] || PAIRING_SVG.other;
+  }
+
   const PAIRING_CATEGORIES = {
     Spirits: {
       icon: '🥃', accent: 'spirits',
@@ -533,6 +548,7 @@
     const groupHtml = orderedCats.map(cat => {
       const items = groups[cat];
       const cfg = PAIRING_CATEGORIES[cat] || { icon: '•', accent: 'other' };
+      const groupSvg = pairingSvg(cfg.accent);
 
       const itemsHtml = items.map(p => {
         const exHtml = p.examples.length
@@ -543,16 +559,19 @@
           ? `<div class="pairing-entry-notes">${esc(p.notes)}</div>`
           : '';
         return `
-          <div class="pairing-entry">
-            <div class="pairing-entry-type">${esc(p.type)}</div>
-            ${exHtml}${notesHtml}
+          <div class="pairing-entry pairing-card pairing-card--${cfg.accent}">
+            <span class="pairing-card-icon" aria-hidden="true">${groupSvg}</span>
+            <span class="pairing-card-body">
+              <span class="pairing-entry-type">${esc(p.type)}</span>
+              ${exHtml}${notesHtml}
+            </span>
           </div>`;
       }).join('');
 
       return `
         <div class="pairing-group pairing-group--${cfg.accent}" role="group" aria-label="${esc(cat)} pairings">
           <div class="pairing-group-head">
-            <span class="pairing-group-icon" aria-hidden="true">${cfg.icon}</span>
+            <span class="pairing-group-icon" aria-hidden="true">${groupSvg}</span>
             <span class="pairing-group-name">${esc(cat)}</span>
             <span class="pairing-group-count">${items.length}</span>
           </div>
@@ -579,6 +598,111 @@
   }
 
   /* ══════════════════════════════════════════════════════════════
+     6. 360° PHOTO ROTATION
+     Drag the hero photo horizontally to spin it on its Y axis. The
+     rotation accumulates across drags and persists while the modal
+     is open. A "drag to rotate" hint fades out after 3 seconds.
+  ══════════════════════════════════════════════════════════════ */
+  function enablePhotoRotation(body) {
+    const wrapEl = body.querySelector('.modal-hero-img-wrap');
+    const img = wrapEl && wrapEl.querySelector('.modal-hero-img');
+    if (!wrapEl || !img) return;
+
+    // Reset any state from a previous open.
+    img.style.transform = '';
+    let rotation = 0;
+    let dragging = false;
+    let startX = 0;
+    let startRot = 0;
+
+    // Hint — fades after 3s (CSS handles the fade).
+    if (!wrapEl.querySelector('.vp-rotate-hint')) {
+      const hint = document.createElement('span');
+      hint.className = 'vp-rotate-hint';
+      hint.textContent = 'drag to rotate ⟳';
+      wrapEl.appendChild(hint);
+      setTimeout(() => hint.classList.add('vp-rotate-hint--fade'), 3000);
+    }
+
+    const onDown = (e) => {
+      dragging = true;
+      startX = (e.touches ? e.touches[0].clientX : e.clientX);
+      startRot = rotation;
+      img.style.cursor = 'grabbing';
+      e.preventDefault();
+    };
+    const onMove = (e) => {
+      if (!dragging) return;
+      const x = (e.touches ? e.touches[0].clientX : e.clientX);
+      // 1px ≈ 1.6° of yaw — feels responsive without spinning out of control.
+      rotation = startRot + (x - startX) * 1.6;
+      img.style.transform = `rotateY(${rotation.toFixed(1)}deg)`;
+    };
+    const onUp = () => {
+      if (!dragging) return;
+      dragging = false;
+      img.style.cursor = 'grab';
+    };
+
+    img.style.cursor = 'grab';
+    img.style.willChange = 'transform';
+    // perspective on the wrapper gives rotateY real depth.
+    wrapEl.classList.add('vp-rotate-3d');
+
+    img.addEventListener('mousedown', onDown);
+    img.addEventListener('touchstart', onDown, { passive: false });
+    window.addEventListener('mousemove', onMove);
+    window.addEventListener('touchmove', onMove, { passive: false });
+    window.addEventListener('mouseup', onUp);
+    window.addEventListener('touchend', onUp);
+  }
+
+  /* ══════════════════════════════════════════════════════════════
+     7. FLAVOR WHEEL DRAW-IN
+     The wheel is SVG <path> segments. Each segment strokes itself
+     in with a stroke-dasharray draw, staggered 100ms per segment.
+     Falls back to a fade+scale for any non-path wheel (canvas).
+  ══════════════════════════════════════════════════════════════ */
+  function animateFlavorWheel(body) {
+    const svg = body.querySelector('#flavorWheelSvg');
+    if (!svg) return;
+
+    const segs = Array.from(svg.querySelectorAll('path'));
+    if (!segs.length) {
+      // Canvas/other fallback: fade + scale the whole wheel.
+      const wheel = body.querySelector('.flavor-wheel-wrap');
+      if (wheel) {
+        wheel.classList.add('vp-wheel-fade');
+        requestAnimationFrame(() => wheel.classList.add('vp-wheel-in'));
+      }
+      return;
+    }
+
+    segs.forEach((p, i) => {
+      const len = p.getTotalLength ? p.getTotalLength() : 0;
+      // Highlight the segment outline while it draws.
+      p.style.stroke = p.getAttribute('fill') || '#c9a84c';
+      p.style.strokeWidth = '2';
+      p.style.strokeOpacity = '0.85';
+      p.style.fillOpacity = '0';
+      p.style.strokeDasharray = len;
+      p.style.strokeDashoffset = len;
+      p.style.transition =
+        `stroke-dashoffset 0.5s ease-out ${i * 0.1}s, fill-opacity 0.4s ease ${i * 0.1 + 0.25}s`;
+    });
+
+    // Force a reflow so the initial dashoffset sticks before we animate.
+    void svg.getBoundingClientRect();
+
+    segs.forEach((p) => {
+      p.style.strokeDashoffset = '0';
+      // Reveal the fill once the stroke has drawn in.
+      const fill = p.getAttribute('opacity');
+      p.style.fillOpacity = fill != null ? fill : '0.85';
+    });
+  }
+
+  /* ══════════════════════════════════════════════════════════════
      HOOK
   ══════════════════════════════════════════════════════════════ */
   function wrap() {
@@ -598,6 +722,12 @@
 
       // Replace the simple pairing chips with the granular, grouped display.
       enrichPairings(body, cigar.pairings);
+
+      // 360° drag-to-rotate on the hero photo (skips silently if no image).
+      enablePhotoRotation(body);
+
+      // Animate the flavor wheel segments in sequence.
+      animateFlavorWheel(body);
 
       // Recommendations go last, after the buy links.
       const buy = body.querySelector('.modal-buy-section') || body.lastElementChild;
