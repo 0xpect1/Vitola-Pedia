@@ -37,12 +37,13 @@
 
   const R = 1;
 
-  // High-res textures — clouds replaced with working URL
+  // High-res textures — NASA Blue Marble + spec map + water mask
   const TEX = {
     earth:  'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg',
     night:  'https://unpkg.com/three-globe/example/img/earth-night.jpg',
     bump:   'https://unpkg.com/three-globe/example/img/earth-topology.png',
     clouds: 'https://unpkg.com/three-globe/example/img/clouds.png',
+    spec:   'https://unpkg.com/three-globe/example/img/earth-water.png',
   };
 
   const TERROIR = [
@@ -110,6 +111,11 @@
       renderer = new T.WebGLRenderer({ antialias: true, alpha: true });
       renderer.setSize(w, h);
       renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      // ACES Filmic tone mapping — cinema-grade color reproduction
+      if (T.ACESFilmicToneMapping) {
+        renderer.toneMapping = T.ACESFilmicToneMapping;
+        renderer.toneMappingExposure = 1.1;
+      }
       renderer.domElement.style.cssText = 'width:100%;height:100%;display:block;';
       container.appendChild(renderer.domElement);
 
@@ -176,7 +182,7 @@
 
       // Load all textures, then build the globe
       let loadedCount = 0;
-      const totalTextures = 4;
+      const totalTextures = 5;
       const tex = {};
 
       function onAllLoaded() {
@@ -187,17 +193,19 @@
           t.generateMipmaps = true;
         }
 
-        // EARTH — MeshStandardMaterial for photorealistic PBR lighting
-        // (Google Earth look, not cartoon Phong)
+        // EARTH — PBR with specular ocean reflections (Google Earth style)
+        // The water mask makes oceans reflective and land matte.
         tex.earth.colorSpace = T.SRGBColorSpace;
         const earthMat = new T.MeshStandardMaterial({
           map: tex.earth,
           bumpMap: tex.bump,
           bumpScale: 0.02,
-          roughness: 0.85,
-          metalness: 0.0,
-          emissive: new T.Color(0x111111),
-          emissiveIntensity: 0.05,
+          roughnessMap: tex.spec,    // water = dark pixel = smooth = reflective
+          roughness: 0.7,            // base roughness, overridden by map
+          metalness: 0.1,
+          metalnessMap: tex.spec,    // water gets slight metalness for sun glint
+          emissive: new T.Color(0x0a0a12),
+          emissiveIntensity: 0.03,
         });
         globe = new T.Mesh(new T.SphereGeometry(R, 128, 128), earthMat);
         scene.add(globe);
@@ -268,6 +276,7 @@
       loader.load(TEX.night, (t) => { tex.night = t; loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); }, undefined, () => { loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); });
       loader.load(TEX.bump,  (t) => { tex.bump = t;  loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); }, undefined, () => { loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); });
       loader.load(TEX.clouds, (t) => { tex.clouds = t; loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); }, undefined, () => { loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); });
+      loader.load(TEX.spec,   (t) => { tex.spec = t;   loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); }, undefined, () => { loadedCount++; if (loadedCount >= totalTextures) onAllLoaded(); });
 
       return true;
     } catch (e) {
