@@ -47,10 +47,6 @@
     spec:   'https://unpkg.com/three-globe/example/img/earth-water.png',
   };
 
-  // GIBS WMS endpoint for real-time satellite imagery
-  const GIBS_WMS = 'https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi';
-  const GIBS_CLOUD_LAYER = 'BlueMarble_NextGeneration'; // fallback to Blue Marble with time
-
   const TERROIR = [
     { origin: 'Cuba',               region: 'Vuelta Abajo',           lat: 22.4,  lon: -83.7 },
     { origin: 'Nicaragua',          region: 'Esteli & Jalapa',        lat: 13.1,  lon: -86.35 },
@@ -103,62 +99,6 @@
     return { lat, lon };
   }
 
-  /* ── DATE PICKER: Load Earth texture for any date via GIBS ──
-     Fetches a new Blue Marble image from NASA GIBS for the selected date.
-     Updates the globe texture in-place without rebuilding the scene. */
-  function loadEarthForDate(dateStr) {
-    if (!globe || !T) return;
-    var url = GIBS_WMS + '?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1' +
-      '&LAYERS=' + GIBS_CLOUD_LAYER +
-      '&STYLES=&FORMAT=image/jpeg&WIDTH=4096&HEIGHT=2048' +
-      '&SRS=epsg:4326&BBOX=-180,-90,180,90&TIME=' + dateStr;
-    var loader = new T.TextureLoader();
-    loader.setCrossOrigin('anonymous');
-    loader.load(url, function(tex) {
-      tex.colorSpace = T.SRGBColorSpace;
-      var maxA = renderer ? renderer.capabilities.getMaxAnisotropy() : 1;
-      tex.anisotropy = maxA;
-      tex.minFilter = T.LinearMipmapLinearFilter;
-      tex.magFilter = T.LinearFilter;
-      tex.generateMipmaps = true;
-      // Swap the earth texture
-      if (globe.material.map) globe.material.map.dispose();
-      globe.material.map = tex;
-      globe.material.needsUpdate = true;
-    }, undefined, function() {
-      console.warn('GIBS date load failed, keeping current texture');
-    });
-  }
-
-  /* ── BUILD DATE PICKER UI ── */
-  function buildDatePicker(container) {
-    var wrap = document.createElement('div');
-    wrap.className = 'globe-date-picker';
-    wrap.style.cssText = 'position:absolute;top:8px;right:8px;z-index:10;' +
-      'background:rgba(13,11,9,0.85);border:1px solid rgba(201,148,58,0.3);' +
-      'border-radius:8px;padding:8px 12px;display:flex;align-items:center;gap:8px;' +
-      'font:500 12px/1.4 Inter,system-ui,sans-serif;color:#e8b86d;backdrop-filter:blur(6px);';
-
-    var label = document.createElement('span');
-    label.textContent = '.nasa 🛰';
-    label.style.cssText = 'font-size:11px;opacity:0.7;letter-spacing:0.05em;';
-    wrap.appendChild(label);
-
-    var input = document.createElement('input');
-    input.type = 'date';
-    input.style.cssText = 'background:#221610;color:#e8b86d;border:1px solid rgba(201,148,58,0.3);' +
-      'border-radius:4px;padding:3px 6px;font-size:11px;font-family:inherit;outline:none;';
-    input.max = new Date().toISOString().split('T')[0];
-    input.value = new Date().toISOString().split('T')[0];
-
-    input.addEventListener('change', function() {
-      loadEarthForDate(input.value);
-    });
-
-    wrap.appendChild(input);
-    container.appendChild(wrap);
-  }
-
   /* ── INIT ────────────────────────────────────────────────────── */
   function init(container) {
     if (!container) return false;
@@ -179,7 +119,6 @@
       }
       renderer.domElement.style.cssText = 'width:100%;height:100%;display:block;';
       container.appendChild(renderer.domElement);
-      buildDatePicker(container);
 
       scene = new T.Scene();
       camera = new T.PerspectiveCamera(40, w / h, 0.1, 200);
