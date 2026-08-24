@@ -896,49 +896,6 @@
     </div>
   </div>
 
-  <!-- ░░ CURSOR PARTICLE TRAIL (landing page only) ░░ -->
-  <script>
-  (function () {
-    'use strict';
-    var landing = document.getElementById('landing');
-    if (!landing) return;
-    var prefersReduce = window.matchMedia &&
-      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (prefersReduce) return;            /* honor user preference */
-
-    var NUM = 5;                          /* 3–5 gold dots with lag */
-    var dots = [];
-    for (var i = 0; i < NUM; i++) {
-      var d = document.createElement('div');
-      d.className = 'cursor-particle';
-      d.style.opacity = String(1 - i * 0.16);  /* trailing dots fade */
-      document.body.appendChild(d);
-      dots.push({ el: d, x: 0, y: 0 });
-    }
-
-    var mx = -100, my = -100, active = false;
-
-    landing.addEventListener('pointermove', function (e) {
-      mx = e.clientX; my = e.clientY; active = true;
-    });
-    landing.addEventListener('pointerleave', function () { active = false; });
-
-    function tick() {
-      var leadX = mx, leadY = my;
-      for (var i = 0; i < dots.length; i++) {
-        var dot = dots[i];
-        dot.x += (leadX - dot.x) * (0.35 - i * 0.05);  /* each dot lags more */
-        dot.y += (leadY - dot.y) * (0.35 - i * 0.05);
-        dot.el.style.transform =
-          'translate3d(' + (dot.x - 3) + 'px,' + (dot.y - 3) + 'px,0)';
-        dot.el.style.opacity = active ? String(1 - i * 0.16) : '0';
-        leadX = dot.x; leadY = dot.y;          /* next dot follows this one */
-      }
-      requestAnimationFrame(tick);
-    }
-    requestAnimationFrame(tick);
-  })();
-  </script>
   <script src="js/preloader.js"></script>
 </body>
 </html>

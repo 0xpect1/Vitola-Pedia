@@ -6,10 +6,13 @@
    "The Cabinet" — the elite, 96+ rated, price no object
    "Hidden Gems" — 92+ rated but obscure (popularity < 5), the deep cuts
 
-   They share a row on purpose. A cigar encyclopedia that only celebrates
-   the $50 stick is a catalogue for people who already have everything;
-   the room is better when the man with the Dupont and the man with the
-   Bic are arguing about the same $8 Nicaraguan.
+   Each shelf supports:
+   - Drag to scroll (mouse)
+   - Touch scroll (native)
+   - Wheel scroll (horizontal AND vertical both scroll the rail)
+   - Arrow buttons (← →) for explicit control
+   - "Expand" button to toggle between rail view and full grid view
+   - Keyboard left/right arrows when focused
    ══════════════════════════════════════════════════════════════════ */
 
 (function () {
@@ -23,8 +26,7 @@
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
 
-  /* ── SHELF 1: PUNCHING ABOVE ITS PRICE ──
-     Sub-$15, rated 90+, sorted by rating then price. */
+  /* ── SHELF 1: PUNCHING ABOVE ITS PRICE ── */
   function bestValue(n) {
     return cigars()
       .filter(c => c.price > 0 && c.price <= 15 && c.rating >= 90 && !c.limited)
@@ -32,8 +34,7 @@
       .slice(0, n);
   }
 
-  /* ── SHELF 2: THE CABINET ──
-     96+ rated, sorted by rating then price. */
+  /* ── SHELF 2: THE CABINET ── */
   function bestOverall(n) {
     return cigars()
       .filter(c => c.rating >= 96)
@@ -41,8 +42,7 @@
       .slice(0, n);
   }
 
-  /* ── SHELF 3: HIDDEN GEMS ──
-     92+ rated, popularity < 5 (obscure but excellent). */
+  /* ── SHELF 3: HIDDEN GEMS ── */
   function hiddenGems(n) {
     return cigars()
       .filter(c => c.rating >= 92 && c.popularity < 5 && c.price > 0)
@@ -50,8 +50,7 @@
       .slice(0, n);
   }
 
-  /* ── CARD TEMPLATE ──
-     Same card for all shelves; the badge changes by kind. */
+  /* ── CARD TEMPLATE ── */
   function card(c, kind) {
     let badge, tagline;
     if (kind === 'value') {
@@ -92,6 +91,26 @@
       </button>`;
   }
 
+  function shelfHTML(title, desc, kind, items) {
+    return `
+      <div class="shelf" data-shelf="${kind}">
+        <div class="shelf-head">
+          <div class="shelf-title-row">
+            <div>
+              <h2>${title}</h2>
+              <p>${desc}</p>
+            </div>
+            <div class="shelf-controls">
+              <button class="shelf-arrow shelf-prev" aria-label="Scroll left" tabindex="0">‹</button>
+              <button class="shelf-arrow shelf-next" aria-label="Scroll right" tabindex="0">›</button>
+              <button class="shelf-expand" aria-label="Expand shelf" tabindex="0">⊞</button>
+            </div>
+          </div>
+        </div>
+        <div class="shelf-rail" data-kind="${kind}" tabindex="0">${items.map(c => card(c, kind)).join('')}</div>
+      </div>`;
+  }
+
   function render() {
     const host = document.getElementById('shelves');
     if (!host) return;
@@ -103,58 +122,94 @@
 
     const cheapest = value.reduce((a, b) => (b.price < a.price ? b : a));
     const dearest = best.reduce((a, b) => (b.price > a.price ? b : a));
-
     const totalCigars = cigars().length;
 
-    host.innerHTML = `
-      <div class="shelf">
-        <div class="shelf-head">
-          <h2>Punching Above Its Price</h2>
-          <p>Everything here is under $15 and rated 90 or better.
-             ${esc(cheapest.name)} scores ${cheapest.rating} at $${cheapest.price.toFixed(2)}.</p>
-        </div>
-        <div class="shelf-rail" data-kind="value">${value.map(c => card(c, 'value')).join('')}</div>
-      </div>
-
-      <div class="shelf">
-        <div class="shelf-head">
-          <h2>The Cabinet</h2>
-          <p>The highest-rated cigars in the library, price no object —
-             up to $${dearest.price.toFixed(0)} a stick.</p>
-        </div>
-        <div class="shelf-rail" data-kind="best">${best.map(c => card(c, 'best')).join('')}</div>
-      </div>
-
-      <div class="shelf">
-        <div class="shelf-head">
-          <h2>Hidden Gems</h2>
-          <p>Rated 92+ but barely known — the deep cuts from ${totalCigars.toLocaleString()} cigars
-             that most people will never find on their own.</p>
-        </div>
-        <div class="shelf-rail" data-kind="gem">${gems.map(c => card(c, 'gem')).join('')}</div>
-      </div>
-
-      <p class="shelf-note">
+    host.innerHTML =
+      shelfHTML('Punching Above Its Price',
+        `Everything here is under $15 and rated 90 or better. ${esc(cheapest.name)} scores ${cheapest.rating} at $${cheapest.price.toFixed(2)}.`,
+        'value', value) +
+      shelfHTML('The Cabinet',
+        `The highest-rated cigars in the library, price no object — up to $${dearest.price.toFixed(0)} a stick.`,
+        'best', best) +
+      shelfHTML('Hidden Gems',
+        `Rated 92+ but barely known — the deep cuts from ${totalCigars.toLocaleString()} cigars that most people will never find on their own.`,
+        'gem', gems) +
+      `<p class="shelf-note">
         All three shelves are drawn from the same ${totalCigars.toLocaleString()} cigars and scored the same way.
         Spending more buys you rarity and refinement; it does not buy you a better evening.
       </p>`;
 
+    // Card clicks
     host.querySelectorAll('.rail-card').forEach(b =>
       b.addEventListener('click', () => openModal(b.dataset.id)));
 
-    host.querySelectorAll('.shelf-rail').forEach(makeDraggable);
+    // Wire up each shelf
+    host.querySelectorAll('.shelf').forEach(shelf => {
+      const rail = shelf.querySelector('.shelf-rail');
+      const prevBtn = shelf.querySelector('.shelf-prev');
+      const nextBtn = shelf.querySelector('.shelf-next');
+      const expandBtn = shelf.querySelector('.shelf-expand');
+
+      makeDraggable(rail);
+      makeArrowScroll(rail, prevBtn, nextBtn);
+      makeExpandable(shelf, rail, expandBtn);
+      makeKeyboard(rail);
+    });
   }
 
-  /* ── DRAG TO SCROLL ─────────────────────────────────────────────
-     Touch already scrolls these natively; this adds the same gesture
-     for a mouse, and keeps the edge fades honest about how much is
-     left in either direction. A drag must not fire the card's click,
-     so anything past a few pixels of movement suppresses it.
-  ─────────────────────────────────────────────────────────────── */
+  /* ── ARROW BUTTON SCROLL ──
+     Click ‹ or › to scroll by one card-width. */
+  function makeArrowScroll(rail, prevBtn, nextBtn) {
+    const scrollAmount = () => {
+      const card = rail.querySelector('.rail-card');
+      return card ? card.offsetWidth + 10 : 186; // gap is 10px
+    };
+
+    if (prevBtn) prevBtn.addEventListener('click', () => {
+      rail.scrollBy({ left: -scrollAmount() * 2, behavior: 'smooth' });
+    });
+    if (nextBtn) nextBtn.addEventListener('click', () => {
+      rail.scrollBy({ left: scrollAmount() * 2, behavior: 'smooth' });
+    });
+  }
+
+  /* ── EXPAND / COLLAPSE ──
+     Toggle between horizontal rail (compact) and grid (all cards visible). */
+  function makeExpandable(shelf, rail, expandBtn) {
+    if (!expandBtn) return;
+    expandBtn.addEventListener('click', () => {
+      shelf.classList.toggle('shelf-expanded');
+      const expanded = shelf.classList.contains('shelf-expanded');
+      expandBtn.textContent = expanded ? '⊟' : '⊞';
+      expandBtn.setAttribute('aria-label', expanded ? 'Collapse shelf' : 'Expand shelf');
+      // When collapsing, reset scroll to start
+      if (!expanded) rail.scrollTo({ left: 0, behavior: 'smooth' });
+    });
+  }
+
+  /* ── KEYBOARD SUPPORT ──
+     Left/Right arrows scroll the rail when it has focus. */
+  function makeKeyboard(rail) {
+    rail.addEventListener('keydown', e => {
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        rail.scrollBy({ left: -186 * 2, behavior: 'smooth' });
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        rail.scrollBy({ left: 186 * 2, behavior: 'smooth' });
+      }
+    });
+  }
+
+  /* ── DRAG TO SCROLL + WHEEL + EDGE FADES ── */
   function makeDraggable(rail) {
     let down = false, startX = 0, startScroll = 0, moved = 0;
 
     const fades = () => {
+      // Skip fades when expanded (grid view doesn't need them)
+      const shelf = rail.closest('.shelf');
+      if (shelf && shelf.classList.contains('shelf-expanded')) return;
+
       const max = rail.scrollWidth - rail.clientWidth;
       rail.classList.toggle('at-start', rail.scrollLeft <= 2);
       rail.classList.toggle('at-end', rail.scrollLeft >= max - 2);
@@ -163,6 +218,9 @@
 
     rail.addEventListener('pointerdown', e => {
       if (e.pointerType === 'touch') return;
+      // Don't drag in expanded mode
+      const shelf = rail.closest('.shelf');
+      if (shelf && shelf.classList.contains('shelf-expanded')) return;
       down = true; moved = 0;
       startX = e.clientX;
       startScroll = rail.scrollLeft;
@@ -195,10 +253,24 @@
     rail.addEventListener('pointercancel', end);
     rail.addEventListener('pointerleave', end);
 
+    /* Wheel: BOTH horizontal and vertical wheel events scroll the rail.
+       This lets trackpad users scroll naturally in any direction, and
+       mouse-wheel users scroll the rail without hunting for the exact
+       horizontal axis. */
     rail.addEventListener('wheel', e => {
-      if (Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return;
-      e.preventDefault();
-      rail.scrollLeft += e.deltaX;
+      const shelf = rail.closest('.shelf');
+      if (shelf && shelf.classList.contains('shelf-expanded')) return; // let page scroll in grid mode
+
+      // If it's a horizontal trackpad swipe, always handle it
+      // If it's a vertical wheel, also scroll horizontally (convert Y to X)
+      if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
+        e.preventDefault();
+        rail.scrollLeft += e.deltaX;
+      } else if (Math.abs(e.deltaY) > 0) {
+        // Vertical wheel → horizontal scroll
+        e.preventDefault();
+        rail.scrollLeft += e.deltaY;
+      }
     }, { passive: false });
 
     rail.addEventListener('scroll', fades, { passive: true });

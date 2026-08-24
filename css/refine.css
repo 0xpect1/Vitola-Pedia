@@ -127,22 +127,16 @@ body::after {
 }
 
 /* ══════════════════════════════════════════════════════════════════
-   THE TWO SHELVES
+   THE THREE SHELVES
 ═══════════════════════════════════════════════════════════════════ */
 .shelves {
   max-width: 1400px;
   margin: 0 auto 8px;
   padding: 0 24px;
   display: grid;
-  /* Exactly two, never auto-fit. There are two shelves and there always
-     will be; auto-fit happily made room for a third at wide viewports and
-     left the pair stranded against the left edge. */
-  /* minmax(0, 1fr), not 1fr: a bare 1fr floors at min-content, and the
-     horizontally scrolling rail inside reports its full 1478px, blowing
-     the columns out past the viewport. Zero floor lets overflow-x work. */
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 26px 34px;
-  align-items: start;
+  /* Three shelves: each takes one column at wide viewports, stacks on mobile. */
+  grid-template-columns: 1fr;
+  gap: 26px;
 }
 .shelves:empty { display: none; }
 
@@ -191,6 +185,50 @@ body::after {
           mask-image: linear-gradient(90deg, transparent 0, #000 26px, #000 100%);
 }
 .shelf-rail.no-scroll { -webkit-mask-image: none; mask-image: none; cursor: default; }
+
+/* ── SHELF CONTROLS (arrows + expand) ── */
+.shelf-title-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.shelf-controls { display: flex; gap: 6px; flex-shrink: 0; margin-top: 2px; }
+.shelf-arrow {
+  width: 32px; height: 32px; border-radius: 50%;
+  border: 1px solid var(--border, #3a2e1e);
+  background: var(--bg-card, #221610);
+  color: var(--gold-light, #e8b86d);
+  font-size: 18px; line-height: 1; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.2s ease;
+  opacity: 0.6;
+}
+.shelf-arrow:hover { opacity: 1; border-color: var(--gold, #c9943a); background: rgba(201,148,58,0.1); }
+.shelf-arrow:active { transform: scale(0.92); }
+.shelf-expand {
+  width: 32px; height: 32px; border-radius: 50%;
+  border: 1px solid var(--border, #3a2e1e);
+  background: var(--bg-card, #221610);
+  color: var(--gold-light, #e8b86d);
+  font-size: 15px; line-height: 1; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.2s ease;
+  opacity: 0.6;
+}
+.shelf-expand:hover { opacity: 1; border-color: var(--gold, #c9943a); background: rgba(201,148,58,0.1); }
+.shelf-expand:active { transform: scale(0.92); }
+
+/* ── EXPANDED (GRID) VIEW ── */
+.shelf.shelf-expanded .shelf-rail {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(176px, 1fr));
+  overflow-x: visible;
+  -webkit-mask-image: none;
+  mask-image: none;
+  cursor: default;
+  scroll-snap-type: none;
+}
+.shelf.shelf-expanded .shelf-rail .rail-card {
+  flex: initial;
+  scroll-snap-align: none;
+}
+.shelf.shelf-expanded .shelf-rail.dragging { cursor: default; }
 /* Nothing inside should start a native image drag mid-swipe. */
 .shelf-rail img, .rail-card { user-select: none; -webkit-user-drag: none; }
 
