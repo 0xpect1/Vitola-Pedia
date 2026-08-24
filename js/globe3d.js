@@ -37,10 +37,10 @@
 
   const R = 1;
 
-  // High-res textures — NASA Blue Marble + spec map + water mask
+  // NASA GIBS satellite imagery — 4096×2048, self-hosted for speed
   const TEX = {
-    earth:  'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg',
-    night:  'https://unpkg.com/three-globe/example/img/earth-night.jpg',
+    earth:  'img/earth-nasa.jpg',
+    night:  'img/earth-night-nasa.jpg',
     bump:   'https://unpkg.com/three-globe/example/img/earth-topology.png',
     clouds: 'https://unpkg.com/three-globe/example/img/clouds.png',
     spec:   'https://unpkg.com/three-globe/example/img/earth-water.png',
