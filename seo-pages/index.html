@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vitola Pedia — Cigar Encyclopedia Index | Vitola Pedia</title>
+<meta name="description" content="Browse 364 cigar brands and 100 top-rated cigars in the Vitola Pedia encyclopedia. Static, crawlable pages for every brand and the top 100 cigars.">
+<link rel="canonical" href="https://vitolapedia.com/seo-pages/index.html">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1a1209">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://vitolapedia.com/seo-pages/index.html">
+<meta property="og:title" content="Vitola Pedia — Cigar Encyclopedia Index | Vitola Pedia">
+<meta property="og:description" content="Browse 364 cigar brands and 100 top-rated cigars in the Vitola Pedia encyclopedia. Static, crawlable pages for every brand and the top 100 cigars.">
+<meta property="og:image" content="https://vitolapedia.com/og-image.png">
+<meta property="og:site_name" content="Vitola Pedia">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Vitola Pedia — Cigar Encyclopedia Index | Vitola Pedia">
+<meta name="twitter:description" content="Browse 364 cigar brands and 100 top-rated cigars in the Vitola Pedia encyclopedia. Static, crawlable pages for every brand and the top 100 cigars.">
+<meta name="twitter:image" content="https://vitolapedia.com/og-image.png">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1209'/%3E%3Crect x='4' y='14' width='20' height='5' rx='2.5' fill='%23c9943a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Vitola Pedia",
+  "url": "https://vitolapedia.com",
+  "description": "Cigar encyclopedia with reviews, flavor profiles, and brand histories."
+}
+</script>
+<style>
+:root{--gold:#c9a84c;--gold-light:#e0c070;--bg-deep:#0d0b09;--bg-base:#120f0b;--bg-card:#1a1510;--bg-card-h:#221c14;--border:rgba(201,168,76,.15);--border-h:rgba(201,168,76,.35);--text-primary:#f0ead8;--text-secondary:#a89b7a;--text-muted:#6b5e42;--radius:12px;--radius-lg:20px;--font-serif:'Playfair Display',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;--font-body:'Crimson Text',Georgia,serif}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg-base);color:var(--text-primary);font-family:var(--font-sans);font-size:15px;line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:var(--gold);text-decoration:none}
+a:hover{color:var(--gold-light)}
+img{max-width:100%;display:block}
+.container{max-width:860px;margin:0 auto;padding:40px 20px}
+.site-header{text-align:center;padding:28px 20px 0}
+.site-header a{font-family:var(--font-serif);font-size:1.5rem;font-weight:700;letter-spacing:.5px;color:var(--gold)}
+.site-header a:hover{color:var(--gold-light)}
+.cigar-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:32px;margin-top:24px}
+.cigar-name{font-family:var(--font-serif);font-size:2rem;font-weight:700;line-height:1.2;color:var(--text-primary)}
+.cigar-brand{font-family:var(--font-body);font-size:1.15rem;color:var(--gold);margin-top:4px}
+.cigar-brand a{color:var(--gold)}
+.meta-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-top:24px}
+.meta-item{background:var(--bg-deep);border:1px solid var(--border);border-radius:var(--radius);padding:12px 16px}
+.meta-label{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted)}
+.meta-value{font-size:1.05rem;color:var(--text-primary);font-weight:500;margin-top:2px}
+.section{margin-top:24px}
+.section h2{font-family:var(--font-serif);font-size:1.25rem;color:var(--gold);margin-bottom:8px;border-bottom:1px solid var(--border);padding-bottom:6px}
+.flavor-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.flavor-tag{background:var(--bg-deep);border:1px solid var(--border);border-radius:20px;padding:4px 14px;font-size:.85rem;color:var(--text-secondary)}
+.description{font-family:var(--font-body);font-size:1.1rem;line-height:1.7;color:var(--text-primary);margin-top:8px}
+.pairing-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.pairing-tag{background:rgba(201,168,76,.08);border:1px solid var(--border);border-radius:6px;padding:4px 12px;font-size:.85rem;color:var(--gold-light)}
+.buy-links{margin-top:12px}
+.buy-link{display:inline-block;background:var(--bg-deep);border:1px solid var(--border);border-radius:var(--radius);padding:10px 18px;margin:4px 4px 4px 0;font-size:.9rem;color:var(--text-secondary)}
+.buy-link:hover{border-color:var(--border-h);color:var(--gold)}
+.cta-bar{display:flex;gap:12px;justify-content:center;margin-top:28px;flex-wrap:wrap}
+.cta-btn{display:inline-block;background:var(--gold);color:var(--bg-deep);font-weight:600;padding:12px 28px;border-radius:var(--radius);font-size:.95rem}
+.cta-btn:hover{background:var(--gold-light);color:var(--bg-deep)}
+.cta-btn.secondary{background:transparent;border:1px solid var(--border-h);color:var(--gold)}
+.cta-btn.secondary:hover{background:var(--bg-card-h);color:var(--gold-light)}
+.age-notice{text-align:center;font-size:.8rem;color:var(--text-muted);margin-top:24px;padding-top:16px;border-top:1px solid var(--border)}
+.cigar-list{list-style:none;padding:0}
+.cigar-list li{padding:10px 16px;border-bottom:1px solid var(--border)}
+.cigar-list li:last-child{border-bottom:none}
+.cigar-list a{color:var(--text-primary);font-weight:500}
+.cigar-list a:hover{color:var(--gold)}
+.cigar-list .rating{float:right;font-size:.85rem;color:var(--gold)}
+.brand-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-top:16px}
+.brand-grid a{display:block;background:var(--bg-deep);border:1px solid var(--border);border-radius:var(--radius);padding:10px 14px;font-size:.95rem}
+.brand-grid a:hover{border-color:var(--border-h);color:var(--gold)}
+noscript p{text-align:center;padding:20px;color:var(--text-secondary)}
+</style>
+</head>
+<body>
+<div class="site-header"><a href="https://vitolapedia.com/">Vitola Pedia</a></div>
+<div class="container">
+
+<article class="cigar-card">
+  <h1 class="cigar-name">Cigar Encyclopedia Index</h1>
+  <div class="cigar-brand">364 brands · 100 top-rated cigars</div>
+
+  <div class="section">
+    <h2>Top 100 Cigars</h2>
+    <ul class="cigar-list">
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/padron-80th-anniversario.html">Padrón 80th Anniversary</a><span class="rating">Padrón · 100/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/fuente-fuente-opus-x-fe.html">Opus X FFOX</a><span class="rating">Arturo Fuente · 99/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-bhe-52.html">Cohiba Behike BHK 52</a><span class="rating">Cohiba · 98/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/padron-family-reserve-no45.html">Padrón Family Reserve No. 45</a><span class="rating">Padrón · 98/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/ep-carrillo-pledge.html">E.P. Carrillo The Pledge</a><span class="rating">E.P. Carrillo · 98/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/padron-family-reserve-no85.html">Family Reserve No. 85 Natural</a><span class="rating">Padrón · 98/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/fuente-gran-aniversario.html">Arturo Fuente Gran AniverXario</a><span class="rating">Arturo Fuente · 98/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-bhk-56.html">Cohiba Behike BHK 56</a><span class="rating">Cohiba · 98/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/trinidad-fundadores.html">Trinidad Fundadores</a><span class="rating">Trinidad · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/oliva-serie-v-melanio.html">Oliva Serie V Melanio</a><span class="rating">Oliva · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/arturo-fuente-opus-x.html">Arturo Fuente Opus X</a><span class="rating">Arturo Fuente · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/davidoff-royal-release.html">Davidoff Royal Release Robusto</a><span class="rating">Davidoff · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/montecristo-1935-anniversary.html">Montecristo 1935 Anniversary Nicaragua</a><span class="rating">Montecristo · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/padron-1964-anniversary-maduro.html">1964 Anniversary Maduro</a><span class="rating">Padrón · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/padron-1926-no35-natural.html">1926 Serie No. 35 Natural</a><span class="rating">Padrón · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/padron-family-reserve-no50-natural.html">Padrón Family Reserve No. 50 Natural</a><span class="rating">Padrón · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/opus-x-fuente-fuente-robusto.html">Arturo Fuente OpusX Fuente Fuente</a><span class="rating">Arturo Fuente · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/opus-x-perfecxion-x.html">Arturo Fuente OpusX Perfecxion X</a><span class="rating">Arturo Fuente · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/tatuaje-monster-series.html">Tatuaje Monster Series</a><span class="rating">Tatuaje · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/padron-1926-no40-natural.html">Padrón 1926 Serie No. 40 Natural</a><span class="rating">Padrón · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/padron-1964-torpedo-natural.html">Padrón 1964 Anniversary Torpedo Natural</a><span class="rating">Padrón · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/my-father-le-bijou-box-press.html">My Father Le Bijou 1922 Box Pressed</a><span class="rating">My Father · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/davidoff-year-of-the-dragon-2024.html">Davidoff Year of the Dragon 2024</a><span class="rating">Davidoff · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/gurkha-cellar-reserve-15-year-toro.html">Gurkha Cellar Reserve 15 Year Toro</a><span class="rating">Gurkha · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-bhk-54.html">Cohiba Behike BHK 54</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-sublime.html">Cohiba Sublime</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-robustos-supremos.html">Cohiba Robustos Supremos</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-gran-reserva.html">Cohiba Gran Reserva</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/montecristo-linea-1935-leyenda.html">Montecristo Línea 1935 Leyenda</a><span class="rating">Montecristo · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/montecristo-linea-1935-angeles.html">Montecristo Línea 1935 Ángeles</a><span class="rating">Montecristo · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-spectre.html">Cohiba Spectre</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/drew-estate-liga-privada-h99.html">Drew Estate Liga Privada H99</a><span class="rating">Drew Estate · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/oliva-serie-v-melanio-figurado.html">Oliva Serie V Melanio Figurado</a><span class="rating">Oliva · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-toro-gordo-cuban.html">Cohiba Toro Gordo Cuban</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-toro-gordo-mexico.html">Cohiba Toro Gordo Mexico</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/trinidad-toro-gordo.html">Trinidad Toro Gordo</a><span class="rating">Trinidad · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/trinidad-gran-robusto.html">Trinidad Gran Robusto</a><span class="rating">Trinidad · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/padr-n-toro-gordo-nicaraguan.html">Padrón Toro Gordo Nicaraguan</a><span class="rating">Padrón · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/padr-n-toro-gordo-nicaragua.html">Padrón Toro Gordo Nicaragua</a><span class="rating">Padrón · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/padr-n-toro-gordo-sun-grown.html">Padrón Toro Gordo Sun-Grown</a><span class="rating">Padrón · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/padr-n-toro-gordo-connecticut.html">Padrón Toro Gordo Connecticut</a><span class="rating">Padrón · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/padr-n-toro-gordo-habano.html">Padrón Toro Gordo Habano</a><span class="rating">Padrón · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/oliva-toro-gordo-ecuadorian.html">Oliva Toro Gordo Ecuadorian</a><span class="rating">Oliva · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/oliva-toro-gordo-nicaraguan.html">Oliva Toro Gordo Nicaraguan</a><span class="rating">Oliva · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/oliva-toro-gordo-african.html">Oliva Toro Gordo African</a><span class="rating">Oliva · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/oliva-toro-gordo-sun.html">Oliva Toro Gordo Sun</a><span class="rating">Oliva · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/oliva-toro-gordo-san.html">Oliva Toro Gordo San</a><span class="rating">Oliva · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/oliva-toro-gordo-connecticut.html">Oliva Toro Gordo Connecticut</a><span class="rating">Oliva · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/my-father-toro-gordo-ecuadorian.html">My Father Toro Gordo Ecuadorian</a><span class="rating">My Father · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/my-father-toro-gordo-nicaraguan.html">My Father Toro Gordo Nicaraguan</a><span class="rating">My Father · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/my-father-toro-gordo-guatemalan.html">My Father Toro Gordo Guatemalan</a><span class="rating">My Father · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/my-father-toro-gordo-connecticut.html">My Father Toro Gordo Connecticut</a><span class="rating">My Father · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/drew-estate-toro-gordo-indonesian.html">Drew Estate Toro Gordo Indonesian</a><span class="rating">Drew Estate · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/drew-estate-toro-gordo-san.html">Drew Estate Toro Gordo San</a><span class="rating">Drew Estate · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/drew-estate-toro-gordo-kentucky.html">Drew Estate Toro Gordo Kentucky</a><span class="rating">Drew Estate · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/drew-estate-toro-gordo-brazilian.html">Drew Estate Toro Gordo Brazilian</a><span class="rating">Drew Estate · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/drew-estate-toro-gordo-mexico.html">Drew Estate Toro Gordo Mexico</a><span class="rating">Drew Estate · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/alec-bradley-toro-gordo-honduran.html">Alec Bradley Toro Gordo Honduran</a><span class="rating">Alec Bradley · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/alec-bradley-toro-gordo-corojo.html">Alec Bradley Toro Gordo Corojo</a><span class="rating">Alec Bradley · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/blackbird-toro-gordo-ecuadorian.html">Blackbird Toro Gordo Ecuadorian</a><span class="rating">Blackbird · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/blackbird-toro-gordo-mexican.html">Blackbird Toro Gordo Mexican</a><span class="rating">Blackbird · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-robusto.html">Cohiba Behike Robusto</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-churchill.html">Cohiba Behike Churchill</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-torpedo.html">Cohiba Behike Torpedo</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-gordo.html">Cohiba Behike Gordo</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/trinidad-robusto-connecticut.html">Trinidad Robusto Connecticut</a><span class="rating">Trinidad · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-robusto-connecticut.html">Cohiba Behike Robusto Connecticut</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-robusto-habano.html">Cohiba Behike Robusto Habano</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-robusto-maduro.html">Cohiba Behike Robusto Maduro</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-robusto-corojo.html">Cohiba Behike Robusto Corojo</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-robusto-broadleaf.html">Cohiba Behike Robusto Broadleaf</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-robusto-sun-grown.html">Cohiba Behike Robusto Sun Grown</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-robusto-mexican-san-andr-s.html">Cohiba Behike Robusto Mexican San Andrés</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-toro-connecticut.html">Cohiba Behike Toro Connecticut</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-toro-sumatra.html">Cohiba Behike Toro Sumatra</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-toro-corojo.html">Cohiba Behike Toro Corojo</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-toro-cameroon.html">Cohiba Behike Toro Cameroon</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-behike-toro-sun-grown.html">Cohiba Behike Toro Sun Grown</a><span class="rating">Cohiba Behike · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/opusx-robusto-cameroon.html">OpusX Robusto Cameroon</a><span class="rating">OpusX · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/opusx-robusto-broadleaf.html">OpusX Robusto Broadleaf</a><span class="rating">OpusX · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/opusx-robusto-sun-grown.html">OpusX Robusto Sun Grown</a><span class="rating">OpusX · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/opusx-toro-cameroon.html">OpusX Toro Cameroon</a><span class="rating">OpusX · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/opusx-toro-broadleaf.html">OpusX Toro Broadleaf</a><span class="rating">OpusX · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/opusx-lost-city-robusto-maduro.html">OpusX Lost City Robusto Maduro</a><span class="rating">OpusX Lost City · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/opusx-lost-city-robusto-cameroon.html">OpusX Lost City Robusto Cameroon</a><span class="rating">OpusX Lost City · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/opusx-lost-city-robusto-connecticut-shade.html">OpusX Lost City Robusto Connecticut Shade</a><span class="rating">OpusX Lost City · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/opusx-lost-city-toro-connecticut.html">OpusX Lost City Toro Connecticut</a><span class="rating">OpusX Lost City · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/serie-x-robusto-corojo.html">Serie X Robusto Corojo</a><span class="rating">Serie X · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/serie-x-robusto-sun-grown.html">Serie X Robusto Sun Grown</a><span class="rating">Serie X · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-reserva-robusto.html">Cohiba Reserva Robusto</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-reserva-toro.html">Cohiba Reserva Toro</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-reserva-churchill.html">Cohiba Reserva Churchill</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-reserva-corona.html">Cohiba Reserva Corona</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-reserva-corona-gorda.html">Cohiba Reserva Corona Gorda</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-anniversary-robusto.html">Cohiba Anniversary Robusto</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-anniversary-toro.html">Cohiba Anniversary Toro</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-anniversary-churchill.html">Cohiba Anniversary Churchill</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-anniversary-corona.html">Cohiba Anniversary Corona</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-anniversary-corona-gorda.html">Cohiba Anniversary Corona Gorda</a><span class="rating">Cohiba · 97/100</span></li>
+      <li><a href="https://vitolapedia.com/seo-pages/cigars/cohiba-maduro-robusto.html">Cohiba Maduro Robusto</a><span class="rating">Cohiba · 97/100</span></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>All Brands (364)</h2>
+    <div class="brand-grid">
+      <a href="https://vitolapedia.com/seo-pages/brands/griffin-s.html"> Griffin&#39;s</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/5-vegas.html">5 Vegas</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/ace-prime.html">ACE Prime</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/adventura.html">ADVentura</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/aganorsa.html">Aganorsa</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/aging-room.html">Aging Room</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/aj-fernandez.html">AJ Fernandez</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/aksum.html">Aksum</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/aladino.html">Aladino</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/alec-bradley.html">Alec Bradley</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/alma.html">Alma</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/alto.html">Alto</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/amendola.html">Amendola</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/apex.html">Apex</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/argent.html">Argent</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/artemis.html">Artemis</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/artesano-del-tobacco.html">Artesano del Tobacco</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/artista-cigars.html">Artista Cigars</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/arturo-fuente.html">Arturo Fuente</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/ashton.html">Ashton</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/ashton-symmetry.html">Ashton Symmetry</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/asylum.html">Asylum</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/atempo.html">Atempo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/aurora.html">Aurora</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/avo.html">AVO</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/avo-heritage.html">Avo Heritage</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/baccarat.html">Baccarat</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/baccarat-macanudo.html">Baccarat Macanudo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/backwoods.html">Backwoods</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/balmoral.html">Balmoral</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/bandido.html">Bandido</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/bandolero.html">Bandolero</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/belinda.html">Belinda</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/black-mild.html">Black &amp; Mild</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/black-label.html">Black Label</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/black-label-trading-co.html">Black Label Trading Co.</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/black-works-studio.html">Black Works Studio</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/blackbird.html">Blackbird</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/blanc.html">Blanc</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/blind-faith.html">Blind Faith</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/blue-label.html">Blue Label</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/bolivar.html">Bolívar</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/bolivar-altadis.html">Bolívar (Altadis)</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/botella.html">Botella</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/brasa.html">Brasa</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/bravado.html">Bravado</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/brick-house.html">Brick House</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/bronze.html">Bronze</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/buena-vista.html">Buena Vista</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/byron.html">Byron</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/byron-habanos.html">Byron (Habanos)</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cabanas.html">Cabañas</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cain.html">Cain</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/caldera.html">Caldera</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/caldwell-cigar-co.html">Caldwell Cigar Co.</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/camacho.html">Camacho</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/canaria.html">Canaria</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/caney.html">Caney</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cao.html">CAO</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/carlos-torano.html">Carlos Toraño</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/casa-cuevas.html">Casa Cuevas</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/casa-de-pailles.html">Casa de Pailles</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/casa-magna.html">Casa Magna</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/casa-turrent.html">Casa Turrent</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/casdagli.html">Casdagli</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cavalier-geneve.html">Cavalier Genève</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/ceniza.html">Ceniza</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/chateau-diadem.html">Chateau Diadem</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cigar-dojo.html">Cigar Dojo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cigar-lounge.html">Cigar Lounge</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cigareale.html">Cigareale</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cimarron.html">Cimarron</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cohiba.html">Cohiba</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cohiba-general-cigar.html">Cohiba (General Cigar)</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cohiba-behike.html">Cohiba Behike</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/colosal.html">Colosal</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/conspiracy.html">Conspiracy</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cornelius-anthony.html">Cornelius &amp; Anthony</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/corpus.html">Corpus</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cortez.html">Cortez</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/costa.html">Costa</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/craft.html">CRAFT</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/creme.html">Creme</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cristobal.html">Cristobal</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/crowned-heads.html">Crowned Heads</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/crusader.html">Crusader</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/crux-cigars.html">Crux Cigars</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cuaba.html">Cuaba</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cubanacan.html">Cubanacan</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cuivre.html">Cuivre</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/cumbre.html">Cumbre</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/curivari.html">Curivari</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/dannemann.html">Dannemann</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/dapper-cigar-co.html">Dapper Cigar Co.</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/davidoff.html">Davidoff</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/davidoff-nicaragua.html">Davidoff Nicaragua</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/davidoff-royal.html">Davidoff Royal</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/davidoff-yamasa.html">Davidoff Yamasa</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/deadwood.html">Deadwood</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/diamond-crown.html">Diamond Crown</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/diamond-crown-maximus.html">Diamond Crown Maximus</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/diesel.html">Diesel</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/diplomaticos.html">Diplomáticos</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/dissident.html">Dissident</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/distinguido.html">Distinguido</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/don-diego.html">Don Diego</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/don-juan.html">Don Juan</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/don-pepin-garcia.html">Don Pepin Garcia</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/don-tomas.html">Don Tomás</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/drew-estate.html">Drew Estate</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/dunbarton.html">Dunbarton</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/dutch-master-palma.html">Dutch Master Palma</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/dutch-masters.html">Dutch Masters</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/e-p-carrillo.html">E.P. Carrillo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/eclipse.html">Eclipse</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/edicion-limitada.html">Edicion Limitada</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/edicion-regional.html">Edicion Regional</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/eiroa.html">Eiroa</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/el-rey-del-mundo.html">El Rey del Mundo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/el-rey-del-mundo-altadis.html">El Rey del Mundo (Altadis)</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/el-titan-de-bronze.html">El Titan de Bronze</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/embrace.html">Embrace</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/emilio.html">Emilio</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/equinox.html">Equinox</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/espinosa.html">Espinosa</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/esteban-carreras.html">Esteban Carreras</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/evolving.html">Evolving</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/ezra-zion.html">Ezra Zion</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/fable.html">Fable</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/ferio-tego.html">Ferio Tego</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/feroce.html">Feroce</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/fervor.html">Fervor</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/flor-de-copan.html">Flor de Copan</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/flor-de-esteli.html">Flor de Esteli</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/flor-de-jalapa.html">Flor de Jalapa</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/flor-de-pinar.html">Flor de Pinar</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/flor-de-selva.html">Flor de Selva</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/flor-de-todo.html">Flor de Todo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/fonseca.html">Fonseca</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/foundation.html">Foundation</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/foundry.html">Foundry</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/fratello.html">Fratello</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/game.html">Game</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/garage.html">Garage</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/garcia-y-vega.html">Garcia y Vega</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/geraldo.html">Geraldo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/ghura.html">Ghura</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/gispert.html">Gispert</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/god-of-fire.html">God of Fire</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/gold-label.html">Gold Label</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/gran-habano.html">Gran Habano</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/gran-reserva.html">Gran Reserva</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/great-wall.html">Great Wall</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/green-label.html">Green Label</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/gurkha.html">Gurkha</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/h-upmann.html">H. Upmann</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/h-upmann-altadis.html">H. Upmann (Altadis)</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/henry-clay.html">Henry Clay</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/herencia.html">Herencia</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/herrera-esteli.html">Herrera Estelí</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/hooten-young.html">Hooten Young</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/horizon.html">Horizon</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/hoyo-de-monterrey.html">Hoyo de Monterrey</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/hoyo-de-monterrey-general-cigar.html">Hoyo de Monterrey (General Cigar)</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/humo.html">Humo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/hvc.html">HVC</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/illusione.html">Illusione</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/imperia.html">Imperia</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/imperious.html">Imperious</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/ivoire.html">Ivoire</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/j-fuego.html">J. Fuego</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/j-c-newman.html">J.C. Newman</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/jas-sum-kral.html">Jas Sum Kral</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/jose-l-piedra.html">José L. Piedra</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/joya-de-nicaragua.html">Joya de Nicaragua</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/juan-lopez.html">Juan López</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/knuckle-sandwich.html">Knuckle Sandwich</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/kristoff.html">Kristoff</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/la-aroma-de-cuba.html">La Aroma de Cuba</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/la-aurora.html">La Aurora</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/la-barba.html">La Barba</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/la-flor-de-cano.html">La Flor de Caño</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/la-flor-dominicana.html">La Flor Dominicana</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/la-gloria-cubana.html">La Gloria Cubana</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/la-gloria-cubana-general-cigar.html">La Gloria Cubana (General Cigar)</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/la-herencia-cubana.html">La Herencia Cubana</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/la-palina.html">La Palina</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/las-cabrillas.html">Las Cabrillas</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/latitude.html">Latitude</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/lava.html">Lava</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/leaf-by-oscar.html">Leaf by Oscar</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/leafist.html">Leafist</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/leonel.html">Leonel</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/leroy-neiman.html">LeRoy Neiman</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/liga-privada.html">Liga Privada</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/lineage.html">Lineage</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/luciano-cigars.html">Luciano Cigars</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/luis-martinez.html">Luis Martinez</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/macanudo.html">Macanudo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/macanudo-general-cigar.html">Macanudo (General Cigar)</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/macanudo-inspirado.html">Macanudo Inspirado</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/man-o-war.html">Man O&#39; War</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/manifest.html">Manifest</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/mantra.html">Mantra</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/marcha.html">Marcha</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/mareva.html">Mareva</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/matilde.html">Matilde</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/mazo.html">Mazo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/meeta.html">Meeta</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/mentor.html">Mentor</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/mercy.html">Mercy</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/meridian.html">Meridian</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/mirage.html">Mirage</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/mombacho.html">Mombacho</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/monte.html">Monte</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/montecristo.html">Montecristo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/montecristo-platinum.html">Montecristo Platinum</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/montecristo-white.html">Montecristo White</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/mood.html">Mood</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/my-father.html">My Father</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/nacional.html">Nacional</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/nadir.html">Nadir</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/nat-sherman.html">Nat Sherman</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/nestor-miranda.html">Nestor Miranda</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/nica-libre.html">Nica Libre</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/nobleza.html">Nobleza</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/noir.html">Noir</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/nomad.html">Nomad</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/nub.html">Nub</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/oasis.html">Oasis</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/oliva.html">Oliva</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/oneoff.html">OneOff</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/onyx.html">Onyx</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/opusx.html">OpusX</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/opusx-lost-city.html">OpusX Lost City</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/or.html">Or</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/orgullo.html">Orgullo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/oscar-valladares.html">Oscar Valladares</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/p-laboratories.html">P Laboratories</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/pacifico.html">Pacifico</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/padilla.html">Padilla</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/padron.html">Padrón</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/palmas.html">Palmas</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/panacea.html">Panacea</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/parables.html">Parables</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/partagas.html">Partagás</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/partagas-general-cigar.html">Partagás (General Cigar)</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/patoro.html">Patoro</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/perdomo.html">Perdomo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/petit-coronas.html">Petit Coronas</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/phillies.html">Phillies</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/pichardo.html">Pichardo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/pico.html">Pico</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/pisco.html">Pisco</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/plasencia.html">Plasencia</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/platinum-nova.html">Platinum Nova</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/pops.html">Pops</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/por-larranaga.html">Por Larrañaga</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/pospole.html">Pospole</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/powstanie.html">Powstanie</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/praga.html">Praga</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/principle-cigars.html">Principle Cigars</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/protocol.html">Protocol</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/punch.html">Punch</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/punch-general-cigar.html">Punch (General Cigar)</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/punch-uk.html">Punch (UK)</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/punch-london.html">Punch London</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/pura-sangre.html">Pura Sangre</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/puros-indios.html">Puros Indios</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/quai-d-orsay.html">Quai d&#39;Orsay</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/quesada.html">Quesada</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/quintero.html">Quintero</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/quintero-y-hno.html">Quintero y Hno.</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/rafael-gonzalez.html">Rafael González</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/raices-cubanas.html">Raices Cubanas</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/ramon-allones.html">Ramón Allones</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/red-label.html">Red Label</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/renacer.html">Renacer</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/reserva.html">Reserva</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/revel.html">Revel</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/rhum-brique.html">Rhum Brique</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/rio.html">Rio</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/rocky-patel.html">Rocky Patel</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/rojas-cigar.html">Rojas Cigar</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/roma-craft.html">RoMa Craft</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/romeo-1875.html">Romeo 1875</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/romeo-by-romeo.html">Romeo By Romeo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/romeo-y-julieta.html">Romeo y Julieta</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/romeo-y-julieta-altadis.html">Romeo y Julieta (Altadis)</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/romeo-y-julieta-habanos.html">Romeo y Julieta (Habanos)</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/room-101.html">Room 101</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/sable.html">Sable</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/saga.html">Saga</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/saint-luis-rey.html">Saint Luis Rey</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/saint-luis-rey-general-cigar.html">Saint Luis Rey (General Cigar)</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/san-cristobal.html">San Cristobal</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/san-cristobal-de-la-habana.html">San Cristobal de la Habana</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/san-luis.html">San Luis</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/sancho-panza.html">Sancho Panza</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/sancho-panza-general-cigar.html">Sancho Panza (General Cigar)</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/savana.html">Savana</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/savant.html">Savant</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/selecto.html">Selecto</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/sentencia.html">Sentencia</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/serie-a.html">Serie A</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/serie-b.html">Serie B</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/serie-c.html">Serie C</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/serie-d.html">Serie D</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/serie-n.html">Serie N</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/serie-p.html">Serie P</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/serie-r.html">Serie R</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/serie-v.html">Serie V</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/serie-x.html">Serie X</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/serino-cigars.html">Serino Cigars</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/sibaristica.html">Sibaristica</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/sin-compromiso.html">Sin Compromiso</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/sindicato.html">Sindicato</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/skelton-cigars.html">Skelton Cigars</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/solstice.html">Solstice</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/sonando.html">Soñando</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/southern-draw.html">Southern Draw</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/stillwell-star.html">StillWell Star</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/stolen.html">Stolen</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/summit.html">Summit</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/swisher-international.html">Swisher International</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/swisher-sweets.html">Swisher Sweets</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/tabacalera-el-artista.html">Tabacalera El Artista</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/tabacalera-palma.html">Tabacalera Palma</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/tabacalera-zapato.html">Tabacalera Zapato</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/tamboril.html">Tamboril</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/tate-s.html">Tate&#39;s</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/tatuaje.html">Tatuaje</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/te-amo.html">Te-Amo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/tebas.html">Tebas</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/terramoto.html">Terramoto</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/thrive.html">Thrive</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/titan.html">Titan</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/torano.html">Toraño</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/trinidad.html">Trinidad</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/troya.html">Troya</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/twitch-cigar.html">Twitch Cigar</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/undercrown.html">Undercrown</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/valle.html">Valle</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/vegafina.html">VegaFina</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/vegas-robaina.html">Vegas Robaina</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/veger.html">Veger</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/vegueros.html">Vegueros</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/venganza.html">Venganza</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/ventura-cigar-co.html">Ventura Cigar Co.</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/viaje.html">Viaje</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/villarazo.html">Villarazo</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/villiger.html">Villiger</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/volcan.html">Volcan</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/volver.html">Volver</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/vortex.html">Vortex</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/warfighter.html">Warfighter</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/warped.html">Warped</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/white-label.html">White Label</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/white-owl.html">White Owl</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/wolf-bros.html">Wolf Bros</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/workhorse.html">Workhorse</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/writ.html">Writ</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/zenith.html">Zenith</a>
+      <a href="https://vitolapedia.com/seo-pages/brands/zino-platinum.html">Zino Platinum</a>
+    </div>
+  </div>
+
+  <div class="cta-bar">
+    <a class="cta-btn" href="https://vitolapedia.com/">Open Vitola Pedia</a>
+  </div>
+</article>
+
+<div class="age-notice">⚠️ You must be 21 or older to purchase tobacco products. This site is for informational purposes only.</div>
+
+</div>
+</body>
+</html>

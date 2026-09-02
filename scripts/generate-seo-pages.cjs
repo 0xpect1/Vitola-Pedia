@@ -1,20 +1,22 @@
 #!/usr/bin/env node
 /* ══════════════════════════════════════════════════════════════════
-   VITOLA PEDIA — SEO STATIC PAGE GENERATOR
+   VITOLA PEDIA — SEO STATIC PAGE GENERATOR (top-100 + all brands)
    ──────────────────────────────────────────────────────────────────
-   Generates standalone, indexable HTML pages for every cigar and house
-   (brand) so search engines can crawl them without executing JavaScript.
+   Generates standalone, indexable HTML pages for every brand (house)
+   and the top-100 highest-rated cigars so search engines can crawl them
+   without executing JavaScript.
 
    Output:
-     cigars/<id>.html       — 1,458 cigar pages
-     houses/<slug>.html     — 134  brand/house pages
+     seo-pages/brands/<slug>.html   — 364 brand/house pages
+     seo-pages/cigars/<id>.html     — 100 top-rated cigar pages
+     seo-pages/index.html           — landing index with links
 
    Usage:
-     node scripts/generate-seo-pages.js
+     node scripts/generate-seo-pages.cjs
 
    NOTE: Re-run this script whenever data/cigars.json changes, then
-   commit the regenerated cigars/ and houses/ directories so GitHub
-   Pages serves the updated pages.
+   commit the regenerated seo-pages/ directory so GitHub Pages serves
+   the updated pages.
    ═════════════════════════════════════════════════════════════════ */
 
 'use strict';
@@ -23,12 +25,14 @@ const fs   = require('fs');
 const path = require('path');
 
 /* ── CONFIG ─────────────────────────────────────────────────────── */
-const ROOT      = path.resolve(__dirname, '..');
-const DATA_FILE = path.join(ROOT, 'data', 'cigars.json');
-const CIGAR_DIR = path.join(ROOT, 'cigars');
-const HOUSE_DIR = path.join(ROOT, 'houses');
-const SITE_URL  = 'https://vitolapedia.com';
-const OG_FALLBACK_IMAGE = SITE_URL + '/og-image.png';
+const ROOT          = path.resolve(__dirname, '..');
+const DATA_FILE      = path.join(ROOT, 'data', 'cigars.json');
+const OUT_DIR        = path.join(ROOT, 'seo-pages');
+const BRAND_DIR      = path.join(OUT_DIR, 'brands');
+const CIGAR_DIR      = path.join(OUT_DIR, 'cigars');
+const TOP_N          = 100;                 // generate top-100 cigars
+const SITE_URL       = 'https://vitolapedia.com';
+const OG_FALLBACK    = SITE_URL + '/og-image.png';
 
 /* ── HELPERS ────────────────────────────────────────────────────── */
 
@@ -106,33 +110,59 @@ img{max-width:100%;display:block}
 .cta-btn.secondary{background:transparent;border:1px solid var(--border-h);color:var(--gold)}
 .cta-btn.secondary:hover{background:var(--bg-card-h);color:var(--gold-light)}
 .age-notice{text-align:center;font-size:.8rem;color:var(--text-muted);margin-top:24px;padding-top:16px;border-top:1px solid var(--border)}
-.rating-badge{display:inline-flex;align-items:center;gap:4px;background:rgba(201,168,76,.12);border:1px solid var(--gold);border-radius:8px;padding:4px 12px;font-weight:600;color:var(--gold)}
-.strength-bar{display:inline-block;width:80px;height:8px;border-radius:4px;background:var(--bg-deep);position:relative;margin-left:8px}
-.strength-fill{height:100%;border-radius:4px}
 .cigar-list{list-style:none;padding:0}
 .cigar-list li{padding:10px 16px;border-bottom:1px solid var(--border)}
 .cigar-list li:last-child{border-bottom:none}
 .cigar-list a{color:var(--text-primary);font-weight:500}
 .cigar-list a:hover{color:var(--gold)}
 .cigar-list .rating{float:right;font-size:.85rem;color:var(--gold)}
+.brand-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-top:16px}
+.brand-grid a{display:block;background:var(--bg-deep);border:1px solid var(--border);border-radius:var(--radius);padding:10px 14px;font-size:.95rem}
+.brand-grid a:hover{border-color:var(--border-h);color:var(--gold)}
 noscript p{text-align:center;padding:20px;color:var(--text-secondary)}
 `;
 
-/* ── REDIRECT JS ────────────────────────────────────────────────── */
-function redirectScript(hashRoute) {
-  return `<script>window.location.replace('${SITE_URL}/${hashRoute}');</script>`;
+/* ── HEAD HELPER ────────────────────────────────────────────────── */
+function headBlock(opts) {
+  const { title, description, canonical, image, ogType } = opts;
+  return `<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${esc(title)}</title>
+<meta name="description" content="${esc(description)}">
+<link rel="canonical" href="${canonical}">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1a1209">
+<meta property="og:type" content="${ogType || 'article'}">
+<meta property="og:url" content="${canonical}">
+<meta property="og:title" content="${esc(title)}">
+<meta property="og:description" content="${esc(description)}">
+<meta property="og:image" content="${esc(image || OG_FALLBACK)}">
+<meta property="og:site_name" content="Vitola Pedia">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+<meta name="twitter:description" content="${esc(description)}">
+<meta name="twitter:image" content="${esc(image || OG_FALLBACK)}">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1209'/%3E%3Crect x='4' y='14' width='20' height='5' rx='2.5' fill='%23c9943a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">`;
+}
+
+/* ── JSON-LD HELPER ─────────────────────────────────────────────── */
+function jsonLdBlock(obj) {
+  return `<script type="application/ld+json">\n${JSON.stringify(obj, null, 2)}\n</script>`;
 }
 
 /* ── CIGAR PAGE ─────────────────────────────────────────────────── */
 function buildCigarPage(c) {
-  const canonical  = `${SITE_URL}/cigars/${c.id}.html`;
+  const canonical  = `${SITE_URL}/seo-pages/cigars/${c.id}.html`;
   const interactiveUrl = `${SITE_URL}/#/cigar/${c.id}`;
-  const image      = c.image || OG_FALLBACK_IMAGE;
+  const image      = c.image || OG_FALLBACK;
   const flavors    = (c.flavors || []).join(', ');
   const pairings   = (c.pairings || []).join(', ');
-  const description = `${esc(c.name)} by ${esc(c.brand)}. ${strengthWord(c.strength)} ${esc(c.origin)} cigar with ${esc(flavors)} notes. ${c.smokingTime} min smoke. Rated ${c.rating}/100. From $${c.price}.`;
+  const description = `${c.name} by ${c.brand}. ${strengthWord(c.strength)} ${c.origin} cigar with ${flavors || 'complex'} flavor notes. ${c.smokingTime} min smoke. Rated ${c.rating}/100. From $${c.price}.`;
 
-  // JSON-LD: Product + AggregateRating + Review
+  // JSON-LD: Product + AggregateRating
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -156,20 +186,14 @@ function buildCigarPage(c) {
       "availability": "https://schema.org/InStock"
     }
   };
-  if (c.yearFounded) jsonLd.brand.foundingDate = String(c.yearFounded);
-  if (c.region) jsonLd.brand.foundingLocation = { "@type": "Place", "name": c.region };
 
-  // Flavor tags HTML
   const flavorTagsHtml = (c.flavors || [])
     .map(f => `<span class="flavor-tag">${esc(f)}</span>`)
     .join('');
-
-  // Pairing tags HTML
   const pairingTagsHtml = (c.pairings || [])
     .map(p => `<span class="pairing-tag">${esc(p)}</span>`)
     .join('');
 
-  // Buy links HTML
   let buyLinksHtml = '';
   if (c.buyLinks && c.buyLinks.length) {
     buyLinksHtml = c.buyLinks.map(bl => {
@@ -178,37 +202,14 @@ function buildCigarPage(c) {
     }).join('\n');
   }
 
-  // Strength bar
-  const strengthPct = (parseInt(c.strength, 10) / 5) * 100;
-  const strengthColor = ['#7fc99e','#b5c97a','#e0b84a','#e07b3a','#d04040'][parseInt(c.strength,10)-1] || '#e0b84a';
+  const brandSlug = slug(c.brand);
+  const title = `${c.name} — Review, Flavors & Stats | Vitola Pedia`;
 
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>${esc(c.name)} — Review, Flavors &amp; Stats | Vitola Pedia</title>
-<meta name="description" content="${description}">
-<link rel="canonical" href="${canonical}">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#1a1209">
-<meta property="og:type" content="article">
-<meta property="og:url" content="${canonical}">
-<meta property="og:title" content="${esc(c.name)} — Review, Flavors &amp; Stats | Vitola Pedia">
-<meta property="og:description" content="${description}">
-<meta property="og:image" content="${esc(image)}">
-<meta property="og:site_name" content="Vitola Pedia">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="${esc(c.name)} — Review, Flavors &amp; Stats | Vitola Pedia">
-<meta name="twitter:description" content="${description}">
-<meta name="twitter:image" content="${esc(image)}">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1209'/%3E%3Crect x='4' y='14' width='20' height='5' rx='2.5' fill='%23c9943a'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
-<script type="application/ld+json">
-${JSON.stringify(jsonLd, null, 2)}
-</script>
+${headBlock({ title, description, canonical, image, ogType: 'article' })}
+${jsonLdBlock(jsonLd)}
 <style>${SHARED_CSS}</style>
 </head>
 <body>
@@ -217,7 +218,7 @@ ${JSON.stringify(jsonLd, null, 2)}
 
 <article class="cigar-card">
   <h1 class="cigar-name">${esc(c.name)}</h1>
-  <div class="cigar-brand"><a href="${SITE_URL}/houses/${slug(c.brand)}.html">${esc(c.brand)}</a> · ${esc(c.origin)}${c.region ? ' · ' + esc(c.region) : ''}</div>
+  <div class="cigar-brand"><a href="${SITE_URL}/seo-pages/brands/${brandSlug}.html">${esc(c.brand)}</a> · ${esc(c.origin)}${c.region ? ' · ' + esc(c.region) : ''}</div>
 
   <div class="meta-grid">
     <div class="meta-item"><div class="meta-label">Strength</div><div class="meta-value">${strengthLabel(c.strength)} (${c.strength}/5)</div></div>
@@ -234,16 +235,13 @@ ${JSON.stringify(jsonLd, null, 2)}
   </div>
 
   ${c.description ? `<div class="section"><h2>Description</h2><p class="description">${esc(c.description)}</p></div>` : ''}
-
   ${flavorTagsHtml ? `<div class="section"><h2>Flavor Notes</h2><div class="flavor-tags">${flavorTagsHtml}</div></div>` : ''}
-
   ${pairingTagsHtml ? `<div class="section"><h2>Pairings</h2><div class="pairing-tags">${pairingTagsHtml}</div></div>` : ''}
-
   ${buyLinksHtml ? `<div class="section"><h2>Where to Buy</h2><div class="buy-links">${buyLinksHtml}</div></div>` : ''}
 
   <div class="cta-bar">
     <a class="cta-btn" href="${interactiveUrl}">View on Vitola Pedia</a>
-    <a class="cta-btn secondary" href="${SITE_URL}/houses/${slug(c.brand)}.html">${esc(c.brand)} Cigars</a>
+    <a class="cta-btn secondary" href="${SITE_URL}/seo-pages/brands/${brandSlug}.html">${esc(c.brand)} Cigars</a>
   </div>
 </article>
 
@@ -251,14 +249,13 @@ ${JSON.stringify(jsonLd, null, 2)}
 
 </div>
 <noscript><p>This page is part of the <a href="${SITE_URL}/">Vitola Pedia</a> cigar encyclopedia. Visit the <a href="${interactiveUrl}">interactive ${esc(c.name)} page</a> for the full experience.</p></noscript>
-${redirectScript('#/cigar/' + c.id)}
 </body>
 </html>`;
 }
 
-/* ── HOUSE PAGE ────────────────────────────────────────────────── */
-function buildHousePage(brand, brandSlug, cigarList) {
-  const canonical      = `${SITE_URL}/houses/${brandSlug}.html`;
+/* ── BRAND PAGE ─────────────────────────────────────────────────── */
+function buildBrandPage(brand, brandSlug, cigarList) {
+  const canonical      = `${SITE_URL}/seo-pages/brands/${brandSlug}.html`;
   const interactiveUrl = `${SITE_URL}/#/house/${brandSlug}`;
   const count           = cigarList.length;
   const origins         = [...new Set(cigarList.map(c => c.origin))].join(', ');
@@ -266,7 +263,7 @@ function buildHousePage(brand, brandSlug, cigarList) {
   const prices          = cigarList.map(c => c.price).sort((a, b) => a - b);
   const priceMin        = prices[0];
   const priceMax        = prices[prices.length - 1];
-  const description     = `${esc(brand)} cigars from ${esc(origins)}. ${count} cigars in the encyclopedia. Browse the full range, reviews, and flavor profiles. Average rating ${avgRating}/100. Prices from $${priceMin} to $${priceMax}.`;
+  const description     = `${brand} cigars from ${origins}. ${count} cigars in the encyclopedia. Browse the full range, reviews, and flavor profiles. Average rating ${avgRating}/100. Prices from $${priceMin} to $${priceMax}.`;
 
   // Aggregate flavor data
   const flavorCount = {};
@@ -283,45 +280,25 @@ function buildHousePage(brand, brandSlug, cigarList) {
     "@type": "Brand",
     "name": brand,
     "url": canonical,
-    "description": `${brand} cigars from ${origins}. ${count} cigars in the Vitola Pedia encyclopedia.`,
+    "description": `${brand} cigars from ${origins}. ${count} cigars in the Vitola Pedia encyclopedia.`
   };
   if (cigarList[0] && cigarList[0].image) jsonLd.logo = cigarList[0].image;
 
   // Cigar list HTML (sorted by rating desc)
   const sortedCigars = [...cigarList].sort((a, b) => b.rating - a.rating);
-  const cigarListHtml = sortedCigars.map((c, i) =>
-    `    <li><a href="${SITE_URL}/cigars/${c.id}.html">${esc(c.name)}</a><span class="rating">${c.rating}/100</span></li>`
+  const cigarListHtml = sortedCigars.map(c =>
+    `    <li><a href="${SITE_URL}/seo-pages/cigars/${c.id}.html">${esc(c.name)}</a><span class="rating">${c.rating}/100</span></li>`
   ).join('\n');
 
-  // Founded year
   const years = cigarList.map(c => c.yearFounded).filter(Boolean);
   const founded = years.length ? Math.min(...years) : null;
+  const title = `${brand} Cigars — History, Lines & Reviews | Vitola Pedia`;
 
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>${esc(brand)} Cigars — History, Lines &amp; Reviews | Vitola Pedia</title>
-<meta name="description" content="${description}">
-<link rel="canonical" href="${canonical}">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#1a1209">
-<meta property="og:type" content="website">
-<meta property="og:url" content="${canonical}">
-<meta property="og:title" content="${esc(brand)} Cigars — History, Lines &amp; Reviews | Vitola Pedia">
-<meta property="og:description" content="${description}">
-<meta property="og:site_name" content="Vitola Pedia">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="${esc(brand)} Cigars | Vitola Pedia">
-<meta name="twitter:description" content="${description}">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1209'/%3E%3Crect x='4' y='14' width='20' height='5' rx='2.5' fill='%23c9943a'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
-<script type="application/ld+json">
-${JSON.stringify(jsonLd, null, 2)}
-</script>
+${headBlock({ title, description, canonical, image: cigarList[0] && cigarList[0].image, ogType: 'website' })}
+${jsonLdBlock(jsonLd)}
 <style>${SHARED_CSS}</style>
 </head>
 <body>
@@ -358,7 +335,70 @@ ${cigarListHtml}
 
 </div>
 <noscript><p>This page is part of the <a href="${SITE_URL}/">Vitola Pedia</a> cigar encyclopedia. Visit the <a href="${interactiveUrl}">interactive ${esc(brand)} house page</a> for the full experience.</p></noscript>
-${redirectScript('#/house/' + brandSlug)}
+</body>
+</html>`;
+}
+
+/* ── INDEX PAGE ─────────────────────────────────────────────────── */
+function buildIndexPage(brands, topCigars) {
+  const canonical = `${SITE_URL}/seo-pages/index.html`;
+  const title = 'Vitola Pedia — Cigar Encyclopedia Index | Vitola Pedia';
+  const description = `Browse ${brands.length} cigar brands and ${topCigars.length} top-rated cigars in the Vitola Pedia encyclopedia. Static, crawlable pages for every brand and the top 100 cigars.`;
+
+  const brandLinks = brands.sort((a, b) => a.localeCompare(b)).map(b => {
+    const s = slug(b);
+    return `<a href="${SITE_URL}/seo-pages/brands/${s}.html">${esc(b)}</a>`;
+  }).join('\n      ');
+
+  const topLinks = topCigars.map(c =>
+    `      <li><a href="${SITE_URL}/seo-pages/cigars/${c.id}.html">${esc(c.name)}</a><span class="rating">${c.brand} · ${c.rating}/100</span></li>`
+  ).join('\n');
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Vitola Pedia",
+    "url": SITE_URL,
+    "description": "Cigar encyclopedia with reviews, flavor profiles, and brand histories."
+  };
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+${headBlock({ title, description, canonical, ogType: 'website' })}
+${jsonLdBlock(jsonLd)}
+<style>${SHARED_CSS}</style>
+</head>
+<body>
+<div class="site-header"><a href="${SITE_URL}/">Vitola Pedia</a></div>
+<div class="container">
+
+<article class="cigar-card">
+  <h1 class="cigar-name">Cigar Encyclopedia Index</h1>
+  <div class="cigar-brand">${brands.length} brands · ${topCigars.length} top-rated cigars</div>
+
+  <div class="section">
+    <h2>Top ${topCigars.length} Cigars</h2>
+    <ul class="cigar-list">
+${topLinks}
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>All Brands (${brands.length})</h2>
+    <div class="brand-grid">
+      ${brandLinks}
+    </div>
+  </div>
+
+  <div class="cta-bar">
+    <a class="cta-btn" href="${SITE_URL}/">Open Vitola Pedia</a>
+  </div>
+</article>
+
+<div class="age-notice">⚠️ You must be 21 or older to purchase tobacco products. This site is for informational purposes only.</div>
+
+</div>
 </body>
 </html>`;
 }
@@ -370,18 +410,24 @@ function main() {
   console.log(`  ${cigars.length} cigars found.`);
 
   // Ensure output directories exist
-  if (!fs.existsSync(CIGAR_DIR)) fs.mkdirSync(CIGAR_DIR, { recursive: true });
-  if (!fs.existsSync(HOUSE_DIR)) fs.mkdirSync(HOUSE_DIR, { recursive: true });
+  [OUT_DIR, BRAND_DIR, CIGAR_DIR].forEach(d => {
+    if (!fs.existsSync(d)) fs.mkdirSync(d, { recursive: true });
+  });
 
-  // ── Generate cigar pages ──
+  // ── Pick top-N cigars by rating ──
+  const topCigars = [...cigars]
+    .sort((a, b) => b.rating - a.rating)
+    .slice(0, TOP_N);
+
+  // ── Generate top cigar pages ──
   let cigarCount = 0;
-  cigars.forEach(c => {
+  topCigars.forEach(c => {
     const html = buildCigarPage(c);
     const dest = path.join(CIGAR_DIR, c.id + '.html');
     fs.writeFileSync(dest, html, 'utf8');
     cigarCount++;
   });
-  console.log(`✓ Generated ${cigarCount} cigar pages in cigars/`);
+  console.log(`✓ Generated ${cigarCount} top-${TOP_N} cigar pages in seo-pages/cigars/`);
 
   // ── Build brand → cigar list map ──
   const brandMap = new Map();
@@ -390,18 +436,36 @@ function main() {
     brandMap.get(c.brand).push(c);
   });
 
-  // ── Generate house pages ──
-  let houseCount = 0;
+  // ── Generate brand pages ──
+  let brandCount = 0;
   brandMap.forEach((list, brand) => {
     const brandSlug = slug(brand);
-    const html = buildHousePage(brand, brandSlug, list);
-    const dest = path.join(HOUSE_DIR, brandSlug + '.html');
+    const html = buildBrandPage(brand, brandSlug, list);
+    const dest = path.join(BRAND_DIR, brandSlug + '.html');
     fs.writeFileSync(dest, html, 'utf8');
-    houseCount++;
+    brandCount++;
   });
-  console.log(`✓ Generated ${houseCount} house pages in houses/`);
+  console.log(`✓ Generated ${brandCount} brand pages in seo-pages/brands/`);
 
-  console.log('\nDone. Don\'t forget to regenerate these pages when data/cigars.json changes.');
+  // ── Generate index page ──
+  const indexHtml = buildIndexPage([...brandMap.keys()], topCigars);
+  fs.writeFileSync(path.join(OUT_DIR, 'index.html'), indexHtml, 'utf8');
+  console.log(`✓ Generated index.html`);
+
+  // ── Write crawlable URL list for robots/sitemap tooling ──
+  const urls = [];
+  urls.push(`${SITE_URL}/seo-pages/index.html`);
+  brandMap.forEach((_, brand) => {
+    urls.push(`${SITE_URL}/seo-pages/brands/${slug(brand)}.html`);
+  });
+  topCigars.forEach(c => {
+    urls.push(`${SITE_URL}/seo-pages/cigars/${c.id}.html`);
+  });
+  fs.writeFileSync(path.join(OUT_DIR, 'crawlable-urls.txt'), urls.join('\n') + '\n', 'utf8');
+  console.log(`✓ Wrote ${urls.length} crawlable URLs to seo-pages/crawlable-urls.txt`);
+
+  const total = cigarCount + brandCount + 1; // +1 for index
+  console.log(`\nDone. ${total} pages total (${brandCount} brands + ${cigarCount} cigars + 1 index).`);
 }
 
 main();
