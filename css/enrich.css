@@ -705,3 +705,173 @@
 #flavorWheelSvg path {
   vector-effect: non-scaling-stroke;
 }
+
+/* ════════════════════════════════════════════════════════════════
+   FLAVOR WHEEL — enhanced interactive styles
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Container wraps the SVG + legend */
+.flavor-wheel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+/* SVG responsive sizing — scales smoothly from desktop to mobile */
+#flavorWheelSvg {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+/* Hover glow on segments — CSS transitions complement JS style changes */
+#flavorWheelSvg path.fw-seg {
+  transition: fill-opacity 0.25s ease, stroke-width 0.25s ease, stroke-opacity 0.25s ease;
+}
+#flavorWheelSvg path.fw-seg:hover {
+  stroke-opacity: 0.8 !important;
+  filter: drop-shadow(0 0 4px rgba(201, 168, 76, 0.35));
+}
+#flavorWheelSvg path.fw-seg:focus {
+  outline: none;
+  stroke-opacity: 0.8 !important;
+  filter: drop-shadow(0 0 4px rgba(201, 168, 76, 0.5));
+}
+
+/* ── Tooltip ── */
+.fw-tooltip {
+  position: absolute;
+  z-index: 100;
+  max-width: 200px;
+  padding: 10px 14px;
+  background: rgba(20, 16, 10, 0.97);
+  border: 1px solid rgba(201, 168, 76, 0.3);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  animation: fw-tooltip-in 0.15s ease-out;
+}
+@keyframes fw-tooltip-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fw-tip-cat {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--gold-light, #d4af5e);
+  margin-bottom: 4px;
+  letter-spacing: 0.02em;
+}
+.fw-tip-count {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.fw-tip-flavors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 6px;
+}
+.fw-tip-flavor {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(201, 168, 76, 0.1);
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+.fw-tip-empty {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+.fw-tip-hint {
+  font-size: 10px;
+  color: var(--gold, #c9a84c);
+  margin-top: 4px;
+  padding-top: 6px;
+  border-top: 1px solid rgba(201, 168, 76, 0.15);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ── Legend ── */
+.fw-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 12px;
+  max-width: 320px;
+}
+.fw-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10.5px;
+  color: var(--text-muted);
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+.fw-legend-item.fw-legend-active {
+  opacity: 1;
+  color: var(--text-secondary);
+}
+.fw-legend-swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+.fw-legend-label {
+  white-space: nowrap;
+}
+.fw-legend-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: rgba(201, 168, 76, 0.12);
+  color: var(--gold, #c9a84c);
+  font-size: 9px;
+  font-weight: 700;
+}
+
+/* ── Mobile responsive ── */
+@media (max-width: 480px) {
+  #flavorWheelSvg {
+    max-width: 220px;
+  }
+  .fw-legend {
+    gap: 4px 8px;
+    max-width: 280px;
+  }
+  .fw-legend-item {
+    font-size: 9.5px;
+  }
+  .fw-legend-label {
+    max-width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .fw-tooltip {
+    max-width: 170px;
+    padding: 8px 10px;
+    font-size: 11px;
+  }
+}

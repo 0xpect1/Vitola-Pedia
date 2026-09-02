@@ -1163,19 +1163,29 @@ function buildFlavorWheel(flavors) {
   const cx = 120, cy = 120, r = 100, innerR = 28;
   const catKeys = Object.keys(categories);
   const sliceAngle = (2 * Math.PI) / catKeys.length;
+
+  // Find max match count for graduated intensity scaling
+  const matchCounts = catKeys.map(cat =>
+    flavors.filter(f => categories[cat].flavors.includes(f)).length
+  );
+  const maxMatch = Math.max(...matchCounts, 1);
+
   let svgPaths = '';
   let svgLabels = '';
+  let legendEntries = [];
 
   catKeys.forEach((cat, i) => {
     const conf = categories[cat];
-    const matchCount = flavors.filter(f => conf.flavors.includes(f)).length;
+    const matchedFlavors = flavors.filter(f => conf.flavors.includes(f));
+    const matchCount = matchedFlavors.length;
     const hasMatch = matchCount > 0;
     const startAngle = i * sliceAngle - Math.PI / 2;
     const endAngle = startAngle + sliceAngle - 0.04;
 
-    // Outer radius based on match
-    const outerR = hasMatch ? r : r * 0.55;
-    const opacity = hasMatch ? 0.85 : 0.18;
+    // Graduated intensity: more matches → fuller radius + higher opacity
+    const intensityRatio = hasMatch ? matchCount / maxMatch : 0;
+    const outerR = hasMatch ? r * (0.62 + intensityRatio * 0.38) : r * 0.5;
+    const opacity = hasMatch ? 0.42 + intensityRatio * 0.43 : 0.13;
 
     const x1 = cx + innerR * Math.cos(startAngle);
     const y1 = cy + innerR * Math.sin(startAngle);
@@ -1186,29 +1196,48 @@ function buildFlavorWheel(flavors) {
     const x4 = cx + innerR * Math.cos(endAngle);
     const y4 = cy + innerR * Math.sin(endAngle);
 
-    svgPaths += `<path d="M${x1},${y1} L${x2},${y2} A${outerR},${outerR} 0 0,1 ${x3},${y3} L${x4},${y4} A${innerR},${innerR} 0 0,0 ${x1},${y1} Z"
-      fill="${conf.color}" opacity="${opacity}" stroke="${conf.color}" stroke-width="1" stroke-opacity="0.3"/>`;
+    const dataFlavors = matchedFlavors.join(', ').replace(/"/g, '&quot;');
+    const dataFilter = (matchedFlavors[0] || conf.flavors[0]).replace(/"/g, '&quot;');
 
-    // Label at midpoint
+    svgPaths += `<path d="M${x1},${y1} L${x2},${y2} A${outerR},${outerR} 0 0,1 ${x3},${y3} L${x4},${y4} A${innerR},${innerR} 0 0,0 ${x1},${y1} Z"
+      fill="${conf.color}" opacity="${opacity}" stroke="${conf.color}" stroke-width="1" stroke-opacity="0.3"
+      data-cat="${cat}" data-intensity="${matchCount}" data-flavors="${dataFlavors}" data-filter="${dataFilter}"
+      class="fw-seg" role="button" tabindex="0" style="cursor:pointer"/>`;
+
+    // Label at midpoint — pointer-events:none so clicks reach the path
     const midAngle = startAngle + sliceAngle / 2;
-    const labelR = hasMatch ? r * 0.78 : r * 0.4;
+    const labelR = hasMatch ? r * 0.78 : r * 0.38;
     const lx = cx + labelR * Math.cos(midAngle);
     const ly = cy + labelR * Math.sin(midAngle);
     const shortLabel = cat.split(' &')[0].split(' ')[0];
 
     svgLabels += `<text x="${lx}" y="${ly}" text-anchor="middle" dominant-baseline="middle"
-      fill="${hasMatch ? '#f0ead8' : '#4a3d28'}" font-size="${hasMatch ? 9 : 8}" font-family="Inter,sans-serif" font-weight="${hasMatch ? 600 : 400}">${shortLabel}</text>`;
+      fill="${hasMatch ? '#f0ead8' : '#4a3d28'}" font-size="${hasMatch ? 9 : 8}" font-family="Inter,sans-serif" font-weight="${hasMatch ? 600 : 400}"
+      pointer-events="none">${shortLabel}</text>`;
+
+    legendEntries.push({ name: cat, color: conf.color, count: matchCount });
   });
 
+  // Compact legend with color swatches
+  const legendHtml = `<div class="fw-legend">${legendEntries.map(e =>
+    `<span class="fw-legend-item${e.count > 0 ? ' fw-legend-active' : ''}">
+      <span class="fw-legend-swatch" style="background:${e.color}"></span>
+      <span class="fw-legend-label">${e.name}</span>
+      ${e.count > 0 ? `<span class="fw-legend-count">${e.count}</span>` : ''}
+    </span>`).join('')}</div>`;
+
   return `
-    <svg id="flavorWheelSvg" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="${cx}" cy="${cy}" r="${r + 6}" fill="none" stroke="rgba(201,168,76,0.1)" stroke-width="1"/>
-      ${svgPaths}
-      ${svgLabels}
-      <circle cx="${cx}" cy="${cy}" r="${innerR}" fill="#1e1912" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
-      <text x="${cx}" y="${cy - 4}" text-anchor="middle" fill="#c9a84c" font-size="8" font-family="Inter,sans-serif" font-weight="600" letter-spacing="0.08em">FLAVOR</text>
-      <text x="${cx}" y="${cy + 6}" text-anchor="middle" fill="#c9a84c" font-size="8" font-family="Inter,sans-serif" font-weight="600" letter-spacing="0.08em">PROFILE</text>
-    </svg>
+    <div class="flavor-wheel-container">
+      <svg id="flavorWheelSvg" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" aria-label="Flavor profile wheel">
+        <circle cx="${cx}" cy="${cy}" r="${r + 6}" fill="none" stroke="rgba(201,168,76,0.1)" stroke-width="1"/>
+        ${svgPaths}
+        ${svgLabels}
+        <circle cx="${cx}" cy="${cy}" r="${innerR}" fill="#1e1912" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+        <text x="${cx}" y="${cy - 4}" text-anchor="middle" fill="#c9a84c" font-size="8" font-family="Inter,sans-serif" font-weight="600" letter-spacing="0.08em">FLAVOR</text>
+        <text x="${cx}" y="${cy + 6}" text-anchor="middle" fill="#c9a84c" font-size="8" font-family="Inter,sans-serif" font-weight="600" letter-spacing="0.08em">PROFILE</text>
+      </svg>
+      ${legendHtml}
+    </div>
   `;
 }
 

@@ -1054,7 +1054,7 @@ img { max-width: 100%; display: block; }
 
 /* SVG Flavor Wheel */
 .flavor-wheel-wrap { display: flex; justify-content: center; margin-bottom: 16px; }
-#flavorWheelSvg { max-width: 280px; width: 100%; }
+#flavorWheelSvg { max-width: 280px; width: 100%; height: auto; }
 
 /* ── WHERE TO BUY ───────────────────────────────────────────────── */
 .modal-buy-section {

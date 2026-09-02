@@ -670,16 +670,20 @@
   }
 
   /* ══════════════════════════════════════════════════════════════
-     7. FLAVOR WHEEL DRAW-IN
+     7. FLAVOR WHEEL — animated draw-in + hover tooltips + click-to-filter
      The wheel is SVG <path> segments. Each segment strokes itself
      in with a stroke-dasharray draw, staggered 100ms per segment.
      Falls back to a fade+scale for any non-path wheel (canvas).
+     Hovering a segment shows a tooltip with category + flavors + count.
+     Clicking a segment closes the modal and filters the grid by that
+     flavor. Returns a cleanup function so listeners are removed on
+     modal close (prevents the leak the prior fix addressed).
   ══════════════════════════════════════════════════════════════ */
   function animateFlavorWheel(body) {
     const svg = body.querySelector('#flavorWheelSvg');
     if (!svg) return;
 
-    const segs = Array.from(svg.querySelectorAll('path'));
+    const segs = Array.from(svg.querySelectorAll('path.fw-seg'));
     if (!segs.length) {
       // Canvas/other fallback: fade + scale the whole wheel.
       const wheel = body.querySelector('.flavor-wheel-wrap');
@@ -690,6 +694,7 @@
       return;
     }
 
+    // ── Draw-in animation (stroke-dashoffset) ──
     segs.forEach((p, i) => {
       const len = p.getTotalLength ? p.getTotalLength() : 0;
       // Highlight the segment outline while it draws.
@@ -733,6 +738,140 @@
         p.style.strokeDashoffset = '';
       });
     }, resetAfter);
+
+    // ── Hover tooltip ──
+    // A single floating div reused for all segments, created lazily.
+    let tooltip = null;
+    function ensureTooltip() {
+      if (tooltip) return tooltip;
+      tooltip = document.createElement('div');
+      tooltip.className = 'fw-tooltip';
+      tooltip.style.display = 'none';
+      body.appendChild(tooltip);
+      return tooltip;
+    }
+
+    function showTip(e, seg) {
+      const tip = ensureTooltip();
+      const cat = seg.getAttribute('data-cat') || '';
+      const flavors = seg.getAttribute('data-flavors') || '';
+      const count = seg.getAttribute('data-intensity') || '0';
+      const filterFlavor = seg.getAttribute('data-filter') || '';
+
+      const flavorList = flavors
+        ? flavors.split(', ').map(f => `<span class="fw-tip-flavor">${esc(f)}</span>`).join('')
+        : '<span class="fw-tip-empty">No matching notes</span>';
+
+      tip.innerHTML = `
+        <div class="fw-tip-cat">${esc(cat)}</div>
+        ${count > 0 ? `<div class="fw-tip-count">${count} flavor note${count !== '1' ? 's' : ''}</div>` : ''}
+        <div class="fw-tip-flavors">${flavorList}</div>
+        ${count > 0 ? `<div class="fw-tip-hint">Click to filter by ${esc(filterFlavor)}</div>` : ''}
+      `;
+      tip.style.display = 'block';
+
+      // Position near the cursor, clamped to the modal body.
+      const rect = body.getBoundingClientRect();
+      const tipW = 200;
+      let x = e.clientX - rect.left + 14;
+      let y = e.clientY - rect.top + 14;
+      if (x + tipW > rect.width) x = e.clientX - rect.left - tipW - 10;
+      if (y < 0) y = 4;
+      tip.style.left = x + 'px';
+      tip.style.top = y + 'px';
+    }
+
+    function moveTip(e) {
+      if (!tooltip || tooltip.style.display === 'none') return;
+      const rect = body.getBoundingClientRect();
+      const tipW = 200;
+      let x = e.clientX - rect.left + 14;
+      let y = e.clientY - rect.top + 14;
+      if (x + tipW > rect.width) x = e.clientX - rect.left - tipW - 10;
+      if (y < 0) y = 4;
+      tooltip.style.left = x + 'px';
+      tooltip.style.top = y + 'px';
+    }
+
+    function hideTip() {
+      if (tooltip) tooltip.style.display = 'none';
+    }
+
+    // ── Click-to-filter ──
+    function filterBySeg(seg) {
+      const filterFlavor = seg.getAttribute('data-filter');
+      if (!filterFlavor) return;
+      // Close the modal first, then apply the filter on the main grid.
+      if (typeof window.closeModal === 'function') window.closeModal();
+      if (typeof state !== 'undefined' && typeof render === 'function') {
+        state.flavor = filterFlavor;
+        // Sync the flavor search input if it exists.
+        const input = document.getElementById('flavorSearch');
+        if (input) {
+          input.value = filterFlavor;
+          input.classList.add('flavor-active');
+          const clr = document.querySelector('.flavor-srch-clr');
+          if (clr) clr.classList.add('visible');
+        }
+        // Deactivate all flavor pills, activate matching one if any.
+        document.querySelectorAll('#flavorFilter .pill').forEach(p => p.classList.remove('active'));
+        render();
+      }
+    }
+
+    const onSegEnter = (e) => {
+      const seg = e.currentTarget;
+      seg.style.transition = 'fill-opacity 0.2s ease, stroke-width 0.2s ease';
+      const orig = seg.getAttribute('data-orig-opacity');
+      if (orig == null) {
+        // Store current fillOpacity so we can restore on leave.
+        seg.setAttribute('data-orig-opacity', seg.style.fillOpacity || '0.85');
+      }
+      seg.style.fillOpacity = '1';
+      seg.style.strokeWidth = '2.5';
+      showTip(e, seg);
+    };
+    const onSegMove = (e) => moveTip(e);
+    const onSegLeave = (e) => {
+      const seg = e.currentTarget;
+      const orig = seg.getAttribute('data-orig-opacity');
+      seg.style.fillOpacity = orig || '0.85';
+      seg.style.strokeWidth = '';
+      hideTip();
+    };
+    const onSegClick = (e) => {
+      e.stopPropagation();
+      filterBySeg(e.currentTarget);
+    };
+    const onSegKey = (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        filterBySeg(e.currentTarget);
+      }
+    };
+
+    segs.forEach((p) => {
+      p.addEventListener('mouseenter', onSegEnter);
+      p.addEventListener('mousemove', onSegMove);
+      p.addEventListener('mouseleave', onSegLeave);
+      p.addEventListener('click', onSegClick);
+      p.addEventListener('keydown', onSegKey);
+    });
+
+    // Return cleanup so callers can remove listeners on modal close.
+    return function cleanupFlavorWheel() {
+      segs.forEach((p) => {
+        p.removeEventListener('mouseenter', onSegEnter);
+        p.removeEventListener('mousemove', onSegMove);
+        p.removeEventListener('mouseleave', onSegLeave);
+        p.removeEventListener('click', onSegClick);
+        p.removeEventListener('keydown', onSegKey);
+      });
+      if (tooltip && tooltip.parentNode) {
+        tooltip.parentNode.removeChild(tooltip);
+        tooltip = null;
+      }
+    };
   }
 
   /* ══════════════════════════════════════════════════════════════
@@ -745,12 +884,20 @@
     // Holds the cleanup function returned by enablePhotoRotation for the
     // currently-open modal, so we can tear down window listeners on close.
     let photoRotationCleanup = null;
+    // Holds the cleanup function returned by animateFlavorWheel for the
+    // currently-open modal, so we can tear down tooltip/listener leaks on close.
+    let flavorWheelCleanup = null;
 
     window.openModal = function (id) {
       // Tear down any photo-rotation listeners left by the previous modal.
       if (photoRotationCleanup) {
         photoRotationCleanup();
         photoRotationCleanup = null;
+      }
+      // Tear down any flavor-wheel listeners left by the previous modal.
+      if (flavorWheelCleanup) {
+        flavorWheelCleanup();
+        flavorWheelCleanup = null;
       }
 
       orig(id);
@@ -770,8 +917,9 @@
       // Store the cleanup function so listeners are removed on modal close.
       photoRotationCleanup = enablePhotoRotation(body);
 
-      // Animate the flavor wheel segments in sequence.
-      animateFlavorWheel(body);
+      // Animate the flavor wheel segments in sequence + attach hover/click.
+      // Store the cleanup function so listeners are removed on modal close.
+      flavorWheelCleanup = animateFlavorWheel(body);
 
       // Recommendations go last, after the buy links.
       const buy = body.querySelector('.modal-buy-section') || body.lastElementChild;
@@ -787,6 +935,10 @@
         if (photoRotationCleanup) {
           photoRotationCleanup();
           photoRotationCleanup = null;
+        }
+        if (flavorWheelCleanup) {
+          flavorWheelCleanup();
+          flavorWheelCleanup = null;
         }
         return origClose.apply(this, arguments);
       };
