@@ -114,7 +114,7 @@ function normText(s) {
 }
 
 // The searchable blob is built once per cigar and cached in a WeakMap —
-// re-normalising 15,815 records on every keystroke is needless work, and a
+// re-normalising 20,815 records on every keystroke is needless work, and a
 // side table keeps the cigar objects themselves clean.
 const SEARCH_BLOBS = new WeakMap();
 
@@ -525,7 +525,7 @@ function closeModal() {
   if (window.location.hash.startsWith('#/cigar/') || window.location.hash.startsWith('#/tobacco/')) {
     history.pushState({}, '', '/');
   }
-  document.title = 'Vitola Pedia — Premium Cigar Encyclopedia | 15,815 Cigars, 364 Brands';
+  document.title = 'Vitola Pedia — Premium Cigar Encyclopedia | 20,815 Cigars, 364 Brands';
 }
 
 // ── WHERE TO BUY ─────────────────────────────────────────────────
@@ -2093,7 +2093,7 @@ window.addEventListener('popstate', (e) => {
   } else {
     $modalOverlay.classList.add('hidden');
     document.body.style.overflow = '';
-    document.title = 'Vitola Pedia — Premium Cigar Encyclopedia | 15,815 Cigars, 364 Brands';
+    document.title = 'Vitola Pedia — Premium Cigar Encyclopedia | 20,815 Cigars, 364 Brands';
   }
 });
 

@@ -6,7 +6,7 @@ A premium digital cigar encyclopedia — 1,400+ cigars catalogued with full spec
 
 ## Features
 
-- **1,400+ cigars** across 130+ brands — from Cuban classics to boutique Nicaraguan blends to everyday cigarillos
+- **20,000+ cigars** across 364 brands — from Cuban classics to boutique Nicaraguan blends to everyday cigarillos
 - **Powerful filtering** by strength, origin, wrapper, price range, and flavor profile
 - **Search** by name, brand, or tasting note
 - **Sort** by rating, price, strength, or smoking time
