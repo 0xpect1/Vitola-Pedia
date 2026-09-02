@@ -440,22 +440,47 @@
   }
 
   const PAIRING_CATEGORIES = {
-    Spirits: {
+    Whiskey: {
       accent: 'spirits',
-      keywords: ['bourbon','scotch','whiskey','whisky','rye','brandy',
-        'cognac','rum','tequila','mezcal','gin','vodka','absinthe',
-        'calvados','armagnac','pisco','aquavit','sake','saké','moonshine',
-        'tennessee','chartreuse','pastis','ouzo','arrack','soju','shochu',
-        'irish cream','irish whiskey','japanese whisky'],
+      keywords: ['bourbon','scotch','whiskey','whisky','rye','tennessee',
+        'irish whiskey','irish cream','japanese whisky','single malt',
+        'islay','speyside','highland','lowland','campbeltown','blended whiskey',
+        'blended whisky','rye whiskey','wheated bourbon','small batch'],
+    },
+    Rum: {
+      accent: 'spirits',
+      keywords: ['rum','aged rum','dark rum','spiced rum','white rum',
+        'gold rum','demerara','rhum agricole','rhum','cachaça','cachaca'],
+    },
+    'Cognac and Brandy': {
+      accent: 'spirits',
+      keywords: ['cognac','brandy','armagnac','calvados','pisco',
+        'vs','vsop','xo','napoleon','eau-de-vie','marc','grappa'],
+    },
+    'Tequila and Mezcal': {
+      accent: 'spirits',
+      keywords: ['tequila','mezcal','raicilla','sotol','bacanora',
+        'blanco','reposado','añejo','anejo','extra añejo','joven'],
+    },
+    'Other Spirits': {
+      accent: 'spirits',
+      keywords: ['gin','vodka','absinthe','aquavit','moonshine',
+        'chartreuse','pastis','ouzo','arrack','soju','shochu','sake','saké'],
     },
     Wine: {
       accent: 'wine',
       keywords: ['wine','champagne','sparkling','prosecco','cava','crémant',
-        'cremant','port','sherry','madeira','marsala','vermouth','chardonnay',
-        'cabernet','merlot','pinot','riesling','sauternes','burgundy',
-        'bordeaux','chianti','sangiovese','tempranillo','ice wine','icewine',
-        'gewürztraminer','gewurztraminer','grüner','gruner','vouvray','tokaji',
-        'barolo','barbaresco','tawny','tawny port','cream sherry'],
+        'cremant','chardonnay','cabernet','merlot','pinot','riesling',
+        'sauternes','burgundy','bordeaux','chianti','sangiovese',
+        'tempranillo','ice wine','icewine','gewürztraminer','gewurztraminer',
+        'grüner','gruner','vouvray','tokaji','barolo','barbaresco',
+        'malbec','zinfandel','syrah','shiraz','nebbiolo',' barbera'],
+    },
+    'Fortified Wine': {
+      accent: 'wine',
+      keywords: ['port','sherry','madeira','marsala','vermouth',
+        'tawny','tawny port','cream sherry','amontillado','fino','oloroso',
+        'pedro ximénez','pedro ximenez','banyuls','commandaria'],
     },
     Beer: {
       accent: 'beer',
@@ -463,7 +488,8 @@
         'witbier','weiss','weizen','hefeweizen','ipa','amber ale','pale ale',
         'ginger ale','cream ale','saison','faro','lambic','gose','kölsch',
         'kolsch','bitter','dunkel','vienna','rauchbier','oktoberfest','märzen',
-        'marzen','bock','doppelbock','weisse'],
+        'marzen','bock','doppelbock','weisse','belgian quad','quadrupel',
+        'barrel-aged','barrel aged'],
     },
     Coffee: {
       accent: 'coffee',
@@ -471,7 +497,14 @@
         'macchiato','mocha','americano','ristretto','cortado','au lait',
         'crème','creme','de olla','iced coffee','cold brew','flat white',
         'lungo','red eye','cortadito','café crème','cafe creme','café au lait',
-        'cafe au lait','café de olla','cafe de olla'],
+        'cafe au lait','café de olla','cafe de olla','cuban coffee',
+        'turkish coffee','french press'],
+    },
+    Tea: {
+      accent: 'coffee',
+      keywords: ['tea','black tea','chai','earl grey','green tea',
+        'oolong','puer','pu-erh','matcha','yerba mate','darjeeling',
+        'assam','ceylon','lapsang','souchong'],
     },
     Food: {
       accent: 'food',
@@ -480,11 +513,21 @@
         'cookie','biscotti','caramel','toffee','fruit','dried fruit',
         'charcuterie','steak','bbq','barbecue','tapas','sushi','curry',
         'chili','chilli','olive','jam','honey','panettone','stollen',
-        'marzipan','nougat','turrón','turron','dark chocolate'],
+        'marzipan','nougat','turrón','turron','dark chocolate',
+        'grilled meats','aged cheese','blue cheese','cheddar','manchego',
+        'parmesan','pecorino','prosciutto','salami','paté','pate'],
+    },
+    'Non-Alcoholic': {
+      accent: 'food',
+      keywords: ['cola','ginger beer','ginger ale','lemonade','mocktail',
+        'kombucha','soda','tonic water','seltzer','sparkling water',
+        'hot chocolate','cider','apple cider'],
     },
   };
 
-  const PAIRING_ORDER = ['Spirits','Wine','Beer','Coffee','Food','Other'];
+  const PAIRING_ORDER = ['Whiskey','Rum','Cognac and Brandy','Tequila and Mezcal',
+    'Other Spirits','Wine','Fortified Wine','Beer','Coffee','Tea',
+    'Food','Non-Alcoholic','Other'];
 
   function inferPairingCategory(text) {
     const t = String(text || '').toLowerCase();
