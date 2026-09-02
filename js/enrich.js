@@ -595,34 +595,28 @@
 
       const itemsHtml = items.map(p => {
         const exHtml = p.examples.length
-          ? `<div class="pairing-entry-examples">${p.examples.map(e =>
-              `<span class="pairing-example">${esc(e)}</span>`).join('')}</div>`
+          ? `<span class="pairing-examples">${p.examples.map(e =>
+              `<span class="pairing-example">${esc(e)}</span>`).join('')}</span>`
           : '';
         const notesHtml = p.notes
-          ? `<div class="pairing-entry-notes">${esc(p.notes)}</div>`
+          ? `<span class="pairing-notes">${esc(p.notes)}</span>`
           : '';
-        return `
-          <div class="pairing-entry pairing-card pairing-card--${cfg.accent}">
-            <span class="pairing-card-icon" aria-hidden="true">${groupSvg}</span>
-            <span class="pairing-card-body">
-              <span class="pairing-entry-type">${esc(p.type)}</span>
-              ${exHtml}${notesHtml}
-            </span>
-          </div>`;
+        return `<span class="pairing-tag pairing-tag--${cfg.accent}">
+            <span class="pairing-tag-type">${esc(p.type)}</span>
+            ${exHtml}${notesHtml}
+          </span>`;
       }).join('');
 
-      return `
-        <div class="pairing-group pairing-group--${cfg.accent}" role="group" aria-label="${esc(cat)} pairings">
-          <div class="pairing-group-head">
-            <span class="pairing-group-icon" aria-hidden="true">${groupSvg}</span>
-            <span class="pairing-group-name">${esc(cat)}</span>
-            <span class="pairing-group-count">${items.length}</span>
-          </div>
-          <div class="pairing-group-items">${itemsHtml}</div>
-        </div>`;
+      return `<div class="pairing-row pairing-row--${cfg.accent}">
+        <div class="pairing-row-label">
+          <span class="pairing-row-icon" aria-hidden="true">${groupSvg}</span>
+          <span class="pairing-row-name">${esc(cat)}</span>
+        </div>
+        <div class="pairing-row-tags">${itemsHtml}</div>
+      </div>`;
     }).join('');
 
-    return `<div class="pairing-groups">${groupHtml}</div>`;
+    return `<div class="pairing-list-clean">${groupHtml}</div>`;
   }
 
   /* Replace the simple pairing chip list rendered by app.js with the

@@ -488,168 +488,133 @@
    within a card, each pairing shows its sub-type, example bottles,
    and a tasting note when the data provides them.
 ═══════════════════════════════════════════════════════════════════ */
+/* ════════════════════════════════════════════════════════════════
+   PAIRINGS — clean horizontal rows, category label + tag pills
+   ════════════════════════════════════════════════════════════════ */
 .vp-pairings-rich-wrap { margin-bottom: 28px; }
 
-.pairing-groups {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(248px, 1fr));
-  gap: 12px;
-}
-
-.pairing-group {
-  background: var(--bg-deep);
+.pairing-list-clean {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
   border: 1px solid var(--border);
-  border-left: 3px solid var(--pg-accent, var(--border-h));
   border-radius: var(--radius-md);
-  padding: 12px 14px 11px;
-  transition: border-color 0.18s, box-shadow 0.18s;
-}
-.pairing-group:hover {
-  border-color: var(--pg-accent);
-  box-shadow: 0 0 0 1px var(--pg-glow) inset;
+  overflow: hidden;
+  background: var(--bg-deep);
 }
 
-/* Category colour coding */
-.pairing-group--spirits { --pg-accent: #d4a64a; --pg-glow: rgba(212,166,74,0.12); }
-.pairing-group--wine   { --pg-accent: #b5473a; --pg-glow: rgba(181,71,58,0.14); }
-.pairing-group--beer   { --pg-accent: #e0a93a; --pg-glow: rgba(224,169,58,0.12); }
-.pairing-group--coffee { --pg-accent: #9c6b3e; --pg-glow: rgba(156,107,62,0.14); }
-.pairing-group--food   { --pg-accent: #6f9e57; --pg-glow: rgba(111,158,87,0.14); }
-.pairing-group--other  { --pg-accent: var(--border-h); --pg-glow: transparent; }
+.pairing-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+}
+.pairing-row:last-child { border-bottom: none; }
+.pairing-row:hover { background: var(--bg-card); }
 
-.pairing-group-head {
+/* Category accent stripes — left border color */
+.pairing-row--spirits { border-left: 3px solid #d4a64a; }
+.pairing-row--wine   { border-left: 3px solid #b5473a; }
+.pairing-row--beer   { border-left: 3px solid #e0a93a; }
+.pairing-row--coffee { border-left: 3px solid #9c6b3e; }
+.pairing-row--food   { border-left: 3px solid #6f9e57; }
+.pairing-row--other  { border-left: 3px solid var(--border-h); }
+
+.pairing-row-label {
+  flex-shrink: 0;
+  width: 110px;
   display: flex;
   align-items: center;
-  gap: 9px;
-  margin-bottom: 9px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid var(--border);
+  gap: 7px;
+  padding-top: 2px;
 }
-.pairing-group-icon {
-  font-size: 15px;
-  line-height: 1;
-  width: 24px;
-  height: 24px;
+
+.pairing-row-icon {
+  width: 18px;
+  height: 18px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 6px;
-  background: var(--pg-glow);
   flex-shrink: 0;
+  opacity: 0.7;
 }
-.pairing-group-name {
-  flex: 1;
-  font-size: 10.5px;
-  font-weight: 700;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
-  color: var(--pg-accent, var(--text-primary));
-}
-.pairing-group-count {
+.pairing-row-icon svg { width: 16px; height: 16px; }
+
+.pairing-row-name {
   font-size: 10px;
-  font-weight: 600;
-  color: var(--text-muted);
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 1px 7px;
-  min-width: 20px;
-  text-align: center;
-  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  line-height: 1.3;
 }
 
-.pairing-entry {
-  padding: 1px 0;
-}
-
-.pairing-entry-type {
-  font-family: var(--font-serif);
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--text-primary);
-  line-height: 1.35;
-}
-
-.pairing-entry-examples {
+.pairing-row-tags {
+  flex: 1;
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
-  margin-top: 6px;
+  gap: 6px;
+  align-items: center;
+}
+
+/* Tag pills */
+.pairing-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 11px;
+  border-radius: 999px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  transition: border-color 0.15s, background 0.15s;
+}
+.pairing-tag:hover {
+  border-color: var(--pg-accent, var(--gold));
+  background: var(--bg-deep);
+}
+
+.pairing-tag-type {
+  font-family: var(--font-serif);
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+/* Example bottles inside a tag */
+.pairing-examples {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 3px;
 }
 .pairing-example {
-  font-size: 10px;
-  padding: 2px 7px;
+  font-size: 9px;
+  padding: 1px 6px;
   border-radius: 999px;
-  background: var(--pg-glow);
-  color: var(--text-secondary);
-  border: 1px solid var(--border);
+  background: rgba(201,168,76,0.08);
+  color: var(--text-muted);
   white-space: nowrap;
 }
 
-.pairing-entry-notes {
-  font-size: 10.5px;
+.pairing-notes {
+  font-size: 10px;
   font-style: italic;
   color: var(--text-muted);
-  line-height: 1.5;
-  margin-top: 6px;
+  margin-left: 2px;
 }
 
 @media (max-width: 600px) {
-  .pairing-groups { grid-template-columns: 1fr; }
+  .pairing-row {
+    flex-direction: column;
+    gap: 6px;
+    padding: 10px 12px;
+  }
+  .pairing-row-label {
+    width: 100%;
+  }
 }
-
-/* ════════════════════════════════════════════════════════════════
-   PAIRING CARDS — icon + name + gold border, 2-col grid
-   ═══════════════════════════════════════════════════════════════ */
-.pairing-group-items {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
-}
-
-.pairing-card {
-  display: flex;
-  align-items: flex-start;
-  gap: 9px;
-  padding: 9px 10px;
-  background: var(--bg-deep);
-  border: 1px solid rgba(201,168,76,0.28);
-  border-radius: var(--radius-md);
-  transition: border-color 0.18s, box-shadow 0.18s, transform 0.18s;
-}
-.pairing-card:hover {
-  border-color: var(--pg-accent, var(--gold));
-  box-shadow: 0 0 0 1px var(--pg-glow) inset, 0 2px 10px rgba(0,0,0,0.25);
-  transform: translateY(-1px);
-}
-
-.pairing-card-icon {
-  flex-shrink: 0;
-  width: 30px;
-  height: 30px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 7px;
-  background: var(--pg-glow);
-  color: var(--pg-accent, var(--gold));
-}
-.pairing-card-icon svg { display: block; }
-
-.pairing-card-body {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  flex: 1;
-}
-
-/* Keep the category group icon (in the head) sized for the SVG swap. */
-.pairing-group-icon svg { display: block; }
-
-@media (max-width: 600px) {
-  .pairing-group-items { grid-template-columns: 1fr; }
-}
-
 /* ════════════════════════════════════════════════════════════════
    360° PHOTO ROTATION
    ═══════════════════════════════════════════════════════════════ */
