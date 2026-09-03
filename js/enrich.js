@@ -635,6 +635,73 @@
   }
 
   /* ══════════════════════════════════════════════════════════════
+     6a. PIPE TYPE RECOMMENDATIONS
+     For each pipe tobacco blend, recommend which pipe material pairs
+     best. Uses the PIPE_TYPES / recommendPipeTypes() from js/pipe-types.js.
+     Renders a compact "best pipe" row under the pairings in the modal.
+  ══════════════════════════════════════════════════════════════ */
+  function buildPipeTypeRecs(blend) {
+    if (typeof recommendPipeTypes !== 'function') return '';
+    const recs = recommendPipeTypes(blend);
+    if (!recs.length) return '';
+
+    // Risk badge colour per ghosting level
+    const RISK_COLOR = {
+      none: '#6fae6f',
+      low: '#a4c25a',
+      medium: '#e0a84a',
+      high: '#d76b4a',
+    };
+    // Heat-resistance dots (1-5)
+    const heatDots = level =>
+      Array.from({ length: 5 }, (_, i) =>
+        `<span style="color:${i < level ? '#c9943a' : 'rgba(201,168,76,0.25)'};font-size:14px">●</span>`
+      ).join('');
+
+    const top = recs[0];
+    const rest = recs.slice(1, 4); // show the best + up to 3 runners-up
+
+    const card = (r, isTop) => {
+      const pt = r.pipe;
+      const riskColor = RISK_COLOR[pt.ghostingRisk] || RISK_COLOR.medium;
+      return `
+        <div class="pt-rec${isTop ? ' pt-rec--top' : ''}">
+          <div class="pt-rec-head">
+            <span class="pt-rec-name">${esc(pt.name)}</span>
+            ${isTop ? '<span class="pt-rec-best">Best match</span>' : ''}
+          </div>
+          <div class="pt-rec-material">${esc(pt.material)}</div>
+          <div class="pt-rec-meta">
+            <span class="pt-rec-field"><span class="pt-rec-label">Ghosting</span>
+              <span class="pt-rec-risk" style="color:${riskColor}">${pt.ghostingRisk}</span></span>
+            <span class="pt-rec-field"><span class="pt-rec-label">Heat</span>
+              <span class="pt-rec-heat">${heatDots(pt.heatResistance)}</span></span>
+          </div>
+          <div class="pt-rec-flavor">${esc(pt.flavorProfile)}</div>
+          <div class="pt-rec-care"><span class="pt-rec-care-label">Care</span>${esc(pt.careNotes)}</div>
+        </div>`;
+    };
+
+    const topHtml = card(top, true);
+    const restHtml = rest.length
+      ? `<div class="pt-rec-others">
+           <div class="pt-rec-others-label">Also excellent</div>
+           ${rest.map(r => `
+             <div class="pt-rec-mini">
+               <span class="pt-rec-mini-name">${esc(r.pipe.name)}</span>
+               <span class="pt-rec-mini-flavor">${esc(r.pipe.flavorProfile)}</span>
+             </div>`).join('')}
+         </div>`
+      : '';
+
+    return `<div class="modal-pipe-types">
+      <div class="modal-section-title">Best Pipe for This Blend</div>
+      ${topHtml}
+      ${restHtml}
+    </div>`;
+  }
+
+  /* ══════════════════════════════════════════════════════════════
      6. 360° PHOTO ROTATION
      Drag the hero photo horizontally to spin it on its Y axis. The
      rotation accumulates across drags and persists while the modal
@@ -990,6 +1057,14 @@
         enrichPairings(document.getElementById('modalBody'), pt.pairings);
         addShareButton(document.getElementById('modalBody'), 'tobacco', id,
           pt.name + ' — Vitola Pedia');
+        // Pipe type recommendations — injected under the pairings section
+        const body = document.getElementById('modalBody');
+        const recsHtml = buildPipeTypeRecs(pt);
+        if (recsHtml) {
+          const pairings = body && body.querySelector('.modal-pairings');
+          if (pairings) pairings.insertAdjacentHTML('afterend', recsHtml);
+          else if (body) body.insertAdjacentHTML('beforeend', recsHtml);
+        }
       };
     }
   }
@@ -997,5 +1072,5 @@
   // Run after immersive.js has done its own wrapping so both survive.
   document.addEventListener('DOMContentLoaded', () => setTimeout(wrap, 120));
 
-  window.VPEnrich = { similarTo, percentile, buildSizeViz, buildContext, buildPairings };
+  window.VPEnrich = { similarTo, percentile, buildSizeViz, buildContext, buildPairings, buildPipeTypeRecs };
 })();
