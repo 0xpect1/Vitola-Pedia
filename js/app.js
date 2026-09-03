@@ -704,6 +704,10 @@ const PT_PIPE_TYPE_MAP = {
   Clay:       { blendTypes: ['Virginia', 'Oriental', 'English'], strengths: [1,2,3] },
   // Morta: earthy bog-oak — pairs naturally with English, Balkan, and Dark Fired smokes
   Morta:      { blendTypes: ['English', 'Balkan', 'Dark Fired'], strengths: [3,4,5] },
+  // Olive Wood: subtly fruity, Mediterranean — complements Oriental, English, Virginia/Perique
+  'Olive Wood': { blendTypes: ['English', 'Balkan', 'Virginia', 'Virginia/Perique'], strengths: [2,3,4] },
+  // Cherrywood: sweet, fruity — pairs with aromatics and Burley
+  Cherrywood: { blendTypes: ['Aromatic', 'Virginia', 'Virginia/Burley', 'Burley'], strengths: [1,2,3] },
 };
 
 const ptState = {
@@ -742,18 +746,35 @@ function getFilteredPT() {
   const pipeConf = ptState.pipeType !== 'all' ? PT_PIPE_TYPE_MAP[ptState.pipeType] : null;
   return PIPE_TOBACCOS.filter(pt => {
     if (ptState.brand !== 'all' && pt.brand !== ptState.brand) return false;
-    // Blend type pill — 'Flake' is a cut, not a blendType, so match it against cut
+    // Blend type pill — 'Flake', 'Plug', and 'Cake' are cuts, not blendTypes, so match them against cut
     if (ptState.blendType !== 'all') {
       if (ptState.blendType === 'Flake') {
         if (!pt.cut.toLowerCase().includes('flake')) return false;
+      } else if (ptState.blendType === 'Plug') {
+        if (!pt.cut.toLowerCase().includes('plug')) return false;
+      } else if (ptState.blendType === 'Cake') {
+        if (!pt.cut.toLowerCase().includes('cake')) return false;
       } else if (pt.blendType !== ptState.blendType) {
         return false;
       }
     }
     if (ptState.cut !== 'all' && !pt.cut.toLowerCase().includes(ptState.cut.toLowerCase())) return false;
     if (ptState.strength !== 'all' && pt.strength !== parseInt(ptState.strength)) return false;
-    if (ptState.pairing !== 'all' &&
-        !(pt.pairings || []).some(p => p.toLowerCase().includes(ptState.pairing.toLowerCase()))) return false;
+    // Pairing filter — curated categories match against pairing subcategories
+    if (ptState.pairing !== 'all') {
+      const cat = ptState.pairing.toLowerCase();
+      const hasMatch = (pt.pairings || []).some(p => {
+        const pl = p.toLowerCase();
+        if (cat === 'whiskey') return pl.includes('whiskey') || pl.includes('whisky') || pl.includes('scotch') || pl.includes('bourbon') || pl.includes('brandy') || pl.includes('cognac') || pl.includes('mezcal');
+        if (cat === 'coffee') return pl.includes('coffee') || pl.includes('espresso') || pl.includes('cappuccino') || pl.includes('latte');
+        if (cat === 'tea') return pl.includes('tea') || pl.includes('chai');
+        if (cat === 'beer') return pl.includes('beer') || pl.includes('ale') || pl.includes('stout') || pl.includes('porter') || pl.includes('ipa');
+        if (cat === 'wine') return pl.includes('wine') || pl.includes('port') || pl.includes('sherry');
+        if (cat === 'rum') return pl.includes('rum');
+        return pl.includes(cat);
+      });
+      if (!hasMatch) return false;
+    }
     // Pipe-type filter: only blends whose blendType/strength/cut suit the selected pipe
     if (pipeConf) {
       if (pipeConf.blendTypes && !pipeConf.blendTypes.includes(pt.blendType)) return false;
@@ -1115,19 +1136,7 @@ function initPipeTobacco() {
   bindPTpills('ptCutFilter', 'cut');
   bindPTpills('ptStrengthFilter', 'strength');
   bindPTpills('ptPipeTypeFilter', 'pipeType');
-
-  // Pairing dropdown — populated from the distinct pairings across all blends
-  const $ptPairing = document.getElementById('ptPairingSelect');
-  if ($ptPairing) {
-    const pairingSet = new Set();
-    PIPE_TOBACCOS.forEach(p => (p.pairings || []).forEach(x => pairingSet.add(x)));
-    [...pairingSet].sort((a, b) => a.localeCompare(b)).forEach(p => {
-      const opt = document.createElement('option');
-      opt.value = p; opt.textContent = p;
-      $ptPairing.appendChild(opt);
-    });
-    $ptPairing.addEventListener('change', e => { ptState.pairing = e.target.value; renderPT(); });
-  }
+  bindPTpills('ptPairingFilter', 'pairing');
 
   const $ptPrice = document.getElementById('ptPriceRange');
   const $ptPriceLabel = document.getElementById('ptPriceLabel');
@@ -1148,10 +1157,9 @@ function initPipeTobacco() {
     if ($ptSearch) $ptSearch.value = '';
     if ($ptClr) $ptClr.classList.remove('visible');
     if ($ptBrand) $ptBrand.value = 'all';
-    if ($ptPairing) $ptPairing.value = 'all';
     if ($ptPrice) { $ptPrice.value = 50; updatePTPriceRangeStyle(); }
     if ($ptPriceLabel) $ptPriceLabel.textContent = 'All prices';
-    ['ptBlendFilter','ptCutFilter','ptStrengthFilter','ptPipeTypeFilter'].forEach(id => {
+    ['ptBlendFilter','ptCutFilter','ptStrengthFilter','ptPipeTypeFilter','ptPairingFilter'].forEach(id => {
       const el = document.getElementById(id);
       if (!el) return;
       el.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
