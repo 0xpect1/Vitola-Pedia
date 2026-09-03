@@ -18,7 +18,7 @@ const PIPE_TOBACCOS = [
     rating: 89,
     flavors: ["Vanilla", "Honey", "Caramel", "Sweet", "Cream"],
     description: "America's best-selling pipe tobacco for decades. Lane 1-Q is the definitive mild aromatic — a pillowy blend of Virginias, Burley, and Black Cavendish lightly cased with vanilla and honey. Burns cool and dry with a sweet room note that made it legendary among beginners and seasoned smokers alike. If you've ever smelled a pleasant pipe wafting down the street, there's a good chance it was 1-Q.",
-    pairings: ["Coffee", "Apple Cider", "Hot Chocolate"],
+    pairings: ["Coffee", "Vanilla Porter", "Irish Whiskey", "Hot Chocolate", "Chai", "Sweet Rum", "Cream Stout", "Cappuccino"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/p/lane-1-q-pipe-tobacco/1439894/", price: null },
@@ -40,7 +40,7 @@ const PIPE_TOBACCOS = [
     rating: 90,
     flavors: ["Cedar", "Hay", "Floral", "Mild Latakia", "Sweet"],
     description: "One of Alfred Dunhill's most beloved creations, designed for the first pipe of the day. A light English mixture with a gentle touch of Latakia over a base of bright Virginias and sweet Orientals. Cool, gentle, and refined — it builds complexity as it burns down. Now blended by Peterson under license, the formula remains faithful to the original Dunhill recipe.",
-    pairings: ["Black Tea", "Coffee", "Orange Juice"],
+    pairings: ["Islay Scotch", "Black Coffee", "Dark Roast Coffee", "Porter", "Port Wine", "Cognac", "Earl Grey Tea"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/peterson-early-morning-pipe-tobacco/DHD-TP.html", price: null },
@@ -62,7 +62,7 @@ const PIPE_TOBACCOS = [
     rating: 92,
     flavors: ["Latakia", "Earth", "Cedar", "Spice", "Leather"],
     description: "The classic medium English mixture that defined the London style. London Mixture balances smoky Latakia with sweet Virginias and spicy Orientals, with a hint of Perique adding depth and complexity. A sophisticated smoke that rewards patience — from a gentle, grassy opening to a rich leather-and-earth finish. The true benchmark of the English genre.",
-    pairings: ["Scotch Whisky", "Black Coffee", "Aged Bourbon"],
+    pairings: ["Islay Scotch", "Black Coffee", "Aged Bourbon", "Port", "Cognac", "Dark Porter", "Dark Roast Coffee"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/p/dunhill-london-mixture-pipe-tobacco/1439874/", price: null },
@@ -83,7 +83,7 @@ const PIPE_TOBACCOS = [
     rating: 93,
     flavors: ["Hay", "Bread", "Citrus", "Natural Sweet", "Grass"],
     description: "A pressed flake made entirely from fine Virginia tobaccos, produced at the historic Gawith & Hoggarth factory in Kendal, England. Full Virginia Flake must be rubbed out or folded before packing — a ritual that rewards the patient smoker with natural sweetness, bright hay, a hint of citrus, and a clean, dry finish that develops beautifully from top to bottom. Pure Virginia at its most expressive.",
-    pairings: ["Tea", "Lemonade", "Light White Wine"],
+    pairings: ["Green Tea", "Earl Grey", "Light Roast Coffee", "Golden Ale", "White Wine", "Light Rum", "Lemonade"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/samuel-gawith-full-virginia-flake/SGK-TP.html", price: null },
@@ -105,7 +105,7 @@ const PIPE_TOBACCOS = [
     rating: 92,
     flavors: ["Fruity", "Spicy", "Sweet", "Plum", "Hay"],
     description: "Peterson's Irish Flake is one of the most celebrated Virginia/Perique blends on the market. Pressed flakes of fine bright Virginias interleaved with peppery Perique from St. James Parish, Louisiana — rubbing them out releases a heady, fruity aroma. Spicy and sweet with a long, natural finish that lingers pleasantly. A cornerstone of any serious pipe tobacco collection.",
-    pairings: ["Irish Whiskey", "Tea", "Apple Juice"],
+    pairings: ["Red Wine", "Bourbon", "Dark Stout", "Dark Roast Coffee", "Port", "Cognac", "Medium Roast Coffee"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/peterson-irish-flake/PTE-TP.html", price: 13.99 },
@@ -127,7 +127,7 @@ const PIPE_TOBACCOS = [
     rating: 91,
     flavors: ["Campfire", "Dark Earth", "Dried Fruit", "Wood Smoke", "Molasses"],
     description: "Mac Baren's tribute to the classic dark-fired Kentucky tradition. HH Old Dark Fired centers on air-cured and fire-cured Kentucky leaf, imparting a rich, woody campfire character that mingles with sweet Virginias and robust Burley. An acquired taste for experienced smokers — intense, complex, and deeply satisfying on a cold night. Not for the faint of heart.",
-    pairings: ["Bourbon", "Dark Beer", "Campfire Coffee"],
+    pairings: ["Bourbon", "Peaty Scotch", "Stout", "Dark Roast Coffee", "Dark Chocolate", "Mezcal", "Port"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/mac-baren-hh-old-dark-fired/MRG-TB.html", price: null },
@@ -148,7 +148,7 @@ const PIPE_TOBACCOS = [
     rating: 94,
     flavors: ["Latakia", "Earth", "Spice", "Dark Fruit", "Cedar", "Leather"],
     description: "One of G.L. Pease's finest creations, Quiet Nights is a full-flavored Balkan blend that invites contemplation. Smoky Latakia is tempered by complex Orientals and bright Red Virginias, with just enough Perique to add a peppery, fruity dimension. This is a fireplace blend — rich, layered, and deeply satisfying on a cool evening with something substantial in the glass.",
-    pairings: ["Scotch Whisky", "Brandy", "Dark Roast Coffee"],
+    pairings: ["Islay Scotch", "Brandy", "Dark Roast Coffee", "Port", "Stout", "Cognac", "Red Wine"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/gl-pease-quiet-nights/GLY-TP.html", price: 17.50 },
@@ -169,7 +169,7 @@ const PIPE_TOBACCOS = [
     rating: 93,
     flavors: ["Fruity", "Spicy", "Dark Fruit", "Hay", "Sweet Pepper"],
     description: "Named after a character from Sir Walter Scott's 'The Fair Maid of Perth,' Hal O' The Wynd is Rattray's masterwork in the Virginia/Perique tradition. Bold, peppery Perique pushes against naturally sweet Red and Light Virginias in broken flake form — earthy, fruity, and complex with a long, warming finish. A quintessential Scottish blend for afternoon reflection.",
-    pairings: ["Single Malt Scotch", "Dark Tea", "Port Wine"],
+    pairings: ["Single Malt Scotch", "Dark Tea", "Port Wine", "Red Wine", "Bourbon", "Dark Stout", "Cognac"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/rattray-s-hal-o--the-wynd/RAJ-TP.html", price: 14.94 },
@@ -191,7 +191,7 @@ const PIPE_TOBACCOS = [
     rating: 93,
     flavors: ["Nuts", "Cream", "Natural Sweet", "Hay", "Bread"],
     description: "A German masterwork of restraint and balance. Solani 636 presses aged Virginia and Burley leaf into a dense, aromatic flake that burns slowly and evenly. No topping, no casing — just pure leaf, aged to bring out natural sweetness and nuttiness. The result is a naturally sweet, creamy, and satisfying smoke that rewards those willing to slow down and pay attention.",
-    pairings: ["Coffee", "Beer", "Iced Tea"],
+    pairings: ["Coffee", "Brown Ale", "Iced Tea", "Bourbon", "Porter", "Black Coffee", "Amber Ale"],
     image: null,
     buyLinks: []
   },
@@ -210,7 +210,7 @@ const PIPE_TOBACCOS = [
     rating: 91,
     flavors: ["Maple", "Caramel", "Vanilla", "Toasted Nuts", "Sweet"],
     description: "Cornell & Diehl's most beloved aromatic. Autumn Evening takes a robust Burley-Virginia base and tops it lightly with maple and vanilla — resulting in a naturally sweet smoke that tastes as good as it smells. The Black Cavendish adds moisture and a silky, smooth texture. As close to a perfect Sunday afternoon smoke as any tobacco in production.",
-    pairings: ["Bourbon", "Apple Cider", "Hot Coffee"],
+    pairings: ["Bourbon", "Apple Cider", "Hot Coffee", "Vanilla Porter", "Maple Old Fashioned", "Brown Ale", "Hot Chocolate"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/cornell-and-diehl-autumn-evening/001-CDA.html", price: null },
@@ -232,7 +232,7 @@ const PIPE_TOBACCOS = [
     rating: 89,
     flavors: ["Sweet", "Vanilla", "Caramel", "Mild Spice", "Honey"],
     description: "Mac Baren's Original Choice is the quintessential Danish aromatic — mild, smooth, and sweetly satisfying. Virginia, Burley, and Black Cavendish are blended in the classic Danish tradition and lightly topped with sweet floral and vanilla notes. A pleasant room note and effortless burn make it an excellent everyday aromatic that punches well above its price point.",
-    pairings: ["Coffee", "Milk Tea", "Hot Chocolate"],
+    pairings: ["Coffee", "Milk Tea", "Hot Chocolate", "Vanilla Porter", "Chai", "Irish Whiskey", "Sweet Rum", "Latte"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/mac-baren-classics-original-choice/MBT-TP.html", price: null },
@@ -253,7 +253,7 @@ const PIPE_TOBACCOS = [
     rating: 91,
     flavors: ["Hay", "Natural Sweet", "Citrus", "Toast", "Grass"],
     description: "Capstan is one of Britain's oldest and most enduring pipe tobacco brands, with origins in the Victorian era. The Blue (Medium) flake is pure pressed Virginia leaf — unadulterated tobacconicness at its finest, relying entirely on natural sweetness for its character. Pack it, slow down, and enjoy natural Virginia sweetness, bright grass, and a clean, toasty finish.",
-    pairings: ["Black Tea", "Ginger Beer", "White Wine"],
+    pairings: ["Black Tea", "Ginger Beer", "White Wine", "Green Tea", "Light Roast Coffee", "Golden Ale", "Light Rum"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/capstan-original-flake/CPB-TP.html", price: null },
@@ -275,7 +275,7 @@ const PIPE_TOBACCOS = [
     rating: 87,
     flavors: ["Cherry", "Sweet", "Vanilla", "Cream", "Mild Spice"],
     description: "Sutliff Mixture 79 is the classic American cherry aromatic — the tobacco that introduced a generation to pipe smoking. Light, sweet, and exceptionally easy to smoke, it combines a Burley-Virginia base with Black Cavendish and a pleasant cherry-vanilla topping. Simple, satisfying, and an excellent entry point for new pipe smokers or anyone wanting a no-fuss everyday blend.",
-    pairings: ["Coffee", "Cola", "Lemonade"],
+    pairings: ["Coffee", "Cherry Cola", "Lemonade", "Sweet Rum", "Cream Stout", "Vanilla Porter", "Hot Chocolate"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/sutliff-mixture-no-79/AE0-TP.html", price: null },
@@ -296,7 +296,7 @@ const PIPE_TOBACCOS = [
     rating: 92,
     flavors: ["Fruity", "Spicy", "Hay", "Dark Fruit", "Natural Sweet"],
     description: "One of the most distinctive Virginia/Perique blends available, Luxury Twist Flake is wound into a tight rope before being sliced into coins. The traditional rope construction allows the tobaccos to marry and deepen over time. Slice off what you need, rub it out, and enjoy a complex, fruity, peppery smoke that is simultaneously ancient and thoroughly compelling.",
-    pairings: ["Scotch", "Dark Beer", "Tea"],
+    pairings: ["Scotch", "Dark Beer", "Tea", "Red Wine", "Bourbon", "Port", "Dark Stout"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/peter-stokkebye-luxury-twist-flake/PSD-TP.html", price: null },
@@ -318,7 +318,7 @@ const PIPE_TOBACCOS = [
     rating: 88,
     flavors: ["Cherry", "Honey", "Vanilla", "Sweet", "Floral"],
     description: "W.O. Larsen is one of Copenhagen's most storied tobacconists, founded in 1864, and their Signature blend embodies the classic Danish aromatic tradition. Sweet and mild with a light cherry-honey topping over a smooth Virginia-Burley-Cavendish base. Elegant presentation and a delightfully pleasant room note have made it a perennial gift choice among those who appreciate old-world Danish craftsmanship.",
-    pairings: ["Coffee", "Wine", "Tea"],
+    pairings: ["Coffee", "Cherry Wine", "Tea", "Spiced Rum", "Cognac", "Port", "Hot Chocolate"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/p/w-o-larsen-signature-pipe-tobacco/1440094/", price: null },
@@ -340,7 +340,7 @@ const PIPE_TOBACCOS = [
     rating: 94,
     flavors: ["Latakia", "Earth", "Pepper", "Leather", "Wood Smoke"],
     description: "The legendary final-pipe-of-the-day blend, created by Alfred Dunhill for those last contemplative moments before sleep. Nightcap is a powerhouse English mixture — heavy Latakia smoke layered over full Virginias and Orientals, with a measure of Perique driving a peppery, warming finish. Rich, dark, and unapologetically bold. Inducted into virtually every 'greatest blends of all time' list ever written.",
-    pairings: ["Islay Scotch", "Cognac", "Espresso"],
+    pairings: ["Islay Scotch", "Cognac", "Espresso", "Port", "Dark Stout", "Dark Roast Coffee", "Peated Whisky"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/peterson-nightcap-pipe-tobacco/DHF-TP.html", price: null },
@@ -362,7 +362,7 @@ const PIPE_TOBACCOS = [
     rating: 93,
     flavors: ["Latakia", "Cedar", "Earth", "Sweet", "Nuts"],
     description: "A Pipe Tobacco Hall of Fame inductee and perhaps the most beloved English blend ever made. My Mixture 965 marries fine Virginias with Macedonian Orientals and a generous portion of Cyprian Latakia, with brown Cavendish lending a subtle mellow sweetness that sets it apart from every other English on the shelf. Smooth, rich, endlessly smokeable — the blend many pipe smokers call home.",
-    pairings: ["Scotch Whisky", "Black Coffee", "Stout"],
+    pairings: ["Scotch Whisky", "Black Coffee", "Stout", "Port", "Cognac", "Dark Roast Coffee", "Dark Porter"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/peterson-my-mixture-965-pipe-tobacco/DHE-TP.html", price: 16.49 },
@@ -384,7 +384,7 @@ const PIPE_TOBACCOS = [
     rating: 92,
     flavors: ["Latakia", "Earth", "Cedar", "Cream", "Mild Sweet"],
     description: "Perhaps the quintessential English blend, made in Kendal since the era it commemorates. Squadron Leader combines golden and stoved Virginias with earthy Turkish leaf and a measured dose of Latakia for a rich, cool, and amazingly smooth smoke. Never harsh, never overbearing — the English mixture to hand someone who wants to understand what the genre is all about.",
-    pairings: ["English Breakfast Tea", "Scotch", "Coffee"],
+    pairings: ["English Breakfast Tea", "Scotch", "Coffee", "Port", "Dark Roast Coffee", "Porter", "Cognac"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/samuel-gawith-squadron-leader/SGS-TP.html", price: 14.85 },
@@ -406,7 +406,7 @@ const PIPE_TOBACCOS = [
     rating: 90,
     flavors: ["Vanilla", "Dark Earth", "Wood Smoke", "Anise", "Molasses"],
     description: "Named for the year Samuel Gawith's Kendal factory began operation, 1792 Flake is one of the most distinctive tobaccos in the world. Dark-fired Kentucky leaf is steamed, pressed for days, and finished with tonquin bean — lending an exotic vanilla-anise perfume to an otherwise massive, earthy smoke. Strong enough to be approached with respect and a full stomach. A living piece of tobacco history.",
-    pairings: ["Rum", "Port", "Strong Black Tea"],
+    pairings: ["Bourbon", "Port", "Strong Black Tea", "Peaty Scotch", "Dark Stout", "Dark Roast Coffee", "Dark Rum"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/samuel-gawith-1792-flake/SGA-TP.html", price: null },
@@ -428,7 +428,7 @@ const PIPE_TOBACCOS = [
     rating: 95,
     flavors: ["Fruity", "Spicy", "Natural Sweet", "Plum", "Bread"],
     description: "The gold standard of Virginia/Perique blends for more than 140 years. Choice US-grown Virginias and slowly fermented Louisiana Perique are pressed, spun into rope, and sliced into the iconic coins. Lightly sweet with real depth and a pleasant peppery spice — Escudo is the blend every other VaPer is measured against, and few have ever matched it.",
-    pairings: ["Bourbon", "Red Wine", "Black Tea"],
+    pairings: ["Bourbon", "Red Wine", "Black Tea", "Port", "Cognac", "Dark Stout", "Dark Roast Coffee"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/escudo-navy-deluxe-pipe-tobacco/ESA-TP.html", price: null },
@@ -450,7 +450,7 @@ const PIPE_TOBACCOS = [
     rating: 92,
     flavors: ["Citrus", "Hay", "Honey", "Natural Sweet", "Grass"],
     description: "One of the most iconic Virginia flakes in the world, made in Assens, Denmark. Sweet, bright flue-cured Virginias are pressed and sliced with just an angel's breath of Perique for dimension. Easy to prepare — fold and stuff or fully rub — and effortlessly smokeable, with bright citrus and honey notes that have made it a favorite of Danish pipe makers for generations.",
-    pairings: ["White Wine", "Tea", "Light Beer"],
+    pairings: ["White Wine", "Tea", "Light Beer", "Green Tea", "Light Roast Coffee", "Golden Ale", "Light Rum", "Honey Ale"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/orlik-golden-sliced/ORA-TP.html", price: null },
@@ -472,7 +472,7 @@ const PIPE_TOBACCOS = [
     rating: 93,
     flavors: ["Latakia", "Cedar", "Leather", "Sweet", "Earth"],
     description: "Gregory Pease's loving homage to the great London mixtures of old. Westminster layers smoky Cyprian Latakia over ripe red Virginias and fine Orientals in classic proportions — refined, balanced, and deeply traditional. Often cited as the finest modern recreation of the golden-age English style, it smokes cool and sweet from the first light to the bottom of the bowl.",
-    pairings: ["Scotch Whisky", "Earl Grey Tea", "Coffee"],
+    pairings: ["Scotch Whisky", "Earl Grey Tea", "Coffee", "Port", "Dark Roast Coffee", "Porter", "Cognac"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/p/gl-pease-westminster-pipe-tobacco/1472808", price: null },
@@ -494,7 +494,7 @@ const PIPE_TOBACCOS = [
     rating: 90,
     flavors: ["Latakia", "Campfire", "Leather", "Earth", "Wood Smoke"],
     description: "Seventy-five percent Latakia. That number tells you most of what you need to know about Pirate Kake — Cornell & Diehl's infamous smoke-bomb, pressed into crumble cake with Burley and Turkish to keep the colossal campfire character drinkable. Surprisingly smooth and cool for its strength, but make no mistake: this is a blend for committed Latakia lovers, smoked far from anyone who isn't.",
-    pairings: ["Islay Scotch", "Black Coffee", "Mezcal"],
+    pairings: ["Islay Scotch", "Black Coffee", "Mezcal", "Peated Whisky", "Dark Stout", "Dark Roast Coffee", "Port"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/cornell-and-diehl-pirate-kake/CD2-TP.html", price: null },
@@ -516,7 +516,7 @@ const PIPE_TOBACCOS = [
     rating: 92,
     flavors: ["Natural Sweet", "Hay", "Citrus", "Toast", "Mild Spice"],
     description: "Perhaps the best value in all of pipe tobacco. Luxury Navy Flake is pure, sweet Virginia pressed into neat flakes with a whisper of natural rum essence in the old navy tradition. Bright, clean, and naturally sweet, it burns slow and cool with zero bite. Countless pipe smokers buy this by the pound — and for good reason.",
-    pairings: ["Rum", "Tea", "Cider"],
+    pairings: ["Rum", "Tea", "Cider", "Green Tea", "Light Roast Coffee", "Golden Ale", "White Wine", "Light Rum"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/peter-stokkebye-luxury-navy-flake/PSC-TP.html", price: null },
@@ -538,7 +538,7 @@ const PIPE_TOBACCOS = [
     rating: 92,
     flavors: ["Hay", "Honey", "Citrus", "Bread", "Natural Sweet"],
     description: "A Rattray's classic from the great Scottish blending tradition. Old Gowrie is matured red Virginia in rubbed-out broken flake form — deep, bready sweetness with notes of honey and dried hay that build complexity as the bowl progresses. Charles Rattray blended for discerning Perth gentlemen over a century ago; this is one of the recipes that made his reputation.",
-    pairings: ["Single Malt Scotch", "Shortbread", "Tea"],
+    pairings: ["Single Malt Scotch", "Shortbread", "Tea", "Earl Grey", "Green Tea", "Light Roast Coffee", "Golden Ale"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/rattray-s-old-gowrie/RAN-TP.html", price: null },
@@ -560,7 +560,7 @@ const PIPE_TOBACCOS = [
     rating: 90,
     flavors: ["Fruity", "Floral", "Sweet", "Citrus", "Honey"],
     description: "A time-honored blend instantly recognizable by the pineapple on its tin — the old-world symbol of hospitality. Mature Virginias, mellow Burley, and sweet dark air-cured leaf are topped with a famously secret fruit essence, then pressed for three days to embed the flavor deep in the tobacco. Flowery, fruity, and utterly distinctive — there is nothing else quite like Erinmore.",
-    pairings: ["Irish Whiskey", "Fruit Cake", "Tea"],
+    pairings: ["Irish Whiskey", "Fruit Cake", "Tea", "Earl Grey", "Cognac", "Spiced Rum", "Hot Chocolate"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/erinmore-flake-pipe-tobacco/EMA-TP.html", price: null },
@@ -582,7 +582,7 @@ const PIPE_TOBACCOS = [
     rating: 88,
     flavors: ["Vanilla", "Sweet", "Caramel", "Cream", "Honey"],
     description: "The most popular black Cavendish on the market, full stop. Lane's BCA is fire-cured and steamed to silky black perfection, with a rich vanilla aroma that fills a room with goodwill. So gentle on the tongue it can be smoked all day, and so dependable that blenders everywhere use it as the foundation for their own aromatic creations.",
-    pairings: ["Coffee", "Hot Chocolate", "Vanilla Ice Cream"],
+    pairings: ["Coffee", "Hot Chocolate", "Vanilla Ice Cream", "Vanilla Porter", "Chai", "Irish Whiskey", "Sweet Rum", "Cream Stout"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/lane-bca-pipe-tobacco/LBB-TP.html", price: null },
@@ -604,7 +604,7 @@ const PIPE_TOBACCOS = [
     rating: 86,
     flavors: ["Vanilla", "Sweet", "Cream", "Caramel", "Mild Spice"],
     description: "The world's best-selling pipe tobacco for over 50 years. Captain Black Original — the famous 'White' pouch — blends Virginia, Burley, and Black Cavendish into a distinctively warm, sweet smoke whose room note is arguably the most recognized pipe aroma in America. Millions of smokers started here, and plenty never saw a reason to leave.",
-    pairings: ["Coffee", "Cola", "Donuts"],
+    pairings: ["Coffee", "Cola", "Donuts", "Vanilla Porter", "Chai", "Hot Chocolate", "Sweet Rum", "Cream Stout"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/captain-black-original-pipe-tobacco/CBD-TP.html", price: null },
@@ -626,7 +626,7 @@ const PIPE_TOBACCOS = [
     rating: 88,
     flavors: ["Cocoa", "Molasses", "Nuts", "Toast", "Mild Sweet"],
     description: "An American institution since 1907. Prince Albert's mahogany Burley delivers subtle cocoa and molasses in a crimp cut that packs easily and burns perfectly every time. This is the tobacco of porches, fishing trips, and grandfathers — a mellow, comforting, all-day smoke that has remained essentially unchanged for over a century because it never needed to change.",
-    pairings: ["Coffee", "Lemonade", "Iced Tea"],
+    pairings: ["Coffee", "Lemonade", "Iced Tea", "Bourbon", "Rye", "IPA", "Black Coffee", "Dark Roast Coffee"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/prince-albert-original/PAA-TP.html", price: null },
@@ -648,7 +648,7 @@ const PIPE_TOBACCOS = [
     rating: 88,
     flavors: ["Nuts", "Cocoa", "Toast", "Mild Sweet", "Bread"],
     description: "The benchmark for over-the-counter tobacco and the answer to the question 'what should my first pipe tobacco be?' for generations. Mellow cross-cut Burleys blended with flake-cut Virginias and a subtle top note — Carter Hall packs effortlessly, burns cool and dry, and never bites. Simple, honest, and dependable in a way few things still are.",
-    pairings: ["Coffee", "Beer", "Apple Pie"],
+    pairings: ["Coffee", "Beer", "Apple Pie", "Bourbon", "Rye", "IPA", "Black Coffee", "Amber Ale"],
     image: null,
     buyLinks: [
       { retailer: "Pipes & Cigars", url: "https://www.pipesandcigars.com/product/carter-hall/CHA-TP.html", price: null },
