@@ -1,11 +1,10 @@
 // Vitola Pedia Service Worker — PWA offline support + push notifications
-const CACHE_NAME = 'vitolapedia-v1';
+const CACHE_NAME = 'vitolapedia-v25815';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
   '/css/style.css',
   '/css/refine.css',
-  '/js/data.js',
   '/js/app.js',
   '/js/immersive.js',
   '/js/enrich.js',
@@ -13,7 +12,17 @@ const STATIC_ASSETS = [
   '/js/lounge-adapter.js',
   '/js/notify.js',
   '/js/scanner.js',
+  '/js/pipe-types.js',
+  '/js/pipe_tobacco_data.js',
   '/manifest.json',
+];
+
+// Files that must always be network-first (frequently updated data)
+const NETWORK_FIRST = [
+  '/js/data.js',
+  '/js/pipe_tobacco_data.js',
+  '/data/cigars.json',
+  '/sitemap.xml',
 ];
 
 // Install — cache static assets
@@ -52,8 +61,8 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
   
-  // HTML pages — network-first (so updates show), fallback to cache
-  if (req.destination === 'document' || req.headers.get('accept')?.includes('text/html')) {
+  // HTML pages and data files — network-first (so updates show), fallback to cache
+  if (req.destination === 'document' || req.headers.get('accept')?.includes('text/html') || NETWORK_FIRST.includes(url.pathname)) {
     event.respondWith(
       fetch(req).then((res) => {
         const copy = res.clone();
