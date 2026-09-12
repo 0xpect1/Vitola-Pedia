@@ -694,25 +694,196 @@ img { max-width: 100%; display: block; }
 }
 
 /* ── LIST VIEW CARD ─── */
-.cigars-grid.list-view .cigar-card {
+.cigars-grid.list-view .cigar-card.list-card {
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 16px;
-  padding: 18px 22px;
+  padding: 16px 22px 16px 26px;
   align-items: center;
+  position: relative;
+  border-left: 3px solid transparent;
+  transition: background 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+.cigars-grid.list-view .list-strength-accent {
+  position: absolute;
+  left: 0; top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 0;
+  border-radius: 0 2px 2px 0;
+  transition: height 0.2s ease;
+}
+.cigars-grid.list-view .cigar-card.list-card:hover {
+  background: linear-gradient(90deg, rgba(201,168,76,0.06), rgba(201,168,76,0.01) 60%);
+  border-left-color: var(--gold);
+  box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+}
+.cigars-grid.list-view .cigar-card.list-card:hover .list-strength-accent {
+  height: 70%;
 }
 .cigars-grid.list-view .card-left { min-width: 0; }
 .cigars-grid.list-view .card-right {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  gap: 6px;
+  flex-shrink: 0;
+  text-align: right;
+}
+.cigars-grid.list-view .list-top-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.cigars-grid.list-view .list-meta-origin {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.cigars-grid.list-view .card-name { font-size: 16px; margin-bottom: 2px; }
+.cigars-grid.list-view .card-brand { font-size: 11px; margin-bottom: 8px; }
+
+/* Inline info row: wrapper dot · vitola · time */
+.cigars-grid.list-view .list-info-row {
+  display: flex;
+  align-items: center;
   gap: 8px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+.cigars-grid.list-view .list-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+.cigars-grid.list-view .list-wrapper-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.15);
   flex-shrink: 0;
 }
-.cigars-grid.list-view .card-name { font-size: 16px; margin-bottom: 4px; }
-.cigars-grid.list-view .card-details { display: flex; gap: 20px; grid-template-columns: unset; margin-bottom: 8px; }
-.cigars-grid.list-view .detail-item { flex-direction: row; gap: 6px; align-items: center; }
+.cigars-grid.list-view .list-sep {
+  color: var(--text-muted);
+  opacity: 0.5;
+}
+.cigars-grid.list-view .list-vitola {
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}
+.cigars-grid.list-view .list-time { color: var(--text-muted); }
+
+/* Bottom row: strength bar + flavor tags */
+.cigars-grid.list-view .list-bottom-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.cigars-grid.list-view .list-strength-bar {
+  width: 60px;
+  height: 5px;
+  border-radius: 3px;
+  background: var(--bg-panel);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cigars-grid.list-view .list-strength-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+.cigars-grid.list-view .list-strength-label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+.cigars-grid.list-view .list-flavors {
+  display: inline-flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.cigars-grid.list-view .list-flavor-tag {
+  font-size: 9px;
+  padding: 1px 7px;
+  border-radius: 8px;
+  background: rgba(201,168,76,0.07);
+  border: 1px solid rgba(201,168,76,0.12);
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+/* Pairing icon badges */
+.cigars-grid.list-view .list-pairings {
+  display: flex;
+  gap: 4px;
+  margin-top: 7px;
+}
+.cigars-grid.list-view .list-pairing-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  background: rgba(201,168,76,0.06);
+  border: 1px solid rgba(201,168,76,0.1);
+  font-size: 12px;
+  line-height: 1;
+  cursor: help;
+  transition: background 0.15s ease;
+}
+.cigars-grid.list-view .cigar-card.list-card:hover .list-pairing-badge {
+  background: rgba(201,168,76,0.12);
+}
+
+/* Right side: rating + price */
+.cigars-grid.list-view .list-rating-row {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+.cigars-grid.list-view .list-rating-row .card-rating {
+  font-size: 18px;
+}
+.cigars-grid.list-view .list-rating-row .card-rating-label {
+  display: inline;
+  font-size: 9px;
+  margin-left: 1px;
+}
+.cigars-grid.list-view .list-price {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.01em;
+}
+.cigars-grid.list-view .list-limited-badge {
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+  background: rgba(201,168,76,0.12);
+  border: 1px solid rgba(201,168,76,0.3);
+  border-radius: 8px;
+  padding: 2px 7px;
+}
+
+/* Hide grid-only elements in list view */
 .cigars-grid.list-view .flavor-tags { display: none; }
+.cigars-grid.list-view .card-details { display: none; }
+.cigars-grid.list-view .strength-row { display: none; }
 
 /* No results */
 .no-results {

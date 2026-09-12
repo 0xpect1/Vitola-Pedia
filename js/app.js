@@ -74,7 +74,7 @@ function pairingIconFor(pairing) {
 
 function wrapperColorFor(wrapper) {
   const w = (wrapper || '').toLowerCase()
-    .replace(/ecudorian |icuraguan |onduran |uban /gi, '').trim();
+    .replace(/ecuatorian |nicaraguan |honduran |cuban |brazilian |mexican |dominican /gi, '').trim();
   for (const key of Object.keys(WRAPPER_COLORS)) {
     if (w.includes(key)) return WRAPPER_COLORS[key];
   }
@@ -315,51 +315,60 @@ function renderCard(cigar, index) {
 // ── LIST VIEW CARD ────────────────────────────────────────────────
 function renderListCard(cigar) {
   const sc = strengthConfig(cigar.strength);
-  const dots = Array.from({ length: 5 }, (_, i) => {
-    const filled = i < cigar.strength;
-    return `<div class="strength-dot${filled ? ' filled' : ''}" style="${filled ? `--strength-val:${sc.color}` : ''}"></div>`;
-  }).join('');
   const flag = ORIGIN_FLAGS[cigar.origin] || '';
+  const wColor = wrapperColorFor(cigar.wrapper);
+  const wShort = cigar.wrapper.replace(/Ecuadorian |Nicaraguan |Honduran |Cuban |Brazilian |Mexican |Dominican /gi, '').trim();
+  const strengthPct = (cigar.strength / 5) * 100;
+  const topFlavors = (cigar.flavors || []).slice(0, 3)
+    .map(f => `<span class="list-flavor-tag">${f}</span>`).join('');
+  const pairingBadges = (cigar.pairings || []).slice(0, 3)
+    .map(p => `<span class="list-pairing-badge" title="${p.replace(/"/g, '&quot;')}">${pairingIconFor(p)}</span>`).join('');
 
   const siblings = SIBLING_MAP.get(cigar.id) || [];
   const allSizes = siblings.length > 0
     ? [...siblings, cigar].sort((a, b) => a.length - b.length)
     : null;
   const listSizesRow = allSizes ? `
-    <div class="card-sizes" style="margin-top:8px">
+    <div class="card-sizes" style="margin-top:6px">
       ${allSizes.map(s => `<button class="card-size-pill${s.id === cigar.id ? ' active' : ''}"
         onclick="event.stopPropagation();openModal('${s.id}')" tabindex="-1">${s.size}</button>`).join('')}
     </div>` : '';
 
   return `
-    <article class="cigar-card" data-id="${cigar.id}" role="button" tabindex="0">
+    <article class="cigar-card list-card" data-id="${cigar.id}" role="button" tabindex="0">
+      <div class="list-strength-accent" style="background:${sc.color}"></div>
       <div class="card-left">
-        <div class="card-name">${cigar.name}</div>
-        <div class="card-brand">${cigar.brand} · ${flag} ${cigar.origin} · ${cigar.region}</div>
-        <div class="card-details">
-          <div class="detail-item">
-            <span class="detail-label">Wrapper:</span>
-            <span class="detail-value">${cigar.wrapper}</span>
-          </div>
-          <div class="detail-item">
-            <span class="detail-label">Size:</span>
-            <span class="detail-value">${cigar.size} (${cigar.length}"×${cigar.ringGauge})</span>
-          </div>
-          <div class="detail-item">
-            <span class="detail-label">Time:</span>
-            <span class="detail-value time">${formatTime(cigar.smokingTime)}</span>
-          </div>
+        <div class="list-top-row">
+          <span class="card-name">${cigar.name}</span>
+          <span class="list-meta-origin">${flag} ${cigar.origin}</span>
         </div>
-        <div class="strength-row" style="margin-top:8px">
-          <div class="strength-dots">${dots}</div>
-          <span class="strength-text" style="color:${sc.color}">${sc.label}</span>
+        <div class="card-brand">${cigar.brand} · ${cigar.region}</div>
+        <div class="list-info-row">
+          <span class="list-wrapper">
+            <span class="list-wrapper-dot" style="background:${wColor}"></span>
+            ${wShort}
+          </span>
+          <span class="list-sep">·</span>
+          <span class="list-vitola">${cigar.length}"×${cigar.ringGauge}</span>
+          <span class="list-sep">·</span>
+          <span class="list-time">${formatTime(cigar.smokingTime)}</span>
         </div>
+        <div class="list-bottom-row">
+          <div class="list-strength-bar" title="${sc.label}">
+            <div class="list-strength-fill" style="width:${strengthPct}%;background:${sc.color}"></div>
+          </div>
+          <span class="list-strength-label" style="color:${sc.color}">${sc.label}</span>
+          ${topFlavors ? `<span class="list-sep">·</span><span class="list-flavors">${topFlavors}</span>` : ''}
+        </div>
+        ${pairingBadges ? `<div class="list-pairings">${pairingBadges}</div>` : ''}
         ${listSizesRow}
       </div>
       <div class="card-right">
-        <div class="card-rating">${cigar.rating}<span class="card-rating-label">pts</span></div>
-        <div class="detail-value price" style="font-size:16px">${formatPrice(cigar.price)}</div>
-        ${cigar.limited ? '<span class="limited-badge" style="position:static">Limited</span>' : ''}
+        <div class="list-rating-row">
+          <span class="card-rating">${cigar.rating}</span><span class="card-rating-label">pts</span>
+        </div>
+        <div class="list-price">${formatPrice(cigar.price)}</div>
+        ${cigar.limited ? '<span class="list-limited-badge">Limited</span>' : ''}
       </div>
     </article>
   `;
