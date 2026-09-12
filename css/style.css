@@ -2946,3 +2946,225 @@ body.js-tilt .cigar-card { transform-style: preserve-3d; will-change: transform;
 @media (prefers-reduced-motion: reduce) {
   .grid-tail-ember { animation: none; }
 }
+
+/* ══════════════════════════════════════════════════════════════════
+   CARD VISUAL POLISH — enhanced cards
+═══════════════════════════════════════════════════════════════════ */
+
+/* Subtle gradient overlay on hover (works alongside .card-sheen) */
+.cigar-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(201,168,76,0.06) 0%, transparent 40%, transparent 60%, rgba(224,192,112,0.04) 100%);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+.cigar-card:hover::after { opacity: 1; }
+
+/* Thin gold left-border accent on hover — slides in from top */
+.cigar-card {
+  border-left: 2px solid transparent;
+  background-image:
+    linear-gradient(var(--bg-card), var(--bg-card)),
+    linear-gradient(180deg, var(--gold) 0%, var(--gold-dark) 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.cigar-card:hover {
+  border-left-color: var(--gold);
+}
+
+/* Subtle texture/pattern on card background — very faint diagonal weave */
+.cigar-card {
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      transparent 0px,
+      transparent 3px,
+      rgba(201,168,76,0.012) 3px,
+      rgba(201,168,76,0.012) 4px
+    ),
+    linear-gradient(var(--bg-card), var(--bg-card));
+}
+.cigar-card:hover {
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      transparent 0px,
+      transparent 3px,
+      rgba(201,168,76,0.02) 3px,
+      rgba(201,168,76,0.02) 4px
+    ),
+    linear-gradient(var(--bg-card-h), var(--bg-card-h));
+}
+
+/* Limited badge — animated pulse glow */
+.limited-badge {
+  animation: limitedPulse 2.5s ease-in-out infinite;
+  box-shadow: 0 0 0 rgba(201,168,76,0);
+}
+@keyframes limitedPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(201,168,76,0); }
+  50%      { box-shadow: 0 0 12px 2px rgba(201,168,76,0.25); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .limited-badge { animation: none; }
+}
+
+/* Wax-seal rating stamp — circular, gold gradient, subtle shadow */
+.card-rating-seal {
+  background: radial-gradient(circle at 35% 30%, var(--gold-light) 0%, var(--gold) 45%, var(--gold-dark) 100%) !important;
+  border: 1.5px solid var(--gold-dark) !important;
+  box-shadow:
+    inset 0 1px 2px rgba(255,255,255,0.2),
+    inset 0 -2px 4px rgba(0,0,0,0.3),
+    0 2px 6px rgba(0,0,0,0.3) !important;
+}
+.card-rating-seal .seal-num {
+  color: #2a1f0a !important;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.3);
+}
+.card-rating-seal .seal-label {
+  color: rgba(42,31,10,0.7) !important;
+}
+.cigar-card:hover .card-rating-seal {
+  box-shadow:
+    inset 0 1px 2px rgba(255,255,255,0.25),
+    inset 0 -2px 4px rgba(0,0,0,0.3),
+    0 0 16px rgba(201,168,76,0.4),
+    0 2px 8px rgba(0,0,0,0.3) !important;
+}
+
+/* ── WRAPPER COLOR DOT ────────────────────────────────────────── */
+.detail-value .wrapper-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+  border: 1px solid rgba(0,0,0,0.3);
+  box-shadow: 0 0 3px rgba(201,168,76,0.2);
+  flex-shrink: 0;
+}
+
+/* ── STRENGTH GRADIENT BAR ────────────────────────────────────── */
+.strength-bar {
+  flex: 1;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--bg-panel);
+  overflow: hidden;
+  position: relative;
+  border: 1px solid var(--border);
+}
+.strength-bar-fill {
+  height: 100%;
+  width: var(--strength-pct, 0%);
+  background: var(--strength-fill, var(--gold));
+  border-radius: 4px;
+  transition: width 0.4s cubic-bezier(0.4,0,0.2,1);
+  box-shadow: 0 0 6px rgba(201,168,76,0.3);
+}
+/* Keep strength-dots working for list-view cards that still use them */
+.strength-dots { display: flex; gap: 4px; flex: 1; }
+.strength-dot { height: 6px; flex: 1; border-radius: 3px; background: var(--bg-panel); transition: var(--transition); }
+.strength-dot.filled { background: var(--strength-val, var(--gold)); }
+
+/* ── DESCRIPTION PREVIEW ──────────────────────────────────────── */
+.card-desc-preview {
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: 0;
+  max-height: 0;
+  transition: opacity 0.3s ease, max-height 0.3s ease, margin-bottom 0.3s ease;
+}
+.cigar-card:hover .card-desc-preview,
+.cigar-card:focus-visible .card-desc-preview {
+  opacity: 1;
+  max-height: 20px;
+}
+
+/* ── QUICK PAIRING PREVIEW ────────────────────────────────────── */
+.card-pairings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+.card-pairing-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 9px;
+  padding: 2px 7px;
+  border-radius: 10px;
+  background: rgba(201,168,76,0.05);
+  border: 1px solid rgba(201,168,76,0.12);
+  color: var(--text-muted);
+  white-space: nowrap;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-pairing-chip .pairing-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+}
+
+/* ── IMAGE ZOOM ON HOVER ──────────────────────────────────────── */
+.card-img {
+  transition: transform 0.3s ease;
+}
+.cigar-card:hover .card-img {
+  transform: scale(1.05);
+}
+
+/* ── ACCESSIBLE FOCUS STATES ──────────────────────────────────── */
+.cigar-card:focus-visible {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow:
+    var(--shadow-card),
+    0 0 0 2px var(--gold),
+    0 0 20px rgba(201,168,76,0.2);
+}
+.cigar-card:focus-visible .card-desc-preview {
+  opacity: 1;
+  max-height: 20px;
+}
+
+/* ── 3D TILT (enhances existing body.js-tilt) ─────────────────── */
+body.js-tilt .cigar-card {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+body.js-tilt .cigar-card .card-name,
+body.js-tilt .cigar-card .card-brand,
+body.js-tilt .cigar-card .card-rating-seal,
+body.js-tilt .cigar-card .card-header,
+body.js-tilt .cigar-card .strength-row,
+body.js-tilt .cigar-card .card-details,
+body.js-tilt .cigar-card .flavor-tags,
+body.js-tilt .cigar-card .card-pairings,
+body.js-tilt .cigar-card .card-sizes {
+  transform: translateZ(15px);
+}
+
+/* ── CARD PERFORMANCE ─────────────────────────────────────────── */
+.cigar-card {
+  content-visibility: auto;
+  contain-intrinsic-size: 420px 480px;
+}

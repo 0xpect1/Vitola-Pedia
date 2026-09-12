@@ -35,6 +35,52 @@ const ORIGIN_FLAGS = {
   'Guatemala': '🇬🇹'
 };
 
+// ── WRAPPER COLOR DOTS ──────────────────────────────────────────
+const WRAPPER_COLORS = {
+  'connecticut': '#8b7355',
+  'connecticut broadleaf': '#4a3020',
+  'connecticut shade': '#c4a87a',
+  'habano': '#a05530',
+  'maduro': '#3d2817',
+  'cameroon': '#7a5c3a',
+  'corojo': '#8b3a2a',
+  'sumatra': '#6b4e2e',
+  'criollo': '#9c6b3f',
+  'broadleaf': '#4a3020',
+  'shade': '#c4a87a'
+};
+
+// ── PAIRING ICONS ───────────────────────────────────────────────
+const PAIRING_ICONS = {
+  'bourbon': '🥃', 'whiskey': '🥃', 'whisky': '🥃', 'scotch': '🥃',
+  'cognac': '🥃', 'brandy': '🥃', 'rum': '🥃', 'single malt': '🥃',
+  'coffee': '☕', 'espresso': '☕', 'cafecito': '☕', 'cuban coffee': '☕',
+  'chocolate': '🍫', 'dark chocolate': '🍫',
+  'wine': '🍷', 'port': '🍷', 'sherry': '🍷', 'champagne': '🥂',
+  'beer': '🍺', 'ale': '🍺', 'stout': '🍺',
+  'tea': '🍵',
+  'cheese': '🧀', 'manchego': '🧀',
+  'cigar': '🚬',
+  'none': '·'
+};
+
+function pairingIconFor(pairing) {
+  const p = (pairing || '').toLowerCase();
+  for (const key of Object.keys(PAIRING_ICONS)) {
+    if (p.includes(key)) return PAIRING_ICONS[key];
+  }
+  return '🥃';
+}
+
+function wrapperColorFor(wrapper) {
+  const w = (wrapper || '').toLowerCase()
+    .replace(/ecudorian |icuraguan |onduran |uban /gi, '').trim();
+  for (const key of Object.keys(WRAPPER_COLORS)) {
+    if (w.includes(key)) return WRAPPER_COLORS[key];
+  }
+  return '#6b4e2e';
+}
+
 // ── FLAVOR ICONS ────────────────────────────────────────────────
 const FLAVOR_ICONS = {
   'Espresso': '☕', 'Coffee': '☕', 'Dark Coffee': '☕', 'Roasted Coffee': '☕', 'Mild Coffee': '☕',
@@ -164,10 +210,9 @@ function getFiltered() {
 // ── CARD RENDERER ────────────────────────────────────────────────
 function renderCard(cigar, index) {
   const sc = strengthConfig(cigar.strength);
-  const dots = Array.from({ length: 5 }, (_, i) => {
-    const filled = i < cigar.strength;
-    return `<div class="strength-dot${filled ? ' filled' : ''}" style="${filled ? `--strength-val:${sc.color}` : ''}"></div>`;
-  }).join('');
+  const strengthPct = (cigar.strength / 5) * 100;
+  // strength bar: fill from left with a gradient from strength-1 to the current strength color
+  const strengthGrad = `linear-gradient(90deg, ${STRENGTH_CONFIG[1].color} 0%, ${sc.color} 100%)`;
 
   const topFlavors = cigar.flavors.slice(0, 4).map(f =>
     `<span class="flavor-tag">${f}</span>`
@@ -190,7 +235,26 @@ function renderCard(cigar, index) {
     </div>` : '';
 
   const cardImg = cigar.image
-    ? `<div class="card-img-wrap"><img class="card-img" src="${cigar.image}" alt="${cigar.name}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`
+    ? `<div class="card-img-wrap"><img class="card-img" src="${cigar.image}" alt="${cigar.name}" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>`
+    : '';
+
+  // wrapper color dot + name
+  const wrapperColor = wrapperColorFor(cigar.wrapper);
+  const wrapperClean = cigar.wrapper.replace(/Ecuadorian |Nicaraguan |Honduran |Cuban /gi, '').trim();
+  const wrapperDot = `<span class="wrapper-dot" style="background:${wrapperColor}" title="${wrapperClean} wrapper"></span>`;
+
+  // combined ring gauge × length spec
+  const specCombined = `${cigar.ringGauge} × ${cigar.length}"`;
+
+  // quick pairing preview — first 2-3 pairings as small icon badges
+  const topPairings = (cigar.pairings || []).slice(0, 3).map(p =>
+    `<span class="card-pairing-chip" title="${p.replace(/"/g, '&quot;')}">${pairingIconFor(p)}<span class="pairing-label">${p.split('(')[0].trim().split(' ').slice(0,2).join(' ')}</span></span>`
+  ).join('');
+  const pairingRow = topPairings ? `<div class="card-pairings">${topPairings}</div>` : '';
+
+  // 1-line description preview (truncated)
+  const descPreview = cigar.description
+    ? `<div class="card-desc-preview" title="${cigar.description.replace(/"/g, '&quot;').slice(0,120)}…">${cigar.description.slice(0,110)}</div>`
     : '';
 
   const inCompare = compareList.includes(cigar.id);
@@ -215,19 +279,22 @@ function renderCard(cigar, index) {
       </div>
       <div class="card-name">${cigar.name}</div>
       <div class="card-brand">${cigar.brand}</div>
+      ${descPreview}
       <div class="strength-row">
         <span class="strength-label">Strength</span>
-        <div class="strength-dots">${dots}</div>
+        <div class="strength-bar" style="--strength-fill:${strengthGrad};--strength-pct:${strengthPct}%">
+          <div class="strength-bar-fill"></div>
+        </div>
         <span class="strength-text" style="color:${sc.color}">${sc.label}</span>
       </div>
       <div class="card-details">
         <div class="detail-item">
           <span class="detail-label">Wrapper</span>
-          <span class="detail-value">${cigar.wrapper.replace(/Ecuadorian |Nicaraguan |Honduran |Cuban /gi, '').trim()}</span>
+          <span class="detail-value">${wrapperDot}${wrapperClean}</span>
         </div>
         <div class="detail-item">
-          <span class="detail-label">Size</span>
-          <span class="detail-value">${cigar.size}</span>
+          <span class="detail-label">Spec</span>
+          <span class="detail-value">${specCombined}</span>
         </div>
         <div class="detail-item">
           <span class="detail-label">Smoke Time</span>
@@ -239,6 +306,7 @@ function renderCard(cigar, index) {
         </div>
       </div>
       <div class="flavor-tags">${topFlavors}</div>
+      ${pairingRow}
       ${cardSizesRow}
     </article>
   `;
