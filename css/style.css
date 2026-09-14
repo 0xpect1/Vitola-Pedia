@@ -2162,6 +2162,68 @@ body.site-entered .site-footer {
 }
 
 /* ══════════════════════════════════════════════════════════════════
+   STICKY MOBILE CTA BAR
+═══════════════════════════════════════════════════════════════════ */
+.mobile-cta-bar {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 250;
+  background: rgba(13, 11, 9, 0.96);
+  backdrop-filter: blur(20px);
+  border-top: 1px solid var(--border-h);
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
+  animation: slideUp 0.25s ease;
+}
+.mobile-cta-bar.hidden { display: none !important; }
+.mobile-cta-inner {
+  display: flex;
+  gap: 10px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.mcta-btn {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-radius: var(--radius-lg);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: var(--font-sans);
+  border: none;
+}
+.mcta-btn svg { width: 17px; height: 17px; flex-shrink: 0; }
+.mcta-browse {
+  background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+  color: var(--bg-deep);
+  box-shadow: 0 2px 12px rgba(201,168,76,0.25);
+}
+.mcta-browse:hover { transform: translateY(-1px); box-shadow: 0 4px 18px rgba(201,168,76,0.35); }
+.mcta-scan {
+  background: var(--bg-card);
+  color: var(--gold);
+  border: 1px solid var(--gold);
+}
+.mcta-scan:hover { background: var(--gold-glow); box-shadow: 0 0 16px rgba(201,168,76,0.18); }
+
+/* Body padding so sticky CTA doesn't cover footer content */
+body.has-mobile-cta .site-footer { padding-bottom: 72px; }
+
+@media (max-width: 768px) {
+  .mobile-cta-bar { display: block; }
+  /* Hide sticky CTA when compare tray is visible */
+  body.compare-tray-open .mobile-cta-bar { display: none; }
+}
+
+/* ══════════════════════════════════════════════════════════════════
    RESPONSIVE
 ═══════════════════════════════════════════════════════════════════ */
 @media (max-width: 1024px) {

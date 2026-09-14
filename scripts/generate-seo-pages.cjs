@@ -160,7 +160,7 @@ function buildCigarPage(c) {
   const image      = c.image || OG_FALLBACK;
   const flavors    = (c.flavors || []).join(', ');
   const pairings   = (c.pairings || []).join(', ');
-  const description = `${c.name} by ${c.brand}. ${strengthWord(c.strength)} ${c.origin} cigar with ${flavors || 'complex'} flavor notes. ${c.smokingTime} min smoke. Rated ${c.rating}/100. From $${c.price}.`;
+  const description = `${c.name} by ${c.brand}: ${c.origin} ${c.wrapper} wrapper, ${strengthLabel(c.strength)} strength, ${c.rating} rating. Full tasting notes, flavor profile, and pairings.`;
 
   // JSON-LD: Product + AggregateRating
   const jsonLd = {
@@ -203,7 +203,7 @@ function buildCigarPage(c) {
   }
 
   const brandSlug = slug(c.brand);
-  const title = `${c.name} — Review, Flavors & Stats | Vitola Pedia`;
+  const title = `${c.name} by ${c.brand} — Review, Flavors & Pairings | Vitola Pedia`;
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -263,7 +263,7 @@ function buildBrandPage(brand, brandSlug, cigarList) {
   const prices          = cigarList.map(c => c.price).sort((a, b) => a - b);
   const priceMin        = prices[0];
   const priceMax        = prices[prices.length - 1];
-  const description     = `${brand} cigars from ${origins}. ${count} cigars in the encyclopedia. Browse the full range, reviews, and flavor profiles. Average rating ${avgRating}/100. Prices from $${priceMin} to $${priceMax}.`;
+  const description     = `Browse all ${brand} cigars in the Vitola Pedia encyclopedia. Reviews, ratings, flavor profiles, and where to buy.`;
 
   // Aggregate flavor data
   const flavorCount = {};
@@ -292,7 +292,7 @@ function buildBrandPage(brand, brandSlug, cigarList) {
 
   const years = cigarList.map(c => c.yearFounded).filter(Boolean);
   const founded = years.length ? Math.min(...years) : null;
-  const title = `${brand} Cigars — History, Lines & Reviews | Vitola Pedia`;
+  const title = `${brand} Cigars — Complete Guide & Reviews | Vitola Pedia`;
 
   return `<!DOCTYPE html>
 <html lang="en">
