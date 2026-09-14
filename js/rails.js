@@ -79,7 +79,7 @@
       <button class="rail-card" data-id="${esc(c.id)}">
         <span class="rail-img">
           ${c.image
-            ? `<img src="${esc(c.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+            ? `<img src="${esc(c.image)}" alt="${esc(c.name)} by ${esc(c.brand)}" loading="lazy" onerror="this.style.display='none'">`
             : (typeof VPIcons!=='undefined'?`<span class="rail-noimg">${VPIcons.get('cigar')}</span>`:'<span class="rail-noimg"></span>')}
         </span>
         <span class="rail-body">

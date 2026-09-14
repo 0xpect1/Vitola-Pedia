@@ -307,7 +307,7 @@
             return `
               <button class="sim-card" onclick="openModal('${esc(c.id)}')">
                 ${c.image
-                  ? `<img class="sim-img" src="${esc(c.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+                  ? `<img class="sim-img" src="${esc(c.image)}" alt="${esc(c.name)} by ${esc(c.brand)}" loading="lazy" onerror="this.style.display='none'">`
                   : `<span class="sim-noimg">🚬</span>`}
                 <span class="sim-body">
                   <span class="sim-name">${esc(c.name)}</span>

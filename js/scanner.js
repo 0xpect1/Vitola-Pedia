@@ -433,7 +433,7 @@
       `;
 
       const imgHTML = c.image
-        ? `<img src="${esc(c.image)}" style="width:50px;height:70px;object-fit:cover;border-radius:4px;flex-shrink:0;" onerror="this.style.display='none'">`
+        ? `<img src="${esc(c.image)}" alt="${esc(c.name)} by ${esc(c.brand)}" style="width:50px;height:70px;object-fit:cover;border-radius:4px;flex-shrink:0;" onerror="this.style.display='none'">`
         : '<div style="width:50px;height:70px;background:rgba(201,148,58,0.1);border-radius:4px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:20px;">🚬</div>';
 
       card.innerHTML = `
@@ -531,7 +531,7 @@
         border-radius:8px;cursor:pointer;transition:all 0.2s;
       `;
       const imgHTML = scan.image
-        ? `<img src="${esc(scan.image)}" style="width:40px;height:56px;object-fit:cover;border-radius:4px;flex-shrink:0;" onerror="this.style.display='none'">`
+        ? `<img src="${esc(scan.image)}" alt="${esc(scan.name || 'Cigar scan result')}" style="width:40px;height:56px;object-fit:cover;border-radius:4px;flex-shrink:0;" onerror="this.style.display='none'">`
         : '<div style="width:40px;height:56px;background:rgba(201,148,58,0.1);border-radius:4px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:16px;">🚬</div>';
 
       const timeAgo = getTimeAgo(scan.timestamp);

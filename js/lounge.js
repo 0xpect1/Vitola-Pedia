@@ -666,7 +666,7 @@
           <button class="lg-pop-card" data-open="${esc(t.type || 'cigar')}:${esc(t.id)}">
             <span class="lg-pop-rank">${i + 1}</span>
             ${t.item.image
-              ? `<img src="${esc(t.item.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+              ? `<img src="${esc(t.item.image)}" alt="${esc(t.item.name)} by ${esc(t.item.brand)}" loading="lazy" onerror="this.style.display='none'">`
               : `<span class="lg-pop-noimg">${t.type === 'pipe' ? '🪈' : '🚬'}</span>`}
             <span class="lg-pop-body">
               <span class="lg-pop-name">${esc(t.item.name)}</span>
@@ -861,7 +861,7 @@
             <section class="lg-prof-now">
               <span class="lg-prof-label">Burning now</span>
               <button class="lg-prof-item"${live.itemId ? ` data-open="${esc(live.itemType || 'cigar')}:${esc(live.itemId)}"` : ''}>
-                ${it && it.image ? `<img src="${esc(it.image)}" alt="" onerror="this.style.display='none'">` : '<span class="lg-prof-noimg">🚬</span>'}
+                ${it && it.image ? `<img src="${esc(it.image)}" alt="${esc(live.itemName || (it && it.name) || 'cigar')}${it && it.brand ? ' by ' + esc(it.brand) : ''}" onerror="this.style.display='none'">` : '<span class="lg-prof-noimg">🚬</span>'}
                 <span>
                   <strong>${esc(live.itemName || (it && it.name) || '—')}</strong>
                   <em>${it ? esc(it.brand) + ' · ' : ''}lit ${elapsed(live.startedAt)}</em>
@@ -905,7 +905,7 @@
           <div class="lg-prof-tops">
             ${topCigars.map(t => `
               <button class="lg-prof-top" data-open="cigar:${esc(t.item.id)}">
-                ${t.item.image ? `<img src="${esc(t.item.image)}" alt="" loading="lazy" onerror="this.style.display='none'">` : '<span class="lg-prof-noimg">🚬</span>'}
+                ${t.item.image ? `<img src="${esc(t.item.image)}" alt="${esc(t.item.name)} by ${esc(t.item.brand)}" loading="lazy" onerror="this.style.display='none'">` : '<span class="lg-prof-noimg">🚬</span>'}
                 <span>
                   <strong>${esc(t.item.name)}</strong>
                   <em>${esc(t.item.brand)}${t.n > 1 ? ` · ${t.n} times` : ''}</em>
@@ -1132,7 +1132,7 @@
           </div>
           <div class="lg-sess-item">
             ${item && item.image
-              ? `<img src="${esc(item.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+              ? `<img src="${esc(item.image)}" alt="${esc(s.itemName || (item && item.name) || 'cigar')}${item && item.brand ? ' by ' + esc(item.brand) : ''}" loading="lazy" onerror="this.style.display='none'">`
               : `<span class="lg-sess-noimg">${s.itemType === 'pipe' ? '🪈' : '🚬'}</span>`}
             <div>
               <div class="lg-sess-item-name">${esc(s.itemName || (item && item.name) || '—')}</div>
@@ -1835,7 +1835,7 @@
           ${item ? `
             <button class="lg-post-item" data-open-item="${esc(p.itemType || 'cigar')}:${esc(p.itemId)}">
               ${item.image
-                ? `<img src="${esc(item.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+                ? `<img src="${esc(item.image)}" alt="${esc(item.name)} by ${esc(item.brand)}" loading="lazy" onerror="this.style.display='none'">`
                 : `<span class="lg-pi-noimg">${p.itemType === 'pipe' ? '🪈' : '🚬'}</span>`}
               <span>
                 <strong>${esc(item.name)}</strong>

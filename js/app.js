@@ -235,7 +235,7 @@ function renderCard(cigar, index) {
     </div>` : '';
 
   const cardImg = cigar.image
-    ? `<div class="card-img-wrap"><img class="card-img" src="${cigar.image}" alt="${cigar.name}" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>`
+    ? `<div class="card-img-wrap"><img class="card-img" src="${cigar.image}" alt="${cigar.name} by ${cigar.brand}" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>`
     : '';
 
   // wrapper color dot + name
@@ -504,7 +504,7 @@ function openModal(id) {
   const limitedBadge = cigar.limited ? `<span class="modal-badge limited">Limited Release</span>` : '';
 
   const modalImg = cigar.image
-    ? `<div class="modal-hero-img-wrap"><img class="modal-hero-img" src="${cigar.image}" alt="${cigar.name}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`
+    ? `<div class="modal-hero-img-wrap"><img class="modal-hero-img" src="${cigar.image}" alt="${cigar.name} — ${cigar.origin} cigar" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`
     : '';
 
   $modalBody.innerHTML = `
@@ -938,7 +938,7 @@ function renderPTCard(pt, index) {
   const topFlavors = pt.flavors.slice(0, 4).map(f => `<span class="flavor-tag">${f}</span>`).join('');
 
   const cardImg = pt.image
-    ? `<div class="card-img-wrap"><img class="card-img" src="${pt.image}" alt="${pt.name}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`
+    ? `<div class="card-img-wrap"><img class="card-img" src="${pt.image}" alt="${pt.name} pipe tobacco" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`
     : '';
 
   return `
@@ -1031,7 +1031,7 @@ function openPTModal(id) {
   ).join('');
 
   const modalImg = pt.image
-    ? `<div class="modal-hero-img-wrap"><img class="modal-hero-img" src="${pt.image}" alt="${pt.name}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`
+    ? `<div class="modal-hero-img-wrap"><img class="modal-hero-img" src="${pt.image}" alt="${pt.name} — ${pt.origin} pipe tobacco" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`
     : '';
 
   $modalBody.innerHTML = `

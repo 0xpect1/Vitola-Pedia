@@ -260,7 +260,7 @@
           <div class="house-signature">
             <span class="house-sig-label">House benchmark</span>
             <button class="house-sig-card" onclick="openModal('${esc(h.best.id)}')">
-              ${h.best.image ? `<img src="${esc(h.best.image)}" alt="" loading="lazy" onerror="this.style.display='none'">` : '<span class="house-sig-noimg">🚬</span>'}
+              ${h.best.image ? `<img src="${esc(h.best.image)}" alt="${esc(h.best.name)} by ${esc(h.brand)}" loading="lazy" onerror="this.style.display='none'">` : '<span class="house-sig-noimg">🚬</span>'}
               <span>
                 <strong>${esc(h.best.name)}</strong>
                 <em>${h.best.rating} pts · ${esc(h.best.size)} · $${h.best.price.toFixed(2)}</em>

@@ -152,7 +152,7 @@
     body.innerHTML = `
       <div class="jn-form">
         <div class="jn-form-item">
-          ${item.image ? `<img src="${esc(item.image)}" alt="" onerror="this.style.display='none'">`
+          ${item.image ? `<img src="${esc(item.image)}" alt="${esc(item.name)}${item.brand ? ' by ' + esc(item.brand) : ''}" onerror="this.style.display='none'">`
                        : `<span class="jn-form-noimg">${type === 'pipe' ? '🪈' : '🚬'}</span>`}
           <div>
             <strong>${esc(item.name)}</strong>
@@ -296,7 +296,7 @@
       return `
         <article class="jn-entry">
           <button class="jn-entry-img" data-open="${esc(e.type)}:${esc(e.itemId)}" aria-label="Open ${esc(item.name)}">
-            ${item.image ? `<img src="${esc(item.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+            ${item.image ? `<img src="${esc(item.image)}" alt="${esc(item.name)}${item.brand ? ' by ' + esc(item.brand) : ''}" loading="lazy" onerror="this.style.display='none'">`
                          : `<span>${e.type === 'pipe' ? '🪈' : '🚬'}</span>`}
           </button>
           <div class="jn-entry-main">
@@ -406,7 +406,7 @@
         <section class="jn-panel jn-best">
           <h3>Your Highest Scored</h3>
           <button class="jn-best-card" data-open="${esc(p.best.e.type)}:${esc(p.best.e.itemId)}">
-            ${p.best.item.image ? `<img src="${esc(p.best.item.image)}" alt="" onerror="this.style.display='none'">` : '<span class="jn-best-noimg">🚬</span>'}
+            ${p.best.item.image ? `<img src="${esc(p.best.item.image)}" alt="${esc(p.best.item.name)} by ${esc(p.best.item.brand)}" onerror="this.style.display='none'">` : '<span class="jn-best-noimg">🚬</span>'}
             <span>
               <strong>${esc(p.best.item.name)}</strong>
               <em>${esc(p.best.item.brand)} · you gave it ${p.best.e.rating}</em>

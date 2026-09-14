@@ -142,7 +142,7 @@
       <li>
         <button class="cp-row${i === cursor ? ' active' : ''}" data-i="${i}">
           <span class="cp-icon">${r.img
-            ? `<img src="${esc(r.img)}" alt="" loading="lazy" onerror="this.replaceWith(document.createTextNode('🚬'))">`
+            ? `<img src="${esc(r.img)}" alt="${esc(r.label)}" loading="lazy" onerror="this.replaceWith(document.createTextNode('🚬'))">`
             : (r.icon || '🚬')}</span>
           <span class="cp-text">
             <span class="cp-label">${esc(r.label)}</span>

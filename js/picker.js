@@ -339,7 +339,7 @@
 
       <button class="pk-hero" data-open="${esc(top.c.id)}">
         ${top.c.image
-          ? `<img src="${esc(top.c.image)}" alt="" onerror="this.style.display='none'">`
+          ? `<img src="${esc(top.c.image)}" alt="${esc(top.c.name)} by ${esc(top.c.brand)}" onerror="this.style.display='none'">`
           : `<span class="pk-hero-noimg">${ic('cigar')}</span>`}
         <span class="pk-hero-stats">
           <span><b>${top.c.rating}</b><i>rating</i></span>
@@ -378,7 +378,7 @@
           <span class="pk-why-label">Also worth your time</span>
           ${rest.map(r => `
             <button class="pk-alt" data-open="${esc(r.c.id)}">
-              ${r.c.image ? `<img src="${esc(r.c.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+              ${r.c.image ? `<img src="${esc(r.c.image)}" alt="${esc(r.c.name)} by ${esc(r.c.brand)}" loading="lazy" onerror="this.style.display='none'">`
                           : `<span class="pk-alt-noimg">${ic('cigar')}</span>`}
               <span class="pk-alt-body">
                 <span class="pk-alt-name">${esc(r.c.name)}</span>
