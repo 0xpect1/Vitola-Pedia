@@ -613,6 +613,7 @@
         input.value = '';
         try { await BE.sendChat(body); } catch (err) { console.error(err); }
         renderChat(true);
+        if (typeof window.vpToast === 'function') vpToast('Message sent to the lounge');
       });
     });
 

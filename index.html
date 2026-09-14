@@ -2212,5 +2212,104 @@
     })();
   </script>
 
+<!-- ░░ STICKY MOBILE CTA + CONFIRMATION TOASTS ░░░░░░░░░░░░░░░░░░ -->
+  <script>
+    (function() {
+      var ctaBar = document.getElementById('mobileCtaBar');
+      var browseBtn = document.getElementById('mctaBrowse');
+      var scanBtn = document.getElementById('mctaScan');
+      var compareTray = document.getElementById('compareTray');
+
+      // Mark body so footer padding applies on mobile
+      if (ctaBar && window.matchMedia('(max-width: 768px)').matches) {
+        document.body.classList.add('has-mobile-cta');
+      }
+
+      // Browse Cigars: switch to library and scroll to the grid
+      if (browseBtn) {
+        browseBtn.addEventListener('click', function() {
+          if (typeof switchView === 'function') switchView('library');
+          var grid = document.getElementById('cigarsGrid');
+          var resultsBar = document.querySelector('.results-bar');
+          var target = resultsBar || grid;
+          if (target) {
+            setTimeout(function() {
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 100);
+          }
+        });
+      }
+
+      // Scan Cigar: open the scanner
+      if (scanBtn) {
+        scanBtn.addEventListener('click', function() {
+          if (typeof VPScanner !== 'undefined' && VPScanner.open) {
+            VPScanner.open();
+          }
+        });
+      }
+
+      // Hide sticky CTA when compare tray is visible (and vice versa)
+      function syncCompareTray() {
+        if (!compareTray) return;
+        var isOpen = !compareTray.classList.contains('hidden');
+        document.body.classList.toggle('compare-tray-open', isOpen);
+      }
+      // Check on load and observe mutations
+      syncCompareTray();
+      if (compareTray && typeof MutationObserver !== 'undefined') {
+        new MutationObserver(syncCompareTray).observe(compareTray, {
+          attributes: true, attributeFilter: ['class']
+        });
+      }
+
+      // Confirmation toast helper (for lounge chat + cellar saves)
+      window.vpToast = function(message, opts) {
+        opts = opts || {};
+        var existing = document.getElementById('vpToast');
+        if (existing) existing.remove();
+        var t = document.createElement('div');
+        t.id = 'vpToast';
+        t.textContent = message;
+        t.style.cssText = [
+          'position:fixed', 'bottom:84px', 'left:50%', 'transform:translateX(-50%)',
+          'background:rgba(30,25,18,0.97)', 'color:#e0c070',
+          'border:1px solid rgba(201,168,76,0.4)',
+          'border-radius:12px', 'padding:10px 22px',
+          'font-family:Inter,system-ui,sans-serif', 'font-size:13px', 'font-weight:500',
+          'z-index:9999', 'box-shadow:0 4px 24px rgba(0,0,0,0.4)',
+          'opacity:0', 'transition:opacity 0.25s ease, transform 0.25s ease',
+          'pointer-events:none', 'max-width:90vw', 'text-align:center',
+          'white-space:nowrap', 'overflow:hidden', 'text-overflow:ellipsis'
+        ].join(';');
+        document.body.appendChild(t);
+        requestAnimationFrame(function() {
+          t.style.opacity = '1';
+          t.style.transform = 'translateX(-50%) translateY(-4px)';
+        });
+        setTimeout(function() {
+          t.style.opacity = '0';
+          t.style.transform = 'translateX(-50%)';
+          setTimeout(function() { if (t.parentNode) t.remove(); }, 300);
+        }, opts.duration || 2200);
+      };
+
+      // Cellar save confirmation: hook into toggleCellar
+      var origToggleCellar = window.toggleCellar;
+      if (typeof origToggleCellar === 'function') {
+        window.toggleCellar = function(id, e) {
+          var wasIn = typeof isInCellar === 'function' && isInCellar(id);
+          origToggleCellar(id, e);
+          var nowIn = typeof isInCellar === 'function' && isInCellar(id);
+          if (!wasIn && nowIn) {
+            vpToast('Saved to your Cellar');
+          } else if (wasIn && !nowIn) {
+            vpToast('Removed from Cellar');
+          }
+        };
+      }
+    })();
+  </script>
+
 </body>
 </html>
