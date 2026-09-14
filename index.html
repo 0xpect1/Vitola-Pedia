@@ -2014,8 +2014,67 @@
     </div>
     <div class="footer-bottom">
       <p>© 2025 Vitola Pedia — For enthusiasts, by enthusiasts. Must be 21+ to purchase tobacco products.</p>
+      <p class="footer-legal-links"><a href="privacy-policy.html">Privacy Policy</a> · <a href="terms.html">Terms &amp; Conditions</a></p>
     </div>
   </footer>
+
+  <!-- ░░ COOKIE CONSENT BANNER ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+  <div class="cookie-banner" id="cookieBanner" hidden>
+    <div class="cookie-banner-inner">
+      <p class="cookie-banner-text">We use cookies to improve your experience and analyze traffic. Read our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+      <div class="cookie-banner-actions">
+        <button class="cookie-btn-decline" id="cookieDecline">Decline</button>
+        <button class="cookie-btn-accept" id="cookieAccept">Accept</button>
+      </div>
+    </div>
+  </div>
+  <style>
+    .footer-legal-links a { color: var(--gold); font-size: 0.85rem; opacity: 0.8; }
+    .footer-legal-links a:hover { opacity: 1; }
+    .cookie-banner {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+      background: rgba(18, 15, 11, 0.97);
+      border-top: 1px solid var(--border-h);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      animation: cookieSlideUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .cookie-banner[hidden] { display: none; }
+    @keyframes cookieSlideUp {
+      from { transform: translateY(100%); opacity: 0; }
+      to   { transform: translateY(0);     opacity: 1; }
+    }
+    .cookie-banner-inner {
+      max-width: 960px; margin: 0 auto;
+      padding: 1rem 1.5rem;
+      display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;
+    }
+    .cookie-banner-text {
+      flex: 1; min-width: 240px;
+      font-family: var(--font-sans); font-size: 0.9rem; line-height: 1.5;
+      color: var(--text-secondary); margin: 0;
+    }
+    .cookie-banner-text a { color: var(--gold); border-bottom: 1px solid var(--border-h); }
+    .cookie-banner-actions { display: flex; gap: 0.6rem; flex-shrink: 0; }
+    .cookie-btn-accept, .cookie-btn-decline {
+      padding: 0.6rem 1.3rem; border-radius: var(--radius-sm);
+      font-family: var(--font-sans); font-size: 0.88rem; font-weight: 500;
+      cursor: pointer; transition: var(--transition); border: none;
+    }
+    .cookie-btn-accept {
+      background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+      color: #1a1209; font-weight: 600;
+    }
+    .cookie-btn-accept:hover { filter: brightness(1.12); transform: translateY(-1px); }
+    .cookie-btn-decline {
+      background: var(--bg-card); color: var(--text-secondary);
+      border: 1px solid var(--border-h);
+    }
+    .cookie-btn-decline:hover { color: var(--text-primary); border-color: var(--gold); }
+    @media (max-width: 600px) {
+      .cookie-banner-inner { flex-direction: column; align-items: stretch; }
+      .cookie-banner-actions { justify-content: flex-end; }
+    }
+  </style>
 
   <script src="js/data.js?v=25815" defer></script>
   <script src="js/pipe_tobacco_data.js" defer></script>
@@ -2101,6 +2160,31 @@
       </div>
     </div>
   </div>
+
+<!-- ░░ COOKIE CONSENT LOGIC ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+  <script>
+    (function() {
+      var KEY = 'cookieConsent';
+      var banner = document.getElementById('cookieBanner');
+      var acceptBtn = document.getElementById('cookieAccept');
+      var declineBtn = document.getElementById('cookieDecline');
+
+      // Only show if no choice has been stored yet
+      var stored;
+      try { stored = localStorage.getItem(KEY); } catch (e) { stored = null; }
+      if (stored === null && banner) {
+        banner.hidden = false;
+      }
+
+      function setConsent(value) {
+        try { localStorage.setItem(KEY, value); } catch (e) {}
+        if (banner) banner.hidden = true;
+      }
+
+      if (acceptBtn) acceptBtn.addEventListener('click', function() { setConsent('accepted'); });
+      if (declineBtn) declineBtn.addEventListener('click', function() { setConsent('declined'); });
+    })();
+  </script>
 
 </body>
 </html>
