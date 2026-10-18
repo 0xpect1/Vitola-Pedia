@@ -18,6 +18,13 @@
   let openPostId = null;
   let tickTimer = null;
 
+  // Lounge owns three intervals and a set of realtime subscriptions. They
+  // only run while the lounge is the active view and are torn down on page
+  // unload, so a visitor who never opens the lounge pays nothing and the
+  // Supabase realtime channel is explicitly removed on exit.
+  let loungeSubs = [];                         // BE.on() unsubscribe handles
+  let loungeTimers = { presence: null, navBadge: null, terminator: null };
+
   const FLAIRS = [
     { id: 'review',  label: 'Review',      color: '#c9a84c' },
     { id: 'pairing', label: 'Pairing',     color: '#7fc99e' },
@@ -2321,8 +2328,8 @@
     if (!_isAdmin && !(await refreshAdmin())) return;
 
     let reports = [], bans = [];
-    try { reports = await BE.listReports(); } catch (e) {}
-    try { bans = await BE.listBans(); } catch (e) {}
+    try { reports = await BE.listReports(); } catch (e) { console.error('[lounge] listReports failed:', e); }
+    try { bans = await BE.listBans(); } catch (e) { console.error('[lounge] listBans failed:', e); }
 
     $('loungeModalLabel').textContent = 'Admin Dashboard';
     $('loungeBody').innerHTML = `
@@ -2478,6 +2485,33 @@
     badge.classList.toggle('hidden', n === 0);
   }
 
+  /* The three lounge intervals (presence re-announce, nav-badge refresh,
+     terminator redraw) used to start unconditionally in init() and run for
+     the whole visit even if the lounge was never opened. They now start
+     only when the lounge becomes the active view and stop when it's left.
+     teardownLounge() additionally drains the realtime subscriptions and
+     explicitly removeChannel's the Supabase channel via BE.destroy() on
+     page unload, so neither the listeners nor the socket dangle. */
+  function startLoungeTimers() {
+    stopLoungeTimers();
+    loungeTimers.presence   = setInterval(() => { if (me) ensureInRoom(); }, 20000);
+    loungeTimers.navBadge   = setInterval(updateNavBadge, 20000);
+    loungeTimers.terminator = setInterval(refreshTerminator, 120000);
+  }
+  function stopLoungeTimers() {
+    clearInterval(loungeTimers.presence);    loungeTimers.presence = null;
+    clearInterval(loungeTimers.navBadge);    loungeTimers.navBadge = null;
+    clearInterval(loungeTimers.terminator);  loungeTimers.terminator = null;
+  }
+  function teardownLounge() {
+    loungeSubs.forEach(u => { try { u(); } catch (e) {} });
+    loungeSubs = [];
+    stopLoungeTimers();
+    if (BE && typeof BE.destroy === 'function') {
+      try { BE.destroy(); } catch (e) {}
+    }
+  }
+
   async function init() {
     BE = await window.LoungeReady;
     me = await BE.getMe();
@@ -2489,9 +2523,11 @@
     await refresh();
     startTicker();
 
-    BE.on('presence', () => { renderPresence(); updateNavBadge(); });
-    BE.on('posts', () => renderFeed());
-    BE.on('chat', () => renderChat());
+    // Realtime subscriptions are tracked so teardownLounge() can revoke
+    // them on page unload instead of leaving the listeners wired forever.
+    loungeSubs.push(BE.on('presence', () => { renderPresence(); updateNavBadge(); }));
+    loungeSubs.push(BE.on('posts', () => renderFeed()));
+    loungeSubs.push(BE.on('chat', () => renderChat()));
 
     // Track whether the reader is parked at the bottom of the rail, so an
     // incoming message never yanks them out of scrollback.
@@ -2520,26 +2556,27 @@
     /* Opening the lounge should put you in the room. Joining only
        happened inside refresh(), so arriving via the nav left you present
        to yourself and invisible to everyone else until something else
-       triggered a refresh. */
+       triggered a refresh. The three lounge timers now follow the view:
+       they start when the lounge becomes active and stop when it's left,
+       so a visitor who never opens the lounge pays nothing. */
     const origSwitch = window.switchView;
     if (typeof origSwitch === 'function') {
       window.switchView = function (name) {
         const out = origSwitch.apply(this, arguments);
-        if (name === 'lounge') refresh();
+        if (name === 'lounge') { refresh(); startLoungeTimers(); }
+        else stopLoungeTimers();
         return out;
       };
     }
 
-    // Presence has a TTL, so re-announce periodically rather than trusting
-    // a single join to hold for the whole visit.
-    setInterval(() => { if (me) ensureInRoom(); }, 20000);
+    // If the lounge is already the active view on init, start the timers
+    // now; otherwise they start on the first switchView('lounge').
+    if (typeof state !== 'undefined' && state.currentView === 'lounge') startLoungeTimers();
 
-    // Keep the nav badge warm even when the lounge isn't the active view.
-    setInterval(updateNavBadge, 20000);
-
-    // The terminator moves ~0.25° of longitude a minute; redrawing every
-    // two minutes keeps it honest without any visible cost.
-    setInterval(refreshTerminator, 120000);
+    /* Tear everything down on page unload: revoke the realtime
+       subscriptions, stop the timers, and explicitly removeChannel the
+       Supabase realtime channel (BE.destroy) so the socket doesn't dangle. */
+    window.addEventListener('beforeunload', teardownLounge);
   }
 
   if (document.readyState === 'loading') {

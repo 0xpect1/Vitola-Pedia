@@ -153,6 +153,8 @@ button.brand {
   color: var(--text-secondary);
   transition: var(--transition);
   letter-spacing: 0.02em;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .nav-btn:hover { color: var(--gold-light); background: var(--gold-glow); }
 .nav-btn.active { color: var(--gold); background: var(--gold-glow); border: 1px solid var(--border-h); }
@@ -417,17 +419,17 @@ button.brand {
 
 .pill {
   padding: 5px 12px;
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-h);
   border-radius: 20px;
   font-size: 12px;
   font-weight: 500;
-  color: var(--text-secondary);
-  background: transparent;
+  color: var(--text-primary);
+  background: var(--bg-card);
   transition: var(--transition);
   white-space: nowrap;
 }
-.pill:hover { color: var(--gold-light); border-color: var(--border-h); background: var(--gold-glow); }
-.pill.active { color: var(--gold); border-color: var(--gold); background: var(--gold-glow); }
+.pill:hover { color: var(--gold-light); border-color: var(--gold-dark); background: var(--gold-glow); }
+.pill.active { color: var(--bg-base); border-color: var(--gold); background: var(--gold); font-weight: 600; }
 
 .filter-select {
   width: 100%;
@@ -585,6 +587,9 @@ button.brand {
   position: relative;
   overflow: hidden;
   animation: fadeSlideIn 0.35s ease both;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
 }
 @keyframes fadeSlideIn {
   from { opacity: 0; transform: translateY(16px); }
@@ -720,6 +725,7 @@ button.brand {
   flex-wrap: wrap;
   gap: 5px;
   margin-top: 4px;
+  min-height: 32px;
 }
 .flavor-tag {
   font-size: 10px;
@@ -1566,6 +1572,65 @@ button.brand {
 .guide-hero h1 em { font-style: italic; color: var(--gold-light); }
 .guide-hero p { font-family: var(--font-body); font-size: 18px; color: var(--text-secondary); }
 
+/* Guide TOC sidebar — sticky on-page section navigation */
+.guide-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 40px;
+  align-items: start;
+}
+.guide-toc {
+  position: sticky;
+  top: 88px;
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 18px 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  max-height: calc(100vh - 110px);
+  overflow-y: auto;
+}
+.guide-toc-title {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+.guide-toc a {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  border-left: 2px solid transparent;
+  transition: var(--transition);
+  line-height: 1.4;
+}
+.guide-toc a:hover {
+  color: var(--gold-light);
+  background: var(--gold-glow);
+  border-left-color: var(--gold);
+}
+.guide-section h2 { scroll-margin-top: 88px; }
+@media (max-width: 900px) {
+  .guide-layout { grid-template-columns: 1fr; gap: 0; }
+  .guide-toc {
+    position: static;
+    max-height: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 28px;
+    padding: 12px;
+  }
+  .guide-toc-title { width: 100%; margin-bottom: 4px; }
+  .guide-toc a { border-left: none; border-bottom: 2px solid transparent; padding: 5px 12px; }
+}
+
 .guide-section {
   margin-bottom: 60px;
   padding-bottom: 60px;
@@ -2316,7 +2381,10 @@ body.has-mobile-cta .site-footer { padding-bottom: 72px; }
   .hero { padding: 48px 16px 36px; }
   .hero-stats { gap: 0; flex-wrap: wrap; }
   .stat { padding: 0 16px; }
-  .header-nav .nav-btn { padding: 6px 12px; font-size: 12px; }
+  .header-nav .nav-btn { padding: 6px 12px; font-size: 12px; white-space: nowrap; flex-shrink: 0; }
+  .header-nav { overflow-x: auto; flex-wrap: nowrap; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .header-nav::-webkit-scrollbar { display: none; }
+  .header-inner { gap: 12px; }
   .brand-tagline { display: none; }
   .cigars-grid { grid-template-columns: 1fr; }
   .modal-body { padding: 20px; }

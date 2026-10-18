@@ -146,7 +146,7 @@
     }
 
     function broadcast(evt) {
-      if (chan) { try { chan.postMessage({ evt }); } catch (e) {} }
+      if (chan) { try { chan.postMessage({ evt }); } catch (e) { console.error('[lounge-adapter] broadcast postMessage failed:', e); } }
     }
 
     function announce(evt) { emit(evt); broadcast(evt); }
@@ -623,7 +623,7 @@
       const next = all.filter(s => s.memberId !== me.id);
       if (next.length !== all.length) {
         write(K.sessions, next);
-        if (chan) { try { chan.postMessage({ evt: 'presence' }); } catch (e) {} }
+        if (chan) { try { chan.postMessage({ evt: 'presence' }); } catch (e) { console.error('[lounge-adapter] presence postMessage failed:', e); } }
       }
     });
 
@@ -830,14 +830,24 @@
         if (myPresence && myPresence.itemId) {
           const minutes = (Date.now() - myPresence.startedAt) / 60000;
           if (minutes >= 2) {
-            await sb.from('lounge_smokes').insert({
-              item_type: myPresence.itemType,
-              item_id: myPresence.itemId,
-              item_name: myPresence.itemName,
-              drink: myPresence.drink || null,
-              started_at: new Date(myPresence.startedAt).toISOString(),
-              minutes: Math.round(minutes),
-            });
+            // Wrap the insert so a failure (RLS denial, missing table,
+            // network error) can never strand the member "lit". The
+            // session fields must still clear and presence must still
+            // re-track below — same defensive pattern sendChat() uses
+            // around lounge_chat_messages.
+            try {
+              const { error } = await sb.from('lounge_smokes').insert({
+                item_type: myPresence.itemType,
+                item_id: myPresence.itemId,
+                item_name: myPresence.itemName,
+                drink: myPresence.drink || null,
+                started_at: new Date(myPresence.startedAt).toISOString(),
+                minutes: Math.round(minutes),
+              });
+              if (error) console.error('lounge_smokes insert failed:', error);
+            } catch (e) {
+              console.error('lounge_smokes insert failed:', e);
+            }
           }
           // Stay in the room; only the session ends.
           ['itemType','itemId','itemName','drink','note','startedAt']
@@ -997,7 +1007,7 @@
       },
       async markSeen(patch) {
         const cur = await this.getSeen();
-        try { localStorage.setItem('vp_lounge_seen', JSON.stringify(Object.assign(cur, patch))); } catch (e) {}
+        try { localStorage.setItem('vp_lounge_seen', JSON.stringify(Object.assign(cur, patch))); } catch (e) { console.error('[lounge-adapter] markSeen persist failed:', e); }
         emit('seen');
       },
 
@@ -1194,7 +1204,7 @@
         clearTimeout(timer);
         // Leave the widget up a beat so a visible challenge doesn't vanish
         // mid-interaction, then clean up.
-        setTimeout(() => { try { host.remove(); } catch (e) {} }, 60);
+        setTimeout(() => { try { host.remove(); } catch (e) { console.error('[lounge-adapter] captcha host.remove failed:', e); } }, 60);
         fn(val);
       };
 
@@ -1277,7 +1287,7 @@
           clearInterval(closeWatch);
           window.removeEventListener('message', onMsg);
           sessionStorage.removeItem('vp_reddit_state');
-          try { popup.close(); } catch (err) {}
+          try { popup.close(); } catch (err) { console.error('[lounge-adapter] popup.close failed:', err); }
         }
 
         window.addEventListener('message', onMsg);

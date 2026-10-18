@@ -327,7 +327,7 @@
   function saveCellar() {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(cellarIds));
-    } catch (e) {}
+    } catch (e) { console.error('[premium] saveCellar failed:', e); }
   }
 
   function isInCellar(id) {

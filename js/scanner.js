@@ -503,7 +503,7 @@
     recentScans = recentScans.slice(0, 10);
     try {
       localStorage.setItem('vp_recent_scans', JSON.stringify(recentScans));
-    } catch(e) {}
+    } catch(e) { console.error('[scanner] failed to persist recent scans:', e); }
   }
 
   // ── Show scan history ──

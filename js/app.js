@@ -1139,9 +1139,9 @@ function openPTModal(id) {
     <div class="modal-header">
       <div class="modal-badges">
         <span class="modal-badge origin" style="background:${bc}22;color:${bc};border-color:${bc}44">${pt.blendType}</span>
-        <span class="modal-badge">${pt.cut}</span>
         <span class="modal-badge">${pt.origin}</span>
-        <span class="modal-badge">${pt.tinWeight}g tin</span>
+        <span class="modal-badge">★ ${pt.rating} rating</span>
+        <span class="modal-badge">$${pt.price.toFixed(2)}/tin</span>
       </div>
       <h2 class="modal-title">${pt.name}</h2>
       <div class="modal-brand">${pt.brand}</div>
@@ -1151,12 +1151,12 @@ function openPTModal(id) {
 
     <div class="modal-stats-row">
       <div class="modal-stat-box">
-        <div class="msb-val">${pt.rating}</div>
-        <div class="msb-label">Expert Rating</div>
+        <div class="msb-val" style="font-size:18px;letter-spacing:0.5px">${pt.cut}</div>
+        <div class="msb-label">Cut</div>
       </div>
       <div class="modal-stat-box">
-        <div class="msb-val">$${pt.price.toFixed(2)}</div>
-        <div class="msb-label">Per Tin</div>
+        <div class="msb-val">${pt.tinWeight}<span style="font-size:16px">g</span></div>
+        <div class="msb-label">Tin Weight</div>
       </div>
       <div class="modal-stat-box">
         <div class="msb-val" style="letter-spacing:2px;font-size:18px">${roomStarsHtml}</div>
@@ -2244,9 +2244,7 @@ function closeQuizModal() {
 }
 
 // ── COMPARE BUTTON IN CARD ────────────────────────────────────────
-// Patch renderCard to include compare button
-const _origRenderCard = renderCard;
-// (patched inline below via modified render)
+// (compare button is rendered inline within renderCard above)
 
 // ── LANDING PAGE — 3D CIGAR ─────────────────────────────────────
 function buildCigar3D() {
