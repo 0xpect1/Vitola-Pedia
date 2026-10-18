@@ -1242,8 +1242,9 @@
   <script src="/js/scanner.js" defer></script>
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   <!-- Premium preloader — ember animation, gold wordmark, progress bar -->
-  <div id="vp-preloader">
+  <div id="vp-preloader" aria-hidden="true">
     <div class="vp-pre-ember" aria-hidden="true">
       <span class="vp-ember-core"></span>
       <span class="vp-ember-flame"></span>
@@ -1296,27 +1297,27 @@
   <!-- ░░ HEADER ░░ -->
   <header class="site-header">
     <div class="header-inner">
-      <div class="brand" onclick="switchView('library')" role="button" tabindex="0" style="cursor:pointer">
-        <div class="brand-icon">
+      <button class="brand" type="button" onclick="switchView('library')" aria-label="Vitola Pedia — go to cigar library">
+        <span class="brand-icon">
           <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <ellipse cx="20" cy="22" rx="16" ry="5" fill="none" stroke="currentColor" stroke-width="1.5"/>
             <path d="M4 22 Q4 8 20 6 Q28 5 36 12 L36 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
             <path d="M20 6 Q22 2 26 1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
             <path d="M24 8 Q27 4 31 4" stroke="currentColor" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
           </svg>
-        </div>
-        <div class="brand-text">
+        </span>
+        <span class="brand-text">
           <span class="brand-name">Vitola Pedia</span>
           <span class="brand-tagline">The Premium Cigar Encyclopedia</span>
-        </div>
-      </div>
+        </span>
+      </button>
       <nav class="header-nav">
         <button class="nav-btn active" data-view="library">Cigars</button>
         <button class="nav-btn" data-view="pipe-tobacco">Pipe Tobacco</button>
         <button class="nav-btn" data-view="houses">Houses</button>
         <button class="nav-btn" data-view="regions">Regions</button>
         <button class="nav-btn" data-view="guide">Guide</button>
-        <button class="nav-btn" data-view="lounge">Lounge<span class="lounge-nav-badge hidden" id="loungeNavBadge">0</span><span class="lounge-reply-badge hidden" id="loungeReplyBadge">0</span></button>
+        <button class="nav-btn" data-view="lounge" aria-label="Lounge">Lounge<span class="lounge-nav-badge hidden" id="loungeNavBadge" aria-hidden="true">0</span><span class="lounge-reply-badge hidden" id="loungeReplyBadge" aria-hidden="true">0</span></button>
         <button class="nav-icon-btn" id="humidorBtn" title="My Humidor" aria-label="My Humidor">
           <svg viewBox="0 0 24 24" fill="none"><path d="M12 21C12 21 4 13.9 4 8.9C4 6.2 6.2 4 8.9 4C10.2 4 11.4 4.6 12 5.5C12.6 4.6 13.8 4 15.1 4C17.8 4 20 6.2 20 8.9C20 13.9 12 21 12 21Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
           <span class="hum-badge hidden" id="humBadge">0</span>
@@ -1339,7 +1340,7 @@
       <div class="hero-search-wrap">
         <div class="search-box">
           <svg class="search-icon" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-          <input type="text" id="searchInput" placeholder="Search by name, brand, origin, or flavor…" autocomplete="off" />
+          <input type="text" id="searchInput" placeholder="Search by name, brand, origin, or flavor…" autocomplete="off" aria-label="Search cigars" />
           <button class="search-clear" id="searchClear" aria-label="Clear search">✕</button>
         </div>
         <div class="hero-btn-row">
@@ -1371,7 +1372,7 @@
   </section>
 
   <!-- ░░ MAIN CONTENT ░░ -->
-  <main class="main-content">
+  <main class="main-content" id="main-content">
 
     <!-- FILTERS SIDEBAR -->
     <aside class="filters-panel" id="filtersPanel">
@@ -1545,7 +1546,7 @@
     <!-- Pipe Tobacco Hero -->
     <section class="hero">
       <div class="hero-content">
-        <h1 class="hero-title">The World's Finest<br /><em>Pipe Tobaccos</em></h1>
+        <h2 class="hero-title">The World's Finest<br /><em>Pipe Tobaccos</em></h2>
         <p class="hero-sub">Blend styles, leaf components, cut types, room note — every detail, beautifully organized.</p>
         <div class="hero-search-wrap">
           <div class="search-box">
@@ -1717,7 +1718,7 @@
   <!-- ░░ REGIONS VIEW ░░ -->
   <section class="regions-view hidden" id="view-regions">
     <div class="regions-hero">
-      <h1>Cigar Growing <em>Regions</em></h1>
+      <h2>Cigar Growing <em>Regions</em></h2>
       <p>The world's great tobacco-producing terroirs, and what makes each one unique.</p>
     </div>
     <div class="origin-map-wrap" id="originMapWrap">
@@ -1733,7 +1734,7 @@
   <!-- ░░ GUIDE VIEW ░░ -->
   <section class="guide-view hidden" id="view-guide">
     <div class="guide-hero">
-      <h1>The Cigar <em>Connoisseur's Guide</em></h1>
+      <h2>The Cigar <em>Connoisseur's Guide</em></h2>
       <p>Everything you need to know about premium cigars — from first smoke to expert.</p>
     </div>
     <div class="guide-content">
@@ -2044,7 +2045,7 @@
     .footer-legal-links a { color: var(--gold); font-size: 0.85rem; opacity: 0.8; }
     .footer-legal-links a:hover { opacity: 1; }
     .cookie-banner {
-      position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 400;
       background: rgba(18, 15, 11, 0.97);
       border-top: 1px solid var(--border-h);
       backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
