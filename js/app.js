@@ -239,14 +239,21 @@ function matchesSearch(cigar, query) {
   return searchBlob(cigar).includes(normText(query));
 }
 
-function sortCigars(cigars) {
-  const [key, dir] = state.sort.split('-');
-  return [...cigars].sort((a, b) => {
+// Shared by the cigar and pipe-tobacco engines — both sort by a single key
+// with an optional -asc/-desc suffix, case-folding names. Extracted so the
+// two engines don't carry identical sort bodies.
+function sortByKey(items, sortSpec) {
+  const [key, dir] = sortSpec.split('-');
+  return [...items].sort((a, b) => {
     let av = a[key], bv = b[key];
     if (key === 'name') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
     if (dir === 'asc') return av < bv ? -1 : av > bv ? 1 : 0;
     return av > bv ? -1 : av < bv ? 1 : 0;
   });
+}
+
+function sortCigars(cigars) {
+  return sortByKey(cigars, state.sort);
 }
 
 function getFiltered() {
@@ -786,21 +793,24 @@ const INTL_RETAILERS = [
   { name: 'C.Gars Ltd',           search: 'https://www.cgarsltd.co.uk/search?q=',              tagline: 'UK · Cuban Specialists' },
 ];
 
-function buildBuySection(cigar) {
-  const isCuban = cigar.origin === 'Cuba';
-  // Strip diacritics so searches match retailer indexes (Padrón → Padron, Añejo → Anejo)
-  const searchName = cigar.name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[''`]/g, '');
+// Shared core of the cigar and pipe-tobacco "Where to Buy" sections. Both
+// build the same structure: hand-curated buyLinks (price-sorted, cheapest
+// flagged) followed by auto-generated retailer search links, rendered into
+// the buy-cards grid. Callers supply the search term, the retailer list, a
+// price-label formatter, a per-link specific-tagline getter, and optional
+// cuban-note / disclaimer text — so the two engines no longer carry near-
+// identical 60-line bodies.
+function composeBuySection(opts) {
+  const { searchName, retailers, buyLinks, priceLabel, specificTagline, cubanNote, disclaimer } = opts;
   const query = encodeURIComponent(searchName);
-  const retailers = isCuban ? INTL_RETAILERS : US_RETAILERS;
 
-  // If cigar has handcrafted buyLinks, sort by price and flag cheapest.
   let specificLinks = [];
-  if (cigar.buyLinks && cigar.buyLinks.length > 0) {
-    specificLinks = [...cigar.buyLinks].sort((a, b) => (a.price || 0) - (b.price || 0));
+  if (buyLinks && buyLinks.length > 0) {
+    specificLinks = [...buyLinks].sort((a, b) => (a.price || 0) - (b.price || 0));
     if (specificLinks.length > 0) specificLinks[0].isBest = true;
   }
 
-  // Auto-generate links; skip retailers already in specific links
+  // Auto-generate links; skip retailers already covered by specific links.
   const covered = new Set(specificLinks.map(l => l.retailer));
   const autoLinks = retailers
     .filter(r => !covered.has(r.name))
@@ -815,7 +825,7 @@ function buildBuySection(cigar) {
     ...specificLinks.map(l => ({
       name: l.retailer,
       url: l.url,
-      tagline: l.tagline || '',
+      tagline: specificTagline(l),
       badge: l.isBest ? '★ Best Price' : null,
       price: l.price,
     })),
@@ -825,28 +835,40 @@ function buildBuySection(cigar) {
   const cards = allLinks.map(link => {
     const badgeHtml = link.badge ? `<div class="buy-badge">${link.badge}</div>` : '';
     const priceHtml = link.price != null
-      ? `<div class="buy-cta buy-price-tag">${formatPrice(link.price)} / stick</div>`
+      ? `<div class="buy-cta buy-price-tag">${priceLabel(link.price)}</div>`
       : `<div class="buy-cta">Shop Now →</div>`;
-    return `
-      <a href="${link.url}" target="_blank" rel="noopener noreferrer" class="buy-card${link.badge ? ' buy-card-top' : ''}">
-        ${badgeHtml}
-        <div class="buy-card-name">${link.name}</div>
-        <div class="buy-card-tagline">${link.tagline}</div>
-        ${priceHtml}
-      </a>`;
+    return `<a href="${link.url}" target="_blank" rel="noopener noreferrer" class="buy-card${link.badge ? ' buy-card-top' : ''}">
+      ${badgeHtml}
+      <div class="buy-card-name">${link.name}</div>
+      <div class="buy-card-tagline">${link.tagline}</div>
+      ${priceHtml}
+    </a>`;
   }).join('');
 
-  const cubanNote = isCuban
-    ? `<p class="buy-cuban-note">🇨🇺 Cuban cigars cannot be purchased in the US. Links go to authorized international retailers.</p>`
-    : '';
+  const cubanNoteHtml = cubanNote ? `<p class="buy-cuban-note">${cubanNote}</p>` : '';
 
   return `
     <div class="modal-buy-section">
       <div class="modal-section-title">Where to Buy</div>
-      ${cubanNote}
+      ${cubanNoteHtml}
       <div class="buy-cards-grid">${cards}</div>
-      <p class="buy-disclaimer">Prices vary by retailer and change often — click through for current pricing.</p>
+      <p class="buy-disclaimer">${disclaimer}</p>
     </div>`;
+}
+
+function buildBuySection(cigar) {
+  const isCuban = cigar.origin === 'Cuba';
+  // Strip diacritics so searches match retailer indexes (Padrón → Padron, Añejo → Anejo)
+  const searchName = cigar.name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[''`]/g, '');
+  return composeBuySection({
+    searchName,
+    retailers: isCuban ? INTL_RETAILERS : US_RETAILERS,
+    buyLinks: cigar.buyLinks,
+    priceLabel: p => formatPrice(p) + ' / stick',
+    specificTagline: l => l.tagline || '',
+    cubanNote: isCuban ? '🇨🇺 Cuban cigars cannot be purchased in the US. Links go to authorized international retailers.' : '',
+    disclaimer: 'Prices vary by retailer and change often — click through for current pricing.',
+  });
 }
 
 // ═══════════════════════════════════════════════════════════════════
@@ -966,61 +988,20 @@ function getFilteredPT() {
 }
 
 function sortPT(items) {
-  const [key, dir] = ptState.sort.split('-');
-  return [...items].sort((a, b) => {
-    let av = a[key], bv = b[key];
-    if (key === 'name') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
-    if (dir === 'asc') return av < bv ? -1 : av > bv ? 1 : 0;
-    return av > bv ? -1 : av < bv ? 1 : 0;
-  });
+  return sortByKey(items, ptState.sort);
 }
 
 function buildPTBuySection(pt) {
   const searchName = (pt.brand + ' ' + pt.name).normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-  const query = encodeURIComponent(searchName);
-
-  let specificLinks = [];
-  if (pt.buyLinks && pt.buyLinks.length > 0) {
-    specificLinks = [...pt.buyLinks].sort((a, b) => (a.price || 0) - (b.price || 0));
-    if (specificLinks.length > 0) specificLinks[0].isBest = true;
-  }
-
-  const covered = new Set(specificLinks.map(l => l.retailer));
-  const autoLinks = PT_RETAILERS
-    .filter(r => !covered.has(r.name))
-    .map((r, i) => ({
-      name: r.name,
-      url: r.search + query,
-      tagline: r.tagline,
-      badge: (!specificLinks.length && i === 0) ? r.badge : null,
-    }));
-
-  const allLinks = [
-    ...specificLinks.map(l => ({
-      name: l.retailer, url: l.url, tagline: '', badge: l.isBest ? '★ Best Price' : null, price: l.price,
-    })),
-    ...autoLinks,
-  ];
-
-  const cards = allLinks.map(link => {
-    const badgeHtml = link.badge ? `<div class="buy-badge">${link.badge}</div>` : '';
-    const priceHtml = link.price != null
-      ? `<div class="buy-cta buy-price-tag">$${link.price.toFixed(2)} / tin</div>`
-      : `<div class="buy-cta">Shop Now →</div>`;
-    return `<a href="${link.url}" target="_blank" rel="noopener noreferrer" class="buy-card${link.badge ? ' buy-card-top' : ''}">
-      ${badgeHtml}
-      <div class="buy-card-name">${link.name}</div>
-      <div class="buy-card-tagline">${link.tagline}</div>
-      ${priceHtml}
-    </a>`;
-  }).join('');
-
-  return `
-    <div class="modal-buy-section">
-      <div class="modal-section-title">Where to Buy</div>
-      <div class="buy-cards-grid">${cards}</div>
-      <p class="buy-disclaimer">Prices vary and change often — click through for current pricing.</p>
-    </div>`;
+  return composeBuySection({
+    searchName,
+    retailers: PT_RETAILERS,
+    buyLinks: pt.buyLinks,
+    priceLabel: p => '$' + p.toFixed(2) + ' / tin',
+    specificTagline: () => '',
+    cubanNote: '',
+    disclaimer: 'Prices vary and change often — click through for current pricing.',
+  });
 }
 
 function renderPTCard(pt, index) {

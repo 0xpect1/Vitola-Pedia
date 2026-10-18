@@ -595,6 +595,25 @@
     }[c]));
   }
 
+  // ── Stop the camera tracks without tearing down the whole UI. Used when
+  // the page is being unloaded or hidden while the scanner is open, so the
+  // camera isn't left capturing (privacy + battery) after navigation. ──
+  function stopScannerCamera() {
+    scannerActive = false;
+    if (scannerStream) {
+      scannerStream.getTracks().forEach(t => t.stop());
+      scannerStream = null;
+    }
+  }
+
+  // Navigating away while the scanner is open: release the camera.
+  window.addEventListener('beforeunload', stopScannerCamera);
+  // Tab hidden / backgrounded while the scanner is open: release the
+  // camera. The user can reopen the scanner to re-acquire it.
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden && scannerActive) stopScannerCamera();
+  });
+
   // ── Expose globally ──
   window.VPScanner = {
     open: openScanner,

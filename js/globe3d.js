@@ -248,9 +248,14 @@
   }
 
   document.addEventListener('click', function(e) {
-    if (e.target && e.target.dataset && e.target.dataset.view === 'lounge') {
+    var view = e.target && e.target.dataset && e.target.dataset.view;
+    if (view === 'lounge') {
       initRetries = 0;
       setTimeout(checkAndInit, 800);
+      // Presence polling only runs while the lounge/globe is on screen.
+      setTimeout(startPresencePoll, 900);
+    } else if (view) {
+      stopPresencePoll();
     }
   });
 
@@ -260,9 +265,19 @@
     setTimeout(checkAndInit, 1000);
   }
 
-  // Presence polling — same as before
+  // Presence polling reads the .lg-ember dots the lounge renders and pushes
+  // them onto the globe. The 2s interval used to run for the whole visit
+  // even when the globe was never shown; it now starts when the lounge view
+  // opens and is cleared when the user switches away or unloads the page.
   var lastPresenceCount = -1;
-  setInterval(function() {
+  var presencePollTimer = null;
+
+  function loungeViewActive() {
+    var v = document.getElementById('view-lounge');
+    return !!(v && !v.classList.contains('hidden'));
+  }
+
+  function pollPresence() {
     if (!globeInitialized || !window.VPGlobe) return;
     var dots = document.querySelectorAll('.lg-ember');
     if (dots.length !== lastPresenceCount) {
@@ -286,6 +301,20 @@
       });
       updatePresence(sessions);
     }
-  }, 2000);
+  }
+
+  function startPresencePoll() {
+    if (presencePollTimer) return;
+    presencePollTimer = setInterval(pollPresence, 2000);
+    pollPresence();  // immediate first pass
+  }
+  function stopPresencePoll() {
+    if (presencePollTimer) { clearInterval(presencePollTimer); presencePollTimer = null; }
+  }
+
+  // If the lounge is already the active view on load, start now; otherwise
+  // the click handler above starts it on the first switchView('lounge').
+  if (loungeViewActive()) startPresencePoll();
+  window.addEventListener('beforeunload', stopPresencePoll);
 
 })();
