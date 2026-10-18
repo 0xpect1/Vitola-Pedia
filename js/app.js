@@ -81,6 +81,19 @@ function wrapperColorFor(wrapper) {
   return '#6b4e2e';
 }
 
+// ── HTML ESCAPE (for safe insertion into data-* attributes) ─────
+// Used whenever a cigar id or other dynamic value is placed into an
+// HTML attribute via a template string, preventing attribute-breakout
+// XSS (e.g. an id containing a quote breaking out of data-cigar-id="...").
+function esc(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 // ── FLAVOR ICONS ────────────────────────────────────────────────
 const FLAVOR_ICONS = {
   'Espresso': '☕', 'Coffee': '☕', 'Dark Coffee': '☕', 'Roasted Coffee': '☕', 'Mild Coffee': '☕',
@@ -109,6 +122,49 @@ const $limited    = document.getElementById('limitedToggle');
 const $modalOverlay = document.getElementById('modalOverlay');
 const $modal      = document.getElementById('cigarModal');
 const $modalBody  = document.getElementById('modalBody');
+
+// ── SEARCH DEBOUNCE HELPERS ────────────────────────────────────────
+// Avoid running getFiltered() + sortCigars() + render() on every keystroke
+// (a full linear scan + O(n log n) sort + DOM rebuild over ~25k cigars).
+// Returns a debounced wrapper plus an indicator element to signal "searching…".
+const SEARCH_DEBOUNCE_MS = 200;
+
+function makeSearchIndicator(inputEl) {
+  const ind = document.createElement('span');
+  ind.className = 'search-searching-indicator';
+  ind.textContent = 'searching…';
+  ind.setAttribute('aria-hidden', 'true');
+  ind.hidden = true;
+  // Place it right after the input if a parent container exists
+  const host = inputEl.parentElement;
+  if (host) host.appendChild(ind);
+  return ind;
+}
+
+// Debounce a render callback; shows the indicator immediately on each call and
+// hides it once the trailing render fires. Returns {schedule, flush, cancel}.
+function makeSearchDebounce(indicator, renderFn) {
+  let timer = null;
+  const schedule = () => {
+    if (timer) clearTimeout(timer);
+    if (indicator) indicator.hidden = false;
+    timer = setTimeout(() => {
+      timer = null;
+      if (indicator) indicator.hidden = true;
+      renderFn();
+    }, SEARCH_DEBOUNCE_MS);
+  };
+  const cancel = () => {
+    if (timer) { clearTimeout(timer); timer = null; }
+    if (indicator) indicator.hidden = true;
+  };
+  const flush = () => {
+    if (timer) { clearTimeout(timer); timer = null; }
+    if (indicator) indicator.hidden = true;
+    renderFn();
+  };
+  return { schedule, cancel, flush };
+}
 const $modalClose = document.getElementById('modalClose');
 const $filtersPanel = document.getElementById('filtersPanel');
 const $filterOverlay = document.getElementById('filterOverlay');
@@ -224,14 +280,14 @@ function renderCard(cigar, index) {
     ? `<span class="limited-badge">Limited</span>`
     : '';
 
-  const siblings = SIBLING_MAP.get(cigar.id) || [];
+  const siblings = getSiblings(cigar);
   const allSizes = siblings.length > 0
     ? [...siblings, cigar].sort((a, b) => a.length - b.length)
     : null;
   const cardSizesRow = allSizes ? `
     <div class="card-sizes">
       ${allSizes.map(s => `<button class="card-size-pill${s.id === cigar.id ? ' active' : ''}"
-        onclick="event.stopPropagation();openModal('${s.id}')" tabindex="-1">${s.size}</button>`).join('')}
+        data-open-modal="${esc(s.id)}" tabindex="-1">${s.size}</button>`).join('')}
     </div>` : '';
 
   const cardImg = cigar.image
@@ -261,13 +317,13 @@ function renderCard(cigar, index) {
   const inCellar = typeof isInCellar === 'function' && isInCellar(cigar.id);
   const wrapperSlug = cigar.wrapper.toLowerCase();
   return `
-    <article class="cigar-card${cigar.image ? ' has-img' : ''}" data-id="${cigar.id}" data-wrapper="${wrapperSlug}" style="animation-delay:${Math.min(index * 0.04, 0.5)}s" role="button" tabindex="0">
+    <article class="cigar-card${cigar.image ? ' has-img' : ''}" data-id="${esc(cigar.id)}" data-wrapper="${esc(wrapperSlug)}" style="animation-delay:${Math.min(index * 0.04, 0.5)}s" role="button" tabindex="0">
       ${cardImg}
       ${limitedBadge}
-      <button class="card-heart-btn${inCellar ? ' saved' : ''}" data-id="${cigar.id}" title="Save to Cellar" tabindex="-1" onclick="event.stopPropagation();toggleCellar('${cigar.id}', event)">
+      <button class="card-heart-btn${inCellar ? ' saved' : ''}" data-id="${esc(cigar.id)}" data-cellar-id="${esc(cigar.id)}" title="Save to Cellar" tabindex="-1">
         <svg viewBox="0 0 24 24" fill="${inCellar ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
       </button>
-      <button class="card-compare-btn${inCompare ? ' in-compare' : ''}" data-id="${cigar.id}" title="Compare" tabindex="-1">+</button>
+      <button class="card-compare-btn${inCompare ? ' in-compare' : ''}" data-id="${esc(cigar.id)}" title="Compare" tabindex="-1">+</button>
       <div class="card-header">
         <span class="card-origin-badge">${flag} ${cigar.origin}</span>
         <div class="card-rating-wrap">
@@ -324,18 +380,18 @@ function renderListCard(cigar) {
   const pairingBadges = (cigar.pairings || []).slice(0, 3)
     .map(p => `<span class="list-pairing-badge" title="${p.replace(/"/g, '&quot;')}">${pairingIconFor(p)}</span>`).join('');
 
-  const siblings = SIBLING_MAP.get(cigar.id) || [];
+  const siblings = getSiblings(cigar);
   const allSizes = siblings.length > 0
     ? [...siblings, cigar].sort((a, b) => a.length - b.length)
     : null;
   const listSizesRow = allSizes ? `
     <div class="card-sizes" style="margin-top:6px">
       ${allSizes.map(s => `<button class="card-size-pill${s.id === cigar.id ? ' active' : ''}"
-        onclick="event.stopPropagation();openModal('${s.id}')" tabindex="-1">${s.size}</button>`).join('')}
+        data-open-modal="${esc(s.id)}" tabindex="-1">${s.size}</button>`).join('')}
     </div>` : '';
 
   return `
-    <article class="cigar-card list-card" data-id="${cigar.id}" role="button" tabindex="0">
+    <article class="cigar-card list-card" data-id="${esc(cigar.id)}" role="button" tabindex="0">
       <div class="list-strength-accent" style="background:${sc.color}"></div>
       <div class="card-left">
         <div class="list-top-row">
@@ -469,8 +525,22 @@ function bindGridDelegation() {
     openModal(card.dataset.id);
   };
   $grid.addEventListener('click', e => {
-    if (e.target.closest('.card-compare-btn') || e.target.closest('.card-heart-btn')
-        || e.target.closest('.card-size-pill')) return;
+    // Heart button → save to / remove from cellar (data-cellar-id)
+    const heart = e.target.closest('.card-heart-btn');
+    if (heart && heart.dataset.cellarId !== undefined) {
+      e.stopPropagation();
+      if (typeof window.toggleCellar === 'function') window.toggleCellar(heart.dataset.cellarId, e);
+      return;
+    }
+    // Size pill → open that sibling's modal (data-open-modal)
+    const sizePill = e.target.closest('.card-size-pill');
+    if (sizePill && sizePill.dataset.openModal) {
+      e.stopPropagation();
+      openModal(sizePill.dataset.openModal);
+      return;
+    }
+    // Compare button has its own delegated listener elsewhere; don't open the modal for it
+    if (e.target.closest('.card-compare-btn')) return;
     openFrom(e.target);
   });
   $grid.addEventListener('keydown', e => {
@@ -623,14 +693,14 @@ function toNeptuneSlug(name) {
 // ── AVAILABLE SIZES ───────────────────────────────────────────────
 function findSiblings(cigar) {
   const parts = cigar.name.split(' ');
+  // Look up candidates by brand from the grouped index (O(brand) not O(all))
+  const brandMates = CIGARS_BY_BRAND.get(cigar.brand) || [];
   // Try progressively shorter prefixes; minimum 4 words to avoid false-positive
   // brand-level groupings (e.g. "Romeo y Julieta" matching all RyJ entries)
   for (let len = parts.length - 1; len >= 4; len--) {
-    const prefix = parts.slice(0, len).join(' ');
-    const siblings = CIGARS.filter(c =>
-      c.id !== cigar.id &&
-      c.brand === cigar.brand &&
-      c.name.startsWith(prefix + ' ')
+    const prefix = parts.slice(0, len).join(' ') + ' ';
+    const siblings = brandMates.filter(c =>
+      c.id !== cigar.id && c.name.startsWith(prefix)
     );
     if (siblings.length >= 1) return siblings;
   }
@@ -652,7 +722,7 @@ function buildSiblingsSection(cigar) {
         <span class="size-pill-dims">${c.length}" &times; ${c.ringGauge}</span>
       </button>`;
     }
-    return `<button class="size-pill" onclick="openModal('${c.id}')">
+    return `<button class="size-pill" data-open-modal="${esc(c.id)}">
       <span class="size-pill-name">${c.size}</span>
       <span class="size-pill-dims">${c.length}" &times; ${c.ringGauge} &middot; ${formatPrice(c.price)}</span>
     </button>`;
@@ -665,11 +735,42 @@ function buildSiblingsSection(cigar) {
     </div>`;
 }
 
-// Precompute siblings for every cigar once so card rendering stays fast
-const SIBLING_MAP = new Map();
-for (const cigar of CIGARS) {
-  SIBLING_MAP.set(cigar.id, findSiblings(cigar));
+// Grouped index: brand → cigars, built once (O(n)). Turns sibling lookup from
+// O(all cigars) into O(cigars in the same brand) — and lets us defer computing
+// any cigar's siblings until it is actually rendered.
+const CIGARS_BY_BRAND = new Map();
+for (const c of CIGARS) {
+  let arr = CIGARS_BY_BRAND.get(c.brand);
+  if (!arr) { arr = []; CIGARS_BY_BRAND.set(c.brand, arr); }
+  arr.push(c);
 }
+
+// Lazy sibling cache: compute siblings for a cigar only when first requested,
+// then memoize. Replaces the old eager loop that precomputed siblings for all
+// 25,815 cigars at load (~666M iterations) before the UI could render.
+const _siblingCache = new Map();
+function getSiblings(cigar) {
+  const cached = _siblingCache.get(cigar.id);
+  if (cached) return cached;
+  const result = findSiblings(cigar);
+  _siblingCache.set(cigar.id, result);
+  return result;
+}
+
+// Back-compat shim: existing call sites (and enrich.js) use SIBLING_MAP.get(id).
+// Lazily computes + memoizes on first access instead of precomputing everything.
+const SIBLING_MAP = {
+  get(id) {
+    if (_siblingCache.has(id)) return _siblingCache.get(id);
+    let cigar = null;
+    for (let i = 0; i < CIGARS.length; i++) {
+      if (CIGARS[i].id === id) { cigar = CIGARS[i]; break; }
+    }
+    return cigar ? getSiblings(cigar) : undefined;
+  },
+  has(id) { return _siblingCache.has(id); },
+  get size() { return _siblingCache.size; },
+};
 
 const US_RETAILERS = [
   { name: 'Famous Smoke Shop',    search: 'https://www.famous-smoke.com/search?q=',            tagline: 'Largest Online Selection', badge: '★ Best Value Pick' },
@@ -942,7 +1043,7 @@ function renderPTCard(pt, index) {
     : '';
 
   return `
-    <article class="cigar-card${pt.image ? ' has-img' : ''}" data-pt-id="${pt.id}" style="animation-delay:${Math.min(index * 0.04, 0.5)}s" role="button" tabindex="0">
+    <article class="cigar-card${pt.image ? ' has-img' : ''}" data-pt-id="${esc(pt.id)}" style="animation-delay:${Math.min(index * 0.04, 0.5)}s" role="button" tabindex="0">
       ${cardImg}
       <div class="card-header">
         <span class="card-origin-badge" style="background:${bc}22;color:${bc};border-color:${bc}44">${pt.blendType}</span>
@@ -989,7 +1090,7 @@ function renderPTListCard(pt) {
   }).join('');
 
   return `
-    <article class="cigar-card" data-pt-id="${pt.id}" role="button" tabindex="0">
+    <article class="cigar-card" data-pt-id="${esc(pt.id)}" role="button" tabindex="0">
       <div class="card-left">
         <div class="card-name">${pt.name}</div>
         <div class="card-brand">${pt.brand} · <span style="color:${bc}">${pt.blendType}</span> · ${pt.origin}</div>
@@ -1191,10 +1292,12 @@ function initPipeTobacco() {
   const $ptSearch = document.getElementById('ptSearchInput');
   const $ptClr = document.getElementById('ptSearchClear');
   if ($ptSearch) {
+    const _ptIndicator = makeSearchIndicator($ptSearch);
+    const _ptDebounce = makeSearchDebounce(_ptIndicator, renderPT);
     $ptSearch.addEventListener('input', e => {
       ptState.search = e.target.value.trim();
       if ($ptClr) $ptClr.classList.toggle('visible', ptState.search.length > 0);
-      renderPT();
+      _ptDebounce.schedule();
     });
   }
   if ($ptClr) {
@@ -1522,6 +1625,11 @@ function initFlavorSearch() {
   const $clr   = document.getElementById('flavorSearchClr');
   const $drop  = document.getElementById('flavorDropdown');
 
+  // Debounce the expensive cigar-list render; the autocomplete dropdown
+  // (filtering allFlavors) stays instant since that list is tiny.
+  const _flavorIndicator = makeSearchIndicator($input);
+  const _flavorDebounce = makeSearchDebounce(_flavorIndicator, render);
+
   const PREVIEW_CATEGORIES = [
     { label: 'Earth & Wood',    keywords: ['earth','cedar','wood','barnyard','hay','grass','tobacco','damp','dark earth','charred wood','smoked wood','dark wood','light cedar','mild cedar','toasted cedar','sweet cedar','rich tobacco'] },
     { label: 'Spice',           keywords: ['pepper','spice','cinnamon','clove','nutmeg','anise','chili','licorice','star anise'] },
@@ -1592,7 +1700,7 @@ function initFlavorSearch() {
       const allPill = document.querySelector('#flavorFilter .pill[data-value="all"]');
       if (allPill) allPill.classList.add('active');
       state.flavor = 'all';
-      render();
+      _flavorDebounce.flush();
       return;
     }
     const matches = allFlavors.filter(f => f.toLowerCase().includes(q.toLowerCase()));
@@ -1601,7 +1709,7 @@ function initFlavorSearch() {
     $clr.classList.add('visible');
     $input.classList.add('flavor-active');
     state.flavor = q;
-    render();
+    _flavorDebounce.schedule();
   });
 
   $drop.addEventListener('click', e => {
@@ -1667,17 +1775,20 @@ function init() {
   // Initial render
   render();
 
-  // Search
+  // Search (debounced — a full filter+sort+render over ~25k cigars per keystroke
+  // is expensive; wait 200ms of no typing before re-rendering).
+  const _searchIndicator = makeSearchIndicator($search);
+  const _searchDebounce = makeSearchDebounce(_searchIndicator, render);
   $search.addEventListener('input', e => {
     state.search = e.target.value.trim();
     $searchClr.classList.toggle('visible', state.search.length > 0);
-    render();
+    _searchDebounce.schedule();
   });
   $searchClr.addEventListener('click', () => {
     $search.value = '';
     state.search = '';
     $searchClr.classList.remove('visible');
-    render();
+    _searchDebounce.flush();
   });
 
   // Sort
@@ -1820,7 +1931,7 @@ function updateCompareTray() {
     const c = CIGARS.find(x => x.id === id);
     return `<div class="compare-slot">
       <span class="compare-slot-name">${c ? c.name : id}</span>
-      <button class="compare-slot-remove" onclick="toggleCompare('${id}', event)">✕</button>
+      <button class="compare-slot-remove" data-compare-id="${esc(id)}">✕</button>
     </div>`;
   }).join('');
   for (let i = 0; i < empties; i++) {
@@ -1952,7 +2063,7 @@ function openCompareModal() {
             <th></th>
             ${picked.map((c, i) => `<th>
               <span class="cmp-th-dot" style="background:${COMPARE_COLORS[i]}"></span>
-              <button class="cmp-th-name" onclick="closeCompareModal();openModal('${c.id}')">${c.name}</button>
+              <button class="cmp-th-name" data-close-compare="1" data-open-modal="${esc(c.id)}">${c.name}</button>
               <span class="cmp-th-brand">${c.brand}</span>
             </th>`).join('')}
           </tr>
@@ -2032,7 +2143,7 @@ function renderQuizStep() {
 
   const opts = step.options.map(o => `
     <button class="quiz-option${quizState.answers[step.id] === o.value ? ' selected' : ''}"
-      onclick="selectQuizOption('${step.id}', ${JSON.stringify(o.value).replace(/"/g, '&quot;')})">
+      data-quiz-step="${esc(step.id)}" data-quiz-value="${esc(JSON.stringify(o.value))}">
       <span class="quiz-option-icon">${o.icon}</span>
       <span class="quiz-option-text">
         <span class="quiz-option-title">${o.title}</span>
@@ -2049,8 +2160,8 @@ function renderQuizStep() {
     <div class="quiz-question">${step.question}</div>
     <div class="quiz-options">${opts}</div>
     <div class="quiz-nav">
-      ${quizState.step > 0 ? '<button class="quiz-back-btn" onclick="quizBack()">Back</button>' : ''}
-      <button class="quiz-next-btn" onclick="quizNext()" ${!hasAnswer ? 'disabled' : ''}>
+      ${quizState.step > 0 ? '<button class="quiz-back-btn" data-quiz-back="1">Back</button>' : ''}
+      <button class="quiz-next-btn" data-quiz-next="1" ${!hasAnswer ? 'disabled' : ''}>
         ${isLast ? 'Find My Cigar →' : 'Next →'}
       </button>
     </div>`;
@@ -2095,7 +2206,7 @@ function showQuizResults() {
     .slice(0, 3);
 
   const resultCards = scored.map((r, i) => `
-    <div class="quiz-result-card" onclick="closeQuizModal(); openModal('${r.cigar.id}')">
+    <div class="quiz-result-card" data-close-quiz="1" data-open-modal="${esc(r.cigar.id)}">
       <div class="qrc-rank">${i + 1}</div>
       <div class="qrc-info">
         <div class="qrc-name">${r.cigar.name}</div>
@@ -2110,7 +2221,7 @@ function showQuizResults() {
       <p>Based on your preferences — click any to see full details</p>
     </div>
     ${resultCards || '<p style="color:var(--text-muted);text-align:center">No exact matches — try adjusting your budget or strength.</p>'}
-    <button class="quiz-restart-btn" onclick="restartQuiz()">Start Over</button>`;
+    <button class="quiz-restart-btn" data-quiz-restart="1">Start Over</button>`;
 }
 
 function restartQuiz() {
@@ -2376,4 +2487,62 @@ document.addEventListener('DOMContentLoaded', () => {
       toggleCompare(btn.dataset.id, e);
     }
   });
+
+  // ── Delegated listeners replacing inline onclick (XSS-safe via data-* attrs)
+  // Modal: size pills open a sibling's modal
+  if ($modalBody) {
+    $modalBody.addEventListener('click', e => {
+      const pill = e.target.closest('.size-pill[data-open-modal]');
+      if (pill && pill.dataset.openModal) {
+        openModal(pill.dataset.openModal);
+      }
+    });
+  }
+
+  // Compare tray: remove a cigar from the compare list
+  const $compareSlots = document.getElementById('compareSlots');
+  if ($compareSlots) {
+    $compareSlots.addEventListener('click', e => {
+      const rem = e.target.closest('.compare-slot-remove[data-compare-id]');
+      if (rem && rem.dataset.compareId !== undefined) {
+        toggleCompare(rem.dataset.compareId, e);
+      }
+    });
+  }
+
+  // Compare modal: clicking a column header opens that cigar's modal
+  const $compareOverlay = document.getElementById('compareOverlay');
+  if ($compareOverlay) {
+    $compareOverlay.addEventListener('click', e => {
+      const th = e.target.closest('.cmp-th-name[data-open-modal]');
+      if (th && th.dataset.openModal) {
+        closeCompareModal();
+        openModal(th.dataset.openModal);
+      }
+    });
+  }
+
+  // Quiz: option select, back/next nav, result card, restart — all delegated
+  const $quizBody = document.getElementById('quizBody');
+  if ($quizBody) {
+    $quizBody.addEventListener('click', e => {
+      // Select an option (value is JSON-encoded in data-quiz-value)
+      const opt = e.target.closest('.quiz-option[data-quiz-step]');
+      if (opt) {
+        let val = opt.dataset.quizValue;
+        try { val = JSON.parse(val); } catch (_) { /* keep raw string */ }
+        selectQuizOption(opt.dataset.quizStep, val);
+        return;
+      }
+      if (e.target.closest('.quiz-back-btn[data-quiz-back]')) { quizBack(); return; }
+      if (e.target.closest('.quiz-next-btn[data-quiz-next]')) { quizNext(); return; }
+      if (e.target.closest('.quiz-restart-btn[data-quiz-restart]')) { restartQuiz(); return; }
+      // Result card → close quiz and open that cigar's modal
+      const res = e.target.closest('.quiz-result-card[data-open-modal]');
+      if (res && res.dataset.openModal) {
+        closeQuizModal();
+        openModal(res.dataset.openModal);
+      }
+    });
+  }
 });

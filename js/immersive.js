@@ -53,7 +53,16 @@
       if (particles.length > 90) particles.splice(0, particles.length - 90);
     }, { passive: true });
 
+    // Pause the rAF loop when the library view (#view-library) is not visible
+    // (switched out via .hidden = display:none) or the tab is backgrounded.
+    // Without this the loop ran forever doing clearRect + particle updates
+    // even while the user was on Regions / Guide / Lounge / pipe-tobacco.
+    let rafId = null;
+    let running = false;
+    let libraryVisible = true;
+
     function tick() {
+      if (!running) { rafId = null; return; }
       ctx.clearRect(0, 0, w, h);
       ctx.globalCompositeOperation = 'lighter';
       for (let i = particles.length - 1; i >= 0; i--) {
@@ -74,9 +83,34 @@
         ctx.arc(p.x, p.y, r * 3, 0, Math.PI * 2);
         ctx.fill();
       }
-      requestAnimationFrame(tick);
+      rafId = requestAnimationFrame(tick);
     }
-    requestAnimationFrame(tick);
+
+    function start() {
+      if (running) return;
+      running = true;
+      rafId = requestAnimationFrame(tick);
+    }
+    function stop() {
+      running = false;
+      if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
+      // Drop stale particles so resuming doesn't render a frozen burst.
+      particles.length = 0;
+    }
+    function updateRunning() {
+      if (!document.hidden && libraryVisible) start(); else stop();
+    }
+
+    const libEl = document.getElementById('view-library');
+    if (libEl && 'IntersectionObserver' in window) {
+      const io = new IntersectionObserver((entries) => {
+        libraryVisible = entries[entries.length - 1].isIntersecting;
+        updateRunning();
+      }, { threshold: 0 });
+      io.observe(libEl);
+    }
+    document.addEventListener('visibilitychange', updateRunning);
+    updateRunning();
   }
 
   /* ══════════════════════════════════════════════════════════════
