@@ -610,6 +610,26 @@
                 'Strictly no illegal activities, no CSAM/CP, nothing in that nature — ever.');
           return;
         }
+        // Jev AI moderation (Noul spam/toxicity check). Runs after the
+        // local blocklist so the worst content is already stopped. If
+        // Jev is unavailable it defers to the local blocklist result.
+        if (window.VP_AI && window.VP_AI.moderateMessage) {
+          const sendBtn = e.target.querySelector('.lg-chat-send');
+          if (sendBtn) sendBtn.disabled = true;
+          try {
+            const verdict = await window.VP_AI.moderateMessage(body);
+            if (verdict && verdict.flagged) {
+              alert('This message was flagged by AI moderation: ' +
+                    (verdict.reason || 'possibly spam or toxic') +
+                    '. Please keep the lounge friendly and on-topic.');
+              return;
+            }
+          } catch (modErr) {
+            console.warn('[VP_AI] moderation check failed, allowing:', modErr);
+          } finally {
+            if (sendBtn) sendBtn.disabled = false;
+          }
+        }
         input.value = '';
         try { await BE.sendChat(body); } catch (err) { console.error(err); }
         renderChat(true);
@@ -2164,6 +2184,20 @@
                           'no CSAM/CP, nothing in that nature — ever.';
         err.classList.remove('hidden');
         return;
+      }
+      // Jev AI moderation on the post body + title.
+      if (window.VP_AI && window.VP_AI.moderateMessage) {
+        try {
+          const verdict = await window.VP_AI.moderateMessage(title + ' ' + body);
+          if (verdict && verdict.flagged) {
+            err.textContent = 'Flagged by AI moderation: ' + (verdict.reason || 'possibly spam or toxic') +
+                              '. Please keep posts friendly and on-topic.';
+            err.classList.remove('hidden');
+            return;
+          }
+        } catch (modErr) {
+          console.warn('[VP_AI] post moderation check failed, allowing:', modErr);
+        }
       }
       try {
         await BE.createPost({

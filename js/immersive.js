@@ -349,41 +349,192 @@
   }
 
   /* ══════════════════════════════════════════════════════════════
-     7. SURPRISE ME — roulette
+     7. SURPRISE ME — Jev AI recommendation (falls back to roulette)
   ══════════════════════════════════════════════════════════════ */
   function initSurprise() {
     const btn = document.getElementById('surpriseBtn');
     if (!btn) return;
     btn.addEventListener('click', () => {
-      const winner = CIGARS[Math.floor(Math.random() * CIGARS.length)];
+      // Build a light preference profile from any active filters so the
+      // AI pick respects what the user is already browsing.
+      const prefs = {};
+      try {
+        if (typeof state !== 'undefined') {
+          if (state.strength !== 'all') prefs.strength = state.strength;
+          if (state.origin !== 'all') prefs.origin = state.origin;
+          if (state.wrapper !== 'all') prefs.wrapper = state.wrapper;
+          if (state.flavor !== 'all') prefs.flavors = [state.flavor];
+          if (state.maxPrice) prefs.priceMax = state.maxPrice;
+        }
+      } catch (e) { /* state from app.js may not be ready */ }
+      prefs.experience = 'intermediate';
 
+      // Loading overlay — "Jev is thinking…"
       const overlay = document.createElement('div');
       overlay.className = 'roulette-overlay';
       overlay.innerHTML = `
         <div class="roulette-box">
-          <div class="roulette-label">Spinning the humidor…</div>
-          <div class="roulette-name" id="rouletteName"></div>
+          <div class="roulette-label">Jev is thinking…</div>
+          <div class="roulette-name" id="rouletteName"><span class="roulette-thinking">●●●</span></div>
         </div>`;
       document.body.appendChild(overlay);
       const nameEl = overlay.querySelector('#rouletteName');
 
-      let ticks = 0;
-      const total = 16;
-      const spin = () => {
-        ticks++;
-        const c = ticks >= total ? winner : CIGARS[Math.floor(Math.random() * CIGARS.length)];
-        nameEl.textContent = c.name;
-        if (ticks < total) {
-          setTimeout(spin, 45 + ticks * ticks * 1.1);  // decelerate
-        } else {
-          nameEl.style.color = 'var(--gold-light)';
-          setTimeout(() => {
-            overlay.remove();
-            openModal(winner.id);
-          }, 650);
-        }
+      // Animate the thinking dots while Jev works.
+      const dots = overlay.querySelector('.roulette-thinking');
+      let dotTick = 0;
+      const dotTimer = setInterval(() => {
+        dotTick = (dotTick + 1) % 4;
+        if (dots) dots.textContent = '●'.repeat(dotTick) + '○'.repeat(3 - dotTick);
+      }, 320);
+
+      const finish = (winner) => {
+        clearInterval(dotTimer);
+        if (!winner) { overlay.remove(); return; }
+        // Run the celebratory roulette animation, landing on the AI pick.
+        let ticks = 0;
+        const total = 14;
+        const spin = () => {
+          ticks++;
+          const c = ticks >= total ? winner : CIGARS[Math.floor(Math.random() * CIGARS.length)];
+          nameEl.textContent = c.name;
+          nameEl.style.color = '';
+          if (ticks < total) {
+            setTimeout(spin, 45 + ticks * ticks * 1.1);  // decelerate
+          } else {
+            nameEl.style.color = 'var(--gold-light)';
+            setTimeout(() => {
+              overlay.remove();
+              openModal(winner.id);
+            }, 650);
+          }
+        };
+        spin();
       };
-      spin();
+
+      const useFallback = () => {
+        const winner = CIGARS[Math.floor(Math.random() * CIGARS.length)];
+        finish(winner);
+      };
+
+      if (window.VP_AI && window.VP_AI.recommendCigar) {
+        window.VP_AI.recommendCigar(prefs).then((res) => {
+          if (res && res.cigar) finish(res.cigar);
+          else useFallback();
+        }).catch(useFallback);
+      } else {
+        useFallback();
+      }
+    });
+  }
+
+  /* ══════════════════════════════════════════════════════════════
+     7b. SMART SEARCH — natural-language search powered by Jev
+  ══════════════════════════════════════════════════════════════ */
+  function initSmartSearch() {
+    if (!window.VP_AI || !window.VP_AI.smartSearch) return;
+    const wrap = document.querySelector('.hero-search-wrap .search-box');
+    if (!wrap) return;
+
+    // Toggle button injected beside the clear button.
+    const toggle = document.createElement('button');
+    toggle.className = 'smart-search-toggle';
+    toggle.type = 'button';
+    toggle.title = 'Toggle AI Smart Search (natural language)';
+    toggle.setAttribute('aria-pressed', 'false');
+    toggle.innerHTML = '<svg viewBox="0 0 24 24" fill="none" width="15" height="15"><path d="M12 3l1.6 4.4L18 9l-4.4 1.6L12 15l-1.6-4.4L6 9l4.4-1.6L12 3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>';
+    toggle.innerHTML += '<span class="sst-label">AI</span>';
+    wrap.appendChild(toggle);
+
+    let aiMode = false;
+    toggle.addEventListener('click', () => {
+      aiMode = !aiMode;
+      toggle.classList.toggle('active', aiMode);
+      toggle.setAttribute('aria-pressed', aiMode ? 'true' : 'false');
+      const input = document.getElementById('searchInput');
+      if (input) {
+        input.placeholder = aiMode
+          ? 'Ask anything: "mild creamy after-dinner cigar under $15"…'
+          : 'Search by name, brand, origin, or flavor…';
+      }
+    });
+
+    // Hook the existing search input. In AI mode, on Enter (or ~500ms
+    // idle after typing), run a Jev smart search and rerender the grid
+    // with just the ranked results.
+    const input = document.getElementById('searchInput');
+    if (!input) return;
+    let aiTimer = null;
+    let aiRunning = false;
+
+    const runAISearch = (q) => {
+      if (!aiMode || !q || !q.trim()) return;
+      if (aiRunning) return;
+      aiRunning = true;
+      // Visual: show a "Jev is searching…" hint in the results count.
+      const $count = document.getElementById('resultsCount');
+      if ($count) $count.innerHTML = '<strong>Jev is searching…</strong>';
+      window.VP_AI.smartSearch(q, (typeof CIGARS !== 'undefined' ? CIGARS : [])).then((res) => {
+        aiRunning = false;
+        if (!res || !res.cigars) return;
+        renderAIGrid(res.cigars, res.usedAI);
+      }).catch(() => { aiRunning = false; });
+    };
+
+    // We can't easily override app.js's own input handler, so we render
+    // AI results into the grid directly and restore normal mode when AI
+    // is toggled off or the query is cleared.
+    function renderAIGrid(cigars, usedAI) {
+      const $grid = document.getElementById('cigarsGrid');
+      const $count = document.getElementById('resultsCount');
+      const $noResults = document.getElementById('noResults');
+      if (!$grid) return;
+      const count = cigars.length;
+      if ($count) $count.innerHTML = usedAI
+        ? `<strong>${count}</strong> cigar${count !== 1 ? 's' : ''} · <em>AI ranked</em>`
+        : `<strong>${count}</strong> cigar${count !== 1 ? 's' : ''} found`;
+      if ($noResults) $noResults.classList.toggle('hidden', count > 0);
+      $grid.innerHTML = '';
+      if (!count) return;
+      // Reuse app.js's renderCard if available; otherwise a minimal card.
+      if (typeof renderCard === 'function') {
+        $grid.insertAdjacentHTML('beforeend', cigars.map((c, i) => renderCard(c, i)).join(''));
+      } else {
+        $grid.insertAdjacentHTML('beforeend', cigars.map((c) =>
+          `<article class="cigar-card" data-id="${c.id}" role="button" tabindex="0">
+             <div class="card-name">${c.name}</div>
+             <div class="card-brand">${c.brand}</div>
+             <div class="card-rating">${c.rating}</div>
+           </article>`).join(''));
+      }
+      if (window.VP && VP.onGridRender) VP.onGridRender($grid);
+    }
+
+    input.addEventListener('keydown', (e) => {
+      if (aiMode && e.key === 'Enter') {
+        e.preventDefault();
+        clearTimeout(aiTimer);
+        runAISearch(input.value.trim());
+      }
+    });
+    input.addEventListener('input', () => {
+      if (!aiMode) return;
+      clearTimeout(aiTimer);
+      const q = input.value.trim();
+      if (!q) {
+        // Empty in AI mode — restore the normal full library render.
+        if (typeof render === 'function') render();
+        return;
+      }
+      aiTimer = setTimeout(() => runAISearch(q), 600);
+    });
+
+    // When AI mode is turned off, restore the normal render.
+    toggle.addEventListener('click', () => {
+      if (!aiMode && typeof render === 'function' && typeof state !== 'undefined') {
+        state.search = input.value.trim();
+        render();
+      }
     });
   }
 
@@ -740,6 +891,7 @@
     initSound();
     initHumidor();
     initSurprise();
+    initSmartSearch();
     initPairing();
     initTilt();
     wrapModals();

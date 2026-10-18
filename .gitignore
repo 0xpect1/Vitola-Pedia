@@ -11,3 +11,6 @@ _sheet.html
 
 # Standalone 3D landing experiment (56MB, not served by the site)
 3d-cigar-encyclopedia-landing/
+
+# TypeSafe / Jev API key (gitignored — never commit secrets)
+js/typesafe-config.js

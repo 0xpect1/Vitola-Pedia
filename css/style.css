@@ -2937,6 +2937,41 @@ body.js-reveal .cigar-card.in-view { animation-play-state: running; }
   color: var(--text-primary);
   min-height: 1.4em;
 }
+.roulette-thinking {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: 28px;
+  letter-spacing: 0.3em;
+  color: var(--gold);
+}
+
+/* ── Smart Search (AI) toggle ───────────────────────────────────── */
+.smart-search-toggle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 11px;
+  border: 1px solid var(--border, rgba(201,168,76,0.25));
+  background: transparent;
+  border-radius: 8px;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  transition: var(--transition, all 0.2s ease);
+  white-space: nowrap;
+}
+.smart-search-toggle:hover {
+  color: var(--gold);
+  border-color: var(--gold);
+}
+.smart-search-toggle.active {
+  color: #1a1208;
+  background: linear-gradient(135deg, var(--gold, #c9a84c), var(--gold-light, #e0c870));
+  border-color: var(--gold);
+  box-shadow: 0 0 14px rgba(201,168,76,0.35);
+}
+.smart-search-toggle .sst-label { font-size: 11px; }
 
 /* ── Pairing explorer ────────────────────────────────────────────── */
 .pairing-intro { text-align: center; margin-bottom: 26px; }
