@@ -740,8 +740,18 @@ const VPAdmin = (function () {
     if (isAdminMode()) {
       addDashboardLink();
       // Render after the data files + feature modules have had a
-      // moment to initialise (analytics instrumentation fires at +400ms).
-      setTimeout(renderDashboard, 600);
+      // moment to initialise. data.js is 31MB and may take several
+      // seconds to parse on slow devices — wait for CIGARS.
+      function waitForDataThenRender(attempts) {
+        if (typeof CIGARS !== 'undefined' && CIGARS.length) {
+          renderDashboard();
+        } else if (attempts > 0) {
+          setTimeout(() => waitForDataThenRender(attempts - 1), 500);
+        } else {
+          renderDashboard(); // render anyway after timeout
+        }
+      }
+      waitForDataThenRender(20); // up to 10 seconds
     }
   }
 
